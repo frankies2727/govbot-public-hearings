@@ -40,9 +40,12 @@ Usage:
 """
 
 import argparse
+import http.client
 import json
 import re
+import ssl
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -93,6 +96,104 @@ BILL_RE = re.compile(r"\b(HJR|SJR|HB|SB|HR|SR)\s*-?\s*(\d{1,5})\b", re.IGNORECAS
 # --------------------------------------------------------------------------- #
 # network (thin, testable-around)
 # --------------------------------------------------------------------------- #
+# Incomplete certificate chains. ilga.gov (as of Nov 2026) sends only its own certificate and
+# leaves out the intermediate that links it to a trusted root. Browsers download the missing
+# intermediate from the address printed in the site's certificate (its "CA Issuers" field) and
+# carry on; Python just refuses the site, so Illinois came back empty. We do what the browser
+# does, without weakening anything (the same fix as Govbot's scripts/fetch_sponsor_photos.py):
+#   1. read (never trust) the site's certificate to find that address,
+#   2. download the intermediate from the certificate authority,
+#   3. retry with Python's normal checks plus that one extra certificate, and partial-chain
+#      trust OFF, so the chain must still reach a root the machine already trusts (a forged
+#      "intermediate" fails) and the hostname is still checked.
+# Only used after an "unable to get local issuer certificate" failure; any problem leaves the
+# fetch failed, exactly as before.
+_CA_ISSUERS_OID = b"\x06\x08\x2b\x06\x01\x05\x05\x07\x30\x02"   # id-ad-caIssuers
+_MISSING_ISSUER = 20      # X509_V_ERR_UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+_aia_contexts = {}        # host -> verified SSLContext, or None when it can't be fixed
+
+
+def ca_issuers_url(der):
+    """The "CA Issuers" URL from a DER certificate's Authority Information Access
+    extension (where to download the certificate that signed it), or None."""
+    i = der.find(_CA_ISSUERS_OID + b"\x86")       # [6] uniformResourceIdentifier
+    if i < 0:
+        return None
+    j = i + len(_CA_ISSUERS_OID) + 1
+    if j >= len(der) or der[j] >= 0x80:            # URLs this short use the 1-byte length form
+        return None
+    url = der[j + 1:j + 1 + der[j]].decode("ascii", "replace")
+    return url if url.startswith(("http://", "https://")) else None
+
+
+def verified_context_with(intermediate_der):
+    """Python's default verified TLS context plus one intermediate certificate, with
+    partial-chain trust off so the intermediate is only a link, never a root of trust."""
+    ctx = ssl.create_default_context()
+    ctx.verify_flags &= ~getattr(ssl, "VERIFY_X509_PARTIAL_CHAIN", 0)
+    ctx.load_verify_locations(cadata=ssl.DER_cert_to_PEM_cert(intermediate_der))
+    return ctx
+
+
+def _peer_leaf_der(host, timeout):
+    """The server's own certificate, read without verifying it: used only to find the
+    CA Issuers address, never to trust or download anything from this connection."""
+    peek = ssl.create_default_context()
+    peek.check_hostname = False
+    peek.verify_mode = ssl.CERT_NONE
+    proxy = urllib.request.getproxies().get("https")
+    if proxy and not urllib.request.proxy_bypass(host):
+        pp = urllib.parse.urlsplit(proxy)
+        conn = http.client.HTTPSConnection(pp.hostname, pp.port or 80, timeout=timeout, context=peek)
+        conn.set_tunnel(host, 443)
+    else:
+        conn = http.client.HTTPSConnection(host, 443, timeout=timeout, context=peek)
+    try:
+        conn.connect()
+        return conn.sock.getpeercert(binary_form=True)
+    finally:
+        conn.close()
+
+
+def _aia_context(host, timeout):
+    if host in _aia_contexts:
+        return _aia_contexts[host]
+    ctx = None
+    try:
+        url = ca_issuers_url(_peer_leaf_der(host, timeout) or b"")
+        if url:
+            with urllib.request.urlopen(url, timeout=timeout) as r:  # noqa: S310 - CA's published cert
+                data = r.read(65536)
+            if data.startswith(b"-----BEGIN CERTIFICATE"):
+                data = ssl.PEM_cert_to_DER_cert(data.decode("ascii", "replace"))
+            if data[:1] == b"\x30":                 # a DER certificate (PKCS#7 bundles aren't handled)
+                ctx = verified_context_with(data)
+    except OSError as exc:  # a network blip: don't remember it, so the next request retries
+        print(f"warning: could not complete the certificate chain for {host}: {exc}", file=sys.stderr)
+        return None
+    except Exception as exc:  # noqa: BLE001 - fail-soft
+        print(f"warning: could not complete the certificate chain for {host}: {exc}", file=sys.stderr)
+    _aia_contexts[host] = ctx
+    return ctx
+
+
+def _open(req, timeout):
+    """urlopen, plus the browser-style missing-intermediate fallback above."""
+    try:
+        return urllib.request.urlopen(req, timeout=timeout)  # noqa: S310 - https APIs
+    except urllib.error.URLError as exc:
+        reason = getattr(exc, "reason", None)
+        host = urllib.parse.urlsplit(req.full_url).hostname
+        if not (isinstance(reason, ssl.SSLCertVerificationError)
+                and reason.verify_code == _MISSING_ISSUER and host):
+            raise
+        ctx = _aia_context(host, timeout)
+        if ctx is None:
+            raise
+        opener = urllib.request.build_opener(urllib.request.HTTPSHandler(context=ctx))
+        return opener.open(req, timeout=timeout)
+
+
 def fetch_text(url, timeout=FETCH_TIMEOUT, extra_headers=None):
     """GET a URL, returning the body text or None on any failure."""
     headers = {
@@ -104,7 +205,7 @@ def fetch_text(url, timeout=FETCH_TIMEOUT, extra_headers=None):
         headers.update(extra_headers)
     req = urllib.request.Request(url, headers=headers)
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with _open(req, timeout) as resp:
             if resp.status != 200:
                 return None
             return resp.read().decode("utf-8", "replace")

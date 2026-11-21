@@ -437,5 +437,23 @@ class Federal(unittest.TestCase):
         self.assertEqual(doc["jurisdictions"][0]["code"], "us")
 
 
+class IncompleteCertificateChain(unittest.TestCase):
+    """ilga.gov sends its certificate without the intermediate; the scraper fetches it
+    from the certificate's CA Issuers address (real ilga.gov + Sectigo certificates)."""
+    CERTS = Path(__file__).resolve().parent / "__snapshots__" / "certs"
+
+    def test_ca_issuers_address(self):
+        leaf = (self.CERTS / "ilga-gov-leaf.der").read_bytes()
+        self.assertEqual(main.ca_issuers_url(leaf),
+                         "http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR40.crt")
+        self.assertIsNone(main.ca_issuers_url(b"not a certificate"))
+
+    def test_intermediate_is_never_a_root_of_trust(self):
+        ctx = main.verified_context_with((self.CERTS / "ilga-gov-intermediate.der").read_bytes())
+        self.assertEqual(ctx.verify_mode, main.ssl.CERT_REQUIRED)
+        self.assertTrue(ctx.check_hostname)
+        self.assertFalse(ctx.verify_flags & getattr(main.ssl, "VERIFY_X509_PARTIAL_CHAIN", 0))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
