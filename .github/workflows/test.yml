@@ -1,0 +1,27 @@
+name: Test
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scraper tests (offline fixtures)
+        run: python3 scraper/test_scrape_hearings.py
+      - name: Snapshot is up to date
+        run: bash scraper/render-snapshots.sh && git diff --exit-code scraper/__snapshots__
+      - name: Data files parse
+        run: |
+          python3 -c 'import json; [json.load(open(f)) for f in ("site/hearings.json","site/participation.json")]'
+          python3 -c 'import xml.dom.minidom,glob; [xml.dom.minidom.parse(f) for f in ["site/hearings.xml","site/feed.xsl",*glob.glob("site/hearings/*.xml")]]'

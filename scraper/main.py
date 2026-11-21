@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Scrape upcoming committee hearings (and best-effort witness-slip counts) for
-the jurisdictions govbot surfaces on the Pages dashboard.
+the jurisdictions the Govbot Public Hearings site shows.
 
 Unlike the bill dataset (OpenStates -> git-repos-as-datasets), committee hearings
 are *live* artifacts published by each statehouse on its own machine-readable
@@ -13,15 +13,15 @@ sources directly:
 * Alaska        -> akleg.gov BASIS meetings JSON API (one document per legislature)
 * USA (Federal) -> federalregister.gov API: rules whose public comment period is open
 
-The output is one document matching schemas/govbot.hearings.schema.json, written
-next to the dashboard's data.json. The Pages deploy runs this twice a day, so the
-dashboard shows near-future committee activity that the daily bill snapshot cannot.
+The output is one document matching schemas/govbot.hearings.schema.json, written to
+site/hearings.json. The refresh workflow runs this every 3 hours, so the site shows
+near-future committee activity that Govbot's daily bill snapshot cannot.
 
 Design rules (see CLAUDE.md):
 * Only the Python standard library — no scraper deps, runs in a bare CI step.
 * Fail loudly, recover gracefully: any source that errors degrades to zero
   hearings for that jurisdiction, never a crash. A caller that gets an empty
-  document keeps the committed sample instead (see the deploy workflow).
+  document keeps the committed sample instead (see .github/workflows/refresh.yml).
 * Pure parsers (parse_*) take raw text and are exercised offline by snapshot
   fixtures under __snapshots__/; only the fetch_* helpers touch the network.
 * Witness-slip COUNTS are best-effort. Many capitols only expose counts while a
@@ -30,12 +30,12 @@ Design rules (see CLAUDE.md):
   always-useful signal is the hearing itself plus a deep link to file.
 
 Usage:
-    # Live (what the deploy runs):
-    python3 actions/scrape-hearings/main.py --jurisdictions il,wa \
-        --output docs/src/dashboard/hearings.json
+    # Live (what the refresh workflow runs):
+    python3 scraper/main.py --jurisdictions il,wa,ma,ak,us \
+        --output site/hearings.json
 
     # Offline, deterministic — rebuild the snapshot from fixtures:
-    python3 actions/scrape-hearings/main.py --from-fixtures actions/scrape-hearings/__snapshots__/raw \
+    python3 scraper/main.py --from-fixtures scraper/__snapshots__/raw \
         --now 2026-08-28T00:00:00Z --output -
 """
 
@@ -953,14 +953,14 @@ def assemble(hearings, jurisdictions, source, now):
 # RSS feed
 # --------------------------------------------------------------------------- #
 # Public URL where the dashboard (and this feed) live, so readers resolve links.
-DASHBOARD_URL = "https://chihacknight.github.io/govbot/dashboard/"
-FEED_URL = DASHBOARD_URL + "hearings.xml"
+SITE_URL = "https://govbot-public-hearings.vercel.app/"
+FEED_URL = SITE_URL + "hearings.xml"
 
 # Attaching this XSLT makes a browser render the feed as a readable page instead
 # of a raw "this XML has no style information" tree (feed readers ignore it and
 # parse the RSS as usual). The stylesheet lives at dashboard/feed.xsl, so the
 # whole-calendar feed at the dashboard root references "feed.xsl" and a granular
-# feed one directory down references "../feed.xsl". See docs/src/dashboard/feed.xsl.
+# feed one directory down references "../feed.xsl". See site/feed.xsl.
 FEED_XSL = "feed.xsl"
 
 
@@ -1067,7 +1067,7 @@ def _add_item(ch, h, state, built_822):
 
     item = ET.SubElement(ch, "item")
     ET.SubElement(item, "title").text = title
-    ET.SubElement(item, "link").text = h.get("details_url") or DASHBOARD_URL
+    ET.SubElement(item, "link").text = h.get("details_url") or SITE_URL
     ET.SubElement(item, "description").text = "<br/>".join(lines)
     ET.SubElement(item, "category").text = state
     ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = h["id"]
@@ -1081,7 +1081,7 @@ def _feed_xml(title, description, self_url, hearings, names, built_822,
                              "xmlns:atom": "http://www.w3.org/2005/Atom"})
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = title
-    ET.SubElement(ch, "link").text = DASHBOARD_URL
+    ET.SubElement(ch, "link").text = SITE_URL
     ET.SubElement(ch, "description").text = description
     ET.SubElement(ch, "language").text = "en-us"
     ET.SubElement(ch, "lastBuildDate").text = built_822
@@ -1102,7 +1102,7 @@ def to_rss(doc):
     return _feed_xml(
         "govbot — Upcoming committee hearings & witness slips",
         "Upcoming legislative committee hearings where the public can weigh in "
-        "(Illinois & Washington), refreshed twice daily by govbot.",
+        "(Illinois, Washington, Massachusetts, Alaska + federal rules), refreshed every 3 hours by Govbot.",
         FEED_URL, doc.get("hearings", []), names, built_822, xsl_href=FEED_XSL)
 
 
@@ -1137,11 +1137,11 @@ def bill_feeds(doc):
         state = names.get(g["jur"], g["jur"].upper())
         disp = g["id"]
         fname = bill_feed_name(g["jur"], disp)
-        self_url = DASHBOARD_URL + "hearings/" + fname
+        self_url = SITE_URL + "hearings/" + fname
         feeds[fname] = _feed_xml(
             f"govbot — {state} {disp}: upcoming committee hearings",
             f"Upcoming committee hearings featuring {state} {disp}, "
-            f"refreshed twice daily by govbot.",
+            f"refreshed every 3 hours by Govbot.",
             self_url, g["hearings"], names, built_822)
     return feeds
 
@@ -1167,8 +1167,8 @@ def jurisdiction_feeds(doc):
         feeds[fname] = _feed_xml(
             f"govbot — {state}: upcoming committee hearings",
             f"All upcoming {state} legislative committee hearings, "
-            f"refreshed twice daily by govbot.",
-            DASHBOARD_URL + "hearings/" + fname, hearings, names, built_822)
+            f"refreshed every 3 hours by Govbot.",
+            SITE_URL + "hearings/" + fname, hearings, names, built_822)
     return feeds
 
 
@@ -1193,7 +1193,7 @@ def hearing_feeds(doc):
             f"govbot — {state} {h.get('committee', 'committee')}: {_pretty_when(h)}",
             f"A single {state} committee hearing tracked by govbot; the item "
             f"updates if it is rescheduled or canceled.",
-            DASHBOARD_URL + "hearings/" + fname, [h], names, built_822)
+            SITE_URL + "hearings/" + fname, [h], names, built_822)
     return feeds
 
 
@@ -1220,8 +1220,8 @@ def participation_feeds(doc, participation_path):
             f"govbot — {state}: upcoming committee hearings",
             f"Upcoming {state} legislative committee hearings. No hearings are "
             f"in govbot's window yet; subscribe now to get them when {state} "
-            f"starts posting. Refreshed twice daily.",
-            DASHBOARD_URL + "hearings/" + fname, [], names, built_822)
+            f"starts posting. Refreshed every 3 hours.",
+            SITE_URL + "hearings/" + fname, [], names, built_822)
     return feeds
 
 
@@ -1250,7 +1250,7 @@ def _norm_bill_id(s):
 
 def enrich_from_govbot(hearings, data_path):
     """Cross-reference each hearing's bills against govbot's own bill dataset
-    (docs/src/dashboard/data.json) and attach the govbot title + topic tags where
+    (its per-state bills/<code>.json files, merged into one data.json) and attach the govbot title + topic tags where
     the bill is tracked. IL and WA are both scraped by govbot, so their hearing
     bills resolve to real govbot records. Fail-soft: a missing/partial data.json
     (e.g. the offline sample) simply means no enrichment."""
@@ -1301,7 +1301,7 @@ def main():
                          "one per hearing (hearing-<id>.xml), so readers can follow a "
                          "single bill, a whole state, or one hearing instead of the "
                          "entire calendar")
-    ap.add_argument("--dashboard-data", default="docs/src/dashboard/data.json",
+    ap.add_argument("--dashboard-data", default="",
                     help="govbot bill dataset (data.json) used to enrich hearing "
                          "bills with their govbot title + topic tags")
     ap.add_argument("--participation", default=None,

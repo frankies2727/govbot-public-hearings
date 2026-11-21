@@ -1,0 +1,81 @@
+name: Refresh hearings
+
+# Scrapes upcoming hearings (IL, WA, MA, AK) and federal rules open for comment, then
+# commits site/hearings.json, site/hearings.xml and site/hearings/ when anything changed.
+# Vercel redeploys on the push. A source outage never blanks the site: the committed
+# files stay unless the fresh run found at least one hearing.
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Govbot's own bill records for the scraped states, so each hearing's bills carry
+      # their Govbot title and topics. Optional: a failed download just skips that.
+      - name: Download Govbot bill records
+        run: |
+          set -u
+          mkdir -p "$RUNNER_TEMP/bills"
+          for s in il wa ma ak; do
+            curl -fsSL --retry 3 -o "$RUNNER_TEMP/bills/$s.json" \
+              "https://chihacknight.github.io/govbot/dashboard/bills/$s.json" \
+              || echo "::warning::no Govbot bills for $s"
+          done
+          python3 - "$RUNNER_TEMP/bills" <<'PY'
+          import json, pathlib, sys
+          d = pathlib.Path(sys.argv[1]); bills = []
+          for f in sorted(d.glob("*.json")):
+              try: bills += json.loads(f.read_text()).get("bills", [])
+              except (OSError, ValueError): pass
+          (d / "data.json").write_text(json.dumps({"bills": bills}))
+          print(len(bills), "Govbot bills")
+          PY
+
+      - name: Scrape
+        run: |
+          set -uo pipefail
+          out="$RUNNER_TEMP/out"; rm -rf "$out"; mkdir -p "$out"
+          python3 scraper/main.py \
+            --jurisdictions il,wa,ma,ak,us \
+            --output "$out/hearings.json" \
+            --rss "$out/hearings.xml" \
+            --rss-feeds-dir "$out/hearings" \
+            --dashboard-data "$RUNNER_TEMP/bills/data.json" \
+            --participation site/participation.json \
+            || echo "::warning::scrape reported errors"
+          n=$(python3 -c 'import json,sys; print(len(json.load(open(sys.argv[1]))["hearings"]))' "$out/hearings.json" 2>/dev/null || echo 0)
+          if [ "$n" -gt 0 ]; then
+            mv "$out/hearings.json" site/hearings.json
+            [ -s "$out/hearings.xml" ] && mv "$out/hearings.xml" site/hearings.xml
+            # Replace the whole feed folder so feeds for hearings that left the window go.
+            [ -d "$out/hearings" ] && { rm -rf site/hearings; mv "$out/hearings" site/hearings; }
+            echo "refreshed: $n hearings"
+          else
+            echo "::warning::no hearings scraped; keeping the committed files"
+          fi
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/hearings.json site/hearings.xml site/hearings
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -q -m "Refresh hearings $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q && exit 0; sleep 5; done
+          exit 1

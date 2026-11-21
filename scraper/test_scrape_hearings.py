@@ -3,7 +3,7 @@
 
 Pure parsers are exercised against the raw fixtures under __snapshots__/raw/,
 and the whole offline build is diffed against __snapshots__/expected_hearings.json.
-No network. Run: python3 actions/scrape-hearings/test_scrape_hearings.py
+No network. Run: python3 scraper/test_scrape_hearings.py
 Regenerate the snapshot after an intentional change: ./render-snapshots.sh
 """
 

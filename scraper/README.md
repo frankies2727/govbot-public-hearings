@@ -1,7 +1,7 @@
 # scrape-hearings
 
 Fetches **upcoming committee hearings** — and best-effort **witness-slip counts** —
-for the jurisdictions govbot surfaces on the Pages dashboard, and writes one
+for the jurisdictions the Public Hearings site shows, and writes one
 document matching [`schemas/govbot.hearings.schema.json`](../../schemas/govbot.hearings.schema.json).
 
 Committee hearings are *live* artifacts each statehouse publishes on its own
@@ -25,10 +25,11 @@ response, `__snapshots__/raw/fr_documents.json`.
 
 ## Why not the dashboard's bill pipeline?
 
-`docs/src/dashboard/data.json` is point-in-time **bill metadata** rebuilt daily
+Govbot's `data.json` is point-in-time **bill metadata** rebuilt daily
 from git-repos-as-datasets. Hearings are a **rolling near-future window** of
-committee activity that the bill snapshot cannot express, so they live in a
-separate `hearings.json` the dashboard fetches alongside `data.json`.
+committee activity that the bill snapshot cannot express, so they live in their
+own `hearings.json`. Each hearing's bills are matched against Govbot's bill records
+(`bills/<state>.json`) for their Govbot title and topics.
 
 ## Witness-slip counts are best-effort
 
@@ -55,8 +56,8 @@ Each hearing row has a single link. `witness_slip_url` is where to take part in
 ## Usage
 
 ```bash
-# Live (what the Pages deploy runs, twice daily):
-python3 main.py --jurisdictions il,wa,ma,ak,us --output docs/src/dashboard/hearings.json
+# Live (what .github/workflows/refresh.yml runs, every 3 hours, from the repo root):
+python3 scraper/main.py --jurisdictions il,wa,ma,ak,us --output site/hearings.json
 
 # Also emit RSS: one whole-calendar feed (--rss) plus granular feeds
 # (--rss-feeds-dir) so a reader can follow a single bill, a whole state, or one
@@ -64,12 +65,12 @@ python3 main.py --jurisdictions il,wa,ma,ak,us --output docs/src/dashboard/heari
 #   per bill:        <jurisdiction>-<NORMALIZED_ID>.xml   (e.g. il-HB1643.xml)
 #   per jurisdiction: <code>.xml                          (e.g. wa.xml)
 #   per hearing:     hearing-<id>.xml                     (e.g. hearing-wa-other-33551.xml)
-python3 main.py --jurisdictions il,wa,ma,ak,us \
-  --output docs/src/dashboard/hearings.json \
-  --rss docs/src/dashboard/hearings.xml \
-  --rss-feeds-dir docs/src/dashboard/hearings
+python3 scraper/main.py --jurisdictions il,wa,ma,ak,us \
+  --output site/hearings.json \
+  --rss site/hearings.xml \
+  --rss-feeds-dir site/hearings
 # Every feed carries an <?xml-stylesheet href="feed.xsl"> PI so a browser renders
-# it as a readable page (docs/src/dashboard/feed.xsl) instead of a raw XML tree;
+# it as a readable page (site/feed.xsl) instead of a raw XML tree;
 # feed readers ignore it. Root feed -> feed.xsl, granular feeds -> ../feed.xsl.
 
 # Attempt best-effort slip-count enrichment (opt-in; IL totals endpoint is
@@ -79,8 +80,6 @@ python3 main.py --slips -o -
 # Offline, deterministic — rebuild from fixtures (no network):
 python3 main.py --from-fixtures __snapshots__/raw --now 2026-08-28T00:00:00Z -o -
 ```
-
-As a composite GitHub Action, see [`action.yml`](./action.yml).
 
 ## Tests & snapshots
 
