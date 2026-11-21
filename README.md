@@ -51,7 +51,7 @@ python3 scraper/main.py --jurisdictions il,wa,ma,ak,us \
 | `test.yml` | every push and pull request | Scraper tests, snapshot check, every JSON/XML file parses. |
 | `sync-shell.yml` | daily + by hand | Pulls Govbot's latest header and footer. |
 
-Every pull request gets a Vercel preview link.
+Vercel deploys only `main` (no preview deployments for other branches or pull requests, to save Vercel storage), the same as Know Your Ballot.
 
 ## License
 
