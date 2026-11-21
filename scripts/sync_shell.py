@@ -45,9 +45,13 @@ def render(template, open_tag, close, indent):
     block = block_re(open_tag, close).search(body).group(0)
     block = (block.replace("{HOME}", GOVBOT).replace("{ROOT}", GOVBOT)
              .replace("{DASH}", GOVBOT + "dashboard/"))
-    # Govbot's hearings link (old page or this site) comes back here, same tab.
+    # Govbot's hearings links (to its old page or to this site) come back here: same tab, no ↗.
     block = block.replace('href="' + GOVBOT + 'dashboard/hearings.html"', 'href="/"')
+    block = re.sub(r'href="' + re.escape(HERE) + r'"((?:\s+role="menuitem")?)\s+target="_blank"\s+rel="noopener"',
+                   r'href="/"\1', block)
     block = block.replace('href="' + HERE + '"', 'href="/"')
+    block = block.replace("Hearings &amp; Public Comment ↗<", "Hearings &amp; Public Comment<")
+    block = block.replace('href="/">Hearings ↗<', 'href="/">Hearings<')
     return "\n".join((indent + line) if line else line for line in block.split("\n"))
 
 
