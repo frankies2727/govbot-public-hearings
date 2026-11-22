@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T23:55:24Z",
+  "generated_at": "2026-11-22T15:15:55Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + federalregister.gov (govbot scrape-hearings)",
   "jurisdictions": [
     {
@@ -7,9 +7,9 @@
       "name": "USA (Federal)",
       "participation": "public_comment",
       "portal_url": "https://www.regulations.gov/",
-      "open_total": 209,
-      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F21%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
-      "notice_total": 765,
+      "open_total": 208,
+      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F22%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
+      "notice_total": 764,
       "notice_categories": [
         {
           "key": "rfi",
@@ -44,10 +44,10 @@
         {
           "key": "other",
           "label": "Other notices",
-          "total": 114
+          "total": 113
         }
       ],
-      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F21%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
+      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F22%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
     },
     {
       "code": "ak",
@@ -75,53 +75,6 @@
     "wa": 42
   },
   "hearings": [
-    {
-      "id": "us-2026-21585",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Committee for Purchase From People Who Are Blind or Severely Disabled",
-      "title": "Procurement List; Proposed Deletions",
-      "scheduled_iso": "2026-11-21",
-      "scheduled_display": "Comments due Nov 21, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "CPPBSD_FRDOC_0001-0504",
-          "title": "Procurement List; Proposed Deletions",
-          "url": "https://www.federalregister.gov/documents/2026/10/22/2026-21585/procurement-list-proposed-deletions",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/22/2026-21585/procurement-list-proposed-deletions",
-      "witness_slip_url": "https://www.regulations.gov/commenton/CPPBSD_FRDOC_0001-0504",
-      "source": "federalregister.gov",
-      "category": "other"
-    },
-    {
-      "id": "us-2026-21730",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "National Highway Traffic Safety Administration",
-      "title": "Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period",
-      "scheduled_iso": "2026-11-21",
-      "scheduled_display": "Comments due Nov 21, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "NHTSA-2023-0031-0037",
-          "title": "Part 572; Anthropomorphic Test Devices; Test Device for Human Occupant Restraint 50th Percentile Adult Male Dummy (THOR-50M); Extension of Comment Period",
-          "url": "https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/23/2026-21730/part-572-anthropomorphic-test-devices-test-device-for-human-occupant-restraint-50th-percentile-adult",
-      "witness_slip_url": "https://www.regulations.gov/commenton/NHTSA-2023-0031-0037",
-      "source": "federalregister.gov"
-    },
     {
       "id": "us-2026-19301",
       "jurisdiction": "us",
@@ -379,6 +332,53 @@
       "details_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19579/substantial-product-hazard-list-amendments-to-requirements-for-window-covering-cords",
       "witness_slip_url": "https://www.regulations.gov/commenton/CPSC-2026-0463-0001",
       "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-19584",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Federal Aviation Administration",
+      "title": "Flight Operations: Pilot requirements; Use of oxygen",
+      "scheduled_iso": "2026-11-23",
+      "scheduled_display": "Comments due Nov 23, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "FAA-2026-12145-0001",
+          "title": "Flight Operations: Pilot requirements; Use of oxygen",
+          "url": "https://www.federalregister.gov/documents/2026/09/24/2026-19584/flight-operations-pilot-requirements-use-of-oxygen",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19584/flight-operations-pilot-requirements-use-of-oxygen",
+      "witness_slip_url": "https://www.regulations.gov/commenton/FAA-2026-12145-0001",
+      "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-19775",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Environmental Protection Agency",
+      "title": "Glyphosate Open Literature Search To Inform Human Health Risk Assessment; Extension of Comment Period",
+      "scheduled_iso": "2026-11-23",
+      "scheduled_display": "Comments due Nov 23, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "EPA-HQ-OPP-2009-0361-14478",
+          "title": "Glyphosate Open Literature Search To Inform Human Health Risk Assessment; Extension of Comment Period",
+          "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19775/glyphosate-open-literature-search-to-inform-human-health-risk-assessment-extension-of-comment-period",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19775/glyphosate-open-literature-search-to-inform-human-health-risk-assessment-extension-of-comment-period",
+      "witness_slip_url": "https://www.regulations.gov/commenton/EPA-HQ-OPP-2009-0361-14478",
+      "source": "federalregister.gov",
+      "category": "other"
     },
     {
       "id": "us-2026-20742",
