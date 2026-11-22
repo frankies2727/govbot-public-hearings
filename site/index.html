@@ -645,7 +645,7 @@
   // Loaded independently of data.json: a hearings outage must never block the
   // bills dashboard. hearings.json is a rolling near-future window built by
   // scraper/main.py (IL: ilga.gov, WA: leg.wa.gov, MA: malegislature.gov, AK: akleg.gov),
-  // refreshed every 3 hours by .github/workflows/refresh.yml — a different cadence and source than the bill
+  // refreshed every 12 hours by .github/workflows/refresh.yml — a different cadence and source than the bill
   // snapshot, so it carries its own "updated" stamp.
   function loadHearings() {
     fetch("hearings.json")

@@ -15,7 +15,7 @@ publishing copies of the feeds at their old addresses.
 ## How it works
 
 ```
-GitHub Actions, every 3 hours (.github/workflows/refresh.yml)
+GitHub Actions, every 12 hours (.github/workflows/refresh.yml)
   scraper/main.py ── ilga.gov · leg.wa.gov · malegislature.gov · akleg.gov · federalregister.gov
         │            + Govbot's bill records (titles + topics for each hearing's bills)
         ▼
@@ -47,7 +47,7 @@ python3 scraper/main.py --jurisdictions il,wa,ma,ak,us \
 
 | Workflow | When | What |
 | --- | --- | --- |
-| `refresh.yml` | every 3 hours + by hand | Scrapes and commits new data. A source outage never blanks the site: files are only replaced when the run found at least one hearing. |
+| `refresh.yml` | every 12 hours + by hand | Scrapes and commits new data. A source outage never blanks the site: files are only replaced when the run found at least one hearing. |
 | `test.yml` | every push and pull request | Scraper tests, snapshot check, every JSON/XML file parses. |
 | `sync-shell.yml` | daily + by hand | Pulls Govbot's latest header and footer. |
 

@@ -1,7 +1,7 @@
 # Working in this repo
 
 The Govbot Public Hearings site: a static page (`site/index.html`) plus a stdlib-only
-Python scraper (`scraper/main.py`) that a GitHub Action runs every 3 hours. Vercel serves
+Python scraper (`scraper/main.py`) that a GitHub Action runs every 12 hours. Vercel serves
 `site/` with no build step. See README.md for the layout.
 
 ## Before calling any change done
@@ -143,5 +143,5 @@ directory `site/participation.json` (schema
 `schemas/govbot.participation.schema.json`). Passing `--participation <file>` also emits an
 empty placeholder `<code>.xml` for every participation state with no live hearings yet, so
 each "Weigh in — by state" card carries a "Follow this state (RSS)" link that starts empty
-and fills when that state opens (its filter box has a colored border + search icon). `.github/workflows/refresh.yml` rebuilds the feed every 3 hours. Hearings parsers are
+and fills when that state opens (its filter box has a colored border + search icon). `.github/workflows/refresh.yml` rebuilds the feed every 12 hours. Hearings parsers are
 offline-snapshot-tested: `python3 scraper/test_scrape_hearings.py`.

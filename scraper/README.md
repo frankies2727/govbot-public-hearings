@@ -56,7 +56,7 @@ Each hearing row has a single link. `witness_slip_url` is where to take part in
 ## Usage
 
 ```bash
-# Live (what .github/workflows/refresh.yml runs, every 3 hours, from the repo root):
+# Live (what .github/workflows/refresh.yml runs, every 12 hours, from the repo root):
 python3 scraper/main.py --jurisdictions il,wa,ma,ak,us --output site/hearings.json
 
 # Also emit RSS: one whole-calendar feed (--rss) plus granular feeds

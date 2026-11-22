@@ -6,7 +6,10 @@ name: Refresh hearings
 # files stay unless the fresh run found at least one hearing.
 on:
   schedule:
-    - cron: "17 */3 * * *"   # every 3 hours
+    # Twice a day, about 40 minutes before Govbot's scheduled deploys (08:00 and 20:00 UTC),
+    # which copy these files, so both sites carry the same data. Kept to 2 runs a day to
+    # save Vercel storage: each refresh that changes something is one production deploy.
+    - cron: "17 7,19 * * *"
   workflow_dispatch:
 
 permissions:

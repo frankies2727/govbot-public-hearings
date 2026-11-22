@@ -14,7 +14,7 @@ sources directly:
 * USA (Federal) -> federalregister.gov API: rules whose public comment period is open
 
 The output is one document matching schemas/govbot.hearings.schema.json, written to
-site/hearings.json. The refresh workflow runs this every 3 hours, so the site shows
+site/hearings.json. The refresh workflow runs this every 12 hours, so the site shows
 near-future committee activity that Govbot's daily bill snapshot cannot.
 
 Design rules (see CLAUDE.md):
@@ -1203,7 +1203,7 @@ def to_rss(doc):
     return _feed_xml(
         "govbot — Upcoming committee hearings & witness slips",
         "Upcoming legislative committee hearings where the public can weigh in "
-        "(Illinois, Washington, Massachusetts, Alaska + federal rules), refreshed every 3 hours by Govbot.",
+        "(Illinois, Washington, Massachusetts, Alaska + federal rules), refreshed every 12 hours by Govbot.",
         FEED_URL, doc.get("hearings", []), names, built_822, xsl_href=FEED_XSL)
 
 
@@ -1242,7 +1242,7 @@ def bill_feeds(doc):
         feeds[fname] = _feed_xml(
             f"govbot — {state} {disp}: upcoming committee hearings",
             f"Upcoming committee hearings featuring {state} {disp}, "
-            f"refreshed every 3 hours by Govbot.",
+            f"refreshed every 12 hours by Govbot.",
             self_url, g["hearings"], names, built_822)
     return feeds
 
@@ -1268,7 +1268,7 @@ def jurisdiction_feeds(doc):
         feeds[fname] = _feed_xml(
             f"govbot — {state}: upcoming committee hearings",
             f"All upcoming {state} legislative committee hearings, "
-            f"refreshed every 3 hours by Govbot.",
+            f"refreshed every 12 hours by Govbot.",
             SITE_URL + "hearings/" + fname, hearings, names, built_822)
     return feeds
 
@@ -1321,7 +1321,7 @@ def participation_feeds(doc, participation_path):
             f"govbot — {state}: upcoming committee hearings",
             f"Upcoming {state} legislative committee hearings. No hearings are "
             f"in govbot's window yet; subscribe now to get them when {state} "
-            f"starts posting. Refreshed every 3 hours.",
+            f"starts posting. Refreshed every 12 hours.",
             SITE_URL + "hearings/" + fname, [], names, built_822)
     return feeds
 
