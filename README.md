@@ -1,38 +1,101 @@
-# Govbot Public Hearings
+# 🏛️ Govbot Public Hearings
 
-**Find a hearing. Weigh in.** Upcoming legislative committee hearings and federal rules
-open for public comment, each with the official place to file a witness slip, sign in
-to testify or submit a comment. Follow any state, bill or hearing by RSS.
+**Find a hearing. Weigh in.** Upcoming legislative hearings and federal rules open for public comment, each with the official place to file a witness slip, sign up to testify or send a comment.
+Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io/govbot/), Chi Hack Night's open civic data.
 
-**Live site:** https://govbot-public-hearings.vercel.app/
+[![Live site](https://img.shields.io/badge/live_site-govbot--public--hearings.vercel.app-0B7D45?style=flat-square)](https://govbot-public-hearings.vercel.app/)
+[![Refreshed](https://img.shields.io/badge/refreshed-every_12_hours-E5B94E?style=flat-square)](.github/workflows/refresh.yml)
+[![Tests](https://img.shields.io/github/actions/workflow/status/frankies2727/govbot-public-hearings/test.yml?branch=main&label=tests&style=flat-square)](https://github.com/frankies2727/govbot-public-hearings/actions/workflows/test.yml)
+[![RSS](https://img.shields.io/badge/follow-RSS-F78200?style=flat-square&logo=rss&logoColor=white)](https://govbot-public-hearings.vercel.app/hearings.xml)
+[![Built on Govbot](https://img.shields.io/badge/built_on-Govbot-1B1A17?style=flat-square)](https://github.com/chihacknight/govbot)
 
-A project built on [Govbot](https://chihacknight.github.io/govbot/) (Chi Hack Night). It
-used to live inside the Govbot repo as `dashboard/hearings.html`; it moved here so the
-site can change and deploy in about a minute without waiting on Govbot's data pipeline.
-Old links still work: Govbot's `hearings.html` forwards here, and Govbot keeps
-publishing copies of the feeds at their old addresses.
+### 👉 [govbot-public-hearings.vercel.app](https://govbot-public-hearings.vercel.app/) 👈
 
-## How it works
+<a href="https://govbot-public-hearings.vercel.app/"><img src="docs/readme/hero-light.jpg" alt="The site's hand-drawn hero: 'Have your say. Government isn't just something you watch, you can participate', with pencil fireworks, the count of upcoming hearings and jurisdictions, and Jump-to pills for each state" width="100%"></a>
 
+## ⚡ The short version
+
+- 📅 **What's coming up.** Committee hearings in the weeks ahead, plus federal rules open for comment.
+- ✍️ **How to take part.** Every hearing links the official place to weigh in: a witness slip, a sign-up to testify, or a comment form.
+- 🗺️ **Every state covered.** A "Weigh in by state" guide explains how all 56 jurisdictions take public input, even where we don't list hearings yet.
+- 📡 **Follow anything by RSS.** One feed for everything, or one per state, bill or hearing.
+- 🧾 **Never made up.** Every hearing comes from the legislature's or Federal Register's own site and links back to it.
+
+## 🗓️ Where the hearings come from
+
+| | Jurisdiction | Source | How people weigh in |
+|---|---|---|---|
+| 🇺🇸 | **USA (Federal)** | [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) | Comment on Regulations.gov |
+| 🌽 | **Illinois** | [ilga.gov](https://ilga.gov) | File a witness slip |
+| 🌲 | **Washington** | [leg.wa.gov](https://leg.wa.gov) | Committee sign-in (testify or note a position) |
+| 🦞 | **Massachusetts** | [malegislature.gov](https://malegislature.gov) | Submit written testimony |
+| 🏔️ | **Alaska** | [akleg.gov](https://akleg.gov) | Public opinion message |
+
+**Want your state?** Open an issue with your legislature's hearing calendar link. A state needs a public, machine-readable calendar (an API or feed, never a scraped search page).
+
+## 👀 What people see
+
+<table>
+<tr>
+<td width="70%"><img src="docs/readme/hearings-dark.jpg" alt="Washington's upcoming hearings in dark mode: each row has the committee, date and place, a Hearing details button and a Follow (RSS) link"></td>
+<td width="30%"><img src="docs/readme/phone-dark.jpg" alt="The site on a phone in dark mode"></td>
+</tr>
+<tr>
+<td colspan="2"><b>Upcoming hearings</b>, by state, with the official "how to take part" link at the top of each. Works on phones, in light and dark mode.</td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/readme/weighin-light.jpg" alt="The Weigh in by state guide: a filter box, an A to Z letter row, and a card per state saying how it takes public comment"></td>
+<td width="50%"><img src="docs/readme/rss-light.jpg" alt="The Follow popover: the feed address with a Copy button and one-tap Add to Feedly, Inoreader and NewsBlur buttons"></td>
+</tr>
+<tr>
+<td><b>Weigh in by state.</b> All 56 jurisdictions, filter by name or letter.</td>
+<td><b>Follow by RSS.</b> Copy the address or add it to a reader in one tap.</td>
+</tr>
+</table>
+
+## 📡 RSS feeds
+
+| Follow | Feed address |
+|---|---|
+| Everything | [`/hearings.xml`](https://govbot-public-hearings.vercel.app/hearings.xml) |
+| One state | `/hearings/<code>.xml`, for example [`/hearings/wa.xml`](https://govbot-public-hearings.vercel.app/hearings/wa.xml) |
+| One bill | `/hearings/<state>-<bill>.xml`, for example `il-HB1643.xml` |
+| One hearing | `/hearings/hearing-<id>.xml` |
+
+Open a feed in a browser and it shows as a readable page. Old Govbot addresses (`chihacknight.github.io/govbot/dashboard/hearings.xml` and `/hearings/…`) keep working: Govbot publishes copies.
+
+<img src="docs/readme/feed.jpg" alt="A feed opened in a browser: a readable page with the feed address to copy and the list of hearings" width="100%">
+
+## ⚙️ How it works
+
+```mermaid
+flowchart LR
+  A["🏛️ Legislatures<br/>+ Federal Register"] --> B["🐍 scraper/main.py<br/>every 12 hours"]
+  G["📚 Govbot bill records<br/>(titles + topics)"] --> B
+  B --> C["📄 hearings.json<br/>📡 RSS feeds"]
+  C -->|commit| D["▲ Vercel<br/>redeploys in ~1 min"]
+  C -->|copied on every<br/>Govbot deploy| E["🏠 Govbot homepage,<br/>search + old feeds"]
 ```
-GitHub Actions, every 12 hours (.github/workflows/refresh.yml)
-  scraper/main.py ── ilga.gov · leg.wa.gov · malegislature.gov · akleg.gov · federalregister.gov
-        │            + Govbot's bill records (titles + topics for each hearing's bills)
-        ▼
-  site/hearings.json  site/hearings.xml  site/hearings/*.xml   ── commit ──▶ Vercel redeploys
-```
+
+- ⏰ **Twice a day** (07:17 and 19:17 UTC) a GitHub Action runs the scraper and commits what changed. Vercel puts it live.
+- 🛟 **Fail-safe.** If a source is down, the site keeps the last good data instead of going blank.
+- 🎨 **Same look as Govbot.** The header, menu, footer and styles come straight from Govbot, synced daily.
+
+<details>
+<summary><b>📁 What's in this repo</b></summary>
 
 | Folder | What's in it |
 | --- | --- |
-| `site/` | The published site: `index.html` (the page), `hearings.json`, `participation.json` (how each of 56 jurisdictions takes public input), the RSS feeds and `feed.xsl` (shows a feed as a readable page in a browser). Vercel serves this folder as is; there is no build step. |
-| `scraper/` | `main.py`, standard-library Python only, plus offline tests and fixtures. See [`scraper/README.md`](scraper/README.md) for each source. |
+| `site/` | The published site: `index.html`, `hearings.json`, `participation.json` (how each of 56 jurisdictions takes public input), the RSS feeds and `feed.xsl` (shows a feed as a readable page). Vercel serves it as is, no build step. |
+| `scraper/` | `main.py` (standard-library Python only) plus offline tests and real saved responses. See [`scraper/README.md`](scraper/README.md) for each source. |
 | `schemas/` | JSON Schemas for `hearings.json` and `participation.json`. |
-| `scripts/sync_shell.py` | Copies Govbot's shared header, menu and footer into the page (runs daily). |
+| `scripts/sync_shell.py` | Copies Govbot's shared header, menu and footer into the page. |
+| `docs/readme/` | The screenshots in this README. |
 
-The page uses Govbot's shared styles and scripts (`govbot.css`, `govbot-shell.js`,
-`govbot-utils.js`) and state flags straight from Govbot's site, so it always matches.
+</details>
 
-## Run it locally
+<details>
+<summary><b>🧑‍💻 Run it on your computer</b></summary>
 
 ```bash
 python3 -m http.server -d site 8000          # open http://localhost:8000
@@ -43,17 +106,29 @@ python3 scraper/main.py --jurisdictions il,wa,ma,ak,us \
   --participation site/participation.json    # a live scrape
 ```
 
-## Workflows
+No installs needed: Python 3 is enough.
+
+</details>
+
+<details>
+<summary><b>🤖 Workflows</b></summary>
 
 | Workflow | When | What |
 | --- | --- | --- |
-| `refresh.yml` | every 12 hours + by hand | Scrapes and commits new data. A source outage never blanks the site: files are only replaced when the run found at least one hearing. |
+| `refresh.yml` | twice a day + by hand | Scrapes and commits new data. Files are only replaced when the run found at least one hearing. |
 | `test.yml` | every push and pull request | Scraper tests, snapshot check, every JSON/XML file parses. |
 | `sync-shell.yml` | daily + by hand | Pulls Govbot's latest header and footer. |
 
-Vercel deploys only `main` (no preview deployments for other branches or pull requests, to save Vercel storage), the same as Know Your Ballot.
+Vercel deploys only `main`, no preview deployments, to save Vercel storage (the same as Know Your Ballot).
 
-## License
+</details>
 
-Code: same as [Govbot](https://github.com/chihacknight/govbot). Hearing data comes from
-each legislature's and the Federal Register's public sites; each record links its source.
+## 🤝 Contributing
+
+- 🐛 **Something wrong or missing?** [Open an issue](https://github.com/frankies2727/govbot-public-hearings/issues/new) with a link to the official page.
+- 🧪 **Changing the scraper?** Run `python3 scraper/test_scrape_hearings.py` first; it needs no network.
+- 📖 **Working with an AI assistant?** [`CLAUDE.md`](CLAUDE.md) has the rules and the design notes.
+
+## 📜 License
+
+Code: same as [Govbot](https://github.com/chihacknight/govbot). Hearing data comes from each legislature's and the Federal Register's public sites, and every record links its source.
