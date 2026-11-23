@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:15:55Z",
+  "generated_at": "2026-11-23T00:17:55Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + federalregister.gov (govbot scrape-hearings)",
   "jurisdictions": [
     {
@@ -7,24 +7,24 @@
       "name": "USA (Federal)",
       "participation": "public_comment",
       "portal_url": "https://www.regulations.gov/",
-      "open_total": 208,
-      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F22%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
-      "notice_total": 764,
+      "open_total": 215,
+      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F23%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
+      "notice_total": 790,
       "notice_categories": [
         {
           "key": "rfi",
           "label": "Requests for ideas & information",
-          "total": 25
+          "total": 27
         },
         {
           "key": "environment",
           "label": "Environment & wildlife reviews",
-          "total": 6
+          "total": 7
         },
         {
           "key": "permits",
           "label": "Permits, licenses & approvals",
-          "total": 84
+          "total": 88
         },
         {
           "key": "meetings",
@@ -34,20 +34,20 @@
         {
           "key": "privacy",
           "label": "Privacy & government records",
-          "total": 19
+          "total": 21
         },
         {
           "key": "paperwork",
           "label": "Forms & paperwork reviews",
-          "total": 511
+          "total": 527
         },
         {
           "key": "other",
           "label": "Other notices",
-          "total": 113
+          "total": 114
         }
       ],
-      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F22%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
+      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F23%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
     },
     {
       "code": "ak",
