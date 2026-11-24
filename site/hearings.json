@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T04:33:20Z",
+  "generated_at": "2026-11-24T18:52:29Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + federalregister.gov (govbot scrape-hearings)",
   "jurisdictions": [
     {
@@ -7,14 +7,14 @@
       "name": "USA (Federal)",
       "participation": "public_comment",
       "portal_url": "https://www.regulations.gov/",
-      "open_total": 196,
+      "open_total": 202,
       "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F24%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
-      "notice_total": 721,
+      "notice_total": 755,
       "notice_categories": [
         {
           "key": "rfi",
           "label": "Requests for ideas & information",
-          "total": 26
+          "total": 27
         },
         {
           "key": "environment",
@@ -24,7 +24,7 @@
         {
           "key": "permits",
           "label": "Permits, licenses & approvals",
-          "total": 85
+          "total": 95
         },
         {
           "key": "meetings",
@@ -39,12 +39,12 @@
         {
           "key": "paperwork",
           "label": "Forms & paperwork reviews",
-          "total": 482
+          "total": 503
         },
         {
           "key": "other",
           "label": "Other notices",
-          "total": 99
+          "total": 101
         }
       ],
       "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F24%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
@@ -63,6 +63,12 @@
       "full_list_url": "https://chicityclerkelms.chicago.gov/Meetings/"
     },
     {
+      "code": "il",
+      "name": "Illinois",
+      "participation": "witness_slip",
+      "portal_url": "https://my.ilga.gov/"
+    },
+    {
       "code": "ma",
       "name": "Massachusetts",
       "participation": "written_testimony",
@@ -79,6 +85,7 @@
     "us": 21,
     "ak": 2,
     "chi": 12,
+    "il": 1,
     "ma": 9,
     "wa": 41
   },
@@ -812,6 +819,22 @@
       "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/09fa7693-da96-444e-8a4a-9fb6d4ce2dcc.pdf",
       "source": "chicityclerkelms.chicago.gov",
       "comment_deadline": "2026-12-14T08:00:00"
+    },
+    {
+      "id": "il-house-3222-23238",
+      "jurisdiction": "il",
+      "chamber": "house",
+      "committee": "Special Investigating Committee",
+      "title": "",
+      "scheduled_iso": "2026-12-01T13:00:00",
+      "scheduled_display": "12/1/2026 1:00 PM",
+      "timezone": "America/Chicago",
+      "location": "Room 114 · Capitol Building · Springfield, IL",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://ilga.gov/House/hearings/details/3222/23238",
+      "witness_slip_url": "https://ilga.gov/House/hearings/details/3222/23238",
+      "source": "ilga.gov"
     },
     {
       "id": "ma-joint-5806",
