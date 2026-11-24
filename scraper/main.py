@@ -43,7 +43,9 @@ import argparse
 import http.client
 import json
 import re
+import shutil
 import ssl
+import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -905,14 +907,76 @@ def parse_chi_meetings(json_text):
     return out
 
 
+# A committee's agenda is published as a PDF a few days before the meeting (the API's
+# own agenda list is empty for almost every committee meeting). Committees lay their
+# agendas out differently ("1. (O2026-0029491) Sale of ...", "[O2026-0028871]", tables
+# of permit orders), but every item carries the Clerk's record number, so we take those,
+# in agenda order, each once. Govbot's own Chicago record supplies each item's title and
+# topics. The full City Council agenda runs to ~650 items, so only committee agendas are
+# read, at most CHI_AGENDA_MAX items each.
+CHI_AGENDA_MAX = 40
+_CHI_RECORD = re.compile(r"\b(?:SO|SR|SOr|SA|SCL|O|R|Or|A|CL|F)20\d\d-\d{7}\b")
+
+
+def parse_chi_agenda_text(text):
+    """Pure: an agenda PDF's text -> bills [{id, url}] in agenda order, each once."""
+    out, seen = [], set()
+    for rid in _CHI_RECORD.findall(text or ""):
+        if rid not in seen:
+            seen.add(rid)
+            out.append({"id": rid, "url": None})
+            if len(out) >= CHI_AGENDA_MAX:
+                break
+    return out
+
+
+def chi_agenda_pdfs(json_text):
+    """Pure: eLMS /meeting-agenda JSON -> {hearing id: agenda PDF URL} for committee meetings."""
+    try:
+        rows = (json.loads(json_text) or {}).get("data") or []
+    except (json.JSONDecodeError, TypeError, AttributeError):
+        return {}
+    out = {}
+    for m in rows if isinstance(rows, list) else []:
+        if not isinstance(m, dict) or not m.get("meetingId") or (m.get("body") or "") == "City Council":
+            continue
+        pdf = next((f.get("path") for f in m.get("files") or [] if isinstance(f, dict)
+                    and f.get("attachmentType") == "Agenda" and str(f.get("path", "")).startswith("https://")), None)
+        if pdf:
+            out[f"chi-{m['meetingId'].lower()}"] = pdf
+    return out
+
+
+def pdf_text(url):
+    """Live: download a PDF and extract its text with pdftotext (poppler, a system tool,
+    as Govbot's pipeline uses). Fail-soft: no tool or no file gives ''."""
+    if not shutil.which("pdftotext"):
+        return ""
+    try:
+        with _open(urllib.request.Request(url, headers={"User-Agent": UA}), FETCH_TIMEOUT) as r:
+            data = r.read(20_000_000)
+        return subprocess.run(["pdftotext", "-layout", "-", "-"], input=data, capture_output=True,
+                              timeout=60, check=False).stdout.decode("utf-8", "replace")
+    except Exception:  # noqa: BLE001 - fail-soft: a missing agenda just means no bills
+        return ""
+
+
 def fetch_chi(begin, end):
-    """Live: one request for meetings after `begin`, kept to the window.
-    Fail-soft: no data yields no Chicago meetings, never an error."""
+    """Live: one request for meetings after `begin`, kept to the window, then each
+    posted committee agenda read for the items on it. Fail-soft: no data yields no
+    Chicago meetings (or no bills), never an error."""
     text = fetch_text(chi_meetings_url(begin))
     if not text:
         return []
     hi = end.strftime("%Y-%m-%d")
-    return [m for m in parse_chi_meetings(text) if m["scheduled_iso"][:10] <= hi]
+    meetings = [m for m in parse_chi_meetings(text) if m["scheduled_iso"][:10] <= hi]
+    pdfs = chi_agenda_pdfs(text)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        texts = dict(zip([m["id"] for m in meetings if m["id"] in pdfs],
+                         pool.map(pdf_text, [pdfs[m["id"]] for m in meetings if m["id"] in pdfs])))
+    for m in meetings:
+        m["bills"] = parse_chi_agenda_text(texts.get(m["id"], ""))
+    return meetings
 
 
 # --------------------------------------------------------------------------- #

@@ -154,7 +154,14 @@ committee meeting, its time converted from UTC to Chicago wall-clock, `details_u
 "Written Public Comment Deadline: …" out of the published comment into `comment_deadline`; the rest is `title` (the
 subject). The page shows Chicago's subject line and a "Comments due …" chip only while that deadline is ahead, never
 "Public comment open" without one; "See all" goes to the Clerk's meeting list (`full_list_url`), and the RSS button
-reads "Follow this city".
+reads "Follow this city". **Agenda items (Nov 2026):** each committee meeting's posted Agenda PDF (`chi_agenda_pdfs`; the API's
+own agenda list is empty for almost every committee meeting) is read with `pdftotext` (`pdf_text`, a system tool
+the refresh workflow installs; fail-soft) and every Clerk record number in it becomes a bill, in agenda order, at most
+`CHI_AGENDA_MAX` (40) per meeting (`parse_chi_agenda_text`; layouts differ by committee, so no title is parsed). City
+Council agendas (~650 items) are skipped. The refresh downloads Govbot's `bills/chi.json` and `chi_aux.json`, so
+`enrich_from_govbot` adds each item's title and topics (~95% matched). Agendas post a few days before a meeting, so
+items appear on a later refresh. The "via govbot ↗" link is Govbot's full address (a relative `legislation.html`
+link went nowhere on this site, for every state).
 
 **Speed (Nov 2026).** The `<head>` preconnects to Govbot's site and Google Fonts first, preloads `hearings.json`,
 and fetches all three font families in one stylesheet. `govbot-utils.js` is `defer`red in the head (a synchronous

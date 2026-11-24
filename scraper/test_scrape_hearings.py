@@ -219,6 +219,25 @@ class ChicagoParser(unittest.TestCase):
         self.assertEqual(f("Public Comment Deadline: December 2, 2026, 12:30 PM"), ("2026-12-02T12:30:00", ""))
         self.assertEqual(f("Change of Times Only to 10:00 AM"), (None, "Change of Times Only to 10:00 AM"))
 
+    def test_agenda_pdf_items(self):
+        bills = main.parse_chi_agenda_text((RAW / "chi_agenda_housing.txt").read_text())
+        self.assertEqual([b["id"] for b in bills][:2], ["O2026-0029491", "O2026-0029492"])
+        self.assertEqual(len(bills), len({b["id"] for b in bills}))
+        self.assertIsNone(bills[0]["url"])
+        many = "\n".join(f"{i}. (O2026-{i:07d}) Item {i}." for i in range(100))
+        self.assertEqual(len(main.parse_chi_agenda_text(many)), main.CHI_AGENDA_MAX)
+        self.assertEqual(main.parse_chi_agenda_text(""), [])
+        # Other committees' layouts: bracketed ids and permit tables.
+        self.assertEqual([x["id"] for x in main.parse_chi_agenda_text(
+            "Divvy for Everyone [O2026-0028871]\nOr2026-0029323   28   555 W Roosevelt Road\n")], ["O2026-0028871", "Or2026-0029323"])
+
+    def test_agenda_pdfs_only_for_committees(self):
+        doc = {"data": [
+            {"meetingId": "AA", "body": "Committee on Finance", "files": [{"attachmentType": "Agenda", "path": "https://x/a.pdf"}]},
+            {"meetingId": "BB", "body": "City Council", "files": [{"attachmentType": "Agenda", "path": "https://x/b.pdf"}]},
+            {"meetingId": "CC", "body": "Committee on Zoning", "files": [{"attachmentType": "Notice", "path": "https://x/c.pdf"}]}]}
+        self.assertEqual(main.chi_agenda_pdfs(json.dumps(doc)), {"chi-aa": "https://x/a.pdf"})
+
     def test_bad_json_is_empty_not_crash(self):
         self.assertEqual(main.parse_chi_meetings("<html>nope</html>"), [])
         self.assertEqual(main.parse_chi_meetings('{"data": [{"meetingId": "x"}]}'), [])

@@ -31,11 +31,15 @@ jobs:
 
       # Govbot's own bill records for the scraped states, so each hearing's bills carry
       # their Govbot title and topics. Optional: a failed download just skips that.
+      # pdftotext reads Chicago's committee agenda PDFs (the items on each agenda).
+      - name: Install pdftotext
+        run: sudo apt-get install -y --no-install-recommends poppler-utils || echo "::warning::no pdftotext; Chicago agendas skipped"
+
       - name: Download Govbot bill records
         run: |
           set -u
           mkdir -p "$RUNNER_TEMP/bills"
-          for s in il wa ma ak; do
+          for s in il wa ma ak chi chi_aux; do
             curl -fsSL --retry 3 -o "$RUNNER_TEMP/bills/$s.json" \
               "https://chihacknight.github.io/govbot/dashboard/bills/$s.json" \
               || echo "::warning::no Govbot bills for $s"
