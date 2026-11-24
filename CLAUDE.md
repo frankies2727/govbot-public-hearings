@@ -155,3 +155,11 @@ committee meeting, its time converted from UTC to Chicago wall-clock, `details_u
 subject). The page shows Chicago's subject line and a "Comments due …" chip only while that deadline is ahead, never
 "Public comment open" without one; "See all" goes to the Clerk's meeting list (`full_list_url`), and the RSS button
 reads "Follow this city".
+
+**Speed (Nov 2026).** The `<head>` preconnects to Govbot's site and Google Fonts first, preloads `hearings.json`,
+and fetches all three font families in one stylesheet. `govbot-utils.js` is `defer`red in the head (a synchronous
+cross-site script mid-page used to stop the page from being read until it arrived), so the page starts its data
+work on `DOMContentLoaded`, which runs after deferred scripts. The jump pills animate only `transform` (their
+"you are here" background and shadow used to animate on every scroll), and the inner scroll boxes (`.hgroup-rows`,
+`.hgroup--fed`) carry `contain: paint`. Measured on slow 4G with a 4x-slower CPU: hearings on screen 3.2 s → 2.3 s.
+
