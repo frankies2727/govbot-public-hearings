@@ -24,7 +24,7 @@
         "required": ["code", "name", "participation", "portal_url"],
         "additionalProperties": false,
         "properties": {
-          "code": { "type": "string", "pattern": "^[a-z]{2}$", "description": "Two-letter jurisdiction code (e.g. il, wa)." },
+          "code": { "type": "string", "pattern": "^[a-z]{2,3}$", "description": "Jurisdiction code: two letters for a state (il, wa), us for federal, three for a city (chi)." },
           "name": { "type": "string" },
           "participation": {
             "type": "string",
@@ -33,7 +33,7 @@
           },
           "portal_url": { "type": "string", "format": "uri", "description": "Official portal where a resident files a slip / signs in / comments." },
           "open_total": { "type": "integer", "minimum": 0, "description": "Federal only: how many rules are open for comment in all; the document carries just the 7 closing soonest." },
-          "full_list_url": { "type": "string", "format": "uri", "description": "Federal only: the official Federal Register list of every rule open for comment (the page's \"See all\" button)." },
+          "full_list_url": { "type": "string", "format": "uri", "description": "The official list behind the page's \"See all\" button: federal, the Federal Register's rules open for comment; Chicago, the City Clerk's meeting list." },
           "notice_total": { "type": "integer", "minimum": 0, "description": "Federal only: how many notices (non-rule announcements) are open for comment in all." },
           "notice_list_url": { "type": "string", "format": "uri", "description": "Federal only: the official Federal Register list of every notice open for comment." },
           "notice_categories": {
@@ -67,7 +67,7 @@
           "type": "string",
           "description": "Stable identifier: <jurisdiction>-<chamber>-<committeeId>-<hearingId> (IL) or wa-<chamber>-<agendaId> (WA). Idempotent across runs."
         },
-        "jurisdiction": { "type": "string", "pattern": "^[a-z]{2}$" },
+        "jurisdiction": { "type": "string", "pattern": "^[a-z]{2,3}$" },
         "chamber": { "type": "string", "enum": ["house", "senate", "joint", "other", "federal"], "description": "\"federal\" for a Federal Register comment period." },
         "committee": { "type": "string", "description": "Committee name." },
         "title": { "type": "string", "description": "Subject matter / agenda line as published." },
@@ -112,7 +112,8 @@
         },
         "details_url": { "type": "string", "description": "Official hearing/agenda detail page." },
         "category": { "type": "string", "enum": ["rfi", "environment", "permits", "meetings", "privacy", "paperwork", "other"], "description": "Federal notices only: the plain-language kind of notice (see NOTICE_CATEGORIES in actions/scrape-hearings/main.py). Rules carry none." },
-        "witness_slip_url": { "type": ["string", "null"], "description": "Where to take part in this exact hearing: IL the first bill's Bill Status page (its Witness Slips button), else the hearing page; WA Committee Sign-In opened on this meeting; MA the hearing page (its testimony form); federal the rule's Regulations.gov comment form, else its Federal Register page. Null when there is no per-hearing way to take part (a WA interim work session; Alaska, whose only tool is its general POMS form) — the dashboard then links details_url." },
+        "witness_slip_url": { "type": ["string", "null"], "description": "Where to take part in this exact hearing: IL the first bill's Bill Status page (its Witness Slips button), else the hearing page; WA Committee Sign-In opened on this meeting; MA the hearing page (its testimony form); federal the rule's Regulations.gov comment form, else its Federal Register page. Null when there is no per-hearing way to take part (a WA interim work session; Alaska, whose only tool is its general POMS form) — the dashboard then links details_url. Chicago: the meeting's Notice PDF, which names where to send written comments." },
+        "comment_deadline": { "type": "string", "description": "Chicago only: the written public comment deadline as published, as naive local ISO 8601 (YYYY-MM-DDTHH:MM:SS) in the hearing's timezone." },
         "source": { "type": "string", "description": "Origin host, e.g. ilga.gov or leg.wa.gov." }
       }
     }

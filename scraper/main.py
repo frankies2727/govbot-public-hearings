@@ -88,6 +88,14 @@ JURISDICTIONS = {
         "code": "us", "name": "USA (Federal)", "participation": "public_comment",
         "portal_url": "https://www.regulations.gov/",
     },
+    # The first city. A 3-letter code so it can never clash with a state's.
+    "chi": {
+        "code": "chi", "name": "Chicago City Council", "participation": "public_comment",
+        "portal_url": ("https://www.chicityclerk.com/about-city-government-chicago-city-council"
+                       "#ChicagoCityCouncilPublicCommentProcess"),
+        # "See all" goes to the Clerk's own meeting list, not the comment rules.
+        "full_list_url": "https://chicityclerkelms.chicago.gov/Meetings/",
+    },
 }
 
 BILL_RE = re.compile(r"\b(HJR|SJR|HB|SB|HR|SR)\s*-?\s*(\d{1,5})\b", re.IGNORECASE)
@@ -802,6 +810,112 @@ def fetch_ak(begin, end):
 
 
 # --------------------------------------------------------------------------- #
+# Chicago City Council — council and committee meetings, from the City Clerk
+# --------------------------------------------------------------------------- #
+# The City Clerk's eLMS has a keyless, documented public API
+# (api.chicityclerkelms.chicago.gov/swagger.json). /meeting-agenda lists every
+# meeting; a committee meeting's "comment" carries its written public comment
+# deadline (and, for a formal public hearing, its subject), and its "Notice"
+# file says where to send written comments. One request per run.
+CHI_API = "https://api.chicityclerkelms.chicago.gov/meeting-agenda"
+CHI_MEETING_PAGE = "https://chicityclerkelms.chicago.gov/Meeting/?meetingId="
+
+
+def chi_meetings_url(begin):
+    q = {"filter": f"date gt {begin.strftime('%Y-%m-%dT00:00:00Z')}",
+         "sort": "date asc", "top": "200"}
+    return CHI_API + "?" + urllib.parse.urlencode(q)
+
+
+def _chi_local(iso_utc):
+    """'2026-11-30T16:30:00+00:00' -> naive Chicago wall-clock ISO, the shape the
+    page and feeds expect (no offset applied)."""
+    from zoneinfo import ZoneInfo
+    try:
+        dt = datetime.fromisoformat((iso_utc or "").replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(ZoneInfo("America/Chicago")).strftime("%Y-%m-%dT%H:%M:%S")
+
+
+# "Written Public Comment Deadline: November 27, 2026, 10:30 AM" (the comma after
+# the day is sometimes missing; "Written" sometimes is too).
+_CHI_DEADLINE = re.compile(
+    r"(?:Written\s+)?Public\s+Comment\s+Deadline:\s*([A-Z][a-z]+\s+\d{1,2},?\s+\d{4}),?"
+    r"\s+(\d{1,2}:\d{2}\s*[AP]\.?M\.?)\.?", re.IGNORECASE)
+
+
+def chi_comment_deadline(text):
+    """Pure: (deadline as naive Chicago ISO or None, text with that sentence removed)."""
+    m = _CHI_DEADLINE.search(text or "")
+    if not m:
+        return None, (text or "").strip()
+    day = re.sub(r",", "", m.group(1))
+    clock = re.sub(r"[.\s]", "", m.group(2)).upper()
+    try:
+        iso = datetime.strptime(f"{day} {clock}", "%B %d %Y %I:%M%p").strftime("%Y-%m-%dT%H:%M:%S")
+    except ValueError:
+        return None, (text or "").strip()
+    rest = (text[:m.start()] + " " + text[m.end():]).strip()
+    return iso, re.sub(r"\s+", " ", rest).strip()
+
+
+def parse_chi_meetings(json_text):
+    """Pure: eLMS /meeting-agenda JSON -> hearing records. Rows without an id or
+    date are skipped; a canceled meeting is kept and flagged."""
+    try:
+        doc = json.loads(json_text)
+    except (json.JSONDecodeError, TypeError):
+        return []
+    rows = (doc or {}).get("data") if isinstance(doc, dict) else None
+    out = []
+    for m in rows if isinstance(rows, list) else []:
+        if not isinstance(m, dict) or not m.get("meetingId"):
+            continue
+        local = _chi_local(m.get("date"))
+        if not local:
+            continue
+        notice = next((f.get("path") for f in m.get("files") or []
+                       if isinstance(f, dict) and f.get("attachmentType") == "Notice"
+                       and str(f.get("path", "")).startswith("https://")), None)
+        status = (m.get("status") or "").lower()
+        deadline, subject = chi_comment_deadline(re.sub(r"\s+", " ", m.get("comment") or ""))
+        rec = {
+            "id": f"chi-{m['meetingId'].lower()}",
+            "jurisdiction": "chi",
+            "chamber": "other",
+            "committee": (m.get("body") or "City Council").strip(),
+            "title": subject,
+            "scheduled_iso": local,
+            "scheduled_display": local,
+            "timezone": "America/Chicago",
+            "location": re.sub(r"\s+", " ", m.get("location") or "").strip(),
+            "status": "canceled" if "cancel" in status else "scheduled",
+            "bills": [],
+            "details_url": CHI_MEETING_PAGE + urllib.parse.quote(m["meetingId"]),
+            # The meeting's Notice names the address for written comments.
+            "witness_slip_url": notice,
+            "source": "chicityclerkelms.chicago.gov",
+        }
+        if deadline:
+            rec["comment_deadline"] = deadline
+        out.append(rec)
+    return out
+
+
+def fetch_chi(begin, end):
+    """Live: one request for meetings after `begin`, kept to the window.
+    Fail-soft: no data yields no Chicago meetings, never an error."""
+    text = fetch_text(chi_meetings_url(begin))
+    if not text:
+        return []
+    hi = end.strftime("%Y-%m-%d")
+    return [m for m in parse_chi_meetings(text) if m["scheduled_iso"][:10] <= hi]
+
+
+# --------------------------------------------------------------------------- #
 # USA (Federal) — rules open for public comment, from the Federal Register
 # --------------------------------------------------------------------------- #
 # Federal "hearings" are open public-comment periods on proposed (and some final)
@@ -1002,6 +1116,10 @@ def build_from_fixtures(fixtures_dir):
     ak_path = d / "ak_meetings.json"
     if ak_path.exists():
         hearings.extend(parse_ak_meetings(ak_path.read_text()))
+    # Chicago: one real eLMS /meeting-agenda response.
+    chi_path = d / "chi_meetings.json"
+    if chi_path.exists():
+        hearings.extend(parse_chi_meetings(chi_path.read_text()))
     # Federal: a trimmed real Federal Register response (deterministic).
     fr_path = d / "fr_documents.json"
     if fr_path.exists():
@@ -1041,7 +1159,8 @@ def assemble(hearings, jurisdictions, source, now):
         "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": source,
         "jurisdictions": [
-            {**{k: JURISDICTIONS[j][k] for k in ("code", "name", "participation", "portal_url")},
+            {**{k: v for k, v in JURISDICTIONS[j].items()
+                if k in ("code", "name", "participation", "portal_url", "full_list_url")},
              **extra.get(j, {})}
             for j in used if j in JURISDICTIONS
         ],
@@ -1382,8 +1501,8 @@ def enrich_from_govbot(hearings, data_path):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,us",
-                    help="Comma-separated codes to scrape live (default: il,wa,ma,ak,us; "
+    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,us",
+                    help="Comma-separated codes to scrape live (default: il,wa,ma,ak,chi,us; "
                          "'us' = federal comment periods from Regulations.gov)")
     ap.add_argument("--from-fixtures", default=None,
                     help="Build offline from a raw fixtures dir (no network)")
@@ -1418,7 +1537,7 @@ def main():
     if args.from_fixtures:
         hearings = build_from_fixtures(args.from_fixtures)
         source = "fixtures (offline snapshot)"
-        codes = ["us", "il", "wa", "ma", "ak"]
+        codes = ["us", "il", "wa", "ma", "ak", "chi"]
     else:
         codes = [c.strip().lower() for c in args.jurisdictions.split(",") if c.strip()]
         begin = now - timedelta(days=WINDOW_BACK_DAYS)
@@ -1432,9 +1551,12 @@ def main():
             hearings.extend(fetch_ma(begin, end))
         if "ak" in codes:
             hearings.extend(fetch_ak(begin, end))
+        if "chi" in codes:
+            hearings.extend(fetch_chi(begin, end))
         if "us" in codes:                    # federal rules open for comment
             hearings.extend(fetch_us(now.date()))
         source = ("ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + "
+                  "chicityclerkelms.chicago.gov + "
                   "federalregister.gov (govbot scrape-hearings)")
 
     if args.dashboard_data:

@@ -145,3 +145,13 @@ empty placeholder `<code>.xml` for every participation state with no live hearin
 each "Weigh in — by state" card carries a "Follow this state (RSS)" link that starts empty
 and fills when that state opens (its filter box has a colored border + search icon). `.github/workflows/refresh.yml` rebuilds the feed every 12 hours. Hearings parsers are
 offline-snapshot-tested: `python3 scraper/test_scrape_hearings.py`.
+
+**Chicago City Council (Nov 2026), the first city.** Code `chi` (three letters so it never clashes with a
+state; the schema's code pattern is `^[a-z]{2,3}$`). `parse_chi_meetings` reads the City Clerk's keyless eLMS API
+(`api.chicityclerkelms.chicago.gov/meeting-agenda`, one request, fixture `raw/chi_meetings.json`): every council and
+committee meeting, its time converted from UTC to Chicago wall-clock, `details_url` = the Clerk's meeting page,
+`witness_slip_url` = the meeting's Notice PDF (it names where written comments go). `chi_comment_deadline` pulls
+"Written Public Comment Deadline: …" out of the published comment into `comment_deadline`; the rest is `title` (the
+subject). The page shows Chicago's subject line and a "Comments due …" chip only while that deadline is ahead, never
+"Public comment open" without one; "See all" goes to the Clerk's meeting list (`full_list_url`), and the RSS button
+reads "Follow this city".

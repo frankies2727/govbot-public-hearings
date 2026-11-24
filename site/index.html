@@ -186,6 +186,7 @@
     display: inline-block; padding: 2px 10px; border: var(--z-line); border-radius: 999px; background: var(--z-card);
     font-size: 12px; letter-spacing: .08em; text-transform: uppercase; line-height: 1.5; white-space: nowrap; }
   .h-kind.is-due { background: var(--z-c3); color: var(--z-on-color); }
+  .h-open.is-deadline { white-space: normal; max-width: 100%; border-radius: 14px; }
   .h-badge { margin-left: 8px; background: var(--z-c4); color: var(--z-on-color); }
   .h-open, .pstate-live { background: var(--z-c2); color: var(--z-on-color); }
   .h-main { min-width: 0; }
@@ -774,9 +775,9 @@
         const rows = eln("div", "hgroup-rows");
         listed.slice(0, SHOW_MAX).forEach((h) => rows.append(hearingRow(h)));
         group.append(rows);
-        if (listed.length > SHOW_MAX && juris.portal_url) {
+        if (listed.length > SHOW_MAX && (juris.full_list_url || juris.portal_url)) {
           group.append(seeAllRow("Showing the next " + SHOW_MAX + ".",
-            "See all " + fmt(listed.length) + " ↗", juris.portal_url));
+            "See all " + fmt(listed.length) + " ↗", juris.full_list_url || juris.portal_url));
         }
       }
       // The frame carries the card's pencil-sketch lines (the federal card scrolls, which would clip them).
@@ -899,11 +900,25 @@
     timeRow.append(eln("b", null, hearingWhen(h)));
     if (h.status === "canceled") timeRow.append(eln("span", "h-badge", "Canceled"));
     when.append(timeRow);
-    if (h.status !== "canceled" && h.witness_slip_url) when.append(eln("span", "h-open", "Public comment open"));
+    if (h.status !== "canceled") {
+      // Chicago states its written-comment deadline: show it while it's still ahead,
+      // and never call comment "open" once it has passed.
+      if (h.comment_deadline) {
+        if (h.comment_deadline > localNow(h.timezone)) {
+          // Short (no year: it's days away) and allowed to wrap in the narrow date column.
+          const due = (prettyLocal(h.comment_deadline) || h.comment_deadline).replace(/, \d{4},/, ",");
+          when.append(eln("span", "h-open is-deadline", "Comments due " + due));
+        }
+      } else if (h.witness_slip_url && h.jurisdiction !== "chi") {
+        when.append(eln("span", "h-open", "Public comment open"));
+      }
+    }
     row.append(when);
 
     const main = eln("div", "h-main");
     main.append(eln("div", "h-committee", h.committee || "Committee"));
+    // A city meeting has no bills to list; its published subject says what it's about.
+    if (h.jurisdiction === "chi" && h.title) main.append(eln("div", "h-loc", h.title));
     if (h.location) main.append(eln("div", "h-loc", h.location));
 
     if (h.bills && h.bills.length) {
@@ -957,6 +972,15 @@
   // the source's own display string (already friendly for IL).
   // What the date on a row means. State/territory rows are a hearing happening at
   // that time; federal rows are a public-comment window whose date is the deadline.
+  // The current wall-clock time in a zone, as a naive ISO string comparable with the data's.
+  function localNow(tz) {
+    try {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: tz || "America/Chicago",
+        year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit",
+        hourCycle: "h23" }).formatToParts(new Date()).map((x) => [x.type, x.value]));
+      return p.year + "-" + p.month + "-" + p.day + "T" + p.hour + ":" + p.minute + ":" + p.second;
+    } catch (e) { return new Date().toISOString().slice(0, 19); }
+  }
   function whenKind(h) {
     return h.jurisdiction === "us"
       ? { text: "Comment due", cls: "is-due" }
@@ -1172,7 +1196,7 @@
     return btn;
   }
   function jurisdictionRssTrigger(code, name) {
-    return mkRssBtn("Follow this state (RSS)", "Follow all " + name + " hearings (RSS)", () => ({
+    return mkRssBtn(code === "chi" ? "Follow this city (RSS)" : "Follow this state (RSS)", "Follow all " + name + " hearings (RSS)", () => ({
       title: "Follow " + name,
       sub: "Every upcoming " + name + " hearing in one feed: what it's about, when and where, the bills, and the form to weigh in.",
       url: new URL("hearings/" + jurisdictionFeedName(code), location.href).href,

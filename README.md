@@ -30,6 +30,7 @@ Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io
 | 🌲 | **Washington** | [leg.wa.gov](https://leg.wa.gov) | Committee sign-in (testify or note a position) |
 | 🦞 | **Massachusetts** | [malegislature.gov](https://malegislature.gov) | Submit written testimony |
 | 🏔️ | **Alaska** | [akleg.gov](https://akleg.gov) | Public opinion message |
+| 🏙️ | **Chicago City Council** (our first city) | [City Clerk eLMS API](https://api.chicityclerkelms.chicago.gov/swagger.json) | Written comment by each meeting's deadline (its Notice says where) |
 
 **Want your state?** Open an issue with your legislature's hearing calendar link. A state needs a public, machine-readable calendar (an API or feed, never a scraped search page).
 
@@ -101,7 +102,7 @@ flowchart LR
 python3 -m http.server -d site 8000          # open http://localhost:8000
 python3 scraper/test_scrape_hearings.py      # offline tests, no network
 bash scraper/render-snapshots.sh             # rebuild the expected snapshot after a parser change
-python3 scraper/main.py --jurisdictions il,wa,ma,ak,us \
+python3 scraper/main.py --jurisdictions il,wa,ma,ak,chi,us \
   --output site/hearings.json --rss site/hearings.xml --rss-feeds-dir site/hearings \
   --participation site/participation.json    # a live scrape
 ```

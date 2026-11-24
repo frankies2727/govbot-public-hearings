@@ -184,6 +184,46 @@ class AlaskaParser(unittest.TestCase):
         self.assertEqual(main.parse_ak_meetings('{"Basis": {}}'), [])
 
 
+class ChicagoParser(unittest.TestCase):
+    def setUp(self):
+        self.hearings = main.parse_chi_meetings((RAW / "chi_meetings.json").read_text())
+
+    def test_public_hearing_with_comment_deadline(self):
+        h = next(h for h in self.hearings if "Morgan Park Commons" in h["title"])
+        self.assertEqual(h["jurisdiction"], "chi")
+        self.assertEqual(h["committee"], "Committee on Finance")
+        # eLMS gives UTC; the record is Chicago wall-clock time (16:30 UTC = 10:30 CST).
+        self.assertEqual(h["scheduled_iso"], "2026-11-30T10:30:00")
+        self.assertEqual(h["timezone"], "America/Chicago")
+        # The deadline moves to its own field; the subject keeps the rest.
+        self.assertEqual(h["comment_deadline"], "2026-11-27T10:30:00")
+        self.assertNotIn("Deadline", h["title"])
+        self.assertTrue(h["title"].startswith("IRC 147(f) required Public Hearing"))
+        self.assertTrue(h["details_url"].startswith("https://chicityclerkelms.chicago.gov/Meeting/?meetingId="))
+        # The Notice PDF says where to send written comments.
+        self.assertTrue(h["witness_slip_url"].endswith(".pdf"))
+
+    def test_full_council_meeting_kept(self):
+        h = next(h for h in self.hearings if h["committee"] == "City Council")
+        self.assertEqual(h["status"], "scheduled")
+        self.assertEqual(h["scheduled_iso"], "2026-12-08T10:00:00")
+
+    def test_every_row_valid(self):
+        self.assertEqual(len(self.hearings), 12)
+        self.assertEqual(len({h["id"] for h in self.hearings}), 12)
+
+    def test_deadline_variants(self):
+        f = main.chi_comment_deadline
+        self.assertEqual(f("Written Public Comment Deadline: November 27 2026, 10:30 AM Votes may be taken."),
+                         ("2026-11-27T10:30:00", "Votes may be taken."))
+        self.assertEqual(f("Public Comment Deadline: December 2, 2026, 12:30 PM"), ("2026-12-02T12:30:00", ""))
+        self.assertEqual(f("Change of Times Only to 10:00 AM"), (None, "Change of Times Only to 10:00 AM"))
+
+    def test_bad_json_is_empty_not_crash(self):
+        self.assertEqual(main.parse_chi_meetings("<html>nope</html>"), [])
+        self.assertEqual(main.parse_chi_meetings('{"data": [{"meetingId": "x"}]}'), [])
+
+
 class PastFilter(unittest.TestCase):
     def test_past_hearings_dropped_future_kept(self):
         from datetime import datetime, timezone
@@ -231,7 +271,7 @@ class Snapshot(unittest.TestCase):
     def test_offline_build_matches_snapshot(self):
         from datetime import datetime, timezone
         hearings = main.build_from_fixtures(RAW)
-        doc = main.assemble(hearings, ["us", "il", "wa", "ma", "ak"], "fixtures (offline snapshot)",
+        doc = main.assemble(hearings, ["us", "il", "wa", "ma", "ak", "chi"], "fixtures (offline snapshot)",
                             datetime(2026, 8, 28, tzinfo=timezone.utc))
         expected = json.loads(EXPECTED.read_text())
         self.assertEqual(doc, expected,
