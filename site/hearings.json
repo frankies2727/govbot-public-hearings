@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T18:52:29Z",
+  "generated_at": "2026-11-25T03:02:15Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + federalregister.gov (govbot scrape-hearings)",
   "jurisdictions": [
     {
@@ -8,8 +8,8 @@
       "participation": "public_comment",
       "portal_url": "https://www.regulations.gov/",
       "open_total": 202,
-      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F24%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
-      "notice_total": 755,
+      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F25%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
+      "notice_total": 745,
       "notice_categories": [
         {
           "key": "rfi",
@@ -24,7 +24,7 @@
         {
           "key": "permits",
           "label": "Permits, licenses & approvals",
-          "total": 95
+          "total": 94
         },
         {
           "key": "meetings",
@@ -39,15 +39,15 @@
         {
           "key": "paperwork",
           "label": "Forms & paperwork reviews",
-          "total": 503
+          "total": 497
         },
         {
           "key": "other",
           "label": "Other notices",
-          "total": 101
+          "total": 98
         }
       ],
-      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F24%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
+      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F25%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
     },
     {
       "code": "ak",
@@ -85,177 +85,11 @@
     "us": 21,
     "ak": 2,
     "chi": 12,
-    "il": 1,
+    "il": 2,
     "ma": 9,
     "wa": 41
   },
   "hearings": [
-    {
-      "id": "us-2026-19607",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Office of the Secretary",
-      "title": "Proposed Collection; Comment Request",
-      "scheduled_iso": "2026-11-24",
-      "scheduled_display": "Comments due Nov 24, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "DOD-2026-OS-2048-0001",
-          "title": "Proposed Collection; Comment Request",
-          "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19607/proposed-collection-comment-request",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19607/proposed-collection-comment-request",
-      "witness_slip_url": "https://www.regulations.gov/commenton/DOD-2026-OS-2048-0001",
-      "source": "federalregister.gov",
-      "category": "paperwork"
-    },
-    {
-      "id": "us-2026-19609",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Navy Department",
-      "title": "Proposed Collection; Comment Request",
-      "scheduled_iso": "2026-11-24",
-      "scheduled_display": "Comments due Nov 24, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "USN-2026-HQ-0397-0001",
-          "title": "Proposed Collection; Comment Request",
-          "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19609/proposed-collection-comment-request",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19609/proposed-collection-comment-request",
-      "witness_slip_url": "https://www.regulations.gov/commenton/USN-2026-HQ-0397-0001",
-      "source": "federalregister.gov",
-      "category": "paperwork"
-    },
-    {
-      "id": "us-2026-19691",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Alcohol, Tobacco, Firearms, and Explosives Bureau",
-      "title": "Explosives Magazine Safety Requirements",
-      "scheduled_iso": "2026-11-24",
-      "scheduled_display": "Comments due Nov 24, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "ATF-2026-0364-0001",
-          "title": "Explosives Magazine Safety Requirements",
-          "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19691/explosives-magazine-safety-requirements",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19691/explosives-magazine-safety-requirements",
-      "witness_slip_url": "https://www.regulations.gov/commenton/ATF-2026-0364-0001",
-      "source": "federalregister.gov"
-    },
-    {
-      "id": "us-2026-19692",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Alcohol, Tobacco, Firearms, and Explosives Bureau",
-      "title": "Revising Requirements and Exceptions for Storing Explosives",
-      "scheduled_iso": "2026-11-24",
-      "scheduled_display": "Comments due Nov 24, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "ATF-2026-0365-0001",
-          "title": "Revising Requirements and Exceptions for Storing Explosives",
-          "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19692/revising-requirements-and-exceptions-for-storing-explosives",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19692/revising-requirements-and-exceptions-for-storing-explosives",
-      "witness_slip_url": "https://www.regulations.gov/commenton/ATF-2026-0365-0001",
-      "source": "federalregister.gov"
-    },
-    {
-      "id": "us-2026-19703",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Transportation Security Administration",
-      "title": "Intent to Request an Revision From OMB of One Current Public Collection of Information: Law Enforcement Officers (LEOs) Flying Armed",
-      "scheduled_iso": "2026-11-24",
-      "scheduled_display": "Comments due Nov 24, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "TSA-2013-0001-0379",
-          "title": "Intent to Request an Revision From OMB of One Current Public Collection of Information: Law Enforcement Officers (LEOs) Flying Armed",
-          "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19703/intent-to-request-an-revision-from-omb-of-one-current-public-collection-of-information-law",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19703/intent-to-request-an-revision-from-omb-of-one-current-public-collection-of-information-law",
-      "witness_slip_url": "https://www.regulations.gov/commenton/TSA-2013-0001-0379",
-      "source": "federalregister.gov",
-      "category": "other"
-    },
-    {
-      "id": "us-2026-19704",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Food and Drug Administration",
-      "title": "Robotically-Assisted Surgical Devices-Premarket Submissions; Draft Guidance for Industry and Food and Drug Administration Staff; Availability",
-      "scheduled_iso": "2026-11-24",
-      "scheduled_display": "Comments due Nov 24, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "FDA-2026-N-9505-0001",
-          "title": "Robotically-Assisted Surgical Devices-Premarket Submissions; Draft Guidance for Industry and Food and Drug Administration Staff; Availability",
-          "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and",
-      "witness_slip_url": "https://www.regulations.gov/commenton/FDA-2026-N-9505-0001",
-      "source": "federalregister.gov",
-      "category": "other"
-    },
-    {
-      "id": "us-2026-22778",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Pipeline and Hazardous Materials Safety Administration",
-      "title": "Hazardous Materials: Notice of Applications for Modification to Special Permits",
-      "scheduled_iso": "2026-11-24",
-      "scheduled_display": "Comments due Nov 24, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "PHMSA-2013-0008-0699",
-          "title": "Hazardous Materials: Notice of Applications for Modification to Special Permits",
-          "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22778/hazardous-materials-notice-of-applications-for-modification-to-special-permits",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22778/hazardous-materials-notice-of-applications-for-modification-to-special-permits",
-      "witness_slip_url": "https://www.regulations.gov/commenton/PHMSA-2013-0008-0699",
-      "source": "federalregister.gov",
-      "category": "permits"
-    },
     {
       "id": "us-2026-19660",
       "jurisdiction": "us",
@@ -281,6 +115,54 @@
       "category": "rfi"
     },
     {
+      "id": "us-2026-21723",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Coast Guard",
+      "title": "Cooperative Research and Development Agreement: Super Intelligence (SI) Situational Awareness Tools for Analyzing Coast Guard (CG) Sensor Feeds for Search and Rescue (SAR)",
+      "scheduled_iso": "2026-11-25",
+      "scheduled_display": "Comments due Nov 25, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "USCG-2026-0374-0001",
+          "title": "Cooperative Research and Development Agreement: Super Intelligence (SI) Situational Awareness Tools for Analyzing Coast Guard (CG) Sensor Feeds for Search and Rescue (SAR)",
+          "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21723/cooperative-research-and-development-agreement-super-intelligence-si-situational-awareness-tools-for",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21723/cooperative-research-and-development-agreement-super-intelligence-si-situational-awareness-tools-for",
+      "witness_slip_url": "https://www.regulations.gov/commenton/USCG-2026-0374-0001",
+      "source": "federalregister.gov",
+      "category": "other"
+    },
+    {
+      "id": "us-2026-21726",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Surface Mining Reclamation and Enforcement Office",
+      "title": "Agency Information Collection Activities; 30 CFR 822-Special Permanent Program Performance Standards-Operations in Alluvial Valley Floors",
+      "scheduled_iso": "2026-11-25",
+      "scheduled_display": "Comments due Nov 25, 2026",
+      "timezone": null,
+      "location": "Online · Federal Register",
+      "status": "open",
+      "bills": [
+        {
+          "id": "2026-21726",
+          "title": "Agency Information Collection Activities; 30 CFR 822-Special Permanent Program Performance Standards-Operations in Alluvial Valley Floors",
+          "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21726/agency-information-collection-activities-30-cfr-822-special-permanent-program-performance",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21726/agency-information-collection-activities-30-cfr-822-special-permanent-program-performance",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21726/agency-information-collection-activities-30-cfr-822-special-permanent-program-performance",
+      "source": "federalregister.gov",
+      "category": "paperwork"
+    },
+    {
       "id": "us-2026-21745",
       "jurisdiction": "us",
       "chamber": "federal",
@@ -303,6 +185,30 @@
       "witness_slip_url": "https://www.regulations.gov/commenton/APHIS-2026-0563-0001",
       "source": "federalregister.gov",
       "category": "permits"
+    },
+    {
+      "id": "us-2026-21756",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "State Department",
+      "title": "30-Day Notice of Proposed Information Collection: Foreign Assistance Requirements",
+      "scheduled_iso": "2026-11-25",
+      "scheduled_display": "Comments due Nov 25, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "DOS_FRDOC_0001-7299",
+          "title": "30-Day Notice of Proposed Information Collection: Foreign Assistance Requirements",
+          "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21756/30-day-notice-of-proposed-information-collection-foreign-assistance-requirements",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21756/30-day-notice-of-proposed-information-collection-foreign-assistance-requirements",
+      "witness_slip_url": "https://www.regulations.gov/commenton/DOS_FRDOC_0001-7299",
+      "source": "federalregister.gov",
+      "category": "paperwork"
     },
     {
       "id": "us-2026-21794",
@@ -352,6 +258,30 @@
       "category": "privacy"
     },
     {
+      "id": "us-2026-21812",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Federal Motor Carrier Safety Administration",
+      "title": "Parts and Accessories Necessary for Safe Operation; Application for an Exemption From R.B. Stewart Petroleum Products, Inc., USDOT # 1290158",
+      "scheduled_iso": "2026-11-25",
+      "scheduled_display": "Comments due Nov 25, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "FMCSA-2026-3730-0002",
+          "title": "Parts and Accessories Necessary for Safe Operation; Application for an Exemption From R.B. Stewart Petroleum Products, Inc., USDOT # 1290158",
+          "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21812/parts-and-accessories-necessary-for-safe-operation-application-for-an-exemption-from-rb-stewart",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21812/parts-and-accessories-necessary-for-safe-operation-application-for-an-exemption-from-rb-stewart",
+      "witness_slip_url": "https://www.regulations.gov/commenton/FMCSA-2026-3730-0002",
+      "source": "federalregister.gov",
+      "category": "permits"
+    },
+    {
       "id": "us-2026-21818",
       "jurisdiction": "us",
       "chamber": "federal",
@@ -396,6 +326,30 @@
       "details_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21820/modernizing-the-ability-of-consumers-to-control-robocalls",
       "witness_slip_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21820/modernizing-the-ability-of-consumers-to-control-robocalls",
       "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-23694",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Postal Regulatory Commission",
+      "title": "New Postal Products",
+      "scheduled_iso": "2026-11-25",
+      "scheduled_display": "Comments due Nov 25, 2026",
+      "timezone": null,
+      "location": "Online · Federal Register",
+      "status": "open",
+      "bills": [
+        {
+          "id": "2026-23694",
+          "title": "New Postal Products",
+          "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23694/new-postal-products",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23694/new-postal-products",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23694/new-postal-products",
+      "source": "federalregister.gov",
+      "category": "other"
     },
     {
       "id": "us-2026-20818",
@@ -444,6 +398,29 @@
       "source": "federalregister.gov"
     },
     {
+      "id": "us-2026-21852",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Federal Aviation Administration",
+      "title": "Airworthiness Directives; CFM International, S.A. Engines",
+      "scheduled_iso": "2026-11-27",
+      "scheduled_display": "Comments due Nov 27, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "FAA-2026-11817-0001",
+          "title": "Airworthiness Directives; CFM International, S.A. Engines",
+          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21852/airworthiness-directives-cfm-international-sa-engines",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21852/airworthiness-directives-cfm-international-sa-engines",
+      "witness_slip_url": "https://www.regulations.gov/commenton/FAA-2026-11817-0001",
+      "source": "federalregister.gov"
+    },
+    {
       "id": "us-2026-21889",
       "jurisdiction": "us",
       "chamber": "federal",
@@ -466,6 +443,29 @@
       "witness_slip_url": "https://www.regulations.gov/commenton/NHTSA-2026-1717-0001",
       "source": "federalregister.gov",
       "category": "rfi"
+    },
+    {
+      "id": "us-2026-21891",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Health and Human Services Department",
+      "title": "Patient Protection and Affordable Care Act, Exchange Pre-Eligibility Verification",
+      "scheduled_iso": "2026-11-27",
+      "scheduled_display": "Comments due Nov 27, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "CMS-2026-3367-0002",
+          "title": "Patient Protection and Affordable Care Act, Exchange Pre-Eligibility Verification",
+          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21891/patient-protection-and-affordable-care-act-exchange-pre-eligibility-verification",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21891/patient-protection-and-affordable-care-act-exchange-pre-eligibility-verification",
+      "witness_slip_url": "https://www.regulations.gov/commenton/CMS-2026-3367-0002",
+      "source": "federalregister.gov"
     },
     {
       "id": "us-2026-21916",
@@ -681,7 +681,47 @@
       "timezone": "America/Chicago",
       "location": "201A, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
       "status": "scheduled",
-      "bills": [],
+      "bills": [
+        {
+          "id": "O2026-0027317",
+          "url": null,
+          "govbot_title": "Expenditure of Open Space Impact Fee funds for development of Land of Lincoln Garden at 5900-5910 N Lincoln Ave",
+          "govbot_tags": [
+            "budget & taxes",
+            "environment & climate"
+          ]
+        },
+        {
+          "id": "O2026-0028758",
+          "url": null,
+          "govbot_title": "Expenditure of Open Space Impact Fee funds for improvements to Camras Elementary School at 3000 N Mango Ave",
+          "govbot_tags": [
+            "budget & taxes",
+            "education",
+            "environment & climate"
+          ]
+        },
+        {
+          "id": "O2026-0028759",
+          "url": null,
+          "govbot_title": "Expenditure of Open Space Impact Fee funds for improvements to Kilmer Elementary School at 6700 N Greenview Ave",
+          "govbot_tags": [
+            "budget & taxes",
+            "education",
+            "environment & climate"
+          ]
+        },
+        {
+          "id": "O2026-0028760",
+          "url": null,
+          "govbot_title": "Expenditure of Open Space Impact Fee funds for improvements to Harriet Tubman Elementary School at 2851 N Seminary Ave",
+          "govbot_tags": [
+            "budget & taxes",
+            "education",
+            "environment & climate"
+          ]
+        }
+      ],
       "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=08A631B6-4FE7-F111-84E9-001DD80AA3CC",
       "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/d3faeb5e-50e7-f111-84e9-001dd80fda55.pdf",
       "source": "chicityclerkelms.chicago.gov"
@@ -837,33 +877,20 @@
       "source": "ilga.gov"
     },
     {
-      "id": "ma-joint-5806",
-      "jurisdiction": "ma",
-      "chamber": "joint",
-      "committee": "Joint Committee on Election Laws",
-      "title": "Late files",
-      "scheduled_iso": "2026-11-24T13:00:00",
-      "scheduled_display": "2026-11-24T13:00:00",
-      "timezone": "America/New_York",
-      "location": "A-1 · 24 Beacon Street · Boston, MA",
+      "id": "il-senate-3071-23239",
+      "jurisdiction": "il",
+      "chamber": "senate",
+      "committee": "Executive Appointments",
+      "title": "",
+      "scheduled_iso": "2026-12-03T09:00:00",
+      "scheduled_display": "12/3/2026 9:00 AM",
+      "timezone": "America/Chicago",
+      "location": "212 · Capitol · Springfield, IL",
       "status": "scheduled",
-      "bills": [
-        {
-          "id": "H5674",
-          "slips": null,
-          "url": "https://malegislature.gov/Bills/194/H5674",
-          "title": "An Act providing for recall elections in the town of Arlington"
-        },
-        {
-          "id": "H5715",
-          "slips": null,
-          "url": "https://malegislature.gov/Bills/194/H5715",
-          "title": "An Act providing for the recall of elected officers in the city of New Bedford"
-        }
-      ],
-      "details_url": "https://malegislature.gov/Events/Hearings/Detail/5806",
-      "witness_slip_url": "https://malegislature.gov/Events/Hearings/Detail/5806",
-      "source": "malegislature.gov"
+      "bills": [],
+      "details_url": "https://ilga.gov/Senate/hearings/details/3071/23239",
+      "witness_slip_url": "https://ilga.gov/Senate/hearings/details/3071/23239",
+      "source": "ilga.gov"
     },
     {
       "id": "ma-joint-5821",
@@ -963,6 +990,22 @@
       ],
       "details_url": "https://malegislature.gov/Events/Hearings/Detail/5820",
       "witness_slip_url": "https://malegislature.gov/Events/Hearings/Detail/5820",
+      "source": "malegislature.gov"
+    },
+    {
+      "id": "ma-joint-5823",
+      "jurisdiction": "ma",
+      "chamber": "joint",
+      "committee": "Joint Committee on Ways and Means",
+      "title": "Fiscal Year 2028 (FY28) Consensus Revenue Hearing",
+      "scheduled_iso": "2026-12-02T11:00:00",
+      "scheduled_display": "2026-12-02T11:00:00",
+      "timezone": "America/New_York",
+      "location": "Gardner Auditorium · 24 Beacon Street · Boston, MA",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://malegislature.gov/Events/Hearings/Detail/5823",
+      "witness_slip_url": "https://malegislature.gov/Events/Hearings/Detail/5823",
       "source": "malegislature.gov"
     },
     {
