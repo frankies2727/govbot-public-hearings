@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:02:15Z",
+  "generated_at": "2026-11-25T17:57:22Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + federalregister.gov (govbot scrape-hearings)",
   "jurisdictions": [
     {
@@ -7,19 +7,19 @@
       "name": "USA (Federal)",
       "participation": "public_comment",
       "portal_url": "https://www.regulations.gov/",
-      "open_total": 202,
+      "open_total": 211,
       "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F25%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
-      "notice_total": 745,
+      "notice_total": 760,
       "notice_categories": [
         {
           "key": "rfi",
           "label": "Requests for ideas & information",
-          "total": 27
+          "total": 28
         },
         {
           "key": "environment",
           "label": "Environment & wildlife reviews",
-          "total": 6
+          "total": 7
         },
         {
           "key": "permits",
@@ -39,12 +39,12 @@
         {
           "key": "paperwork",
           "label": "Forms & paperwork reviews",
-          "total": 497
+          "total": 509
         },
         {
           "key": "other",
           "label": "Other notices",
-          "total": 98
+          "total": 99
         }
       ],
       "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F25%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
@@ -84,7 +84,7 @@
   "counts": {
     "us": 21,
     "ak": 2,
-    "chi": 12,
+    "chi": 13,
     "il": 2,
     "ma": 9,
     "wa": 41
@@ -647,7 +647,51 @@
       "timezone": "America/Chicago",
       "location": "City Council Chamber, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
       "status": "scheduled",
-      "bills": [],
+      "bills": [
+        {
+          "id": "SO2026-0029412",
+          "url": null,
+          "govbot_title": "Issuance of multi-family program funds and other financial assistance to MPC Phase I 4% LLC for development of Morgan Park Commons Phase I project at 11414 S Halsted St (4 percent owner)",
+          "govbot_tags": [
+            "budget & taxes"
+          ]
+        },
+        {
+          "id": "SO2026-0029413",
+          "url": null,
+          "govbot_title": "Issuance of multi-family program funds and other financial assistance to MPC Phase I 9% LLC for development of Morgan Park Commons Phase I project at 11414 S Halsted St (9 percent owner)",
+          "govbot_tags": [
+            "budget & taxes"
+          ]
+        },
+        {
+          "id": "SO2026-0029418",
+          "url": null
+        },
+        {
+          "id": "O2026-0029408",
+          "url": null,
+          "govbot_title": "First amendment to redevelopment agreement with 1539 N. Pulaski Road HHDC LP, 1539 N. Pulaski Road Charitable Corporation and Hispanic Housing Development Corporation to provide tax increment financing (TIF) assistance for 1539 North Pulaski Elderly Apartments project",
+          "govbot_tags": [
+            "budget & taxes",
+            "housing",
+            "transportation"
+          ]
+        },
+        {
+          "id": "O2026-0029417",
+          "url": null,
+          "govbot_title": "Issuance of multi-family program funds to 3301 W Palmer LLC for acquisition and preservation of Palmer Place Apartments at 3301 W Palmer St",
+          "govbot_tags": [
+            "budget & taxes"
+          ]
+        },
+        {
+          "id": "SO2026-0027231",
+          "url": null,
+          "govbot_title": "Amendment of Municipal Code Section 11-12-532 allowing transferees of properties covered by Utility Billing Relief Program to remain in program if meeting certain requirements"
+        }
+      ],
       "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=5C971227-8CD4-F111-A05C-001DD80FDA55",
       "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/160c4b5b-8cd4-f111-a05c-001dd803894a.pdf",
       "source": "chicityclerkelms.chicago.gov",
@@ -727,6 +771,22 @@
       "source": "chicityclerkelms.chicago.gov"
     },
     {
+      "id": "chi-110e3cf4-d3e8-f111-84e9-001dd80efcf5",
+      "jurisdiction": "chi",
+      "chamber": "other",
+      "committee": "City Council",
+      "title": "Special Meeting for reception of new council introductions and committee referrals and for consideration of various referenda introductions to be placed on February 2027 ballot",
+      "scheduled_iso": "2026-12-02T10:00:00",
+      "scheduled_display": "2026-12-02T10:00:00",
+      "timezone": "America/Chicago",
+      "location": "City Council Chamber, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=110E3CF4-D3E8-F111-84E9-001DD80EFCF5",
+      "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/8fb7da51-2539-439d-8f65-573c84495d2b.pdf",
+      "source": "chicityclerkelms.chicago.gov"
+    },
+    {
       "id": "chi-cadc36ce-69e7-f111-84e9-001dd80aa3cc",
       "jurisdiction": "chi",
       "chamber": "other",
@@ -754,7 +814,319 @@
       "timezone": "America/Chicago",
       "location": "City Council Chamber, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
       "status": "scheduled",
-      "bills": [],
+      "bills": [
+        {
+          "id": "O2026-0028871",
+          "url": null,
+          "govbot_title": "Amended operator agreement with Lyft Bikes and Scooters LLC for operation and management of Divvy for Everyone bike sharing system"
+        },
+        {
+          "id": "SO2025-0021022",
+          "url": null,
+          "govbot_title": "Amendment of Municipal Code Chapter 2-102 by adding new Section 2-102-110 to require City Council approval to close bridges of Chicago for improvement, maintenance, repair or other public work"
+        },
+        {
+          "id": "O2026-0029742",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 133615 - amend",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030348",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139413",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030349",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139555",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030350",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 137586",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030351",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 138347",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030352",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139962",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030353",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139906",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030359",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 138028",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029745",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 136422",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029747",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 137307",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029748",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 138383",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029749",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 138906",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029750",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139414",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029751",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139727",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029752",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No.139840",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030346",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 77416 - amend",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029744",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 136630",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029898",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139022 - amend",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029735",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 140001",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029736",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 135837",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029737",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 138006",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030338",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139759",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030340",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 138918",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030341",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 140124",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030342",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 139677",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030355",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 140635",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030343",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 132526 - remove",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030345",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 94358 - remove",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029734",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 94472 - remove",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0030337",
+          "url": null,
+          "govbot_title": "Disabled Parking Permit No. 108106 - remove",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029733",
+          "url": null,
+          "govbot_title": "Residential permit parking at 5400-5442 and 5401-5423 S Lorel Ave including wrap-around on W 54th St",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "O2026-0029739",
+          "url": null,
+          "govbot_title": "Residential permit parking at 2600-2659 N Meade Ave",
+          "govbot_tags": [
+            "government operations"
+          ]
+        },
+        {
+          "id": "Or2026-0029740",
+          "url": null,
+          "govbot_title": "Traffic sign(s)/signal(s) at W 59th Pl and S Springfield Ave - All-Way Stop",
+          "govbot_tags": [
+            "transportation"
+          ]
+        },
+        {
+          "id": "O2026-0029754",
+          "url": null,
+          "govbot_title": "Parking meters at S Clark St from W Marble Pl to W Adams St - remove/S Morgan St from W Van Buren St to W Jackson Blvd and S Morgan St from W Jackson Blvd to W Adams St - install"
+        },
+        {
+          "id": "O2026-0029365",
+          "url": null,
+          "govbot_title": "Traffic sign(s)/signal(s) at W Seminole St and N Moody Ave - All-Way Stop",
+          "govbot_tags": [
+            "transportation"
+          ]
+        },
+        {
+          "id": "O2026-0029463",
+          "url": null,
+          "govbot_title": "Vehicle weight limitation at W 33rd St from S Wallace St to S Wentworth Ave - 5 tons",
+          "govbot_tags": [
+            "transportation"
+          ]
+        },
+        {
+          "id": "O2026-0029466",
+          "url": null,
+          "govbot_title": "Vehicle weight limitation at W 29th St from S Wallace St to S Wentworth St - 5 tons",
+          "govbot_tags": [
+            "transportation"
+          ]
+        },
+        {
+          "id": "O2026-0026371",
+          "url": null,
+          "govbot_title": "Vehicle weight limitation at 8400-8459 S Gilbert Ct - 5 tons",
+          "govbot_tags": [
+            "transportation"
+          ]
+        }
+      ],
       "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=3A60CFE5-9BDF-F111-84EA-001DD80B58E5",
       "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/cef1f82f-9cdf-f111-84ea-001dd80efcf5.pdf",
       "source": "chicityclerkelms.chicago.gov",
@@ -958,12 +1330,12 @@
       "jurisdiction": "ma",
       "chamber": "joint",
       "committee": "Joint Committee on Racial Equity, Civil Rights, and Inclusion",
-      "title": "Legislative Briefing: Racial Wealth Gap Findings\r\nThe Joint Committee on Racial Equity, Civil Rights, and Inclusion, in partnership with the Federal Reserve Bank of Boston and The Boston Foundation, will convene an informational briefing on the racial wealth gap in Massachusetts. The briefing will provide legislators, staff, and stakeholders with an overview of the historical and systemic factors contributing to racial disparities in wealth accumulation, including homeownership, income, education, access to capital, and intergenerational wealth. The briefing will provide an opportunity to discuss the Committee's findings and the findings of the recent report on the racial wealth gap, highlighting persistent disparities in wealth accumulation, homeownership, access to capital, and economic opportunity across racial and ethnic communities.\r\n\r\nDrawing on research and data from the Federal Reserve Bank of Boston and The Boston Foundation, the discussion will examine persistent economic inequities across the Commonwealth and explore opportunities for public policy to advance racial equity, expand economic mobility, and build generational wealth.\r\n\r\nBriefing Objectives\r\n•\tPresent research and data on racial wealth disparities in Massachusetts, particularly Greater Boston.\r\n\r\n•\tExamine structural barriers to homeownership, wealth accumulation, and economic opportunity.\r\n\r\n•\tHighlight the long-term impacts of historical discrimination and systemic inequities.\r\n\r\n•\tInform legislative discussions on strategies to close the racial wealth gap and promote economic inclusion.",
+      "title": "Informational Briefing: The Racial Wealth Gap in Massachusetts",
       "scheduled_iso": "2026-12-01T13:00:00",
       "scheduled_display": "2026-12-01T13:00:00",
       "timezone": "America/New_York",
       "location": "Room 428 · 24 Beacon Street · Boston, MA",
-      "status": "scheduled",
+      "status": "canceled",
       "bills": [],
       "details_url": "https://malegislature.gov/Events/Hearings/Detail/5804",
       "witness_slip_url": "https://malegislature.gov/Events/Hearings/Detail/5804",
