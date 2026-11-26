@@ -152,11 +152,11 @@ styles turns the ink drawing into a graphite wireframe: lines are pencil grey (`
 straight pencil passes whose top/bottom and side lines **run past the corners** (`.z-card` / `.hg-frame`
 `::before/::after`), cards are the paper itself (light `--z-card` #FDFCF8), buttons, chips and letters are **shaded
 in pencil** (`--z-pencil`, two crossed hatch gradients) with smudged graphite shadows (`--z-press`) instead of hard
-ink ones, and headings, numbers and committee names are hand-lettered in **Patrick Hand** (`--z-hand`; body stays
-Roboto). Two still doodles from `scripts/sketch_doodles.py` (re-run it after changing a shape) sit by the section
+ink ones. All text stays in **Roboto** (a hand-lettered heading font was tried and dropped, per request). Two still doodles from `scripts/sketch_doodles.py` (re-run it after changing a shape) sit by the section
 titles as graphite-filled CSS masks: a twisted **wireframe ribbon** (`assets/sketch-ribbon.svg`) by 01 and a
 **pencil** (`assets/sketch-pencil.svg`) by 03; 02 keeps its star. Static only: no filters, nothing animated; text
-keeps the full-contrast ink.
+keeps the full-contrast ink. The circle round "say." (`.hh-circle::after`) is a heavy loop plus a lighter second pass
+with room around the word, so it reads as a circle in both themes rather than strokes through the letters.
 
 **03 Witness slips, Illinois (Nov 2026).** A third section (`#witness-slips`, yellow `--z-c3`) after "Weigh in":
 a numbered **how-to** (pick a bill while it's posted, open its slip form from the bill's ilga.gov page, "Self" / "N/A"
