@@ -146,6 +146,18 @@ each "Weigh in — by state" card carries a "Follow this state (RSS)" link that 
 and fills when that state opens (its filter box has a colored border + search icon). `.github/workflows/refresh.yml` rebuilds the feed every 12 hours. Hearings parsers are
 offline-snapshot-tested: `python3 scraper/test_scrape_hearings.py`.
 
+**03 Witness slips, Illinois (Nov 2026).** A third section (`#witness-slips`, yellow `--z-c3`) after "Weigh in":
+a numbered **how-to** (pick a bill while it's posted, open its slip form from the bill's ilga.gov page, "Self" / "N/A"
+for filing as yourself, Proponent / Opponent / No position, "Record of appearance only", a free my.ilga.gov account)
+with a note that **slips are public**, beside a **tracker** (`renderSlips`): every bill on an upcoming, not-canceled
+Illinois hearing, once (its soonest hearing), closing soonest first, each with a "Closes today / tomorrow / in N days"
+chip (slips close when the hearing starts; `wsCloses`), its Govbot title and topics, committee + time + room, the
+slip counts when the opt-in `--slips` step filled them, "File a slip ↗" (the bill's ilga.gov status page, which
+carries the working Witness Slips button), "The hearing ↗", and **☆ Save** (bill ids in `localStorage`
+`ph-saved-slips`, this device only, try/catch'd). Search, a topic filter built from the bills' own Govbot topics, and
+a "★ Saved" toggle. No positions are taken. With no bills posted (between sessions) it says so and offers the
+Illinois RSS feed. Inspired by Strong Towns Chicago's witness-slip page and tracker; the words and design are our own.
+
 **Chicago City Council (Nov 2026), the first city.** Code `chi` (three letters so it never clashes with a
 state; the schema's code pattern is `^[a-z]{2,3}$`). `parse_chi_meetings` reads the City Clerk's keyless eLMS API
 (`api.chicityclerkelms.chicago.gov/meeting-agenda`, one request, fixture `raw/chi_meetings.json`): every council and
