@@ -146,6 +146,18 @@ each "Weigh in — by state" card carries a "Follow this state (RSS)" link that 
 and fills when that state opens (its filter box has a colored border + search icon). `.github/workflows/refresh.yml` rebuilds the feed every 12 hours. Hearings parsers are
 offline-snapshot-tested: `python3 scraper/test_scrape_hearings.py`.
 
+**Sketchbook layer (Nov 2026, per request: "too polished, more pencil sketch").** The last block of the page's
+styles turns the ink drawing into a graphite wireframe: lines are pencil grey (`--z-graphite` / `--z-graphite-2`,
+`--z-line` 1.5px), boxes squarer (`--z-radius` 5–8px, pills stay round), each card's two extra outlines are now
+straight pencil passes whose top/bottom and side lines **run past the corners** (`.z-card` / `.hg-frame`
+`::before/::after`), cards are the paper itself (light `--z-card` #FDFCF8), buttons, chips and letters are **shaded
+in pencil** (`--z-pencil`, two crossed hatch gradients) with smudged graphite shadows (`--z-press`) instead of hard
+ink ones, and headings, numbers and committee names are hand-lettered in **Patrick Hand** (`--z-hand`; body stays
+Roboto). Two still doodles from `scripts/sketch_doodles.py` (re-run it after changing a shape) sit by the section
+titles as graphite-filled CSS masks: a twisted **wireframe ribbon** (`assets/sketch-ribbon.svg`) by 01 and a
+**pencil** (`assets/sketch-pencil.svg`) by 03; 02 keeps its star. Static only: no filters, nothing animated; text
+keeps the full-contrast ink.
+
 **03 Witness slips, Illinois (Nov 2026).** A third section (`#witness-slips`, yellow `--z-c3`) after "Weigh in":
 a numbered **how-to** (pick a bill while it's posted, open its slip form from the bill's ilga.gov page, "Self" / "N/A"
 for filing as yourself, Proponent / Opponent / No position, "Record of appearance only", a free my.ilga.gov account)

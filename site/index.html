@@ -11,7 +11,7 @@
 <link rel="preload" href="hearings.json" as="fetch" crossorigin>
 <script defer src="https://chihacknight.github.io/govbot/dashboard/assets/govbot-utils.js"></script>
 <link rel="stylesheet" href="https://chihacknight.github.io/govbot/dashboard/assets/govbot.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&family=Patrick+Hand&display=swap">
 <title>Govbot — Hearings &amp; Public Comment</title>
 <meta name="description" content="Upcoming legislative hearings and federal rules open for public comment, with the form to weigh in on each one. Follow any state, bill or hearing by RSS.">
 <meta property="og:type" content="website">
@@ -435,6 +435,68 @@
   .ws-empty { padding: 18px; border: 1.5px dashed var(--z-sketch-1); border-radius: 12px; font-size: 16px; line-height: 1.5; color: var(--z-body); }
   .ws-empty b { color: var(--z-ink); }
   .ws-empty .ws-acts { margin-top: 14px; }
+
+  /* ---------- Sketchbook layer (Nov 2026): a graphite wireframe on paper, not a polished ink drawing ----------
+     Lines are pencil grey and go over each box twice, the extra passes running past the corners like a
+     wireframe sketch; boxes are squarer; buttons, chips and pills are shaded in pencil; headings are hand-
+     lettered; two still doodles (a wireframe ribbon, a pencil; scripts/sketch_doodles.py) sit by the
+     section titles. All static: no filters, nothing animated. Text keeps the full-contrast ink. */
+  :root { --z-graphite: #C9C6BC; --z-graphite-2: #8E8B82; --z-shade: rgba(222, 218, 206, .16); --z-press: rgba(222, 218, 206, .30); }
+  :root[data-theme="light"] { --z-graphite: #56544E; --z-graphite-2: #8A8882; --z-shade: rgba(58, 56, 50, .15); --z-press: rgba(58, 56, 50, .38); }
+  @media (prefers-color-scheme: light) { :root:not([data-theme]) { --z-graphite: #56544E; --z-graphite-2: #8A8882; --z-shade: rgba(58, 56, 50, .15); --z-press: rgba(58, 56, 50, .38); } }
+  :root {
+    --z-line: 1.5px solid var(--z-graphite);
+    --z-shadow: 3px 4px 0 var(--z-press);
+    --z-radius: 5px 8px 6px 7px;
+    --z-hand: "Patrick Hand", "Comic Neue", var(--z-font);
+    /* Pencil shading: dense strokes one way, a lighter pass across them. */
+    --z-pencil: repeating-linear-gradient(-62deg, transparent 0 2px, var(--z-shade) 2px 3.2px),
+                repeating-linear-gradient(24deg, transparent 0 6px, var(--z-shade) 6px 6.8px);
+  }
+
+  /* Each card drawn twice more: one pass's top and bottom lines and the other's sides run past the corners. */
+  .z-card::before, .hg-frame::before { inset: -1px -16px; border: 0; border-top: 1px solid var(--z-graphite-2); border-bottom: 1px solid var(--z-graphite-2);
+    border-radius: 0; transform: rotate(-.35deg); }
+  .z-card::after, .hg-frame::after { inset: -14px -1px; border: 0; border-left: 1px solid var(--z-graphite-2); border-right: 1px solid var(--z-graphite-2);
+    border-radius: 0; transform: rotate(.4deg); }
+  @media (max-width: 620px) { .z-card::before, .hg-frame::before { inset: -1px -8px; } .z-card::after, .hg-frame::after { inset: -8px -1px; } }
+  .hgroup, .ws-bill, .fsec-rows, .pstate { border-radius: var(--z-radius); }
+
+  /* Shaded in pencil, like the filled boxes of a wireframe; shadows are smudged graphite, not ink. */
+  .file-link, .hgroup-portal, .pstate-link, .clear-btn, .bill-chip, .ws-id, .ws-save, .ws-saved-btn, .p-letter, .hh-jump a, .ws-select, .rss-copy {
+    background-image: var(--z-pencil); }
+  .file-link, .hgroup-portal, .pstate-link, .clear-btn, .hh-jump a[aria-current="true"], .p-letter[aria-pressed="true"],
+  .ws-saved-btn[aria-pressed="true"], .p-search, .hgroup-name { box-shadow: 3px 4px 0 var(--z-press); }
+  .file-link:hover, .hgroup-portal:hover, .pstate-link:hover, .clear-btn:hover { box-shadow: 5px 6px 0 var(--z-press); }
+  .file-link:active, .hgroup-portal:active, .pstate-link:active { box-shadow: 1px 1px 0 var(--z-press); }
+  .p-search:focus { box-shadow: 4px 5px 0 var(--z-press), 0 0 0 3px var(--z-c1); }
+  .file-link::before, .hgroup-portal::before, .pstate-link::before { border-color: var(--z-graphite-2); inset: -3px -6px -2px -5px; }
+
+  /* Hand-lettered headings and numbers; body text stays in Roboto. */
+  .wrap .hh-title, .z-divider h2, .ws-how h3, .ws-track h3, .hgroup-name, .fsec-h, .hnotices-h, .h-committee, .hh-stat-num, .z-num {
+    font-family: var(--z-hand); letter-spacing: 0; }
+  .wrap .hh-title { font-size: 74px; }
+  .z-divider h2 { font-size: 54px; }
+  .h-committee { font-size: 23px; }
+  .ws-how h3, .ws-track h3 { font-size: 30px; }
+  .z-num { font-weight: 400; -webkit-text-stroke: 2px var(--z-graphite); }
+  @media (max-width: 620px) { .wrap .hh-title { font-size: 52px; } .z-divider h2 { font-size: 38px; } }
+
+  /* Cards are the paper itself, not white panels; rules inside them are pencil, not ink. */
+  :root[data-theme="light"] { --z-card: #FDFCF8; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme]) { --z-card: #FDFCF8; } }
+  .hgroup-head { border-bottom: 1.5px solid var(--z-graphite); }
+  .hgroup-more, .hnotices-h { border-top: 1.5px solid var(--z-graphite); }
+  .hgroup-rows.fsec-rows { border-color: var(--z-graphite); }
+  .wrap::before { border-color: var(--z-graphite-2); }
+
+  /* Doodles by the section titles: a wireframe ribbon by 01, a pencil by 03 (02 keeps its star). */
+  #hearings-card .z-divider::after, #witness-slips .z-divider::after { transform: none; background: var(--z-graphite);
+    -webkit-mask: var(--doodle) center / contain no-repeat; mask: var(--doodle) center / contain no-repeat; }
+  #hearings-card .z-divider::after { --doodle: url("assets/sketch-ribbon.svg"); width: 300px; height: 122px; top: -20px; right: 0; }
+  #witness-slips .z-divider::after { --doodle: url("assets/sketch-pencil.svg"); width: 230px; height: 62px; top: 6px; right: 1%; transform: rotate(-8deg); }
+  @media (max-width: 1100px) { #hearings-card .z-divider::after { width: 200px; height: 82px; top: -40px; } #witness-slips .z-divider::after { width: 150px; height: 40px; top: -22px; } }
+  @media (max-width: 620px) { #hearings-card .z-divider::after { width: 120px; height: 50px; top: -46px; right: -6px; } #witness-slips .z-divider::after { width: 110px; height: 30px; top: -30px; } }
 </style>
 <script>
   // Apply a saved theme choice before first paint to avoid a flash of the
