@@ -1,46 +1,19 @@
 #!/usr/bin/env python3
-"""Draw the page's two pencil doodles as still SVG line drawings (site/assets/):
+"""Draw the page's pencil art (site/assets/):
 
-* sketch-ribbon.svg: a wireframe ribbon that twists and pinches in the middle,
-  drawn as a mesh of rails and rungs, like a pencil study of a twisted sheet.
-* sketch-pencil.svg: a sharpened pencil, lying at an angle.
+* sketch-pencil.svg: a sharpened pencil, lying at an angle: a still line drawing
+  the page uses as a CSS mask filled with its graphite colour, so it follows the theme.
+* hearing-room-lines.webp: the pencil lines of the coloured hearing-room drawing
+  (hearing-room.webp), for the "drawn in real time" animation by 01 Pick a place:
+  the lines are drawn first, then the colour fills in. Made with the classic
+  pencil-sketch filter: grey, inverted, blurred, then colour-dodged back over the grey.
 
-The page uses them as CSS masks filled with its graphite colour, so they follow
-the theme. Re-run after changing a shape: python3 scripts/sketch_doodles.py
+Re-run after changing a shape or the drawing: python3 scripts/sketch_doodles.py
+(needs Pillow and numpy).
 """
-import math
-import random
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "site" / "assets"
-rnd = random.Random(7)  # fixed: the same drawing every run
-
-
-def poly(pts):
-    return "M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in pts)
-
-
-def ribbon(w=320, h=130, rails=12, rungs=38):
-    """A ribbon along x that turns 1.5 times and pinches to a twist in the middle."""
-    def point(u, v):
-        theta = u * math.pi * 1.5
-        width = 52 * (0.12 + 0.88 * abs(math.cos(math.pi * u)))
-        x = 14 + u * (w - 28)
-        y0 = h / 2 + math.sin(u * math.pi * 2) * 10
-        across, depth = v * width * math.cos(theta), v * width * math.sin(theta)
-        return x + 0.30 * depth, y0 + across - 0.18 * depth
-
-    paths = []
-    for i in range(rails):                       # lines along the ribbon
-        v = -1 + 2 * i / (rails - 1)
-        paths.append((poly(point(k / 64, v) for k in range(65)), 1.6 if i in (0, rails - 1) else 0.7))
-    for j in range(rungs):                       # lines across it
-        u = j / (rungs - 1)
-        paths.append((poly(point(u, -1 + 2 * k / 10) for k in range(11)), 0.6))
-    # A second, slightly shifted pass along both edges: a pencil goes over its outline twice.
-    for v in (-1, 1):
-        paths.append((poly((x + rnd.uniform(-.6, .6), y + 1.2) for x, y in (point(k / 40, v) for k in range(41))), 0.6))
-    return w, h, paths
 
 
 def pencil(w=260, h=70):
@@ -69,7 +42,22 @@ def svg(w, h, paths):
             f'stroke-linecap="round" stroke-linejoin="round">{body}</svg>\n')
 
 
+def pencil_lines(src, dst):
+    """The drawing's pencil lines: dodge the grey image with its blurred negative."""
+    import numpy as np
+    from PIL import Image, ImageFilter, ImageOps
+    grey = ImageOps.grayscale(Image.open(src))
+    blur = ImageOps.invert(grey).filter(ImageFilter.GaussianBlur(6))
+    g = np.asarray(grey, dtype=np.float32)
+    b = np.asarray(blur, dtype=np.float32)
+    dodge = np.clip(g * 255.0 / np.maximum(255.0 - b, 1.0), 0, 255)
+    # Darken the strokes a touch so they read at a small size, keep the paper white.
+    out = 255 - np.clip((255 - dodge) * 1.6, 0, 255)
+    Image.fromarray(out.astype(np.uint8)).save(dst, "WEBP", quality=56, method=6)
+
+
 if __name__ == "__main__":
-    for name, shape in (("sketch-ribbon.svg", ribbon()), ("sketch-pencil.svg", pencil())):
-        (OUT / name).write_text(svg(*shape))
+    (OUT / "sketch-pencil.svg").write_text(svg(*pencil()))
+    pencil_lines(OUT / "hearing-room.webp", OUT / "hearing-room-lines.webp")
+    for name in ("sketch-pencil.svg", "hearing-room.webp", "hearing-room-lines.webp"):
         print(name, (OUT / name).stat().st_size, "bytes")

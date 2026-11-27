@@ -141,9 +141,9 @@ styles turns the ink drawing into a graphite wireframe: lines are pencil grey (`
 straight pencil passes whose top/bottom and side lines **run past the corners** (`.z-card` / `.hg-frame`
 `::before/::after`), cards are the paper itself (light `--z-card` #FDFCF8), buttons, chips and letters are **shaded
 in pencil** (`--z-pencil`, two crossed hatch gradients) with smudged graphite shadows (`--z-press`) instead of hard
-ink ones. All text stays in **Roboto** (a hand-lettered heading font was tried and dropped, per request). Two still doodles from `scripts/sketch_doodles.py` (re-run it after changing a shape) sit by the section
-titles as graphite-filled CSS masks: a twisted **wireframe ribbon** (`assets/sketch-ribbon.svg`) by 01 and a
-**pencil** (`assets/sketch-pencil.svg`) by 02 Witness slips. Static only: no filters, nothing animated; text
+ink ones. All text stays in **Roboto** (a hand-lettered heading font was tried and dropped, per request). A still **pencil** doodle (`assets/sketch-pencil.svg`, a
+graphite-filled CSS mask) sits by 02 Witness slips; by 01 stands the **hearing room drawn while you watch** (below).
+Both come from `scripts/sketch_doodles.py` (re-run it after changing a shape or the drawing; needs Pillow + numpy). Static only: no filters, nothing animated; text
 keeps the full-contrast ink. The circle round "say." (`.hh-circle::after`) is a heavy loop plus a lighter second pass
 with room around the word, so it reads as a circle in both themes rather than strokes through the letters.
 
@@ -163,6 +163,20 @@ the places with hearings as quick buttons (`showIntro`). Places merge the partic
 jurisdictions (`buildPlaces`, so Chicago has one). `#hg-<code>` links (search, shared feeds, Govbot's old addresses)
 open that place (`openFromHash`, also on `hashchange`), and picking writes `#hg-<code>` to the address bar.
 hearings.json, participation.json and the map load together (`start`, `Promise.allSettled`): any one can fail alone.
+**"All upcoming hearings"** (`#mp-all`, beside the list picker, and offered in the intro panel; `#hg-all`): every place's
+hearings and comment deadlines in one list (`allUpcoming`, not canceled, soonest first), 20 at a time ("Show 20 more"),
+each row naming its place (`hearingRow(h, true)` → `.h-place`). Inside the panel the rows flow (the panel scrolls; the
+federal card keeps its own scroll box).
+
+**The hearing room, drawn while you watch (Nov 2026, per request).** By 01 Pick a place (`#hr-art`, a figure in the
+divider; full width under the heading below 900px): a coloured-pencil drawing of people at a hearing ("Open government:
+in the room, for the people"), `assets/hearing-room.webp` (720×480, ~90 KB), and its pencil lines,
+`assets/hearing-room-lines.webp` (made by `sketch_doodles.py`'s `pencil_lines`: grey, inverted, blurred, colour-dodged).
+The lines are drawn in four bands, back and forth like strokes (`.hr-band`: each band's window and picture slide in
+opposite directions, so the picture stands still while it's revealed), a pencil rides the edge (`.hr-pencil`), then the
+colour fades in over them: about 8 s, transform and opacity only, played once when on screen and both pictures have loaded
+(`drawHearingRoom`: `.hr-anim`, then `.is-on`). Both pictures load lazily. Under reduced motion, or without
+IntersectionObserver, the finished colour drawing just shows. The wireframe ribbon that stood there was retired.
 
 **02 Witness slips, Illinois (Nov 2026).** A section (`#witness-slips`, yellow `--z-c3`) under the map, shown only while
 Illinois is picked (`#witness-slips` links open Illinois at it; the Illinois panel links down to it):
