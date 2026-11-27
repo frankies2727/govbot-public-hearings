@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:10:06Z",
+  "generated_at": "2026-11-27T17:26:54Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + federalregister.gov (govbot scrape-hearings)",
   "jurisdictions": [
     {
@@ -7,7 +7,7 @@
       "name": "USA (Federal)",
       "participation": "public_comment",
       "portal_url": "https://www.regulations.gov/",
-      "open_total": 225,
+      "open_total": 226,
       "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F27%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
       "notice_total": 790,
       "notice_categories": [
@@ -99,18 +99,18 @@
       "scheduled_iso": "2026-11-27",
       "scheduled_display": "Comments due Nov 27, 2026",
       "timezone": null,
-      "location": "Online · Regulations.gov",
+      "location": "Online · Federal Register",
       "status": "open",
       "bills": [
         {
-          "id": "FDA-2018-D-4533-2363",
+          "id": "2026-17580",
           "title": "Compounding Animal Drugs From Bulk Drug Substances: Compounding Under CGMP in Federally-Registered Facilities; Draft Guidance for Industry; Availability; Agency Information Collection Activities; Proposed Collection; Comment Request",
           "url": "https://www.federalregister.gov/documents/2026/08/28/2026-17580/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered",
           "slips": null
         }
       ],
       "details_url": "https://www.federalregister.gov/documents/2026/08/28/2026-17580/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered",
-      "witness_slip_url": "https://www.regulations.gov/commenton/FDA-2018-D-4533-2363",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/08/28/2026-17580/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered",
       "source": "federalregister.gov",
       "category": "paperwork"
     },
