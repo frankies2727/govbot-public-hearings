@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:42:48Z",
+  "generated_at": "2026-11-27T02:10:06Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + federalregister.gov (govbot scrape-hearings)",
   "jurisdictions": [
     {
@@ -7,9 +7,9 @@
       "name": "USA (Federal)",
       "participation": "public_comment",
       "portal_url": "https://www.regulations.gov/",
-      "open_total": 208,
-      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F26%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
-      "notice_total": 749,
+      "open_total": 225,
+      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F27%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
+      "notice_total": 790,
       "notice_categories": [
         {
           "key": "rfi",
@@ -19,12 +19,12 @@
         {
           "key": "environment",
           "label": "Environment & wildlife reviews",
-          "total": 7
+          "total": 11
         },
         {
           "key": "permits",
           "label": "Permits, licenses & approvals",
-          "total": 92
+          "total": 96
         },
         {
           "key": "meetings",
@@ -34,20 +34,20 @@
         {
           "key": "privacy",
           "label": "Privacy & government records",
-          "total": 16
+          "total": 17
         },
         {
           "key": "paperwork",
           "label": "Forms & paperwork reviews",
-          "total": 503
+          "total": 529
         },
         {
           "key": "other",
           "label": "Other notices",
-          "total": 98
+          "total": 104
         }
       ],
-      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F26%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
+      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F27%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
     },
     {
       "code": "ak",
