@@ -168,15 +168,22 @@ hearings and comment deadlines in one list (`allUpcoming`, not canceled, soonest
 each row naming its place (`hearingRow(h, true)` → `.h-place`). Inside the panel the rows flow (the panel scrolls; the
 federal card keeps its own scroll box).
 
-**The hearing room, drawn while you watch (Nov 2026, per request).** By 01 Pick a place (`#hr-art`, a figure in the
-divider; full width under the heading below 900px): a coloured-pencil drawing of people at a hearing ("Open government:
-in the room, for the people"), `assets/hearing-room.webp` (720×480, ~90 KB), and its pencil lines,
-`assets/hearing-room-lines.webp` (made by `sketch_doodles.py`'s `pencil_lines`: grey, inverted, blurred, colour-dodged).
-The lines are drawn in four bands, back and forth like strokes (`.hr-band`: each band's window and picture slide in
-opposite directions, so the picture stands still while it's revealed), a pencil rides the edge (`.hr-pencil`), then the
-colour fades in over them: about 8 s, transform and opacity only, played once when on screen and both pictures have loaded
-(`drawHearingRoom`: `.hr-anim`, then `.is-on`). Both pictures load lazily. Under reduced motion, or without
-IntersectionObserver, the finished colour drawing just shows. The wireframe ribbon that stood there was retired.
+**The hearing room, sketched while you watch (Nov 2026, per request), in the hero beside the fireworks.** `#hr-art`
+in `.hh-art` (drawing + fireworks side by side; stacked under the heading below 1000px, the fireworks capped at 220px on
+phones): a coloured-pencil drawing of people at a hearing ("Open government: in the room, for the people"),
+`assets/hearing-room.webp` (600×400, ~60 KB, `fetchpriority=low`). A **coloured pencil** (`assets/pencil-color.svg`:
+graphite point, wood cone, yellow body, ferrule, pink eraser), held at an angle, sketches its pencil lines
+(`assets/hearing-room-lines.webp`, ~60 KB, from `sketch_doodles.py`'s `pencil_lines`) in **8 back-and-forth strokes**,
+scribbling up and down as it goes (`.hr-pencil i`, `hr-scribble`), then the colour fills in: about 8 s, transform and
+opacity only, once, when on screen. `drawHearingRoom` adds `.hr-anim` at once (blank paper), and only when the figure
+is on screen loads the lines picture and builds the 8 `.hr-band` strips and the pencil, then `.is-on`. So without JS,
+without IntersectionObserver or under reduced motion the page loads just the finished colour drawing.
+
+**The circle round "say."** is six coloured-pencil loops (`.hh-circle::after`, an SVG background): #5EBD3E, #FFB900,
+#F78200, #E23838, #973999, #009CDF, each a little off the last with a grainy broken line beside it; fixed colours, so
+it reads the same in both themes. **The place list** (`#mp-pick` in `.mp-rainbow`) wears Govbot's moving six-colour
+border (its "Download the data" pill): a conic gradient spinning behind the paper-coloured select, transform only,
+paused off screen (IntersectionObserver in `buildPicker`), still under reduced motion.
 
 **02 Witness slips, Illinois (Nov 2026).** A section (`#witness-slips`, yellow `--z-c3`) under the map, shown only while
 Illinois is picked (`#witness-slips` links open Illinois at it; the Illinois panel links down to it):
@@ -209,7 +216,12 @@ items appear on a later refresh. The "via govbot ↗" link is Govbot's full addr
 link went nowhere on this site, for every state).
 
 **Speed (Nov 2026).** The `<head>` preconnects to Govbot's site and Google Fonts first, preloads `hearings.json`,
-and fetches all three font families in one stylesheet. `govbot-utils.js` is `defer`red in the head (a synchronous
+and fetches all three font families in one stylesheet, loaded without blocking the first paint (`media="print"` swapped
+to `all` on load, with a `<noscript>` copy). Each place's hearings card is built the first time it's picked
+(`groupFor`, from `pending`), not all at load; the map is its own layer with `contain: layout paint`, and hover and the
+pick are flat tints (only states with hearings carry the hatch pattern, drawn once); `us-states.json` holds whole-pixel
+absolute points (~28 KB gzipped). Measured on a 4×-slower CPU: main thread blocked during load 162 ms → 59 ms, page
+nodes ~3,950 → ~2,090, first paint 804 → 676 ms. `govbot-utils.js` is `defer`red in the head (a synchronous
 cross-site script mid-page used to stop the page from being read until it arrived), so the page starts its data
 work on `DOMContentLoaded`, which runs after deferred scripts. The jump pills animate only `transform` (their
 "you are here" background and shadow used to animate on every scroll), and the inner scroll boxes (`.hgroup-rows`,

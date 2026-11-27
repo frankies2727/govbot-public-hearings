@@ -11,7 +11,8 @@
 <link rel="preload" href="hearings.json" as="fetch" crossorigin>
 <script defer src="https://chihacknight.github.io/govbot/dashboard/assets/govbot-utils.js"></script>
 <link rel="stylesheet" href="https://chihacknight.github.io/govbot/dashboard/assets/govbot.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&display=swap"></noscript>
 <title>Govbot — Hearings &amp; Public Comment</title>
 <meta name="description" content="Upcoming legislative hearings and federal rules open for public comment, with the form to weigh in on each one. Follow any state, bill or hearing by RSS.">
 <meta property="og:type" content="website">
@@ -89,7 +90,6 @@
      holding a still drawing, and only the box moves (transform/opacity), so the browser's
      compositor animates it without repainting anything; the lettering "writes" by sliding a clip
      window over it (two opposite transforms). Paused off screen; still under reduced motion. */
-  .hh-art { flex: 0 1 380px; min-width: 0; margin: -10px -6px -6px 0; }
   .fw-stage { position: relative; aspect-ratio: 380 / 260; }
   .fw-stage > div { position: absolute; }
   .fw-stage svg { display: block; width: 100%; height: 100%; overflow: visible; }
@@ -133,7 +133,6 @@
     .hh-title { font-size: 44px; }
     .hh-tagline { font-size: 19px; }
     .hh-hero-top { flex-direction: column; }
-    .hh-art { flex: none; width: 100%; max-width: 340px; margin: 4px auto 0; }
     .hh-stat-num { font-size: 56px; }
   }
 
@@ -323,8 +322,10 @@
     background: var(--z-ink); -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 22' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 13 C 60 5, 118 17, 178 10 S 262 6, 296 11' stroke-width='3.2'/%3E%3Cpath d='M10 17 C 72 10, 140 19, 202 13 S 276 11, 292 15' stroke-width='1.4' opacity='.7'/%3E%3C/svg%3E") center / 100% 100% no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 22' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 13 C 60 5, 118 17, 178 10 S 262 6, 296 11' stroke-width='3.2'/%3E%3Cpath d='M10 17 C 72 10, 140 19, 202 13 S 276 11, 292 15' stroke-width='1.4' opacity='.7'/%3E%3C/svg%3E") center / 100% 100% no-repeat; }
   .hnotices-h { position: relative; display: table; }
   .hh-circle { position: relative; white-space: nowrap; }
-  .hh-circle::after { content: ""; position: absolute; inset: -30% -22% -36% -20%; background: var(--z-ink); pointer-events: none;
-    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 130' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M44 80 C 20 30, 186 6, 222 50 C 246 92, 94 128, 34 94 C 6 76, 60 22, 150 22 C 192 24, 214 34, 224 42' stroke-width='7'/%3E%3Cpath d='M30 70 C 30 26, 190 14, 214 54 C 232 88, 110 118, 46 98' stroke-width='3' opacity='.75'/%3E%3C/svg%3E") center / 100% 100% no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 130' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M44 80 C 20 30, 186 6, 222 50 C 246 92, 94 128, 34 94 C 6 76, 60 22, 150 22 C 192 24, 214 34, 224 42' stroke-width='7'/%3E%3Cpath d='M30 70 C 30 26, 190 14, 214 54 C 232 88, 110 118, 46 98' stroke-width='3' opacity='.75'/%3E%3C/svg%3E") center / 100% 100% no-repeat; }
+  /* The circle round "say.": six coloured-pencil loops, one per colour, each a little off the last, with a grainy
+     second line beside it. The colours are fixed, so it reads the same in both themes. */
+  .hh-circle::after { content: ""; position: absolute; inset: -30% -22% -36% -20%; pointer-events: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 130' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M38.5 77.6 C 14.5 27.6, 180.5 3.6, 216.5 47.6 C 240.5 89.6, 88.5 125.6, 28.5 91.6 C 0.5 73.6, 54.5 19.6, 144.5 19.6 C 186.5 21.6, 208.5 31.6, 218.5 39.6' stroke='%235EBD3E' stroke-width='4.2' opacity='.92'/%3E%3Cpath d='M38.5 77.6 C 14.5 27.6, 180.5 3.6, 216.5 47.6 C 240.5 89.6, 88.5 125.6, 28.5 91.6 C 0.5 73.6, 54.5 19.6, 144.5 19.6 C 186.5 21.6, 208.5 31.6, 218.5 39.6' stroke='%235EBD3E' stroke-width='1.4' stroke-dasharray='9 3 4 2' transform='translate%281.5 2%29' opacity='.8'/%3E%3Cpath d='M40.7 80.0 C 16.7 30.0, 182.7 6.0, 218.7 50.0 C 242.7 92.0, 90.7 128.0, 30.7 94.0 C 2.7 76.0, 56.7 22.0, 146.7 22.0 C 188.7 24.0, 210.7 34.0, 220.7 42.0' stroke='%23FFB900' stroke-width='3.4' opacity='.92'/%3E%3Cpath d='M40.7 80.0 C 16.7 30.0, 182.7 6.0, 218.7 50.0 C 242.7 92.0, 90.7 128.0, 30.7 94.0 C 2.7 76.0, 56.7 22.0, 146.7 22.0 C 188.7 24.0, 210.7 34.0, 220.7 42.0' stroke='%23FFB900' stroke-width='1.4' stroke-dasharray='9 3 4 2' transform='translate%281.5 2%29' opacity='.8'/%3E%3Cpath d='M42.9 82.4 C 18.9 32.4, 184.9 8.4, 220.9 52.4 C 244.9 94.4, 92.9 130.4, 32.9 96.4 C 4.9 78.4, 58.9 24.4, 148.9 24.4 C 190.9 26.4, 212.9 36.4, 222.9 44.4' stroke='%23F78200' stroke-width='4.2' opacity='.92'/%3E%3Cpath d='M42.9 82.4 C 18.9 32.4, 184.9 8.4, 220.9 52.4 C 244.9 94.4, 92.9 130.4, 32.9 96.4 C 4.9 78.4, 58.9 24.4, 148.9 24.4 C 190.9 26.4, 212.9 36.4, 222.9 44.4' stroke='%23F78200' stroke-width='1.4' stroke-dasharray='9 3 4 2' transform='translate%281.5 2%29' opacity='.8'/%3E%3Cpath d='M45.1 77.6 C 21.1 27.6, 187.1 3.6, 223.1 47.6 C 247.1 89.6, 95.1 125.6, 35.1 91.6 C 7.1 73.6, 61.1 19.6, 151.1 19.6 C 193.1 21.6, 215.1 31.6, 225.1 39.6' stroke='%23E23838' stroke-width='3.4' opacity='.92'/%3E%3Cpath d='M45.1 77.6 C 21.1 27.6, 187.1 3.6, 223.1 47.6 C 247.1 89.6, 95.1 125.6, 35.1 91.6 C 7.1 73.6, 61.1 19.6, 151.1 19.6 C 193.1 21.6, 215.1 31.6, 225.1 39.6' stroke='%23E23838' stroke-width='1.4' stroke-dasharray='9 3 4 2' transform='translate%281.5 2%29' opacity='.8'/%3E%3Cpath d='M47.3 80.0 C 23.3 30.0, 189.3 6.0, 225.3 50.0 C 249.3 92.0, 97.3 128.0, 37.3 94.0 C 9.3 76.0, 63.3 22.0, 153.3 22.0 C 195.3 24.0, 217.3 34.0, 227.3 42.0' stroke='%23973999' stroke-width='4.2' opacity='.92'/%3E%3Cpath d='M47.3 80.0 C 23.3 30.0, 189.3 6.0, 225.3 50.0 C 249.3 92.0, 97.3 128.0, 37.3 94.0 C 9.3 76.0, 63.3 22.0, 153.3 22.0 C 195.3 24.0, 217.3 34.0, 227.3 42.0' stroke='%23973999' stroke-width='1.4' stroke-dasharray='9 3 4 2' transform='translate%281.5 2%29' opacity='.8'/%3E%3Cpath d='M49.5 82.4 C 25.5 32.4, 191.5 8.4, 227.5 52.4 C 251.5 94.4, 99.5 130.4, 39.5 96.4 C 11.5 78.4, 65.5 24.4, 155.5 24.4 C 197.5 26.4, 219.5 36.4, 229.5 44.4' stroke='%23009CDF' stroke-width='3.4' opacity='.92'/%3E%3Cpath d='M49.5 82.4 C 25.5 32.4, 191.5 8.4, 227.5 52.4 C 251.5 94.4, 99.5 130.4, 39.5 96.4 C 11.5 78.4, 65.5 24.4, 155.5 24.4 C 197.5 26.4, 219.5 36.4, 229.5 44.4' stroke='%23009CDF' stroke-width='1.4' stroke-dasharray='9 3 4 2' transform='translate%281.5 2%29' opacity='.8'/%3E%3C/svg%3E") center / 100% 100% no-repeat; }
 
   /* Pencil rules instead of dashed lines. */
   .hh-stats { border-top: 0; position: relative; }
@@ -396,46 +397,57 @@
   .ws-empty b { color: var(--z-ink); }
   .ws-empty .ws-acts { margin-top: 14px; }
 
-  /* ---------- The hearing room, drawn while you watch (by 01 Pick a place) ----------
-     Four bands of pencil lines are revealed one after another, back and forth like strokes, each by
-     two opposite transforms (the band's window slides in, its picture slides the other way, so the
-     picture stands still); a pencil rides the edge; then the coloured drawing fades in over the lines.
-     Transform and opacity only. It plays once, when on screen and both pictures have loaded
-     (.hr-anim, then .is-on, set by drawHearingRoom); without that, or under reduced motion, the
-     finished drawing simply shows. */
-  .z-divider { flex-wrap: wrap; }
-  .hr-art { position: relative; flex: none; width: min(380px, 38%); aspect-ratio: 3 / 2; margin: 0 0 0 auto; overflow: hidden;
+  /* ---------- The hearing room, sketched while you watch (in the hero, beside the fireworks) ----------
+     A coloured pencil draws the picture's pencil lines in 8 strokes, back and forth, scribbling up and down
+     as it goes like a hand sketching; then the colour fills in. Each stroke is a band of the line drawing
+     revealed by two opposite transforms (the band's window slides in, its picture slides the other way,
+     so the picture stands still). Transform and opacity only, played once when on screen; the bands and
+     their picture exist only while it plays (drawHearingRoom builds them), so without JS, or under
+     reduced motion, the page loads just the finished colour drawing. */
+  .hh-art { flex: 0 1 620px; min-width: 0; display: flex; align-items: center; gap: 12px; margin: -6px -6px -6px 0; }
+  .hr-art { position: relative; flex: 1 1 340px; min-width: 0; aspect-ratio: 3 / 2; margin: 0; overflow: hidden;
     border: var(--z-line); border-radius: var(--z-radius); background: #FBFAF5; box-shadow: 3px 4px 0 var(--z-press); }
-  @media (max-width: 900px) { .hr-art { order: 3; width: 100%; max-width: 560px; margin: 18px 0 0; } }
+  .hh-art .fw-stage { flex: 0 1 250px; min-width: 0; }
+  @media (max-width: 1000px) { .hh-hero-top { flex-direction: column; } .hh-art { flex: none; width: 100%; margin: 8px 0 0; } }
+  @media (max-width: 620px) { .hh-art { flex-direction: column; } .hr-art { flex: none; width: 100%; } .hh-art .fw-stage { flex: none; width: 100%; max-width: 220px; margin: -6px auto 0; } }
   .hr-art img { display: block; width: 100%; height: auto; }
   .hr-color { position: absolute; inset: 0; height: 100%; object-fit: cover; }
-  .hr-band { position: absolute; left: 0; right: 0; top: calc(var(--i) * 25%); height: 25%; overflow: hidden; }
+  .hr-band { position: absolute; left: 0; right: 0; top: calc(var(--i) * 12.5%); height: 12.5%; overflow: hidden; }
   .hr-wipe { position: absolute; inset: 0; overflow: hidden; }
-  .hr-wipe img { position: absolute; left: 0; top: calc(var(--i) * -100%); width: 100%; height: 400%; }
-  .hr-pencil { position: absolute; inset: 0; pointer-events: none; opacity: 0; }
-  .hr-pencil span { position: absolute; left: 0; top: 0; width: 72px; height: 20px; transform-origin: 0 50%; transform: translate(-2px, -50%) rotate(-38deg) scaleX(-1);
-    background: var(--z-ink); -webkit-mask: url("assets/sketch-pencil.svg") center / contain no-repeat; mask: url("assets/sketch-pencil.svg") center / contain no-repeat; }
-  .hr-anim .hr-wipe, .hr-anim .hr-wipe img, .hr-anim .hr-color, .hr-anim .hr-pencil { animation-play-state: paused; animation-fill-mode: both; }
-  .hr-anim.is-on .hr-wipe, .hr-anim.is-on .hr-wipe img, .hr-anim.is-on .hr-color, .hr-anim.is-on .hr-pencil { animation-play-state: running; }
-  /* Bands 0 and 2 are drawn left to right, 1 and 3 right to left: 1.5s each. */
-  .hr-anim .hr-band .hr-wipe { animation: hr-in-l 1.5s cubic-bezier(.45, .1, .55, .9) calc(var(--i) * 1.5s + .3s) both; }
-  .hr-anim .hr-band .hr-wipe img { animation: hr-out-l 1.5s cubic-bezier(.45, .1, .55, .9) calc(var(--i) * 1.5s + .3s) both; }
+  .hr-wipe img { position: absolute; left: 0; top: calc(var(--i) * -100%); width: 100%; height: 800%; }
+  .hr-pencil { position: absolute; inset: 0; pointer-events: none; }
+  .hr-pencil i { position: absolute; left: 0; top: 0; }
+  /* The pencil's point sits on the edge being drawn, its body up and to the right, the way a hand holds it. */
+  .hr-pencil span { position: absolute; left: 0; top: 0; width: 88px; height: 16px; transform-origin: 1% 50%;
+    transform: translate(-1%, -50%) rotate(-38deg); background: url("assets/pencil-color.svg") center / contain no-repeat;
+    filter: drop-shadow(2px 3px 0 rgba(0, 0, 0, .18)); }
+  @media (max-width: 620px) { .hr-pencil span { width: 70px; height: 13px; } }
+  .hr-anim .hr-wipe, .hr-anim .hr-wipe img, .hr-anim .hr-color, .hr-anim .hr-pencil, .hr-anim .hr-pencil i { animation-fill-mode: both; animation-play-state: paused; }
+  .hr-anim.is-on .hr-wipe, .hr-anim.is-on .hr-wipe img, .hr-anim.is-on .hr-color, .hr-anim.is-on .hr-pencil, .hr-anim.is-on .hr-pencil i { animation-play-state: running; }
+  .hr-anim .hr-band .hr-wipe { animation: hr-in-l .8s cubic-bezier(.4, .1, .6, .9) calc(var(--i) * .8s + .3s) both; }
+  .hr-anim .hr-band .hr-wipe img { animation: hr-out-l .8s cubic-bezier(.4, .1, .6, .9) calc(var(--i) * .8s + .3s) both; }
   .hr-anim .hr-band:nth-child(even) .hr-wipe { animation-name: hr-in-r; }
   .hr-anim .hr-band:nth-child(even) .hr-wipe img { animation-name: hr-out-r; }
   @keyframes hr-in-l { from { transform: translateX(-100%); } to { transform: none; } }
   @keyframes hr-out-l { from { transform: translateX(100%); } to { transform: none; } }
   @keyframes hr-in-r { from { transform: translateX(100%); } to { transform: none; } }
   @keyframes hr-out-r { from { transform: translateX(-100%); } to { transform: none; } }
-  .hr-anim .hr-pencil { animation: hr-pencil 6s cubic-bezier(.45, .1, .55, .9) .3s both, hr-fade 6.6s linear .3s both; }
+  .hr-anim .hr-pencil { animation: hr-pencil 6.4s cubic-bezier(.4, .1, .6, .9) .3s both, hr-lift .7s ease-in 6.7s both; }
   @keyframes hr-pencil {
-    0% { transform: translate(0, 12.5%); } 25% { transform: translate(100%, 12.5%); }
-    25.01% { transform: translate(100%, 37.5%); } 50% { transform: translate(0, 37.5%); }
-    50.01% { transform: translate(0, 62.5%); } 75% { transform: translate(100%, 62.5%); }
-    75.01% { transform: translate(100%, 87.5%); } 100% { transform: translate(0, 87.5%); } }
-  @keyframes hr-fade { 0%, 90% { opacity: 1; } 100% { opacity: 0; } }
-  .hr-anim .hr-color { animation: hr-color 1.8s ease-in 6.4s both; }
+    0.00% { transform: translate(0%, 6.25%); } 12.50% { transform: translate(100%, 6.25%); }
+    12.51% { transform: translate(100%, 18.75%); } 25.00% { transform: translate(0%, 18.75%); }
+    25.01% { transform: translate(0%, 31.25%); } 37.50% { transform: translate(100%, 31.25%); }
+    37.51% { transform: translate(100%, 43.75%); } 50.00% { transform: translate(0%, 43.75%); }
+    50.01% { transform: translate(0%, 56.25%); } 62.50% { transform: translate(100%, 56.25%); }
+    62.51% { transform: translate(100%, 68.75%); } 75.00% { transform: translate(0%, 68.75%); }
+    75.01% { transform: translate(0%, 81.25%); } 87.50% { transform: translate(100%, 81.25%); }
+    87.51% { transform: translate(100%, 93.75%); } 100.00% { transform: translate(0%, 93.75%); } }
+  /* The scribble: quick up-and-down strokes while the pencil travels, as a hand shades. */
+  .hr-anim .hr-pencil i { animation: hr-scribble .16s ease-in-out .3s 40 alternate both; }
+  @keyframes hr-scribble { from { transform: translate(-2px, -9px) rotate(-3deg); } to { transform: translate(2px, 9px) rotate(3deg); } }
+  @keyframes hr-lift { from { opacity: 1; } to { opacity: 0; } }
+  .hr-anim .hr-color { animation: hr-color 1.6s ease-in 6.8s both; }
   @keyframes hr-color { from { opacity: 0; } to { opacity: 1; } }
-  @media (prefers-reduced-motion: reduce) { .hr-anim .hr-wipe, .hr-anim .hr-wipe img, .hr-anim .hr-color, .hr-anim .hr-pencil { animation: none; } .hr-anim .hr-pencil { opacity: 0; } }
 
   /* ---------- 01 Pick a place: a pencil map beside one place's panel ---------- */
   :root { --mp-paper: var(--z-card); --mp-live: #8FD9A0; --mp-sel: #FFD166; }
@@ -443,20 +455,20 @@
   .mp-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 28px; align-items: start; }
   @media (max-width: 960px) { .mp-grid { grid-template-columns: 1fr; } }
   .mp-mapcard { padding: 14px 14px 12px; }
-  .mp-map { aspect-ratio: 1028 / 746; }
+  /* Its own layer and containment: a new panel never redraws the map, and a pick redraws only the states it changes. */
+  .mp-map { aspect-ratio: 1028 / 746; contain: layout paint; will-change: transform; }
   .mp-svg { display: block; width: 100%; height: 100%; overflow: visible; }
   /* States: paper inside a graphite line, traced again by a lighter, slightly shifted pencil pass. */
   .mp-st { fill: var(--mp-paper); stroke: var(--z-graphite); stroke-width: 1.3; stroke-linejoin: round; cursor: pointer; }
   .mp-st.is-live { fill: url(#mp-hatch-live); }
-  .mp-st:hover { fill: color-mix(in srgb, var(--z-graphite) 12%, var(--mp-paper)); }
-  .mp-st.is-live:hover { fill: url(#mp-hatch-sel); }
-  .mp-st.is-sel { fill: url(#mp-hatch-sel); stroke: var(--z-ink); stroke-width: 2.4; }
+  /* Hover and the pick are flat tints (cheap to repaint on every tap); only the states with hearings carry hatching, drawn once. */
+  .mp-st:hover { fill: color-mix(in srgb, var(--z-graphite) 14%, var(--mp-paper)); }
+  .mp-st.is-live:hover, .mp-st.is-sel { fill: color-mix(in srgb, var(--mp-sel) 70%, var(--mp-paper)); }
+  .mp-st.is-sel { stroke: var(--z-ink); stroke-width: 2.4; }
   .mp-st:focus-visible { outline: none; stroke: var(--z-ink); stroke-width: 3; }
   .mp-pass { fill: none; stroke: var(--z-graphite-2); stroke-width: .8; transform: translate(1.8px, 1.2px); pointer-events: none; }
   .mp-hatch-live-bg { fill: color-mix(in srgb, var(--mp-live) 35%, var(--mp-paper)); }
   .mp-hatch-live-ln { stroke: var(--mp-live); stroke-width: 3.2; }
-  .mp-hatch-sel-bg { fill: color-mix(in srgb, var(--mp-sel) 40%, var(--mp-paper)); }
-  .mp-hatch-sel-ln { stroke: var(--mp-sel); stroke-width: 3.6; }
   .mp-lbl { font: 500 17px var(--z-font); fill: var(--z-ink); text-anchor: middle; pointer-events: none; paint-order: stroke; stroke: var(--mp-paper); stroke-width: 3px; }
   .mp-lbl.is-live { font-weight: 700; font-size: 19px; }
   /* On a phone the map is small: only the places with hearings keep a label, drawn bigger. */
@@ -468,6 +480,18 @@
   .mp-city-dot { fill: var(--z-ink); }
   .mp-city-lbl { font: 700 15px var(--z-font); fill: var(--z-ink); paint-order: stroke; stroke: var(--mp-paper); stroke-width: 4px; }
   .mp-city:focus-visible { outline: none; } .mp-city:focus-visible .mp-city-ring { stroke-width: 4; }
+  /* The place list wears Govbot's moving six-colour border (its "Download the data" pill): a conic gradient
+     spinning behind a paper-coloured select, transform only; paused off screen, still under reduced motion. */
+  .mp-rainbow { --rb: #5EBD3E, #FFB900, #F78200, #E23838, #973999, #009CDF, #5EBD3E;
+    position: relative; display: inline-flex; padding: 3px; border-radius: 999px; overflow: hidden; isolation: isolate; }
+  .mp-rainbow::before { content: ""; position: absolute; z-index: -1; left: 50%; top: 50%; width: 140%; aspect-ratio: 1;
+    background: conic-gradient(var(--rb)); transform: translate(-50%, -50%); animation: mp-spin 4s linear infinite; }
+  .mp-rainbow.is-off::before { animation-play-state: paused; }
+  @keyframes mp-spin { to { transform: translate(-50%, -50%) rotate(1turn); } }
+  @media (prefers-reduced-motion: reduce) { .mp-rainbow::before { animation: none; } }
+  .mp-select { min-height: 42px; max-width: 100%; padding: 6px 14px; border: 0; border-radius: 999px; background-color: var(--z-card);
+    background-image: var(--z-pencil); color: var(--z-ink); font: inherit; font-size: 15px; font-weight: 500; cursor: pointer; }
+  .mp-select:focus-visible { outline: 3px solid var(--z-ink); outline-offset: 3px; }
   .mp-all { font-weight: 500; }
   .mp-all[hidden] { display: none; }
   .mp-all[aria-pressed="true"] { background-color: var(--mp-sel); color: var(--z-on-color); box-shadow: 3px 4px 0 var(--z-press); }
@@ -550,13 +574,12 @@
   .hgroup-rows.fsec-rows { border-color: var(--z-graphite); }
   .wrap::before { border-color: var(--z-graphite-2); }
 
-  /* Doodle by the 02 Witness slips title: a pencil. (01 has the hearing-room drawing.) */
+  /* Doodle by the 02 Witness slips title: a pencil. (01 keeps its star.) */
   #witness-slips .z-divider::after { background: var(--z-graphite);
     -webkit-mask: var(--doodle) center / contain no-repeat; mask: var(--doodle) center / contain no-repeat; }
   #witness-slips .z-divider::after { --doodle: url("assets/sketch-pencil.svg"); width: 230px; height: 62px; top: 6px; right: 1%; transform: rotate(-8deg); }
   @media (max-width: 1100px) { #witness-slips .z-divider::after { width: 150px; height: 40px; top: -22px; } }
   @media (max-width: 620px) { #witness-slips .z-divider::after { width: 110px; height: 30px; top: -30px; } }
-  #places .z-divider::after { display: none; }   /* the hearing-room drawing stands there instead */
 </style>
 <script>
   // Apply a saved theme choice before first paint to avoid a flash of the
@@ -728,7 +751,13 @@
         <h1 class="hh-title">Have your <span class="hh-circle">say.</span></h1>
         <p class="hh-tagline">Government isn’t just something you watch — you can participate.</p>
       </div>
-      <div class="hh-art" aria-hidden="true"><div class="fw-stage" id="hh-fw"></div></div>
+      <div class="hh-art">
+        <!-- Sketched while you watch: a pencil draws the lines, then the colour fills in (drawHearingRoom). -->
+        <figure class="hr-art" id="hr-art" aria-label="A coloured-pencil drawing of people at a public hearing; a banner reads Open government: in the room, for the people">
+          <img class="hr-color" src="assets/hearing-room.webp" alt="" width="600" height="400" decoding="async" fetchpriority="low">
+        </figure>
+        <div class="fw-stage" id="hh-fw" aria-hidden="true"></div>
+      </div>
     </div>
     <div class="hh-stats" id="hh-stats" role="group" aria-label="Live hearing activity"></div>
   </header>
@@ -740,20 +769,11 @@
         <h2 id="places-h">Pick a place</h2>
         <p>Tap a state, Chicago or the federal agencies to see the hearings coming up there and how to weigh in.</p>
       </div>
-      <!-- Drawn while you watch: the pencil lines in four strokes, a pencil at the edge, then the colour. -->
-      <figure class="hr-art" id="hr-art" aria-label="A coloured-pencil drawing of people at a public hearing; a banner reads Open government: in the room, for the people">
-          <div class="hr-band" style="--i:0"><div class="hr-wipe"><img src="assets/hearing-room-lines.webp" alt="" width="720" height="480" loading="lazy" decoding="async"></div></div>
-          <div class="hr-band" style="--i:1"><div class="hr-wipe"><img src="assets/hearing-room-lines.webp" alt="" width="720" height="480" loading="lazy" decoding="async"></div></div>
-          <div class="hr-band" style="--i:2"><div class="hr-wipe"><img src="assets/hearing-room-lines.webp" alt="" width="720" height="480" loading="lazy" decoding="async"></div></div>
-          <div class="hr-band" style="--i:3"><div class="hr-wipe"><img src="assets/hearing-room-lines.webp" alt="" width="720" height="480" loading="lazy" decoding="async"></div></div>
-          <img class="hr-color" src="assets/hearing-room.webp" alt="" width="720" height="480" loading="lazy" decoding="async">
-          <div class="hr-pencil" aria-hidden="true"><span></span></div>
-      </figure>
     </div>
     <div class="mp-tools">
       <button type="button" class="mp-chip mp-all" id="mp-all" data-code="all">All upcoming hearings <span class="mp-chip-n" id="mp-all-n"></span></button>
       <label class="gb-sr" for="mp-pick">Pick a state or place</label>
-      <select id="mp-pick" class="ws-select"><option value="">Or pick from the list…</option></select>
+      <span class="mp-rainbow" id="mp-rainbow"><select id="mp-pick" class="mp-select"><option value="">Or pick from the list…</option></select></span>
       <span class="asof" id="hearings-asof"></span>
       <button type="button" class="rss-link" id="rss-btn" aria-haspopup="dialog" aria-expanded="false"
               title="Follow every upcoming hearing in a feed reader">
@@ -884,7 +904,8 @@
   const zc = (i) => "var(" + ZINE_COLORS[i % ZINE_COLORS.length] + ")";
 
   // Each place's hearings card (built once), keyed by code; the panel shows one at a time.
-  const groups = {};
+  const groups = {};    // code -> its built card
+  const pending = {};   // code -> what it takes to build it
   const counts = {};
   let allUpcoming = [];
   let portals = {};
@@ -919,43 +940,48 @@
     allUpcoming = hearings.filter((h) => h.status !== "canceled" && h.scheduled_iso)
       .sort((a, b) => a.scheduled_iso.localeCompare(b.scheduled_iso));
 
+    // Count each place's hearings now; build its card only when it's first picked (groupFor).
     Object.keys(byJur).forEach((code, gi) => {
       const juris = portals[code] || { name: code.toUpperCase() };
-      const group = eln("div", "hgroup");
-      group.style.setProperty("--hg-accent", zc(gi));
-      const head = eln("div", "hgroup-head");
-      // Federal carries only the soonest-closing open rules, plus a few notices of each
-      // kind (records with a category) shown in their own sections below.
       const listed = byJur[code].filter((h) => !h.category);
       const notices = noticePreview(byJur[code].filter((h) => h.category));
-      const shownHere = code === "us" ? Math.min(listed.length, SHOW_MAX) + notices.length
-        : Math.min(listed.length, SHOW_MAX);
-      const totalHere = code === "us"
+      counts[code] = code === "us"
         ? (juris.open_total || listed.length) + (juris.notice_total || notices.length) : listed.length;
-      counts[code] = totalHere;
-      head.append(eln("span", "hgroup-count", showing(shownHere, totalHere)));
-      group.append(head);
-      if (code === "us") {
-        group.classList.add("hgroup--fed");
-        // The kinds' sticky titles sit just under the sticky header, whatever height it wraps to.
-        const fit = () => group.style.setProperty("--fed-head-h", head.offsetHeight + "px");
-        if ("ResizeObserver" in window) new ResizeObserver(fit).observe(head); else fit();
-        federalSections(group, listed, notices, juris);
-      } else {
-        // Rows live in their own wrapper so zebra :nth-child counts rows, not head.
-        const rows = eln("div", "hgroup-rows");
-        listed.slice(0, SHOW_MAX).forEach((h) => rows.append(hearingRow(h)));
-        group.append(rows);
-        if (listed.length > SHOW_MAX && (juris.full_list_url || juris.portal_url)) {
-          group.append(seeAllRow("Showing the next " + SHOW_MAX + ".",
-            "See all " + fmt(listed.length) + " \u2197", juris.full_list_url || juris.portal_url));
-        }
-      }
-      // The frame carries the card's pencil-sketch lines (the federal card scrolls, which would clip them).
-      const frame = eln("div", "hg-frame");
-      frame.append(group);
-      groups[code] = frame;
+      pending[code] = { gi: gi, juris: juris, listed: listed, notices: notices };
     });
+  }
+
+  // A place's hearings card, built the first time it's picked (and kept).
+  function groupFor(code) {
+    if (groups[code] || !pending[code]) return groups[code];
+    const { gi, juris, listed, notices } = pending[code];
+    const group = eln("div", "hgroup");
+    group.style.setProperty("--hg-accent", zc(gi));
+    const head = eln("div", "hgroup-head");
+    const shownHere = code === "us" ? Math.min(listed.length, SHOW_MAX) + notices.length : Math.min(listed.length, SHOW_MAX);
+    head.append(eln("span", "hgroup-count", showing(shownHere, counts[code])));
+    group.append(head);
+    if (code === "us") {
+      group.classList.add("hgroup--fed");
+      // The kinds' sticky titles sit just under the sticky header, whatever height it wraps to.
+      const fit = () => group.style.setProperty("--fed-head-h", head.offsetHeight + "px");
+      if ("ResizeObserver" in window) new ResizeObserver(fit).observe(head); else fit();
+      federalSections(group, listed, notices, juris);
+    } else {
+      // Rows live in their own wrapper so zebra :nth-child counts rows, not head.
+      const rows = eln("div", "hgroup-rows");
+      listed.slice(0, SHOW_MAX).forEach((h) => rows.append(hearingRow(h)));
+      group.append(rows);
+      if (listed.length > SHOW_MAX && (juris.full_list_url || juris.portal_url)) {
+        group.append(seeAllRow("Showing the next " + SHOW_MAX + ".",
+          "See all " + fmt(listed.length) + " \u2197", juris.full_list_url || juris.portal_url));
+      }
+    }
+    // The frame carries the card's pencil-sketch lines (the federal card scrolls, which would clip them).
+    const frame = eln("div", "hg-frame");
+    frame.append(group);
+    groups[code] = frame;
+    return frame;
   }
 
   // Every list shows at most SHOW_MAX rows ("x of y showing") with a "See all ↗" link
@@ -1232,7 +1258,7 @@
     if (geo && geo.states) {
       const svg = svgEl("svg", { viewBox: geo.viewBox, class: "mp-svg", role: "group", "aria-label": "Map of the states: pick one" });
       const defs = svgEl("defs", {}, svg);
-      [["mp-hatch-live", "mp-hatch-live"], ["mp-hatch-sel", "mp-hatch-sel"]].forEach(([id, cls]) => {
+      [["mp-hatch-live", "mp-hatch-live"]].forEach(([id, cls]) => {
         const pat = svgEl("pattern", { id: id, width: 7, height: 7, patternUnits: "userSpaceOnUse", patternTransform: "rotate(-55)" }, defs);
         svgEl("rect", { width: 7, height: 7, class: cls + "-bg" }, pat);
         svgEl("line", { x1: 0, y1: 0, x2: 0, y2: 7, class: cls + "-ln" }, pat);
@@ -1301,6 +1327,8 @@
 
   // Every place in one list too (keyboard and screen-reader friendly), with hearings first.
   function buildPicker() {
+    const rb = $("mp-rainbow");
+    if ("IntersectionObserver" in window) new IntersectionObserver(([e]) => rb.classList.toggle("is-off", !e.isIntersecting)).observe(rb);
     const all = $("mp-all");
     $("mp-all-n").textContent = fmt(allUpcoming.length);
     all.hidden = !allUpcoming.length;
@@ -1374,7 +1402,7 @@
     }
 
     panel.append(eln("h4", "mp-sub", "Hearings coming up"));
-    if (groups[code]) panel.append(groups[code]);
+    if (groupFor(code)) panel.append(groupFor(code));
     else panel.append(eln("p", "mp-p", "None posted for the next few weeks. Follow " + p.name + " to hear when one is."));
 
     $("witness-slips").hidden = code !== "il";
@@ -1615,22 +1643,32 @@
   })();
 
 
-  // The hearing room by 01 Pick a place, drawn while you watch (styles under .hr-art): once both
-  // pictures have loaded and the drawing is on screen, it plays once. Under reduced motion, or
-  // without IntersectionObserver, the finished drawing just shows.
+  // The hearing room in the hero, sketched while you watch (styles under .hr-art). Only when it can play
+  // (on screen, motion allowed) are the 8 strips of pencil lines and the pencil added and their picture
+  // loaded; it plays once. Otherwise the finished colour drawing simply shows.
   (function drawHearingRoom() {
     const art = $("hr-art");
     if (!art || !("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    art.classList.add("hr-anim");
-    const imgs = [...art.querySelectorAll("img")];
+    art.classList.add("hr-anim");   // blank paper until the sketch starts (the colour waits, paused at its start)
     const io = new IntersectionObserver(([e]) => {
       if (!e.isIntersecting) return;
       io.disconnect();
-      // Load the two pictures (the lines repeat in each band) now, then draw; a failed one never holds it back.
-      imgs.forEach((im) => { im.loading = "eager"; });
-      Promise.all([imgs[0], imgs[imgs.length - 1]].map((im) => (im.decode ? im.decode().catch(() => {}) : Promise.resolve())))
-        .then(() => art.classList.add("is-on"));
-    }, { threshold: 0.35 });
+      const lines = new Image();
+      lines.src = "assets/hearing-room-lines.webp";
+      const colour = art.querySelector(".hr-color");
+      Promise.all([lines, colour].map((im) => (im.decode ? im.decode().catch(() => {}) : Promise.resolve()))).then(() => {
+        for (let i = 0; i < 8; i++) {
+          const band = eln("div", "hr-band"); band.style.setProperty("--i", i);
+          const wipe = eln("div", "hr-wipe");
+          const img = eln("img"); img.src = lines.src; img.alt = "";
+          wipe.append(img); band.append(wipe); art.insertBefore(band, colour);
+        }
+        const pencil = eln("div", "hr-pencil"); pencil.setAttribute("aria-hidden", "true");
+        pencil.append(eln("i")); pencil.firstChild.append(eln("span"));
+        art.append(pencil);
+        requestAnimationFrame(() => art.classList.add("is-on"));
+      });
+    }, { threshold: 0.3 });
     io.observe(art);
   })();
 

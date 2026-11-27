@@ -53,7 +53,7 @@ def pencil_lines(src, dst):
     dodge = np.clip(g * 255.0 / np.maximum(255.0 - b, 1.0), 0, 255)
     # Darken the strokes a touch so they read at a small size, keep the paper white.
     out = 255 - np.clip((255 - dodge) * 1.6, 0, 255)
-    Image.fromarray(out.astype(np.uint8)).save(dst, "WEBP", quality=56, method=6)
+    Image.fromarray(out.astype(np.uint8)).save(dst, "WEBP", quality=50, method=6)
 
 
 if __name__ == "__main__":
