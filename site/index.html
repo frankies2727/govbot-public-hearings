@@ -490,7 +490,12 @@
   .mp-rainbow.is-off::before { animation-play-state: paused; }
   @keyframes mp-spin { to { transform: translate(-50%, -50%) rotate(1turn); } }
   @media (prefers-reduced-motion: reduce) { .mp-rainbow::before { animation: none; } }
-  .mp-select { min-height: 42px; max-width: 100%; padding: 6px 14px; border: 0; border-radius: 999px; background-color: var(--z-card);
+  /* Our own down-arrow (the browser's is faint on dark paper): a chevron in the ink colour, so it reads as a dropdown. */
+  .mp-rainbow::after { content: ""; position: absolute; right: 17px; top: 50%; width: 14px; height: 9px; transform: translateY(-50%);
+    background: var(--z-ink); pointer-events: none;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5 7 7l5.5-5.5' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5 7 7l5.5-5.5' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat; }
+  .mp-select { -webkit-appearance: none; appearance: none; min-height: 42px; max-width: 100%; padding: 6px 42px 6px 14px; border: 0; border-radius: 999px; background-color: var(--z-card);
     background-image: var(--z-pencil); color: var(--z-ink); font: inherit; font-size: 15px; font-weight: 500; cursor: pointer; }
   .mp-select:focus-visible { outline: 3px solid var(--z-ink); outline-offset: 3px; }
   .mp-all { font-weight: 500; }

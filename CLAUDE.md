@@ -194,7 +194,8 @@ without IntersectionObserver or under reduced motion the page loads just the fin
 it reads the same in both themes; it sits behind the word (`z-index: -1` inside the isolated `.hh-circle`) with room
 around it, so the letters are never covered. **The place list** (`#mp-pick` in `.mp-rainbow`) wears Govbot's moving six-colour
 border (its "Download the data" pill): a conic gradient spinning behind the paper-coloured select, transform only,
-paused off screen (IntersectionObserver in `buildPicker`), still under reduced motion.
+paused off screen (IntersectionObserver in `buildPicker`), still under reduced motion. The browser's own select arrow is hidden
+(`appearance: none`; it was faint on dark paper) and a clear ink chevron (`.mp-rainbow::after`, a mask) marks it as a dropdown.
 
 **02 Witness slips, Illinois (Nov 2026).** A section (`#witness-slips`, yellow `--z-c3`) under the map, shown only while
 Illinois is picked (`#witness-slips` links open Illinois at it; the Illinois panel links down to it):
