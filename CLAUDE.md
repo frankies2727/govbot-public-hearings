@@ -58,8 +58,7 @@ paper grain + faint smudges on the body; the doubled sketch outlines get uneven 
 (Nov 2026) made the page ~3× slower to load and scroll on a phone-speed CPU, so they were removed;
 coloured-pencil hatching on the coloured pills kept to their padding — the text sits on a solid patch of the
 same colour (content box, `--pf`), since hatching behind small type was unreadable (Nov 2026) and faint hatching inside cards; section numbers solid in the section colour inside an ink outline; scribbled underlines under section titles, a scribbled circle round
-"say." (`.hh-circle`); pencil rules instead of dashed lines; and margin doodles (an arrow into "Jump to",
-a star by each section, a squiggle under the stats). All static masks/gradients, nothing animated. Colour only
+"say." (`.hh-circle`); pencil rules instead of dashed lines; and margin doodles (a star by each section, a squiggle under the stats). All static masks/gradients, nothing animated. Colour only
 marks where you are: the deck's four section colours `--z-c1..c4` (#8EC5F0 blue, #8FD9A0 green,
 #FFD166 yellow, #F4A3C0 pink; text on them is always dark ink). Top to bottom: a hero card (caps eyebrow
 "Hearings & public comment", "Have your say.", the tagline, the **America-250 fireworks in pencil** —
@@ -71,14 +70,7 @@ SVG repainted the whole hero card every frame); the lettering "writes" by slidin
 (`.fw-reveal`, two opposite transforms); paused
 off screen (IntersectionObserver), a still composed frame under reduced motion — and the live stats as **big
 light numerals with caps labels**: "N upcoming hearings and open to public comment" — upcoming and
-comment-open — and "N jurisdictions"); the **"Jump to" nav pills** (`#hh-jump`, hidden with fewer
-than two jurisdictions; one per jurisdiction in section order with its count, linking to `#hg-<code>`;
-the pill of the jurisdiction on screen fills with its colour and gets the hard shadow —
-`markJumpInView`, an IntersectionObserver setting `aria-current`); then two **section dividers**
-(giant outlined number, title, one line): **01 Upcoming hearings** and **02 Weigh in — by state**.
-Each jurisdiction's card puts its name on a tab in its colour (`zc(i)` cycles `--z-c1..c4`, the same
-colour as its jump pill; `.hgroup` keeps `scroll-margin-top`, and search's `#hg-<code>` links use the
-same ids). The federal kinds' sections take the colours in turn too (`fedN`). Status chips are small
+comment-open — and "N jurisdictions"); then **01 Pick a place**, the map (see "Map-first layout" below). The federal kinds' sections take the colours in turn too (`fedN`). Status chips are small
 all-caps ink-outlined pills; colour only where it means something: "Comment due" yellow, "Public
 comment open" / "Live hearings" green, "Canceled" pink. The White House hero art and the old colour
 fireworks canvas were retired with this redesign (`whitehouse-hero.png` deleted). **Following by RSS** (`#rss-pop`, one popover for the "Follow all", per-state, per-bill and per-hearing
@@ -96,12 +88,9 @@ back to `witness_slip_url` only when a hearing has no page of its own; the place
 "Official: …" pill by the jurisdiction's name (the `witness_slip_url` table is in
 `scraper/README.md`). The bill chips no longer carry their own RSS trigger (the per-bill
 feeds are still built; nothing on the page links them), so each row has just "Follow (RSS)". Counts in
-the jump row, "x of y showing" and "See all N" carry thousands separators (`fmt`). Feed titles say it all
+the map labels and chips, "x of y showing" and "See all N" carry thousands separators (`fmt`). Feed titles say it all
 on one line for widgets that show only titles: "Illinois · Housing Committee — Sep 9, 2026, 2:00 PM ·
-HB25, SB1486"; federal "USA (Federal) · <rule> (<agency>) — Comments due Oct 16, 2026". **"Weigh in — by state"** has an
-**A–Z letter row** next to its filter box (`buildLetters` / `pLetter`): a letter shows only states
-starting with it (letters no state starts with are disabled; clicking the active one, or "All",
-shows every state), combined with the typed filter; "No states match." when both exclude everything. The `<title>` was also corrected (it had been a stray "Legislation Dashboard").
+HB25, SB1486"; federal "USA (Federal) · <rule> (<agency>) — Comments due Oct 16, 2026". The `<title>` was also corrected (it had been a stray "Legislation Dashboard").
 The hearing/participation render engine is otherwise unchanged.
 
 
@@ -142,7 +131,7 @@ RSS `hearings.xml` + granular RSS feeds under `site/hearings/` — per bill
 directory `site/participation.json` (schema
 `schemas/govbot.participation.schema.json`). Passing `--participation <file>` also emits an
 empty placeholder `<code>.xml` for every participation state with no live hearings yet, so
-each "Weigh in — by state" card carries a "Follow this state (RSS)" link that starts empty
+each place's panel carries a "Follow this state (RSS)" link that starts empty
 and fills when that state opens (its filter box has a colored border + search icon). `.github/workflows/refresh.yml` rebuilds the feed every 12 hours. Hearings parsers are
 offline-snapshot-tested: `python3 scraper/test_scrape_hearings.py`.
 
@@ -154,11 +143,29 @@ straight pencil passes whose top/bottom and side lines **run past the corners** 
 in pencil** (`--z-pencil`, two crossed hatch gradients) with smudged graphite shadows (`--z-press`) instead of hard
 ink ones. All text stays in **Roboto** (a hand-lettered heading font was tried and dropped, per request). Two still doodles from `scripts/sketch_doodles.py` (re-run it after changing a shape) sit by the section
 titles as graphite-filled CSS masks: a twisted **wireframe ribbon** (`assets/sketch-ribbon.svg`) by 01 and a
-**pencil** (`assets/sketch-pencil.svg`) by 03; 02 keeps its star. Static only: no filters, nothing animated; text
+**pencil** (`assets/sketch-pencil.svg`) by 02 Witness slips. Static only: no filters, nothing animated; text
 keeps the full-contrast ink. The circle round "say." (`.hh-circle::after`) is a heavy loop plus a lighter second pass
 with room around the word, so it reads as a circle in both themes rather than strokes through the letters.
 
-**03 Witness slips, Illinois (Nov 2026).** A third section (`#witness-slips`, yellow `--z-c3`) after "Weigh in":
+**Map-first layout (Nov 2026, per request: "more of a map, users simply click the state/locality, less scrolling").**
+The stacked per-state hearing lists, the 56-card "Weigh in — by state" grid, its A–Z letters and the "Jump to" pills were
+replaced by **01 Pick a place** (`#places`): a **pencil map** of the states (`buildMap`, `assets/us-states.json`, a
+copy of Govbot's legislation-map outlines rounded to one decimal, ~36 KB gzipped), each state a paper fill inside a
+graphite line traced again by a lighter, shifted pass (`.mp-pass`); states with hearings coming up hatched green with
+"WA · 41" labels (an SVG `<pattern>`, `#mp-hatch-live`), the picked one hatched yellow; Chicago a dot on Illinois'
+north-east corner. USA (Federal), Chicago, DC and the territories are chips under the map (`OFF_MAP`), and a
+"pick from the list" `<select>` (`buildPicker`, places with hearings first) reaches every place by keyboard and screen
+reader; each state shape is a focusable `role=button` too. Picking (`pick`) fills **one panel** (`#mp-panel`, sticky beside
+the map on wide screens, under it on phones, scrolled into view): flag, name, "N upcoming" and how-to-take-part pills,
+the place's how-to text, its "Official: …" portal button and "Follow this state (RSS)", then its hearings card (built
+once per place by `renderHearings` into `groups[code]`; federal keeps its scrolling kinds). Before a pick the panel lists
+the places with hearings as quick buttons (`showIntro`). Places merge the participation directory with the feed's
+jurisdictions (`buildPlaces`, so Chicago has one). `#hg-<code>` links (search, shared feeds, Govbot's old addresses)
+open that place (`openFromHash`, also on `hashchange`), and picking writes `#hg-<code>` to the address bar.
+hearings.json, participation.json and the map load together (`start`, `Promise.allSettled`): any one can fail alone.
+
+**02 Witness slips, Illinois (Nov 2026).** A section (`#witness-slips`, yellow `--z-c3`) under the map, shown only while
+Illinois is picked (`#witness-slips` links open Illinois at it; the Illinois panel links down to it):
 a numbered **how-to** (pick a bill while it's posted, open its slip form from the bill's ilga.gov page, "Self" / "N/A"
 for filing as yourself, Proponent / Opponent / No position, "Record of appearance only", a free my.ilga.gov account)
 with a note that **slips are public**, beside a **tracker** (`renderSlips`): every bill on an upcoming, not-canceled

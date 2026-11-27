@@ -17,7 +17,7 @@ Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io
 
 - 📅 **What's coming up.** Committee hearings in the weeks ahead, plus federal rules open for comment.
 - ✍️ **How to take part.** Every hearing links the official place to weigh in: a witness slip, a sign-up to testify, or a comment form.
-- 🗺️ **Every state covered.** A "Weigh in by state" guide explains how all 56 jurisdictions take public input, even where we don't list hearings yet.
+- 🗺️ **Every state covered.** Pick any of the 56 jurisdictions on the map to see how it takes public input, even where we don't list hearings yet.
 - 📡 **Follow anything by RSS.** One feed for everything, or one per state, bill or hearing.
 - 🧾 **Never made up.** Every hearing comes from the legislature's or Federal Register's own site and links back to it.
 
@@ -42,14 +42,14 @@ Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io
 <td width="30%"><img src="docs/readme/phone-dark.jpg" alt="The site on a phone in dark mode"></td>
 </tr>
 <tr>
-<td colspan="2"><b>Upcoming hearings</b>, by state, with the official "how to take part" link at the top of each. Works on phones, in light and dark mode.</td>
+<td colspan="2"><b>Upcoming hearings</b> for the place you pick, with the official "how to take part" link above them. Works on phones, in light and dark mode.</td>
 </tr>
 <tr>
-<td width="50%"><img src="docs/readme/weighin-light.jpg" alt="The Weigh in by state guide: a filter box, an A to Z letter row, and a card per state saying how it takes public comment"></td>
+<td width="50%"><img src="docs/readme/map-light.jpg" alt="The pencil map of the states: states with hearings coming up hatched green with their count, and Washington picked, its panel showing how to take part and its hearings"></td>
 <td width="50%"><img src="docs/readme/rss-light.jpg" alt="The Follow popover: the feed address with a Copy button and one-tap Add to Feedly, Inoreader and NewsBlur buttons"></td>
 </tr>
 <tr>
-<td><b>Weigh in by state.</b> All 56 jurisdictions, filter by name or letter.</td>
+<td><b>Pick a place.</b> Tap a state, Chicago or the federal agencies on the map.</td>
 <td><b>Follow by RSS.</b> Copy the address or add it to a reader in one tap.</td>
 </tr>
 </table>

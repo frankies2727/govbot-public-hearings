@@ -69,7 +69,7 @@
   /* The lines sit at z-index -1 inside the nearest isolated ancestor (.wrap, the grid), so they
      draw behind the card's own fill. The hearings cards get theirs from a frame around them
      (.hg-frame), because the federal card scrolls inside itself and would clip them. */
-  .wrap, .participation-grid { isolation: isolate; }
+  .wrap { isolation: isolate; }
   .z-card { position: relative; background: var(--z-card); border: var(--z-line); border-radius: var(--z-radius); }
   .hg-frame { position: relative; border-radius: var(--z-radius); }
   .z-card::before, .z-card::after, .hg-frame::before, .hg-frame::after { content: ""; position: absolute; inset: -2px; border-radius: inherit; pointer-events: none; z-index: -1; }
@@ -137,17 +137,6 @@
     .hh-stat-num { font-size: 56px; }
   }
 
-  /* ---------- jump to a jurisdiction: the deck's nav pills ---------- */
-  .hh-jump { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 0 0 44px; }
-  .hh-jump-lbl { font-size: 15px; letter-spacing: .12em; text-transform: uppercase; margin-right: 4px; }
-  .hh-jump a { display: inline-flex; align-items: center; gap: 9px; padding: 6px 7px 6px 15px; border: var(--z-line);
-    border-radius: 999px; background: var(--z-card); font-size: 14px; letter-spacing: .06em; text-transform: uppercase;
-    text-decoration: none; transition: transform .12s; }
-  .hh-jump a:hover { background: color-mix(in srgb, var(--jc) 35%, var(--z-card)); }
-  .hh-jump a[aria-current="true"] { background: var(--jc); color: var(--z-on-color); box-shadow: var(--z-shadow); transform: translate(-2px, -2px); }
-  .hh-jump .jn-count { min-width: 26px; padding: 1px 8px; border: var(--z-line); border-radius: 999px; background: var(--jc);
-    color: var(--z-on-color); font-size: 12.5px; text-align: center; font-variant-numeric: tabular-nums; }
-  .hh-jump a[aria-current="true"] .jn-count { border-color: var(--z-on-color); background: var(--z-card); color: var(--z-ink); }
 
   /* ---------- section dividers: giant number, big title, one-line description ---------- */
   .z-divider { display: flex; align-items: flex-end; gap: 22px; margin: 0 0 22px; }
@@ -175,8 +164,6 @@
     padding: 16px 20px 8px; scroll-margin-top: 90px; }
   .hgroup-head { display: flex; align-items: center; gap: 10px 14px; flex-wrap: wrap; padding-bottom: 14px;
     border-bottom: 2px solid var(--z-ink); }
-  .hgroup-name { display: inline-block; padding: 4px 14px; border: var(--z-line); border-radius: 999px;
-    background: var(--hg-accent); color: var(--z-on-color); font-size: 22px; box-shadow: 3px 3px 0 var(--z-ink); }
   .hgroup-count { font-size: 15px; letter-spacing: .06em; text-transform: uppercase; }
   .hgroup-portal { margin-left: auto; }
   .hgroup-rows { max-height: 560px; overflow-y: auto; contain: paint; scrollbar-width: thin; scrollbar-color: var(--z-ink) var(--z-muted-2); }
@@ -214,13 +201,13 @@
   .slip-count { font-size: 12px; font-variant-numeric: tabular-nums; }
   .h-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin-top: 14px; }
   /* Buttons: ink-outlined pills; the one that takes you somewhere gets the hard shadow. */
-  .file-link, .hgroup-portal, .pstate-link, .clear-btn {
+  .file-link, .hgroup-portal, .clear-btn {
     display: inline-flex; align-items: center; gap: 6px; padding: 7px 16px; border: var(--z-line); border-radius: 999px;
     background: var(--z-card); color: var(--z-ink) !important; font: inherit; font-size: 15px; text-decoration: none;
     white-space: nowrap; cursor: pointer; transition: transform .12s, box-shadow .12s; }
   .file-link { box-shadow: var(--z-shadow); }
-  .file-link:hover, .hgroup-portal:hover, .pstate-link:hover, .clear-btn:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--z-ink); }
-  .file-link:active, .hgroup-portal:active, .pstate-link:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--z-ink); }
+  .file-link:hover, .hgroup-portal:hover, .clear-btn:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--z-ink); }
+  .file-link:active, .hgroup-portal:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--z-ink); }
   .rss-link, .bill-rss { display: inline-flex; align-items: center; gap: 6px; padding: 0; border: 0; background: none; color: var(--z-ink);
     font: inherit; font-size: 14px; letter-spacing: .06em; text-transform: uppercase; text-decoration: underline;
     text-decoration-style: wavy; text-decoration-color: var(--z-sketch-2); text-underline-offset: 5px; cursor: pointer; white-space: nowrap; }
@@ -230,7 +217,6 @@
   .hgroup-more .hgroup-portal { margin-left: 0; }
   @media (max-width: 620px) {
     .hgroup { padding: 14px 14px 6px; }
-    .hgroup-name { font-size: 19px; }
     .hearing-row { grid-template-columns: 1fr; }
     .hgroup-portal { margin-left: 0; }
     .h-committee { font-size: 19px; }
@@ -272,32 +258,13 @@
   .rss-readers a:hover, .rss-foot a:hover, .rss-foot button:hover { background: var(--z-muted-2); }
   .rss-why { margin: 12px 0 0; font-size: 13px; line-height: 1.45; color: var(--z-body); }
 
-  /* ---------- participation directory ---------- */
-  .p-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin: 0 0 22px; }
+  /* ---------- search boxes (the witness-slip tracker) ---------- */
   .p-search-wrap { position: relative; display: inline-flex; align-items: center; }
   .p-search-icon { position: absolute; left: 12px; pointer-events: none; }
   .p-search { min-width: 230px; padding: 9px 13px 9px 36px; border: var(--z-line); border-radius: 999px; background: var(--z-card);
     color: var(--z-ink); font: inherit; font-size: 16px; box-shadow: 3px 3px 0 var(--z-ink); }
   .p-search:focus { outline: none; box-shadow: 4px 4px 0 var(--z-ink), 0 0 0 3px var(--z-c1); }
-  .p-letters { display: flex; flex-wrap: wrap; gap: 5px; }
-  .p-letter { min-width: 32px; height: 32px; padding: 0 7px; border: var(--z-line); border-radius: 9px; background: var(--z-card);
-    color: var(--z-ink); font: inherit; font-size: 14px; cursor: pointer; }
-  .p-letter:hover:not(:disabled) { background: var(--z-muted-2); }
-  .p-letter[aria-pressed="true"] { background: var(--z-c2); color: var(--z-on-color); box-shadow: 3px 3px 0 var(--z-ink); }
-  /* No state starts with it: dashed and struck through, but the letter itself stays readable. */
-  .p-letter:disabled { border-style: dashed; border-color: var(--z-sketch-2); color: var(--z-body); text-decoration: line-through; cursor: default; }
-  .p-none { margin: 0 0 16px; font-size: 16px; }
-  .participation-grid { display: grid; gap: 22px 20px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    max-height: 640px; overflow-y: auto; padding: 8px 10px 12px 8px; scrollbar-width: thin; scrollbar-color: var(--z-ink) var(--z-muted-2); }
-  .pstate { display: flex; flex-direction: column; gap: 8px; padding: 14px 15px; }
-  .pstate-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-  .pstate-idcol { display: flex; align-items: center; gap: 9px; min-width: 0; }
-  .pstate-name { font-size: 20px; line-height: 1.2; }
-  .pstate-flag { flex: none; width: 30px; height: auto; border: 1.5px solid var(--z-ink); border-radius: 4px; }
   .pstate-kind { align-self: flex-start; background: var(--z-muted-2); }
-  .pstate-how { font-size: 15px; line-height: 1.45; color: var(--z-body); }
-  .pstate-link { align-self: flex-start; margin-top: auto; font-size: 14px; }
-  .pstate-sub { margin-top: 4px; padding-top: 9px; border-top: 1.5px dashed var(--z-sketch-2); }
 
   /* The shared loading / empty states, on paper. */
   .wrap .gb-state { border: 2px dashed var(--z-ink); border-radius: var(--z-radius); background: var(--z-muted-2); color: var(--z-ink); }
@@ -306,7 +273,7 @@
   .wrap .gb-spinner { border-color: var(--z-muted); border-top-color: var(--z-ink); }
 
   @media (prefers-reduced-motion: reduce) {
-    .hh-jump a, .file-link, .hgroup-portal, .pstate-link, .clear-btn { transition: none; }
+    .file-link, .hgroup-portal, .clear-btn { transition: none; }
   }
 
   /* ===== Pencil layer: the page drawn harder in graphite. Paper grain, doubled sketch lines with
@@ -337,16 +304,12 @@
      to read, worst in dark mode. --pf is each fill's colour. */
   .fsec-h::before {
     background-image: repeating-linear-gradient(-58deg, transparent 0 3px, var(--z-hatch) 3px 4.4px); }
-  .hgroup-name { --pf: var(--hg-accent); }
-  .hh-jump a[aria-current="true"], .hh-jump .jn-count { --pf: var(--jc); }
   .h-kind.is-due, .rss-copy { --pf: var(--z-c3); }
   .h-badge { --pf: var(--z-c4); }
-  .h-open, .pstate-live, .p-letter[aria-pressed="true"] { --pf: var(--z-c2); }
-  .hgroup-name, .hh-jump a[aria-current="true"], .hh-jump .jn-count, .h-kind.is-due, .h-badge, .h-open,
-  .pstate-live, .p-letter[aria-pressed="true"], .rss-copy {
+  .h-open, .pstate-live { --pf: var(--z-c2); }
+  .h-kind.is-due, .h-badge, .h-open, .pstate-live, .rss-copy {
     background: linear-gradient(var(--pf), var(--pf)) content-box,
       repeating-linear-gradient(-58deg, transparent 0 3px, var(--z-hatch) 3px 4.4px) padding-box, var(--pf); }
-  .hh-jump a[aria-current="true"] .jn-count { background: var(--z-card); }
   .z-card, .hgroup { background-image: repeating-linear-gradient(-58deg, transparent 0 9px,
     color-mix(in srgb, var(--z-sketch-2) 7%, transparent) 9px 10px); }
 
@@ -365,19 +328,16 @@
 
   /* Pencil rules instead of dashed lines. */
   .hh-stats { border-top: 0; position: relative; }
-  .hh-stats::before, .hearing-row::after, .pstate-sub::before, .rss-foot::before { content: ""; position: absolute; left: 0; right: 0; height: 8px;
+  .hh-stats::before, .hearing-row::after, .rss-foot::before { content: ""; position: absolute; left: 0; right: 0; height: 8px;
     background: var(--z-sketch-1); -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 8' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 4 Q 50 2 100 4.4 T 200 3.8 T 300 4.6 T 400 3.6' stroke-width='1.5'/%3E%3Cpath d='M0 5.5 Q 60 4 130 5.8 T 260 5 T 400 5.6' stroke-width='.7' opacity='.6'/%3E%3C/svg%3E") left center / 400px 8px repeat-x; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 8' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 4 Q 50 2 100 4.4 T 200 3.8 T 300 4.6 T 400 3.6' stroke-width='1.5'/%3E%3Cpath d='M0 5.5 Q 60 4 130 5.8 T 260 5 T 400 5.6' stroke-width='.7' opacity='.6'/%3E%3C/svg%3E") left center / 400px 8px repeat-x; }
   .hh-stats::before { top: -4px; }
   .hearing-row { position: relative; border-bottom: 0; }
   .hearing-row::after { bottom: -4px; }
   .hearing-row:last-child::after { display: none; }
-  .pstate-sub, .rss-foot { position: relative; border-top: 0; }
-  .pstate-sub::before, .rss-foot::before { top: -4px; }
+  .rss-foot { position: relative; border-top: 0; }
+  .rss-foot::before { top: -4px; }
 
   /* Margin doodles: an arrow into the jump pills, a star by each section title, a squiggle under the stats. */
-  .hh-jump-lbl { display: inline-flex; align-items: center; gap: 8px; }
-  .hh-jump-lbl::after, .z-doodle { content: ""; display: inline-block; background: var(--z-ink); }
-  .hh-jump-lbl::after { width: 40px; height: 22px; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 34' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 24 C 16 10, 36 7, 56 15' stroke-width='2.6'/%3E%3Cpath d='M45 6 L57 15 L46 25' stroke-width='2.6'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 34' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 24 C 16 10, 36 7, 56 15' stroke-width='2.6'/%3E%3Cpath d='M45 6 L57 15 L46 25' stroke-width='2.6'/%3E%3C/svg%3E") center / contain no-repeat; }
   .z-divider { position: relative; }
   .z-divider::after { content: ""; position: absolute; top: -6px; right: 4%; width: 38px; height: 38px; background: var(--z-sketch-1); transform: rotate(12deg);
     -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 3 L26 17 L41 17 L29 26 L33 41 L22 32 L11 41 L15 26 L3 17 L18 17 Z' stroke-width='2.2'/%3E%3Cpath d='M23 6 L27 18 L39 19' stroke-width='1' opacity='.6'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44' fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 3 L26 17 L41 17 L29 26 L33 41 L22 32 L11 41 L15 26 L3 17 L18 17 Z' stroke-width='2.2'/%3E%3Cpath d='M23 6 L27 18 L39 19' stroke-width='1' opacity='.6'/%3E%3C/svg%3E") center / contain no-repeat; }
@@ -386,8 +346,8 @@
   @media (max-width: 620px) { .z-divider::after { width: 28px; height: 28px; top: -16px; } }
 
   /* Buttons look pressed in by a pencil: a graphite second outline that wobbles. */
-  .file-link, .hgroup-portal, .pstate-link, .clear-btn, .bill-chip { position: relative; }
-  .file-link::before, .hgroup-portal::before, .pstate-link::before { content: ""; position: absolute; inset: -4px -3px -3px -4px; border: 1px solid var(--z-sketch-2);
+  .file-link, .hgroup-portal, .clear-btn, .bill-chip { position: relative; }
+  .file-link::before, .hgroup-portal::before { content: ""; position: absolute; inset: -4px -3px -3px -4px; border: 1px solid var(--z-sketch-2);
     border-radius: inherit; pointer-events: none; transform: rotate(-.8deg); }
 
   /* ---------- 03 Witness slips (Illinois): a how-to beside a tracker of the bills you can file on now ---------- */
@@ -436,6 +396,67 @@
   .ws-empty b { color: var(--z-ink); }
   .ws-empty .ws-acts { margin-top: 14px; }
 
+  /* ---------- 01 Pick a place: a pencil map beside one place's panel ---------- */
+  :root { --mp-paper: var(--z-card); --mp-live: #8FD9A0; --mp-sel: #FFD166; }
+  .mp-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 0 0 16px; }
+  .mp-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 28px; align-items: start; }
+  @media (max-width: 960px) { .mp-grid { grid-template-columns: 1fr; } }
+  .mp-mapcard { padding: 14px 14px 12px; }
+  .mp-map { aspect-ratio: 1028 / 746; }
+  .mp-svg { display: block; width: 100%; height: 100%; overflow: visible; }
+  /* States: paper inside a graphite line, traced again by a lighter, slightly shifted pencil pass. */
+  .mp-st { fill: var(--mp-paper); stroke: var(--z-graphite); stroke-width: 1.3; stroke-linejoin: round; cursor: pointer; }
+  .mp-st.is-live { fill: url(#mp-hatch-live); }
+  .mp-st:hover { fill: color-mix(in srgb, var(--z-graphite) 12%, var(--mp-paper)); }
+  .mp-st.is-live:hover { fill: url(#mp-hatch-sel); }
+  .mp-st.is-sel { fill: url(#mp-hatch-sel); stroke: var(--z-ink); stroke-width: 2.4; }
+  .mp-st:focus-visible { outline: none; stroke: var(--z-ink); stroke-width: 3; }
+  .mp-pass { fill: none; stroke: var(--z-graphite-2); stroke-width: .8; transform: translate(1.8px, 1.2px); pointer-events: none; }
+  .mp-hatch-live-bg { fill: color-mix(in srgb, var(--mp-live) 35%, var(--mp-paper)); }
+  .mp-hatch-live-ln { stroke: var(--mp-live); stroke-width: 3.2; }
+  .mp-hatch-sel-bg { fill: color-mix(in srgb, var(--mp-sel) 40%, var(--mp-paper)); }
+  .mp-hatch-sel-ln { stroke: var(--mp-sel); stroke-width: 3.6; }
+  .mp-lbl { font: 500 17px var(--z-font); fill: var(--z-ink); text-anchor: middle; pointer-events: none; paint-order: stroke; stroke: var(--mp-paper); stroke-width: 3px; }
+  .mp-lbl.is-live { font-weight: 700; font-size: 19px; }
+  /* On a phone the map is small: only the places with hearings keep a label, drawn bigger. */
+  @media (max-width: 620px) { .mp-lbl { display: none; } .mp-lbl.is-live { display: inline; font-size: 30px; stroke-width: 5px; } .mp-city-lbl { font-size: 26px; } }
+  .mp-city { cursor: pointer; }
+  .mp-city-ring { fill: var(--mp-paper); stroke: var(--z-ink); stroke-width: 2; }
+  .mp-city.is-live .mp-city-ring { fill: var(--mp-live); }
+  .mp-city.is-sel .mp-city-ring { fill: var(--mp-sel); stroke-width: 3; }
+  .mp-city-dot { fill: var(--z-ink); }
+  .mp-city-lbl { font: 700 15px var(--z-font); fill: var(--z-ink); paint-order: stroke; stroke: var(--mp-paper); stroke-width: 4px; }
+  .mp-city:focus-visible { outline: none; } .mp-city:focus-visible .mp-city-ring { stroke-width: 4; }
+  .mp-nomap { padding: 40px 10px; text-align: center; color: var(--z-body); }
+  .mp-extra, .mp-quick { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .mp-chip { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 4px 14px; border: var(--z-line); border-radius: 999px;
+    background-color: var(--z-card); background-image: var(--z-pencil); color: var(--z-ink); font: inherit; font-size: 15px; cursor: pointer; }
+  .mp-chip.is-live { background-color: color-mix(in srgb, var(--mp-live) 45%, var(--z-card)); }
+  .mp-chip[aria-pressed="true"] { background-color: var(--mp-sel); color: var(--z-on-color); box-shadow: 3px 4px 0 var(--z-press); }
+  .mp-chip-n { padding: 0 8px; border: 1px solid currentColor; border-radius: 999px; font-size: 13px; background: var(--z-card); color: var(--z-ink); }
+  .mp-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 12px 0 0; font-size: 14px; color: var(--z-body); }
+  .mp-key { display: inline-block; width: 22px; height: 14px; border: 1.5px solid var(--z-graphite); border-radius: 3px; background: var(--mp-paper); }
+  .mp-key.is-live { background: repeating-linear-gradient(-55deg, var(--mp-live) 0 3px, color-mix(in srgb, var(--mp-live) 35%, var(--mp-paper)) 3px 7px); }
+  .mp-key:not(.is-live) { margin-left: 12px; }
+  /* The panel: sticky beside the map on wide screens, under it on phones. */
+  .mp-panel { padding: 20px 22px 22px; min-height: 260px; outline: none; scroll-margin-top: 90px; }
+  @media (min-width: 961px) { .mp-panel { position: sticky; top: 84px; max-height: calc(100dvh - 104px); overflow-y: auto; } }
+  @media (max-width: 620px) { .mp-panel { padding: 16px 14px 18px; } }
+  .mp-head { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 6px; }
+  .mp-head .mp-flag { margin-top: 6px; }
+  .mp-flag { width: 44px; height: auto; flex: none; border: 1.5px solid var(--z-graphite); border-radius: 4px; }
+  .mp-h { margin: 0; font-size: 28px; line-height: 1.15; }
+  .mp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .mp-sub { margin: 18px 0 8px; font-size: 13px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--z-ink); }
+  .mp-p { margin: 0 0 10px; font-size: 16px; line-height: 1.5; color: var(--z-body); }
+  .mp-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+  .mp-ws { display: inline-block; margin-top: 12px; font-weight: 500; }
+  .mp-panel .hgroup { border: 0; padding: 0; background: none; }
+  .mp-panel .hg-frame::before, .mp-panel .hg-frame::after { display: none; }
+  .mp-panel .hgroup-head { padding-bottom: 8px; }
+  .mp-panel .hgroup--fed { max-height: 560px; }
+  .mp-panel .hearing-row { grid-template-columns: 1fr; }
+
   /* ---------- Sketchbook layer (Nov 2026): a graphite wireframe on paper, not a polished ink drawing ----------
      Lines are pencil grey and go over each box twice, the extra passes running past the corners like a
      wireframe sketch; boxes are squarer; buttons, chips and pills are shaded in pencil; two still doodles
@@ -459,17 +480,17 @@
   .z-card::after, .hg-frame::after { inset: -14px -1px; border: 0; border-left: 1px solid var(--z-graphite-2); border-right: 1px solid var(--z-graphite-2);
     border-radius: 0; transform: rotate(.4deg); }
   @media (max-width: 620px) { .z-card::before, .hg-frame::before { inset: -1px -8px; } .z-card::after, .hg-frame::after { inset: -8px -1px; } }
-  .hgroup, .ws-bill, .fsec-rows, .pstate { border-radius: var(--z-radius); }
+  .hgroup, .ws-bill, .fsec-rows { border-radius: var(--z-radius); }
 
   /* Shaded in pencil, like the filled boxes of a wireframe; shadows are smudged graphite, not ink. */
-  .file-link, .hgroup-portal, .pstate-link, .clear-btn, .bill-chip, .ws-id, .ws-save, .ws-saved-btn, .p-letter, .hh-jump a, .ws-select, .rss-copy {
+  .file-link, .hgroup-portal, .clear-btn, .bill-chip, .ws-id, .ws-save, .ws-saved-btn, .ws-select, .rss-copy {
     background-image: var(--z-pencil); }
-  .file-link, .hgroup-portal, .pstate-link, .clear-btn, .hh-jump a[aria-current="true"], .p-letter[aria-pressed="true"],
-  .ws-saved-btn[aria-pressed="true"], .p-search, .hgroup-name { box-shadow: 3px 4px 0 var(--z-press); }
-  .file-link:hover, .hgroup-portal:hover, .pstate-link:hover, .clear-btn:hover { box-shadow: 5px 6px 0 var(--z-press); }
-  .file-link:active, .hgroup-portal:active, .pstate-link:active { box-shadow: 1px 1px 0 var(--z-press); }
+  .file-link, .hgroup-portal, .clear-btn,
+  .ws-saved-btn[aria-pressed="true"], .p-search { box-shadow: 3px 4px 0 var(--z-press); }
+  .file-link:hover, .hgroup-portal:hover, .clear-btn:hover { box-shadow: 5px 6px 0 var(--z-press); }
+  .file-link:active, .hgroup-portal:active { box-shadow: 1px 1px 0 var(--z-press); }
   .p-search:focus { box-shadow: 4px 5px 0 var(--z-press), 0 0 0 3px var(--z-c1); }
-  .file-link::before, .hgroup-portal::before, .pstate-link::before { border-color: var(--z-graphite-2); inset: -3px -6px -2px -5px; }
+  .file-link::before, .hgroup-portal::before { border-color: var(--z-graphite-2); inset: -3px -6px -2px -5px; }
 
   /* Cards are the paper itself, not white panels; rules inside them are pencil, not ink. */
   :root[data-theme="light"] { --z-card: #FDFCF8; }
@@ -480,12 +501,12 @@
   .wrap::before { border-color: var(--z-graphite-2); }
 
   /* Doodles by the section titles: a wireframe ribbon by 01, a pencil by 03 (02 keeps its star). */
-  #hearings-card .z-divider::after, #witness-slips .z-divider::after { transform: none; background: var(--z-graphite);
+  #places .z-divider::after, #witness-slips .z-divider::after { transform: none; background: var(--z-graphite);
     -webkit-mask: var(--doodle) center / contain no-repeat; mask: var(--doodle) center / contain no-repeat; }
-  #hearings-card .z-divider::after { --doodle: url("assets/sketch-ribbon.svg"); width: 300px; height: 122px; top: -20px; right: 0; }
+  #places .z-divider::after { --doodle: url("assets/sketch-ribbon.svg"); width: 300px; height: 122px; top: -20px; right: 0; }
   #witness-slips .z-divider::after { --doodle: url("assets/sketch-pencil.svg"); width: 230px; height: 62px; top: 6px; right: 1%; transform: rotate(-8deg); }
-  @media (max-width: 1100px) { #hearings-card .z-divider::after { width: 200px; height: 82px; top: -40px; } #witness-slips .z-divider::after { width: 150px; height: 40px; top: -22px; } }
-  @media (max-width: 620px) { #hearings-card .z-divider::after { width: 120px; height: 50px; top: -46px; right: -6px; } #witness-slips .z-divider::after { width: 110px; height: 30px; top: -30px; } }
+  @media (max-width: 1100px) { #places .z-divider::after { width: 200px; height: 82px; top: -40px; } #witness-slips .z-divider::after { width: 150px; height: 40px; top: -22px; } }
+  @media (max-width: 620px) { #places .z-divider::after { width: 120px; height: 50px; top: -46px; right: -6px; } #witness-slips .z-divider::after { width: 110px; height: 30px; top: -30px; } }
 </style>
 <script>
   // Apply a saved theme choice before first paint to avoid a flash of the
@@ -662,17 +683,17 @@
     <div class="hh-stats" id="hh-stats" role="group" aria-label="Live hearing activity"></div>
   </header>
 
-  <nav class="hh-jump" id="hh-jump" aria-label="Jump to a jurisdiction" hidden></nav>
-
-  <section class="z-section" id="hearings-card" aria-labelledby="hearings-h" hidden>
+  <section class="z-section" id="places" aria-labelledby="places-h">
     <div class="z-divider" style="--zc:var(--z-c1)">
       <span class="z-num" aria-hidden="true">01</span>
       <div>
-        <h2 id="hearings-h">Upcoming hearings</h2>
-        <p>Committee hearings in the weeks ahead, and federal rules open for public comment.</p>
+        <h2 id="places-h">Pick a place</h2>
+        <p>Tap a state, Chicago or the federal agencies to see the hearings coming up there and how to weigh in.</p>
       </div>
     </div>
-    <div class="hearings-head">
+    <div class="mp-tools">
+      <label class="gb-sr" for="mp-pick">Pick a state or place</label>
+      <select id="mp-pick" class="ws-select"><option value="">Or pick from the list…</option></select>
       <span class="asof" id="hearings-asof"></span>
       <button type="button" class="rss-link" id="rss-btn" aria-haspopup="dialog" aria-expanded="false"
               title="Follow every upcoming hearing in a feed reader">
@@ -680,37 +701,24 @@
         Follow all (RSS)
       </button>
     </div>
-    <div id="hearings-body" class="hearings-groups"></div>
-  </section>
-
-  <div class="gb-loading" id="hearings-loading">
-    <div class="gb-spinner" aria-hidden="true"></div>
-    <p>Loading committee hearings…</p>
-  </div>
-  <div class="gb-state" id="hearings-empty" hidden></div>
-
-  <section class="z-section" id="participation-card" aria-labelledby="participation-h" hidden>
-    <div class="z-divider" style="--zc:var(--z-c2)">
-      <span class="z-num" aria-hidden="true">02</span>
-      <div>
-        <h2 id="participation-h">Weigh in — by state</h2>
-        <p>How the public takes part in each state, with the official portal. States with a hearing feed also show their hearings above.</p>
+    <div class="mp-grid">
+      <div class="mp-mapcard z-card">
+        <div class="mp-map" id="mp-map"></div>
+        <div class="mp-extra" id="mp-extra" role="group" aria-label="Federal, cities and territories"></div>
+        <p class="mp-legend"><span class="mp-key is-live" aria-hidden="true"></span>Hearings coming up <span class="mp-key" aria-hidden="true"></span>How to take part</p>
+      </div>
+      <div class="mp-panel z-card" id="mp-panel" tabindex="-1" aria-live="polite">
+        <div class="gb-loading" id="hearings-loading">
+          <div class="gb-spinner" aria-hidden="true"></div>
+          <p>Loading hearings…</p>
+        </div>
       </div>
     </div>
-    <div class="p-tools">
-      <span class="p-search-wrap">
-        <svg class="p-search-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"></circle><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line></svg>
-        <input type="search" id="p-search" class="p-search" placeholder="Filter states…" aria-label="Filter states">
-      </span>
-      <div class="p-letters" id="p-letters" role="group" aria-label="Show states starting with a letter"></div>
-    </div>
-    <p class="p-none" id="p-none" hidden>No states match.</p>
-    <div id="participation-grid" class="participation-grid"></div>
   </section>
 
-  <section class="z-section" id="witness-slips" aria-labelledby="ws-h">
+  <section class="z-section" id="witness-slips" aria-labelledby="ws-h" hidden>
     <div class="z-divider" style="--zc:var(--z-c3)">
-      <span class="z-num" aria-hidden="true">03</span>
+      <span class="z-num" aria-hidden="true">02</span>
       <div>
         <h2 id="ws-h">Witness slips, Illinois</h2>
         <p>Tell Illinois lawmakers where you stand on a bill before its committee votes. It takes about two minutes, it’s free, and anyone can file one.</p>
@@ -786,29 +794,21 @@
 
   /* ---------- committee hearings & witness slips ---------- */
 
-  // Loaded independently of data.json: a hearings outage must never block the
-  // bills dashboard. hearings.json is a rolling near-future window built by
-  // scraper/main.py (IL: ilga.gov, WA: leg.wa.gov, MA: malegislature.gov, AK: akleg.gov),
-  // refreshed every 12 hours by .github/workflows/refresh.yml — a different cadence and source than the bill
-  // snapshot, so it carries its own "updated" stamp.
-  function loadHearings() {
-    fetch("hearings.json")
-      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then((d) => { renderHearings(d); renderSlips(d); })
-      .then(jumpToHash)
-      .catch(() => {
-        renderSlips(null);
-        const ld = $("hearings-loading"); if (ld) ld.remove();
-        const e = $("hearings-empty");
-        if (e) {
-          e.classList.add("gb-state--error");
-          e.innerHTML = '<svg class="gb-state-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 9v4"/><path d="M12 16h.01"/></svg><h3>Couldn\u2019t load hearings</h3><p>The hearings data didn\u2019t load right now. Please try again shortly.</p>';
-          const act = document.createElement("div"); act.className = "gb-state-actions";
-          const btn = document.createElement("button"); btn.type = "button"; btn.className = "clear-btn"; btn.textContent = "Try again";
-          btn.addEventListener("click", () => location.reload()); act.append(btn); e.append(act);
-          e.hidden = false;
-        }
-      });
+  // hearings.json (built by scraper/main.py every 12 hours) and the 56-place participation directory load
+  // together; either can fail on its own. The map draws once both have settled.
+  function start() {
+    const get = (u) => fetch(u).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+    Promise.allSettled([get("hearings.json"), get("participation.json"), get("assets/us-states.json")]).then(([h, p, m]) => {
+      const data = h.status === "fulfilled" ? h.value : null;
+      participation = p.status === "fulfilled" ? (p.value.jurisdictions || []) : [];
+      const ld = $("hearings-loading"); if (ld) ld.remove();
+      renderHearings(data);
+      renderSlips(data);
+      buildPlaces(data);
+      buildMap(m.status === "fulfilled" ? m.value : null);
+      buildPicker();
+      openFromHash() || showIntro(data ? "" : "The hearings data didn\u2019t load right now, so the map shows how to take part in each place. Please try again shortly.");
+    });
   }
 
   function eln(tag, cls, text) {
@@ -823,29 +823,14 @@
   const ZINE_COLORS = ["--z-c1", "--z-c2", "--z-c3", "--z-c4"];
   const zc = (i) => "var(" + ZINE_COLORS[i % ZINE_COLORS.length] + ")";
 
-  // A #hg-<code> link (search results, shared links, Govbot's old address) names a state section
-  // that only exists once the hearings have rendered, so the browser can't jump there by itself.
-  function jumpToHash() {
-    const id = decodeURIComponent(location.hash.slice(1));
-    const el = /^hg-[a-z]+$/.test(id) && document.getElementById(id);
-    if (el) requestAnimationFrame(() => el.scrollIntoView({ block: "start" }));
-  }
+  // Each place's hearings card (built once), keyed by code; the panel shows one at a time.
+  const groups = {};
+  const counts = {};
+  let portals = {};
 
   function renderHearings(data) {
-    const ld = $("hearings-loading"); if (ld) ld.remove();
     const hearings = (data && data.hearings) || [];
-    if (!hearings.length) {
-      const e = $("hearings-empty");
-      if (e) {
-        e.innerHTML = '<svg class="gb-state-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg><h3>No upcoming hearings</h3><p>There are no scheduled hearings in the current window. Check back soon, or follow a state by RSS to hear when one opens.</p>';
-        e.hidden = false;
-      }
-      return;
-    }
-    const card = $("hearings-card");
-    const body = $("hearings-body");
-    body.textContent = "";
-
+    if (!data) return;
     const openComment = hearings.filter((h) => h.status !== "canceled" && h.witness_slip_url).length;
     const jurCount = new Set(hearings.map((h) => h.jurisdiction)).size;
     const stEl = $("hh-stats");
@@ -862,33 +847,19 @@
         stat(jurCount, "jurisdiction" + (jurCount === 1 ? "" : "s")),
       );
     }
-
     const asof = formatAsOf(data.generated_at);
     if (asof) $("hearings-asof").textContent = "Data as of " + asof;
 
-    const portals = {};
+    portals = {};
     (data.jurisdictions || []).forEach((j) => { portals[j.code] = j; });
-    jurParticipation = {};
-    (data.jurisdictions || []).forEach((j) => { if (j.participation) jurParticipation[j.code] = j.participation; });
-
     const byJur = {};
     hearings.forEach((h) => { (byJur[h.jurisdiction] = byJur[h.jurisdiction] || []).push(h); });
 
-    // Record which jurisdictions have live hearings and refresh the participation
-    // badges (participation may have rendered first, before this feed loaded).
-    liveCodes = new Set(Object.keys(byJur));
-    if (participation.length) renderParticipation(pFilter);
-
-    // USA (Federal) leads, then states alphabetically.
-    const orderedCodes = Object.keys(byJur).sort((a, b) => (b === "us") - (a === "us") || a.localeCompare(b));
-    const jumps = [];
-    orderedCodes.forEach((code, gi) => {
+    Object.keys(byJur).forEach((code, gi) => {
       const juris = portals[code] || { name: code.toUpperCase() };
       const group = eln("div", "hgroup");
-      group.id = "hg-" + code;
       group.style.setProperty("--hg-accent", zc(gi));
       const head = eln("div", "hgroup-head");
-      head.append(eln("span", "hgroup-name", juris.name));
       // Federal carries only the soonest-closing open rules, plus a few notices of each
       // kind (records with a category) shown in their own sections below.
       const listed = byJur[code].filter((h) => !h.category);
@@ -897,22 +868,14 @@
         : Math.min(listed.length, SHOW_MAX);
       const totalHere = code === "us"
         ? (juris.open_total || listed.length) + (juris.notice_total || notices.length) : listed.length;
+      counts[code] = totalHere;
       head.append(eln("span", "hgroup-count", showing(shownHere, totalHere)));
-      head.append(jurisdictionRssTrigger(code, juris.name));
-      if (juris.portal_url) {
-        const p = eln("a", "hgroup-portal", PARTICIPATION[juris.participation] || "Official portal ↗");
-        p.href = juris.portal_url; p.target = "_blank"; p.rel = "noopener";
-        head.append(p);
-      }
       group.append(head);
       if (code === "us") {
         group.classList.add("hgroup--fed");
         // The kinds' sticky titles sit just under the sticky header, whatever height it wraps to.
         const fit = () => group.style.setProperty("--fed-head-h", head.offsetHeight + "px");
         if ("ResizeObserver" in window) new ResizeObserver(fit).observe(head); else fit();
-      }
-      jumps.push({ code: code, name: juris.name, total: totalHere });
-      if (code === "us") {
         federalSections(group, listed, notices, juris);
       } else {
         // Rows live in their own wrapper so zebra :nth-child counts rows, not head.
@@ -921,44 +884,14 @@
         group.append(rows);
         if (listed.length > SHOW_MAX && (juris.full_list_url || juris.portal_url)) {
           group.append(seeAllRow("Showing the next " + SHOW_MAX + ".",
-            "See all " + fmt(listed.length) + " ↗", juris.full_list_url || juris.portal_url));
+            "See all " + fmt(listed.length) + " \u2197", juris.full_list_url || juris.portal_url));
         }
       }
       // The frame carries the card's pencil-sketch lines (the federal card scrolls, which would clip them).
       const frame = eln("div", "hg-frame");
       frame.append(group);
-      body.append(frame);
+      groups[code] = frame;
     });
-
-    // Jump-to pills at the top, in the same order as the sections, each with its count.
-    const jump = $("hh-jump");
-    jump.textContent = "";
-    jump.append(eln("span", "hh-jump-lbl", "Jump to"));
-    jumps.forEach((j, i) => {
-      const a = eln("a", null, j.name);
-      a.href = "#hg-" + j.code;
-      a.style.setProperty("--jc", zc(i));
-      a.append(eln("span", "jn-count", fmt(j.total)));
-      jump.append(a);
-    });
-    jump.hidden = jumps.length < 2;
-    markJumpInView(jump);
-
-    card.hidden = false;
-  }
-
-  // Colour marks where you are: the "Jump to" pill of the jurisdiction on screen fills in.
-  function markJumpInView(jump) {
-    if (!("IntersectionObserver" in window) || jump.hidden) return;
-    const pills = {};
-    jump.querySelectorAll("a").forEach((a) => { pills[a.hash.slice(1)] = a; });
-    const seen = new Map();
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((e) => seen.set(e.target.id, e.isIntersecting));
-      const here = Object.keys(pills).find((id) => seen.get(id));
-      Object.keys(pills).forEach((id) => pills[id].setAttribute("aria-current", String(id === here)));
-    }, { rootMargin: "-35% 0px -55% 0px" });
-    Object.keys(pills).forEach((id) => { const g = $(id); if (g) io.observe(g); });
   }
 
   // Every list shows at most SHOW_MAX rows ("x of y showing") with a "See all ↗" link
@@ -1190,123 +1123,211 @@
     public_comment: "Public comment",
     contact_only: "Contact the committee",
   };
-  // Which jurisdictions actually have live hearings is read from the feed itself
-  // (renderHearings fills this), not hardcoded — so the "Live hearings" badge on
-  // the participation cards is always truthful and grows automatically as more
-  // states are wired into the scraper.
-  let liveCodes = new Set();
   let participation = [];
-  let pFilter = "";
-  let pLetter = "";   // "" = all letters
-  // code -> how the public weighs in there (from the feed's jurisdictions list),
-  // so each hearing's "how to participate" link is labeled per its own state
-  // rather than assumed. renderHearings fills this.
-  let jurParticipation = {};
 
-  // Local flag asset per jurisdiction (offline, committed under flags/). DC has
-  // no flagcdn entry, so it's a hand-authored SVG; everything else is a small PNG.
+  // Local flag asset per jurisdiction (served from Govbot's site). DC has no PNG, so it's an SVG.
   function flagSrc(code) { return code === "dc" ? "https://chihacknight.github.io/govbot/dashboard/flags/dc.svg" : "https://chihacknight.github.io/govbot/dashboard/flags/" + code + ".png"; }
   function mkFlag(code, name) {
-    const img = eln("img", "pstate-flag");
-    img.src = flagSrc(code);
-    img.alt = name + " flag";
-    img.width = 28; img.loading = "lazy"; img.decoding = "async";
-    img.addEventListener("error", () => img.remove());  // degrade: name still reads
+    const img = eln("img", "mp-flag");
+    img.src = flagSrc(code === "chi" ? "il" : code);
+    img.alt = "";
+    img.width = 36; img.decoding = "async";
+    img.addEventListener("error", () => img.remove());  // degrade: the name still reads
     return img;
   }
 
-  function loadParticipation() {
-    fetch("participation.json")
-      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then((data) => {
-        participation = (data && data.jurisdictions) || [];
-        buildLetters();
-        renderParticipation("");
-      })
-      .catch(() => {});
+  /* ---------- the map: pick a place, see its hearings and how to weigh in ---------- */
+
+  // Every place: the 56 jurisdictions of the participation directory plus any the feed adds
+  // (Chicago), each with how to take part and how many hearings are coming up.
+  const places = {};
+  const OFF_MAP = ["us", "chi", "dc", "pr", "gu", "vi", "mp"];   // chips under the map
+  function buildPlaces(data) {
+    participation.forEach((j) => { places[j.code] = Object.assign({}, j); });
+    Object.keys(portals).forEach((code) => { places[code] = Object.assign({ code: code }, places[code], portals[code]); });
+    if (places.chi) places.chi.name = "Chicago City Council";
+    Object.keys(places).forEach((c) => { places[c].count = counts[c] || 0; });
+  }
+  const placeName = (c) => (places[c] && places[c].name) || c.toUpperCase();
+  const countLabel = (n) => n ? fmt(n) + " upcoming" : "no hearings posted";
+
+  const SVGNS = "http://www.w3.org/2000/svg";
+  function svgEl(tag, attrs, parent) {
+    const n = document.createElementNS(SVGNS, tag);
+    Object.keys(attrs).forEach((k) => n.setAttribute(k, attrs[k]));
+    if (parent) parent.append(n);
+    return n;
+  }
+  const mapEls = {};   // code -> the clickable shapes/chips for that place
+
+  // A pencil map: every state outlined in graphite and traced again, a little off, by a lighter
+  // pass; states with hearings coming up hatched green, with their count. Chicago is a dot on Illinois.
+  function buildMap(geo) {
+    const box = $("mp-map");
+    if (geo && geo.states) {
+      const svg = svgEl("svg", { viewBox: geo.viewBox, class: "mp-svg", role: "group", "aria-label": "Map of the states: pick one" });
+      const defs = svgEl("defs", {}, svg);
+      [["mp-hatch-live", "mp-hatch-live"], ["mp-hatch-sel", "mp-hatch-sel"]].forEach(([id, cls]) => {
+        const pat = svgEl("pattern", { id: id, width: 7, height: 7, patternUnits: "userSpaceOnUse", patternTransform: "rotate(-55)" }, defs);
+        svgEl("rect", { width: 7, height: 7, class: cls + "-bg" }, pat);
+        svgEl("line", { x1: 0, y1: 0, x2: 0, y2: 7, class: cls + "-ln" }, pat);
+      });
+      const shapes = svgEl("g", { class: "mp-states" }, svg);
+      const sketch = svgEl("g", { class: "mp-sketch", "aria-hidden": "true" }, svg);
+      const labels = svgEl("g", { class: "mp-labels", "aria-hidden": "true" }, svg);
+      geo.states.forEach((st) => {
+        const code = st.id.toLowerCase();
+        const n = (places[code] && places[code].count) || 0;
+        const path = svgEl("path", { d: st.d, class: "mp-st" + (n ? " is-live" : ""), tabindex: 0, role: "button",
+          "aria-label": st.name + ": " + countLabel(n) }, shapes);
+        path.dataset.code = code;
+        svgEl("title", {}, path).textContent = st.name + " · " + countLabel(n);
+        svgEl("path", { d: st.d, class: "mp-pass" }, sketch);
+        (mapEls[code] = mapEls[code] || []).push(path);
+      });
+      box.append(svg);
+      // Labels once the shapes have sizes: the abbreviation (and count) of every state big enough to hold one.
+      requestAnimationFrame(() => {
+        geo.states.forEach((st) => {
+          const code = st.id.toLowerCase();
+          const b = mapEls[code][0].getBBox();
+          if (b.width < 28 || b.height < 22) return;
+          const n = (places[code] && places[code].count) || 0;
+          const t = svgEl("text", { x: b.x + b.width / 2, y: b.y + b.height / 2 + 5, class: "mp-lbl" + (n ? " is-live" : "") }, labels);
+          t.textContent = st.id + (n ? " · " + fmt(n) : "");
+        });
+        // Chicago: a dot near Illinois' north-east corner, where the city sits on the lake.
+        const il = mapEls.il && mapEls.il[0].getBBox();
+        if (il && places.chi) {
+          const cx = il.x + il.width * 0.86, cy = il.y + il.height * 0.16;
+          const g = svgEl("g", { class: "mp-city" + (places.chi.count ? " is-live" : ""), tabindex: 0, role: "button",
+            "aria-label": "Chicago City Council: " + countLabel(places.chi.count) }, svg);
+          g.dataset.code = "chi";
+          svgEl("title", {}, g).textContent = "Chicago City Council · " + countLabel(places.chi.count);
+          svgEl("circle", { cx: cx, cy: cy, r: 11, class: "mp-city-ring" }, g);
+          svgEl("circle", { cx: cx, cy: cy, r: 5, class: "mp-city-dot" }, g);
+          const t = svgEl("text", { x: cx + 15, y: cy - 10, class: "mp-city-lbl" }, g);
+          t.textContent = "Chicago";
+          (mapEls.chi = mapEls.chi || []).push(g);
+        }
+      });
+      svg.addEventListener("click", (e) => { const el = e.target.closest("[data-code]"); if (el) pick(el.dataset.code, true); });
+      svg.addEventListener("keydown", (e) => {
+        if (e.key !== "Enter" && e.key !== " ") return;
+        const el = e.target.closest("[data-code]"); if (!el) return;
+        e.preventDefault(); pick(el.dataset.code, true);
+      });
+    } else {
+      box.append(eln("p", "mp-nomap", "The map didn’t load. Pick a place from the list or the buttons below."));
+    }
+    // Places the map can't hold (or that are too small to tap), as chips.
+    const extra = $("mp-extra");
+    OFF_MAP.filter((c) => places[c]).forEach((c) => {
+      const b = eln("button", "mp-chip" + (places[c].count ? " is-live" : ""));
+      b.type = "button"; b.dataset.code = c;
+      b.append(eln("span", null, c === "us" ? "USA (Federal)" : c === "chi" ? "Chicago" : placeName(c)));
+      if (places[c].count) b.append(eln("span", "mp-chip-n", fmt(places[c].count)));
+      b.setAttribute("aria-label", placeName(c) + ": " + countLabel(places[c].count));
+      b.addEventListener("click", () => pick(c, true));
+      extra.append(b);
+      (mapEls[c] = mapEls[c] || []).push(b);
+    });
   }
 
-  function renderParticipation(filter) {
-    if (!participation.length) return;
-    const grid = $("participation-grid");
-    grid.textContent = "";
-    pFilter = filter || "";
-    const q = pFilter.trim().toLowerCase();
-    const rows = participation.filter((j) =>
-      (!pLetter || firstLetter(j) === pLetter) &&
-      (!q || j.name.toLowerCase().includes(q) ||
-       (KIND_LABEL[j.participation] || "").toLowerCase().includes(q)));
-    // Pin USA (Federal) to the front — it carries the live federal rules open
-    // for comment — keeping the rest of the list in place.
-    rows.sort((a, b) => (b.code === "us") - (a.code === "us"));
-    rows.forEach((j) => {
-      const card = eln("div", "pstate");
-      const top = eln("div", "pstate-top");
-      const idcol = eln("div", "pstate-idcol");
-      const flag = mkFlag(j.code, j.name);
-      if (flag) idcol.append(flag);
-      idcol.append(eln("span", "pstate-name", j.name));
-      top.append(idcol);
-      if (liveCodes.has(j.code)) top.append(eln("span", "pstate-live", "Live hearings"));
-      card.append(top);
-      card.append(eln("span", "pstate-kind", KIND_LABEL[j.participation] || j.participation));
-      if (j.how_to) card.append(eln("div", "pstate-how", j.how_to));
-      if (j.portal_url) {
-        const a = eln("a", "pstate-link" + (j.online ? "" : " is-offline"),
-          (j.online ? "Go to portal ↗" : "How to participate ↗"));
-        a.href = j.portal_url; a.target = "_blank"; a.rel = "noopener";
-        card.append(a);
-      }
-      // Subscribe to this state's hearings. Live states get their populated
-      // feed; the rest get an empty placeholder that fills when the state opens.
-      const sub = eln("div", "pstate-sub");
-      sub.append(jurisdictionRssTrigger(j.code, j.name));
-      card.append(sub);
-      grid.append(card);
-    });
-    $("p-none").hidden = rows.length > 0;
-    $("participation-card").hidden = rows.length === 0 && !q && !pLetter;
+  // Every place in one list too (keyboard and screen-reader friendly), with hearings first.
+  function buildPicker() {
+    const sel = $("mp-pick");
+    const codes = Object.keys(places).sort((a, b) => (places[b].count > 0) - (places[a].count > 0) || placeName(a).localeCompare(placeName(b)));
+    codes.forEach((c) => sel.append(new Option(placeName(c) + (places[c].count ? " · " + fmt(places[c].count) + " upcoming" : ""), c)));
+    sel.addEventListener("change", () => { if (sel.value) pick(sel.value, true); });
   }
 
-  function firstLetter(j) { return (j.name || "").trim().charAt(0).toUpperCase(); }
-
-  // "All" + A–Z. A letter no state starts with is shown but disabled, so the row
-  // reads as a full alphabet; clicking the active letter again shows all states.
-  function buildLetters() {
-    const box = $("p-letters");
-    if (!box) return;
-    box.textContent = "";
-    const have = new Set(participation.map(firstLetter));
-    ["", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].forEach((L) => {
-      const b = eln("button", "p-letter", L || "All");
-      b.type = "button";
-      b.dataset.letter = L;
-      if (L) b.setAttribute("aria-label", "States starting with " + L);
-      b.disabled = !!L && !have.has(L);
-      box.append(b);
-    });
-    box.addEventListener("click", (e) => {
-      const b = e.target.closest(".p-letter");
-      if (!b || b.disabled) return;
-      pLetter = pLetter === b.dataset.letter ? "" : b.dataset.letter;
-      syncLetters();
-      renderParticipation(pFilter);
-    });
-    syncLetters();
-  }
-  function syncLetters() {
-    $("p-letters").querySelectorAll(".p-letter").forEach((b) =>
-      b.setAttribute("aria-pressed", String(b.dataset.letter === pLetter)));
+  // Before a place is picked: where the hearings are, as quick buttons.
+  function showIntro(note) {
+    const panel = $("mp-panel");
+    panel.textContent = "";
+    panel.append(eln("h3", "mp-h", "Where you can weigh in now"));
+    if (note) panel.append(eln("p", "mp-p", note));
+    const live = Object.keys(places).filter((c) => places[c].count).sort((a, b) => (b === "us") - (a === "us") || placeName(a).localeCompare(placeName(b)));
+    if (live.length) {
+      panel.append(eln("p", "mp-p", "These places have hearings or comment periods coming up. Tap one, or any state on the map to see how to take part there."));
+      const row = eln("div", "mp-quick");
+      live.forEach((c) => {
+        const b = eln("button", "mp-chip is-live");
+        b.type = "button";
+        b.append(eln("span", null, placeName(c)), eln("span", "mp-chip-n", fmt(places[c].count)));
+        b.addEventListener("click", () => pick(c, true));
+        row.append(b);
+      });
+      panel.append(row);
+    }
   }
 
-  {
-    let pt;
-    const ps = $("p-search");
-    if (ps) ps.addEventListener("input", (e) => {
-      clearTimeout(pt);
-      pt = setTimeout(() => renderParticipation(e.target.value), 120);
-    });
+  // Show one place: who it is, how to take part, and its hearings.
+  let current = "";
+  function pick(code, byUser) {
+    const p = places[code];
+    if (!p) return;
+    current = code;
+    Object.keys(mapEls).forEach((c) => mapEls[c].forEach((el) => {
+      el.classList.toggle("is-sel", c === code);
+      if (el.tagName === "BUTTON") el.setAttribute("aria-pressed", String(c === code));
+    }));
+    $("mp-pick").value = code;
+    const panel = $("mp-panel");
+    panel.textContent = "";
+    const head = eln("div", "mp-head");
+    head.append(mkFlag(code, p.name));
+    const id = eln("div", "mp-id");
+    id.append(eln("h3", "mp-h", p.name));
+    const tags = eln("div", "mp-tags");
+    if (p.count) tags.append(eln("span", "pstate-live", fmt(p.count) + " upcoming"));
+    if (p.participation) tags.append(eln("span", "pstate-kind", KIND_LABEL[p.participation] || p.participation));
+    id.append(tags);
+    head.append(id);
+    panel.append(head);
+
+    panel.append(eln("h4", "mp-sub", "How to take part"));
+    if (p.how_to) panel.append(eln("p", "mp-p", p.how_to));
+    const acts = eln("div", "mp-acts");
+    if (p.portal_url) {
+      const a = eln("a", "file-link", p.online === false ? "How to participate ↗" : (PARTICIPATION[p.participation] || "Official portal ↗"));
+      a.href = p.portal_url; a.target = "_blank"; a.rel = "noopener";
+      acts.append(a);
+    }
+    acts.append(jurisdictionRssTrigger(code, p.name));
+    panel.append(acts);
+    if (code === "il") {
+      const ws = eln("a", "ws-plain mp-ws", "File a witness slip: how it works and the bills open now ↓");
+      ws.href = "#witness-slips";
+      ws.addEventListener("click", (e) => { e.preventDefault(); $("witness-slips").scrollIntoView({ behavior: "smooth", block: "start" }); });
+      panel.append(ws);
+    }
+
+    panel.append(eln("h4", "mp-sub", "Hearings coming up"));
+    if (groups[code]) panel.append(groups[code]);
+    else panel.append(eln("p", "mp-p", "None posted for the next few weeks. Follow " + p.name + " to hear when one is."));
+
+    $("witness-slips").hidden = code !== "il";
+    if (byUser) {
+      history.replaceState(null, "", "#hg-" + code);
+      // On a phone the panel sits under the map: bring it into view.
+      const r = panel.getBoundingClientRect();
+      if (r.top > innerHeight * 0.6 || r.top < 0) panel.scrollIntoView({ behavior: "smooth", block: "start" });
+      panel.focus({ preventScroll: true });
+    }
   }
+
+  // #hg-<code> (search results, shared links, Govbot's old addresses) opens that place;
+  // #witness-slips opens Illinois at its witness slips.
+  function openFromHash() {
+    const id = decodeURIComponent(location.hash.slice(1));
+    const m = /^hg-([a-z]+)$/.exec(id);
+    if (m && places[m[1]]) { pick(m[1], false); requestAnimationFrame(() => $("places").scrollIntoView({ block: "start" })); return true; }
+    if (id === "witness-slips") { pick("il", false); requestAnimationFrame(() => $("witness-slips").scrollIntoView({ block: "start" })); return true; }
+    return false;
+  }
+  window.addEventListener("hashchange", openFromHash);
 
   /* ---------- per-bill RSS subscribe ---------- */
 
@@ -1608,7 +1629,7 @@
     draw();
   }
 
-  document.addEventListener("DOMContentLoaded", () => { loadHearings(); loadParticipation(); });
+  document.addEventListener("DOMContentLoaded", start);
 })();
 </script>
 <footer class="gb-footer">
