@@ -171,7 +171,10 @@ first move can pin them), inside the panel on wide screens or the page on phones
 part →" to that place's panel. On phones the swipeable pill row shows a **swipe cue** (`.mp-jumpwrap`: the row fades at
 an edge with pills past it, a "›" arrow on the right that nudges three times, `has-more` / `has-back` set on scroll).
 Each place's group wears a **four-sided coloured-pencil border** in its pill's colour (`--gc`, traced again by a
-lighter offset pass; deepened on light paper), and each pill takes its group's colour (`.mp-jumpchip`). The panel's pencil outlines and the page's paper frame are straight (no tilt), since over
+lighter offset pass; deepened on light paper), and each pill takes its group's colour (`.mp-jumpchip`). **The pill follows you:** as you scroll the list, the pill of the place being read
+fills in its colour, lifts and casts a pencil shadow (`aria-current`), and on phones the row slides to centre it
+(`spy`, read once per frame from a passive scroll listener on the panel and the page; it unhooks itself once the
+list is replaced; instant under reduced motion). The panel's pencil outlines and the page's paper frame are straight (no tilt), since over
 a page this tall a fraction of a degree drifts into the text. **No section numbers** (the giant "01"/"02" were removed,
 per request); the headings are "Pick a place" and "Witness slips, Illinois".
 

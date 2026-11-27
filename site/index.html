@@ -521,6 +521,12 @@
   @keyframes mp-nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(4px); } }
   .mp-jump-lbl { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; margin-right: 2px; }
   .mp-jump .mp-jumpchip { min-height: 36px; padding: 2px 6px 2px 12px; font-size: 14px; text-decoration: none; background-color: color-mix(in srgb, var(--jc) 45%, var(--z-card)); }
+  /* The place being read: its pill fills in its colour, lifts and casts a pencil shadow. */
+  .mp-jump .mp-jumpchip { transition: transform .18s, box-shadow .18s; }
+  .mp-jump .mp-jumpchip[aria-current="true"] { background-color: var(--jc); color: var(--z-on-color); border-color: var(--z-ink);
+    box-shadow: 3px 4px 0 var(--z-press); transform: translateY(-2px); }
+  .mp-jump .mp-jumpchip[aria-current="true"] .mp-chip-n { background: var(--z-card); color: var(--z-ink); }
+  @media (prefers-reduced-motion: reduce) { .mp-jump .mp-jumpchip { transition: none; } }
   .mp-allgroup { position: relative; margin-top: 18px; padding: 2px 14px 6px; border: 2.5px solid var(--gc);
     border-radius: 7px 10px 8px 9px; }
   /* A second, lighter pass of the same coloured pencil, a little off, like a hand going over the line. */
@@ -1503,6 +1509,30 @@
     jump.addEventListener("scroll", cue, { passive: true });
     if ("ResizeObserver" in window) new ResizeObserver(cue).observe(jump);
     cue();
+    // Where you are: the pill of the place being read fills in, and (on phones) the row slides to show it.
+    // Read once per frame from whichever scrolls (the panel on wide screens, the page on phones).
+    const pills = [...jump.querySelectorAll("a")];
+    const sections = codes.map((c) => $("all-" + c));
+    let here = -1, queued = false;
+    const spy = () => {
+      queued = false;
+      if (!jump.isConnected) { panel.removeEventListener("scroll", onScroll); window.removeEventListener("scroll", onScroll); return; }
+      const line = jump.getBoundingClientRect().bottom + 24;
+      let i = 0;
+      sections.forEach((g, k) => { if (g.getBoundingClientRect().top <= line) i = k; });
+      if (i === here) return;
+      here = i;
+      pills.forEach((a, k) => a.setAttribute("aria-current", String(k === i)));
+      const a = pills[i];
+      if (jump.scrollWidth > jump.clientWidth) {
+        const left = a.offsetLeft - (jump.clientWidth - a.offsetWidth) / 2;
+        jump.scrollTo({ left: Math.max(0, left), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+      }
+    };
+    const onScroll = () => { if (!queued) { queued = true; requestAnimationFrame(spy); } };
+    panel.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("scroll", onScroll, { passive: true });
+    spy();
     $("witness-slips").hidden = true;
     if (byUser) settle(panel, "all");
   }
