@@ -143,8 +143,8 @@ straight pencil passes whose top/bottom and side lines **run past the corners** 
 in pencil** (`--z-pencil`, two crossed hatch gradients) with smudged graphite shadows (`--z-press`) instead of hard
 ink ones. All text stays in **Roboto** (a hand-lettered heading font was tried and dropped, per request). A still **pencil** doodle (`assets/sketch-pencil.svg`, a
 graphite-filled CSS mask) sits by 02 Witness slips; by 01 stands the **hearing room drawn while you watch** (below).
-Both come from `scripts/sketch_doodles.py` (re-run it after changing a shape or the drawing; needs Pillow + numpy). Static only: no filters, nothing animated; text
-keeps the full-contrast ink. The circle round "say." (`.hh-circle::after`) is a heavy loop plus a lighter second pass
+Both come from `scripts/sketch_doodles.py` (re-run it after changing a shape or the drawing; needs Pillow + numpy). The sketch layer itself is static (no filters, nothing animated; only the
+hearing-room drawing and the hero fireworks move); text keeps the full-contrast ink. The circle round "say." (`.hh-circle::after`) is a heavy loop plus a lighter second pass
 with room around the word, so it reads as a circle in both themes rather than strokes through the letters.
 
 **Map-first layout (Nov 2026, per request: "more of a map, users simply click the state/locality, less scrolling").**
