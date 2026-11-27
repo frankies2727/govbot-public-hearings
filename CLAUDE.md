@@ -168,7 +168,10 @@ hearings and comment deadlines (`allUpcoming`, not canceled), **grouped by place
 first within each; `pickAll`), under **sticky "Jump to" pills**, one per place in its colour with its count (`.mp-jump`;
 one swipeable row on phones). A pill lands its group's heading just under the pills (measured, done twice because the
 first move can pin them), inside the panel on wide screens or the page on phones; each group heading has "How to take
-part →" to that place's panel. The panel's pencil outlines and the page's paper frame are straight (no tilt), since over
+part →" to that place's panel. On phones the swipeable pill row shows a **swipe cue** (`.mp-jumpwrap`: the row fades at
+an edge with pills past it, a "›" arrow on the right that nudges three times, `has-more` / `has-back` set on scroll).
+Each place's group wears a **four-sided coloured-pencil border** in its pill's colour (`--gc`, traced again by a
+lighter offset pass; deepened on light paper), and each pill takes its group's colour (`.mp-jumpchip`). The panel's pencil outlines and the page's paper frame are straight (no tilt), since over
 a page this tall a fraction of a degree drifts into the text. **No section numbers** (the giant "01"/"02" were removed,
 per request); the headings are "Pick a place" and "Witness slips, Illinois".
 

@@ -498,16 +498,41 @@
   .mp-all[aria-pressed="true"] { background-color: var(--mp-sel); color: var(--z-on-color); box-shadow: 3px 4px 0 var(--z-press); }
   .mp-more { margin-top: 14px; }
   /* "All upcoming hearings": sticky Jump-to pills (each place's colour and count), then one group per place. */
-  .mp-jump { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
-    margin: 0 -22px 6px; padding: 10px 22px; background: var(--z-card); border-bottom: 1.5px solid var(--z-graphite-2); }
+  .mp-jumpwrap { position: sticky; top: 0; z-index: 2; margin: 0 -22px 6px; }
+  .mp-jump { position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+    padding: 10px 22px; background: var(--z-card); border-bottom: 1.5px solid var(--z-graphite-2); }
   /* Pinned flush with the panel's top edge where the panel scrolls (it has 20px of top padding), under the site header elsewhere. */
-  @media (min-width: 961px) { .mp-jump { top: -20px; } }
-  @media (max-width: 960px) { .mp-jump { top: 66px; } }
+  @media (min-width: 961px) { .mp-jumpwrap { top: -20px; } }
+  @media (max-width: 960px) { .mp-jumpwrap { top: 66px; } }
   /* On a phone the pills are one row you swipe sideways, so they don't cover the screen. */
-  @media (max-width: 620px) { .mp-jump { flex-wrap: nowrap; overflow-x: auto; margin: 0 -14px 6px; padding: 8px 14px; scrollbar-width: none; }
+  @media (max-width: 620px) { .mp-jumpwrap { margin: 0 -14px 6px; }
+    .mp-jump { flex-wrap: nowrap; overflow-x: auto; padding: 8px 14px; scrollbar-width: none; }
+    .mp-jump::-webkit-scrollbar { display: none; }
     .mp-jump > * { flex: none; } }
+  /* The swipe cue: the row fades out at an edge with more pills past it, and an arrow points the way. */
+  .mp-jumpwrap::before, .mp-jumpwrap::after { content: ""; position: absolute; top: 0; bottom: 1.5px; width: 56px; pointer-events: none;
+    opacity: 0; transition: opacity .2s; z-index: 1; }
+  .mp-jumpwrap::before { left: 0; background: linear-gradient(to right, var(--z-card) 30%, transparent); }
+  .mp-jumpwrap::after { right: 0; background: linear-gradient(to left, var(--z-card) 35%, transparent);
+    content: "\203A"; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; box-sizing: border-box;
+    font-size: 30px; line-height: 1; color: var(--z-ink); }
+  .mp-jumpwrap.has-back::before, .mp-jumpwrap.has-more::after { opacity: 1; }
+  @media (prefers-reduced-motion: no-preference) { .mp-jumpwrap.has-more::after { animation: mp-nudge 1.4s ease-in-out 3; } }
+  @keyframes mp-nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(4px); } }
   .mp-jump-lbl { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; margin-right: 2px; }
-  .mp-jump .mp-chip { min-height: 36px; padding: 2px 6px 2px 12px; font-size: 14px; text-decoration: none; background-color: color-mix(in srgb, var(--jc) 45%, var(--z-card)); }
+  .mp-jump .mp-jumpchip { min-height: 36px; padding: 2px 6px 2px 12px; font-size: 14px; text-decoration: none; background-color: color-mix(in srgb, var(--jc) 45%, var(--z-card)); }
+  .mp-allgroup { position: relative; margin-top: 18px; padding: 2px 14px 6px; border: 2.5px solid var(--gc);
+    border-radius: 7px 10px 8px 9px; }
+  /* A second, lighter pass of the same coloured pencil, a little off, like a hand going over the line. */
+  .mp-allgroup::after { content: ""; position: absolute; inset: -5px -3px -3px -5px; border: 1.2px solid var(--gc); border-radius: 9px 6px 10px 7px;
+    opacity: .7; pointer-events: none; }
+  @media (max-width: 620px) { .mp-allgroup { padding: 2px 10px 6px; } }
+  /* On light paper the pastel pencils need more weight to read: the same colour, deepened. */
+  :root[data-theme="light"] .mp-allgroup { --gcl: color-mix(in srgb, var(--gc) 70%, #1B1A17); border-color: var(--gcl); }
+  :root[data-theme="light"] .mp-allgroup::after { border-color: var(--gcl); }
+  @media (prefers-color-scheme: light) { :root:not([data-theme]) .mp-allgroup { --gcl: color-mix(in srgb, var(--gc) 70%, #1B1A17); border-color: var(--gcl); }
+    :root:not([data-theme]) .mp-allgroup::after { border-color: var(--gcl); } }
+  .mp-allgroup .mp-allh { margin-top: 10px; }
   .mp-allh { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; margin-top: 22px;
     padding-bottom: 6px; border-bottom: 1.5px solid var(--z-graphite); font-size: 14px; }
   .mp-open { font-size: 14px; letter-spacing: 0; text-transform: none; background: none; border: 0; padding: 0; color: var(--z-ink); cursor: pointer; }
@@ -1436,7 +1461,7 @@
     const list = eln("div", "mp-allgroups");
     codes.forEach((code, gi) => {
       const id = "all-" + code;
-      const a = eln("a", "mp-chip is-live");
+      const a = eln("a", "mp-chip mp-jumpchip");   // its group's colour, not the generic "has hearings" green
       a.href = "#" + id;
       a.style.setProperty("--jc", zc(gi));
       a.append(eln("span", null, code === "chi" ? "Chicago" : placeName(code)), eln("span", "mp-chip-n", fmt(byPlace[code].length)));
@@ -1455,6 +1480,7 @@
       jump.append(a);
       const group = eln("section", "mp-allgroup");
       group.id = id;
+      group.style.setProperty("--gc", zc(gi));   // its pill's colour, for its pencil border
       const h = eln("h4", "mp-sub mp-allh", placeName(code) + " \u00b7 " + fmt(byPlace[code].length) + (code === "us" ? " closing soonest" : " upcoming"));
       const open = eln("button", "ws-plain mp-open", "How to take part \u2192");
       open.type = "button";
@@ -1465,7 +1491,18 @@
       group.append(h, rows);
       list.append(group);
     });
-    panel.append(jump, list);
+    // Wrapped so a swipeable row (phones) can show fades and an arrow where more pills are hidden.
+    const jumpWrap = eln("div", "mp-jumpwrap");
+    jumpWrap.append(jump);
+    panel.append(jumpWrap, list);
+    const cue = () => {
+      const more = jump.scrollWidth - jump.clientWidth;
+      jumpWrap.classList.toggle("has-more", more > 2 && jump.scrollLeft < more - 2);
+      jumpWrap.classList.toggle("has-back", jump.scrollLeft > 2);
+    };
+    jump.addEventListener("scroll", cue, { passive: true });
+    if ("ResizeObserver" in window) new ResizeObserver(cue).observe(jump);
+    cue();
     $("witness-slips").hidden = true;
     if (byUser) settle(panel, "all");
   }
