@@ -181,7 +181,8 @@ without IntersectionObserver or under reduced motion the page loads just the fin
 
 **The circle round "say."** is six coloured-pencil loops (`.hh-circle::after`, an SVG background): #5EBD3E, #FFB900,
 #F78200, #E23838, #973999, #009CDF, each a little off the last with a grainy broken line beside it; fixed colours, so
-it reads the same in both themes. **The place list** (`#mp-pick` in `.mp-rainbow`) wears Govbot's moving six-colour
+it reads the same in both themes; it sits behind the word (`z-index: -1` inside the isolated `.hh-circle`) with room
+around it, so the letters are never covered. **The place list** (`#mp-pick` in `.mp-rainbow`) wears Govbot's moving six-colour
 border (its "Download the data" pill): a conic gradient spinning behind the paper-coloured select, transform only,
 paused off screen (IntersectionObserver in `buildPicker`), still under reduced motion.
 
