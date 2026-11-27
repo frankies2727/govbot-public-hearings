@@ -57,7 +57,7 @@ paper grain + faint smudges on the body; the doubled sketch outlines get uneven 
 (irregular `border-radius`, one partly dashed) — **no live SVG filters**: turbulence filters on the outlines
 (Nov 2026) made the page ~3× slower to load and scroll on a phone-speed CPU, so they were removed;
 coloured-pencil hatching on the coloured pills kept to their padding — the text sits on a solid patch of the
-same colour (content box, `--pf`), since hatching behind small type was unreadable (Nov 2026) and faint hatching inside cards; section numbers solid in the section colour inside an ink outline; scribbled underlines under section titles, a scribbled circle round
+same colour (content box, `--pf`), since hatching behind small type was unreadable (Nov 2026) and faint hatching inside cards; scribbled underlines under section titles, a scribbled circle round
 "say." (`.hh-circle`); pencil rules instead of dashed lines; and margin doodles (a star by each section, a squiggle under the stats). All static masks/gradients, nothing animated. Colour only
 marks where you are: the deck's four section colours `--z-c1..c4` (#8EC5F0 blue, #8FD9A0 green,
 #FFD166 yellow, #F4A3C0 pink; text on them is always dark ink). Top to bottom: a hero card (caps eyebrow
@@ -164,9 +164,13 @@ jurisdictions (`buildPlaces`, so Chicago has one). `#hg-<code>` links (search, s
 open that place (`openFromHash`, also on `hashchange`), and picking writes `#hg-<code>` to the address bar.
 hearings.json, participation.json and the map load together (`start`, `Promise.allSettled`): any one can fail alone.
 **"All upcoming hearings"** (`#mp-all`, beside the list picker, and offered in the intro panel; `#hg-all`): every place's
-hearings and comment deadlines in one list (`allUpcoming`, not canceled, soonest first), 20 at a time ("Show 20 more"),
-each row naming its place (`hearingRow(h, true)` → `.h-place`). Inside the panel the rows flow (the panel scrolls; the
-federal card keeps its own scroll box).
+hearings and comment deadlines (`allUpcoming`, not canceled), **grouped by place** (USA (Federal) first, then A–Z; soonest
+first within each; `pickAll`), under **sticky "Jump to" pills**, one per place in its colour with its count (`.mp-jump`;
+one swipeable row on phones). A pill lands its group's heading just under the pills (measured, done twice because the
+first move can pin them), inside the panel on wide screens or the page on phones; each group heading has "How to take
+part →" to that place's panel. The panel's pencil outlines and the page's paper frame are straight (no tilt), since over
+a page this tall a fraction of a degree drifts into the text. **No section numbers** (the giant "01"/"02" were removed,
+per request); the headings are "Pick a place" and "Witness slips, Illinois".
 
 **The hearing room, sketched while you watch (Nov 2026, per request), in the hero beside the fireworks.** `#hr-art`
 in `.hh-art` (drawing + fireworks side by side; stacked under the heading below 1000px, the fireworks capped at 220px on

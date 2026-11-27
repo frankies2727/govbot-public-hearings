@@ -139,13 +139,10 @@
 
   /* ---------- section dividers: giant number, big title, one-line description ---------- */
   .z-divider { display: flex; align-items: flex-end; gap: 22px; margin: 0 0 22px; }
-  .z-num { flex: none; font-size: 130px; font-weight: 300; line-height: .78; letter-spacing: -0.04em;
-    -webkit-text-stroke: 2px var(--z-ink); color: var(--zc); }
   .z-divider h2 { margin: 0; font-size: 47px; line-height: 1.05; }
   .z-divider p { margin: 8px 0 0; font-size: 20px; line-height: 1.4; color: var(--z-body); max-width: 56ch; }
   @media (max-width: 620px) {
     .z-divider { gap: 14px; }
-    .z-num { font-size: 76px; -webkit-text-stroke-width: 1.5px; }
     .z-divider h2 { font-size: 32px; }
     .z-divider p { font-size: 17px; }
   }
@@ -313,7 +310,6 @@
     color-mix(in srgb, var(--z-sketch-2) 7%, transparent) 9px 10px); }
 
   /* Section numbers: the section colour, solid, inside an ink outline (hatched, they read poorly). */
-  .z-num { color: var(--zc); -webkit-text-stroke: 3px var(--z-ink); paint-order: stroke fill; }
 
   /* Scribbled underlines under the big headings, and a scribbled circle around "say." */
   .z-divider h2, .hh-title { position: relative; display: inline-block; }
@@ -453,6 +449,11 @@
   :root { --mp-paper: var(--z-card); --mp-live: #8FD9A0; --mp-sel: #FFD166; }
   .mp-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 0 0 16px; }
   .mp-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 28px; align-items: start; }
+  .mp-grid > * { min-width: 0; }   /* a wide child (the swipeable pill row) must not widen its column */
+  /* The panel (and so the page) can be very tall (all hearings): its pencil outlines and the page's paper frame stay
+     straight, since even a fraction of a degree of tilt drifts into the text over that height. */
+  .wrap::before, .wrap::after { transform: none; }
+  .mp-panel.z-card::before, .mp-panel.z-card::after { transform: none; }
   @media (max-width: 960px) { .mp-grid { grid-template-columns: 1fr; } }
   .mp-mapcard { padding: 14px 14px 12px; }
   /* Its own layer and containment: a new panel never redraws the map, and a pick redraws only the states it changes. */
@@ -496,9 +497,20 @@
   .mp-all[hidden] { display: none; }
   .mp-all[aria-pressed="true"] { background-color: var(--mp-sel); color: var(--z-on-color); box-shadow: 3px 4px 0 var(--z-press); }
   .mp-more { margin-top: 14px; }
-  .mp-more[hidden] { display: none; }
-  .h-place { display: inline-block; margin-bottom: 4px; padding: 1px 10px; border: 1.5px solid var(--z-graphite); border-radius: 999px;
-    font-size: 12.5px; letter-spacing: .06em; text-transform: uppercase; background: color-mix(in srgb, var(--mp-live) 30%, var(--z-card)); }
+  /* "All upcoming hearings": sticky Jump-to pills (each place's colour and count), then one group per place. */
+  .mp-jump { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+    margin: 0 -22px 6px; padding: 10px 22px; background: var(--z-card); border-bottom: 1.5px solid var(--z-graphite-2); }
+  /* Pinned flush with the panel's top edge where the panel scrolls (it has 20px of top padding), under the site header elsewhere. */
+  @media (min-width: 961px) { .mp-jump { top: -20px; } }
+  @media (max-width: 960px) { .mp-jump { top: 66px; } }
+  /* On a phone the pills are one row you swipe sideways, so they don't cover the screen. */
+  @media (max-width: 620px) { .mp-jump { flex-wrap: nowrap; overflow-x: auto; margin: 0 -14px 6px; padding: 8px 14px; scrollbar-width: none; }
+    .mp-jump > * { flex: none; } }
+  .mp-jump-lbl { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; margin-right: 2px; }
+  .mp-jump .mp-chip { min-height: 36px; padding: 2px 6px 2px 12px; font-size: 14px; text-decoration: none; background-color: color-mix(in srgb, var(--jc) 45%, var(--z-card)); }
+  .mp-allh { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; margin-top: 22px;
+    padding-bottom: 6px; border-bottom: 1.5px solid var(--z-graphite); font-size: 14px; }
+  .mp-open { font-size: 14px; letter-spacing: 0; text-transform: none; background: none; border: 0; padding: 0; color: var(--z-ink); cursor: pointer; }
   .mp-nomap { padding: 40px 10px; text-align: center; color: var(--z-body); }
   .mp-extra, .mp-quick { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
   .mp-chip { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 4px 14px; border: var(--z-line); border-radius: 999px;
@@ -763,8 +775,7 @@
   </header>
 
   <section class="z-section" id="places" aria-labelledby="places-h">
-    <div class="z-divider" style="--zc:var(--z-c1)">
-      <span class="z-num" aria-hidden="true">01</span>
+    <div class="z-divider">
       <div>
         <h2 id="places-h">Pick a place</h2>
         <p>Tap a state, Chicago or the federal agencies to see the hearings coming up there and how to weigh in.</p>
@@ -797,8 +808,7 @@
   </section>
 
   <section class="z-section" id="witness-slips" aria-labelledby="ws-h" hidden>
-    <div class="z-divider" style="--zc:var(--z-c3)">
-      <span class="z-num" aria-hidden="true">02</span>
+    <div class="z-divider">
       <div>
         <h2 id="ws-h">Witness slips, Illinois</h2>
         <p>Tell Illinois lawmakers where you stand on a bill before its committee votes. It takes about two minutes, it’s free, and anyone can file one.</p>
@@ -1057,7 +1067,7 @@
     public_comment: "Official: comment portal ↗",
   };
 
-  function hearingRow(h, withPlace) {
+  function hearingRow(h) {
     const row = eln("div", "hearing-row" + (h.status === "canceled" ? " is-canceled" : ""));
 
     const when = eln("div", "h-when");
@@ -1083,7 +1093,6 @@
     row.append(when);
 
     const main = eln("div", "h-main");
-    if (withPlace) main.append(eln("span", "h-place", placeName(h.jurisdiction)));
     main.append(eln("div", "h-committee", h.committee || "Committee"));
     // A city meeting has no bills to list; its published subject says what it's about.
     if (h.jurisdiction === "chi" && h.title) main.append(eln("div", "h-loc", h.title));
@@ -1409,28 +1418,54 @@
     if (byUser) settle(panel, code);
   }
 
-  // Every place's hearings in one list, soonest first, 20 at a time, each row naming its place.
-  const ALL_STEP = 20;
+  // Every place's hearings in one list, grouped by place (USA (Federal) first, then A-Z), soonest first within
+  // each, under sticky "Jump to" pills that carry each place's count.
   function pickAll(byUser) {
     markPicked("all");
     $("mp-pick").value = "";
     const panel = $("mp-panel");
     panel.textContent = "";
     panel.append(eln("h3", "mp-h", "All upcoming hearings"));
-    panel.append(eln("p", "mp-p", fmt(allUpcoming.length) + " hearings and comment deadlines from every place Govbot follows, soonest first. Pick a place on the map for how to take part there."));
-    const rows = eln("div", "hgroup-rows mp-allrows");
-    const more = eln("button", "clear-btn mp-more");
-    more.type = "button";
-    let shown = 0;
-    const grow = () => {
-      allUpcoming.slice(shown, shown + ALL_STEP).forEach((h) => rows.append(hearingRow(h, true)));
-      shown = Math.min(allUpcoming.length, shown + ALL_STEP);
-      more.hidden = shown >= allUpcoming.length;
-      more.textContent = "Show " + fmt(Math.min(ALL_STEP, allUpcoming.length - shown)) + " more";
-    };
-    more.addEventListener("click", grow);
-    grow();
-    panel.append(rows, more);
+    panel.append(eln("p", "mp-p", fmt(allUpcoming.length) + " hearings and comment deadlines from every place Govbot follows. Pick a place on the map for how to take part there."));
+    const byPlace = {};
+    allUpcoming.forEach((h) => { (byPlace[h.jurisdiction] = byPlace[h.jurisdiction] || []).push(h); });
+    const codes = Object.keys(byPlace).sort((a, b) => (b === "us") - (a === "us") || placeName(a).localeCompare(placeName(b)));
+    const jump = eln("nav", "mp-jump");
+    jump.setAttribute("aria-label", "Jump to a place");
+    jump.append(eln("span", "mp-jump-lbl", "Jump to"));
+    const list = eln("div", "mp-allgroups");
+    codes.forEach((code, gi) => {
+      const id = "all-" + code;
+      const a = eln("a", "mp-chip is-live");
+      a.href = "#" + id;
+      a.style.setProperty("--jc", zc(gi));
+      a.append(eln("span", null, code === "chi" ? "Chicago" : placeName(code)), eln("span", "mp-chip-n", fmt(byPlace[code].length)));
+      // Straight there (the list is long), inside the panel on wide screens; the address keeps naming the list.
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        // Land the group's heading just below the pinned pills, whatever height they wrap to: inside the panel
+        // when it scrolls (wide screens), else the page (phones).
+        // Twice: the first move can pin the pills, which changes where they end.
+        const inPanel = panel.scrollHeight > panel.clientHeight + 1 && getComputedStyle(panel).overflowY !== "visible";
+        for (let k = 0; k < 2; k++) {
+          const by = $(id).getBoundingClientRect().top - jump.getBoundingClientRect().bottom - 12;
+          if (inPanel) panel.scrollTop += by; else window.scrollBy(0, by);
+        }
+      });
+      jump.append(a);
+      const group = eln("section", "mp-allgroup");
+      group.id = id;
+      const h = eln("h4", "mp-sub mp-allh", placeName(code) + " \u00b7 " + fmt(byPlace[code].length) + (code === "us" ? " closing soonest" : " upcoming"));
+      const open = eln("button", "ws-plain mp-open", "How to take part \u2192");
+      open.type = "button";
+      open.addEventListener("click", () => pick(code, true));
+      h.append(open);
+      const rows = eln("div", "hgroup-rows");
+      byPlace[code].forEach((r) => rows.append(hearingRow(r)));
+      group.append(h, rows);
+      list.append(group);
+    });
+    panel.append(jump, list);
     $("witness-slips").hidden = true;
     if (byUser) settle(panel, "all");
   }
