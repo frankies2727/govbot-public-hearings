@@ -19,7 +19,8 @@ Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io
 - ✍️ **How to take part.** Every hearing links the official place to weigh in: a witness slip, a sign-up to testify, or a comment form.
 - 🗺️ **Every state covered.** Pick any of the 56 jurisdictions on the map to see how it takes public input, even where we don't list hearings yet.
 - 📡 **Follow anything by RSS.** One feed for everything, or one per state, bill or hearing.
-- 🧾 **Never made up.** Every hearing comes from the legislature's or Federal Register's own site and links back to it.
+- 🧾 **Never made up.** Every hearing comes from the legislature's, city's or Federal Register's own site and links back to it.
+- 📦 **Yours to take.** Every meeting kept in git, plus CSV spreadsheets and calendar files to download.
 
 ## 🗓️ Where the hearings come from
 
@@ -31,8 +32,15 @@ Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io
 | 🦞 | **Massachusetts** | [malegislature.gov](https://malegislature.gov) | Submit written testimony |
 | 🏔️ | **Alaska** | [akleg.gov](https://akleg.gov) | Public opinion message |
 | 🏙️ | **Chicago City Council** (our first city) | [City Clerk eLMS API](https://api.chicityclerkelms.chicago.gov/swagger.json) | Written comment by each meeting's deadline (its Notice says where) |
+| 🗺️ | **Every other state, DC, Guam & the U.S. Virgin Islands** | Each legislature's own website, read by [Open States](https://github.com/openstates/openstates-scrapers)' open-source meeting scrapers, which we run ourselves twice a day | The state's own way to take part (on the map) |
 
-**Want your state?** Open an issue with your legislature's hearing calendar link. A state needs a public, machine-readable calendar (an API or feed, never a scraped search page).
+Not yet: California, New York, DC, Indiana (their scrapers need a database dump or a free API key), Ohio and the Northern Mariana Islands (their scrapers get past bot protection, which we don't do), Michigan (its site blocks scrapers), Puerto Rico and American Samoa (no scraper yet).
+
+## 📦 Take the data
+
+Every meeting is kept in [`data/`](data/) in git (one JSON file each, history included), and every refresh rebuilds
+spreadsheets and calendars at [`/downloads/`](https://govbot-public-hearings.vercel.app/downloads/manifest.json):
+`hearings-all.csv`, `hearings-<state>.csv`, and `<state>.ics` to subscribe to in your calendar. CC BY 4.0. See [data/README.md](data/README.md).
 
 ## 👀 What people see
 

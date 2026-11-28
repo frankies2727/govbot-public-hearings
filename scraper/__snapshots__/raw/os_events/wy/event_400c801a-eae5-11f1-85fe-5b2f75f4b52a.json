@@ -1,0 +1,732 @@
+{
+ "name": "Joint Select Committee on Tribal Relations",
+ "all_day": false,
+ "start_date": "2026-10-06T15:00:00+00:00",
+ "end_date": "2026-10-08T05:59:00+00:00",
+ "status": "confirmed",
+ "classification": "committee-meeting",
+ "description": "The purpose of this meeting is to  finalize the Select Committees interim work. The Select Committee will receive reports, updates, and have discussion on&#58; 1) tribal and state development efforts; 2) education update; 3) State/Tribal cooperation accords; 4) State/Tribal collaboration on health issues; 5) minors' access to alcohol; 6) acquiring rights-of-way on the Wind River Reservation; and 7) notification for cultural and historical sites. <br /><br />The meeting will be held in person in Riverton and remotely with a live video stream available on the Legislature's Website (www.wyoleg.gov). A limited number of participants can sign up to provide public comment virtually for a specified agenda item during the Committee's upcoming meeting. The total amount of time dedicated to virtual public comment is set by the Committee Chairmen per Management Council Policy. Please fill out the public comment form to ensure the Committee knows you intend to provide public comment virtually. Only those that fill out the form to provide public comments virtually and who are e-mailed the Zoom invite from the Legislative Service Office will be permitted into the Zoom meeting to testify.",
+ "upstream_id": "",
+ "location": {
+  "name": "Central Wyoming College, Intertribal Community Center, Room 125  2660 Peck Ave",
+  "note": "",
+  "coordinates": null,
+  "url": "https://wyoleg-gov.zoom.us/webinar/register/WN_scgTh5lJRIen-Vlbm9PcGg"
+ },
+ "media": [
+  {
+   "note": "Video Stream",
+   "links": [
+    {
+     "url": "https://youtube.com/live/qI3ZNtvWAIE?feature=share",
+     "media_type": "text/html"
+    },
+    {
+     "url": "https://youtube.com/live/8fmFXNeRQfc?feature=share",
+     "media_type": "text/html"
+    },
+    {
+     "url": "https://youtube.com/live/6kJHCEmjOUI?feature=share",
+     "media_type": "text/html"
+    }
+   ],
+   "date": "",
+   "classification": ""
+  }
+ ],
+ "documents": [
+  {
+   "note": "Meeting Notice",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-20261006900MeetingNotice.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "Agenda",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-20261006900AgendaPreview.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "Meeting Minutes",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-20261006900MeetingMinutes.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "Sign-In Sheet",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-20261006900Sign-inSheet.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "Meeting Minutes - June 15-16, 2026",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-202610061-03MeetingMinutesJune15-16.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "BARR Center's Work in Wyoming",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-202610062-01BARRWorkinWyoming.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "Social Studies Standards & Update from Native American Education Cabinet",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-202610062-02SocialStudiesStandardsUpdatefromNativeAmericanEducationCabinet.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "WYDOT - Tribal Cooperation",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-202610064-01WYDOTTribalCooperation.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "State/Tribal Collaboration on Health Issues",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-202610066-01StateandTribalCollaborationonHealthIssues.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "Right-of-Way Application Process Indian Trust Lands",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-20261006Right-of-wayapplicationprocesspresentationWyoming.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "27LSO-0164 v0.4 Providing alcohol to minors-expanded prohibitions.",
+   "links": [
+    {
+     "url": "https://wyoleg.gov/InterimCommittee/2026/STR-2026100627LSO-0164v0.4.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  }
+ ],
+ "links": [],
+ "participants": [
+  {
+   "name": "Joint Select Committee on Tribal Relations",
+   "entity_type": "organization",
+   "note": "host",
+   "organization_id": "~{\"name\": \"Joint Select Committee on Tribal Relations\"}"
+  }
+ ],
+ "agenda": [
+  {
+   "description": "Call to Order",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 0,
+   "extras": {}
+  },
+  {
+   "description": "Roll Call",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 1,
+   "extras": {}
+  },
+  {
+   "description": "Approval of Minutes - June 15-16, 2026",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 2,
+   "extras": {}
+  },
+  {
+   "description": "Attendees - Please sign in",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 3,
+   "extras": {}
+  },
+  {
+   "description": "Education Update",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 4,
+   "extras": {}
+  },
+  {
+   "description": "BARR Center Presentation",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Daniel Chuhta (BARR Center)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Daniel Chuhta (BARR Center)\"}"
+    },
+    {
+     "name": "Brad Brubaker (BARR Center)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Brad Brubaker (BARR Center)\"}"
+    },
+    {
+     "name": "Shawn Rodgers (Kemmerer Jr.-Sr. High School)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Shawn Rodgers (Kemmerer Jr.-Sr. High School)\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 5,
+   "extras": {}
+  },
+  {
+   "description": "Update on Social Studies Standards",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Wyoming Department of Education",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming Department of Education\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 6,
+   "extras": {}
+  },
+  {
+   "description": "Update from Native American Education Cabinet",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Wyoming Department of Education",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming Department of Education\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 7,
+   "extras": {}
+  },
+  {
+   "description": "Public Comments",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 8,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 9,
+   "extras": {}
+  },
+  {
+   "description": "State/Tribal Cooperation Accords",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Wyoming Department of Transportation",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming Department of Transportation\"}"
+    },
+    {
+     "name": "Shoshone and Arapaho Public Works Authority (invited)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Shoshone and Arapaho Public Works Authority (invited)\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 10,
+   "extras": {}
+  },
+  {
+   "description": "Public Comments",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 11,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 12,
+   "extras": {}
+  },
+  {
+   "description": "State/Tribal Collaboration on Health Issues",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Wyoming Department of Health",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming Department of Health\"}"
+    },
+    {
+     "name": "Warm Valley Health Care (invited)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Warm Valley Health Care (invited)\"}"
+    },
+    {
+     "name": "Wind River Family and Community Health Care (invited)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wind River Family and Community Health Care (invited)\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 13,
+   "extras": {}
+  },
+  {
+   "description": "Public Comments",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 14,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 15,
+   "extras": {}
+  },
+  {
+   "description": "Tribal Introductions and Current Issues Update",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Northern Arapaho Business Council (invited)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Northern Arapaho Business Council (invited)\"}"
+    },
+    {
+     "name": "Eastern Shoshone Business Council (invited)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Eastern Shoshone Business Council (invited)\"}"
+    },
+    {
+     "name": "Governor's Office and Tribal Liaisons",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Governor's Office and Tribal Liaisons\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 16,
+   "extras": {}
+  },
+  {
+   "description": "Public Comments",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 17,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 18,
+   "extras": {}
+  },
+  {
+   "description": "Notification for Cultural and Historical Sites",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Northern Arapaho Tribal Historic Preservation Office (invited)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Northern Arapaho Tribal Historic Preservation Office (invited)\"}"
+    },
+    {
+     "name": "Eastern Shoshone Tribal Historic Preservation Office (invited)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Eastern Shoshone Tribal Historic Preservation Office (invited)\"}"
+    },
+    {
+     "name": "Shoshone and Arapaho Public Works Authority (invited)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Shoshone and Arapaho Public Works Authority (invited)\"}"
+    },
+    {
+     "name": "Wyoming State Parks and Cultural Resources",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming State Parks and Cultural Resources\"}"
+    },
+    {
+     "name": "Wyoming State Historic Preservation Office",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming State Historic Preservation Office\"}"
+    },
+    {
+     "name": "Wyoming Department of Transportation",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming Department of Transportation\"}"
+    },
+    {
+     "name": "Wyoming Game and Fish Department",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming Game and Fish Department\"}"
+    },
+    {
+     "name": "Affie Ellis",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Affie Ellis\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 19,
+   "extras": {}
+  },
+  {
+   "description": "Public Comments",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 20,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 21,
+   "extras": {}
+  },
+  {
+   "description": "Acquiring Rights-of-Way on the Wind River Reservation",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Bureau of Indian Affairs",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Bureau of Indian Affairs\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 22,
+   "extras": {}
+  },
+  {
+   "description": "Public Comments",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 23,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 24,
+   "extras": {}
+  },
+  {
+   "description": "Adjourn",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 25,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 26,
+   "extras": {}
+  },
+  {
+   "description": "Minors' Access to Alcohol",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 27,
+   "extras": {}
+  },
+  {
+   "description": "Bill Draft: 27LSO-0164 Providing alcohol to minors-expanded prohibitions.",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "Ian Shaw (Legislative Service Office)",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Ian Shaw (Legislative Service Office)\"}"
+    },
+    {
+     "name": "Bureau of Indian Affairs",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Bureau of Indian Affairs\"}"
+    },
+    {
+     "name": "Wyoming Highway Patrol",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Wyoming Highway Patrol\"}"
+    },
+    {
+     "name": "Fremont County Sheriff's Office",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Fremont County Sheriff's Office\"}"
+    },
+    {
+     "name": "Riverton Police Department",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Riverton Police Department\"}"
+    },
+    {
+     "name": "Lander Police Department",
+     "entity_type": "person",
+     "note": "participant",
+     "person_id": "~{\"name\": \"Lander Police Department\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 28,
+   "extras": {}
+  },
+  {
+   "description": "Public Comments",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 29,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 30,
+   "extras": {}
+  },
+  {
+   "description": "Recess",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 31,
+   "extras": {}
+  },
+  {
+   "description": "Committee Directives",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 32,
+   "extras": {}
+  },
+  {
+   "description": "Call to Order",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 33,
+   "extras": {}
+  },
+  {
+   "description": "Roll Call",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 34,
+   "extras": {}
+  },
+  {
+   "description": "Attendees - Please sign in",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 35,
+   "extras": {}
+  },
+  {
+   "description": "Lunch",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 36,
+   "extras": {}
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.wyoleg.gov/Calendar/20260901/Meeting?type=committee&id=15120",
+   "note": ""
+  }
+ ],
+ "extras": {},
+ "dedupe_key": "Joint Select Committee on Tribal Relations#Central Wyoming College, Intertribal Community Center, Room 125  2660 Peck Ave#2026-10-06 09:00:00-06:00#2026-10-07 23:59:00-06:00",
+ "jurisdiction": {
+  "id": "ocd-jurisdiction/country:us/state:wy/government",
+  "name": "Wyoming",
+  "classification": "state",
+  "division_id": "ocd-division/country:us/state:wy"
+ }
+}

@@ -574,6 +574,7 @@
   .mp-p { margin: 0 0 10px; font-size: 16px; line-height: 1.5; color: var(--z-body); }
   .mp-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
   .mp-ws { display: inline-block; margin-top: 12px; font-weight: 500; }
+  .mp-data { margin: 12px 0 0; }
   .mp-panel .hgroup { border: 0; padding: 0; background: none; }
   .mp-panel .hg-frame::before, .mp-panel .hg-frame::after { display: none; }
   .mp-panel .hgroup-head { padding-bottom: 8px; }
@@ -1443,6 +1444,18 @@
     }
     acts.append(jurisdictionRssTrigger(code, p.name));
     panel.append(acts);
+    // Every place we archive (all but federal) has a calendar file and a spreadsheet in downloads/.
+    if (p.count && code !== "us") {
+      const dl = eln("p", "mp-data");
+      const cal = eln("a", "ws-plain", "Add to my calendar (.ics)");
+      cal.href = "downloads/" + code + ".ics";
+      cal.title = "Every upcoming " + p.name + " hearing as a calendar file; copy the link to subscribe in Google, Apple or Outlook";
+      const csv = eln("a", "ws-plain", "Spreadsheet (CSV)");
+      csv.href = "downloads/hearings-" + code + ".csv";
+      csv.download = "";
+      dl.append(cal, document.createTextNode(" · "), csv);
+      panel.append(dl);
+    }
     if (code === "il") {
       const ws = eln("a", "ws-plain mp-ws", "File a witness slip: how it works and the bills open now ↓");
       ws.href = "#witness-slips";

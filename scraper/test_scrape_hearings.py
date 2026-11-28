@@ -496,6 +496,106 @@ class Federal(unittest.TestCase):
         self.assertEqual(doc["jurisdictions"][0]["code"], "us")
 
 
+class OpenStatesMeetings(unittest.TestCase):
+    """Real meeting files from Open States' events scrapers (Nov 2026), read offline."""
+    OS = RAW / "os_events"
+    CODES = ["de", "ky", "ms", "mt", "nj", "va", "wy"]
+
+    def load(self):
+        return main.load_os_events(self.OS, self.CODES)
+
+    def by(self, code):
+        return next(h for h in self.load()[0] if h["jurisdiction"] == code)
+
+    def test_finished_scrapers_and_empty_places(self):
+        hearings, ok = self.load()
+        # de has a folder but no _ok file: its scraper broke, so it isn't "finished".
+        self.assertEqual(ok, {"ky", "ms", "mt", "nj", "va", "wy"})
+        for h in hearings:
+            self.assertTrue(REQUIRED <= set(h), h["id"])
+            self.assertRegex(h["id"], r"^[a-z]{2}-os-[0-9a-f]{12}$")
+
+    def test_utc_becomes_local_time_and_agenda_bills(self):
+        h = self.by("mt")                         # 15:00 UTC -> 9 AM in Helena
+        self.assertEqual(h["scheduled_iso"], "2026-10-14T09:00:00")
+        self.assertEqual(h["timezone"], "America/Denver")
+        self.assertEqual([b["id"] for b in h["bills"]], ["HB863"])
+        nj = self.by("nj")
+        self.assertEqual([b["id"] for b in nj["bills"]], ["A1662", "A5527", "A5611", "S3482"])
+        self.assertEqual(nj["chamber"], "house")  # "Assembly ..." committee
+        self.assertEqual(nj["title"], "")          # "Meeting of the <committee>" adds nothing
+
+    def test_canceled_and_joint(self):
+        h = self.by("ky")
+        self.assertEqual(h["status"], "canceled")
+        self.assertEqual(h["chamber"], "joint")
+
+    def test_html_and_entities_become_plain_text(self):
+        self.assertEqual(self.by("va")["title"], "")   # only "(Agenda) (View Meeting)" links
+        wy = self.by("wy")["title"]
+        self.assertNotIn("&#", wy)
+        self.assertNotIn("<", wy)
+
+    def test_misread_rows_are_dropped(self):
+        # Mississippi's scraper named this "meeting" after a time of day ("9:00 am").
+        self.assertFalse([h for h in self.load()[0] if h["jurisdiction"] == "ms"])
+
+    def test_ids_are_stable(self):
+        self.assertEqual([h["id"] for h in self.load()[0]], [h["id"] for h in self.load()[0]])
+
+
+class ArchiveAndDownloads(unittest.TestCase):
+    """data/ keeps every meeting; a broken scraper's place falls back to it."""
+
+    def setUp(self):
+        import tempfile
+        self.tmp = Path(tempfile.mkdtemp())
+        self.now = main.datetime(2026, 10, 1, tzinfo=main.timezone.utc)
+        self.hearings, _ = main.load_os_events(OpenStatesMeetings.OS, ["mt", "nj", "ky"])
+
+    def tearDown(self):
+        main.shutil.rmtree(self.tmp)
+
+    def test_archive_is_idempotent_and_keeps_first_seen(self):
+        data = self.tmp / "data"
+        self.assertEqual(main.archive_hearings(self.hearings, data, {"mt", "nj", "ky"}, self.now), 3)
+        later = main.datetime(2026, 10, 2, tzinfo=main.timezone.utc)
+        self.assertEqual(main.archive_hearings(self.hearings, data, {"mt", "nj", "ky"}, later), 0)
+        rec = json.loads(next((data / "mt").glob("*.json")).read_text())
+        self.assertEqual(rec["first_seen"], "2026-10-01T00:00:00Z")
+
+    def test_dropped_upcoming_meeting_is_pruned_only_after_a_finished_run(self):
+        data = self.tmp / "data"
+        main.archive_hearings(self.hearings, data, {"mt", "nj", "ky"}, self.now)
+        rest = [h for h in self.hearings if h["jurisdiction"] != "ky"]
+        main.archive_hearings(rest, data, set(), self.now)           # ky's scraper broke
+        self.assertEqual(len(list((data / "ky").glob("*.json"))), 1)
+        self.assertEqual(len(main.restore_from_archive(data, ["ky"], self.now)), 1)
+        main.archive_hearings(rest, data, {"ky"}, self.now)          # ky finished: it's gone
+        self.assertEqual(list((data / "ky").glob("*.json")), [])
+
+    def test_status_flags_three_failed_runs(self):
+        data = self.tmp / "data"
+        for _ in range(2):
+            self.assertEqual(main.update_status(data, ["mt", "ky"], {"mt"}, [], self.now), [])
+        self.assertEqual(main.update_status(data, ["mt", "ky"], {"mt"}, [], self.now), ["ky"])
+
+    def test_csv_guards_formulas_and_ics_is_valid(self):
+        data = self.tmp / "data"
+        h = dict(self.hearings[0], title="=HYPERLINK(1)", committee="Health; Human, Services")
+        main.archive_hearings([h], data, set(), self.now)
+        m = main.write_downloads(data, self.tmp / "dl", {"mt": "Montana", "nj": "New Jersey",
+                                                         "ky": "Kentucky"}, self.now)
+        code = h["jurisdiction"]
+        csv = (self.tmp / "dl" / f"hearings-{code}.csv").read_text(encoding="utf-8")
+        self.assertTrue(csv.startswith("\ufeffjurisdiction,"))
+        self.assertIn("'=HYPERLINK(1)", csv)
+        ics = (self.tmp / "dl" / f"{code}.ics").read_bytes().decode()
+        self.assertIn("SUMMARY:Health\\; Human\\, Services", ics)
+        self.assertTrue(all(len(l.encode()) <= 75 for l in ics.split("\r\n")))
+        self.assertEqual(m["meetings"], 1)
+
+
 class IncompleteCertificateChain(unittest.TestCase):
     """ilga.gov sends its certificate without the intermediate; the scraper fetches it
     from the certificate's CA Issuers address (real ilga.gov + Sectigo certificates)."""

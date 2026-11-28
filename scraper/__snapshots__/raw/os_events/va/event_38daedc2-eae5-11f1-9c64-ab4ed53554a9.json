@@ -1,0 +1,52 @@
+{
+ "name": "Energy Commission of Virginia",
+ "all_day": false,
+ "start_date": "2026-11-30T17:00:00+00:00",
+ "end_date": "",
+ "status": "tentative",
+ "classification": "committee-meeting",
+ "description": "<a href='https://lis.blob.core.windows.net/files/1232213.PDF' target='_blank' rel='noopener noreferrer'>(Agenda)</a>\n<a href=\"https://apps.senate.virginia.gov/Senator/CommitteeMeetings.php\">(View Meeting)</a>",
+ "upstream_id": "",
+ "location": {
+  "name": "Senate Room B, Room 306, General Assembly Building",
+  "note": "",
+  "coordinates": null
+ },
+ "media": [],
+ "documents": [
+  {
+   "note": "(Agenda)",
+   "links": [
+    {
+     "url": "https://lis.blob.core.windows.net/files/1232213.PDF",
+     "media_type": "text/html"
+    }
+   ],
+   "date": "",
+   "classification": ""
+  }
+ ],
+ "links": [],
+ "participants": [
+  {
+   "name": "Energy Commission of Virginia",
+   "entity_type": "organization",
+   "note": "participant",
+   "organization_id": "~{\"name\": \"Energy Commission of Virginia\"}"
+  }
+ ],
+ "agenda": [],
+ "sources": [
+  {
+   "url": "https://lis.virginia.gov/schedule",
+   "note": ""
+  }
+ ],
+ "extras": {},
+ "jurisdiction": {
+  "id": "ocd-jurisdiction/country:us/state:va/government",
+  "name": "Virginia",
+  "classification": "state",
+  "division_id": "ocd-division/country:us/state:va"
+ }
+}

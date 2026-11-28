@@ -1,0 +1,96 @@
+{
+ "name": "Meeting of the Assembly Agriculture and Natural Resources Committee",
+ "all_day": false,
+ "start_date": "2026-10-22T18:00:00+00:00",
+ "end_date": "",
+ "status": "passed",
+ "classification": "committee-meeting",
+ "description": "",
+ "upstream_id": "",
+ "location": {
+  "name": "Committee Room 14, 4th Floor, State House Annex, Trenton,  NJ",
+  "note": "",
+  "coordinates": {
+   "latitude": "40.2206",
+   "longitude": "-74.77082"
+  }
+ },
+ "media": [
+  {
+   "note": "Hearing Audio",
+   "links": [
+    {
+     "url": "https://www.njleg.state.nj.us/archived-media/2026/AAN-meeting-list/media-player?committee=AAN&agendaDate=2026-10-22-14:00:00&agendaType=M&av=A",
+     "media_type": "text/html"
+    }
+   ],
+   "date": "",
+   "classification": ""
+  }
+ ],
+ "documents": [],
+ "links": [],
+ "participants": [
+  {
+   "name": "Assembly Agriculture and Natural Resources Committee",
+   "entity_type": "organization",
+   "note": "host",
+   "organization_id": "~{\"name\": \"Assembly Agriculture and Natural Resources Committee\"}"
+  }
+ ],
+ "agenda": [
+  {
+   "description": "Meeting of the Assembly Agriculture and Natural Resources Committee",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "A 1662",
+     "entity_type": "bill",
+     "note": "consideration",
+     "bill_id": "~{\"identifier\": \"A 1662\"}"
+    },
+    {
+     "name": "A 5527",
+     "entity_type": "bill",
+     "note": "consideration",
+     "bill_id": "~{\"identifier\": \"A 5527\"}"
+    },
+    {
+     "name": "A 5611",
+     "entity_type": "bill",
+     "note": "consideration",
+     "bill_id": "~{\"identifier\": \"A 5611\"}"
+    },
+    {
+     "name": "S 3482",
+     "entity_type": "bill",
+     "note": "consideration",
+     "bill_id": "~{\"identifier\": \"S 3482\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 0,
+   "extras": {}
+  }
+ ],
+ "sources": [
+  {
+   "url": "http://www.njleg.state.nj.us/downloads.asp",
+   "note": ""
+  },
+  {
+   "url": "https://www.njleg.state.nj.us/live-proceedings/2026-10-22-14:00:00/AAN/Meeting",
+   "note": ""
+  }
+ ],
+ "extras": {},
+ "dedupe_key": "Assembly Agriculture and Natural Resources Committee Meeting 2026-10-22-14:00:00",
+ "jurisdiction": {
+  "id": "ocd-jurisdiction/country:us/state:nj/government",
+  "name": "New Jersey",
+  "classification": "state",
+  "division_id": "ocd-division/country:us/state:nj"
+ }
+}

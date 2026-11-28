@@ -1,0 +1,121 @@
+{
+ "name": "Modernization and Risk Analysis Committee",
+ "all_day": false,
+ "start_date": "2026-10-14T15:00:00+00:00",
+ "end_date": "2026-10-14T23:00:00+00:00",
+ "status": "confirmed",
+ "classification": "committee-meeting",
+ "description": "",
+ "upstream_id": "14550",
+ "location": {
+  "name": ", State Capitol, 1301 E 6th Ave, Helena, MT, 59601",
+  "note": "",
+  "coordinates": {
+   "latitude": "46.5857",
+   "longitude": "-112.0184"
+  }
+ },
+ "media": [],
+ "documents": [],
+ "links": [],
+ "participants": [
+  {
+   "name": "Modernization and Risk Analysis Committee",
+   "entity_type": "organization",
+   "note": "participant",
+   "organization_id": "~{\"name\": \"Modernization and Risk Analysis Committee\"}"
+  }
+ ],
+ "agenda": [
+  {
+   "description": "MARA Demographics Data Tool / Report",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 0,
+   "extras": {}
+  },
+  {
+   "description": "Housing Data Tool",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 1,
+   "extras": {}
+  },
+  {
+   "description": "HB 863 Cost of Living Analysis",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "HB 863",
+     "entity_type": "bill",
+     "note": "consideration",
+     "bill_id": "~{\"identifier\": \"HB 863\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 2,
+   "extras": {}
+  },
+  {
+   "description": "Wildfire in the West",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 3,
+   "extras": {}
+  },
+  {
+   "description": "MARA Wildfire Cost Data Tool",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 4,
+   "extras": {}
+  },
+  {
+   "description": "Committee Discussion and Recommendations to Staff",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 5,
+   "extras": {}
+  },
+  {
+   "description": "Public Comment",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 6,
+   "extras": {}
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.legmt.gov/event/modernization-and-risk-analysis-committee-10/",
+   "note": ""
+  }
+ ],
+ "extras": {},
+ "jurisdiction": {
+  "id": "ocd-jurisdiction/country:us/state:mt/government",
+  "name": "Montana",
+  "classification": "state",
+  "division_id": "ocd-division/country:us/state:mt"
+ }
+}

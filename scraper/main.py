@@ -12,6 +12,12 @@ sources directly:
 * Massachusetts -> malegislature.gov Hearings JSON API (list + per-hearing detail)
 * Alaska        -> akleg.gov BASIS meetings JSON API (one document per legislature)
 * USA (Federal) -> federalregister.gov API: rules whose public comment period is open
+* Chicago       -> the City Clerk's eLMS API (council + committee meetings)
+* Every other state -> its legislature's own website, read by Open States' open-source
+                   meeting scrapers that the refresh workflow runs (--os-events)
+
+Every meeting is also kept in data/ (--data-dir: one JSON file each, history included) and
+published as CSV + iCalendar downloads (--downloads-dir site/downloads).
 
 The output is one document matching schemas/govbot.hearings.schema.json, written to
 site/hearings.json. The refresh workflow runs this every 12 hours, so the site shows
@@ -1149,6 +1155,405 @@ def fetch_us(today):
 
 
 # --------------------------------------------------------------------------- #
+# Every other state: Open States' open-source meeting scrapers, run by us
+# --------------------------------------------------------------------------- #
+# The refresh workflow runs Open States' "events" scrapers (github.com/openstates/
+# openstates-scrapers, the project Govbot's bill data comes from) in their Docker image.
+# Each one reads its legislature's own website (committee calendars, agenda pages,
+# PDFs), so nothing here depends on anyone's API staying up: it's open-source code we
+# run ourselves. They write one Open Civic Data event per meeting to
+# <dir>/<code>/event_*.json, and the workflow drops an "_ok" file beside them when the
+# scraper finished. These functions only read those files (standard library only).
+
+# Each place's legislature meets at its capital; the scrapers give UTC times.
+STATE_TZ = {
+    "al": "America/Chicago", "ak": "America/Anchorage", "az": "America/Phoenix",
+    "ar": "America/Chicago", "ca": "America/Los_Angeles", "co": "America/Denver",
+    "ct": "America/New_York", "de": "America/New_York", "dc": "America/New_York",
+    "fl": "America/New_York", "ga": "America/New_York", "hi": "Pacific/Honolulu",
+    "id": "America/Boise", "il": "America/Chicago", "in": "America/Indiana/Indianapolis",
+    "ia": "America/Chicago", "ks": "America/Chicago", "ky": "America/New_York",
+    "la": "America/Chicago", "me": "America/New_York", "md": "America/New_York",
+    "ma": "America/New_York", "mi": "America/Detroit", "mn": "America/Chicago",
+    "ms": "America/Chicago", "mo": "America/Chicago", "mt": "America/Denver",
+    "ne": "America/Chicago", "nv": "America/Los_Angeles", "nh": "America/New_York",
+    "nj": "America/New_York", "nm": "America/Denver", "ny": "America/New_York",
+    "nc": "America/New_York", "nd": "America/Chicago", "oh": "America/New_York",
+    "ok": "America/Chicago", "or": "America/Los_Angeles", "pa": "America/New_York",
+    "ri": "America/New_York", "sc": "America/New_York", "sd": "America/Chicago",
+    "tn": "America/Chicago", "tx": "America/Chicago", "ut": "America/Denver",
+    "vt": "America/New_York", "va": "America/New_York", "wa": "America/Los_Angeles",
+    "wv": "America/New_York", "wi": "America/Chicago", "wy": "America/Denver",
+    "gu": "Pacific/Guam", "mp": "Pacific/Saipan", "vi": "America/St_Thomas",
+    "pr": "America/Puerto_Rico", "as": "Pacific/Pago_Pago", "chi": "America/Chicago",
+}
+OS_TITLE_MAX = 600
+_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def _os_chamber(name):
+    """House / Senate / joint from a committee name; "other" when it doesn't say."""
+    n = (name or "").lower()
+    if re.search(r"\b(joint|conference|interim)\b", n):
+        return "joint"
+    if re.search(r"\bsenate\b", n):
+        return "senate"
+    if re.search(r"\b(house|assembly|delegates)\b", n):
+        return "house"
+    return "other"
+
+
+def _os_bill_id(name):
+    """'HB 1234' / 'S.B. 12' / 'HJR 3' -> 'HB1234' / 'SB12' / 'HJR3'; None if it isn't one."""
+    s = re.sub(r"[\s.\-]", "", name or "").upper()
+    return s if re.fullmatch(r"[A-Z]{1,6}\d{1,6}[A-Z]?", s) else None
+
+
+def _os_junk_name(name):
+    """A scraper that misread its source: a "meeting" named after a time of day or a
+    table header (Mississippi's agenda PDF, Nov 2026). Such rows are dropped, never shown."""
+    return bool(re.fullmatch(r"\d{1,2}(:\d\d)?\s*[ap]\.?m\.?", name, re.I)) \
+        or name.lower() in ("presenter / organization",)
+
+
+def _plain(text):
+    """Source text as plain words: tags dropped, entities (&#58;) decoded, spaces collapsed.
+    (The page still sets it with textContent; this is for readability, not safety.)"""
+    import html
+    lines = [html.unescape(re.sub(r"<[^>]+>", " ", x)).strip() for x in (text or "").splitlines()]
+    # A line that is only a link's label ("(Agenda)", "(View Meeting)") lost its link here.
+    lines = [x for x in lines if x and not re.fullmatch(r"(\([^)]*\)\s*)+", x)]
+    return re.sub(r"\s+", " ", " ".join(lines)).strip()
+
+
+def parse_os_event(json_text, code):
+    """One Open States event file -> a hearing record (schema shape), or None.
+    Pure: no network, no clock."""
+    try:
+        ev = json.loads(json_text)
+    except ValueError:
+        return None
+    name = _plain(ev.get("name"))
+    start = ev.get("start_date") or ""
+    if not name or not start or _os_junk_name(name):
+        return None
+    tz = STATE_TZ.get(code, "America/New_York")
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", start):          # a date with no time posted
+        y, mo, d = (int(x) for x in start.split("-"))
+        iso = f"{start}T00:00:00"
+        display = f"{_MONTHS[mo - 1]} {d}, {y} · time not posted"
+    else:
+        try:
+            dt = datetime.fromisoformat(start.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+        if dt.tzinfo is not None:
+            from zoneinfo import ZoneInfo
+            dt = dt.astimezone(ZoneInfo(tz))
+        iso = dt.strftime("%Y-%m-%dT%H:%M:%S")
+        display = iso
+        if iso.endswith("T00:00:00"):         # local midnight = the source gave no time (NJ)
+            display = f"{_MONTHS[dt.month - 1]} {dt.day}, {dt.year} · time not posted"
+    host = next((p.get("name") for p in ev.get("participants") or []
+                 if p.get("note") == "host" and p.get("name")), None)
+    committee = host or name
+    urls = [s.get("url") for s in (ev.get("sources") or []) + (ev.get("links") or [])
+            if (s.get("url") or "").startswith(("http://", "https://"))]
+    details = urls[0] if urls else None
+    bills, seen = [], set()
+    for item in ev.get("agenda") or []:
+        for ent in item.get("related_entities") or []:
+            bid = _os_bill_id(ent.get("name")) if ent.get("entity_type") == "bill" else None
+            if bid and bid not in seen:
+                seen.add(bid)
+                bills.append({"id": bid, "url": None, "slips": None})
+    desc = _plain(ev.get("description"))
+    title = desc or (name if name != committee else "")
+    # "Meeting of the Assembly Health Committee" says nothing the committee name doesn't.
+    if committee.lower() in title.lower() and len(title) < len(committee) + 25:
+        title = ""
+    if len(title) > OS_TITLE_MAX:
+        title = title[:OS_TITLE_MAX - 1].rstrip() + "…"
+    # A stable id: the scraper's own upstream id when it has one, else the meeting's
+    # official page + name + start (Open States' "_id" is new on every run).
+    key = ev.get("upstream_id") or (ev.get("extras") or {}).get("agendaId") \
+        or f"{details}|{name}|{start}"
+    import hashlib
+    hid = f"{code}-os-{hashlib.sha1(str(key).encode()).hexdigest()[:12]}"
+    loc = _plain((ev.get("location") or {}).get("name"))
+    if title == loc:                              # Virginia repeats the place as its description
+        title = ""
+    rec = {
+        "id": hid, "jurisdiction": code, "chamber": _os_chamber(committee),
+        "committee": committee, "title": title,
+        "scheduled_iso": iso, "scheduled_display": display, "timezone": tz,
+        "location": "" if loc.upper() in ("TBD", "TBA") else loc,
+        "status": "canceled" if (ev.get("status") or "").startswith("cancel") else "scheduled",
+        "bills": bills, "witness_slip_url": None,
+        "source": urllib.parse.urlparse(details).hostname if details else "openstates-scrapers",
+    }
+    if details:
+        rec["details_url"] = details
+    return rec
+
+
+def load_os_events(os_dir, codes):
+    """Read <os_dir>/<code>/event_*.json for each code. Returns (hearings, ok_codes):
+    ok_codes are the places whose scraper finished (an "_ok" file), so an empty list
+    there means "no meetings posted", not "the scraper broke"."""
+    hearings, ok = [], set()
+    root = Path(os_dir)
+    for code in codes:
+        d = root / code
+        if not d.is_dir():
+            continue
+        if (d / "_ok").exists():
+            ok.add(code)
+        seen = set()
+        for f in sorted(d.glob("event_*.json")):
+            rec = parse_os_event(f.read_text(errors="replace"), code)
+            if rec and rec["id"] not in seen:     # one meeting scraped twice is one meeting
+                seen.add(rec["id"])
+                hearings.append(rec)
+    return hearings, ok
+
+
+def participation_jurisdictions(path):
+    """participation.json -> {code: jurisdiction entry}, for places with no entry in
+    JURISDICTIONS (every state the Open States scrapers cover)."""
+    try:
+        rows = json.loads(Path(path).read_text()).get("jurisdictions", [])
+    except (OSError, ValueError):
+        return {}
+    return {r["code"]: {k: r[k] for k in ("code", "name", "participation", "portal_url")}
+            for r in rows if r.get("code") and r.get("portal_url")}
+
+
+# --------------------------------------------------------------------------- #
+# data/: every hearing kept in git, like Govbot's bill repos
+# --------------------------------------------------------------------------- #
+# data/<code>/<id>.json holds one meeting each (minus Govbot's own title/topic
+# enrichment, which is Govbot's data, not the source's). Past meetings stay forever, so
+# the folder is a history anyone can clone; a run only rewrites a file whose content
+# changed. Upcoming meetings that a place's scraper no longer lists (moved or dropped)
+# are removed, but only after a run that finished for that place. When a place's
+# scraper breaks, its upcoming meetings come from here instead, so an outage never
+# empties a state. data/_status.json records each place's last good run.
+ARCHIVE_SKIP = {"us"}       # federal comment periods are archived by the Federal Register
+
+
+def _archive_record(h):
+    rec = dict(h)
+    rec["bills"] = [{k: v for k, v in b.items() if not k.startswith("govbot_")}
+                    for b in h.get("bills", [])]
+    return rec
+
+
+def _dump(obj):
+    return json.dumps(obj, indent=2, ensure_ascii=False, sort_keys=True) + "\n"
+
+
+def archive_hearings(hearings, data_dir, ok_codes, now):
+    """Write this run's hearings into data_dir; drop upcoming meetings a finished
+    scraper no longer lists. Returns the number of files written."""
+    root = Path(data_dir)
+    today = now.strftime("%Y-%m-%d")
+    stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    by_code = {}
+    for h in hearings:
+        if h["jurisdiction"] not in ARCHIVE_SKIP:
+            by_code.setdefault(h["jurisdiction"], []).append(h)
+    written = 0
+    for code in set(by_code) | set(ok_codes):
+        if code in ARCHIVE_SKIP:
+            continue
+        d = root / code
+        d.mkdir(parents=True, exist_ok=True)
+        current = {h["id"] for h in by_code.get(code, [])}
+        if code in ok_codes:
+            for f in d.glob("*.json"):
+                if f.stem in current:
+                    continue
+                try:
+                    old = json.loads(f.read_text())
+                except (OSError, ValueError):
+                    continue
+                if (old.get("scheduled_iso") or "9999")[:10] >= today:
+                    f.unlink()
+        for h in by_code.get(code, []):
+            f = d / f"{h['id']}.json"
+            rec = _archive_record(h)
+            try:
+                rec["first_seen"] = json.loads(f.read_text()).get("first_seen", stamp)
+            except (OSError, ValueError):
+                rec["first_seen"] = stamp
+            text = _dump(rec)
+            if not f.exists() or f.read_text() != text:
+                f.write_text(text)
+                written += 1
+    return written
+
+
+def restore_from_archive(data_dir, codes, now):
+    """Upcoming meetings stored in data_dir for these places (their scraper broke)."""
+    today = now.strftime("%Y-%m-%d")
+    out = []
+    for code in codes:
+        for f in sorted((Path(data_dir) / code).glob("*.json")):
+            try:
+                rec = json.loads(f.read_text())
+            except (OSError, ValueError):
+                continue
+            if (rec.get("scheduled_iso") or "")[:10] >= today:
+                rec.pop("first_seen", None)
+                out.append(rec)
+    return out
+
+
+def update_status(data_dir, attempted, ok_codes, hearings, now):
+    """data/_status.json: per place, the last run that finished, how many meetings it
+    found, and how many runs in a row have failed since. Returns codes failing 3+ runs."""
+    p = Path(data_dir) / "_status.json"
+    try:
+        status = json.loads(p.read_text())
+    except (OSError, ValueError):
+        status = {}
+    counts = {}
+    for h in hearings:
+        counts[h["jurisdiction"]] = counts.get(h["jurisdiction"], 0) + 1
+    stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    for code in attempted:
+        s = status.setdefault(code, {})
+        if code in ok_codes:
+            s.update(last_ok=stamp, meetings=counts.get(code, 0), failed_runs=0)
+        else:
+            s["failed_runs"] = s.get("failed_runs", 0) + 1
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(_dump(dict(sorted(status.items()))))
+    return sorted(c for c in attempted if status[c].get("failed_runs", 0) >= 3)
+
+
+# --------------------------------------------------------------------------- #
+# Downloads: CSV for spreadsheets, .ics for calendars (site/downloads/)
+# --------------------------------------------------------------------------- #
+CSV_COLUMNS = ["jurisdiction", "place", "date", "time", "timezone", "committee", "chamber",
+               "title", "location", "status", "bills", "details_url", "first_seen", "id"]
+
+
+def _csv_cell(v):
+    """A cell starting with = + - @ gets a leading ' so a spreadsheet can't run it."""
+    s = "" if v is None else str(v)
+    return "'" + s if s[:1] in ("=", "+", "-", "@") else s
+
+
+def hearings_csv(rows, names):
+    import csv
+    import io
+    buf = io.StringIO()
+    w = csv.writer(buf, lineterminator="\r\n")
+    w.writerow(CSV_COLUMNS)
+    for r in rows:
+        iso = r.get("scheduled_iso") or ""
+        untimed = "time not posted" in (r.get("scheduled_display") or "")
+        w.writerow([_csv_cell(x) for x in (
+            r["jurisdiction"], names.get(r["jurisdiction"], r["jurisdiction"]),
+            iso[:10], "" if untimed else iso[11:16], r.get("timezone"),
+            r.get("committee"), r.get("chamber"), r.get("title"), r.get("location"),
+            r.get("status"), "; ".join(b["id"] for b in r.get("bills", [])),
+            r.get("details_url"), r.get("first_seen"), r["id"])])
+    return "﻿" + buf.getvalue()
+
+
+def _ics_text(s):
+    return (s or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,") \
+        .replace("\r", "").replace("\n", "\\n")
+
+
+def _ics_fold(line):
+    """Fold a content line at 75 octets (RFC 5545 3.1)."""
+    out, b = [], line.encode("utf-8")
+    while len(b) > 75:
+        cut = 75 if not out else 74
+        while cut and (b[cut] & 0xC0) == 0x80:      # don't split a UTF-8 character
+            cut -= 1
+        out.append(b[:cut].decode("utf-8"))
+        b = b[cut:]
+    out.append(b.decode("utf-8"))
+    return "\r\n ".join(out)
+
+
+def hearings_ics(rows, cal_name):
+    """An iCalendar file of upcoming meetings (times in UTC, so no VTIMEZONE needed).
+    No end time is given: the sources rarely publish one, and we don't invent it."""
+    from zoneinfo import ZoneInfo
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Govbot//Public Hearings//EN",
+             "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:" + _ics_text(cal_name),
+             "X-PUBLISHED-TTL:PT12H", "REFRESH-INTERVAL;VALUE=DURATION:PT12H"]
+    for r in rows:
+        iso = r.get("scheduled_iso")
+        if not iso:
+            continue
+        stamp = (r.get("first_seen") or "1970-01-01T00:00:00Z").replace("-", "").replace(":", "")
+        lines += ["BEGIN:VEVENT", f"UID:{r['id']}@govbot-public-hearings", f"DTSTAMP:{stamp}"]
+        if "time not posted" in (r.get("scheduled_display") or ""):
+            lines.append("DTSTART;VALUE=DATE:" + iso[:10].replace("-", ""))
+        else:
+            dt = datetime.fromisoformat(iso).replace(
+                tzinfo=ZoneInfo(r.get("timezone") or "America/Chicago"))
+            lines.append("DTSTART:" + dt.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ"))
+        bills = ", ".join(b["id"] for b in r.get("bills", []))
+        desc = "\n".join(x for x in (r.get("title"), bills and "Bills: " + bills,
+                                     r.get("details_url")) if x)
+        lines += ["SUMMARY:" + _ics_text(r.get("committee") or r.get("title")),
+                  "DESCRIPTION:" + _ics_text(desc)]
+        if r.get("location"):
+            lines.append("LOCATION:" + _ics_text(r["location"]))
+        if r.get("details_url"):
+            lines.append("URL:" + r["details_url"])
+        if r.get("status") == "canceled":
+            lines.append("STATUS:CANCELLED")
+        lines.append("END:VEVENT")
+    lines.append("END:VCALENDAR")
+    return "\r\n".join(_ics_fold(x) for x in lines) + "\r\n"
+
+
+def write_downloads(data_dir, out_dir, names, now):
+    """site/downloads/: hearings-<code>.csv (every meeting on file, past included),
+    hearings-all.csv, <code>.ics (upcoming), manifest.json. Returns the manifest."""
+    out = Path(out_dir)
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+    today = now.strftime("%Y-%m-%d")
+    every, manifest = [], {"license": "CC BY 4.0 (credit Govbot Public Hearings)",
+                           "places": []}
+    for d in sorted(p for p in Path(data_dir).iterdir() if p.is_dir()):
+        rows = []
+        for f in d.glob("*.json"):
+            try:
+                rows.append(json.loads(f.read_text()))
+            except (OSError, ValueError):
+                pass
+        if not rows:
+            continue
+        rows.sort(key=lambda r: (r.get("scheduled_iso") or "9999", r["id"]))
+        code = d.name
+        name = names.get(code, code.upper())
+        upcoming = [r for r in rows if (r.get("scheduled_iso") or "")[:10] >= today]
+        (out / f"hearings-{code}.csv").write_text(hearings_csv(rows, names), encoding="utf-8")
+        (out / f"{code}.ics").write_text(hearings_ics(upcoming, f"{name} hearings · Govbot"),
+                                         encoding="utf-8")
+        every += rows
+        manifest["places"].append({"code": code, "name": name, "meetings": len(rows),
+                                   "upcoming": len(upcoming),
+                                   "csv": f"hearings-{code}.csv", "ics": f"{code}.ics"})
+    (out / "hearings-all.csv").write_text(hearings_csv(every, names), encoding="utf-8")
+    manifest["meetings"] = len(every)
+    (out / "manifest.json").write_text(_dump(manifest))
+    return manifest
+
+
+# --------------------------------------------------------------------------- #
 # offline (snapshot) build — no network
 # --------------------------------------------------------------------------- #
 def build_from_fixtures(fixtures_dir):
@@ -1588,6 +1993,16 @@ def main():
     ap.add_argument("--dashboard-data", default="",
                     help="govbot bill dataset (data.json) used to enrich hearing "
                          "bills with their govbot title + topic tags")
+    ap.add_argument("--os-events", default=None,
+                    help="Folder of Open States meeting-scraper output (<code>/event_*.json "
+                         "plus an _ok file when that place's scraper finished): adds every "
+                         "place in it to the live scrape")
+    ap.add_argument("--data-dir", default=None,
+                    help="Keep every meeting in this folder (data/<code>/<id>.json, a history "
+                         "anyone can clone); a place whose scraper broke shows its stored "
+                         "upcoming meetings instead of none")
+    ap.add_argument("--downloads-dir", default=None,
+                    help="Write CSV + iCalendar downloads of --data-dir into this folder")
     ap.add_argument("--participation", default=None,
                     help="participation.json — when given, an empty placeholder "
                          "per-jurisdiction RSS feed is written for every listed "
@@ -1622,11 +2037,48 @@ def main():
         source = ("ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + "
                   "chicityclerkelms.chicago.gov + "
                   "federalregister.gov (govbot scrape-hearings)")
+        if args.os_events:
+            # Places we scrape ourselves keep our own scraper; Open States fills the rest.
+            os_codes = sorted(p.name for p in Path(args.os_events).iterdir()
+                              if p.is_dir() and p.name not in codes)
+            os_hearings, os_ok = load_os_events(args.os_events, os_codes)
+            hearings.extend(os_hearings)
+            codes += os_codes
+            source += " + each legislature's own site via Open States' meeting scrapers"
+            print(f"Open States meetings: {len(os_hearings)} from {len(os_ok)} of "
+                  f"{len(os_codes)} places", file=sys.stderr)
+            if args.data_dir:
+                broken = [c for c in os_codes if c not in os_ok]
+                kept = restore_from_archive(args.data_dir, broken, now)
+                hearings.extend(kept)
+                if kept:
+                    print(f"kept {len(kept)} stored meetings for places whose scraper broke",
+                          file=sys.stderr)
+                late = update_status(args.data_dir, os_codes, os_ok, os_hearings, now)
+                for c in late:
+                    print(f"::warning::the {c} meeting scraper has failed 3+ runs in a row",
+                          file=sys.stderr)
+
+    if args.participation:
+        for code, j in participation_jurisdictions(args.participation).items():
+            JURISDICTIONS.setdefault(code, j)
 
     if args.dashboard_data:
         n = enrich_from_govbot(hearings, args.dashboard_data)
         if n:
             print(f"enriched {n} hearing bills from govbot data", file=sys.stderr)
+
+    if args.data_dir and not args.from_fixtures:
+        # Our own scrapers can't tell "none posted" from "site down", so their places
+        # only ever add to the archive; Open States places also prune (see archive_hearings).
+        ok = set(os_ok) if args.os_events else set()
+        n = archive_hearings(hearings, args.data_dir, ok, now)
+        print(f"data: {n} meeting files written to {args.data_dir}", file=sys.stderr)
+        if args.downloads_dir:
+            names = {c: j["name"] for c, j in JURISDICTIONS.items()}
+            m = write_downloads(args.data_dir, args.downloads_dir, names, now)
+            print(f"downloads: {m['meetings']} meetings, {len(m['places'])} places",
+                  file=sys.stderr)
 
     doc = assemble(hearings, codes, source, now)
     text = json.dumps(doc, indent=2, ensure_ascii=False) + "\n"

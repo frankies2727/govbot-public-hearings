@@ -40,6 +40,12 @@ you found when you report back:
   homepage, search and elections pages read `hearings.json` the same way, so keep the
   JSON shape (`schemas/govbot.hearings.schema.json`) backward compatible.
 - `SITE_URL` in `scraper/main.py` is this site's address; feeds' links point there.
+- **No one else's API to lean on (per request, Nov 2026).** New places come from code we run
+  against the government's own site, never a third-party service that can shut off. Open
+  States' meeting scrapers run in their own workflow step (Docker), so `scraper/main.py`
+  itself stays standard-library only and just reads their JSON files.
+- **Never get around a block.** A scraper that uses a bot-protection bypass (`cloudscraper`:
+  oh, mp) or a site that answers 403 (mi) is left out of `OS_STATES`, not worked around.
 
 ## Page and scraper notes (carried over from Govbot's CLAUDE.md, Nov 2026)
 
@@ -239,3 +245,28 @@ work on `DOMContentLoaded`, which runs after deferred scripts. The jump pills an
 "you are here" background and shadow used to animate on every scroll), and the inner scroll boxes (`.hgroup-rows`,
 `.hgroup--fed`) carry `contain: paint`. Measured on slow 4G with a 4x-slower CPU: hearings on screen 3.2 s → 2.3 s.
 
+
+**Every other state: Open States' meeting scrapers + a `data/` archive (Nov 2026).** The refresh workflow's
+"Scrape state meeting calendars" step runs `openstates/scrapers` (Docker, `<code> events --scrape`, 8 at a time,
+15 min cap each) for every place in `OS_STATES`: each reads its legislature's own website (the same open-source
+project Govbot's bills come from). Each place's `event_*.json` land in `$RUNNER_TEMP/os/<code>/` with an `_ok` file
+when the scraper finished ("no objects returned" = none posted, still ok). Left out: il wa ma ak (our own scrapers
+win), ca (database dump), ny dc in usa (need an API key; add a repo secret + env to enable), oh mp (`cloudscraper`),
+mi (403). `load_os_events` / `parse_os_event` turn them into hearing records: UTC → local time by `STATE_TZ`; local
+midnight = "time not posted" (NJ); id `<code>-os-<sha1 of upstream id | page+name+start>` (Open States' `_id` changes
+every run); chamber from the committee name (`_os_chamber`); agenda bills (`_os_bill_id`, url null → the row links
+the meeting page); `_plain` strips HTML/entities and link-label lines ("(Agenda)", VA); a title that only repeats the
+committee or the location is dropped; rows named after a time of day (`_os_junk_name`, MS's misread PDF) are
+dropped. Jurisdiction entries for these places come from `site/participation.json` (`participation_jurisdictions`;
+the schema's `participation` enum now has its eight kinds). **`data/<code>/<id>.json`** (`archive_hearings`) keeps
+every meeting forever (minus Govbot's `govbot_*` enrichment, plus `first_seen`); a run rewrites a file only when
+it changed; an upcoming meeting is deleted only after a *finished* scrape of that place stops listing it. A place
+whose scraper broke shows its stored upcoming meetings (`restore_from_archive`); `data/_status.json`
+(`update_status`) counts failed runs and the run prints a `::warning::` at 3. Federal isn't archived.
+**Downloads** (`write_downloads`, `site/downloads/`, rebuilt every run): `hearings-<code>.csv` (all meetings on
+file) + `hearings-all.csv` (UTF-8 BOM, CRLF, formula guard), `<code>.ics` (upcoming; UTC times, no invented end
+time, DTSTAMP = `first_seen` so files don't churn), `manifest.json`. The place panel links "Add to my calendar (.ics)
+· Spreadsheet (CSV)" for every place with hearings but federal. `data/README.md` documents it (CC BY 4.0). Tests:
+`OpenStatesMeetings` / `ArchiveAndDownloads` against real files in `__snapshots__/raw/os_events/`. On Nov 28, 2026
+(most legislatures out of session) the run found 351 upcoming hearings in 27 places; expect several thousand in
+session, so `hearings.json` (258 KB, 25 KB gzipped then) may need splitting per place.

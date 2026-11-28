@@ -1,9 +1,11 @@
 name: Refresh hearings
 
-# Scrapes upcoming hearings (IL, WA, MA, AK) and federal rules open for comment, then
-# commits site/hearings.json, site/hearings.xml and site/hearings/ when anything changed.
-# Vercel redeploys on the push. A source outage never blanks the site: the committed
-# files stay unless the fresh run found at least one hearing.
+# Scrapes upcoming hearings (IL, WA, MA, AK, Chicago with our own scrapers; every other
+# state with Open States' open-source meeting scrapers, run here) and federal rules open
+# for comment, then commits site/hearings.json, site/hearings.xml, site/hearings/, the
+# data/ archive and site/downloads/ when anything changed. Vercel redeploys on the push.
+# A source outage never blanks the site: the committed files stay unless the fresh run
+# found at least one hearing, and a state whose scraper broke keeps its stored meetings.
 on:
   schedule:
     # Twice a day, about 40 minutes before Govbot's scheduled deploys (08:00 and 20:00 UTC),
@@ -22,7 +24,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,11 +37,51 @@ jobs:
       - name: Install pdftotext
         run: sudo apt-get install -y --no-install-recommends poppler-utils || echo "::warning::no pdftotext; Chicago agendas skipped"
 
+      # Every other state's committee calendar, read from its legislature's own website by
+      # Open States' open-source "events" scrapers (the project Govbot's bills come from),
+      # run here in their Docker image: code we run, not a service that can shut off.
+      # Left out on purpose: il wa ma ak (our own scrapers); ca (needs its database
+      # dump); ny dc in usa (need an API key); oh mp (their scrapers use a tool made to get
+      # past Cloudflare's bot protection, which we don't do); mi (its site answers 403).
+      # Each place writes event_*.json and gets an _ok file when its scraper finished
+      # ("no objects returned" = no meetings posted, which is fine).
+      - name: Scrape state meeting calendars (Open States scrapers)
+        timeout-minutes: 25
+        env:
+          OS_IMAGE: openstates/scrapers:latest
+          OS_STATES: >-
+            al ar az co ct de fl ga gu hi ia id ks ky la md me mn mo ms mt nc nd ne nh nj
+            nm nv ok or pa ri sc sd tn tx ut va vi vt wi wv wy
+        run: |
+          set -u
+          export OUT="$RUNNER_TEMP/os" WORK="$RUNNER_TEMP/osw"
+          mkdir -p "$OUT" "$WORK"
+          docker pull -q "$OS_IMAGE" || { echo "::warning::no Open States image; other states keep their stored meetings"; exit 0; }
+          scrape() {
+            s="$1"; w="$WORK/$s"; mkdir -p "$w/_data" "$w/_cache" "$OUT/$s"
+            if timeout 900 docker run --rm --dns 8.8.8.8 --dns 1.1.1.1 \
+                 -v "$w/_data":/opt/openstates/openstates/_data \
+                 -v "$w/_cache":/opt/openstates/openstates/_cache \
+                 "$OS_IMAGE" "$s" events --scrape > "$w/log" 2>&1 \
+               || grep -q "no objects returned" "$w/log"; then
+              touch "$OUT/$s/_ok"
+            else
+              echo "::warning::$s meeting scraper failed: $(grep -E '^[A-Za-z_.]*(Error|Exception)' "$w/log" | tail -1 | cut -c1-160)"
+            fi
+            find "$w/_data" -name 'event_*.json' -exec cp {} "$OUT/$s/" \; 2>/dev/null
+            echo "$s: $(ls "$OUT/$s" | grep -c '^event_') meetings"
+          }
+          export -f scrape
+          export OS_IMAGE
+          printf '%s\n' $OS_STATES | xargs -P 8 -I{} bash -c 'scrape {}'
+
       - name: Download Govbot bill records
         run: |
           set -u
           mkdir -p "$RUNNER_TEMP/bills"
-          for s in il wa ma ak chi chi_aux; do
+          # Plus every Open States place whose meetings list bills on their agendas.
+          more=$(grep -l '"entity_type": "bill"' "$RUNNER_TEMP"/os/*/event_*.json 2>/dev/null | xargs -r -n1 dirname | xargs -r -n1 basename | sort -u | tr '\n' ' ')
+          for s in il wa ma ak chi chi_aux $more; do
             curl -fsSL --retry 3 -o "$RUNNER_TEMP/bills/$s.json" \
               "https://chihacknight.github.io/govbot/dashboard/bills/$s.json" \
               || echo "::warning::no Govbot bills for $s"
@@ -65,6 +107,9 @@ jobs:
             --rss-feeds-dir "$out/hearings" \
             --dashboard-data "$RUNNER_TEMP/bills/data.json" \
             --participation site/participation.json \
+            --os-events "$RUNNER_TEMP/os" \
+            --data-dir data \
+            --downloads-dir site/downloads \
             || echo "::warning::scrape reported errors"
           n=$(python3 -c 'import json,sys; print(len(json.load(open(sys.argv[1]))["hearings"]))' "$out/hearings.json" 2>/dev/null || echo 0)
           if [ "$n" -gt 0 ]; then
@@ -81,7 +126,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/hearings.json site/hearings.xml site/hearings
+          git add site/hearings.json site/hearings.xml site/hearings data site/downloads
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -q -m "Refresh hearings $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q && exit 0; sleep 5; done

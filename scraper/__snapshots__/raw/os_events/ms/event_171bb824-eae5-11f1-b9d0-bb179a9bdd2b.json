@@ -1,0 +1,73 @@
+{
+ "name": "9:00 am",
+ "all_day": false,
+ "start_date": "2026-10-27",
+ "end_date": "",
+ "status": "confirmed",
+ "classification": "event",
+ "description": "",
+ "upstream_id": "",
+ "location": {
+  "name": "400 High St, Jackson, MS 39201, 9:30 am",
+  "note": "",
+  "coordinates": {
+   "latitude": "32.30404",
+   "longitude": "-90.18141"
+  }
+ },
+ "media": [],
+ "documents": [
+  {
+   "note": "Agenda",
+   "links": [
+    {
+     "url": "https://legislature.ms.gov/media/1151/2025_SENATE_COMMITTEE_AGENDAS.pdf",
+     "media_type": "pdf"
+    }
+   ],
+   "date": "",
+   "classification": ""
+  }
+ ],
+ "links": [],
+ "participants": [
+  {
+   "name": "9:00 am",
+   "entity_type": "organization",
+   "note": "participant",
+   "organization_id": "~{\"name\": \"9:00 am\"}"
+  }
+ ],
+ "agenda": [
+  {
+   "description": "Associated Bills",
+   "classification": [],
+   "related_entities": [
+    {
+     "name": "HB 557",
+     "entity_type": "bill",
+     "note": "consideration",
+     "bill_id": "~{\"identifier\": \"HB 557\"}"
+    }
+   ],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 0,
+   "extras": {}
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://legislature.ms.gov/media/1151/2025_SENATE_COMMITTEE_AGENDAS.pdf",
+   "note": ""
+  }
+ ],
+ "extras": {},
+ "jurisdiction": {
+  "id": "ocd-jurisdiction/country:us/state:ms/government",
+  "name": "Mississippi",
+  "classification": "state",
+  "division_id": "ocd-division/country:us/state:ms"
+ }
+}

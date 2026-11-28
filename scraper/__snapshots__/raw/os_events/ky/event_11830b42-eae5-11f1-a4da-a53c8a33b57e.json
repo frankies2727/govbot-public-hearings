@@ -1,0 +1,97 @@
+{
+ "name": "INTERIM JOINT COMMITTEE ON TRANSPORTATION",
+ "all_day": false,
+ "start_date": "2026-12-01T16:00:00+00:00",
+ "end_date": "",
+ "status": "cancelled",
+ "classification": "committee-meeting",
+ "description": "",
+ "upstream_id": "",
+ "location": {
+  "name": "Annex Room 154\r\n         Canceled!",
+  "note": "",
+  "coordinates": null
+ },
+ "media": [],
+ "documents": [
+  {
+   "note": "11-9-26 Minutes.pdf",
+   "links": [
+    {
+     "url": "https://apps.legislature.ky.gov/CommitteeDocuments/45764/11-9-26%20Minutes.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "12-1-26 Agenda.pdf",
+   "links": [
+    {
+     "url": "https://apps.legislature.ky.gov/CommitteeDocuments/45764/12-1-26%20Agenda.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "Admin Reg Packet 601 KAR 001018, 601 KAR 009085, and 601 KAR 009090.pdf",
+   "links": [
+    {
+     "url": "https://apps.legislature.ky.gov/CommitteeDocuments/45764/Admin%20Reg%20Packet%20601%20KAR%20001018%2C%20601%20KAR%20009085%2C%20and%20601%20KAR%20009090.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  },
+  {
+   "note": "Amendment to 601 KAR 001018.pdf",
+   "links": [
+    {
+     "url": "https://apps.legislature.ky.gov/CommitteeDocuments/45764/Amendment%20to%20601%20KAR%20001018.pdf",
+     "media_type": ""
+    }
+   ],
+   "date": "",
+   "classification": ""
+  }
+ ],
+ "links": [],
+ "participants": [
+  {
+   "name": "INTERIM JOINT COMMITTEE ON TRANSPORTATION",
+   "entity_type": "committee",
+   "note": "host",
+   "committee_id": "~{\"name\": \"INTERIM JOINT COMMITTEE ON TRANSPORTATION\"}"
+  }
+ ],
+ "agenda": [
+  {
+   "description": "Agenda:  Approval of the November 09, 2026 Meeting Minutes \n\nIntroductory Remarks by Secretary Goodman \n\t\t• Rebecca Goodman, Secretary , Kentucky Transportation Cabinet (KYTC) \n\nConsideration of Referred Administrative Regulations\n\t\t• 601 KAR 009:090 Proposed Procedures for inspecting vehicles.\n\t\t\t• Godwin Onodu , Director , Division of Motor Vehicle Licensing, KYTC \n\t\t• 601 KAR 009:085 Proposed Procedures for becoming a certified motor vehicle inspector.\n\t\t\t• Godwin Onodu , Director , Division of Motor Vehicle Licensing, KYTC \n\t\t• 601 KAR 001:018 Proposed Special overweight or overdimensional motor vehicle load permits.\n\t\t\t• Tom McDaniel , Director , Division of Motor Carriers, KYTC \n\t\t• Will Fogle , Executive Director , Office of Legal Services, KYTC \n\nLARP Update and Request for FY 28 Funding \n\t\t• Greg Meredith , Commissioner, Department of Rural and Municipal Aid, KYTC \n\nSnow/Ice Preparedness \n\t\t• John Moore , Deputy State Highway Engineer, Office of Project Delivery and Preservation, KYTC \n\nUpdate on General Fund Projects (High Growth County and Construction Ready Project Funding) \n\t\t• Jason Siwula , Deputy State Highway Engineer, Office of Project Development, KYTC \n\nTransportation Improvement Districts\n\t\t• Amy Stewart , Project Manager , Transportation Improvement District, City of Florence \n\t\t• Dan Corey, Director , Transportation Improvement District, Butler County, Ohio",
+   "classification": [],
+   "related_entities": [],
+   "subjects": [],
+   "media": [],
+   "notes": [],
+   "order": 0,
+   "extras": {}
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://apps.legislature.ky.gov/legislativecalendar",
+   "note": ""
+  }
+ ],
+ "extras": {},
+ "dedupe_key": "INTERIM JOINT COMMITTEE ON TRANSPORTATION#Annex Room 154\r\n         Canceled!#2026-12-01 11:00:00-05:00",
+ "jurisdiction": {
+  "id": "ocd-jurisdiction/country:us/state:ky/government",
+  "name": "Kentucky",
+  "classification": "state",
+  "division_id": "ocd-division/country:us/state:ky"
+ }
+}
