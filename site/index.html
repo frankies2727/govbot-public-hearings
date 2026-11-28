@@ -1406,7 +1406,7 @@
     const actions = eln("div", "h-actions");
     const href = h.details_url || h.witness_slip_url;
     if (href) {
-      const a = eln("a", "file-link", h.jurisdiction === "us" ? "Open this rule ↗" : "Hearing details ↗");
+      const a = eln("a", "file-link", linkLabel(h, href));
       a.href = href; a.target = "_blank"; a.rel = "noopener";
       actions.append(a);
     }
@@ -1414,6 +1414,14 @@
     if (actions.childNodes.length) main.append(actions);
     row.append(main);
     return row;
+  }
+
+  // Every link is the hearing's own (scraper/main.py never links a calendar); say what it opens.
+  function linkLabel(h, href) {
+    if (h.jurisdiction === "us") return "Open this rule ↗";
+    if (/isvp|stream|live-proceedings|\/audio\//i.test(href)) return "Watch the hearing ↗";
+    if (/\.pdf(\b|$)|agenda/i.test(href)) return "Hearing agenda ↗";
+    return "Hearing details ↗";
   }
 
   // Source times are local wall-clock (naive ISO) with a tz name. Format

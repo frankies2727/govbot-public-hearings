@@ -534,6 +534,37 @@ class CongressHearings(unittest.TestCase):
         self.assertEqual(main.congress_number("2027-01-03"), 120)
 
 
+class HearingLinks(unittest.TestCase):
+    """Every hearing links to its own official page or agenda, never a calendar or list."""
+
+    def test_calendar_and_list_pages_are_never_a_hearing_link(self):
+        for u in ("https://lis.virginia.gov/schedule", "https://www.azleg.gov/Alis-Today/",
+                  "http://www.njleg.state.nj.us/downloads.asp",
+                  "https://apps.legislature.ky.gov/legislativecalendar",
+                  "https://www.scstatehouse.gov/meetings.php?chamber=H",
+                  "https://mnsenate.granicus.com/ViewSearchResults.php?view_id=1",
+                  "https://www.senate.mn/committees/committee_bio.php?ls=94&cmte_id=1"):
+            self.assertFalse(main.specific_link(u), u)
+        for u in ("https://www.wyoleg.gov/Calendar/20261101/Meeting?type=committee&id=15126",
+                  "https://www.leg.mn.gov/cal?type=single&mtgid=c_2341",
+                  "https://www.legmt.gov/event/legislative-council-15/"):
+            self.assertTrue(main.specific_link(u), u)
+        self.assertFalse(main.specific_link("https://x.gov/meeting/1", shared={"https://x.gov/meeting/1"}))
+
+    def test_each_place_links_the_meetings_own_page_or_agenda(self):
+        hs, _ = main.load_os_events(OpenStatesMeetings.OS, ["ky", "nj", "va"])
+        got = {h["jurisdiction"]: h.get("details_url") for h in hs}
+        self.assertEqual(got["va"], "https://lis.blob.core.windows.net/files/1232213.PDF")   # its agenda
+        self.assertIn("/live-proceedings/", got["nj"])                                     # its meeting page
+        self.assertTrue(got["ky"].endswith("12-1-26%20Agenda.pdf"))                         # its dated agenda
+
+    def test_senate_links_its_hearing_page_or_nothing(self):
+        hs = main.parse_senate_hearings((RAW / "senate_hearings.xml").read_text())
+        links = [h.get("details_url") for h in hs]
+        self.assertNotIn("https://www.senate.gov/committees/hearings_meetings.htm", links)
+        self.assertTrue(all(u is None or u.startswith("https://www.senate.gov/isvp/") for u in links))
+
+
 class OpenStatesMeetings(unittest.TestCase):
     """Real meeting files from Open States' events scrapers (Nov 2026), read offline."""
     OS = RAW / "os_events"

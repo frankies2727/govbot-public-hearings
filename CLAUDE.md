@@ -44,6 +44,14 @@ you found when you report back:
   against the government's own site, never a third-party service that can shut off. Open
   States' meeting scrapers run in their own workflow step (Docker), so `scraper/main.py`
   itself stays standard-library only and just reads their JSON files.
+- **Every hearing link is that hearing's own (per request, Nov 2026).** Its official page, else its own agenda or
+  notice, else its video/audio page — never a calendar, schedule, meeting list, search page or committee profile.
+  With nothing specific a row gets no link (the place's "Official: …" button still says how to take part).
+  `specific_link` (`_GENERIC_LINK` minus URLs with a meeting id, `_MEETING_ID`) + "shared by two meetings of the
+  same place = a list page" (`load_os_events`) + a shared file named with the meeting's date still counts
+  (`_date_tokens`, Kentucky's "12-1-26 Agenda.pdf"). Senate rows link their senate.gov video page or nothing.
+  The page labels the link by what it opens (`linkLabel`: "Hearing details / Hearing agenda / Watch the hearing ↗").
+  "See all N ↗" lists are the only links to a list. Tests: `HearingLinks`.
 - **Never get around a block.** A scraper that uses a bot-protection bypass (`cloudscraper`:
   oh, mp) or a site that answers 403 (mi) is left out of `OS_STATES`, not worked around.
 

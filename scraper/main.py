@@ -1175,7 +1175,6 @@ def fetch_us(today):
 #   each meeting; each meeting page's "Download Meeting XML" button (an ASP.NET form that
 #   posts back to the page) returns that meeting as public-domain XML. We press it.
 SENATE_XML = "https://www.senate.gov/general/committee_schedules/hearings.xml"
-SENATE_PAGE = "https://www.senate.gov/committees/hearings_meetings.htm"
 HOUSE_WEEK = "https://docs.house.gov/Committee/Calendar/ByWeek.aspx?WeekOf={}"
 HOUSE_EVENT = "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID={}"
 HOUSE_WEEKS = 4                  # committees post notices about a week ahead
@@ -1237,6 +1236,16 @@ def parse_senate_hearings(xml_text):
         committee = "Senate " + g("committee") + (f" · {g('sub_cmte')}" if g("sub_cmte") else "")
         matter = g("matter")
         kind = g("type")
+        congress = congress_number(day)
+        bills = []
+        for doc in m.findall("Documents/AssociatedDocument"):
+            pre = re.sub(r"[\s.]", "", doc.get("document_prefix") or "").upper()
+            if pre in _CG_TYPE and (doc.get("document_num") or "").strip().isdigit():
+                b = congress_bill(pre, doc.get("document_num").strip(), int(doc.get("congress") or congress))
+                if b["id"] not in {x["id"] for x in bills}:
+                    bills.append(b)
+        bills += [b for b in congress_bills(matter, congress) if b["id"] not in {x["id"] for x in bills}]
+        video = g("video_url")
         out.append({
             "id": f"usa-senate-{ident}", "jurisdiction": "usa", "chamber": "senate",
             "committee": committee,
@@ -1245,9 +1254,12 @@ def parse_senate_hearings(xml_text):
             "timezone": CONGRESS_TZ,
             "location": (g("room") + " · " if g("room") else "") + "U.S. Capitol complex, Washington, DC",
             "status": "canceled" if re.search(r"\b(cancel|postpone)", matter + kind, re.I) else "scheduled",
-            "bills": congress_bills(matter, congress_number(day)),
-            "details_url": SENATE_PAGE, "witness_slip_url": None, "source": "senate.gov",
+            "bills": bills, "witness_slip_url": None, "source": "senate.gov",
         })
+        # The hearing's own page on senate.gov is its video page; without one, no link
+        # (the Senate's schedule has no other page per hearing).
+        if video.startswith("https://www.senate.gov/"):
+            out[-1]["details_url"] = video
     return out
 
 
@@ -1417,6 +1429,37 @@ def _os_bill_id(name):
     return s if re.fullmatch(r"[A-Z]{1,6}\d{1,6}[A-Z]?", s) else None
 
 
+# Every hearing links straight to its own official page (or its own agenda / notice), never
+# a calendar, schedule or list of meetings. A link counts as the hearing's own when it isn't
+# shared with another meeting of the same place and isn't a calendar-type page without a
+# meeting id. With nothing better, a row gets no link rather than a calendar.
+_GENERIC_LINK = re.compile(
+    r"schedule|sched\.|calendar|alis-today|upcominghearings|downloads\.asp|weeklyview|"
+    r"meetingslist|meetings\.php|/committees?/?(#|$)|search|committee_bio", re.I)
+_MEETING_ID = re.compile(r"[?&](id|mtgid|event|eventid|meeting|meetingid|agendaid|key|m)=[^&]*\d", re.I)
+
+
+def specific_link(url, shared=()):
+    """True when url can be one hearing's own page: not shared, not a calendar/list page."""
+    if not url or url in shared:
+        return False
+    return not _GENERIC_LINK.search(url) or bool(_MEETING_ID.search(url))
+
+
+def _os_link_candidates(ev):
+    """An event's links, best first: its own pages, then its agenda / notice, then its
+    video or audio. Relative links are resolved against its first source."""
+    base = next((x.get("url") for x in ev.get("sources") or [] if x.get("url")), "")
+    fix = lambda u: urllib.parse.urljoin(base, u) if u and not u.startswith("http") else u
+    pages = [fix(x.get("url")) for x in (ev.get("sources") or []) + (ev.get("links") or [])]
+    docs = [fix(l.get("url")) for d in ev.get("documents") or []
+            if re.search(r"agenda|notice|hearing", (d.get("note") or "") + " " +
+                         " ".join(l.get("url") or "" for l in d.get("links") or []), re.I)
+            for l in d.get("links") or []]
+    media = [fix(l.get("url")) for m in ev.get("media") or [] for l in m.get("links") or []]
+    return [u for u in pages + docs + media if (u or "").startswith(("http://", "https://"))]
+
+
 def _os_junk_name(name):
     """A scraper that misread its source: a "meeting" named after a time of day or a
     table header (Mississippi's agenda PDF, Nov 2026). Such rows are dropped, never shown."""
@@ -1467,7 +1510,8 @@ def parse_os_event(json_text, code):
     committee = host or name
     urls = [s.get("url") for s in (ev.get("sources") or []) + (ev.get("links") or [])
             if (s.get("url") or "").startswith(("http://", "https://"))]
-    details = urls[0] if urls else None
+    details = urls[0] if urls else None          # only for the id (kept as it always was)
+    cands = _os_link_candidates(ev)
     bills, seen = [], set()
     for item in ev.get("agenda") or []:
         for ent in item.get("related_entities") or []:
@@ -1499,10 +1543,27 @@ def parse_os_event(json_text, code):
         "status": "canceled" if (ev.get("status") or "").startswith("cancel") else "scheduled",
         "bills": bills, "witness_slip_url": None,
         "source": urllib.parse.urlparse(details).hostname if details else "openstates-scrapers",
+        "_links": cands,
     }
-    if details:
-        rec["details_url"] = details
     return rec
+
+
+def _date_tokens(iso):
+    """'2026-12-01T…' -> ways a file name writes that day: 12-1-26, 12-01-2026, 20261201, …"""
+    y, m, d = int(iso[:4]), int(iso[5:7]), int(iso[8:10])
+    return {f"{m}-{d}-{y % 100:02d}", f"{m:02d}-{d:02d}-{y}", f"{m}-{d}-{y}", f"{y}-{m:02d}-{d:02d}",
+            f"{m:02d}{d:02d}{y}", f"{y}{m:02d}{d:02d}", f"{m}/{d}/{y}"}
+
+
+def _set_os_link(rec, shared=()):
+    """Set details_url to the first link that is this hearing's own. A link other meetings
+    also list still counts when its name carries this meeting's date (Kentucky lists every
+    agenda of a committee under each meeting: "12-1-26 Agenda.pdf")."""
+    days = _date_tokens(rec["scheduled_iso"]) if rec.get("scheduled_iso") else set()
+    dated = lambda u: not _GENERIC_LINK.search(u) and any(t in urllib.parse.unquote(u) for t in days)
+    own = next((u for u in rec.pop("_links", []) if specific_link(u, shared) or dated(u)), None)
+    if own:
+        rec["details_url"] = own
 
 
 def load_os_events(os_dir, codes):
@@ -1517,12 +1578,21 @@ def load_os_events(os_dir, codes):
             continue
         if (d / "_ok").exists():
             ok.add(code)
-        seen = set()
+        seen, recs = set(), []
         for f in sorted(d.glob("event_*.json")):
             rec = parse_os_event(f.read_text(errors="replace"), code)
             if rec and rec["id"] not in seen:     # one meeting scraped twice is one meeting
                 seen.add(rec["id"])
-                hearings.append(rec)
+                recs.append(rec)
+        # A link more than one meeting uses is a list or calendar page, not a hearing's own.
+        uses = {}
+        for r in recs:
+            for u in set(r["_links"]):
+                uses[u] = uses.get(u, 0) + 1
+        shared = {u for u, n in uses.items() if n > 1}
+        for r in recs:
+            _set_os_link(r, shared)
+        hearings += recs
     return hearings, ok
 
 
@@ -2339,7 +2409,7 @@ def place_page(p, hearings, generated_at, has_downloads):
             + (f"<br><span>{e(h['title'][:240])}</span>" if h.get("title") and h.get("title") != h.get("committee") else "")
             + (f"<br><span>{e(h['location'])}</span>" if h.get("location") else "")
             + (f"<br><span>Bills: {e(bills)}</span>" if bills else "")
-            + (f'<br><a href="{e(link)}" rel="noopener">Official details ↗</a>' if link else "")
+            + (f'<br><a href="{e(link)}" rel="noopener">This hearing on the official site ↗</a>' if link else "")
             + "</li>")
     more = (f'<p>Showing {len(shown)} of {len(up)}. <a href="{e(SITE_URL)}#hg-{e(code)}">See them all</a>.</p>'
             if len(up) > len(shown) else "")
