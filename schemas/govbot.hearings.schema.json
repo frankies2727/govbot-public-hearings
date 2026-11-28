@@ -112,6 +112,7 @@
             }
           }
         },
+        "calendar_url": { "type": "string", "description": "Only when the hearing has no page of its own: the official calendar or schedule it was listed on, shown as its source." },
         "details_url": { "type": "string", "description": "Official hearing/agenda detail page." },
         "category": { "type": "string", "enum": ["rfi", "environment", "permits", "meetings", "privacy", "paperwork", "other"], "description": "Federal notices only: the plain-language kind of notice (see NOTICE_CATEGORIES in actions/scrape-hearings/main.py). Rules carry none." },
         "witness_slip_url": { "type": ["string", "null"], "description": "Where to take part in this exact hearing: IL the first bill's Bill Status page (its Witness Slips button), else the hearing page; WA Committee Sign-In opened on this meeting; MA the hearing page (its testimony form); federal the rule's Regulations.gov comment form, else its Federal Register page. Null when there is no per-hearing way to take part (a WA interim work session; Alaska, whose only tool is its general POMS form) — the dashboard then links details_url. Chicago: the meeting's Notice PDF, which names where to send written comments." },

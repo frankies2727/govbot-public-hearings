@@ -558,6 +558,12 @@ class HearingLinks(unittest.TestCase):
         self.assertIn("/live-proceedings/", got["nj"])                                     # its meeting page
         self.assertTrue(got["ky"].endswith("12-1-26%20Agenda.pdf"))                         # its dated agenda
 
+    def test_no_page_of_its_own_keeps_its_source_calendar(self):
+        rec = {"scheduled_iso": "2026-12-02T10:00:00", "_links": ["https://lis.virginia.gov/schedule"]}
+        main._set_os_link(rec)
+        self.assertNotIn("details_url", rec)
+        self.assertEqual(rec["calendar_url"], "https://lis.virginia.gov/schedule")
+
     def test_senate_links_its_hearing_page_or_nothing(self):
         hs = main.parse_senate_hearings((RAW / "senate_hearings.xml").read_text())
         links = [h.get("details_url") for h in hs]

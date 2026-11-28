@@ -46,7 +46,8 @@ you found when you report back:
   itself stays standard-library only and just reads their JSON files.
 - **Every hearing link is that hearing's own (per request, Nov 2026).** Its official page, else its own agenda or
   notice, else its video/audio page — never a calendar, schedule, meeting list, search page or committee profile.
-  With nothing specific a row gets no link (the place's "Official: …" button still says how to take part).
+  With nothing specific, the row links the official calendar it was listed on, labelled as its source ("Source:
+  <place>'s meeting calendar ↗", `calendar_url`, set only then; Senate: its schedule page) — per request, as a fallback.
   `specific_link` (`_GENERIC_LINK` minus URLs with a meeting id, `_MEETING_ID`) + "shared by two meetings of the
   same place = a list page" (`load_os_events`) + a shared file named with the meeting's date still counts
   (`_date_tokens`, Kentucky's "12-1-26 Agenda.pdf"). Senate rows link their senate.gov video page or nothing.
@@ -328,5 +329,7 @@ Regulations.gov comment form ("Submit a comment ↗"; "Read the rule ↗" is the
 meeting notice. The panel button is that tool, else "Official legislature site ↗" (Chicago: "How public comment
 works ↗", Congress: "Find your members of Congress ↗") — never a homepage dressed up as a comment form. Place pages
 follow the same rule (`PART_LABEL`). A row with no online form gets "How to take part in this hearing →" (our place guide,
-`places/<slug>.html`), and a row with no page of its own names where it is listed: "Listed on the official meeting calendar at <source host>,
-which gives this meeting no page of its own." (`.h-nolink`; the calendar is named, not linked). The place-wide calendar link reads "Add all <place> hearings to my calendar (.ics)".
+`places/<slug>.html`), and a row with no page of its own links its source calendar (`calendar_url`, "Source: … ↗"). A place's form shows only
+where it fits: bill-based forms (`BILL_FORMS`: Request to Speak, witness slip, appearance form, position letter) only on
+hearings that list bills; Iowa has no `participate_url` (its Public Hearings page covers only its bill hearings, not
+committee meetings like the Revenue Estimating Conference). The place-wide calendar link reads "Add all <place> hearings to my calendar (.ics)".

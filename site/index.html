@@ -730,7 +730,6 @@
   .mp-tips { margin: 10px 0 14px; padding-left: 20px; font-size: 16px; line-height: 1.5; }
   .mp-tips li { margin: 0 0 4px; }
   /* The hearing's own "take part" link: plain, bold, underlined, so it reads as an action. */
-  .h-nolink { flex-basis: 100%; font-size: 15px; font-style: italic; }
   .h-take { font-weight: 500; font-size: 16px; color: var(--z-ink); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
   .mp-guide { display: inline-block; margin-top: 10px; }
   .h-subject { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
@@ -1360,6 +1359,7 @@
     appearance_form: "Fill out an appearance form ↗",
     position_letter: "Send a position letter ↗",
   };
+  const BILL_FORMS = new Set(["request_to_speak", "witness_slip", "appearance_form", "position_letter"]);
   let partBy = null;   // code -> participation entry (built on first use)
   function takePart(h) {
     if (h.status === "canceled") return null;
@@ -1368,7 +1368,11 @@
     if (h.jurisdiction === "chi") return w ? { href: w, label: "How to comment: meeting notice ↗" } : null;
     if (!partBy) { partBy = {}; participation.forEach((j) => { partBy[j.code] = j; }); }
     const p = partBy[h.jurisdiction];
-    return p && p.participate_url && ACT_LABEL[p.participation] ? { href: p.participate_url, label: ACT_LABEL[p.participation] } : null;
+    if (!(p && p.participate_url && ACT_LABEL[p.participation])) return null;
+    // A bill-based form (Request to Speak, witness slip, appearance form, position letter) only
+    // fits a hearing on bills; sign-in and comment forms work for any committee meeting.
+    if (BILL_FORMS.has(p.participation) && !(h.bills && h.bills.length)) return null;
+    return { href: p.participate_url, label: ACT_LABEL[p.participation] };
   }
 
   // "Add to my calendar (.ics)" for one hearing, made in the browser from the row itself.
@@ -1490,10 +1494,13 @@
       g.href = "places/" + placeSlug(h.jurisdiction, placeName(h.jurisdiction)) + ".html";
       actions.append(g);
     }
-    // No link of its own: say where the hearing is listed, so a missing button isn't a mystery.
-    // (We don't link calendars; the source site is named, not linked.)
-    if (!href) actions.prepend(eln("span", "h-nolink", "Listed on the official meeting calendar at " +
-      (h.source || "the legislature's website") + ", which gives this meeting no page of its own."));
+    // No page of its own: link the official calendar it was listed on, labelled as its source.
+    if (!href && h.calendar_url) {
+      const c = eln("a", "h-take h-source", h.jurisdiction === "usa" ? "Source: the Senate's hearing schedule ↗"
+        : "Source: " + placeName(h.jurisdiction) + "'s meeting calendar ↗");
+      c.href = h.calendar_url; c.target = "_blank"; c.rel = "noopener";
+      actions.prepend(c);
+    }
     if (h.scheduled_iso) {
       const c = eln("button", "rss-link h-cal", "Add to my calendar (.ics)");
       c.type = "button";

@@ -1175,6 +1175,7 @@ def fetch_us(today):
 #   each meeting; each meeting page's "Download Meeting XML" button (an ASP.NET form that
 #   posts back to the page) returns that meeting as public-domain XML. We press it.
 SENATE_XML = "https://www.senate.gov/general/committee_schedules/hearings.xml"
+SENATE_SCHEDULE = "https://www.senate.gov/committees/hearings_meetings.htm"   # the Senate's schedule page
 HOUSE_WEEK = "https://docs.house.gov/Committee/Calendar/ByWeek.aspx?WeekOf={}"
 HOUSE_EVENT = "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID={}"
 HOUSE_WEEKS = 4                  # committees post notices about a week ahead
@@ -1260,6 +1261,8 @@ def parse_senate_hearings(xml_text):
         # (the Senate's schedule has no other page per hearing).
         if video.startswith("https://www.senate.gov/"):
             out[-1]["details_url"] = video
+        else:
+            out[-1]["calendar_url"] = SENATE_SCHEDULE
     return out
 
 
@@ -1561,9 +1564,13 @@ def _set_os_link(rec, shared=()):
     agenda of a committee under each meeting: "12-1-26 Agenda.pdf")."""
     days = _date_tokens(rec["scheduled_iso"]) if rec.get("scheduled_iso") else set()
     dated = lambda u: not _GENERIC_LINK.search(u) and any(t in urllib.parse.unquote(u) for t in days)
-    own = next((u for u in rec.pop("_links", []) if specific_link(u, shared) or dated(u)), None)
+    links = rec.pop("_links", [])
+    own = next((u for u in links if specific_link(u, shared) or dated(u)), None)
     if own:
         rec["details_url"] = own
+    elif links:
+        # No page of its own: keep the official listing it came from, shown as its source.
+        rec["calendar_url"] = links[0]
 
 
 def load_os_events(os_dir, codes):
@@ -2415,6 +2422,7 @@ def place_page(p, hearings, generated_at, has_downloads, tips=()):
     rows = []
     for h in shown:
         link = h.get("details_url") or h.get("witness_slip_url")
+        cal = h.get("calendar_url") if not link else None
         bills = ", ".join(b["id"] for b in h.get("bills", [])[:12])
         rows.append(
             "<li><strong>" + e(_human_time(h)) + "</strong> · " + e(h.get("committee") or h.get("title"))
@@ -2422,6 +2430,7 @@ def place_page(p, hearings, generated_at, has_downloads, tips=()):
             + (f"<br><span>{e(h['location'])}</span>" if h.get("location") else "")
             + (f"<br><span>Bills: {e(bills)}</span>" if bills else "")
             + (f'<br><a href="{e(link)}" rel="noopener">This hearing on the official site ↗</a>' if link else "")
+            + (f'<br><a href="{e(cal)}" rel="noopener">Source: the official meeting calendar ↗</a>' if cal else "")
             + "</li>")
     more = (f'<p>Showing {len(shown)} of {len(up)}. <a href="{e(SITE_URL)}#hg-{e(code)}">See them all</a>.</p>'
             if len(up) > len(shown) else "")
