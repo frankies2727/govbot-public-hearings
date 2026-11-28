@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "HR2347",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2347"
+    },
+    {
+      "id": "HR11142",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11142"
+    },
+    {
+      "id": "HR3495",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3495"
+    },
+    {
+      "id": "HR5267",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5267"
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Committee on Rules",
+  "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=118863",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-house-118863",
+  "jurisdiction": "usa",
+  "location": "H-313 · U.S. Capitol · Washington, DC",
+  "scheduled_display": "2026-11-30T16:00:00",
+  "scheduled_iso": "2026-11-30T16:00:00",
+  "source": "docs.house.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Senate amendment to H.R. 2347 – Bipartisan American Affordability and Jobs Act of 2026; H.R. 11142 – Stop Insider Trading Act; H.R. 3495 – Direct Seller and Real Estate Agent Harmonization Act; H.R. 5267 – American Franchise Act",
+  "witness_slip_url": null
+}

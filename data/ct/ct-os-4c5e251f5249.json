@@ -1,12 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB305",
+      "id": "HB5244",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB131",
+      "id": "SB305",
       "slips": null,
       "url": null
     },
@@ -16,17 +16,17 @@
       "url": null
     },
     {
-      "id": "HB5244",
+      "id": "HB5243",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB131",
       "slips": null,
       "url": null
     },
     {
       "id": "HB5467",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5243",
       "slips": null,
       "url": null
     }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T05:04:21Z",
-  "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + federalregister.gov (govbot scrape-hearings) + each legislature's own site via Open States' meeting scrapers",
+  "generated_at": "2026-11-28T05:50:20Z",
+  "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + senate.gov + docs.house.gov + federalregister.gov (govbot scrape-hearings) + each legislature's own site via Open States' meeting scrapers",
   "jurisdictions": [
     {
       "code": "us",
@@ -48,6 +48,14 @@
         }
       ],
       "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F28%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
+    },
+    {
+      "code": "usa",
+      "name": "U.S. Congress",
+      "participation": "contact_only",
+      "portal_url": "https://www.congress.gov/members/find-your-member",
+      "full_list_url": "https://www.congress.gov/committee-schedule",
+      "how_to": "Congressional hearings hear from invited witnesses. You weigh in by contacting your representative and senators, who sit on the committees; some committees also accept written statements from the public for the hearing record (each committee's site says how)."
     },
     {
       "code": "ak",
@@ -121,6 +129,12 @@
       "name": "Illinois",
       "participation": "witness_slip",
       "portal_url": "https://my.ilga.gov/"
+    },
+    {
+      "code": "ky",
+      "name": "Kentucky",
+      "participation": "appearance_form",
+      "portal_url": "https://legislature.ky.gov/Committees/Pages/default.aspx"
     },
     {
       "code": "la",
@@ -245,6 +259,7 @@
   ],
   "counts": {
     "us": 21,
+    "usa": 27,
     "ak": 3,
     "al": 1,
     "ar": 23,
@@ -257,6 +272,7 @@
     "hi": 1,
     "ia": 8,
     "il": 2,
+    "ky": 4,
     "la": 3,
     "ma": 9,
     "me": 1,
@@ -775,6 +791,572 @@
       "witness_slip_url": "https://www.regulations.gov/commenton/FWS-R7-ES-2026-4357-0002",
       "source": "federalregister.gov",
       "category": "environment"
+    },
+    {
+      "id": "usa-house-118863",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on Rules",
+      "title": "Senate amendment to H.R. 2347 – Bipartisan American Affordability and Jobs Act of 2026; H.R. 11142 – Stop Insider Trading Act; H.R. 3495 – Direct Seller and Real Estate Agent Harmonization Act; H.R. 5267 – American Franchise Act",
+      "scheduled_iso": "2026-11-30T16:00:00",
+      "scheduled_display": "2026-11-30T16:00:00",
+      "timezone": "America/New_York",
+      "location": "H-313 · U.S. Capitol · Washington, DC",
+      "status": "scheduled",
+      "bills": [
+        {
+          "id": "HR2347",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2347"
+        },
+        {
+          "id": "HR11142",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/11142"
+        },
+        {
+          "id": "HR3495",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3495"
+        },
+        {
+          "id": "HR5267",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/5267"
+        }
+      ],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=118863",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-senate-338904",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Foreign Relations",
+      "title": "Open Business Meeting: Business meeting to consider pending nominations.",
+      "scheduled_iso": "2026-12-01T09:00:00",
+      "scheduled_display": "2026-12-01T09:00:00",
+      "timezone": "America/New_York",
+      "location": "S-116 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-house-119601",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on the Judiciary · Subcommittee on Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+      "title": "“A Climate of Bias: How Environmental Activists Influence the Judiciary”",
+      "scheduled_iso": "2026-12-01T10:00:00",
+      "scheduled_display": "2026-12-01T10:00:00",
+      "timezone": "America/New_York",
+      "location": "2141 · Rayburn House Office Building · Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119601",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-house-119615",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on Financial Services",
+      "title": "Oversight of Prudential Regulators",
+      "scheduled_iso": "2026-12-01T10:00:00",
+      "scheduled_display": "2026-12-01T10:00:00",
+      "timezone": "America/New_York",
+      "location": "2128 · Rayburn House Office Building · Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119615",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-senate-338860",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Commerce, Science, and Transportation",
+      "title": "Open Hearing: Hearings to examine the nominations of Peter A. Feldman, of the District of Columbia, to be a Commissioner of the Consumer Product Safety Commission, Christopher Mufarrige, of Texas, to be a Federal Trade Commissioner, and Loren Smith, Jr., of Virginia, to be an Assistant Secretary of Transportation.",
+      "scheduled_iso": "2026-12-01T10:00:00",
+      "scheduled_display": "2026-12-01T10:00:00",
+      "timezone": "America/New_York",
+      "location": "SR-253 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338905",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Judiciary",
+      "title": "Open Business Meeting: Business meeting to consider S.5289, to protect the right to the free exercise of religion, Gregory Todd Butler, of Mississippi, to be United States Circuit Judge for the Fifth Circuit, Samuel D. Adkisson, to be United States District Judge for the Eastern District of Tennessee, Zachary Paul West, to be United States District Judge for the Eastern District of Oklahoma, Philip Axt, to be United States District Judge for the District of North Dakota, Bradford J. Kelley, to be United States District Judge for the Eastern District of Louisiana, Trevor Scott Pemberton, to be United States District Judge for the Northern District of Oklahoma, Scott Krueger, to be United States Marshal for the Northern District of Indiana, and Arthur Kleinschmidt, of Virginia, to be an Assistant Attorney General, Department of Justice.",
+      "scheduled_iso": "2026-12-01T10:15:00",
+      "scheduled_display": "2026-12-01T10:15:00",
+      "timezone": "America/New_York",
+      "location": "SH-216 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [
+        {
+          "id": "S5289",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5289"
+        }
+      ],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338902",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Homeland Security and Governmental Affairs",
+      "title": "Open Business Meeting: Business meeting to consider S.5239, to ensure that nitrile glove procurements comply with the requirements of the Make PPE in America Act, and the nominations of Eric Matthew Ueland, of Virginia, to be Comptroller General of the United States, Michael Chamberlain, of Virginia, to be Director of the Office of Government Ethics, Robert Steffens, of Texas, to be a Governor of the United States Postal Service, Jeffrey Zisk, of Texas, to be a Commissioner of the Postal Regulatory Commission, Mark Priebe, of Virginia, to be Inspector General, Department of Education, Dennis Kirk, of Virginia, to be Inspector General, Department of the Interior, Maria D' Avanzo, of New York, to be Inspector General, General Services Administration, Robert Steinau, of Maryland, to be Inspector General, National Aeronautics and Space Administration, and Eric Sebastian Glover, Fernando Campoamor-Sanchez, Roman Marian Chaban, and Bernard Michael Desrosiers, each to be an Associate Judge of the Superior Court of the District of Columbia.",
+      "scheduled_iso": "2026-12-01T10:30:00",
+      "scheduled_display": "2026-12-01T10:30:00",
+      "timezone": "America/New_York",
+      "location": "SD-342 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [
+        {
+          "id": "S5239",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5239"
+        }
+      ],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338909",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Energy and Natural Resources",
+      "title": "Open Business Meeting: Business meeting to consider S.462, to provide for economic development and conservation in Washoe County, Nevada, S.791, to establish the Justice Thurgood Marshall National Historic Site in the State of Maryland as an affiliated area of the National Park System, S.1005, to provide for conservation and economic development in the State of Nevada, S.1195, to promote conservation, improve public land management, and provide for sensible development in Pershing County, Nevada, S.2644, to require the Secretary of the Interior to conduct a special resource study to assess the suitability and feasibility of establishing the Camden Battlefield area in the State of South Carolina as a unit of the National Park System, S.2968, to ensure access to certain public land, S.3409, to reaffirm that the Bureau of Reclamation retains exclusive ownership, operational control, and financial responsibility for the Lower Yellowstone Fish Bypass Channel, ensuring long-term conservation of the endangered pallid sturgeon and other native aquatic species in the Yellowstone River while protecting the Lower Yellowstone Irrigation Project and District from undue financial and operational burdens, S.3501, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to designate as a component of the National Heritage Area System the Calumet National Heritage Area in the States of Indiana and Illinois, S.3542, to amend the Wild and Scenic Rivers Act to designate the Upper Raritan River Watershed in the State of New Jersey for study for potential addition to the National Wild and Scenic Rivers System, S.4103, and H.R.2709, bills to improve the health and resiliency of giant sequoias, S.4200, to promote conservation, improve public land, and provide for sensible development in Douglas County, Nevada, S.4489, to authorize the Dry-Redwater Regional Water Authority System in the State of Montana, S.4561, to modernize and streamline the permitting process for broadband infrastructure on Federal land, S.4595, to amend the Wild and Scenic Rivers Act to designate the Mullica River watershed in New Jersey for study for potential designation as a wild and scenic river, S.4767, to extend the authorization of the African American Civil Rights Network, S.5608, to extend the Secure Rural Schools and Community Self-Determination Act of 2000, H.R.900, to direct the Director of the United States Geological Survey to establish a program to map zones that are at greater risk of sinkhole formation, H.R.1682, to amend the Federal Lands Recreation Enhancement Act to provide for lifetime National Parks and Federal Recreational Lands Passes for family members of members of the Armed Forces who lost their lives while serving their country, H.R.2317, to provide for transfer of ownership of certain Federal lands in northern Nevada, to authorize the disposal of certain Federal lands in northern Nevada for economic development, to promote conservation in northern Nevada, and the nominations of Dennis Kirk, of Virginia, to be Inspector General, Department of the Interior, and Toby Deen, of Colorado, to be an Assistant Secretary of Energy (Hydrocarbons and Geothermal Energy).",
+      "scheduled_iso": "2026-12-01T11:00:00",
+      "scheduled_display": "2026-12-01T11:00:00",
+      "timezone": "America/New_York",
+      "location": "SD-366 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [
+        {
+          "id": "S462",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/462"
+        },
+        {
+          "id": "S791",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/791"
+        },
+        {
+          "id": "S1005",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1005"
+        },
+        {
+          "id": "S1195",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1195"
+        },
+        {
+          "id": "S2644",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2644"
+        },
+        {
+          "id": "S2968",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2968"
+        },
+        {
+          "id": "S3409",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3409"
+        },
+        {
+          "id": "S3501",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3501"
+        },
+        {
+          "id": "S3542",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3542"
+        },
+        {
+          "id": "S4103",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4103"
+        },
+        {
+          "id": "HR2709",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2709"
+        },
+        {
+          "id": "S4200",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4200"
+        },
+        {
+          "id": "S4489",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4489"
+        },
+        {
+          "id": "S4561",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4561"
+        },
+        {
+          "id": "S4595",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4595"
+        },
+        {
+          "id": "S4767",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4767"
+        },
+        {
+          "id": "S5608",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5608"
+        },
+        {
+          "id": "HR900",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/900"
+        },
+        {
+          "id": "HR1682",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/1682"
+        },
+        {
+          "id": "HR2317",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2317"
+        }
+      ],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338910",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Banking, Housing, and Urban Affairs",
+      "title": "Open Business Meeting: Business meeting to consider the nominations of Mark Aesch, of Florida, to be Federal Transit Administrator, Hugo Dante, Jr., of Alabama, to be Director, Office of Financial Research, and Rebekah Jurata, of California, to be an Assistant Secretary, both of the Department of the Treasury, and Kristin N. Johnson, of Michigan, and Steven Levine, of Maryland, both to be a Member of the Securities and Exchange Commission.",
+      "scheduled_iso": "2026-12-01T11:30:00",
+      "scheduled_display": "2026-12-01T11:30:00",
+      "timezone": "America/New_York",
+      "location": "TBA · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338901",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Rules and Administration",
+      "title": "Open Business Meeting: Business meeting to consider the nominations of Ashley Stow, of Texas, and Andrew Woodson, of Virginia, both to be a Member of the Federal Election Commission.",
+      "scheduled_iso": "2026-12-01T12:15:00",
+      "scheduled_display": "2026-12-01T12:15:00",
+      "timezone": "America/New_York",
+      "location": "S-216 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-house-119617",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on Small Business · Subcommittee on Economic Growth, Tax, and Capital Access",
+      "title": "\"Beyond the Content: Small Businesses in America's Creator Economy.\"",
+      "scheduled_iso": "2026-12-01T14:00:00",
+      "scheduled_display": "2026-12-01T14:00:00",
+      "timezone": "America/New_York",
+      "location": "2360 · Rayburn House Office Building · Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119617",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-senate-338881",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Intelligence",
+      "title": "Closed Business Meeting: Closed business meeting to consider certain intelligence matters.",
+      "scheduled_iso": "2026-12-01T14:00:00",
+      "scheduled_display": "2026-12-01T14:00:00",
+      "timezone": "America/New_York",
+      "location": "TBA · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338907",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Foreign Relations",
+      "title": "Closed Hearing: To receive a closed briefing on an update on Ukraine.",
+      "scheduled_iso": "2026-12-01T14:00:00",
+      "scheduled_display": "2026-12-01T14:00:00",
+      "timezone": "America/New_York",
+      "location": "SVC-217 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338882",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Intelligence",
+      "title": "Closed Hearing: To receive a closed briefing on certain intelligence matters.",
+      "scheduled_iso": "2026-12-01T15:00:00",
+      "scheduled_display": "2026-12-01T15:00:00",
+      "timezone": "America/New_York",
+      "location": "SH-219 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-house-119616",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on Financial Services",
+      "title": "The Future of Financial Services: Opportunities, Challenges, and the Path Forward",
+      "scheduled_iso": "2026-12-02T10:00:00",
+      "scheduled_display": "2026-12-02T10:00:00",
+      "timezone": "America/New_York",
+      "location": "2128 · Rayburn House Office Building · Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119616",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-house-119621",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on the Judiciary · Subcommittee on the Constitution and Limited Government",
+      "title": "“Surveillance Without Safeguards: Government Monitoring and the Constitution”",
+      "scheduled_iso": "2026-12-02T10:00:00",
+      "scheduled_display": "2026-12-02T10:00:00",
+      "timezone": "America/New_York",
+      "location": "2141 · Rayburn House Office Building · Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119621",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-senate-338903",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Commerce, Science, and Transportation · Aviation, Space, and Innovation Subcommittee",
+      "title": "Open Hearing: Hearings to examine preventing the next ground stop, focusing on modernizing America's air traffic control system.",
+      "scheduled_iso": "2026-12-02T10:00:00",
+      "scheduled_display": "2026-12-02T10:00:00",
+      "timezone": "America/New_York",
+      "location": "SR-253 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338908",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Health, Education, Labor, and Pensions",
+      "title": "Open Hearing: Hearings to examine the nomination of Matthew Zandi, of California, to be a Member of the Equal Employment Opportunity Commission.",
+      "scheduled_iso": "2026-12-02T10:00:00",
+      "scheduled_display": "2026-12-02T10:00:00",
+      "timezone": "America/New_York",
+      "location": "SD-430 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-house-119610",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on Oversight and Government Reform · Subcommittee on Cybersecurity, Information Technology, and Government Innovation",
+      "title": "\"Defend, Detect, Disclose: Responding to AI-Enabled Cyber Incidents\"",
+      "scheduled_iso": "2026-12-02T13:00:00",
+      "scheduled_display": "2026-12-02T13:00:00",
+      "timezone": "America/New_York",
+      "location": "2154 · Rayburn House Office Building · Washington, DC",
+      "status": "canceled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119610",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-house-119619",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on Oversight and Government Reform · Subcommittee on Economic Growth, Energy Policy, and Regulatory Affairs",
+      "title": "“Defend, Detect, Disclose: Responding to AI-Enabled Cyber Incidents”",
+      "scheduled_iso": "2026-12-02T13:00:00",
+      "scheduled_display": "2026-12-02T13:00:00",
+      "timezone": "America/New_York",
+      "location": "2154 · Rayburn House Office Building · Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119619",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-house-119620",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on Oversight and Government Reform · Subcommittee on Cybersecurity, Information Technology, and Government Innovation",
+      "title": "“Defend, Detect, Disclose: Responding to AI-Enabled Cyber Incidents”",
+      "scheduled_iso": "2026-12-02T13:00:00",
+      "scheduled_display": "2026-12-02T13:00:00",
+      "timezone": "America/New_York",
+      "location": "2154 · Rayburn House Office Building · Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119620",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-senate-338883",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Intelligence",
+      "title": "Closed Hearing: To receive a closed briefing on certain intelligence matters.",
+      "scheduled_iso": "2026-12-02T15:00:00",
+      "scheduled_display": "2026-12-02T15:00:00",
+      "timezone": "America/New_York",
+      "location": "SH-219 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338880",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Aging",
+      "title": "Open Hearing: Hearings to examine caregivers and AI, focusing on opportunities, challenges, and threats.",
+      "scheduled_iso": "2026-12-02T15:30:00",
+      "scheduled_display": "2026-12-02T15:30:00",
+      "timezone": "America/New_York",
+      "location": "SD-G50 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-house-119622",
+      "jurisdiction": "usa",
+      "chamber": "house",
+      "committee": "House Committee on Education and Workforce · Subcommittee on Health, Employment, Labor, and Pensions",
+      "title": "“The PRO Act: Less Freedom, Fewer Choices”",
+      "scheduled_iso": "2026-12-03T09:00:00",
+      "scheduled_display": "2026-12-03T09:00:00",
+      "timezone": "America/New_York",
+      "location": "2175 · Rayburn House Office Building · Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119622",
+      "witness_slip_url": null,
+      "source": "docs.house.gov"
+    },
+    {
+      "id": "usa-senate-338911",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Armed Services",
+      "title": "Open Hearing: Hearings to examine the nominations of Lieutenant General Patrick D. Frank, USA, to be general and Commander, United States Northern Command/Commander, North American Aerospace Defense Command, and Lieutenant General David N. Miller, Jr., USSF, to be general and Commander, United States Space Command, both of the Department of Defense.",
+      "scheduled_iso": "2026-12-03T09:30:00",
+      "scheduled_display": "2026-12-03T09:30:00",
+      "timezone": "America/New_York",
+      "location": "SD-G50 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338900",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Banking, Housing, and Urban Affairs",
+      "title": "Open Hearing: Oversight hearings to examine United States export controls.",
+      "scheduled_iso": "2026-12-03T10:00:00",
+      "scheduled_display": "2026-12-03T10:00:00",
+      "timezone": "America/New_York",
+      "location": "SD-106 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
+    },
+    {
+      "id": "usa-senate-338906",
+      "jurisdiction": "usa",
+      "chamber": "senate",
+      "committee": "Senate Commission on Security and Cooperation in Europe",
+      "title": "Open Hearing: To receive a briefing on saving lines on the frontlines, focusing on Ukraine's military medical needs and innovations.",
+      "scheduled_iso": "2026-12-03T11:00:00",
+      "scheduled_display": "2026-12-03T11:00:00",
+      "timezone": "America/New_York",
+      "location": "CHOB-210 · U.S. Capitol complex, Washington, DC",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+      "witness_slip_url": null,
+      "source": "senate.gov"
     },
     {
       "id": "ak-joint-LEC-2026-11-30-130000",
@@ -3684,6 +4266,70 @@
       "source": "ilga.gov"
     },
     {
+      "id": "ky-os-1e3b287e9468",
+      "jurisdiction": "ky",
+      "chamber": "joint",
+      "committee": "INTERIM JOINT COMMITTEE ON TRANSPORTATION",
+      "title": "",
+      "scheduled_iso": "2026-12-01T11:00:00",
+      "scheduled_display": "2026-12-01T11:00:00",
+      "timezone": "America/New_York",
+      "location": "Annex Room 154 Canceled!",
+      "status": "canceled",
+      "bills": [],
+      "witness_slip_url": null,
+      "source": "apps.legislature.ky.gov",
+      "details_url": "https://apps.legislature.ky.gov/legislativecalendar"
+    },
+    {
+      "id": "ky-os-e252042a83f4",
+      "jurisdiction": "ky",
+      "chamber": "joint",
+      "committee": "INTERIM JOINT COMMITTEE ON TRANSPORTATION",
+      "title": "",
+      "scheduled_iso": "2026-12-01T13:00:00",
+      "scheduled_display": "2026-12-01T13:00:00",
+      "timezone": "America/New_York",
+      "location": "Annex Room 149",
+      "status": "scheduled",
+      "bills": [],
+      "witness_slip_url": null,
+      "source": "apps.legislature.ky.gov",
+      "details_url": "https://apps.legislature.ky.gov/legislativecalendar"
+    },
+    {
+      "id": "ky-os-503bd664f621",
+      "jurisdiction": "ky",
+      "chamber": "other",
+      "committee": "MEDICAID OVERSIGHT AND ADVISORY BOARD",
+      "title": "",
+      "scheduled_iso": "2026-12-02T11:00:00",
+      "scheduled_display": "2026-12-02T11:00:00",
+      "timezone": "America/New_York",
+      "location": "Annex Room 154",
+      "status": "scheduled",
+      "bills": [],
+      "witness_slip_url": null,
+      "source": "apps.legislature.ky.gov",
+      "details_url": "https://apps.legislature.ky.gov/legislativecalendar"
+    },
+    {
+      "id": "ky-os-799636e6ac4a",
+      "jurisdiction": "ky",
+      "chamber": "joint",
+      "committee": "INTERIM JOINT COMMITTEE ON HEALTH SERVICES",
+      "title": "",
+      "scheduled_iso": "2026-12-02T13:00:00",
+      "scheduled_display": "2026-12-02T13:00:00",
+      "timezone": "America/New_York",
+      "location": "Annex Room 149",
+      "status": "scheduled",
+      "bills": [],
+      "witness_slip_url": null,
+      "source": "apps.legislature.ky.gov",
+      "details_url": "https://apps.legislature.ky.gov/legislativecalendar"
+    },
+    {
       "id": "la-os-51869be226f7",
       "jurisdiction": "la",
       "chamber": "other",
@@ -3824,7 +4470,11 @@
           "id": "H5296",
           "slips": null,
           "url": "https://malegislature.gov/Bills/194/H5296",
-          "title": "An Act relative to early intervention services for children with prenatal exposure to opioids"
+          "title": "An Act relative to early intervention services for children with prenatal exposure to opioids",
+          "govbot_title": "An Act relative to early intervention services for children with prenatal exposure to opioids",
+          "govbot_tags": [
+            "health care"
+          ]
         }
       ],
       "details_url": "https://malegislature.gov/Events/Hearings/Detail/5820",

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Commerce, Science, and Transportation · Aviation, Space, and Innovation Subcommittee",
+  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-senate-338903",
+  "jurisdiction": "usa",
+  "location": "SR-253 · U.S. Capitol complex, Washington, DC",
+  "scheduled_display": "2026-12-02T10:00:00",
+  "scheduled_iso": "2026-12-02T10:00:00",
+  "source": "senate.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Open Hearing: Hearings to examine preventing the next ground stop, focusing on modernizing America's air traffic control system.",
+  "witness_slip_url": null
+}

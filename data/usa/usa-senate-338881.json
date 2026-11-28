@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Intelligence",
+  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-senate-338881",
+  "jurisdiction": "usa",
+  "location": "TBA · U.S. Capitol complex, Washington, DC",
+  "scheduled_display": "2026-12-01T14:00:00",
+  "scheduled_iso": "2026-12-01T14:00:00",
+  "source": "senate.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Closed Business Meeting: Closed business meeting to consider certain intelligence matters.",
+  "witness_slip_url": null
+}

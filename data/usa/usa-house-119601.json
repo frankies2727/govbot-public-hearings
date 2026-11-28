@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "House Committee on the Judiciary · Subcommittee on Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+  "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119601",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-house-119601",
+  "jurisdiction": "usa",
+  "location": "2141 · Rayburn House Office Building · Washington, DC",
+  "scheduled_display": "2026-12-01T10:00:00",
+  "scheduled_iso": "2026-12-01T10:00:00",
+  "source": "docs.house.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "“A Climate of Bias: How Environmental Activists Influence the Judiciary”",
+  "witness_slip_url": null
+}

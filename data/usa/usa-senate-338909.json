@@ -1,0 +1,118 @@
+{
+  "bills": [
+    {
+      "id": "S462",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/462"
+    },
+    {
+      "id": "S791",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/791"
+    },
+    {
+      "id": "S1005",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1005"
+    },
+    {
+      "id": "S1195",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1195"
+    },
+    {
+      "id": "S2644",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2644"
+    },
+    {
+      "id": "S2968",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2968"
+    },
+    {
+      "id": "S3409",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3409"
+    },
+    {
+      "id": "S3501",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3501"
+    },
+    {
+      "id": "S3542",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3542"
+    },
+    {
+      "id": "S4103",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4103"
+    },
+    {
+      "id": "HR2709",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2709"
+    },
+    {
+      "id": "S4200",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4200"
+    },
+    {
+      "id": "S4489",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4489"
+    },
+    {
+      "id": "S4561",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4561"
+    },
+    {
+      "id": "S4595",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4595"
+    },
+    {
+      "id": "S4767",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4767"
+    },
+    {
+      "id": "S5608",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5608"
+    },
+    {
+      "id": "HR900",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/900"
+    },
+    {
+      "id": "HR1682",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1682"
+    },
+    {
+      "id": "HR2317",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2317"
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Energy and Natural Resources",
+  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-senate-338909",
+  "jurisdiction": "usa",
+  "location": "SD-366 · U.S. Capitol complex, Washington, DC",
+  "scheduled_display": "2026-12-01T11:00:00",
+  "scheduled_iso": "2026-12-01T11:00:00",
+  "source": "senate.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Open Business Meeting: Business meeting to consider S.462, to provide for economic development and conservation in Washoe County, Nevada, S.791, to establish the Justice Thurgood Marshall National Historic Site in the State of Maryland as an affiliated area of the National Park System, S.1005, to provide for conservation and economic development in the State of Nevada, S.1195, to promote conservation, improve public land management, and provide for sensible development in Pershing County, Nevada, S.2644, to require the Secretary of the Interior to conduct a special resource study to assess the suitability and feasibility of establishing the Camden Battlefield area in the State of South Carolina as a unit of the National Park System, S.2968, to ensure access to certain public land, S.3409, to reaffirm that the Bureau of Reclamation retains exclusive ownership, operational control, and financial responsibility for the Lower Yellowstone Fish Bypass Channel, ensuring long-term conservation of the endangered pallid sturgeon and other native aquatic species in the Yellowstone River while protecting the Lower Yellowstone Irrigation Project and District from undue financial and operational burdens, S.3501, to amend the John D. Dingell, Jr. Conservation, Management, and Recreation Act to designate as a component of the National Heritage Area System the Calumet National Heritage Area in the States of Indiana and Illinois, S.3542, to amend the Wild and Scenic Rivers Act to designate the Upper Raritan River Watershed in the State of New Jersey for study for potential addition to the National Wild and Scenic Rivers System, S.4103, and H.R.2709, bills to improve the health and resiliency of giant sequoias, S.4200, to promote conservation, improve public land, and provide for sensible development in Douglas County, Nevada, S.4489, to authorize the Dry-Redwater Regional Water Authority System in the State of Montana, S.4561, to modernize and streamline the permitting process for broadband infrastructure on Federal land, S.4595, to amend the Wild and Scenic Rivers Act to designate the Mullica River watershed in New Jersey for study for potential designation as a wild and scenic river, S.4767, to extend the authorization of the African American Civil Rights Network, S.5608, to extend the Secure Rural Schools and Community Self-Determination Act of 2000, H.R.900, to direct the Director of the United States Geological Survey to establish a program to map zones that are at greater risk of sinkhole formation, H.R.1682, to amend the Federal Lands Recreation Enhancement Act to provide for lifetime National Parks and Federal Recreational Lands Passes for family members of members of the Armed Forces who lost their lives while serving their country, H.R.2317, to provide for transfer of ownership of certain Federal lands in northern Nevada, to authorize the disposal of certain Federal lands in northern Nevada for economic development, to promote conservation in northern Nevada, and the nominations of Dennis Kirk, of Virginia, to be Inspector General, Department of the Interior, and Toby Deen, of Colorado, to be an Assistant Secretary of Energy (Hydrocarbons and Geothermal Energy).",
+  "witness_slip_url": null
+}

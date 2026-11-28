@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Aging",
+  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-senate-338880",
+  "jurisdiction": "usa",
+  "location": "SD-G50 · U.S. Capitol complex, Washington, DC",
+  "scheduled_display": "2026-12-02T15:30:00",
+  "scheduled_iso": "2026-12-02T15:30:00",
+  "source": "senate.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Open Hearing: Hearings to examine caregivers and AI, focusing on opportunities, challenges, and threats.",
+  "witness_slip_url": null
+}

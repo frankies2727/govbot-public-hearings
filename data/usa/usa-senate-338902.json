@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "S5239",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5239"
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Homeland Security and Governmental Affairs",
+  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-senate-338902",
+  "jurisdiction": "usa",
+  "location": "SD-342 · U.S. Capitol complex, Washington, DC",
+  "scheduled_display": "2026-12-01T10:30:00",
+  "scheduled_iso": "2026-12-01T10:30:00",
+  "source": "senate.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Open Business Meeting: Business meeting to consider S.5239, to ensure that nitrile glove procurements comply with the requirements of the Make PPE in America Act, and the nominations of Eric Matthew Ueland, of Virginia, to be Comptroller General of the United States, Michael Chamberlain, of Virginia, to be Director of the Office of Government Ethics, Robert Steffens, of Texas, to be a Governor of the United States Postal Service, Jeffrey Zisk, of Texas, to be a Commissioner of the Postal Regulatory Commission, Mark Priebe, of Virginia, to be Inspector General, Department of Education, Dennis Kirk, of Virginia, to be Inspector General, Department of the Interior, Maria D' Avanzo, of New York, to be Inspector General, General Services Administration, Robert Steinau, of Maryland, to be Inspector General, National Aeronautics and Space Administration, and Eric Sebastian Glover, Fernando Campoamor-Sanchez, Roman Marian Chaban, and Bernard Michael Desrosiers, each to be an Associate Judge of the Superior Court of the District of Columbia.",
+  "witness_slip_url": null
+}

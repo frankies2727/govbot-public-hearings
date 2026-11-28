@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Foreign Relations",
+  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-senate-338907",
+  "jurisdiction": "usa",
+  "location": "SVC-217 · U.S. Capitol complex, Washington, DC",
+  "scheduled_display": "2026-12-01T14:00:00",
+  "scheduled_iso": "2026-12-01T14:00:00",
+  "source": "senate.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Closed Hearing: To receive a closed briefing on an update on Ukraine.",
+  "witness_slip_url": null
+}

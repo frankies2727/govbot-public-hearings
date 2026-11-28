@@ -1,6 +1,6 @@
 {
   "license": "CC BY 4.0 (credit Govbot Public Hearings)",
-  "meetings": 3712,
+  "meetings": 3744,
   "places": [
     {
       "code": "ak",
@@ -97,6 +97,14 @@
       "meetings": 2,
       "name": "Illinois",
       "upcoming": 2
+    },
+    {
+      "code": "ky",
+      "csv": "hearings-ky.csv",
+      "ics": "ky.ics",
+      "meetings": 4,
+      "name": "Kentucky",
+      "upcoming": 4
     },
     {
       "code": "la",
@@ -225,6 +233,14 @@
       "meetings": 10,
       "name": "Tennessee",
       "upcoming": 9
+    },
+    {
+      "code": "usa",
+      "csv": "hearings-usa.csv",
+      "ics": "usa.ics",
+      "meetings": 28,
+      "name": "U.S. Congress",
+      "upcoming": 27
     },
     {
       "code": "ut",

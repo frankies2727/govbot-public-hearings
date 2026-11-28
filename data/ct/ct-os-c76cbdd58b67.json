@@ -1,37 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB278",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5406",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5409",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5407",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5292",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5415",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB282",
       "slips": null,
       "url": null
     },
@@ -46,17 +21,27 @@
       "url": null
     },
     {
+      "id": "HB5407",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5292",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5298",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5412",
+      "id": "SB282",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB279",
+      "id": "HB5294",
       "slips": null,
       "url": null
     },
@@ -66,7 +51,22 @@
       "url": null
     },
     {
-      "id": "HB5294",
+      "id": "SB279",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5406",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5412",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB278",
       "slips": null,
       "url": null
     }

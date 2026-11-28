@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "S5289",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5289"
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Judiciary",
+  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-senate-338905",
+  "jurisdiction": "usa",
+  "location": "SH-216 · U.S. Capitol complex, Washington, DC",
+  "scheduled_display": "2026-12-01T10:15:00",
+  "scheduled_iso": "2026-12-01T10:15:00",
+  "source": "senate.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Open Business Meeting: Business meeting to consider S.5289, to protect the right to the free exercise of religion, Gregory Todd Butler, of Mississippi, to be United States Circuit Judge for the Fifth Circuit, Samuel D. Adkisson, to be United States District Judge for the Eastern District of Tennessee, Zachary Paul West, to be United States District Judge for the Eastern District of Oklahoma, Philip Axt, to be United States District Judge for the District of North Dakota, Bradford J. Kelley, to be United States District Judge for the Eastern District of Louisiana, Trevor Scott Pemberton, to be United States District Judge for the Northern District of Oklahoma, Scott Krueger, to be United States Marshal for the Northern District of Indiana, and Arthur Kleinschmidt, of Virginia, to be an Assistant Attorney General, Department of Justice.",
+  "witness_slip_url": null
+}

@@ -1,17 +1,17 @@
 {
   "bills": [
     {
+      "id": "HB5261",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5161",
       "slips": null,
       "url": null
     },
     {
       "id": "HB5260",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5261",
       "slips": null,
       "url": null
     }

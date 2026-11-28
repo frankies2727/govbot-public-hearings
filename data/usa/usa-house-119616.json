@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "House Committee on Financial Services",
+  "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119616",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-house-119616",
+  "jurisdiction": "usa",
+  "location": "2128 · Rayburn House Office Building · Washington, DC",
+  "scheduled_display": "2026-12-02T10:00:00",
+  "scheduled_iso": "2026-12-02T10:00:00",
+  "source": "docs.house.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "The Future of Financial Services: Opportunities, Challenges, and the Path Forward",
+  "witness_slip_url": null
+}

@@ -1,0 +1,5 @@
+﻿jurisdiction,place,date,time,timezone,committee,chamber,title,location,status,bills,details_url,first_seen,id
+ky,Kentucky,2026-12-01,11:00,America/New_York,INTERIM JOINT COMMITTEE ON TRANSPORTATION,joint,,Annex Room 154 Canceled!,canceled,,https://apps.legislature.ky.gov/legislativecalendar,2026-11-28T05:50:20Z,ky-os-1e3b287e9468
+ky,Kentucky,2026-12-01,13:00,America/New_York,INTERIM JOINT COMMITTEE ON TRANSPORTATION,joint,,Annex Room 149,scheduled,,https://apps.legislature.ky.gov/legislativecalendar,2026-11-28T05:50:20Z,ky-os-e252042a83f4
+ky,Kentucky,2026-12-02,11:00,America/New_York,MEDICAID OVERSIGHT AND ADVISORY BOARD,other,,Annex Room 154,scheduled,,https://apps.legislature.ky.gov/legislativecalendar,2026-11-28T05:50:20Z,ky-os-503bd664f621
+ky,Kentucky,2026-12-02,13:00,America/New_York,INTERIM JOINT COMMITTEE ON HEALTH SERVICES,joint,,Annex Room 149,scheduled,,https://apps.legislature.ky.gov/legislativecalendar,2026-11-28T05:50:20Z,ky-os-799636e6ac4a

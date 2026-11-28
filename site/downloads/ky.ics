@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kentucky hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ky-os-1e3b287e9468@govbot-public-hearings
+DTSTAMP:20261128T055020Z
+DTSTART:20261201T160000Z
+SUMMARY:INTERIM JOINT COMMITTEE ON TRANSPORTATION
+DESCRIPTION:https://apps.legislature.ky.gov/legislativecalendar
+LOCATION:Annex Room 154 Canceled!
+URL:https://apps.legislature.ky.gov/legislativecalendar
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ky-os-e252042a83f4@govbot-public-hearings
+DTSTAMP:20261128T055020Z
+DTSTART:20261201T180000Z
+SUMMARY:INTERIM JOINT COMMITTEE ON TRANSPORTATION
+DESCRIPTION:https://apps.legislature.ky.gov/legislativecalendar
+LOCATION:Annex Room 149
+URL:https://apps.legislature.ky.gov/legislativecalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:ky-os-503bd664f621@govbot-public-hearings
+DTSTAMP:20261128T055020Z
+DTSTART:20261202T160000Z
+SUMMARY:MEDICAID OVERSIGHT AND ADVISORY BOARD
+DESCRIPTION:https://apps.legislature.ky.gov/legislativecalendar
+LOCATION:Annex Room 154
+URL:https://apps.legislature.ky.gov/legislativecalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:ky-os-799636e6ac4a@govbot-public-hearings
+DTSTAMP:20261128T055020Z
+DTSTART:20261202T180000Z
+SUMMARY:INTERIM JOINT COMMITTEE ON HEALTH SERVICES
+DESCRIPTION:https://apps.legislature.ky.gov/legislativecalendar
+LOCATION:Annex Room 149
+URL:https://apps.legislature.ky.gov/legislativecalendar
+END:VEVENT
+END:VCALENDAR

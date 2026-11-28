@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "House Committee on Oversight and Government Reform · Subcommittee on Economic Growth, Energy Policy, and Regulatory Affairs",
+  "details_url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119619",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-house-119619",
+  "jurisdiction": "usa",
+  "location": "2154 · Rayburn House Office Building · Washington, DC",
+  "scheduled_display": "2026-12-02T13:00:00",
+  "scheduled_iso": "2026-12-02T13:00:00",
+  "source": "docs.house.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "“Defend, Detect, Disclose: Responding to AI-Enabled Cyber Incidents”",
+  "witness_slip_url": null
+}

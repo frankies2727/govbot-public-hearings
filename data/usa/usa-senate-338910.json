@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Banking, Housing, and Urban Affairs",
+  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "first_seen": "2026-11-28T05:50:20Z",
+  "id": "usa-senate-338910",
+  "jurisdiction": "usa",
+  "location": "TBA · U.S. Capitol complex, Washington, DC",
+  "scheduled_display": "2026-12-01T11:30:00",
+  "scheduled_iso": "2026-12-01T11:30:00",
+  "source": "senate.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Open Business Meeting: Business meeting to consider the nominations of Mark Aesch, of Florida, to be Federal Transit Administrator, Hugo Dante, Jr., of Alabama, to be Director, Office of Financial Research, and Rebekah Jurata, of California, to be an Assistant Secretary, both of the Department of the Treasury, and Kristin N. Johnson, of Michigan, and Steven Levine, of Maryland, both to be a Member of the Securities and Exchange Commission.",
+  "witness_slip_url": null
+}
