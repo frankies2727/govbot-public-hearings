@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG",
   "chamber": "other",
   "committee": "Task Force 25-73: To Study the Regulation of Corporate Housing Acquisitions (ZOOM1)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,21 +1,6 @@
 {
   "bills": [
     {
-      "id": "SB389",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5422",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5425",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5423",
       "slips": null,
       "url": null
@@ -41,7 +26,12 @@
       "url": null
     },
     {
-      "id": "HB5421",
+      "id": "HB5425",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5422",
       "slips": null,
       "url": null
     },
@@ -51,7 +41,17 @@
       "url": null
     },
     {
+      "id": "HB5421",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5424",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5381",
       "slips": null,
       "url": null
     },
@@ -61,11 +61,12 @@
       "url": null
     },
     {
-      "id": "HB5381",
+      "id": "SB389",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP",
   "chamber": "other",
   "committee": "Appropriations Committee Public Hearing (2C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

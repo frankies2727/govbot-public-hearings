@@ -1,17 +1,17 @@
 {
   "bills": [
     {
-      "id": "B34338",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "B25538",
       "slips": null,
       "url": "https://guamlegislature.gov/bills-page3/"
     },
     {
       "id": "B32738",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B34338",
       "slips": null,
       "url": null
     }

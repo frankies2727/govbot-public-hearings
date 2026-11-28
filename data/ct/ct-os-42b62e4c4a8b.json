@@ -1,12 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5379",
+      "id": "SB344",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB344",
+      "id": "HB5379",
       "slips": null,
       "url": null
     },
@@ -21,6 +21,7 @@
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=KID",
   "chamber": "other",
   "committee": "Children Committee Meeting (2A-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

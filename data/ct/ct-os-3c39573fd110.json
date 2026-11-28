@@ -1,21 +1,6 @@
 {
   "bills": [
     {
-      "id": "HB5293",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB280",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB281",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5297",
       "slips": null,
       "url": null
@@ -31,12 +16,7 @@
       "url": null
     },
     {
-      "id": "HB5298",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5295",
+      "id": "SB279",
       "slips": null,
       "url": null
     },
@@ -51,7 +31,22 @@
       "url": null
     },
     {
-      "id": "SB279",
+      "id": "SB280",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5298",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5295",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB281",
       "slips": null,
       "url": null
     },
@@ -64,8 +59,14 @@
       "id": "HB5296",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "HB5293",
+      "slips": null,
+      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=VA",
   "chamber": "other",
   "committee": "Veterans' and Military Affairs Committee Public Hearing (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

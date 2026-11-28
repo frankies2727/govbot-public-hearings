@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=FIN",
   "chamber": "other",
   "committee": "Payroll Tax Working Group Meeting (1C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,22 +1,22 @@
 {
   "bills": [
     {
+      "id": "SB148",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5152",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5157",
+      "id": "HB5153",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB144",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB146",
+      "id": "HB5156",
       "slips": null,
       "url": null
     },
@@ -31,12 +31,7 @@
       "url": null
     },
     {
-      "id": "HB5156",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5153",
+      "id": "SB146",
       "slips": null,
       "url": null
     },
@@ -46,11 +41,17 @@
       "url": null
     },
     {
-      "id": "SB148",
+      "id": "SB144",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5157",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ENV",
   "chamber": "other",
   "committee": "Environment Committee Meeting (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

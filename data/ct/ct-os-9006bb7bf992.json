@@ -1,72 +1,22 @@
 {
   "bills": [
     {
-      "id": "SJ41",
+      "id": "SJ56",
       "slips": null,
       "url": null
     },
     {
-      "id": "HJ49",
+      "id": "HJ37",
       "slips": null,
       "url": null
     },
     {
-      "id": "SJ60",
+      "id": "HJ51",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5490",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ35",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ43",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ56",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ57",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ55",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5431",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5433",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ48",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ45",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ44",
+      "id": "SR40",
       "slips": null,
       "url": null
     },
@@ -76,17 +26,157 @@
       "url": null
     },
     {
+      "id": "HJ53",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ42",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ47",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SJ61",
       "slips": null,
       "url": null
     },
     {
-      "id": "SJ56",
+      "id": "HJ36",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5432",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB398",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5535",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ50",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5430",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ41",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ59",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ48",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ54",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5441",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ41",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5489",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ50",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ35",
       "slips": null,
       "url": null
     },
     {
       "id": "HJ42",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5431",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ49",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ53",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ55",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ49",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ40",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ43",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ57",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ57",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB434",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ54",
       "slips": null,
       "url": null
     },
@@ -101,77 +191,12 @@
       "url": null
     },
     {
-      "id": "HB5535",
+      "id": "HJ47",
       "slips": null,
       "url": null
     },
     {
-      "id": "SJ39",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ47",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ42",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ49",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ59",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5437",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ46",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ54",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SR40",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ58",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ50",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5432",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ38",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5430",
+      "id": "SB343",
       "slips": null,
       "url": null
     },
@@ -186,17 +211,7 @@
       "url": null
     },
     {
-      "id": "HJ55",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ54",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ40",
+      "id": "SJ46",
       "slips": null,
       "url": null
     },
@@ -206,32 +221,52 @@
       "url": null
     },
     {
+      "id": "SJ52",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ39",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ55",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ40",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ45",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ56",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ38",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HJ46",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB398",
+      "id": "HB5490",
       "slips": null,
       "url": null
     },
     {
-      "id": "SJ40",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5489",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB343",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ36",
+      "id": "HB5433",
       "slips": null,
       "url": null
     },
@@ -241,7 +276,12 @@
       "url": null
     },
     {
-      "id": "HJ37",
+      "id": "HB5437",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ44",
       "slips": null,
       "url": null
     },
@@ -251,56 +291,17 @@
       "url": null
     },
     {
-      "id": "HJ41",
+      "id": "SJ58",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB434",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ57",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ50",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ52",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ47",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ51",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ53",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ53",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5441",
+      "id": "SJ60",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
   "chamber": "other",
   "committee": "Judiciary Committee Public Hearing (2D-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

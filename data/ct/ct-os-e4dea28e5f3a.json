@@ -1,27 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5469",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB421",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5470",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5472",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB419",
+      "id": "HB5471",
       "slips": null,
       "url": null
     },
@@ -41,11 +26,27 @@
       "url": null
     },
     {
-      "id": "HB5471",
+      "id": "SB419",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5470",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5469",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB421",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ET",
   "chamber": "other",
   "committee": "Energy and Technology Committee Public Hearing (1D-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

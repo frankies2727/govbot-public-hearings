@@ -1,37 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5274",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5279",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5387",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5386",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB350",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5385",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB355",
+      "id": "SB436",
       "slips": null,
       "url": null
     },
@@ -41,12 +11,22 @@
       "url": null
     },
     {
-      "id": "SB356",
+      "id": "HB5274",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB436",
+      "id": "HB5387",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB350",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB356",
       "slips": null,
       "url": null
     },
@@ -54,8 +34,29 @@
       "id": "HB5384",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "HB5386",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5279",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB355",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5385",
+      "slips": null,
+      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=LAB",
   "chamber": "other",
   "committee": "Labor and Public Employees Committee Meeting (1C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

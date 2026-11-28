@@ -1,24 +1,24 @@
 {
   "bills": [
     {
-      "id": "B6238",
-      "slips": null,
-      "url": "https://guamlegislature.gov/bills-page1/"
-    },
-    {
       "id": "B20338",
       "slips": null,
       "url": "https://guamlegislature.gov/bills-page3/"
     },
     {
-      "id": "B14238",
-      "slips": null,
-      "url": "https://guamlegislature.gov/bills-page2/"
-    },
-    {
       "id": "B21838",
       "slips": null,
       "url": "https://guamlegislature.gov/bills-page3/"
+    },
+    {
+      "id": "B6238",
+      "slips": null,
+      "url": "https://guamlegislature.gov/bills-page1/"
+    },
+    {
+      "id": "B14238",
+      "slips": null,
+      "url": "https://guamlegislature.gov/bills-page2/"
     }
   ],
   "chamber": "other",

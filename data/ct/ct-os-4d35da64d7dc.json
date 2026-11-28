@@ -1,12 +1,17 @@
 {
   "bills": [
     {
-      "id": "HB5355",
+      "id": "SB328",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB328",
+      "id": "SB327",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5355",
       "slips": null,
       "url": null
     },
@@ -16,22 +21,12 @@
       "url": null
     },
     {
-      "id": "SB329",
+      "id": "SB331",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB87",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB330",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5354",
+      "id": "HB5358",
       "slips": null,
       "url": null
     },
@@ -46,26 +41,32 @@
       "url": null
     },
     {
-      "id": "HB5358",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB331",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB327",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5040",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB87",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5354",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB330",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB329",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HS",
   "chamber": "other",
   "committee": "Human Services Committee Public Hearing (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

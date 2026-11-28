@@ -1,22 +1,17 @@
 {
   "bills": [
     {
-      "id": "SB217",
+      "id": "SB301",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB302",
+      "id": "SB216",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5210",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB218",
+      "id": "HB5317",
       "slips": null,
       "url": null
     },
@@ -26,7 +21,42 @@
       "url": null
     },
     {
+      "id": "HB5314",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB300",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5315",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5210",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5213",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB217",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5211",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB219",
       "slips": null,
       "url": null
     },
@@ -36,7 +66,12 @@
       "url": null
     },
     {
-      "id": "HB5314",
+      "id": "SB302",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB218",
       "slips": null,
       "url": null
     },
@@ -51,46 +86,12 @@
       "url": null
     },
     {
-      "id": "SB301",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB219",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB216",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB300",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5318",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5317",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5213",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5211",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=BA",
   "chamber": "other",
   "committee": "Banking Committee Meeting (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

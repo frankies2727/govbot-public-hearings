@@ -1,7 +1,17 @@
 {
   "bills": [
     {
-      "id": "HB5164",
+      "id": "HB5167",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5165",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB93",
       "slips": null,
       "url": null
     },
@@ -16,7 +26,32 @@
       "url": null
     },
     {
+      "id": "SB192",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB190",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB193",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB191",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB194",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5164",
       "slips": null,
       "url": null
     },
@@ -31,46 +66,12 @@
       "url": null
     },
     {
-      "id": "SB191",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB190",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5165",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5167",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB93",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5169",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB192",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB194",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
   "chamber": "other",
   "committee": "Public Health Committee Public Hearing (1D-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

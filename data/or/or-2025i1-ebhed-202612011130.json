@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Higher Education",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/EBHED/2026-12-01-11-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-ebhed-202612011130",
+  "jurisdiction": "or",
+  "location": "HR G · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-01T11:30:00",
+  "scheduled_iso": "2026-12-01T11:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Senator Neron Misslin, Presiding Co-Chair; 4. Higher Education Coordinating Commission - Oregon Tribal Student Grant",
+  "witness_slip_url": null
+}

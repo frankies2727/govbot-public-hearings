@@ -1,32 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5222",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB435",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5342",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB463",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5533",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB125",
       "slips": null,
       "url": null
     },
@@ -39,8 +14,34 @@
       "id": "SB438",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "HB5533",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB435",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5222",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB125",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB463",
+      "slips": null,
+      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
   "chamber": "other",
   "committee": "Judiciary Committee Meeting (2E-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

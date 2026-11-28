@@ -1,17 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5305",
+      "id": "HB5299",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB288",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5302",
+      "id": "HB5303",
       "slips": null,
       "url": null
     },
@@ -31,7 +26,12 @@
       "url": null
     },
     {
-      "id": "SB287",
+      "id": "SB284",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5301",
       "slips": null,
       "url": null
     },
@@ -41,31 +41,32 @@
       "url": null
     },
     {
-      "id": "HB5303",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5299",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB284",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5300",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5301",
+      "id": "HB5302",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB287",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5305",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB288",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=AGE",
   "chamber": "other",
   "committee": "Aging Committee Public Hearing (2E-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=INS",
   "chamber": "other",
   "committee": "Insurance and Real Estate Committee Meeting (1B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

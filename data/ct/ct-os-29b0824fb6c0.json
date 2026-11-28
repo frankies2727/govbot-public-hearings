@@ -1,22 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5273",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB265",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB266",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5269",
       "slips": null,
       "url": null
     },
@@ -26,7 +11,22 @@
       "url": null
     },
     {
-      "id": "HB5272",
+      "id": "SB263",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB265",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB264",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5269",
       "slips": null,
       "url": null
     },
@@ -41,16 +41,17 @@
       "url": null
     },
     {
-      "id": "SB264",
+      "id": "HB5273",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB263",
+      "id": "HB5272",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=KID",
   "chamber": "other",
   "committee": "Children Committee Public Hearing (1C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,7 +1,72 @@
 {
   "bills": [
     {
+      "id": "SB267",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5265",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5373",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5377",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5378",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5375",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5372",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5264",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB258",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB342",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5371",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5376",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB341",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB340",
       "slips": null,
       "url": null
     },
@@ -14,73 +79,9 @@
       "id": "HB5374",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "HB5378",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB342",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5372",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5371",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB267",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB258",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5376",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB340",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5375",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5377",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5265",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB341",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5264",
-      "slips": null,
-      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=INS",
   "chamber": "other",
   "committee": "Insurance and Real Estate Committee Meeting (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Human Services",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SHS/2026-12-02-14-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-shs-202612021430",
+  "jurisdiction": "or",
+  "location": "HR 60 · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-02T14:30:00",
+  "scheduled_iso": "2026-12-02T14:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Public hearing: Wyatt v. Kotek Settlement Agreement and Neutral’s Annual Review; Strengthening, Preserving, and Reunifying Families (SPRF) Program Rule Changes; Workgroup Updates for OTIS Investigation and Beds to Belonging; SB 1532 Differentiated Rate Model for ODDS In Home Services Implementation Update … (invited speakers only)",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Information Management and Technology",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JLCIMT/2026-12-03-08-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-jlcimt-202612030830",
+  "jurisdiction": "or",
+  "location": "HR G · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-03T08:30:00",
+  "scheduled_iso": "2026-12-03T08:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Representative Chotzen, Presiding Co-Chair; Introduction of Committee Legislative Concepts; Cybersecurity Briefing - Local Government Ransomware Attack (2023); Data Centers in Oregon …",
+  "witness_slip_url": null
+}

@@ -1,37 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5306",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5490",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5043",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB296",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5311",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5437",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5563",
       "slips": null,
       "url": null
     },
@@ -41,7 +11,17 @@
       "url": null
     },
     {
-      "id": "HB5428",
+      "id": "SB296",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB476",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5490",
       "slips": null,
       "url": null
     },
@@ -51,7 +31,27 @@
       "url": null
     },
     {
-      "id": "SB503",
+      "id": "HB5563",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5437",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB502",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5043",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5428",
       "slips": null,
       "url": null
     },
@@ -76,16 +76,17 @@
       "url": null
     },
     {
-      "id": "SB502",
+      "id": "HB5306",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB476",
+      "id": "SB503",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
   "chamber": "other",
   "committee": "Judiciary Committee Meeting (2C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

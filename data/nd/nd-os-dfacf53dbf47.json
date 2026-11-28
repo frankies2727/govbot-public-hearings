@@ -1,14 +1,9 @@
 {
   "bills": [
     {
-      "id": "HB1628",
+      "id": "SB2406",
       "slips": null,
-      "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo1628.html"
-    },
-    {
-      "id": "SB2408",
-      "slips": null,
-      "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo2408.html"
+      "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo2406.html"
     },
     {
       "id": "SB2405",
@@ -16,9 +11,14 @@
       "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo2405.html"
     },
     {
-      "id": "SB2406",
+      "id": "SB2408",
       "slips": null,
-      "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo2406.html"
+      "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo2408.html"
+    },
+    {
+      "id": "HB1628",
+      "slips": null,
+      "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo1628.html"
     }
   ],
   "calendar_url": "https://www.ndlegis.gov/legend/committee/hearings/public-schedule/?export=csv",

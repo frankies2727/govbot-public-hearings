@@ -1,17 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5303",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5316",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5299",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5303",
       "slips": null,
       "url": null
     },
@@ -19,8 +14,14 @@
       "id": "HB5142",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "HB5316",
+      "slips": null,
+      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
   "chamber": "other",
   "committee": "Public Health Committee Meeting (1A-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

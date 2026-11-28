@@ -1,32 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5418",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5446",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5030",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB312",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5381",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5422",
+      "id": "SB401",
       "slips": null,
       "url": null
     },
@@ -36,12 +11,32 @@
       "url": null
     },
     {
+      "id": "HB5418",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5424",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5033",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5425",
+      "id": "HB5030",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB388",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB263",
       "slips": null,
       "url": null
     },
@@ -51,7 +46,7 @@
       "url": null
     },
     {
-      "id": "HB5424",
+      "id": "SB312",
       "slips": null,
       "url": null
     },
@@ -66,17 +61,32 @@
       "url": null
     },
     {
+      "id": "HB5447",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5425",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB223",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB388",
+      "id": "HB5422",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5447",
+      "id": "HB5446",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5381",
       "slips": null,
       "url": null
     },
@@ -84,18 +94,9 @@
       "id": "SB389",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "SB263",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB401",
-      "slips": null,
-      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP",
   "chamber": "other",
   "committee": "Appropriations Committee Meeting (2C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

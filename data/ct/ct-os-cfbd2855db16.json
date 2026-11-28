@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB378",
+      "id": "HB5408",
       "slips": null,
       "url": null
     },
@@ -11,27 +11,12 @@
       "url": null
     },
     {
-      "id": "HB5416",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5408",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB377",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5407",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5411",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5414",
       "slips": null,
       "url": null
     },
@@ -41,7 +26,22 @@
       "url": null
     },
     {
-      "id": "HB5414",
+      "id": "HB5407",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5406",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB376",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB377",
       "slips": null,
       "url": null
     },
@@ -56,21 +56,22 @@
       "url": null
     },
     {
+      "id": "HB5416",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5409",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5406",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB376",
+      "id": "SB378",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=VA",
   "chamber": "other",
   "committee": "Veterans' and Military Affairs Committee Public Hearing (1C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

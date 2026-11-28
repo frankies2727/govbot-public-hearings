@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP",
   "chamber": "joint",
   "committee": "Appropriations and Public Health Committees Joint Public Hearing followed by Committee Meetings (2C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

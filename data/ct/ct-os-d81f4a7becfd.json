@@ -1,12 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB250",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5039",
+      "id": "HB5256",
       "slips": null,
       "url": null
     },
@@ -16,27 +11,7 @@
       "url": null
     },
     {
-      "id": "HB5256",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5253",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5254",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB248",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB252",
+      "id": "HB5250",
       "slips": null,
       "url": null
     },
@@ -46,11 +21,37 @@
       "url": null
     },
     {
-      "id": "HB5250",
+      "id": "SB248",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5253",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB252",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB250",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5254",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5039",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GOS",
   "chamber": "other",
   "committee": "Government Oversight Committee Public Hearing (2D-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

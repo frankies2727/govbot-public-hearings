@@ -1,32 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5569",
+      "id": "SB1",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB515",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5568",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5571",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB514",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB516",
+      "id": "SB511",
       "slips": null,
       "url": null
     },
@@ -36,12 +16,17 @@
       "url": null
     },
     {
-      "id": "SB1",
+      "id": "HB5568",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB511",
+      "id": "SB514",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5569",
       "slips": null,
       "url": null
     },
@@ -56,7 +41,22 @@
       "url": null
     },
     {
+      "id": "HB5571",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB516",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB512",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB515",
       "slips": null,
       "url": null
     },
@@ -66,6 +66,7 @@
       "url": null
     }
   ],
+  "calendar_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=FIN",
   "chamber": "other",
   "committee": "Finance, Revenue and Bonding Committee Public Hearing (2E-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

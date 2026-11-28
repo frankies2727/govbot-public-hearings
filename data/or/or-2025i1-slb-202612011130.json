@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Labor and Business",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SLB/2026-12-01-11-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-slb-202612011130",
+  "jurisdiction": "or",
+  "location": "HR 60 · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-01T11:30:00",
+  "scheduled_iso": "2026-12-01T11:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Introduction of Committee Legislative Concepts; Workforce Impacts of Artificial Intelligence; Skilled and Trained Workforce; Click to Cancel: Update on Legislation Across the Country and Next Steps for Oregon … (invited speakers only)",
+  "witness_slip_url": null
+}

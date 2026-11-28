@@ -1,12 +1,27 @@
 {
   "bills": [
     {
-      "id": "HB5443",
+      "id": "SB510",
       "slips": null,
       "url": null
     },
     {
       "id": "SB85",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB2",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5443",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5539",
       "slips": null,
       "url": null
     },
@@ -21,17 +36,12 @@
       "url": null
     },
     {
-      "id": "SB516",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5539",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB477",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB516",
       "slips": null,
       "url": null
     },
@@ -39,18 +49,9 @@
       "id": "SB84",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "SB510",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB2",
-      "slips": null,
-      "url": null
     }
   ],
+  "calendar_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=FIN",
   "chamber": "other",
   "committee": "Finance, Revenue and Bonding Committee Meeting (2E-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

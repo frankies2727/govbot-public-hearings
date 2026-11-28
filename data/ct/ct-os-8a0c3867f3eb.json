@@ -1,17 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5219",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB224",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5221",
+      "id": "SB225",
       "slips": null,
       "url": null
     },
@@ -21,16 +11,27 @@
       "url": null
     },
     {
+      "id": "SB224",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5219",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5220",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB225",
+      "id": "HB5221",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE",
   "chamber": "other",
   "committee": "Government Administration and Elections Committee Public Hearing FULLY REMOTE (1C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,12 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5261",
+      "id": "HB5161",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5161",
+      "id": "HB5261",
       "slips": null,
       "url": null
     },
@@ -16,6 +16,7 @@
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PD",
   "chamber": "other",
   "committee": "Planning and Development Committee Meeting (2A-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

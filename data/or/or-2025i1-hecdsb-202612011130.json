@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Economic Development, Small Business, and Trade",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HECDSB/2026-12-01-11-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-hecdsb-202612011130",
+  "jurisdiction": "or",
+  "location": "HR 40 · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-01T11:30:00",
+  "scheduled_iso": "2026-12-01T11:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "House Committee on Economic Development, Small Business, and Trade: Legislative Concepts (LC) Preview; Introduction of Committee Legislative Concepts; Arts and Our Economy; Travel Oregon Update … (invited speakers only)",
+  "witness_slip_url": null
+}

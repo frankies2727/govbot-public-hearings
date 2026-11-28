@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Energy and Environment",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SEE/2026-12-01-14-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-see-202612011430",
+  "jurisdiction": "or",
+  "location": "HR 60 · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-01T14:30:00",
+  "scheduled_iso": "2026-12-01T14:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Introduction of Committee Legislative Concepts; 2026 Biennial Energy Report; Heard Farms Wastewater Treatment Services for Municipal Systems; Update on the Recycling Modernization Act … (invited speakers only)",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Agriculture, Land Use, Natural Resources, and Water",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HALNRW/2026-12-01-11-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-halnrw-202612011130",
+  "jurisdiction": "or",
+  "location": "HR F · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-01T11:30:00",
+  "scheduled_iso": "2026-12-01T11:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Introduction of Committee Legislative Concepts; Oregon Solutions Anniversary; Water Efficiencies, Waste, and Beneficial Use; PFAS … (invited speakers only)",
+  "witness_slip_url": null
+}

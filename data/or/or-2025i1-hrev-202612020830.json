@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Revenue",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HREV/2026-12-02-08-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-hrev-202612020830",
+  "jurisdiction": "or",
+  "location": "HR A · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-02T08:30:00",
+  "scheduled_iso": "2026-12-02T08:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "8:30 - 8:40 Introduction of 2027 Committee Bills (See meeting materials for LC Drafts); 8:40 - 9:10 2027 Tax Credit Report; 9:10 - 9:40 2027 Property Tax Exemption Report; 9:40 - 10:00 Overview of Federal Income Tax Connection … (invited speakers only)",
+  "witness_slip_url": null
+}

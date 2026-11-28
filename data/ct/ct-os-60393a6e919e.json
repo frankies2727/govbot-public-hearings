@@ -1,32 +1,27 @@
 {
   "bills": [
     {
-      "id": "SB435",
+      "id": "SB436",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB437",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5491",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB438",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB357",
+      "id": "HB5492",
       "slips": null,
       "url": null
     },
     {
       "id": "HB5496",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB442",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5491",
       "slips": null,
       "url": null
     },
@@ -41,22 +36,7 @@
       "url": null
     },
     {
-      "id": "SB354",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5495",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB442",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5493",
+      "id": "SB438",
       "slips": null,
       "url": null
     },
@@ -66,12 +46,22 @@
       "url": null
     },
     {
-      "id": "SB439",
+      "id": "SB437",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB436",
+      "id": "HB5493",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5495",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB354",
       "slips": null,
       "url": null
     },
@@ -81,16 +71,27 @@
       "url": null
     },
     {
+      "id": "SB435",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB441",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5492",
+      "id": "SB357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB439",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=LAB",
   "chamber": "other",
   "committee": "Labor and Public Employees Committee Public Hearing (1C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

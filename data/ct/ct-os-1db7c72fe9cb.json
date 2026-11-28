@@ -1,12 +1,17 @@
 {
   "bills": [
     {
-      "id": "SB154",
+      "id": "SB156",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB156",
+      "id": "SB155",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB154",
       "slips": null,
       "url": null
     },
@@ -19,13 +24,9 @@
       "id": "SB157",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "SB155",
-      "slips": null,
-      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=KID",
   "chamber": "other",
   "committee": "Children Committee Meeting (1C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,6 +1,11 @@
 {
   "bills": [
     {
+      "id": "HB5467",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB418",
       "slips": null,
       "url": null
@@ -9,13 +14,9 @@
       "id": "SB417",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "HB5467",
-      "slips": null,
-      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=CE",
   "chamber": "other",
   "committee": "Commerce Committee Public Hearing (1B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

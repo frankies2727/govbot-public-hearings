@@ -1,42 +1,12 @@
 {
   "bills": [
     {
+      "id": "SB356",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB349",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB348",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB347",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB345",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB353",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5383",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB352",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5388",
       "slips": null,
       "url": null
     },
@@ -46,7 +16,7 @@
       "url": null
     },
     {
-      "id": "HB5385",
+      "id": "HB5382",
       "slips": null,
       "url": null
     },
@@ -56,17 +26,52 @@
       "url": null
     },
     {
+      "id": "HB5385",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB358",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB356",
+      "id": "HB5388",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB348",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB352",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB347",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5383",
       "slips": null,
       "url": null
     },
     {
       "id": "HB5003",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB345",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5386",
       "slips": null,
       "url": null
     },
@@ -81,17 +86,12 @@
       "url": null
     },
     {
-      "id": "HB5386",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB350",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5382",
+      "id": "SB353",
       "slips": null,
       "url": null
     },
@@ -101,6 +101,7 @@
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=LAB",
   "chamber": "other",
   "committee": "Labor and Public Employees Committee Public Hearing (1D-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

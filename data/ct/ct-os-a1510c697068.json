@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB256",
+      "id": "SB253",
       "slips": null,
       "url": null
     },
@@ -16,12 +16,7 @@
       "url": null
     },
     {
-      "id": "HB5230",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB255",
+      "id": "HB5258",
       "slips": null,
       "url": null
     },
@@ -31,22 +26,22 @@
       "url": null
     },
     {
+      "id": "HB5230",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5259",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB253",
+      "id": "SB255",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB257",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5258",
+      "id": "HB5261",
       "slips": null,
       "url": null
     },
@@ -56,11 +51,17 @@
       "url": null
     },
     {
-      "id": "HB5261",
+      "id": "SB257",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB256",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG",
   "chamber": "other",
   "committee": "Housing Committee Public Hearing (2A-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

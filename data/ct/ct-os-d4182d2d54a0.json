@@ -1,32 +1,22 @@
 {
   "bills": [
     {
-      "id": "HB5222",
+      "id": "SB230",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB232",
+      "id": "HB5224",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5226",
+      "id": "SB231",
       "slips": null,
       "url": null
     },
     {
       "id": "SB227",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5225",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB230",
       "slips": null,
       "url": null
     },
@@ -41,7 +31,12 @@
       "url": null
     },
     {
-      "id": "SB231",
+      "id": "HB5225",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5222",
       "slips": null,
       "url": null
     },
@@ -51,11 +46,17 @@
       "url": null
     },
     {
-      "id": "HB5224",
+      "id": "HB5226",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB232",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GL",
   "chamber": "other",
   "committee": "General Law Committee Public Hearing FULLY REMOTE (1D-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

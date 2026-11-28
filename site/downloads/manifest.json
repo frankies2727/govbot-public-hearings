@@ -1,6 +1,6 @@
 {
   "license": "CC BY 4.0 (credit Govbot Public Hearings)",
-  "meetings": 3754,
+  "meetings": 3796,
   "places": [
     {
       "code": "ak",
@@ -201,6 +201,14 @@
       "meetings": 56,
       "name": "Oklahoma",
       "upcoming": 2
+    },
+    {
+      "code": "or",
+      "csv": "hearings-or.csv",
+      "ics": "or.ics",
+      "meetings": 42,
+      "name": "Oregon",
+      "upcoming": 42
     },
     {
       "code": "pa",

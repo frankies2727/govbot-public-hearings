@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Rules and Executive Appointments",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SRULES/2026-12-01-08-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-srules-202612010830",
+  "jurisdiction": "or",
+  "location": "HR B · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-01T08:30:00",
+  "scheduled_iso": "2026-12-01T08:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Campaign Finance Reform Update; 2026 Midterm Election Administration Debrief; Introduction of Committee Legislative Concepts; For information about Language Access Services/Para más información sobre los Servicios de Acceso Lingüístico: (invited speakers only)",
+  "witness_slip_url": null
+}

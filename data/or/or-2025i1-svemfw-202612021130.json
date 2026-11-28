@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Veterans, Emergency Management, Federal and World Affairs",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SVEMFW/2026-12-02-11-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-svemfw-202612021130",
+  "jurisdiction": "or",
+  "location": "HR D · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-02T11:30:00",
+  "scheduled_iso": "2026-12-02T11:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Introduction of Committee Legislative Concepts; Studying the Use of Surveillance Technology (LC 3356); Plan for a Resilient Oregon; Oregon Military Department Update … (invited speakers only)",
+  "witness_slip_url": null
+}

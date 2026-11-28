@@ -1,17 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB483",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB507",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB399",
+      "id": "HB5308",
       "slips": null,
       "url": null
     },
@@ -21,7 +11,32 @@
       "url": null
     },
     {
+      "id": "SB483",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB90",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB397",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5312",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5432",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB91",
       "slips": null,
       "url": null
     },
@@ -31,7 +46,27 @@
       "url": null
     },
     {
-      "id": "HB5308",
+      "id": "HB5431",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB507",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5313",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB399",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB400",
       "slips": null,
       "url": null
     },
@@ -46,7 +81,7 @@
       "url": null
     },
     {
-      "id": "SB91",
+      "id": "SB398",
       "slips": null,
       "url": null
     },
@@ -54,43 +89,9 @@
       "id": "SB474",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "HB5312",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB398",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5431",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5313",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB400",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5432",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB90",
-      "slips": null,
-      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
   "chamber": "other",
   "committee": "Judiciary Committee Meeting (2C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

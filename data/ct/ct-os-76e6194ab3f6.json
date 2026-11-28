@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB339",
+      "id": "HB5258",
       "slips": null,
       "url": null
     },
@@ -16,7 +16,7 @@
       "url": null
     },
     {
-      "id": "HB5259",
+      "id": "HB5161",
       "slips": null,
       "url": null
     },
@@ -26,12 +26,7 @@
       "url": null
     },
     {
-      "id": "HB5258",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5161",
+      "id": "HB5162",
       "slips": null,
       "url": null
     },
@@ -41,17 +36,17 @@
       "url": null
     },
     {
-      "id": "SB336",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5162",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5365",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5259",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB336",
       "slips": null,
       "url": null
     },
@@ -59,8 +54,14 @@
       "id": "HB5261",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "SB339",
+      "slips": null,
+      "url": null
     }
   ],
+  "calendar_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG",
   "chamber": "other",
   "committee": "Housing Committee Meeting (1C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

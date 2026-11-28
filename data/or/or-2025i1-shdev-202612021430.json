@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Housing and Development",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SHDEV/2026-12-02-14-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-shdev-202612021430",
+  "jurisdiction": "or",
+  "location": "HR 50 · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-02T14:30:00",
+  "scheduled_iso": "2026-12-02T14:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "BUILD NOW Act Legislative Impacts; Baseline Housing Indicators in Oregon; Homes Near Transit; Eviction Prevention Funding Updates … (invited speakers only)",
+  "witness_slip_url": null
+}

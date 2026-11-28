@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Commerce and General Government",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/SCGG/2026-12-01-08-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-scgg-202612010830",
+  "jurisdiction": "or",
+  "location": "HR 60 · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-01T08:30:00",
+  "scheduled_iso": "2026-12-01T08:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Community Investment Funds and Community Wealth-building; Community Economic Coalition (CEC): Supporting A Small Business Prosperity Agenda; Perspectives on Economic and Workforce Development: Priorities for the 2027 Legislative Session; Update on Modernization of Journalism Workgroup … (invited speakers only)",
+  "witness_slip_url": null
+}

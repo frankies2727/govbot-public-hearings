@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5244",
+      "id": "HB5243",
       "slips": null,
       "url": null
     },
@@ -11,17 +11,12 @@
       "url": null
     },
     {
-      "id": "HB5243",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB305",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5467",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5244",
       "slips": null,
       "url": null
     },
@@ -29,8 +24,14 @@
       "id": "SB306",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "SB305",
+      "slips": null,
+      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=CE",
   "chamber": "other",
   "committee": "Commerce Committee Meeting (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,17 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB217",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5210",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB218",
+      "id": "SB216",
       "slips": null,
       "url": null
     },
@@ -21,7 +11,7 @@
       "url": null
     },
     {
-      "id": "SB215",
+      "id": "HB5210",
       "slips": null,
       "url": null
     },
@@ -31,17 +21,17 @@
       "url": null
     },
     {
+      "id": "SB217",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5211",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB219",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB216",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5209",
       "slips": null,
       "url": null
     },
@@ -51,11 +41,22 @@
       "url": null
     },
     {
-      "id": "HB5211",
+      "id": "SB218",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5209",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB215",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=BA",
   "chamber": "other",
   "committee": "Banking Committee Public Hearing (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

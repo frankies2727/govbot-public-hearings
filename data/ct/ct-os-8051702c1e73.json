@@ -1,12 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5172",
+      "id": "SB20",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB20",
+      "id": "HB5172",
       "slips": null,
       "url": null
     },
@@ -16,16 +16,17 @@
       "url": null
     },
     {
-      "id": "SB19",
+      "id": "HB5144",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5144",
+      "id": "SB19",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP",
   "chamber": "other",
   "committee": "Appropriations Committee Public Hearing (2C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

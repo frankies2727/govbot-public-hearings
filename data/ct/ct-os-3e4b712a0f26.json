@@ -1,17 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB448",
+      "id": "HB5506",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5499",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5509",
+      "id": "HB5504",
       "slips": null,
       "url": null
     },
@@ -21,7 +16,7 @@
       "url": null
     },
     {
-      "id": "HB5504",
+      "id": "HB5507",
       "slips": null,
       "url": null
     },
@@ -36,12 +31,12 @@
       "url": null
     },
     {
-      "id": "HB5500",
+      "id": "HB5509",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB449",
+      "id": "HB5500",
       "slips": null,
       "url": null
     },
@@ -51,27 +46,17 @@
       "url": null
     },
     {
-      "id": "HB5501",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5508",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5505",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5503",
+      "id": "SB449",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5506",
+      "id": "HB5501",
       "slips": null,
       "url": null
     },
@@ -81,16 +66,32 @@
       "url": null
     },
     {
+      "id": "HB5508",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB447",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5507",
+      "id": "HB5503",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5499",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB448",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PD",
   "chamber": "other",
   "committee": "Planning and Development Committee Public Hearing (2A-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

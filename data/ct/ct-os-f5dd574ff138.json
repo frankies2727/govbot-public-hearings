@@ -1,7 +1,32 @@
 {
   "bills": [
     {
+      "id": "SB365",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5045",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB364",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5398",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB382",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5389",
       "slips": null,
       "url": null
     },
@@ -14,33 +39,9 @@
       "id": "HB5322",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "HB5389",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB365",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB364",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5045",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5398",
-      "slips": null,
-      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
   "chamber": "other",
   "committee": "Public Health Committee Public Hearing (2E-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

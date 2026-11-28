@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB377",
+      "id": "SB279",
       "slips": null,
       "url": null
     },
@@ -16,12 +16,7 @@
       "url": null
     },
     {
-      "id": "HB5407",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5298",
+      "id": "HB5292",
       "slips": null,
       "url": null
     },
@@ -31,7 +26,7 @@
       "url": null
     },
     {
-      "id": "HB5409",
+      "id": "HB5298",
       "slips": null,
       "url": null
     },
@@ -41,12 +36,7 @@
       "url": null
     },
     {
-      "id": "HB5292",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB279",
+      "id": "HB5407",
       "slips": null,
       "url": null
     },
@@ -69,8 +59,19 @@
       "id": "HB5296",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "HB5409",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB377",
+      "slips": null,
+      "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=VA",
   "chamber": "other",
   "committee": "Veterans' and Military Affairs Committee Meeting (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

@@ -1,17 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB415",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5463",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB413",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB412",
       "slips": null,
       "url": null
     },
@@ -21,7 +16,7 @@
       "url": null
     },
     {
-      "id": "SB414",
+      "id": "HB5463",
       "slips": null,
       "url": null
     },
@@ -36,12 +31,17 @@
       "url": null
     },
     {
-      "id": "HB5462",
+      "id": "SB415",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB412",
+      "id": "SB414",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5462",
       "slips": null,
       "url": null
     },
@@ -51,6 +51,7 @@
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=TRA",
   "chamber": "other",
   "committee": "Transportation Committee Public Hearing (2B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

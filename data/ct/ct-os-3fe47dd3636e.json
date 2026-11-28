@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG",
   "chamber": "other",
   "committee": "Appropriations, Commerce, and Housing Committees Public Hearing re Small Cities Community Development Block Grant, followed by Committee Meetings (2C-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

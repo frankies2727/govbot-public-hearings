@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Early Childhood",
+  "details_url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/HEC/2026-12-01-08-30",
+  "first_seen": "2026-11-28T19:06:17Z",
+  "id": "or-2025i1-hec-202612010830",
+  "jurisdiction": "or",
+  "location": "HR C · Oregon State Capitol, Salem",
+  "scheduled_display": "2026-12-01T08:30:00",
+  "scheduled_iso": "2026-12-01T08:30:00",
+  "source": "oregonlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Child Savings Accounts; Overview of Head Start Rules Changes; Child and Adult Food Care Program; Coordinated Enrollment on the South Coast … (invited speakers only)",
+  "witness_slip_url": null
+}

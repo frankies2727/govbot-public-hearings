@@ -1,22 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5263",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB267",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB258",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5262",
       "slips": null,
       "url": null
     },
@@ -26,11 +11,27 @@
       "url": null
     },
     {
+      "id": "SB258",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5264",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5262",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5263",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=INS",
   "chamber": "other",
   "committee": "Insurance and Real Estate Committee Public Hearing (1B-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

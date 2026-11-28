@@ -1,27 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB118",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB116",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5127",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5037",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5126",
+      "id": "HB5128",
       "slips": null,
       "url": null
     },
@@ -31,7 +11,12 @@
       "url": null
     },
     {
-      "id": "HB5038",
+      "id": "SB116",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB118",
       "slips": null,
       "url": null
     },
@@ -41,16 +26,32 @@
       "url": null
     },
     {
+      "id": "HB5037",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5125",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5128",
+      "id": "HB5038",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5126",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5127",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GL",
   "chamber": "other",
   "committee": "General Law Committee Public Hearing (1A-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",

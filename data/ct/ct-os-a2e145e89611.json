@@ -1,52 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB481",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB498",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB482",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB499",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5561",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5540",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB478",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5041",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB479",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB480",
       "slips": null,
       "url": null
     },
@@ -56,27 +11,12 @@
       "url": null
     },
     {
-      "id": "HB5560",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5558",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB501",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB494",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB3",
+      "id": "HB5562",
       "slips": null,
       "url": null
     },
@@ -91,7 +31,57 @@
       "url": null
     },
     {
+      "id": "HB5561",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB481",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5558",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB482",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5560",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB500",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB499",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5540",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB3",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB498",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5541",
       "slips": null,
       "url": null
     },
@@ -101,12 +91,7 @@
       "url": null
     },
     {
-      "id": "HB5562",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5557",
+      "id": "SB494",
       "slips": null,
       "url": null
     },
@@ -116,11 +101,27 @@
       "url": null
     },
     {
-      "id": "HB5541",
+      "id": "HB5557",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5041",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB480",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB479",
       "slips": null,
       "url": null
     }
   ],
+  "calendar_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HS",
   "chamber": "other",
   "committee": "Human Services Committee Public Hearing (2A-ZOOM)",
   "first_seen": "2026-11-28T05:04:21Z",
