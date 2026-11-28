@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:26:54Z",
+  "generated_at": "2026-11-28T01:57:16Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + federalregister.gov (govbot scrape-hearings)",
   "jurisdictions": [
     {
@@ -7,14 +7,14 @@
       "name": "USA (Federal)",
       "participation": "public_comment",
       "portal_url": "https://www.regulations.gov/",
-      "open_total": 226,
-      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F27%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
-      "notice_total": 790,
+      "open_total": 219,
+      "full_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F28%2F2026&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE",
+      "notice_total": 757,
       "notice_categories": [
         {
           "key": "rfi",
           "label": "Requests for ideas & information",
-          "total": 27
+          "total": 26
         },
         {
           "key": "environment",
@@ -24,7 +24,7 @@
         {
           "key": "permits",
           "label": "Permits, licenses & approvals",
-          "total": 96
+          "total": 90
         },
         {
           "key": "meetings",
@@ -34,20 +34,20 @@
         {
           "key": "privacy",
           "label": "Privacy & government records",
-          "total": 17
+          "total": 15
         },
         {
           "key": "paperwork",
           "label": "Forms & paperwork reviews",
-          "total": 529
+          "total": 508
         },
         {
           "key": "other",
           "label": "Other notices",
-          "total": 104
+          "total": 101
         }
       ],
-      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F27%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
+      "notice_list_url": "https://www.federalregister.gov/documents/search?conditions%5Bcomment_date%5D%5Bgte%5D=11%2F28%2F2026&conditions%5Btype%5D%5B%5D=NOTICE"
     },
     {
       "code": "ak",
@@ -91,381 +91,100 @@
   },
   "hearings": [
     {
-      "id": "us-2026-17580",
+      "id": "us-2026-19763",
       "jurisdiction": "us",
       "chamber": "federal",
-      "committee": "Food and Drug Administration",
-      "title": "Compounding Animal Drugs From Bulk Drug Substances: Compounding Under CGMP in Federally-Registered Facilities; Draft Guidance for Industry; Availability; Agency Information Collection Activities; Proposed Collection; Comment Request",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
+      "committee": "Institute of Museum and Library Services",
+      "title": "Notice of Proposed Information Collection Requests: Generic Clearance for the Collection of Qualitative Feedback on Agency Service Delivery",
+      "scheduled_iso": "2026-11-28",
+      "scheduled_display": "Comments due Nov 28, 2026",
       "timezone": null,
       "location": "Online · Federal Register",
       "status": "open",
       "bills": [
         {
-          "id": "2026-17580",
-          "title": "Compounding Animal Drugs From Bulk Drug Substances: Compounding Under CGMP in Federally-Registered Facilities; Draft Guidance for Industry; Availability; Agency Information Collection Activities; Proposed Collection; Comment Request",
-          "url": "https://www.federalregister.gov/documents/2026/08/28/2026-17580/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered",
+          "id": "2026-19763",
+          "title": "Notice of Proposed Information Collection Requests: Generic Clearance for the Collection of Qualitative Feedback on Agency Service Delivery",
+          "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19763/notice-of-proposed-information-collection-requests-generic-clearance-for-the-collection-of",
           "slips": null
         }
       ],
-      "details_url": "https://www.federalregister.gov/documents/2026/08/28/2026-17580/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered",
-      "witness_slip_url": "https://www.federalregister.gov/documents/2026/08/28/2026-17580/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered",
+      "details_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19763/notice-of-proposed-information-collection-requests-generic-clearance-for-the-collection-of",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19763/notice-of-proposed-information-collection-requests-generic-clearance-for-the-collection-of",
       "source": "federalregister.gov",
       "category": "paperwork"
     },
     {
-      "id": "us-2026-19714",
+      "id": "us-2026-19768",
       "jurisdiction": "us",
       "chamber": "federal",
-      "committee": "Office of the Secretary",
-      "title": "Proposed Collection; Comment Request",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
+      "committee": "Institute of Museum and Library Services",
+      "title": "Notice of Proposed Information Collection Requests: IMLS Native Hawaiian Library Services Grant Program Notice of Funding Opportunity",
+      "scheduled_iso": "2026-11-28",
+      "scheduled_display": "Comments due Nov 28, 2026",
       "timezone": null,
-      "location": "Online · Regulations.gov",
+      "location": "Online · Federal Register",
       "status": "open",
       "bills": [
         {
-          "id": "DOD-2026-OS-2047-0001",
-          "title": "Proposed Collection; Comment Request",
-          "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19714/proposed-collection-comment-request",
+          "id": "2026-19768",
+          "title": "Notice of Proposed Information Collection Requests: IMLS Native Hawaiian Library Services Grant Program Notice of Funding Opportunity",
+          "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19768/notice-of-proposed-information-collection-requests-imls-native-hawaiian-library-services-grant",
           "slips": null
         }
       ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19714/proposed-collection-comment-request",
-      "witness_slip_url": "https://www.regulations.gov/commenton/DOD-2026-OS-2047-0001",
+      "details_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19768/notice-of-proposed-information-collection-requests-imls-native-hawaiian-library-services-grant",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19768/notice-of-proposed-information-collection-requests-imls-native-hawaiian-library-services-grant",
       "source": "federalregister.gov",
       "category": "paperwork"
     },
     {
-      "id": "us-2026-19756",
+      "id": "us-2026-22074",
       "jurisdiction": "us",
       "chamber": "federal",
-      "committee": "U.S. Citizenship and Immigration Services",
-      "title": "Extension, Without Change, of a Currently Approved Collection: Biographic Information (Registration)",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "USCIS-2025-0005-0015",
-          "title": "Extension, Without Change, of a Currently Approved Collection: Biographic Information (Registration)",
-          "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19756/extension-without-change-of-a-currently-approved-collection-biographic-information-registration",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19756/extension-without-change-of-a-currently-approved-collection-biographic-information-registration",
-      "witness_slip_url": "https://www.regulations.gov/commenton/USCIS-2025-0005-0015",
-      "source": "federalregister.gov",
-      "category": "permits"
-    },
-    {
-      "id": "us-2026-19795",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Drug Enforcement Administration",
-      "title": "Bulk Manufacturer of Controlled Substances Application: Cargill, Incorporated",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "DEA-2026-1652-0001",
-          "title": "Bulk Manufacturer of Controlled Substances Application: Cargill, Incorporated",
-          "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19795/bulk-manufacturer-of-controlled-substances-application-cargill-incorporated",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19795/bulk-manufacturer-of-controlled-substances-application-cargill-incorporated",
-      "witness_slip_url": "https://www.regulations.gov/commenton/DEA-2026-1652-0001",
-      "source": "federalregister.gov",
-      "category": "permits"
-    },
-    {
-      "id": "us-2026-20818",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Federal Aviation Administration",
-      "title": "Airworthiness Directives; Elixir Aircraft",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "FAA-2026-11804-0001",
-          "title": "Airworthiness Directives; Elixir Aircraft",
-          "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20818/airworthiness-directives-elixir-aircraft",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/13/2026-20818/airworthiness-directives-elixir-aircraft",
-      "witness_slip_url": "https://www.regulations.gov/commenton/FAA-2026-11804-0001",
-      "source": "federalregister.gov"
-    },
-    {
-      "id": "us-2026-20885",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Federal Aviation Administration",
-      "title": "Airworthiness Directives; Airbus Helicopters",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "FAA-2026-11806-0001",
-          "title": "Airworthiness Directives; Airbus Helicopters",
-          "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20885/airworthiness-directives-airbus-helicopters",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/13/2026-20885/airworthiness-directives-airbus-helicopters",
-      "witness_slip_url": "https://www.regulations.gov/commenton/FAA-2026-11806-0001",
-      "source": "federalregister.gov"
-    },
-    {
-      "id": "us-2026-21850",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Federal Communications Commission",
-      "title": "Notice of Suspension and Commencement of Proposed Debarment Proceedings",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
+      "committee": "Farm Credit Administration",
+      "title": "Privacy Act of 1974; System of Records",
+      "scheduled_iso": "2026-11-28",
+      "scheduled_display": "Comments due Nov 28, 2026",
       "timezone": null,
       "location": "Online · Federal Register",
       "status": "open",
       "bills": [
         {
-          "id": "2026-21850",
-          "title": "Notice of Suspension and Commencement of Proposed Debarment Proceedings",
-          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21850/notice-of-suspension-and-commencement-of-proposed-debarment-proceedings",
+          "id": "2026-22074",
+          "title": "Privacy Act of 1974; System of Records",
+          "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22074/privacy-act-of-1974-system-of-records",
           "slips": null
         }
       ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21850/notice-of-suspension-and-commencement-of-proposed-debarment-proceedings",
-      "witness_slip_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21850/notice-of-suspension-and-commencement-of-proposed-debarment-proceedings",
-      "source": "federalregister.gov",
-      "category": "other"
-    },
-    {
-      "id": "us-2026-21852",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Federal Aviation Administration",
-      "title": "Airworthiness Directives; CFM International, S.A. Engines",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "FAA-2026-11817-0001",
-          "title": "Airworthiness Directives; CFM International, S.A. Engines",
-          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21852/airworthiness-directives-cfm-international-sa-engines",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21852/airworthiness-directives-cfm-international-sa-engines",
-      "witness_slip_url": "https://www.regulations.gov/commenton/FAA-2026-11817-0001",
-      "source": "federalregister.gov"
-    },
-    {
-      "id": "us-2026-21889",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "National Highway Traffic Safety Administration",
-      "title": "Notice of Intent To Establish a Negotiated Rulemaking Advisory Committee for Tire Safety; Request for Comments and Solicitation of Nominations for Membership",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "NHTSA-2026-1717-0001",
-          "title": "Notice of Intent To Establish a Negotiated Rulemaking Advisory Committee for Tire Safety; Request for Comments and Solicitation of Nominations for Membership",
-          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21889/notice-of-intent-to-establish-a-negotiated-rulemaking-advisory-committee-for-tire-safety-request-for",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21889/notice-of-intent-to-establish-a-negotiated-rulemaking-advisory-committee-for-tire-safety-request-for",
-      "witness_slip_url": "https://www.regulations.gov/commenton/NHTSA-2026-1717-0001",
-      "source": "federalregister.gov",
-      "category": "rfi"
-    },
-    {
-      "id": "us-2026-21891",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Health and Human Services Department",
-      "title": "Patient Protection and Affordable Care Act, Exchange Pre-Eligibility Verification",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "CMS-2026-3367-0002",
-          "title": "Patient Protection and Affordable Care Act, Exchange Pre-Eligibility Verification",
-          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21891/patient-protection-and-affordable-care-act-exchange-pre-eligibility-verification",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21891/patient-protection-and-affordable-care-act-exchange-pre-eligibility-verification",
-      "witness_slip_url": "https://www.regulations.gov/commenton/CMS-2026-3367-0002",
-      "source": "federalregister.gov"
-    },
-    {
-      "id": "us-2026-21907",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Federal Aviation Administration",
-      "title": "Special Conditions: Embraer S.A. Model ERJ 190-400 Airplane; Embraer Enhanced Takeoff System",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "FAA-2026-10627-0001",
-          "title": "Special Conditions: Embraer S.A. Model ERJ 190-400 Airplane; Embraer Enhanced Takeoff System",
-          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21907/special-conditions-embraer-sa-model-erj-190-400-airplane-embraer-enhanced-takeoff-system",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21907/special-conditions-embraer-sa-model-erj-190-400-airplane-embraer-enhanced-takeoff-system",
-      "witness_slip_url": "https://www.regulations.gov/commenton/FAA-2026-10627-0001",
-      "source": "federalregister.gov"
-    },
-    {
-      "id": "us-2026-21916",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Commerce Department",
-      "title": "Privacy Act of 1974; Matching Program",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Federal Register",
-      "status": "open",
-      "bills": [
-        {
-          "id": "2026-21916",
-          "title": "Privacy Act of 1974; Matching Program",
-          "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21916/privacy-act-of-1974-matching-program",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/28/2026-21916/privacy-act-of-1974-matching-program",
-      "witness_slip_url": "https://www.federalregister.gov/documents/2026/10/28/2026-21916/privacy-act-of-1974-matching-program",
+      "details_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22074/privacy-act-of-1974-system-of-records",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22074/privacy-act-of-1974-system-of-records",
       "source": "federalregister.gov",
       "category": "privacy"
     },
     {
-      "id": "us-2026-21918",
+      "id": "us-2026-22075",
       "jurisdiction": "us",
       "chamber": "federal",
-      "committee": "Coast Guard",
-      "title": "Safety Zone; Southern California Annual Firework Events for the Los Angeles-Long Beach Captain of the Port Zone",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "USCG-2026-0941-0001",
-          "title": "Safety Zone; Southern California Annual Firework Events for the Los Angeles-Long Beach Captain of the Port Zone",
-          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21918/safety-zone-southern-california-annual-firework-events-for-the-los-angeles-long-beach-captain-of-the",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21918/safety-zone-southern-california-annual-firework-events-for-the-los-angeles-long-beach-captain-of-the",
-      "witness_slip_url": "https://www.regulations.gov/commenton/USCG-2026-0941-0001",
-      "source": "federalregister.gov"
-    },
-    {
-      "id": "us-2026-21946",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Social Security Administration",
-      "title": "Privacy Act of 1974; Matching Program",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "SSA-2026-0364-0001",
-          "title": "Privacy Act of 1974; Matching Program",
-          "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21946/privacy-act-of-1974-matching-program",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/28/2026-21946/privacy-act-of-1974-matching-program",
-      "witness_slip_url": "https://www.regulations.gov/commenton/SSA-2026-0364-0001",
-      "source": "federalregister.gov",
-      "category": "privacy"
-    },
-    {
-      "id": "us-2026-22095",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Federal Aviation Administration",
-      "title": "Notice of Intent To Rule on a Land Release Request for Disposal of Airport Property at the Kingman Airport, Kingman, AZ",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
-      "timezone": null,
-      "location": "Online · Regulations.gov",
-      "status": "open",
-      "bills": [
-        {
-          "id": "FAA-2013-0259-5412",
-          "title": "Notice of Intent To Rule on a Land Release Request for Disposal of Airport Property at the Kingman Airport, Kingman, AZ",
-          "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22095/notice-of-intent-to-rule-on-a-land-release-request-for-disposal-of-airport-property-at-the-kingman",
-          "slips": null
-        }
-      ],
-      "details_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22095/notice-of-intent-to-rule-on-a-land-release-request-for-disposal-of-airport-property-at-the-kingman",
-      "witness_slip_url": "https://www.regulations.gov/commenton/FAA-2013-0259-5412",
-      "source": "federalregister.gov",
-      "category": "other"
-    },
-    {
-      "id": "us-2026-23363",
-      "jurisdiction": "us",
-      "chamber": "federal",
-      "committee": "Postal Regulatory Commission",
-      "title": "Periodic Reporting",
-      "scheduled_iso": "2026-11-27",
-      "scheduled_display": "Comments due Nov 27, 2026",
+      "committee": "Farm Credit Administration",
+      "title": "Privacy Act of 1974; System of Records",
+      "scheduled_iso": "2026-11-28",
+      "scheduled_display": "Comments due Nov 28, 2026",
       "timezone": null,
       "location": "Online · Federal Register",
       "status": "open",
       "bills": [
         {
-          "id": "2026-23363",
-          "title": "Periodic Reporting",
-          "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23363/periodic-reporting",
+          "id": "2026-22075",
+          "title": "Privacy Act of 1974; System of Records",
+          "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22075/privacy-act-of-1974-system-of-records",
           "slips": null
         }
       ],
-      "details_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23363/periodic-reporting",
-      "witness_slip_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23363/periodic-reporting",
-      "source": "federalregister.gov"
+      "details_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22075/privacy-act-of-1974-system-of-records",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22075/privacy-act-of-1974-system-of-records",
+      "source": "federalregister.gov",
+      "category": "privacy"
     },
     {
       "id": "us-2026-19147",
@@ -490,6 +209,287 @@
       "witness_slip_url": "https://www.federalregister.gov/documents/2026/09/18/2026-19147/request-for-information-rfi-on-future-needs-for-medical-metrology-and-standards-for-medical-imaging",
       "source": "federalregister.gov",
       "category": "rfi"
+    },
+    {
+      "id": "us-2026-19860",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Federal Reserve System",
+      "title": "Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Federal Register",
+      "status": "open",
+      "bills": [
+        {
+          "id": "2026-19860",
+          "title": "Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act",
+          "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+      "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-19881",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Housing and Urban Development Department",
+      "title": "National Standards for the Physical Inspection of Real Estate: Scoring Notice",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "HUD-2021-0005-0087",
+          "title": "National Standards for the Physical Inspection of Real Estate: Scoring Notice",
+          "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19881/national-standards-for-the-physical-inspection-of-real-estate-scoring-notice",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/09/29/2026-19881/national-standards-for-the-physical-inspection-of-real-estate-scoring-notice",
+      "witness_slip_url": "https://www.regulations.gov/commenton/HUD-2021-0005-0087",
+      "source": "federalregister.gov",
+      "category": "other"
+    },
+    {
+      "id": "us-2026-19899",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Federal Reserve System",
+      "title": "Application Procedures for Board-Supervised Insured Depository Institutions Seeking Approval for a Subsidiary To Issue Payment Stablecoins",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Federal Register",
+      "status": "open",
+      "bills": [
+        {
+          "id": "2026-19899",
+          "title": "Application Procedures for Board-Supervised Insured Depository Institutions Seeking Approval for a Subsidiary To Issue Payment Stablecoins",
+          "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19899/application-procedures-for-board-supervised-insured-depository-institutions-seeking-approval-for-a",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/09/29/2026-19899/application-procedures-for-board-supervised-insured-depository-institutions-seeking-approval-for-a",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/09/29/2026-19899/application-procedures-for-board-supervised-insured-depository-institutions-seeking-approval-for-a",
+      "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-19966",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Treasury Department",
+      "title": "Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "TREAS-DO-2026-0562-0001",
+          "title": "Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee",
+          "url": "https://www.federalregister.gov/documents/2026/09/30/2026-19966/forms-and-procedures-for-review-of-state-certifications-by-the-stablecoin-certification-review",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19966/forms-and-procedures-for-review-of-state-certifications-by-the-stablecoin-certification-review",
+      "witness_slip_url": "https://www.regulations.gov/commenton/TREAS-DO-2026-0562-0001",
+      "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-20027",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Internal Revenue Service",
+      "title": "Trump Accounts",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "IRS-2026-1321-0001",
+          "title": "Trump Accounts",
+          "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20027/trump-accounts",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/09/30/2026-20027/trump-accounts",
+      "witness_slip_url": "https://www.regulations.gov/commenton/IRS-2026-1321-0001",
+      "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-20079",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "State Department",
+      "title": "International Traffic in Arms Regulations (ITAR): Review of the U.S. Munitions List and Related Definitions and License Exemptions",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "DOS-2026-0991-0001",
+          "title": "International Traffic in Arms Regulations (ITAR): Review of the U.S. Munitions List and Related Definitions and License Exemptions",
+          "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20079/international-traffic-in-arms-regulations-itar-review-of-the-us-munitions-list-and-related",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20079/international-traffic-in-arms-regulations-itar-review-of-the-us-munitions-list-and-related",
+      "witness_slip_url": "https://www.regulations.gov/commenton/DOS-2026-0991-0001",
+      "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-20084",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Drug Enforcement Administration",
+      "title": "Extension of Reexportation Period.",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "DEA-2026-1684-0001",
+          "title": "Extension of Reexportation Period.",
+          "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20084/extension-of-reexportation-period",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20084/extension-of-reexportation-period",
+      "witness_slip_url": "https://www.regulations.gov/commenton/DEA-2026-1684-0001",
+      "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-20123",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Fish and Wildlife Service",
+      "title": "General Provisions; Revised List of Birds Protected by the Migratory Bird Treaty Act",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "FWS-HQ-MB-2026-0133-0001",
+          "title": "General Provisions; Revised List of Birds Protected by the Migratory Bird Treaty Act",
+          "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20123/general-provisions-revised-list-of-birds-protected-by-the-migratory-bird-treaty-act",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20123/general-provisions-revised-list-of-birds-protected-by-the-migratory-bird-treaty-act",
+      "witness_slip_url": "https://www.regulations.gov/commenton/FWS-HQ-MB-2026-0133-0001",
+      "source": "federalregister.gov"
+    },
+    {
+      "id": "us-2026-21731",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Federal Communications Commission",
+      "title": "Wireless Telecommunications Bureau Establishes a New Docket and the Process for Comment on Eligible Space Station Operator Transition Plans",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Federal Register",
+      "status": "open",
+      "bills": [
+        {
+          "id": "2026-21731",
+          "title": "Wireless Telecommunications Bureau Establishes a New Docket and the Process for Comment on Eligible Space Station Operator Transition Plans",
+          "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21731/wireless-telecommunications-bureau-establishes-a-new-docket-and-the-process-for-comment-on-eligible",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21731/wireless-telecommunications-bureau-establishes-a-new-docket-and-the-process-for-comment-on-eligible",
+      "witness_slip_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21731/wireless-telecommunications-bureau-establishes-a-new-docket-and-the-process-for-comment-on-eligible",
+      "source": "federalregister.gov",
+      "category": "other"
+    },
+    {
+      "id": "us-2026-21947",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Office of the Secretary",
+      "title": "Solicitation Request for Applications for Memberships to the National Agricultural Research, Extension, Education, and Economics (NAREEE) Advisory Board and Citrus Disease Subcommittee (CDS)",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "USDA_FRDOC_0001-3389",
+          "title": "Solicitation Request for Applications for Memberships to the National Agricultural Research, Extension, Education, and Economics (NAREEE) Advisory Board and Citrus Disease Subcommittee (CDS)",
+          "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21947/solicitation-request-for-applications-for-memberships-to-the-national-agricultural-research",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/28/2026-21947/solicitation-request-for-applications-for-memberships-to-the-national-agricultural-research",
+      "witness_slip_url": "https://www.regulations.gov/commenton/USDA_FRDOC_0001-3389",
+      "source": "federalregister.gov",
+      "category": "permits"
+    },
+    {
+      "id": "us-2026-22102",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "International Trade Administration",
+      "title": "Subsidy Programs Provided by Countries Exporting Softwood Lumber and Softwood Lumber Products to the United States; Request for Comment Pursuant to the Softwood Lumber Act of 2008",
+      "scheduled_iso": "2026-11-30",
+      "scheduled_display": "Comments due Nov 30, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "ITA-2026-0100-0001",
+          "title": "Subsidy Programs Provided by Countries Exporting Softwood Lumber and Softwood Lumber Products to the United States; Request for Comment Pursuant to the Softwood Lumber Act of 2008",
+          "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22102/subsidy-programs-provided-by-countries-exporting-softwood-lumber-and-softwood-lumber-products-to-the",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22102/subsidy-programs-provided-by-countries-exporting-softwood-lumber-and-softwood-lumber-products-to-the",
+      "witness_slip_url": "https://www.regulations.gov/commenton/ITA-2026-0100-0001",
+      "source": "federalregister.gov",
+      "category": "rfi"
+    },
+    {
+      "id": "us-2026-22286",
+      "jurisdiction": "us",
+      "chamber": "federal",
+      "committee": "Nuclear Regulatory Commission",
+      "title": "Perma-Fix Northwest Richland, Inc.; Export License Renewal Application",
+      "scheduled_iso": "2026-12-02",
+      "scheduled_display": "Comments due Dec 2, 2026",
+      "timezone": null,
+      "location": "Online · Regulations.gov",
+      "status": "open",
+      "bills": [
+        {
+          "id": "NRC-2019-0213-0005",
+          "title": "Perma-Fix Northwest Richland, Inc.; Export License Renewal Application",
+          "url": "https://www.federalregister.gov/documents/2026/11/02/2026-22286/perma-fix-northwest-richland-inc-export-license-renewal-application",
+          "slips": null
+        }
+      ],
+      "details_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22286/perma-fix-northwest-richland-inc-export-license-renewal-application",
+      "witness_slip_url": "https://www.regulations.gov/commenton/NRC-2019-0213-0005",
+      "source": "federalregister.gov",
+      "category": "permits"
     },
     {
       "id": "us-2026-22533",
