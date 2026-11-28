@@ -270,3 +270,17 @@ time, DTSTAMP = `first_seen` so files don't churn), `manifest.json`. The place p
 `OpenStatesMeetings` / `ArchiveAndDownloads` against real files in `__snapshots__/raw/os_events/`. On Nov 28, 2026
 (most legislatures out of session) the run found 351 upcoming hearings in 27 places; expect several thousand in
 session, so `hearings.json` (258 KB, 25 KB gzipped then) may need splitting per place.
+
+**Answer engines (AEO / GEO, Nov 2026, per request).** The map is JavaScript, which most search and AI crawlers
+don't run, so the answers also exist as plain HTML: (1) **`site/places/<slug>.html`**, one short page per place (57:
+participation.json + Chicago; slug = lowercase name, `us` → `federal`, `chi` → `chicago`; `place_slug` in Python,
+`placeSlug` in the page), rebuilt every refresh by `write_place_pages` (`--places-dir`, with `site/sitemap.xml`): the
+answer in the first sentence ("To weigh in at a Virginia legislative hearing, …", `ACTION` per participation kind),
+the place's how-to, numbered steps (`STEP`), up to 40 upcoming hearings, FAQs, and JSON-LD (FAQPage, HowTo,
+BreadcrumbList, an ItemList of Events with local-offset start times); all outside text `html.escape`d and the JSON-LD's
+`<` escaped. Each map panel links "Step-by-step guide for <place> →". (2) The homepage's visible **FAQs** (`#faq`,
+answer-first `.faq-item` h3 + p) and a plain list of every place page; **`scripts/sync_seo.py`** writes the `<head>`
+JSON-LD (WebSite, Organization, Dataset with its downloads, FAQPage of exactly the visible questions) between
+`seo:ld` markers and the list between `places` markers — edit the questions, run it; `PlacePages` fails on drift.
+(3) `site/robots.txt` (every crawler welcome, AI ones named) and `site/llms.txt` (what the site is, where the data
+is, how to cite). README opens with the answer and ends with FAQs. Keep new copy answer-first, short, factual.

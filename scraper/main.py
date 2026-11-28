@@ -1968,6 +1968,256 @@ def enrich_from_govbot(hearings, data_path):
     return matched
 
 
+# --------------------------------------------------------------------------- #
+# Place pages: one short, plain-HTML answer page per place (AEO / GEO)
+# --------------------------------------------------------------------------- #
+# The map is drawn by JavaScript, which most search and AI crawlers don't run. So every
+# refresh also writes site/places/<slug>.html: one focused page per place that opens with
+# the answer ("To weigh in at a Virginia legislative hearing, ..."), then numbered steps,
+# the upcoming hearings, a short FAQ, and schema.org labels (FAQPage, HowTo, Event,
+# BreadcrumbList) saying what each part is. Plus site/sitemap.xml. All outside text is
+# escaped (html.escape; JSON-LD with "<" escaped so it can't close the script tag).
+ACTION = {
+    "witness_slip": "file an online witness slip before the hearing starts",
+    "committee_sign_in": "sign in online for that committee meeting to testify or record your position",
+    "written_testimony": "send written testimony to the committee before the hearing",
+    "public_comment": "send a public comment through the official form before the deadline",
+    "request_to_speak": "register through the legislature's Request to Speak system",
+    "appearance_form": "fill out the committee's appearance form",
+    "position_letter": "send a position letter to the committee",
+    "contact_only": "testify in person or write to the committee chair before the hearing",
+}
+STEP = {
+    "witness_slip": "Fill in the slip: who you are, your position (for, against or no position) and whether you want to testify. It closes when the hearing starts, and it is public.",
+    "committee_sign_in": "Sign in for that meeting and choose whether to testify or only note your position.",
+    "written_testimony": "Write your testimony, name the bill number, and send it to the committee before the hearing.",
+    "public_comment": "Write your comment, name the bill or topic, and send it through the official form before the deadline.",
+    "request_to_speak": "Find the agenda item, then record your position or ask to speak.",
+    "appearance_form": "Fill out the appearance form to speak or to put your position on the record.",
+    "position_letter": "Write a short letter naming the bill number and your position, and send it to the committee.",
+    "contact_only": "Email the committee chair before the hearing, or go to the hearing and testify in person.",
+}
+SLUG = {"us": "federal", "chi": "chicago"}
+PAGES_MAX = 40          # hearings listed (and labelled as Events) per place page
+
+
+def place_slug(code, name):
+    return SLUG.get(code) or re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+
+def _jsonld(obj):
+    return json.dumps(obj, ensure_ascii=False, indent=1).replace("<", "\\u003c")
+
+
+def _human_time(h):
+    iso = h.get("scheduled_iso") or ""
+    m = re.match(r"(\d{4})-(\d\d)-(\d\d)T(\d\d):(\d\d)", iso)
+    if not m:
+        return h.get("scheduled_display") or "Time to be announced"
+    y, mo, d, hh, mm = (int(x) for x in m.groups())
+    day = f"{_MONTHS[mo - 1]} {d}, {y}"
+    if "time not posted" in (h.get("scheduled_display") or ""):
+        return day
+    return f"{day}, {(hh + 11) % 12 + 1}:{mm:02d} {'PM' if hh >= 12 else 'AM'}"
+
+
+def _event_ld(h, name):
+    from zoneinfo import ZoneInfo
+    iso = h.get("scheduled_iso")
+    start = iso[:10]
+    if iso and "time not posted" not in (h.get("scheduled_display") or ""):
+        try:
+            start = datetime.fromisoformat(iso).replace(
+                tzinfo=ZoneInfo(h.get("timezone") or "America/Chicago")).isoformat()
+        except (ValueError, KeyError):
+            pass
+    ev = {"@type": "Event", "name": h.get("committee") or h.get("title") or "Public hearing",
+          "startDate": start, "isAccessibleForFree": True,
+          "eventStatus": "https://schema.org/Event" + ("Cancelled" if h.get("status") == "canceled" else "Scheduled"),
+          "organizer": {"@type": "GovernmentOrganization", "name": name}}
+    if h.get("title"):
+        ev["description"] = h["title"][:300]
+    if h.get("location"):
+        ev["location"] = {"@type": "Place", "name": h["location"], "address": h["location"]}
+    if h.get("details_url"):
+        ev["url"] = h["details_url"]
+    return ev
+
+
+def place_page(p, hearings, generated_at, has_downloads):
+    """One place's page as HTML (pure). p: {code, name, participation, portal_url, how_to}."""
+    import html as H
+    e = lambda s: H.escape(s or "", quote=True)
+    code, name = p["code"], p["name"]
+    slug = place_slug(code, name)
+    url = SITE_URL + f"places/{slug}.html"
+    kind = p.get("participation") or "contact_only"
+    up = [h for h in hearings if h["jurisdiction"] == code and h.get("status") != "canceled"]
+    shown = up[:PAGES_MAX]
+    asof = generated_at[:10]
+    if code == "us":
+        q1 = "How do I comment on a federal rule?"
+        lead = ("To comment on a federal rule, open it on Regulations.gov and submit your comment "
+                "before its comment deadline. Comments are public and the agency must consider them.")
+        steps = ["Find a proposed rule open for comment (the soonest-closing are listed below).",
+                 "Open it on Regulations.gov and choose Comment.",
+                 "Say what you support or oppose and why, with facts from your own experience, then submit before the deadline."]
+        title = "How to comment on a federal rule · Govbot Public Hearings"
+        h1 = "How to comment on a federal rule"
+        what = "comment periods"
+    else:
+        body = "City Council meeting" if code == "chi" else "legislative hearing"
+        q1 = f"How do I take part in a {name} {body}?"
+        action = ("send a written comment by the deadline in the meeting's notice"
+                  if code == "chi" else ACTION.get(kind, ACTION["contact_only"]))
+        lead = f"To weigh in at a {name} {body}, {action}."
+        steps = [f"Find the hearing for the bill or topic you care about (upcoming {name} hearings are listed below).",
+                 f"Open {name}'s official page for taking part: {p.get('portal_url')}",
+                 STEP.get(kind, STEP["contact_only"]),
+                 "Check the hearing notice for its exact rules and deadline."]
+        title = f"How to testify at a {name} hearing · Govbot Public Hearings"
+        h1 = f"How to take part in a {name} {body}"
+        what = "hearings"
+    if up:
+        first = up[0]
+        q2a = (f"{len(up)} {what} are posted for the next few weeks. The soonest is "
+               f"{first.get('committee') or first.get('title')} on {_human_time(first)}.")
+    else:
+        q2a = (f"None are posted right now. Legislatures post hearings a few days to a few weeks "
+               f"ahead, mostly while in session. Follow {name} by RSS to hear when one is.")
+    src = sorted({h.get("source") for h in up if h.get("source")})
+    q3a = (f"From {', '.join(src) if src else 'the official ' + name + ' website'}"
+           f", the government's own site. Every hearing links to its official page. "
+           f"Updated every 12 hours; last updated {asof}.")
+    faq = [(q1, lead), (f"When are the next {name} {what}?", q2a),
+           ("Where does this information come from?", q3a)]
+    if has_downloads:
+        faq.append((f"Can I add {name} hearings to my calendar?",
+                    f"Yes. Subscribe to {SITE_URL}downloads/{code}.ics in Google, Apple or Outlook "
+                    f"calendar, or download every {name} hearing as a spreadsheet (CSV). Free, CC BY 4.0."))
+    ld = [
+        {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in faq]},
+        {"@context": "https://schema.org", "@type": "HowTo", "name": h1,
+         "step": [{"@type": "HowToStep", "position": i + 1, "text": s} for i, s in enumerate(steps)]},
+        {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Govbot Public Hearings", "item": SITE_URL},
+            {"@type": "ListItem", "position": 2, "name": name, "item": url}]},
+    ]
+    if shown:
+        ld.append({"@context": "https://schema.org", "@type": "ItemList",
+                   "name": f"Upcoming {name} {what}",
+                   "itemListElement": [{"@type": "ListItem", "position": i + 1,
+                                        "item": _event_ld(h, name)} for i, h in enumerate(shown)]})
+    rows = []
+    for h in shown:
+        link = h.get("details_url") or h.get("witness_slip_url")
+        bills = ", ".join(b["id"] for b in h.get("bills", [])[:12])
+        rows.append(
+            "<li><strong>" + e(_human_time(h)) + "</strong> · " + e(h.get("committee") or h.get("title"))
+            + (f"<br><span>{e(h['title'][:240])}</span>" if h.get("title") and h.get("title") != h.get("committee") else "")
+            + (f"<br><span>{e(h['location'])}</span>" if h.get("location") else "")
+            + (f"<br><span>Bills: {e(bills)}</span>" if bills else "")
+            + (f'<br><a href="{e(link)}" rel="noopener">Official details ↗</a>' if link else "")
+            + "</li>")
+    more = (f'<p>Showing {len(shown)} of {len(up)}. <a href="{e(SITE_URL)}#hg-{e(code)}">See them all</a>.</p>'
+            if len(up) > len(shown) else "")
+    dl = (f'<p><a href="../downloads/{e(code)}.ics">Add to my calendar (.ics)</a> · '
+          f'<a href="../downloads/hearings-{e(code)}.csv">Spreadsheet (CSV)</a> · '
+          f'<a href="../hearings/{e(code)}.xml">RSS</a></p>') if has_downloads else \
+        f'<p><a href="../hearings/{e(code)}.xml">Follow by RSS</a></p>'
+    desc = lead + (" " + q2a.split(". ")[0] + "." if up else "")
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(title)}</title>
+<meta name="description" content="{e(desc[:300])}">
+<link rel="canonical" href="{e(url)}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{e(h1)}">
+<meta property="og:description" content="{e(lead)}">
+<meta property="og:url" content="{e(url)}">
+<meta property="og:image" content="{e(SITE_URL)}assets/og-hearings.png">
+<link rel="alternate" type="application/rss+xml" title="{e(name)} hearings" href="../hearings/{e(code)}.xml">
+<style>
+:root {{ --paper: #FBFAF5; --ink: #1B1A17; --line: #8E8B82; --link: #1747C9; color-scheme: light dark; }}
+@media (prefers-color-scheme: dark) {{ :root {{ --paper: #1B1A17; --ink: #F3F1EA; --line: #8E8B82; --link: #8AB4FF; }} }}
+body {{ margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.55 Roboto, system-ui, -apple-system, "Segoe UI", sans-serif; }}
+main {{ max-width: 760px; margin: 0 auto; padding: 24px 16px 56px; overflow-wrap: anywhere; }}
+a {{ color: var(--link); text-underline-offset: 3px; }}
+h1 {{ font-size: 34px; line-height: 1.15; margin: 18px 0 12px; font-weight: 500; }}
+h2 {{ font-size: 22px; margin: 32px 0 8px; font-weight: 500; border-bottom: 1.5px solid var(--line); padding-bottom: 4px; }}
+h3 {{ font-size: 18px; margin: 18px 0 4px; }}
+.lead {{ font-size: 21px; }}
+ol, ul {{ padding-left: 22px; }}
+li {{ margin: 0 0 12px; }}
+li span {{ font-size: 16px; }}
+nav, footer {{ font-size: 15px; }}
+footer {{ margin-top: 40px; border-top: 1.5px solid var(--line); padding-top: 12px; }}
+</style>
+<script type="application/ld+json">
+{_jsonld(ld)}
+</script>
+</head>
+<body>
+<main>
+<nav><a href="../">Govbot Public Hearings</a> › {e(name)}</nav>
+<h1>{e(h1)}</h1>
+<p class="lead">{e(lead)}</p>
+{('<p>' + e(p['how_to']) + '</p>') if p.get('how_to') else ''}
+<p><a href="{e(p.get('portal_url'))}" rel="noopener">Official {e(name)} page for taking part ↗</a></p>
+<h2>Steps</h2>
+<ol>{''.join('<li>' + e(s) + '</li>' for s in steps)}</ol>
+<h2>Upcoming {e(name)} {what}</h2>
+{('<ul>' + ''.join(rows) + '</ul>') if rows else '<p>' + e(q2a) + '</p>'}
+{more}{dl}
+<h2>FAQs</h2>
+{''.join('<h3>' + e(q) + '</h3><p>' + e(a) + '</p>' for q, a in faq)}
+<footer>
+<p>Data as of {e(asof)}, from each government's own website. Built by <a href="https://chihacknight.github.io/govbot/" rel="noopener">Govbot</a>, an open-source civic data project from Chi Hack Night. <a href="https://github.com/frankies2727/govbot-public-hearings" rel="noopener">Data and code on GitHub</a> (CC BY 4.0).</p>
+<p><a href="../">See every place on the map</a></p>
+</footer>
+</main>
+</body>
+</html>
+"""
+
+
+def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_dir=None):
+    """Write site/places/<slug>.html for every place + site/sitemap.xml. Returns the count."""
+    places = participation_jurisdictions(participation_path)
+    try:
+        rows = json.loads(Path(participation_path).read_text()).get("jurisdictions", [])
+        how = {r["code"]: r.get("how_to", "") for r in rows}
+    except (OSError, ValueError):
+        how = {}
+    for j in doc.get("jurisdictions", []):
+        places.setdefault(j["code"], {k: j[k] for k in ("code", "name", "participation", "portal_url")})
+    dl = set()
+    if downloads_dir and (Path(downloads_dir) / "manifest.json").exists():
+        dl = {m["code"] for m in json.loads((Path(downloads_dir) / "manifest.json").read_text())["places"]}
+    out = Path(out_dir)
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+    urls = [SITE_URL]
+    for code, p in sorted(places.items(), key=lambda kv: kv[1]["name"]):
+        p = dict(p, how_to=how.get(code, ""))
+        slug = place_slug(code, p["name"])
+        (out / f"{slug}.html").write_text(
+            place_page(p, doc.get("hearings", []), doc["generated_at"], code in dl), encoding="utf-8")
+        urls.append(SITE_URL + f"places/{slug}.html")
+    sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    sm += [f"  <url><loc>{u}</loc></url>" for u in urls]
+    sm.append("</urlset>")
+    Path(sitemap_path).write_text("\n".join(sm) + "\n")
+    return len(urls) - 1
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,us",
@@ -2003,6 +2253,9 @@ def main():
                          "upcoming meetings instead of none")
     ap.add_argument("--downloads-dir", default=None,
                     help="Write CSV + iCalendar downloads of --data-dir into this folder")
+    ap.add_argument("--places-dir", default=None,
+                    help="Write one plain-HTML answer page per place here (site/places) and "
+                         "a sitemap beside it, for search and AI answer engines")
     ap.add_argument("--participation", default=None,
                     help="participation.json — when given, an empty placeholder "
                          "per-jurisdiction RSS feed is written for every listed "
@@ -2097,6 +2350,11 @@ def main():
     if args.rss:
         Path(args.rss).write_text(to_rss(doc))
         print(f"wrote RSS feed to {args.rss}", file=sys.stderr)
+
+    if args.places_dir and args.participation:
+        n = write_place_pages(doc, args.participation, args.places_dir,
+                              Path(args.places_dir).parent / "sitemap.xml", args.downloads_dir)
+        print(f"wrote {n} place pages to {args.places_dir}", file=sys.stderr)
 
     if args.rss_feeds_dir:
         outdir = Path(args.rss_feeds_dir)

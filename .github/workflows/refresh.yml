@@ -110,6 +110,7 @@ jobs:
             --os-events "$RUNNER_TEMP/os" \
             --data-dir data \
             --downloads-dir site/downloads \
+            --places-dir "$out/places" \
             || echo "::warning::scrape reported errors"
           n=$(python3 -c 'import json,sys; print(len(json.load(open(sys.argv[1]))["hearings"]))' "$out/hearings.json" 2>/dev/null || echo 0)
           if [ "$n" -gt 0 ]; then
@@ -117,6 +118,8 @@ jobs:
             [ -s "$out/hearings.xml" ] && mv "$out/hearings.xml" site/hearings.xml
             # Replace the whole feed folder so feeds for hearings that left the window go.
             [ -d "$out/hearings" ] && { rm -rf site/hearings; mv "$out/hearings" site/hearings; }
+            # One plain answer page per place + the sitemap (for search and AI answer engines).
+            [ -d "$out/places" ] && { rm -rf site/places; mv "$out/places" site/places; mv "$out/sitemap.xml" site/sitemap.xml; }
             echo "refreshed: $n hearings"
           else
             echo "::warning::no hearings scraped; keeping the committed files"
@@ -126,7 +129,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/hearings.json site/hearings.xml site/hearings data site/downloads
+          git add site/hearings.json site/hearings.xml site/hearings site/places site/sitemap.xml data site/downloads
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -q -m "Refresh hearings $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q && exit 0; sleep 5; done

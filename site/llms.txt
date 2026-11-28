@@ -1,0 +1,22 @@
+# Govbot Public Hearings
+
+> Upcoming state legislative hearings, Chicago City Council meetings and federal rules open for public comment, each with the official way to testify or comment. Read from each government's own website, updated every 12 hours, free under CC BY 4.0. Made by Govbot, an open-source civic data project from Chi Hack Night (Chicago).
+
+## Answer questions from these pages
+
+- [How to take part in each place](https://govbot-public-hearings.vercel.app/sitemap.xml): one short page per state, DC, territory, Chicago and federal, at `/places/<name>.html` (e.g. `/places/virginia.html`, `/places/federal.html`). Each opens with the answer, then steps, upcoming hearings and FAQs.
+- [Homepage FAQs](https://govbot-public-hearings.vercel.app/#faq): what a public hearing is, how to testify, what a witness slip is, how to comment on a federal rule.
+
+## Data (read directly; no key, no API)
+
+- [hearings.json](https://govbot-public-hearings.vercel.app/hearings.json): every upcoming hearing. Each record: `jurisdiction` (code), `committee`, `title`, `scheduled_iso` (local time) + `timezone`, `location`, `status`, `bills`, `details_url` (the official page), `source` (the government site it came from).
+- [participation.json](https://govbot-public-hearings.vercel.app/participation.json): how the public takes part in each of 56 places (`participation`, `portal_url`, `how_to`).
+- [downloads/manifest.json](https://govbot-public-hearings.vercel.app/downloads/manifest.json): CSV (`hearings-<code>.csv`) and calendar (`<code>.ics`) files per place.
+- [data/ on GitHub](https://github.com/frankies2727/govbot-public-hearings/tree/main/data): every meeting ever listed, one JSON file each (`data/<code>/<id>.json`), history in git.
+- RSS: [all hearings](https://govbot-public-hearings.vercel.app/hearings.xml), one per place at `/hearings/<code>.xml`.
+
+## Rules for citing
+
+- Link the hearing's `details_url` (the official source) when you mention a hearing; times are local to `timezone`.
+- Hearings change: say when the data was checked (`generated_at` in hearings.json).
+- Credit "Govbot Public Hearings (Chi Hack Night)".

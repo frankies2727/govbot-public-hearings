@@ -13,8 +13,145 @@
 <link rel="stylesheet" href="https://chihacknight.github.io/govbot/dashboard/assets/govbot.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&display=swap"></noscript>
-<title>Govbot — Hearings &amp; Public Comment</title>
-<meta name="description" content="Upcoming legislative hearings and federal rules open for public comment, with the form to weigh in on each one. Follow any state, bill or hearing by RSS.">
+<title>Public hearings in every state: how to testify or comment · Govbot</title>
+<meta name="description" content="Find upcoming state legislative hearings, Chicago City Council meetings and federal rules open for comment, with the official way to testify or comment on each. Free, nonpartisan, updated every 12 hours.">
+<link rel="canonical" href="https://govbot-public-hearings.vercel.app/">
+<!-- seo:ld:start -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://govbot-public-hearings.vercel.app/#site",
+   "name": "Govbot Public Hearings",
+   "url": "https://govbot-public-hearings.vercel.app/",
+   "description": "Upcoming state legislative hearings, Chicago City Council meetings and federal rules open for comment, with the official way to testify or comment on each.",
+   "publisher": {
+    "@id": "https://govbot-public-hearings.vercel.app/#org"
+   },
+   "inLanguage": "en-US"
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://govbot-public-hearings.vercel.app/#org",
+   "name": "Govbot (Chi Hack Night)",
+   "url": "https://chihacknight.github.io/govbot/",
+   "sameAs": [
+    "https://github.com/chihacknight/govbot",
+    "https://github.com/frankies2727/govbot-public-hearings"
+   ]
+  },
+  {
+   "@type": "Dataset",
+   "name": "Govbot Public Hearings data",
+   "description": "Every public hearing and committee meeting the site has listed, read from each government's own website: one JSON record per meeting in git, plus CSV and iCalendar files per place. Updated every 12 hours.",
+   "url": "https://github.com/frankies2727/govbot-public-hearings/tree/main/data",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "isAccessibleForFree": true,
+   "creator": {
+    "@id": "https://govbot-public-hearings.vercel.app/#org"
+   },
+   "spatialCoverage": "United States",
+   "keywords": [
+    "public hearings",
+    "legislative committee hearings",
+    "public comment",
+    "witness slips",
+    "testimony",
+    "open government"
+   ],
+   "distribution": [
+    {
+     "@type": "DataDownload",
+     "encodingFormat": "text/csv",
+     "contentUrl": "https://govbot-public-hearings.vercel.app/downloads/hearings-all.csv"
+    },
+    {
+     "@type": "DataDownload",
+     "encodingFormat": "application/json",
+     "contentUrl": "https://govbot-public-hearings.vercel.app/hearings.json"
+    },
+    {
+     "@type": "DataDownload",
+     "encodingFormat": "application/rss+xml",
+     "contentUrl": "https://govbot-public-hearings.vercel.app/hearings.xml"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is a public hearing?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A public hearing is a meeting where a legislative committee, city council or agency hears from the public before it acts on a bill or rule. Anyone can take part, and what you say goes on the record."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I testify at a state legislative hearing?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Find the hearing, then use your state's official way to take part before it starts: a witness slip, an online sign-in, written testimony or a comment form. Pick your state below for its exact steps."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is a witness slip?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A witness slip is Illinois's online form for saying you support, oppose or have no position on a bill before its committee hearing. You can also ask to testify. Slips are public record."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I comment on a federal rule?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Open the proposed rule on Regulations.gov and choose Comment before its deadline. Agencies must consider public comments, and the comments are public."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where does this information come from?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "From each government's own website: the state legislatures, the Chicago City Clerk and the Federal Register. Nothing is made up, and every hearing links to its official page."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How often is it updated?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every 12 hours. Each place's page and file shows when its data was last checked."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I download the data?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, free under CC BY 4.0: a spreadsheet (CSV) and a calendar file (.ics) for each place, every meeting as JSON on GitHub, and RSS feeds."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Who makes this site?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Govbot, an open-source civic data project from Chi Hack Night, Chicago's weekly civic tech meetup. It is free and nonpartisan, and takes no position on any bill."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<!-- seo:ld:end -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Govbot">
 <meta property="og:title" content="Your voice belongs in the room. Find a hearing. Weigh in.">
@@ -575,6 +712,15 @@
   .mp-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
   .mp-ws { display: inline-block; margin-top: 12px; font-weight: 500; }
   .mp-data { margin: 12px 0 0; }
+  .mp-guide { display: inline-block; margin-top: 10px; }
+  /* FAQs + the plain list of every place's page (crawlable without JavaScript). */
+  .faq { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; }
+  .faq-item { padding: 18px 20px; }
+  .faq-item h3 { margin: 0 0 6px; font-size: 20px; font-weight: 500; }
+  .faq-item p { margin: 0; font-size: 17px; line-height: 1.5; }
+  .faq-places-h { margin: 34px 0 10px; font-size: 22px; font-weight: 500; }
+  .faq-places { columns: 4 170px; column-gap: 22px; font-size: 16px; line-height: 1.9; }
+  .faq-places a { display: block; break-inside: avoid; text-decoration: underline; text-underline-offset: 3px; }
   .mp-panel .hgroup { border: 0; padding: 0; background: none; }
   .mp-panel .hg-frame::before, .mp-panel .hg-frame::after { display: none; }
   .mp-panel .hgroup-head { padding-bottom: 8px; }
@@ -886,6 +1032,85 @@
         <div class="ws-empty" id="ws-empty"><p>Loading Illinois hearings…</p></div>
       </div>
     </div>
+  </section>
+
+  <!-- FAQs: short, answer-first questions. scripts/sync_seo.py turns these into the FAQPage
+       JSON-LD in <head> and fills the place list from site/participation.json; edit the
+       questions here, then run it (the tests fail if they drift). -->
+  <section class="z-section" id="faq" aria-labelledby="faq-h">
+    <div class="z-divider"><div><h2 id="faq-h">FAQs</h2></div></div>
+    <div class="faq">
+      <div class="faq-item z-card"><h3>What is a public hearing?</h3><p>A public hearing is a meeting where a legislative committee, city council or agency hears from the public before it acts on a bill or rule. Anyone can take part, and what you say goes on the record.</p></div>
+      <div class="faq-item z-card"><h3>How do I testify at a state legislative hearing?</h3><p>Find the hearing, then use your state's official way to take part before it starts: a witness slip, an online sign-in, written testimony or a comment form. Pick your state below for its exact steps.</p></div>
+      <div class="faq-item z-card"><h3>What is a witness slip?</h3><p>A witness slip is Illinois's online form for saying you support, oppose or have no position on a bill before its committee hearing. You can also ask to testify. Slips are public record.</p></div>
+      <div class="faq-item z-card"><h3>How do I comment on a federal rule?</h3><p>Open the proposed rule on Regulations.gov and choose Comment before its deadline. Agencies must consider public comments, and the comments are public.</p></div>
+      <div class="faq-item z-card"><h3>Where does this information come from?</h3><p>From each government's own website: the state legislatures, the Chicago City Clerk and the Federal Register. Nothing is made up, and every hearing links to its official page.</p></div>
+      <div class="faq-item z-card"><h3>How often is it updated?</h3><p>Every 12 hours. Each place's page and file shows when its data was last checked.</p></div>
+      <div class="faq-item z-card"><h3>Can I download the data?</h3><p>Yes, free under CC BY 4.0: a spreadsheet (CSV) and a calendar file (.ics) for each place, every meeting as JSON on GitHub, and RSS feeds.</p></div>
+      <div class="faq-item z-card"><h3>Who makes this site?</h3><p>Govbot, an open-source civic data project from Chi Hack Night, Chicago's weekly civic tech meetup. It is free and nonpartisan, and takes no position on any bill.</p></div>
+    </div>
+    <h3 class="faq-places-h">How to take part, place by place</h3>
+    <nav class="faq-places" aria-label="How to take part in each place">
+<!-- places:start -->
+      <a href="places/federal.html">USA (Federal)</a>
+      <a href="places/alabama.html">Alabama</a>
+      <a href="places/alaska.html">Alaska</a>
+      <a href="places/arizona.html">Arizona</a>
+      <a href="places/arkansas.html">Arkansas</a>
+      <a href="places/california.html">California</a>
+      <a href="places/chicago.html">Chicago City Council</a>
+      <a href="places/colorado.html">Colorado</a>
+      <a href="places/connecticut.html">Connecticut</a>
+      <a href="places/delaware.html">Delaware</a>
+      <a href="places/district-of-columbia.html">District of Columbia</a>
+      <a href="places/florida.html">Florida</a>
+      <a href="places/georgia.html">Georgia</a>
+      <a href="places/guam.html">Guam</a>
+      <a href="places/hawaii.html">Hawaii</a>
+      <a href="places/idaho.html">Idaho</a>
+      <a href="places/illinois.html">Illinois</a>
+      <a href="places/indiana.html">Indiana</a>
+      <a href="places/iowa.html">Iowa</a>
+      <a href="places/kansas.html">Kansas</a>
+      <a href="places/kentucky.html">Kentucky</a>
+      <a href="places/louisiana.html">Louisiana</a>
+      <a href="places/maine.html">Maine</a>
+      <a href="places/maryland.html">Maryland</a>
+      <a href="places/massachusetts.html">Massachusetts</a>
+      <a href="places/michigan.html">Michigan</a>
+      <a href="places/minnesota.html">Minnesota</a>
+      <a href="places/mississippi.html">Mississippi</a>
+      <a href="places/missouri.html">Missouri</a>
+      <a href="places/montana.html">Montana</a>
+      <a href="places/nebraska.html">Nebraska</a>
+      <a href="places/nevada.html">Nevada</a>
+      <a href="places/new-hampshire.html">New Hampshire</a>
+      <a href="places/new-jersey.html">New Jersey</a>
+      <a href="places/new-mexico.html">New Mexico</a>
+      <a href="places/new-york.html">New York</a>
+      <a href="places/north-carolina.html">North Carolina</a>
+      <a href="places/north-dakota.html">North Dakota</a>
+      <a href="places/northern-mariana-islands.html">Northern Mariana Islands</a>
+      <a href="places/ohio.html">Ohio</a>
+      <a href="places/oklahoma.html">Oklahoma</a>
+      <a href="places/oregon.html">Oregon</a>
+      <a href="places/pennsylvania.html">Pennsylvania</a>
+      <a href="places/puerto-rico.html">Puerto Rico</a>
+      <a href="places/rhode-island.html">Rhode Island</a>
+      <a href="places/south-carolina.html">South Carolina</a>
+      <a href="places/south-dakota.html">South Dakota</a>
+      <a href="places/tennessee.html">Tennessee</a>
+      <a href="places/texas.html">Texas</a>
+      <a href="places/u-s-virgin-islands.html">U.S. Virgin Islands</a>
+      <a href="places/utah.html">Utah</a>
+      <a href="places/vermont.html">Vermont</a>
+      <a href="places/virginia.html">Virginia</a>
+      <a href="places/washington.html">Washington</a>
+      <a href="places/west-virginia.html">West Virginia</a>
+      <a href="places/wisconsin.html">Wisconsin</a>
+      <a href="places/wyoming.html">Wyoming</a>
+<!-- places:end -->
+    </nav>
   </section>
 
   <!-- One popover shared by the "all hearings" button and every per-bill RSS
@@ -1415,6 +1640,11 @@
   }
 
   // Show one place: who it is, how to take part, and its hearings.
+  // Same rule as place_slug() in scraper/main.py.
+  function placeSlug(code, name) {
+    return ({ us: "federal", chi: "chicago" })[code] || name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  }
+
   function pick(code, byUser) {
     if (code === "all") return pickAll(byUser);
     const p = places[code];
@@ -1456,6 +1686,10 @@
       dl.append(cal, document.createTextNode(" · "), csv);
       panel.append(dl);
     }
+    // The place's own plain page (steps, FAQs): what search and AI answers link to.
+    const guide = eln("a", "ws-plain mp-guide", "Step-by-step guide for " + p.name + " →");
+    guide.href = "places/" + placeSlug(code, p.name) + ".html";
+    panel.append(guide);
     if (code === "il") {
       const ws = eln("a", "ws-plain mp-ws", "File a witness slip: how it works and the bills open now ↓");
       ws.href = "#witness-slips";

@@ -1,6 +1,6 @@
 # 🏛️ Govbot Public Hearings
 
-**Find a hearing. Weigh in.** Upcoming legislative hearings and federal rules open for public comment, each with the official place to file a witness slip, sign up to testify or send a comment.
+**Govbot Public Hearings lists upcoming state legislative hearings, Chicago City Council meetings and federal rules open for comment, each with the official way to testify or comment.** Every hearing comes from the government's own website, refreshed every 12 hours, and the data is free to download (CC BY 4.0).
 Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io/govbot/), Chi Hack Night's open civic data.
 
 [![Live site](https://img.shields.io/badge/live_site-govbot--public--hearings.vercel.app-0B7D45?style=flat-square)](https://govbot-public-hearings.vercel.app/)
@@ -141,3 +141,20 @@ Vercel deploys only `main`, no preview deployments, to save Vercel storage (the 
 ## 📜 License
 
 Code: same as [Govbot](https://github.com/chihacknight/govbot). Hearing data comes from each legislature's and the Federal Register's public sites, and every record links its source.
+
+## ❓ FAQs
+
+**What is a public hearing?**
+A meeting where a legislative committee, city council or agency hears from the public before it acts on a bill or rule. Anyone can take part, and what you say goes on the record.
+
+**How do I testify at a state legislative hearing?**
+Find the hearing, then use your state's official way to take part before it starts: a witness slip, an online sign-in, written testimony or a comment form. Each place's steps are on its own page, e.g. [Virginia](https://govbot-public-hearings.vercel.app/places/virginia.html), [Illinois](https://govbot-public-hearings.vercel.app/places/illinois.html), [federal rules](https://govbot-public-hearings.vercel.app/places/federal.html).
+
+**Where does the data come from?**
+Each government's own website: our own scrapers for Illinois, Washington, Massachusetts, Alaska and Chicago; Open States' open-source meeting scrapers (run by us) for the other states; the Federal Register for federal rules. Nothing is made up; every hearing links to its official page.
+
+**Can I use the data?**
+Yes, free under CC BY 4.0: [`data/`](data/) (one JSON file per meeting, history in git), CSV and calendar files at [`/downloads/`](https://govbot-public-hearings.vercel.app/downloads/manifest.json), and RSS feeds. AI assistants: start at [`llms.txt`](https://govbot-public-hearings.vercel.app/llms.txt).
+
+**Who makes it?**
+[Govbot](https://github.com/chihacknight/govbot), an open-source civic data project from Chi Hack Night, Chicago's weekly civic tech meetup. Free, nonpartisan, and it takes no position on any bill.

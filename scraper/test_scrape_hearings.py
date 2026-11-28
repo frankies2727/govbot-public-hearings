@@ -596,6 +596,54 @@ class ArchiveAndDownloads(unittest.TestCase):
         self.assertEqual(m["meetings"], 1)
 
 
+class PlacePages(unittest.TestCase):
+    """One plain answer page per place, for search and AI answer engines."""
+
+    def page(self, hearings, p=None):
+        p = p or {"code": "va", "name": "Virginia", "participation": "written_testimony",
+                  "portal_url": "https://lis.virginia.gov/", "how_to": "Send testimony."}
+        return main.place_page(p, hearings, "2026-11-28T04:00:00Z", True)
+
+    def ld(self, page):
+        import re
+        return json.loads(re.search(r'<script type="application/ld\+json">\n(.*?)\n</script>',
+                                    page, re.S).group(1))
+
+    def test_answer_comes_first_and_schema_parses(self):
+        h = {"id": "va-os-1", "jurisdiction": "va", "committee": "Energy Commission",
+             "title": "", "scheduled_iso": "2026-11-30T12:00:00", "scheduled_display": "",
+             "timezone": "America/New_York", "location": "Room 306", "status": "scheduled",
+             "bills": [], "details_url": "https://lis.virginia.gov/x", "source": "lis.virginia.gov"}
+        page = self.page([h])
+        self.assertIn('<p class="lead">To weigh in at a Virginia legislative hearing,', page)
+        kinds = [x["@type"] for x in self.ld(page)]
+        self.assertEqual(kinds, ["FAQPage", "HowTo", "BreadcrumbList", "ItemList"])
+        ev = self.ld(page)[3]["itemListElement"][0]["item"]
+        self.assertEqual(ev["startDate"], "2026-11-30T12:00:00-05:00")
+        self.assertEqual(ev["url"], "https://lis.virginia.gov/x")
+
+    def test_outside_text_is_escaped(self):
+        h = {"id": "va-os-2", "jurisdiction": "va", "committee": "<script>x</script>",
+             "title": "</script><b>", "scheduled_iso": "2026-12-01T09:00:00", "timezone": "America/New_York",
+             "status": "scheduled", "bills": [], "source": "x"}
+        page = self.page([h])
+        body = page.split("</head>", 1)[1]
+        self.assertNotIn("<script>x", body)
+        self.assertIn("&lt;script&gt;x", body)
+        self.assertEqual(page.count("</script>"), 1)      # only the JSON-LD block's own end
+
+    def test_no_hearings_still_answers(self):
+        page = self.page([])
+        self.assertIn("None are posted right now", page)
+        self.assertNotIn('"ItemList"', page)
+
+    def test_homepage_seo_markup_is_in_sync(self):
+        import subprocess, sys
+        r = subprocess.run([sys.executable, str(HERE.parent / "scripts" / "sync_seo.py"), "--check"],
+                           capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stdout)
+
+
 class IncompleteCertificateChain(unittest.TestCase):
     """ilga.gov sends its certificate without the intermediate; the scraper fetches it
     from the certificate's CA Issuers address (real ilga.gov + Sectigo certificates)."""
