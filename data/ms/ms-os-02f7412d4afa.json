@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://billstatus.ls.state.ms.us/htms/h_sched.htm",
   "chamber": "other",
   "committee": "Management",
   "first_seen": "2026-11-28T05:04:21Z",

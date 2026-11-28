@@ -1,11 +1,6 @@
 {
   "bills": [
     {
-      "id": "B36338",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "B36038",
       "slips": null,
       "url": null
@@ -14,8 +9,14 @@
       "id": "B36438",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "B36338",
+      "slips": null,
+      "url": null
     }
   ],
+  "calendar_url": "https://guamlegislature.com/index/schedules-and-calendars/",
   "chamber": "other",
   "committee": "POSTPONED Public Hearing - Vice Speaker V. Anthony Ada",
   "first_seen": "2026-11-28T05:04:21Z",

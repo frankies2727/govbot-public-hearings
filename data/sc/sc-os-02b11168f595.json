@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://www.scstatehouse.gov/meetings.php?chamber=H",
   "chamber": "house",
   "committee": "House of Representatives",
   "first_seen": "2026-11-28T05:04:21Z",

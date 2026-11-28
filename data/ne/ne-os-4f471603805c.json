@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://nebraskalegislature.gov/calendar/calendar.php",
   "chamber": "other",
   "committee": "Transportation and Telecommunications",
   "first_seen": "2026-11-28T05:04:21Z",

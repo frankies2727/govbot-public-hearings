@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://www.senate.gov/committees/hearings_meetings.htm",
   "chamber": "senate",
   "committee": "Senate Intelligence",
   "first_seen": "2026-11-28T05:50:20Z",

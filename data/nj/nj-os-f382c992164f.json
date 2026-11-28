@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "http://www.njleg.state.nj.us/downloads.asp",
   "chamber": "house",
   "committee": "Assembly Consumer Affairs Committee",
   "first_seen": "2026-11-28T05:04:21Z",

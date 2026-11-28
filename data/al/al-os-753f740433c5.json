@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://alison.legislature.state.al.us/todays-schedule",
   "chamber": "other",
   "committee": "Contract Review Committee Meeting",
   "first_seen": "2026-11-28T05:04:21Z",

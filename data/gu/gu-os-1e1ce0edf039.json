@@ -1,17 +1,7 @@
 {
   "bills": [
     {
-      "id": "B22638",
-      "slips": null,
-      "url": "https://guamlegislature.gov/bills-page3/"
-    },
-    {
       "id": "B26438",
-      "slips": null,
-      "url": "https://guamlegislature.gov/bills-page3/"
-    },
-    {
-      "id": "B25238",
       "slips": null,
       "url": "https://guamlegislature.gov/bills-page3/"
     },
@@ -19,8 +9,19 @@
       "id": "B25638",
       "slips": null,
       "url": "https://guamlegislature.gov/bills-page3/"
+    },
+    {
+      "id": "B22638",
+      "slips": null,
+      "url": "https://guamlegislature.gov/bills-page3/"
+    },
+    {
+      "id": "B25238",
+      "slips": null,
+      "url": "https://guamlegislature.gov/bills-page3/"
     }
   ],
+  "calendar_url": "https://guamlegislature.com/index/schedules-and-calendars/",
   "chamber": "other",
   "committee": "POSTPONED: PUBLIC HEARING – Office of Senator Borja",
   "first_seen": "2026-11-28T05:04:21Z",

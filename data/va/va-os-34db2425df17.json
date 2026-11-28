@@ -1,5 +1,6 @@
 {
   "bills": [],
+  "calendar_url": "https://lis.virginia.gov/schedule",
   "chamber": "joint",
   "committee": "Joint Meeting of Senate Finance and Appropriations Committee, House Appropriations Committee,",
   "first_seen": "2026-11-28T05:04:21Z",
