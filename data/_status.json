@@ -1,209 +1,209 @@
 {
   "al": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 2
   },
   "ar": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 23
   },
   "az": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 53
   },
   "co": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 22
   },
   "ct": {
-    "failed_runs": 3
+    "failed_runs": 4
   },
   "de": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "fl": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "ga": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 2
   },
   "gu": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 576
   },
   "hi": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 1
   },
   "ia": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 8
   },
   "id": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "ks": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "ky": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 4
   },
   "la": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 3
   },
   "md": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "me": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 1
   },
   "mn": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 16
   },
   "mo": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "ms": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 1
   },
   "mt": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 25
   },
   "nc": {
-    "failed_runs": 2,
-    "last_ok": "2026-11-28T05:04:21Z",
+    "failed_runs": 0,
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "nd": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 2
   },
   "ne": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 4
   },
   "nh": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 121
   },
   "nj": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 388
   },
   "nm": {
-    "failed_runs": 3
+    "failed_runs": 4
   },
   "nv": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "ok": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 56
   },
   "or": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "pa": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 6
   },
   "ri": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 3
   },
   "sc": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 8
   },
   "sd": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 298
   },
   "tn": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 10
   },
   "tx": {
-    "failed_runs": 0,
+    "failed_runs": 1,
     "last_ok": "2026-11-28T06:50:08Z",
     "meetings": 0
   },
   "ut": {
-    "failed_runs": 0,
+    "failed_runs": 1,
     "last_ok": "2026-11-28T06:50:08Z",
     "meetings": 574
   },
   "va": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 51
   },
   "vi": {
-    "failed_runs": 3
+    "failed_runs": 4
   },
   "vt": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 0
   },
   "wi": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 863
   },
   "wv": {
-    "failed_runs": 3
+    "failed_runs": 4
   },
   "wy": {
     "failed_runs": 0,
-    "last_ok": "2026-11-28T06:50:08Z",
+    "last_ok": "2026-11-28T16:28:27Z",
     "meetings": 34
   }
 }

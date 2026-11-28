@@ -1,11 +1,6 @@
 {
   "bills": [
     {
-      "id": "B25238",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "B22638",
       "slips": null,
       "url": null
@@ -17,6 +12,11 @@
     },
     {
       "id": "B26438",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B25238",
       "slips": null,
       "url": null
     }

@@ -1,42 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB436",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5497",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5492",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB443",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5494",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5491",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5495",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5496",
       "slips": null,
       "url": null
     },
@@ -46,22 +11,12 @@
       "url": null
     },
     {
-      "id": "SB438",
+      "id": "SB443",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB442",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB435",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB439",
+      "id": "HB5497",
       "slips": null,
       "url": null
     },
@@ -71,17 +26,62 @@
       "url": null
     },
     {
+      "id": "SB357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB436",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5492",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB439",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5495",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5494",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5496",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB435",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB442",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB441",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5493",
+      "id": "SB438",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB357",
+      "id": "HB5493",
       "slips": null,
       "url": null
     },

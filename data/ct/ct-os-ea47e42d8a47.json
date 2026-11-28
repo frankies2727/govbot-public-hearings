@@ -1,12 +1,12 @@
 {
   "bills": [
     {
-      "id": "HR4",
+      "id": "SR4",
       "slips": null,
       "url": null
     },
     {
-      "id": "SR4",
+      "id": "HR4",
       "slips": null,
       "url": null
     }
