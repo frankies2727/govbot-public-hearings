@@ -46,6 +46,7 @@ Usage:
 """
 
 import argparse
+import html
 import http.client
 import json
 import re
@@ -1167,6 +1168,60 @@ def fetch_us(today):
 
 
 # --------------------------------------------------------------------------- #
+# Iowa public hearings (legis.iowa.gov's own Public Hearings list)
+# --------------------------------------------------------------------------- #
+# Iowa holds formal public hearings on particular bills, each with its own notice, a sign-up /
+# comment form while it's open, the comments people sent, and video. They are listed on the
+# Legislature's Public Hearings page (one table, one row per hearing); Iowa's ordinary committee
+# meetings come from Open States' scraper as usual, so both show.
+IA_HEARINGS = "https://www.legis.iowa.gov/committees/publicHearings"
+IA_BASE = "https://www.legis.iowa.gov"
+
+
+def parse_ia_public_hearings(html_text):
+    """The Public Hearings table -> hearing records. Pure."""
+    out = []
+    # (the page never closes its <tbody>, so read to the end of the table)
+    body = re.search(r'<table[^>]*id="sortableTable".*?<tbody>(.*?)</table>', html_text or "", re.S)
+    for row in re.findall(r"<tr>(.*?)</tr>", body.group(1) if body else "", re.S):
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)
+        if len(cells) < 6:
+            continue
+        m = re.match(r"\s*(\d\d)/(\d\d)/(\d{4})\s+(\d{1,2}):(\d\d)\s*([AP]M)", _plain(cells[0]), re.I)
+        mid = re.search(r"meetingID=(\d+)", row)
+        if not (m and mid):
+            continue
+        mo, d, y, hh, mm, ap = m.groups()
+        hh = int(hh) % 12 + (12 if ap.upper() == "PM" else 0)
+        iso = f"{y}-{mo}-{d}T{hh:02d}:{mm}:00"
+        href = lambda cell: next(iter(re.findall(r'href="([^"]+)"', cell)), None)
+        absu = lambda u: urllib.parse.urljoin(IA_HEARINGS, html.unescape(u)) if u else None
+        bills = []
+        for ba in re.findall(r"BillBook\?ga=(\d+)&(?:amp;)?ba=([A-Z]+ ?\d+)", cells[2]):
+            bills.append({"id": ba[1].replace(" ", ""), "slips": None,
+                          "url": f"{IA_BASE}/legislation/BillBook?ga={ba[0]}&ba={urllib.parse.quote(ba[1])}"})
+        subject = _plain(cells[3]) or _plain(cells[2])
+        first = bills[0]["id"] if bills else ""
+        signup = absu(href(cells[5]))               # only while sign-up is open
+        out.append({
+            "id": f"ia-hearing-{mid.group(1)}", "jurisdiction": "ia",
+            "chamber": "senate" if first.startswith("S") else "house" if first.startswith("H") else "other",
+            "committee": "Iowa Legislature public hearing", "title": subject,
+            "scheduled_iso": iso, "scheduled_display": iso, "timezone": "America/Chicago",
+            "location": (_plain(cells[1]) + " · " if _plain(cells[1]) else "") + "Iowa State Capitol, Des Moines",
+            "status": "canceled" if re.search(r"cancel", subject, re.I) else "scheduled",
+            "bills": bills,
+            "details_url": absu(href(cells[4])) or IA_HEARINGS,   # the hearing's own notice
+            "witness_slip_url": signup, "source": "legis.iowa.gov",
+        })
+    return out
+
+
+def fetch_ia_hearings():
+    return parse_ia_public_hearings(fetch_text(IA_HEARINGS) or "")
+
+
+# --------------------------------------------------------------------------- #
 # U.S. Congress committee hearings (code "usa", Govbot's code for federal bills)
 # --------------------------------------------------------------------------- #
 # Read straight from each chamber's own published schedule, no key and no API:
@@ -1624,7 +1679,10 @@ def participation_jurisdictions(path):
 # are removed, but only after a run that finished for that place. When a place's
 # scraper breaks, its upcoming meetings come from here instead, so an outage never
 # empties a state. data/_status.json records each place's last good run.
-ARCHIVE_SKIP = {"us"}       # federal comment periods are archived by the Federal Register
+ARCHIVE_SKIP = {"us"}
+# Places our own scrapers cover in full, so Open States' meetings for them are ignored. (Iowa is
+# not here: our scraper reads only its public hearings, Open States its committee meetings.)
+OS_SKIP = {"il", "wa", "ma", "ak", "chi", "us", "usa"}       # federal comment periods are archived by the Federal Register
 
 
 def _archive_record(h):
@@ -1657,7 +1715,7 @@ def archive_hearings(hearings, data_dir, ok_codes, now):
         current = {h["id"] for h in by_code.get(code, [])}
         if code in ok_codes:
             for f in d.glob("*.json"):
-                if f.stem in current:
+                if f.stem in current or "-os-" not in f.stem:   # only prune what Open States listed
                     continue
                 try:
                     old = json.loads(f.read_text())
@@ -2537,7 +2595,7 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,usa,us",
+    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,ia,usa,us",
                     help="Comma-separated codes to scrape live (default: il,wa,ma,ak,chi,us; "
                          "'us' = federal comment periods from Regulations.gov)")
     ap.add_argument("--from-fixtures", default=None,
@@ -2602,20 +2660,22 @@ def main():
             hearings.extend(fetch_ak(begin, end))
         if "chi" in codes:
             hearings.extend(fetch_chi(begin, end))
+        if "ia" in codes:                    # Iowa's public hearings (its committee meetings come from Open States)
+            hearings.extend(fetch_ia_hearings())
         if "usa" in codes:                   # Congress's committee hearings
             hearings.extend(fetch_usa(now))
         if "us" in codes:                    # federal rules open for comment
             hearings.extend(fetch_us(now.date()))
         source = ("ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + "
-                  "chicityclerkelms.chicago.gov + senate.gov + docs.house.gov + "
+                  "chicityclerkelms.chicago.gov + legis.iowa.gov + senate.gov + docs.house.gov + "
                   "federalregister.gov (govbot scrape-hearings)")
         if args.os_events:
             # Places we scrape ourselves keep our own scraper; Open States fills the rest.
             os_codes = sorted(p.name for p in Path(args.os_events).iterdir()
-                              if p.is_dir() and p.name not in codes)
+                              if p.is_dir() and p.name not in OS_SKIP)
             os_hearings, os_ok = load_os_events(args.os_events, os_codes)
             hearings.extend(os_hearings)
-            codes += os_codes
+            codes += [c for c in os_codes if c not in codes]
             source += " + each legislature's own site via Open States' meeting scrapers"
             print(f"Open States meetings: {len(os_hearings)} from {len(os_ok)} of "
                   f"{len(os_codes)} places", file=sys.stderr)

@@ -496,6 +496,33 @@ class Federal(unittest.TestCase):
         self.assertEqual(doc["jurisdictions"][0]["code"], "us")
 
 
+class IowaPublicHearings(unittest.TestCase):
+    """legis.iowa.gov's Public Hearings list (real page, Nov 2026)."""
+    PAGE = (RAW / "ia_public_hearings.html").read_text()
+
+    def test_each_hearing_links_its_own_notice_and_bill(self):
+        hs = main.parse_ia_public_hearings(self.PAGE)
+        self.assertEqual(len(hs), 5)
+        h = next(x for x in hs if x["id"] == "ia-hearing-42707")
+        self.assertEqual(h["scheduled_iso"], "2026-04-21T09:00:00")
+        self.assertEqual(h["details_url"], main.IA_HEARINGS + "?meetingID=42707&action=viewHearingPDF")
+        self.assertEqual([b["id"] for b in h["bills"]], ["SF2472"])
+        self.assertTrue(h["bills"][0]["url"].startswith("https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF"))
+        self.assertEqual(h["chamber"], "senate")
+        self.assertIsNone(h["witness_slip_url"])           # "Sign up Closed"
+        self.assertTrue(all(REQUIRED <= set(x) for x in hs))
+
+    def test_open_sign_up_is_the_hearings_own_form(self):
+        import re
+        page = re.sub(r"<td>\s*Sign up Closed\s*</td>",
+                      '<td><a href="?action=signUp&amp;meetingID=42707">Sign Up / Comment</a></td>', self.PAGE, count=1)
+        h = main.parse_ia_public_hearings(page)[0]
+        self.assertEqual(h["witness_slip_url"], main.IA_HEARINGS + "?action=signUp&meetingID=42707")
+
+    def test_bad_page_is_empty(self):
+        self.assertEqual(main.parse_ia_public_hearings("<html></html>"), [])
+
+
 class CongressHearings(unittest.TestCase):
     """Real senate.gov and docs.house.gov files (Nov 2026)."""
 

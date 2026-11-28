@@ -333,3 +333,12 @@ follow the same rule (`PART_LABEL`). A row with no online form gets "How to take
 where it fits: bill-based forms (`BILL_FORMS`: Request to Speak, witness slip, appearance form, position letter) only on
 hearings that list bills; Iowa has no `participate_url` (its Public Hearings page covers only its bill hearings, not
 committee meetings like the Revenue Estimating Conference). The place-wide calendar link reads "Add all <place> hearings to my calendar (.ics)".
+
+**Iowa public hearings (Nov 2026, per request: "that is what this page is about").** `parse_ia_public_hearings` reads
+legis.iowa.gov's own Public Hearings list (`IA_HEARINGS`, one table, one row per hearing; the page never closes its
+`<tbody>`, so it reads to `</table>`): date/time (Central), room, the bill (linked to Iowa's BillBook page), the subject,
+the hearing's own notice (`details_url`, "Hearing notice ↗") and, while sign-up is open, its own "Signup / Comment" form
+(`witness_slip_url` → "Sign up or comment ↗" + "Public comment open"). id `ia-hearing-<meetingID>`. Iowa's ordinary
+committee meetings still come from Open States: `OS_SKIP` (il wa ma ak chi us usa) is what Open States is ignored for,
+so a place can have both, and an Open States run prunes only its own (`-os-`) archive files. Fixture
+`raw/ia_public_hearings.html`; tests `IowaPublicHearings`. The "Hearing" kind pill is circled too (blue, `--z-c1`).

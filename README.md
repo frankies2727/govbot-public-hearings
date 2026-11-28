@@ -32,6 +32,7 @@ Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io
 | 🦞 | **Massachusetts** | [malegislature.gov](https://malegislature.gov) | Submit written testimony |
 | 🏔️ | **Alaska** | [akleg.gov](https://akleg.gov) | Public opinion message |
 | 🏙️ | **Chicago City Council** (our first city) | [City Clerk eLMS API](https://api.chicityclerkelms.chicago.gov/swagger.json) | Written comment by each meeting's deadline (its Notice says where) |
+| 🌽 | **Iowa public hearings** | The Legislature's own [Public Hearings list](https://www.legis.iowa.gov/committees/publicHearings) | Sign up or comment on that hearing's own form while it's open |
 | 🏛️ | **U.S. Congress** (House + Senate committees) | The Senate's own [schedule file](https://www.senate.gov/general/committee_schedules/hearings.xml) and the House Clerk's [committee repository](https://docs.house.gov/Committee/Calendar/ByWeek.aspx) (each meeting's published XML) | Contact your representative and senators; some committees take written statements for the record |
 | 🗺️ | **Every other state, DC, Guam & the U.S. Virgin Islands** | Each legislature's own website, read by [Open States](https://github.com/openstates/openstates-scrapers)' open-source meeting scrapers, which we run ourselves twice a day | The state's own way to take part (on the map) |
 

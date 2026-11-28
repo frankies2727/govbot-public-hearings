@@ -312,6 +312,7 @@
   .h-kind, .h-badge, .h-open, .pstate-live, .pstate-kind {
     display: inline-block; padding: 2px 10px; border: var(--z-line); border-radius: 999px; background: var(--z-card);
     font-size: 12px; letter-spacing: .08em; text-transform: uppercase; line-height: 1.5; white-space: nowrap; }
+  .h-kind { --pc: var(--z-c1); }
   .h-kind.is-due { --pc: var(--z-c3); }
   .h-open.is-deadline { white-space: normal; max-width: 100%; border-radius: 14px; }
   .h-badge { margin-left: 8px; --pc: var(--z-c4); }
@@ -323,16 +324,16 @@
      drawn around the words with room to spare (a mask over ::after, stretched to the pill), plus a
      lighter second pass. It never crosses the letters, which stay ink on paper. The loop is drawn
      with a non-scaling stroke so it keeps its weight on short and long pills. */
-  .h-kind.is-due, .h-badge, .h-open, .pstate-live, .ws-closes {
+  .h-kind, .h-badge, .h-open, .pstate-live, .ws-closes {
     --ring: var(--pc); position: relative; isolation: isolate; border: 0; background: none;
     padding: 4px 14px; margin: 5px 9px; color: var(--z-ink); font-weight: 500; }
-  :is(.h-kind.is-due, .h-badge, .h-open, .pstate-live, .ws-closes)::after {
+  :is(.h-kind, .h-badge, .h-open, .pstate-live, .ws-closes)::after {
     content: ""; position: absolute; inset: -7px -12px -8px -12px; z-index: -1; pointer-events: none; background: var(--ring);
     -webkit-mask: var(--z-ring) center / 100% 100% no-repeat; mask: var(--z-ring) center / 100% 100% no-repeat; }
   :root { --z-ring: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 44' preserveAspectRatio='none'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' vector-effect='non-scaling-stroke'%3E%3Cpath vector-effect='non-scaling-stroke' stroke-width='3.4' d='M44 4C14 4 3 8 3 22C3 37 22 40 58 40C92 40 117 37 117 22C117 7 96 3 66 4C52 4 40 6 28 9'/%3E%3Cpath vector-effect='non-scaling-stroke' stroke-width='1.6' opacity='.75' d='M10 34C30 43 92 43 110 33C120 26 116 10 90 6'/%3E%3C/g%3E%3C/svg%3E"); }
-  :root[data-theme="light"] :is(.h-kind.is-due, .h-badge, .h-open, .pstate-live, .ws-closes) {
+  :root[data-theme="light"] :is(.h-kind, .h-badge, .h-open, .pstate-live, .ws-closes) {
     --ring: color-mix(in srgb, var(--pc) 62%, #1B1A17); }
-  @media (prefers-color-scheme: light) { :root:not([data-theme]) :is(.h-kind.is-due, .h-badge, .h-open, .pstate-live, .ws-closes) {
+  @media (prefers-color-scheme: light) { :root:not([data-theme]) :is(.h-kind, .h-badge, .h-open, .pstate-live, .ws-closes) {
     --ring: color-mix(in srgb, var(--pc) 62%, #1B1A17); } }
   .h-main { min-width: 0; }
   .h-committee { font-size: 21px; line-height: 1.3; }
@@ -1366,6 +1367,8 @@
     const w = h.witness_slip_url || "";
     if (h.jurisdiction === "us") return /regulations\.gov\/commenton\//.test(w) ? { href: w, label: "Submit a comment ↗" } : null;
     if (h.jurisdiction === "chi") return w ? { href: w, label: "How to comment: meeting notice ↗" } : null;
+    // A hearing's own sign-up / comment form (Iowa's public hearings, while sign-up is open).
+    if (h.jurisdiction === "ia" && w) return { href: w, label: "Sign up or comment ↗" };
     if (!partBy) { partBy = {}; participation.forEach((j) => { partBy[j.code] = j; }); }
     const p = partBy[h.jurisdiction];
     if (!(p && p.participate_url && ACT_LABEL[p.participation])) return null;
@@ -1445,7 +1448,7 @@
     main.append(eln("div", "h-committee", h.committee || "Committee"));
     // The published subject says what a meeting is about. Shown where the source gives a real one
     // (Chicago, Congress, and Open States' cleaned descriptions), at most three lines.
-    if (h.title && (h.jurisdiction === "chi" || h.jurisdiction === "usa" || h.id.includes("-os-")))
+    if (h.title && (h.jurisdiction === "chi" || h.jurisdiction === "usa" || h.id.includes("-os-") || h.id.startsWith("ia-hearing-")))
       main.append(eln("div", "h-loc h-subject", h.title));
     if (h.location) main.append(eln("div", "h-loc", h.location));
 
@@ -1517,6 +1520,7 @@
   function linkLabel(h, href) {
     if (h.jurisdiction === "us") return "Read the rule ↗";
     if (/isvp|stream|live-proceedings|\/audio\//i.test(href)) return "Watch the hearing ↗";
+    if (/viewHearingPDF|notice/i.test(href)) return "Hearing notice ↗";
     if (/\.pdf(\b|$)|agenda/i.test(href)) return "Hearing agenda ↗";
     return "Hearing details ↗";
   }
