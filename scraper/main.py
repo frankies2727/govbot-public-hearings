@@ -2049,7 +2049,11 @@ def main():
                   f"{len(os_codes)} places", file=sys.stderr)
             if args.data_dir:
                 broken = [c for c in os_codes if c not in os_ok]
-                kept = restore_from_archive(args.data_dir, broken, now)
+                # A scraper cut off partway still left some meetings; add only the stored ones
+                # it didn't get to, so nothing shows twice.
+                have = {h["id"] for h in hearings}
+                kept = [h for h in restore_from_archive(args.data_dir, broken, now)
+                        if h["id"] not in have]
                 hearings.extend(kept)
                 if kept:
                     print(f"kept {len(kept)} stored meetings for places whose scraper broke",
