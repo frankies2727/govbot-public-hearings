@@ -1,22 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB89",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB91",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB483",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB398",
       "slips": null,
       "url": null
     },
@@ -26,22 +11,12 @@
       "url": null
     },
     {
-      "id": "HB5431",
+      "id": "SB399",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5449",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB295",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5312",
+      "id": "SB290",
       "slips": null,
       "url": null
     },
@@ -51,12 +26,57 @@
       "url": null
     },
     {
+      "id": "HB5449",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5308",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB89",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB295",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB91",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB474",
       "slips": null,
       "url": null
     },
     {
+      "id": "HB5312",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB398",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5431",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5313",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB400",
       "slips": null,
       "url": null
     },
@@ -67,26 +87,6 @@
     },
     {
       "id": "SB90",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB290",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5308",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB399",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB400",
       "slips": null,
       "url": null
     }

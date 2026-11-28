@@ -1,17 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5474",
+      "id": "SB426",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB424",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5476",
+      "id": "HB5477",
       "slips": null,
       "url": null
     },
@@ -21,7 +16,17 @@
       "url": null
     },
     {
+      "id": "HB5474",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB425",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5476",
       "slips": null,
       "url": null
     },
@@ -31,12 +36,7 @@
       "url": null
     },
     {
-      "id": "SB426",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5477",
+      "id": "SB424",
       "slips": null,
       "url": null
     }

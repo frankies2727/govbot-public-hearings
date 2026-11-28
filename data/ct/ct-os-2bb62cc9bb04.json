@@ -1,207 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5160",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5334",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB386",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5452",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5415",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB154",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB316",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HR10",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5274",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5494",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5378",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB375",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5302",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5221",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5227",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5002",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB238",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5279",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5341",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5253",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5507",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB6",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5484",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB193",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SR10",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5370",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB380",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5496",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB289",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB387",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5252",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5412",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB350",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5241",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB410",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB424",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB329",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5003",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5374",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5353",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB369",
       "slips": null,
       "url": null
     },
@@ -211,32 +11,27 @@
       "url": null
     },
     {
-      "id": "HB5323",
+      "id": "SB193",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB433",
+      "id": "HB5334",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5524",
+      "id": "HB5412",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5143",
+      "id": "HB5227",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5255",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5004",
+      "id": "HB5494",
       "slips": null,
       "url": null
     },
@@ -251,12 +46,47 @@
       "url": null
     },
     {
-      "id": "HB5476",
+      "id": "HB5302",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5278",
+      "id": "SB410",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB289",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5452",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB369",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB238",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB386",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB6",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5330",
       "slips": null,
       "url": null
     },
@@ -266,7 +96,97 @@
       "url": null
     },
     {
+      "id": "HB5274",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB316",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB329",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5524",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5496",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5221",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB387",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB433",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5255",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5389",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5415",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5160",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5353",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5278",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB424",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5143",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5507",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5341",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5241",
       "slips": null,
       "url": null
     },
@@ -276,12 +196,92 @@
       "url": null
     },
     {
-      "id": "HB5384",
+      "id": "HB5003",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5330",
+      "id": "HB5004",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5374",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5323",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5378",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB154",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HR10",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SR10",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5484",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5476",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB380",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB375",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5253",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB350",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5279",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5252",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5370",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5384",
       "slips": null,
       "url": null
     }

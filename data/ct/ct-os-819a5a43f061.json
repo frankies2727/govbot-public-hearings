@@ -1,62 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB505",
+      "id": "SB507",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB483",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB508",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB504",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB391",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5567",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB506",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB503",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5428",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5542",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5429",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB476",
+      "id": "HB5308",
       "slips": null,
       "url": null
     },
@@ -66,17 +16,47 @@
       "url": null
     },
     {
+      "id": "SB483",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB504",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB503",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB506",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB476",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5567",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB505",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5429",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB484",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB507",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5438",
       "slips": null,
       "url": null
     },
@@ -86,7 +66,27 @@
       "url": null
     },
     {
-      "id": "HB5308",
+      "id": "SB391",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5438",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5542",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB508",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5428",
       "slips": null,
       "url": null
     },

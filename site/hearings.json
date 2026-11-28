@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T16:28:27Z",
+  "generated_at": "2026-11-28T17:14:03Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + senate.gov + docs.house.gov + federalregister.gov (govbot scrape-hearings) + each legislature's own site via Open States' meeting scrapers",
   "jurisdictions": [
     {
@@ -2596,7 +2596,7 @@
       "bills": [
         {
           "id": "SO2026-0029412",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=7F42888B-D4C7-F111-AAAE-001DD80B58E5",
           "govbot_title": "Issuance of multi-family program funds and other financial assistance to MPC Phase I 4% LLC for development of Morgan Park Commons Phase I project at 11414 S Halsted St (4 percent owner)",
           "govbot_tags": [
             "budget & taxes"
@@ -2604,7 +2604,7 @@
         },
         {
           "id": "SO2026-0029413",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=8CBB05F8-D4C7-F111-AAAE-001DD80B58E5",
           "govbot_title": "Issuance of multi-family program funds and other financial assistance to MPC Phase I 9% LLC for development of Morgan Park Commons Phase I project at 11414 S Halsted St (9 percent owner)",
           "govbot_tags": [
             "budget & taxes"
@@ -2612,7 +2612,7 @@
         },
         {
           "id": "SO2026-0029418",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=2F8AA629-DBC7-F111-AAAE-001DD80B58E5",
           "govbot_title": "Redevelopment agreement with Oak-Larrabee LLC to provide Donations Tax Credit (IAHTC) assistance for development of property at 955 N Larrabee St",
           "govbot_tags": [
             "budget & taxes"
@@ -2620,7 +2620,7 @@
         },
         {
           "id": "O2026-0029408",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=871F6065-49C7-F111-AAAE-001DD80B58E5",
           "govbot_title": "First amendment to redevelopment agreement with 1539 N. Pulaski Road HHDC LP, 1539 N. Pulaski Road Charitable Corporation and Hispanic Housing Development Corporation to provide tax increment financing (TIF) assistance for 1539 North Pulaski Elderly Apartments project",
           "govbot_tags": [
             "budget & taxes",
@@ -2630,7 +2630,7 @@
         },
         {
           "id": "O2026-0029417",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=62C17C9B-D9C7-F111-AAAE-001DD80B58E5",
           "govbot_title": "Issuance of multi-family program funds to 3301 W Palmer LLC for acquisition and preservation of Palmer Place Apartments at 3301 W Palmer St",
           "govbot_tags": [
             "budget & taxes"
@@ -2638,7 +2638,7 @@
         },
         {
           "id": "SO2026-0027231",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=39B765A4-7780-F111-AB0E-001DD80216AA",
           "govbot_title": "Amendment of Municipal Code Section 11-12-532 allowing transferees of properties covered by Utility Billing Relief Program to remain in program if meeting certain requirements"
         }
       ],
@@ -2678,7 +2678,7 @@
       "bills": [
         {
           "id": "O2026-0027317",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=7B8FEB78-4D81-F111-AB0E-001DD8015587",
           "govbot_title": "Expenditure of Open Space Impact Fee funds for development of Land of Lincoln Garden at 5900-5910 N Lincoln Ave",
           "govbot_tags": [
             "budget & taxes",
@@ -2687,7 +2687,7 @@
         },
         {
           "id": "O2026-0028758",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=7190FE59-57B7-F111-AAAC-001DD80B58E5",
           "govbot_title": "Expenditure of Open Space Impact Fee funds for improvements to Camras Elementary School at 3000 N Mango Ave",
           "govbot_tags": [
             "budget & taxes",
@@ -2697,7 +2697,7 @@
         },
         {
           "id": "O2026-0028759",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=92645AB6-57B7-F111-AAAC-001DD80B58E5",
           "govbot_title": "Expenditure of Open Space Impact Fee funds for improvements to Kilmer Elementary School at 6700 N Greenview Ave",
           "govbot_tags": [
             "budget & taxes",
@@ -2707,7 +2707,7 @@
         },
         {
           "id": "O2026-0028760",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=358943CF-57B7-F111-AAAC-001DD80B58E5",
           "govbot_title": "Expenditure of Open Space Impact Fee funds for improvements to Harriet Tubman Elementary School at 2851 N Seminary Ave",
           "govbot_tags": [
             "budget & taxes",
@@ -2767,17 +2767,17 @@
       "bills": [
         {
           "id": "O2026-0028871",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=FD6577A8-7CB7-F111-AAAC-001DD80B58E5",
           "govbot_title": "Amended operator agreement with Lyft Bikes and Scooters LLC for operation and management of Divvy for Everyone bike sharing system"
         },
         {
           "id": "SO2025-0021022",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=815478E6-76C1-F011-BBD2-001DD80AA671",
           "govbot_title": "Amendment of Municipal Code Chapter 2-102 by adding new Section 2-102-110 to require City Council approval to close bridges of Chicago for improvement, maintenance, repair or other public work"
         },
         {
           "id": "O2026-0029742",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=990F2960-68D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 133615 - amend",
           "govbot_tags": [
             "government operations"
@@ -2785,7 +2785,7 @@
         },
         {
           "id": "O2026-0030348",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=D800C505-23E5-F111-84EA-001DD8038269",
           "govbot_title": "Disabled Parking Permit No. 139413",
           "govbot_tags": [
             "government operations"
@@ -2793,7 +2793,7 @@
         },
         {
           "id": "O2026-0030349",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=ED707522-24E5-F111-84EA-001DD8038269",
           "govbot_title": "Disabled Parking Permit No. 139555",
           "govbot_tags": [
             "government operations"
@@ -2801,7 +2801,7 @@
         },
         {
           "id": "O2026-0030350",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=F1522981-25E5-F111-84EA-001DD80FDA55",
           "govbot_title": "Disabled Parking Permit No. 137586",
           "govbot_tags": [
             "government operations"
@@ -2809,7 +2809,7 @@
         },
         {
           "id": "O2026-0030351",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=656FD654-26E5-F111-84EA-001DD80B58E5",
           "govbot_title": "Disabled Parking Permit No. 138347",
           "govbot_tags": [
             "government operations"
@@ -2817,7 +2817,7 @@
         },
         {
           "id": "O2026-0030352",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=ADA5D4DD-26E5-F111-84EA-001DD80FDA55",
           "govbot_title": "Disabled Parking Permit No. 139962",
           "govbot_tags": [
             "government operations"
@@ -2825,7 +2825,7 @@
         },
         {
           "id": "O2026-0030353",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=0A3179AB-27E5-F111-84EA-001DD80B58E5",
           "govbot_title": "Disabled Parking Permit No. 139906",
           "govbot_tags": [
             "government operations"
@@ -2833,7 +2833,7 @@
         },
         {
           "id": "O2026-0030359",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=1ED0F9BB-29E5-F111-84EA-001DD803894A",
           "govbot_title": "Disabled Parking Permit No. 138028",
           "govbot_tags": [
             "government operations"
@@ -2841,7 +2841,7 @@
         },
         {
           "id": "O2026-0029745",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=27B68AC0-6AD8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 136422",
           "govbot_tags": [
             "government operations"
@@ -2849,7 +2849,7 @@
         },
         {
           "id": "O2026-0029747",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=1F670265-6BD8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 137307",
           "govbot_tags": [
             "government operations"
@@ -2857,7 +2857,7 @@
         },
         {
           "id": "O2026-0029748",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=35845F62-6CD8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 138383",
           "govbot_tags": [
             "government operations"
@@ -2865,7 +2865,7 @@
         },
         {
           "id": "O2026-0029749",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=CA6AC3FB-6ED8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 138906",
           "govbot_tags": [
             "government operations"
@@ -2873,7 +2873,7 @@
         },
         {
           "id": "O2026-0029750",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=2306F92B-70D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 139414",
           "govbot_tags": [
             "government operations"
@@ -2881,7 +2881,7 @@
         },
         {
           "id": "O2026-0029751",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=F686D9C9-70D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 139727",
           "govbot_tags": [
             "government operations"
@@ -2889,7 +2889,7 @@
         },
         {
           "id": "O2026-0029752",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=744EC284-71D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No.139840",
           "govbot_tags": [
             "government operations"
@@ -2897,7 +2897,7 @@
         },
         {
           "id": "O2026-0030346",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=97A7043D-1EE5-F111-84EA-001DD80B58E5",
           "govbot_title": "Disabled Parking Permit No. 77416 - amend",
           "govbot_tags": [
             "government operations"
@@ -2905,7 +2905,7 @@
         },
         {
           "id": "O2026-0029744",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=9F740FAC-69D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 136630",
           "govbot_tags": [
             "government operations"
@@ -2913,7 +2913,7 @@
         },
         {
           "id": "O2026-0029898",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=03E5F9C5-FDD9-F111-A05C-001DD80AA3CC",
           "govbot_title": "Disabled Parking Permit No. 139022 - amend",
           "govbot_tags": [
             "government operations"
@@ -2921,7 +2921,7 @@
         },
         {
           "id": "O2026-0029735",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=A66AE6CB-5FD8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 140001",
           "govbot_tags": [
             "government operations"
@@ -2929,7 +2929,7 @@
         },
         {
           "id": "O2026-0029736",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=3B2293BF-60D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 135837",
           "govbot_tags": [
             "government operations"
@@ -2937,7 +2937,7 @@
         },
         {
           "id": "O2026-0029737",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=250A7D51-62D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 138006",
           "govbot_tags": [
             "government operations"
@@ -2945,7 +2945,7 @@
         },
         {
           "id": "O2026-0030338",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=A4CF7A55-0CE5-F111-84EA-001DD80FDAD3",
           "govbot_title": "Disabled Parking Permit No. 139759",
           "govbot_tags": [
             "government operations"
@@ -2953,7 +2953,7 @@
         },
         {
           "id": "O2026-0030340",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=2DA656BF-0DE5-F111-84EA-001DD803894A",
           "govbot_title": "Disabled Parking Permit No. 138918",
           "govbot_tags": [
             "government operations"
@@ -2961,7 +2961,7 @@
         },
         {
           "id": "O2026-0030341",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=8DCA22DA-0EE5-F111-84EA-001DD80AA3CC",
           "govbot_title": "Disabled Parking Permit No. 140124",
           "govbot_tags": [
             "government operations"
@@ -2969,7 +2969,7 @@
         },
         {
           "id": "O2026-0030342",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=E01F8987-19E5-F111-84EA-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 139677",
           "govbot_tags": [
             "government operations"
@@ -2977,7 +2977,7 @@
         },
         {
           "id": "O2026-0030355",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=E6101B88-28E5-F111-84EA-001DD80AA3CC",
           "govbot_title": "Disabled Parking Permit No. 140635",
           "govbot_tags": [
             "government operations"
@@ -2985,7 +2985,7 @@
         },
         {
           "id": "O2026-0030343",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=E2277EAB-1BE5-F111-84EA-001DD8038269",
           "govbot_title": "Disabled Parking Permit No. 132526 - remove",
           "govbot_tags": [
             "government operations"
@@ -2993,7 +2993,7 @@
         },
         {
           "id": "O2026-0030345",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=8CC22F55-1DE5-F111-84EA-001DD803847B",
           "govbot_title": "Disabled Parking Permit No. 94358 - remove",
           "govbot_tags": [
             "government operations"
@@ -3001,7 +3001,7 @@
         },
         {
           "id": "O2026-0029734",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=E9E2C409-5ED8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Disabled Parking Permit No. 94472 - remove",
           "govbot_tags": [
             "government operations"
@@ -3009,7 +3009,7 @@
         },
         {
           "id": "O2026-0030337",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=998AEF2F-0BE5-F111-84EA-001DD8038269",
           "govbot_title": "Disabled Parking Permit No. 108106 - remove",
           "govbot_tags": [
             "government operations"
@@ -3017,7 +3017,7 @@
         },
         {
           "id": "O2026-0029733",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=4EBAF6BF-5BD8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Residential permit parking at 5400-5442 and 5401-5423 S Lorel Ave including wrap-around on W 54th St",
           "govbot_tags": [
             "government operations"
@@ -3025,7 +3025,7 @@
         },
         {
           "id": "O2026-0029739",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=3EB8D86C-66D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Residential permit parking at 2600-2659 N Meade Ave",
           "govbot_tags": [
             "government operations"
@@ -3033,7 +3033,7 @@
         },
         {
           "id": "Or2026-0029740",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=7CB4BB68-67D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Traffic sign(s)/signal(s) at W 59th Pl and S Springfield Ave - All-Way Stop",
           "govbot_tags": [
             "transportation"
@@ -3041,12 +3041,12 @@
         },
         {
           "id": "O2026-0029754",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=69816979-73D8-F111-A05C-001DD80EFCF5",
           "govbot_title": "Parking meters at S Clark St from W Marble Pl to W Adams St - remove/S Morgan St from W Van Buren St to W Jackson Blvd and S Morgan St from W Jackson Blvd to W Adams St - install"
         },
         {
           "id": "O2026-0029365",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=CFE8C685-03C4-F111-AAAE-001DD80FDA55",
           "govbot_title": "Traffic sign(s)/signal(s) at W Seminole St and N Moody Ave - All-Way Stop",
           "govbot_tags": [
             "transportation"
@@ -3054,7 +3054,7 @@
         },
         {
           "id": "O2026-0029463",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=119072DE-EBC7-F111-AAAE-001DD80B58E5",
           "govbot_title": "Vehicle weight limitation at W 33rd St from S Wallace St to S Wentworth Ave - 5 tons",
           "govbot_tags": [
             "transportation"
@@ -3062,7 +3062,7 @@
         },
         {
           "id": "O2026-0029466",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=0001A14A-ECC7-F111-AAAE-001DD80B58E5",
           "govbot_title": "Vehicle weight limitation at W 29th St from S Wallace St to S Wentworth St - 5 tons",
           "govbot_tags": [
             "transportation"
@@ -3070,7 +3070,7 @@
         },
         {
           "id": "O2026-0026371",
-          "url": null,
+          "url": "https://chicityclerkelms.chicago.gov/Matter/?matterId=693A67A8-246B-F111-A823-001DD801545D",
           "govbot_title": "Vehicle weight limitation at 8400-8459 S Gilbert Ct - 5 tons",
           "govbot_tags": [
             "transportation"
@@ -5792,7 +5792,7 @@
       "bills": [
         {
           "id": "SCR96",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/SCR96",
           "slips": null,
           "govbot_title": "Proposes constitutional amendment to increase amount of veterans' property tax deduction from $250 to $2,500 over four years.",
           "govbot_tags": [
@@ -5801,7 +5801,7 @@
         },
         {
           "id": "A462",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A462",
           "slips": null,
           "govbot_title": "Requires inspection for pest infestation prior to certain demolitions.*",
           "govbot_tags": [
@@ -5811,7 +5811,7 @@
         },
         {
           "id": "A3481",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3481",
           "slips": null,
           "govbot_title": "Revises \"Homelessness Prevention Program\"; requires new charge for filing of eviction action.",
           "govbot_tags": [
@@ -5820,7 +5820,7 @@
         },
         {
           "id": "A4103",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4103",
           "slips": null,
           "govbot_title": "Requires construction permit for certain work involving asbestos on single-family home, duplex, or townhouse.",
           "govbot_tags": [
@@ -5830,7 +5830,7 @@
         },
         {
           "id": "A5384",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5384",
           "slips": null,
           "govbot_title": "Requires inspection for pest infestation prior to certain demolitions.",
           "govbot_tags": [
@@ -5839,7 +5839,7 @@
         },
         {
           "id": "S154",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S154",
           "slips": null,
           "govbot_title": "Concerns expenses to municipalities for tree purchase, planting, and removal.",
           "govbot_tags": [
@@ -5848,7 +5848,7 @@
         },
         {
           "id": "S391",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S391",
           "slips": null,
           "govbot_title": "Revises \"Homelessness Prevention Program\"; requires new charge for filing of eviction action.",
           "govbot_tags": [
@@ -5857,7 +5857,7 @@
         },
         {
           "id": "S1785",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1785",
           "slips": null,
           "govbot_title": "Consolidates certain affordable housing and assistance applications.",
           "govbot_tags": [
@@ -5866,13 +5866,13 @@
         },
         {
           "id": "S2631",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2631",
           "slips": null,
           "govbot_title": "Requires Office of Homelessness Prevention to contract with county agencies or nonprofits to issue certain identification and birth certificates to individuals experiencing homelessness; appropriates $2 million."
         },
         {
           "id": "S3028",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3028",
           "slips": null,
           "govbot_title": "Prohibits certain demolitions without inspection for pest infestation.",
           "govbot_tags": [
@@ -5881,7 +5881,7 @@
         },
         {
           "id": "S3655",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3655",
           "slips": null,
           "govbot_title": "Requires construction permit for certain work involving asbestos on single-family home, duplex, or townhouse.",
           "govbot_tags": [
@@ -5890,13 +5890,13 @@
         },
         {
           "id": "S3735",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3735",
           "slips": null,
           "govbot_title": "Extends foreclosure protections for certain homeowners impacted by remnants of Hurricane Ida."
         },
         {
           "id": "S4251",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4251",
           "slips": null,
           "govbot_title": "Requires Director of Division of Housing and Community Resources in DCA to establish program to reimburse municipality which provides services to nonresident homeless persons; requires participation in Homeless Management Information System; appropriates $10 million.",
           "govbot_tags": [
@@ -5905,7 +5905,7 @@
         },
         {
           "id": "S4491",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4491",
           "slips": null,
           "govbot_title": "Requires inspection for pest infestation prior to certain demolitions.",
           "govbot_tags": [
@@ -5914,7 +5914,7 @@
         },
         {
           "id": "S4604",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4604",
           "slips": null,
           "govbot_title": "Requires organizations providing services to homeless persons to participate in Homeless Management Information System to track occupancy of shelter beds.",
           "govbot_tags": [
@@ -5923,7 +5923,7 @@
         },
         {
           "id": "S4785",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4785",
           "slips": null,
           "govbot_title": "Expands certain permission to offer incentives for employee retirement or termination of employment to municipalities.",
           "govbot_tags": [
@@ -5949,7 +5949,7 @@
       "bills": [
         {
           "id": "S5012",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S5012",
           "slips": null,
           "govbot_title": "Requires school districts to allow students enrolled in nonpublic schools and home education programs to participate in school-sponsored extracurricular activities.",
           "govbot_tags": [
@@ -5958,7 +5958,7 @@
         },
         {
           "id": "S5013",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S5013",
           "slips": null,
           "govbot_title": "Establishes procedures for withdrawal of certain children from public school.",
           "govbot_tags": [
@@ -5967,7 +5967,7 @@
         },
         {
           "id": "S4716",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4716",
           "slips": null,
           "govbot_title": "Expands duties of executive county business official; establishes processes for fiscal review of school districts by executive county superintendent and Commissioner of Education.",
           "govbot_tags": [
@@ -5976,7 +5976,7 @@
         },
         {
           "id": "A5207",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5207",
           "slips": null,
           "govbot_title": "Expands duties of executive county business official; establishes processes for fiscal review of school districts by executive county superintendent and Commissioner of Education.",
           "govbot_tags": [
@@ -5986,7 +5986,7 @@
         },
         {
           "id": "S4717",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4717",
           "slips": null,
           "govbot_title": "Establishes additional procedures for financial oversight and reporting to ensure fiscal stability of school districts.",
           "govbot_tags": [
@@ -5995,7 +5995,7 @@
         },
         {
           "id": "A5206",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5206",
           "slips": null,
           "govbot_title": "Establishes additional procedures for financial oversight and reporting to ensure fiscal stability of school districts.",
           "govbot_tags": [
@@ -6004,7 +6004,7 @@
         },
         {
           "id": "S486",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S486",
           "slips": null,
           "govbot_title": "Requires written notification of advanced placement courses to parents of students with disability; prohibits exclusion from advanced placement courses on basis of disability.",
           "govbot_tags": [
@@ -6013,7 +6013,7 @@
         },
         {
           "id": "S1674",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1674",
           "slips": null,
           "govbot_title": "Prohibits contracts for procurement and licensing of electronic literary materials from including certain provisions.",
           "govbot_tags": [
@@ -6023,7 +6023,7 @@
         },
         {
           "id": "S1793",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1793",
           "slips": null,
           "govbot_title": "Establishes Sports Equipment Equity Pilot Program.",
           "govbot_tags": [
@@ -6032,7 +6032,7 @@
         },
         {
           "id": "S2320",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2320",
           "slips": null,
           "govbot_title": "Establishes Jersey Strong Public Service Scholarship Program.",
           "govbot_tags": [
@@ -6041,7 +6041,7 @@
         },
         {
           "id": "S4456",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4456",
           "slips": null,
           "govbot_title": "Authorizes school districts to award alternate high school diploma to certain students with disabilities.",
           "govbot_tags": [
@@ -6050,7 +6050,7 @@
         },
         {
           "id": "S4473",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4473",
           "slips": null,
           "govbot_title": "Requires employing board of education or contractor to notify DOE regarding termination of employee disqualified from employment.",
           "govbot_tags": [
@@ -6060,7 +6060,7 @@
         },
         {
           "id": "S4703",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4703",
           "slips": null,
           "govbot_title": "Establishes State Seal of Civic Readiness to recognize certain students attaining high level of proficiency in civics.",
           "govbot_tags": [
@@ -6069,7 +6069,7 @@
         },
         {
           "id": "S4801",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4801",
           "slips": null,
           "govbot_title": "Permits alternative student transportation providers to transport certain students in certain vehicles; regulates alternative student transportation providers; clarifies types of vehicles that may be used by school personnel to transport certain students.",
           "govbot_tags": [
@@ -6097,7 +6097,7 @@
       "bills": [
         {
           "id": "S3789",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3789",
           "slips": null,
           "govbot_title": "Establishes certain safety requirements concerning transportation network companies.",
           "govbot_tags": [
@@ -6106,7 +6106,7 @@
         },
         {
           "id": "A2380",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2380",
           "slips": null,
           "govbot_title": "Requires creation of license plates that allow disabled veterans to park in parking spots reserved for persons with disabilities.",
           "govbot_tags": [
@@ -6116,7 +6116,7 @@
         },
         {
           "id": "S159",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S159",
           "slips": null,
           "govbot_title": "Requires NJT to expand or modify routes and hours of certain transportation services and to solicit input from individuals diagnosed with autism.",
           "govbot_tags": [
@@ -6125,7 +6125,7 @@
         },
         {
           "id": "S308",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S308",
           "slips": null,
           "govbot_title": "Requires creation of license plates that allow disabled veterans to park in parking spots reserved for persons with disabilities.",
           "govbot_tags": [
@@ -6135,7 +6135,7 @@
         },
         {
           "id": "S496",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S496",
           "slips": null,
           "govbot_title": "Authorizes private inspection facilities to perform off-site vehicle inspections of one or more vehicles.",
           "govbot_tags": [
@@ -6144,7 +6144,7 @@
         },
         {
           "id": "S2931",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2931",
           "slips": null,
           "govbot_title": "Establishes requirements for on-demand micro transit programs operating in NJ.",
           "govbot_tags": [
@@ -6153,7 +6153,7 @@
         },
         {
           "id": "S4481",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4481",
           "slips": null,
           "govbot_title": "Permits driver's license to display license holder's blood type upon request.",
           "govbot_tags": [
@@ -6163,7 +6163,7 @@
         },
         {
           "id": "S4497",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4497",
           "slips": null,
           "govbot_title": "Requires safety inspection for certain motor vehicles.",
           "govbot_tags": [
@@ -6172,7 +6172,7 @@
         },
         {
           "id": "S4640",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4640",
           "slips": null,
           "govbot_title": "Requires municipal zoning compliance certification for DOT issuance or renewal of heliport and helipad facility licenses; directs DOT to verify compliance with applicable municipal zoning requirements prior to license approval.",
           "govbot_tags": [
@@ -6183,7 +6183,7 @@
         },
         {
           "id": "S4694",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4694",
           "slips": null,
           "govbot_title": "\"Michael Kidd-Gilchrist Driver Communication and Disability Protection Act\"; revises and establishes process for designating certain disorders through MVC.",
           "govbot_tags": [
@@ -6192,7 +6192,7 @@
         },
         {
           "id": "S4966",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4966",
           "slips": null,
           "govbot_title": "Modifies list of transportation infrastructure projects eligible to receive loans from NJ Infrastructure Bank for FY2027.",
           "govbot_tags": [
@@ -6308,7 +6308,7 @@
       "bills": [
         {
           "id": "A3218",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3218",
           "slips": null,
           "govbot_title": "Requires institutions of higher education to review employment history of prospective employees who will have regular contact with students to ascertain allegations of child abuse or sexual misconduct.",
           "govbot_tags": [
@@ -6317,7 +6317,7 @@
         },
         {
           "id": "A4723",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4723",
           "slips": null,
           "govbot_title": "Requires each public institution of higher education to develop menstrual plan.*",
           "govbot_tags": [
@@ -6327,7 +6327,7 @@
         },
         {
           "id": "A5049",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5049",
           "slips": null,
           "govbot_title": "Requires county college to notify graduating high school students of acceptance into local county college.",
           "govbot_tags": [
@@ -6336,7 +6336,7 @@
         },
         {
           "id": "A5382",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5382",
           "slips": null,
           "govbot_title": "Establishes New Jersey Student Emergency Aid Program in Higher Education Student Assistance Authority.",
           "govbot_tags": [
@@ -6345,7 +6345,7 @@
         },
         {
           "id": "A5552",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5552",
           "slips": null,
           "govbot_title": "Requires academic credits awarded by public institutions of higher education to remain valid and transferable for certain time periods.",
           "govbot_tags": [
@@ -6354,7 +6354,7 @@
         },
         {
           "id": "A5608",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5608",
           "slips": null,
           "govbot_title": "Establishes tuition reimbursement program for students enrolled in certain private postsecondary educational schools.",
           "govbot_tags": [
@@ -6363,7 +6363,7 @@
         },
         {
           "id": "S2216",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2216",
           "slips": null,
           "govbot_title": "Establishes tuition reimbursement program for students enrolled in certain private postsecondary educational schools.",
           "govbot_tags": [
@@ -6372,7 +6372,7 @@
         },
         {
           "id": "S2243",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2243",
           "slips": null,
           "govbot_title": "Requires each public institution of higher education to develop menstrual plan.*",
           "govbot_tags": [
@@ -6382,7 +6382,7 @@
         },
         {
           "id": "S4128",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4128",
           "slips": null,
           "govbot_title": "Requires county college to notify graduating high school students of acceptance into local county college.",
           "govbot_tags": [
@@ -6408,7 +6408,7 @@
       "bills": [
         {
           "id": "S2866",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2866",
           "slips": null,
           "govbot_title": "Requires appointment of State Dementia Services Coordinator; appropriates $150,000.",
           "govbot_tags": [
@@ -6417,7 +6417,7 @@
         },
         {
           "id": "S2975",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2975",
           "slips": null,
           "govbot_title": "Revises penalties for certain prohibited sales of tobacco and vapor products and smoking in indoor places.",
           "govbot_tags": [
@@ -6426,7 +6426,7 @@
         },
         {
           "id": "S3661",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3661",
           "slips": null,
           "govbot_title": "Requires local recreation departments, youth serving organizations, and youth camps to have defibrillators for youth athletic events.",
           "govbot_tags": [
@@ -6435,7 +6435,7 @@
         },
         {
           "id": "S4294",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4294",
           "slips": null,
           "govbot_title": "Requires Division of Family Development to establish and maintain registration system for persons applying for State's child care assistance program.",
           "govbot_tags": [
@@ -6444,7 +6444,7 @@
         },
         {
           "id": "S4395",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4395",
           "slips": null,
           "govbot_title": "Revises regulation of certain health care facilities.",
           "govbot_tags": [
@@ -6453,7 +6453,7 @@
         },
         {
           "id": "S4583",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4583",
           "slips": null,
           "govbot_title": "Requires organ procurement organizations to verify and rely on MVC, Donate Life NJ Registry, or other authorized donor registry or data source organ donor designations and identification information to verify organ and tissue donation status of donors.",
           "govbot_tags": [
@@ -6463,7 +6463,7 @@
         },
         {
           "id": "S4682",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4682",
           "slips": null,
           "govbot_title": "Requires DOH to establish database to record provision of newborn vitamin K injection.",
           "govbot_tags": [
@@ -6472,7 +6472,7 @@
         },
         {
           "id": "S4820",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4820",
           "slips": null,
           "govbot_title": "Permits licensed hospitals to establish micro-hospitals under certain conditions.",
           "govbot_tags": [
@@ -6482,7 +6482,7 @@
         },
         {
           "id": "S4857",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4857",
           "slips": null,
           "govbot_title": "Expands responsibilities of Newborn Screening Advisory Review Committee.",
           "govbot_tags": [
@@ -6491,7 +6491,7 @@
         },
         {
           "id": "S4893",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4893",
           "slips": null,
           "govbot_title": "Provides gross income tax credit for taxpayers who donate blood.",
           "govbot_tags": [
@@ -6501,7 +6501,7 @@
         },
         {
           "id": "SJR14",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/SJR14",
           "slips": null,
           "govbot_title": "Designates October of each year as \"Spina Bifida Awareness Month\" in New Jersey.",
           "govbot_tags": [
@@ -6527,7 +6527,7 @@
       "bills": [
         {
           "id": "A1054",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1054",
           "slips": null,
           "govbot_title": "Establishes \"Energy Infrastructure Public-Private Partnerships Program\"; amends law concerning NJ Infrastructure Bank; and authorizes certain energy contracts under \"Public School Contracts Law\" and \"Local Public Contracts Law\" up to 25 years.",
           "govbot_tags": [
@@ -6538,7 +6538,7 @@
         },
         {
           "id": "A5396",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5396",
           "slips": null,
           "govbot_title": "Requires data centers to submit water supply emergency contingency plan to DEP.",
           "govbot_tags": [
@@ -6548,7 +6548,7 @@
         },
         {
           "id": "A5602",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5602",
           "slips": null,
           "govbot_title": "Authorizes local authority that provides sewer service to reduce sewer connection fees for projects within certain distressed municipalities.",
           "govbot_tags": [
@@ -6557,13 +6557,13 @@
         },
         {
           "id": "A5621",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5621",
           "slips": null,
           "govbot_title": "Requires electric public utilities to notify customers of Residential Universal Bill Credit."
         },
         {
           "id": "A5636",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5636",
           "slips": null,
           "govbot_title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
           "govbot_tags": [
@@ -6572,13 +6572,13 @@
         },
         {
           "id": "S4677",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4677",
           "slips": null,
           "govbot_title": "Requires electric public utilities to notify customers of Residential Universal Bill Credit."
         },
         {
           "id": "S4729",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4729",
           "slips": null,
           "govbot_title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
           "govbot_tags": [
@@ -6604,7 +6604,7 @@
       "bills": [
         {
           "id": "A1486",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1486",
           "slips": null,
           "govbot_title": "\"Department of Commerce and Innovation Act\"; establishes Department of Commerce and Innovation as principal department in Executive Branch of State government; appropriates $1 million.",
           "govbot_tags": [
@@ -6613,7 +6613,7 @@
         },
         {
           "id": "A3257",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3257",
           "slips": null,
           "govbot_title": "Prohibits health insurance carriers from making certain changes to contract with network providers during term of contract.",
           "govbot_tags": [
@@ -6622,7 +6622,7 @@
         },
         {
           "id": "A3596",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3596",
           "slips": null,
           "govbot_title": "Establishes special enrollment period for covered persons whose in-network health care provider leaves network of health benefits plan.",
           "govbot_tags": [
@@ -6631,7 +6631,7 @@
         },
         {
           "id": "A5209",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5209",
           "slips": null,
           "govbot_title": "Requires health insurers to provide reason for denial of coverage for private duty nursing.",
           "govbot_tags": [
@@ -6640,7 +6640,7 @@
         },
         {
           "id": "A5633",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5633",
           "slips": null,
           "govbot_title": "Establishes standards for timely payment of clean claims by pharmacy benefits managers.",
           "govbot_tags": [
@@ -6649,7 +6649,7 @@
         },
         {
           "id": "A5737",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5737",
           "slips": null,
           "govbot_title": "Requires DOBI to conduct audits concerning payments made to pharmacy benefits managers and affiliates by pharmaceutical manufacturers.",
           "govbot_tags": [
@@ -6658,7 +6658,7 @@
         },
         {
           "id": "A5775",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5775",
           "slips": null,
           "govbot_title": "Requires carriers to provide covered persons with option to electronically send and receive correspondence.",
           "govbot_tags": [
@@ -6684,7 +6684,7 @@
       "bills": [
         {
           "id": "S1188",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1188",
           "slips": null,
           "govbot_title": "Revises law on extended employment programs for persons with disabilities.",
           "govbot_tags": [
@@ -6693,7 +6693,7 @@
         },
         {
           "id": "S1753",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1753",
           "slips": null,
           "govbot_title": "Establishes system for portable benefits for workers who provide services to consumers through contracting agents.",
           "govbot_tags": [
@@ -6702,7 +6702,7 @@
         },
         {
           "id": "S2372",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2372",
           "slips": null,
           "govbot_title": "Concerns workers' compensation insurance requirements for certain corporations and partnerships.",
           "govbot_tags": [
@@ -6712,7 +6712,7 @@
         },
         {
           "id": "S3604",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3604",
           "slips": null,
           "govbot_title": "Exempts certain workers and organizations from Domestic Workers' Bill of Rights.",
           "govbot_tags": [
@@ -6721,7 +6721,7 @@
         },
         {
           "id": "S4085",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4085",
           "slips": null,
           "govbot_title": "Establishes Second Chance Program in charge of providing opportunities through labor organizations for formerly incarcerated individuals.",
           "govbot_tags": [
@@ -6730,7 +6730,7 @@
         },
         {
           "id": "S4526",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4526",
           "slips": null,
           "govbot_title": "Eliminates certain requirements for employers following separations from employment.",
           "govbot_tags": [
@@ -6739,7 +6739,7 @@
         },
         {
           "id": "S4564",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4564",
           "slips": null,
           "govbot_title": "Provides employers with various tax incentives for hiring persons with disabilities under insurance premiums tax, corporation business tax and gross income tax.",
           "govbot_tags": [
@@ -6767,7 +6767,7 @@
       "bills": [
         {
           "id": "A920",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A920",
           "slips": null,
           "govbot_title": "Establishes education requirements for certain officers of State Board of Medical Examiners.",
           "govbot_tags": [
@@ -6777,7 +6777,7 @@
         },
         {
           "id": "A1155",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1155",
           "slips": null,
           "govbot_title": "Establishes State Parkinson's disease registry.",
           "govbot_tags": [
@@ -6786,7 +6786,7 @@
         },
         {
           "id": "A3723",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3723",
           "slips": null,
           "govbot_title": "Requires licensed health care professionals providing prenatal care to offer and screen, upon request, pregnant patients with history of depression for postpartum depression.",
           "govbot_tags": [
@@ -6795,7 +6795,7 @@
         },
         {
           "id": "A4240",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4240",
           "slips": null,
           "govbot_title": "Requires DOH to inspect reports of mold infestation in health care facilities.",
           "govbot_tags": [
@@ -6804,7 +6804,7 @@
         },
         {
           "id": "A4676",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4676",
           "slips": null,
           "govbot_title": "Requires public schools to develop policy for administration of nasal seizure rescue medication and use of manual vagus nerve stimulators for students with seizure disorder on emergent basis.",
           "govbot_tags": [
@@ -6815,7 +6815,7 @@
         },
         {
           "id": "A5375",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5375",
           "slips": null,
           "govbot_title": "Requires organ procurement organizations to verify and rely on MVC, Donate Life NJ Registry, or other authorized donor registry or data source organ donor designations and identification information to verify organ and tissue donation status of donors.",
           "govbot_tags": [
@@ -6825,7 +6825,7 @@
         },
         {
           "id": "A5677",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5677",
           "slips": null,
           "govbot_title": "Requires each local board of health to meet quarterly, complete certain training, conduct certain information sessions and authorizes creation of Advisory Boards of Health.",
           "govbot_tags": [
@@ -6834,7 +6834,7 @@
         },
         {
           "id": "A5705",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5705",
           "slips": null,
           "govbot_title": "Expands responsibilities of Newborn Screening Advisory Review Committee.",
           "govbot_tags": [
@@ -6843,7 +6843,7 @@
         },
         {
           "id": "S1403",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1403",
           "slips": null,
           "govbot_title": "Establishes education requirements for certain officers of State Board of Medical Examiners.",
           "govbot_tags": [
@@ -6853,7 +6853,7 @@
         },
         {
           "id": "S2250",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2250",
           "slips": null,
           "govbot_title": "Requires licensed health care professionals providing prenatal and postnatal care to provide education and screenings to certain patients.*",
           "govbot_tags": [
@@ -6880,7 +6880,7 @@
       "bills": [
         {
           "id": "A1607",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1607",
           "slips": null,
           "govbot_title": "Creates the \"Mold Safe Housing Act.\"",
           "govbot_tags": [
@@ -6889,7 +6889,7 @@
         },
         {
           "id": "A1766",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1766",
           "slips": null,
           "govbot_title": "Establishes guidelines for creditworthiness determinations concerning affordable housing programs.",
           "govbot_tags": [
@@ -6898,7 +6898,7 @@
         },
         {
           "id": "A2627",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2627",
           "slips": null,
           "govbot_title": "Prohibits residential landlord from imposing certain surcharges for rent payments.",
           "govbot_tags": [
@@ -6907,7 +6907,7 @@
         },
         {
           "id": "A5603",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5603",
           "slips": null,
           "govbot_title": "Concerns landlord responsibilities when charging for utilities consumed through shared meter.",
           "govbot_tags": [
@@ -6916,7 +6916,7 @@
         },
         {
           "id": "A5704",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5704",
           "slips": null,
           "govbot_title": "Concerns listing name of minor child on residential lease agreements and related court documents.",
           "govbot_tags": [
@@ -6925,7 +6925,7 @@
         },
         {
           "id": "A5733",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5733",
           "slips": null,
           "govbot_title": "Requires Office of Eviction Prevention to publish eviction-related data.",
           "govbot_tags": [
@@ -6934,7 +6934,7 @@
         },
         {
           "id": "S219",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S219",
           "slips": null,
           "govbot_title": "Establishes guidelines for creditworthiness determinations concerning affordable housing programs.",
           "govbot_tags": [
@@ -6960,13 +6960,13 @@
       "bills": [
         {
           "id": "A1948",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1948",
           "slips": null,
           "govbot_title": "Establishes permanent unit in Office of Emergency Management to address access and functional needs of residents related to disasters and emergencies."
         },
         {
           "id": "A2291",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2291",
           "slips": null,
           "govbot_title": "Establishes State stockpile of medicine and medical supplies; makes appropriation.",
           "govbot_tags": [
@@ -6976,13 +6976,13 @@
         },
         {
           "id": "A3278",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3278",
           "slips": null,
           "govbot_title": "Requires reporting of suicide attempts made by first responders."
         },
         {
           "id": "A3866",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3866",
           "slips": null,
           "govbot_title": "Establishes training curriculum for auxiliary police officers; awards auxiliary police officers additional service credits on civil service exam for years of service.",
           "govbot_tags": [
@@ -6992,7 +6992,7 @@
         },
         {
           "id": "A5311",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5311",
           "slips": null,
           "govbot_title": "Modifies procedures for parole release, early discharge from parole, and penalties for certain parole violations.",
           "govbot_tags": [
@@ -7001,13 +7001,13 @@
         },
         {
           "id": "A5510",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5510",
           "slips": null,
           "govbot_title": "Clarifies when MVP Emergency Alert may be issued."
         },
         {
           "id": "A5827",
-          "url": null,
+          "url": "https://pub.njleg.state.nj.us/leg-databases/",
           "slips": null,
           "govbot_title": "Establishes county and municipal automated license plate reader audit committee; requires annual audit of automated license plate reader use.",
           "govbot_tags": [
@@ -7033,7 +7033,7 @@
       "bills": [
         {
           "id": "A1077",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1077",
           "slips": null,
           "govbot_title": "Authorizes creation of additional urban enterprise zone.",
           "govbot_tags": [
@@ -7042,7 +7042,7 @@
         },
         {
           "id": "A1651",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1651",
           "slips": null,
           "govbot_title": "\"Mattress Stewardship Act;\" requires mattress producers to join stewardship organization and implement mattress stewardship program.",
           "govbot_tags": [
@@ -7051,19 +7051,19 @@
         },
         {
           "id": "A5110",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5110",
           "slips": null,
           "govbot_title": "Prohibits seller providing service or selling goods from charging surcharge to customer using debit card or gift card.*"
         },
         {
           "id": "A5335",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5335",
           "slips": null,
           "govbot_title": "Prohibits withholding of partial payments to contractors by public entities for de minimis clerical, administrative, or technical errors."
         },
         {
           "id": "A5517",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5517",
           "slips": null,
           "govbot_title": "Requires employers to provide certain notices to tipped workers.",
           "govbot_tags": [
@@ -7072,7 +7072,7 @@
         },
         {
           "id": "S4107",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4107",
           "slips": null,
           "govbot_title": "Prohibits seller providing service or selling goods from charging surcharge to customer using debit card or gift card.*",
           "govbot_tags": [
@@ -7098,13 +7098,13 @@
       "bills": [
         {
           "id": "A1653",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1653",
           "slips": null,
           "govbot_title": "Revises membership of New Jersey State Board of Cosmetology and Hairstyling."
         },
         {
           "id": "A4783",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4783",
           "slips": null,
           "govbot_title": "Revises polysomnography license fees.",
           "govbot_tags": [
@@ -7115,31 +7115,31 @@
         },
         {
           "id": "A4848",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4848",
           "slips": null,
           "govbot_title": "Provides for satisfaction of licensure requirements for certain elevator inspectors through certification as qualified elevator inspector."
         },
         {
           "id": "A4952",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4952",
           "slips": null,
           "govbot_title": "Establishes registration requirement for mold inspection and remediation contractors."
         },
         {
           "id": "A5448",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5448",
           "slips": null,
           "govbot_title": "Authorizes procedures under MLUL for identification and preservation of abandoned cemeteries."
         },
         {
           "id": "A5817",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5817",
           "slips": null,
           "govbot_title": "Requires local units to submit inspection and testing results of all elevator devices for inclusion on DCA Service Portal."
         },
         {
           "id": "S3445",
-          "url": null,
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3445",
           "slips": null,
           "govbot_title": "Modifies membership of New Jersey State Board of Cosmetology and Hairstyling.",
           "govbot_tags": [
@@ -7616,68 +7616,68 @@
       "source": "wapp.capitol.tn.gov"
     },
     {
-      "bills": [],
-      "chamber": "other",
-      "committee": "Legislative Management Committee",
-      "details_url": "https://le.utah.gov/Interim/2026/html/00003552.htm",
       "id": "ut-os-e1ac3fe3427c",
       "jurisdiction": "ut",
-      "location": "445 State Capitol, 350 State St, Salt Lake City, UT 84103",
-      "scheduled_display": "2026-12-08T13:00:00",
-      "scheduled_iso": "2026-12-08T13:00:00",
-      "source": "le.utah.gov",
-      "status": "scheduled",
-      "timezone": "America/Denver",
+      "chamber": "other",
+      "committee": "Legislative Management Committee",
       "title": "",
-      "witness_slip_url": null
+      "scheduled_iso": "2026-12-08T13:00:00",
+      "scheduled_display": "2026-12-08T13:00:00",
+      "timezone": "America/Denver",
+      "location": "445 State Capitol, 350 State St, Salt Lake City, UT 84103",
+      "status": "scheduled",
+      "bills": [],
+      "witness_slip_url": null,
+      "source": "le.utah.gov",
+      "details_url": "https://le.utah.gov/Interim/2026/html/00003552.htm"
     },
     {
-      "bills": [],
-      "chamber": "other",
-      "committee": "Executive Appropriations Committee",
-      "details_url": "https://le.utah.gov/Interim/2026/html/00002125.htm",
       "id": "ut-os-87605a79e5f1",
       "jurisdiction": "ut",
-      "location": "445 State Capitol, 350 State St, Salt Lake City, UT 84103",
-      "scheduled_display": "2026-12-08T13:30:00",
-      "scheduled_iso": "2026-12-08T13:30:00",
-      "source": "le.utah.gov",
-      "status": "scheduled",
-      "timezone": "America/Denver",
+      "chamber": "other",
+      "committee": "Executive Appropriations Committee",
       "title": "",
-      "witness_slip_url": null
+      "scheduled_iso": "2026-12-08T13:30:00",
+      "scheduled_display": "2026-12-08T13:30:00",
+      "timezone": "America/Denver",
+      "location": "445 State Capitol, 350 State St, Salt Lake City, UT 84103",
+      "status": "scheduled",
+      "bills": [],
+      "witness_slip_url": null,
+      "source": "le.utah.gov",
+      "details_url": "https://le.utah.gov/Interim/2026/html/00002125.htm"
     },
     {
-      "bills": [],
-      "chamber": "other",
-      "committee": "Legislative Audit Subcommittee",
-      "details_url": "https://le.utah.gov/Interim/2026/html/00002131.htm",
       "id": "ut-os-6911126130b5",
       "jurisdiction": "ut",
-      "location": "445 State Capitol, 350 State St, Salt Lake City, UT 84103",
-      "scheduled_display": "2026-12-08T15:30:00",
-      "scheduled_iso": "2026-12-08T15:30:00",
-      "source": "le.utah.gov",
-      "status": "scheduled",
-      "timezone": "America/Denver",
+      "chamber": "other",
+      "committee": "Legislative Audit Subcommittee",
       "title": "",
-      "witness_slip_url": null
+      "scheduled_iso": "2026-12-08T15:30:00",
+      "scheduled_display": "2026-12-08T15:30:00",
+      "timezone": "America/Denver",
+      "location": "445 State Capitol, 350 State St, Salt Lake City, UT 84103",
+      "status": "scheduled",
+      "bills": [],
+      "witness_slip_url": null,
+      "source": "le.utah.gov",
+      "details_url": "https://le.utah.gov/Interim/2026/html/00002131.htm"
     },
     {
-      "bills": [],
-      "chamber": "other",
-      "committee": "Elected Officials and Judicial Compensation Commission",
-      "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEEJC",
       "id": "ut-os-7e8e9f3c9914",
       "jurisdiction": "ut",
-      "location": "110 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
-      "scheduled_display": "2026-12-09T12:00:00",
-      "scheduled_iso": "2026-12-09T12:00:00",
-      "source": "le.utah.gov",
-      "status": "scheduled",
-      "timezone": "America/Denver",
+      "chamber": "other",
+      "committee": "Elected Officials and Judicial Compensation Commission",
       "title": "",
-      "witness_slip_url": null
+      "scheduled_iso": "2026-12-09T12:00:00",
+      "scheduled_display": "2026-12-09T12:00:00",
+      "timezone": "America/Denver",
+      "location": "110 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+      "status": "scheduled",
+      "bills": [],
+      "witness_slip_url": null,
+      "source": "le.utah.gov",
+      "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEEJC"
     },
     {
       "id": "va-os-3710ba279a11",
