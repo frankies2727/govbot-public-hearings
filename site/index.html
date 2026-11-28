@@ -647,13 +647,15 @@
   @keyframes mp-spin { to { transform: translate(-50%, -50%) rotate(1turn); } }
   @media (prefers-reduced-motion: reduce) { .mp-rainbow::before { animation: none; } }
   /* Our own down-arrow (the browser's is faint on dark paper): a chevron in the ink colour, so it reads as a dropdown. */
-  .mp-rainbow::after { content: ""; position: absolute; right: 17px; top: 50%; width: 14px; height: 9px; transform: translateY(-50%);
+  .mp-rainbow::after { content: ""; position: absolute; right: 16px; top: 50%; width: 20px; height: 12px; transform: translateY(-50%);
     background: var(--z-ink); pointer-events: none;
-    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5 7 7l5.5-5.5' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
-    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5 7 7l5.5-5.5' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat; }
-  .mp-select { -webkit-appearance: none; appearance: none; min-height: 42px; max-width: 100%; padding: 6px 42px 6px 14px; border: 0; border-radius: 999px; background-color: var(--z-card);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5 7 7l5.5-5.5' fill='none' stroke='black' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5 7 7l5.5-5.5' fill='none' stroke='black' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat; }
+  .mp-select { -webkit-appearance: none; appearance: none; min-height: 42px; max-width: 100%; padding: 6px 60px 6px 14px; border: 0; border-radius: 999px; background-color: var(--z-card);
     background-image: var(--z-pencil); color: var(--z-ink); font: inherit; font-size: 15px; font-weight: 500; cursor: pointer; }
   .mp-select:focus-visible { outline: 3px solid var(--z-ink); outline-offset: 3px; }
+  .mp-rainbow .mp-select { background-image: linear-gradient(var(--z-graphite-2), var(--z-graphite-2)), var(--z-pencil);
+    background-size: 1.5px 60%, auto; background-position: right 48px center, 0 0; background-repeat: no-repeat, repeat; }
   .mp-all { font-weight: 500; }
   .mp-all[hidden] { display: none; }
   .mp-all[aria-pressed="true"] { background-color: var(--mp-sel); color: var(--z-on-color); box-shadow: 3px 4px 0 var(--z-press); }
@@ -1451,7 +1453,7 @@
     main.append(eln("div", "h-committee", h.committee || "Committee"));
     // The published subject says what a meeting is about. Shown where the source gives a real one
     // (Chicago, Congress, and Open States' cleaned descriptions), at most three lines.
-    if (h.title && (h.jurisdiction === "chi" || h.jurisdiction === "usa" || h.id.includes("-os-") || h.id.startsWith("ia-hearing-")))
+    if (h.title && (h.jurisdiction === "chi" || h.jurisdiction === "usa" || h.id.includes("-os-") || /^(ia|ny)-hearing-/.test(h.id)))
       main.append(eln("div", "h-loc h-subject", h.title));
     if (h.location) main.append(eln("div", "h-loc", h.location));
 
@@ -1517,7 +1519,7 @@
   function linkLabel(h, href) {
     if (h.jurisdiction === "us") return "Read the rule ↗";
     if (/isvp|stream|live-proceedings|\/audio\//i.test(href)) return "Watch the hearing ↗";
-    if (/viewHearingPDF|notice/i.test(href)) return "Hearing notice ↗";
+    if (/viewHearingPDF|notice|sec=story/i.test(href)) return "Hearing notice ↗";
     if (/\.pdf(\b|$)|agenda/i.test(href)) return "Hearing agenda ↗";
     return "Hearing details ↗";
   }

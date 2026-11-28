@@ -101,7 +101,7 @@ jobs:
           set -uo pipefail
           out="$RUNNER_TEMP/out"; rm -rf "$out"; mkdir -p "$out"
           python3 scraper/main.py \
-            --jurisdictions il,wa,ma,ak,chi,ia,usa,us \
+            --jurisdictions il,wa,ma,ak,chi,ia,ny,usa,us \
             --output "$out/hearings.json" \
             --rss "$out/hearings.xml" \
             --rss-feeds-dir "$out/hearings" \

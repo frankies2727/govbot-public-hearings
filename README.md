@@ -33,10 +33,11 @@ Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io
 | 🏔️ | **Alaska** | [akleg.gov](https://akleg.gov) | Public opinion message |
 | 🏙️ | **Chicago City Council** (our first city) | [City Clerk eLMS API](https://api.chicityclerkelms.chicago.gov/swagger.json) | Written comment by each meeting's deadline (its Notice says where) |
 | 🌽 | **Iowa public hearings** | The Legislature's own [Public Hearings list](https://www.legis.iowa.gov/committees/publicHearings) | Sign up or comment on that hearing's own form while it's open |
+| 🗽 | **New York public hearings** | The Legislature's own [Public Hearing Calendar](https://nyassembly.gov/leg/?sh=hear) (Senate + Assembly standing committees) | Each hearing's notice says how to testify or send written testimony |
 | 🏛️ | **U.S. Congress** (House + Senate committees) | The Senate's own [schedule file](https://www.senate.gov/general/committee_schedules/hearings.xml) and the House Clerk's [committee repository](https://docs.house.gov/Committee/Calendar/ByWeek.aspx) (each meeting's published XML) | Contact your representative and senators; some committees take written statements for the record |
 | 🗺️ | **Every other state, DC, Guam & the U.S. Virgin Islands** | Each legislature's own website, read by [Open States](https://github.com/openstates/openstates-scrapers)' open-source meeting scrapers, which we run ourselves twice a day | The state's own way to take part (on the map) |
 
-Not yet: California, New York, DC, Indiana (their scrapers need a database dump or a free API key), Ohio and the Northern Mariana Islands (their scrapers get past bot protection, which we don't do), Michigan (its site blocks scrapers), Puerto Rico and American Samoa (no scraper yet).
+Not yet: California, DC, Indiana and New York's committee meetings (their scrapers need a database dump or a free API key; New York's public hearings are in), Ohio and the Northern Mariana Islands (their scrapers get past bot protection, which we don't do), Michigan (its site blocks scrapers), Puerto Rico and American Samoa (no scraper yet).
 
 ## 📦 Take the data
 

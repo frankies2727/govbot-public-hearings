@@ -349,3 +349,15 @@ and every place with hearings, the current one filled (`aria-current`) and scrol
 places (`pick` / `pickAll`). Pinned at the top of the panel (`.mp-jumpwrap`, sticky), short with its own thin scrollbar
 on wide screens (`.mp-jump` max-height 118px), one swipeable row on phones. `upcomingByPlace` gives both the same order
 and colours (`zc(gi)`).
+
+**New York public hearings (Nov 2026).** `parse_ny_public_hearings` reads the Legislature's joint Public Hearing Calendar
+(`NY_HEARINGS`, nyassembly.gov/leg/?sh=hear; posted all year): each `ul.hrg-info-list` gives committees + chairs (several =
+joint), subject, place, time and the hearing's own notice page (`details_url`, "Hearing notice ↗"; the notice PDF says
+how to testify). Dates have no year: the calendar's release date (`#hdr-date`) supplies it (a January hearing on a
+December calendar is next year). id `ny-hearing-<N>`. New York's committee meetings still need an Open States key.
+Fixture `raw/ny_public_hearings.html`; tests `NewYorkPublicHearings`. Other states checked (Nov 2026): most have no
+public-hearing list apart from their committee calendar; candidates for later are Oregon's keyless OData
+(`CommitteeAgendaItems` with MeetingType "Public Hearing"), Connecticut's per-hearing notices (unreachable from the
+sandbox), Vermont's announcements (free text), Nebraska's hearing schedule. Hawaii and the NY Senate site answer 403,
+Maryland's witness sign-up needs a login, and Texas's comment API needs a token + reCAPTCHA — all left out.
+The place dropdown's arrow (`.mp-rainbow::after`) is 20px and bold with a thin divider before it, so it reads as a dropdown.

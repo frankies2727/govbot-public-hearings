@@ -523,6 +523,30 @@ class IowaPublicHearings(unittest.TestCase):
         self.assertEqual(main.parse_ia_public_hearings("<html></html>"), [])
 
 
+class NewYorkPublicHearings(unittest.TestCase):
+    """The Legislature's joint Public Hearing Calendar (real page, Nov 25, 2026 release)."""
+    PAGE = (RAW / "ny_public_hearings.html").read_text()
+
+    def test_hearings_with_their_own_notice(self):
+        hs = main.parse_ny_public_hearings(self.PAGE)
+        self.assertEqual(len(hs), 5)
+        h = hs[0]
+        self.assertEqual(h["id"], "ny-hearing-1528")
+        self.assertEqual(h["scheduled_iso"], "2026-11-30T11:00:00")
+        self.assertEqual(h["chamber"], "joint")
+        self.assertTrue(h["committee"].startswith("Assembly Standing Committee on Codes · "))
+        self.assertEqual(h["title"], "Artificial Intelligence in Law Enforcement")
+        self.assertEqual(h["details_url"], "https://nyassembly.gov/comm/?id=7&sec=story&story=120001")
+        self.assertTrue(all(REQUIRED <= set(x) for x in hs))
+
+    def test_january_hearing_on_a_december_calendar_is_next_year(self):
+        page = self.PAGE.replace("November 25, 2026", "December 20, 2026").replace("<span>Nov. 30</span>", "<span>Jan. 6</span>", 1)
+        self.assertEqual(main.parse_ny_public_hearings(page)[0]["scheduled_iso"][:10], "2027-01-06")
+
+    def test_bad_page_is_empty(self):
+        self.assertEqual(main.parse_ny_public_hearings("<html></html>"), [])
+
+
 class CongressHearings(unittest.TestCase):
     """Real senate.gov and docs.house.gov files (Nov 2026)."""
 

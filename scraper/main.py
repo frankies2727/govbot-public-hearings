@@ -1222,6 +1222,65 @@ def fetch_ia_hearings():
 
 
 # --------------------------------------------------------------------------- #
+# New York public hearings (the Legislature's own Public Hearing Calendar)
+# --------------------------------------------------------------------------- #
+# The Senate and Assembly publish one joint calendar of standing-committee public hearings,
+# all year round: committees and chairs, subject, place, time, a contact, and each hearing's
+# own notice (which says how to testify or send written testimony). Dates carry no year;
+# the calendar's release date ("For Immediate Release … November 25, 2026") supplies it.
+NY_HEARINGS = "https://nyassembly.gov/leg/?sh=hear"
+
+
+def parse_ny_public_hearings(html_text):
+    """The Public Hearing Calendar page -> hearing records. Pure."""
+    t = html_text or ""
+    _MONTH_NUM = {m.lower(): i + 1 for i, m in enumerate(_MONTHS)}
+    rel = re.search(r'id="hdr-date">\s*([A-Za-z]+)\s+(\d+),\s*(\d{4})', t)
+    if not rel:
+        return []
+    rel_month, rel_year = _MONTH_NUM.get(rel.group(1)[:3].lower(), 1), int(rel.group(3))
+    out = []
+    for hid, item in re.findall(r'<ul class="hrg-info-list" id="hrg-(\d+)">(.*?)</ul>', t, re.S):
+        d = re.search(r'class="hrg-date">\s*<span>\s*([A-Za-z]+)\.?\s+(\d+)', item)
+        tm = re.search(r'time-txt[^>]*>\s*(\d{1,2}):(\d\d)\s*([AP])\.?\s*M', item, re.I)
+        if not d:
+            continue
+        mon = _MONTH_NUM.get(d.group(1)[:3].lower())
+        if not mon:
+            continue
+        year = rel_year + (1 if mon < rel_month - 6 else 0)   # a January hearing on a December calendar
+        if tm:
+            hh = int(tm.group(1)) % 12 + (12 if tm.group(3).upper() == "P" else 0)
+            iso, disp = f"{year}-{mon:02d}-{int(d.group(2)):02d}T{hh:02d}:{tm.group(2)}:00", None
+        else:
+            iso = f"{year}-{mon:02d}-{int(d.group(2)):02d}T00:00:00"
+            disp = f"{_MONTHS[mon - 1]} {int(d.group(2))}, {year} · time not posted"
+        comms = [_plain(c) for c in re.findall(r'class="comm-txt">(.*?)</div>', item, re.S)]
+        joint = any(c.lower().startswith("joint") for c in comms)
+        comms = [re.sub(r"^joint\s*-+\s*", "", c, flags=re.I) for c in comms if c]
+        title_m = re.search(r'class="hrg-txt cal-text">(.*?)<div class="hrg-link">', item, re.S)
+        notice = re.search(r'<div class="hrg-link"><a[^>]*href="([^"]+)"', item)
+        place = re.search(r'class="loca-txt cal-text">(.*?)</div>', item, re.S)
+        committee = " · ".join(comms) or "New York State Legislature"
+        out.append({
+            "id": f"ny-hearing-{hid}", "jurisdiction": "ny",
+            "chamber": "joint" if joint or len(comms) > 1 else _os_chamber(committee),
+            "committee": committee, "title": _plain(title_m.group(1)) if title_m else "",
+            "scheduled_iso": iso, "scheduled_display": disp or iso, "timezone": "America/New_York",
+            "location": _plain(place.group(1).replace("<br />", " ")) if place else "",
+            "status": "canceled" if re.search(r"cancel|postpone", item, re.I) else "scheduled",
+            "bills": [],
+            "details_url": urllib.parse.urljoin(NY_HEARINGS, html.unescape(notice.group(1))) if notice else NY_HEARINGS,
+            "witness_slip_url": None, "source": "nyassembly.gov",
+        })
+    return out
+
+
+def fetch_ny_hearings():
+    return parse_ny_public_hearings(fetch_text(NY_HEARINGS) or "")
+
+
+# --------------------------------------------------------------------------- #
 # U.S. Congress committee hearings (code "usa", Govbot's code for federal bills)
 # --------------------------------------------------------------------------- #
 # Read straight from each chamber's own published schedule, no key and no API:
@@ -2595,7 +2654,7 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,ia,usa,us",
+    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,ia,ny,usa,us",
                     help="Comma-separated codes to scrape live (default: il,wa,ma,ak,chi,us; "
                          "'us' = federal comment periods from Regulations.gov)")
     ap.add_argument("--from-fixtures", default=None,
@@ -2662,12 +2721,14 @@ def main():
             hearings.extend(fetch_chi(begin, end))
         if "ia" in codes:                    # Iowa's public hearings (its committee meetings come from Open States)
             hearings.extend(fetch_ia_hearings())
+        if "ny" in codes:                    # New York's joint public hearing calendar
+            hearings.extend(fetch_ny_hearings())
         if "usa" in codes:                   # Congress's committee hearings
             hearings.extend(fetch_usa(now))
         if "us" in codes:                    # federal rules open for comment
             hearings.extend(fetch_us(now.date()))
         source = ("ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + "
-                  "chicityclerkelms.chicago.gov + legis.iowa.gov + senate.gov + docs.house.gov + "
+                  "chicityclerkelms.chicago.gov + legis.iowa.gov + nyassembly.gov + senate.gov + docs.house.gov + "
                   "federalregister.gov (govbot scrape-hearings)")
         if args.os_events:
             # Places we scrape ourselves keep our own scraper; Open States fills the rest.
