@@ -68,7 +68,7 @@ yellow marker swipe; **every moving piece is its own small HTML box holding a st
 moves (transform/opacity, so the compositor animates it with zero repaint — animating `<g>`s inside one
 SVG repainted the whole hero card every frame); the lettering "writes" by sliding a clip window over it
 (`.fw-reveal`, two opposite transforms); paused
-off screen (IntersectionObserver), a still composed frame under reduced motion — and the live stats as **big
+off screen (IntersectionObserver), a still composed frame under reduced motion — and a green pencil-shaded **"See our data on GitHub ↗"** pill (`.hh-gh`, the octocat inline, → this repo) under the tagline, and the live stats as **big
 light numerals with caps labels**: "N upcoming hearings and open to public comment" — upcoming and
 comment-open — and "N jurisdictions"); then **01 Pick a place**, the map (see "Map-first layout" below). The federal kinds' sections take the colours in turn too (`fedN`). Status chips are small
 all-caps ink-outlined pills; colour only where it means something: "Comment due" yellow, "Public

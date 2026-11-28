@@ -84,6 +84,9 @@
   .hh-hero-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
   .hh-title { margin: 14px 0 0; font-size: 64px; line-height: 1.02; }
   .hh-tagline { margin: 14px 0 0; font-size: 24px; line-height: 1.35; color: var(--z-body); max-width: 34ch; }
+  /* "See our data on GitHub": the site's repo, a green pencil-shaded pill (dark ink text in both themes). */
+  .file-link.hh-gh { margin-top: 20px; padding: 9px 18px; font-size: 16px; font-weight: 500; background-color: var(--z-c2); color: var(--z-on-color) !important; }
+  .hh-gh svg { width: 20px; height: 20px; flex: none; fill: currentColor; }
   /* The America-250 fireworks, in pencil: bursts of ink rays (each ray drawn twice, the second a
      lighter, nudged sketch line) that shoot up and open over a hand-lettered "250th" with a yellow
      marker swipe. Built by drawFireworks() below. Every moving piece is its own small HTML box
@@ -798,6 +801,7 @@
         <p class="z-eyebrow">Hearings &amp; public comment</p>
         <h1 class="hh-title">Have your <span class="hh-circle">say.</span></h1>
         <p class="hh-tagline">Government isn’t just something you watch — you can participate.</p>
+        <a class="file-link hh-gh" href="https://github.com/frankies2727/govbot-public-hearings" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>See our data on GitHub ↗</a>
       </div>
       <div class="hh-art">
         <!-- Sketched while you watch: a pencil draws the lines, then the colour fills in (drawHearingRoom). -->
