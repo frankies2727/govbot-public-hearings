@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "HF319",
+      "slips": null,
+      "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%20319"
+    }
+  ],
+  "chamber": "house",
+  "committee": "Iowa Legislature public hearing",
+  "details_url": "https://www.legis.iowa.gov/committees/publicHearings?meetingID=39697&action=viewHearingPDF",
+  "first_seen": "2026-11-28T18:15:20Z",
+  "id": "ia-hearing-39697",
+  "jurisdiction": "ia",
+  "location": "RM 103 · Iowa State Capitol, Des Moines",
+  "scheduled_display": "2025-02-13T11:00:00",
+  "scheduled_iso": "2025-02-13T11:00:00",
+  "source": "legis.iowa.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing on HR 319",
+  "witness_slip_url": null
+}

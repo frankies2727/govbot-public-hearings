@@ -1,6 +1,6 @@
 {
   "license": "CC BY 4.0 (credit Govbot Public Hearings)",
-  "meetings": 3744,
+  "meetings": 3749,
   "places": [
     {
       "code": "ak",
@@ -86,7 +86,7 @@
       "code": "ia",
       "csv": "hearings-ia.csv",
       "ics": "ia.ics",
-      "meetings": 8,
+      "meetings": 13,
       "name": "Iowa",
       "upcoming": 8
     },

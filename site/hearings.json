@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T17:49:24Z",
-  "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + senate.gov + docs.house.gov + federalregister.gov (govbot scrape-hearings) + each legislature's own site via Open States' meeting scrapers",
+  "generated_at": "2026-11-28T18:15:20Z",
+  "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + legis.iowa.gov + senate.gov + docs.house.gov + federalregister.gov (govbot scrape-hearings) + each legislature's own site via Open States' meeting scrapers",
   "jurisdictions": [
     {
       "code": "us",

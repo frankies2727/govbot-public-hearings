@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "SF2472",
+      "slips": null,
+      "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF%202472"
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Iowa Legislature public hearing",
+  "details_url": "https://www.legis.iowa.gov/committees/publicHearings?meetingID=42707&action=viewHearingPDF",
+  "first_seen": "2026-11-28T18:15:20Z",
+  "id": "ia-hearing-42707",
+  "jurisdiction": "ia",
+  "location": "RM 103 · Iowa State Capitol, Des Moines",
+  "scheduled_display": "2026-04-21T09:00:00",
+  "scheduled_iso": "2026-04-21T09:00:00",
+  "source": "legis.iowa.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing on SF 2472",
+  "witness_slip_url": null
+}
