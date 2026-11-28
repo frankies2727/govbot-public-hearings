@@ -1,102 +1,7 @@
 {
   "bills": [
     {
-      "id": "SJ53",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB475",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB508",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ48",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB473",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB291",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB260",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ55",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB292",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ40",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB504",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ57",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ52",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB262",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5437",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5564",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5267",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB505",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB278",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB293",
+      "id": "HB5565",
       "slips": null,
       "url": null
     },
@@ -106,87 +11,47 @@
       "url": null
     },
     {
-      "id": "HB5441",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB343",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB434",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5430",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5438",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5566",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ49",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB296",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB506",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5565",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5542",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ39",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB261",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB294",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SJ56",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5310",
+      "id": "HJ40",
       "slips": null,
       "url": null
     },
     {
-      "id": "HJ42",
+      "id": "SJ55",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB278",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB473",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB475",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB505",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5264",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB260",
       "slips": null,
       "url": null
     },
@@ -196,19 +61,153 @@
       "url": null
     },
     {
+      "id": "HB5437",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5542",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB261",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB292",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ52",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB508",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5267",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5430",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5441",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ53",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5310",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ48",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB262",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB506",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB291",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB293",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB294",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ39",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB504",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ49",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ42",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5566",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB434",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB343",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ57",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5535",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5264",
+      "id": "HB5564",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB296",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5438",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Judiciary Committee Meeting (2C-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-177a46cbe23f",
   "jurisdiction": "ct",

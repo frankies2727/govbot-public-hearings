@@ -1,17 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5508",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5498",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5506",
+      "id": "SB444",
       "slips": null,
       "url": null
     },
@@ -21,47 +11,12 @@
       "url": null
     },
     {
+      "id": "SB448",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5499",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5502",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5500",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB449",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5504",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB445",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB444",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5501",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5505",
       "slips": null,
       "url": null
     },
@@ -71,7 +26,57 @@
       "url": null
     },
     {
+      "id": "HB5507",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5502",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB449",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB445",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5506",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5505",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5508",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5503",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5500",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5504",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5501",
       "slips": null,
       "url": null
     },
@@ -81,19 +86,13 @@
       "url": null
     },
     {
-      "id": "SB448",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5507",
+      "id": "HB5498",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Planning and Development Committee Public Hearing (2A-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PD",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-3e4b712a0f26",
   "jurisdiction": "ct",

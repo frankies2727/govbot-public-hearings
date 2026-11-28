@@ -11,9 +11,9 @@ UID:sc-os-2c32aa388dc6@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261130T153000Z
 SUMMARY:SC Education Oversight EIA and Improvement Mechanisms Subcommittee
-DESCRIPTION:https://www.scstatehouse.gov/meetings.php?chamber=J
+DESCRIPTION:https://www.scstatehouse.gov/agendas/126j16690.pdf
 LOCATION:Blatt Building\, 1105 Pendleton St\, Columbia\, SC 29201 Room 433
-URL:https://www.scstatehouse.gov/meetings.php?chamber=J
+URL:https://www.scstatehouse.gov/agendas/126j16690.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-os-d6dff62cc22b@govbot-public-hearings
@@ -21,10 +21,10 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261201T140000Z
 SUMMARY:Special Committee on Growth Transportation Infrastructure Subcommit
  tee
-DESCRIPTION:https://www.scstatehouse.gov/meetings.php?chamber=S
+DESCRIPTION:https://www.scstatehouse.gov/agendas/126s16687.pdf
 LOCATION:Gressette Building\, 1101 Pendleton St\, Columbia\, SC 29201 Room 
  308
-URL:https://www.scstatehouse.gov/meetings.php?chamber=S
+URL:https://www.scstatehouse.gov/agendas/126s16687.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-os-6dc0a993fbbe@govbot-public-hearings
@@ -32,54 +32,53 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261201T160000Z
 SUMMARY:Special Committee on Growth Environmental and Agricultural Protecti
  on Subcommittee
-DESCRIPTION:https://www.scstatehouse.gov/meetings.php?chamber=S
+DESCRIPTION:https://www.scstatehouse.gov/agendas/126s16688.pdf
 LOCATION:Virtual Meeting
-URL:https://www.scstatehouse.gov/meetings.php?chamber=S
+URL:https://www.scstatehouse.gov/agendas/126s16688.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-os-02b11168f595@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261208T160000Z
 SUMMARY:House of Representatives
-DESCRIPTION:https://www.scstatehouse.gov/meetings.php?chamber=H
+DESCRIPTION:
 LOCATION:South Carolina State House\, 1100 Gervais St\, Columbia\, SC 29208
  \, House Chamber
-URL:https://www.scstatehouse.gov/meetings.php?chamber=H
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-os-03188f1ef7e0@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:Government Efficiency and Legislative Oversight Committee
-DESCRIPTION:https://www.scstatehouse.gov/meetings.php?chamber=H
+DESCRIPTION:https://www.scstatehouse.gov/agendas/126h16683.pdf
 LOCATION:Blatt Building\, 1105 Pendleton St\, Columbia\, SC 29201 Room 110
-URL:https://www.scstatehouse.gov/meetings.php?chamber=H
+URL:https://www.scstatehouse.gov/agendas/126h16683.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-os-45af0a4ded1f@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:Full Ways and Means Committee
-DESCRIPTION:https://www.scstatehouse.gov/meetings.php?chamber=H
+DESCRIPTION:https://www.scstatehouse.gov/agendas/126h16686.pdf
 LOCATION:Blatt Building\, 1105 Pendleton St\, Columbia\, SC 29201 Room 521
-URL:https://www.scstatehouse.gov/meetings.php?chamber=H
+URL:https://www.scstatehouse.gov/agendas/126h16686.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-os-5499679bc455@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:3-M Full Committee
-DESCRIPTION:https://www.scstatehouse.gov/meetings.php?chamber=H
+DESCRIPTION:https://www.scstatehouse.gov/agendas/126h16674.pdf
 LOCATION:Blatt Building\, 1105 Pendleton St\, Columbia\, SC 29201 Room 427
-URL:https://www.scstatehouse.gov/meetings.php?chamber=H
+URL:https://www.scstatehouse.gov/agendas/126h16674.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:sc-os-66c092fdb672@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:L.C.I. Full Committee
-DESCRIPTION:https://www.scstatehouse.gov/meetings.php?chamber=H
+DESCRIPTION:https://www.scstatehouse.gov/agendas/126h16689.pdf
 LOCATION:Blatt Building\, 1105 Pendleton St\, Columbia\, SC 29201 Room 403
-URL:https://www.scstatehouse.gov/meetings.php?chamber=H
+URL:https://www.scstatehouse.gov/agendas/126h16689.pdf
 END:VEVENT
 END:VCALENDAR

@@ -1,19 +1,18 @@
 {
   "bills": [
     {
-      "id": "SB450",
+      "id": "HB5044",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5044",
+      "id": "SB450",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Health Committee Public Hearing (1D-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-2aa44c05ba18",
   "jurisdiction": "ct",

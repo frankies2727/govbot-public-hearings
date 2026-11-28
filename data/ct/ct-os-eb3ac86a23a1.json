@@ -1,7 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5278",
+      "id": "SB268",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB270",
       "slips": null,
       "url": null
     },
@@ -11,32 +16,17 @@
       "url": null
     },
     {
-      "id": "HB5274",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB268",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5276",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB271",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB269",
+      "id": "HB5274",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB270",
+      "id": "SB269",
       "slips": null,
       "url": null
     },
@@ -51,6 +41,16 @@
       "url": null
     },
     {
+      "id": "HB5276",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5278",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5279",
       "slips": null,
       "url": null
@@ -58,7 +58,6 @@
   ],
   "chamber": "other",
   "committee": "Labor and Public Employees Committee Public Hearing (2C-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=LAB",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-eb3ac86a23a1",
   "jurisdiction": "ct",

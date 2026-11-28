@@ -152,9 +152,7 @@ UID:mn-os-654df41c7a3b@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20270112T180000Z
 SUMMARY:Senate
-DESCRIPTION:The Senate will be in Session at 12:00 pm\nhttps://www.senate.m
- n/committees/committee_bio.php?ls=94&cmte_id=1
+DESCRIPTION:The Senate will be in Session at 12:00 pm
 LOCATION:Minnesota Senate Bldg. 1150
-URL:https://www.senate.mn/committees/committee_bio.php?ls=94&cmte_id=1
 END:VEVENT
 END:VCALENDAR

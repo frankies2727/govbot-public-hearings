@@ -1,22 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5476",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB424",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5474",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB426",
+      "id": "HB5477",
       "slips": null,
       "url": null
     },
@@ -26,12 +11,27 @@
       "url": null
     },
     {
+      "id": "SB426",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB424",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB423",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5477",
+      "id": "HB5474",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5476",
       "slips": null,
       "url": null
     },
@@ -43,7 +43,6 @@
   ],
   "chamber": "other",
   "committee": "Government Oversight Committee Public Hearing (1D-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GOS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-0a1b399b9715",
   "jurisdiction": "ct",

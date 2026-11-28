@@ -1,37 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5521",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5333",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5525",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB457",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5520",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5522",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5524",
       "slips": null,
       "url": null
     },
@@ -41,22 +11,12 @@
       "url": null
     },
     {
-      "id": "SB452",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5154",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB313",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB319",
+      "id": "HB5522",
       "slips": null,
       "url": null
     },
@@ -66,7 +26,22 @@
       "url": null
     },
     {
-      "id": "HB5526",
+      "id": "HB5521",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB319",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5154",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5520",
       "slips": null,
       "url": null
     },
@@ -74,11 +49,35 @@
       "id": "SB453",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "HB5526",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5333",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB452",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5524",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB457",
+      "slips": null,
+      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Environment Committee Meeting (2D-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ENV",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-7a126031e9fc",
   "jurisdiction": "ct",

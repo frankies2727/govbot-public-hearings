@@ -1,17 +1,12 @@
 {
   "bills": [
     {
+      "id": "HB5239",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5242",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5166",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5169",
       "slips": null,
       "url": null
     },
@@ -21,17 +16,27 @@
       "url": null
     },
     {
-      "id": "HB5165",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5168",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB190",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB195",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB93",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5169",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB238",
       "slips": null,
       "url": null
     },
@@ -46,27 +51,7 @@
       "url": null
     },
     {
-      "id": "SB191",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB93",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB238",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB195",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5239",
+      "id": "SB193",
       "slips": null,
       "url": null
     },
@@ -76,19 +61,33 @@
       "url": null
     },
     {
-      "id": "SB193",
+      "id": "SB239",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB239",
+      "id": "HB5166",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB191",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5165",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5168",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Health Committee Meeting (1D-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-ba259e9b38dc",
   "jurisdiction": "ct",

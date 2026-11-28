@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T05:50:20Z",
+  "generated_at": "2026-11-28T06:50:08Z",
   "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + senate.gov + docs.house.gov + federalregister.gov (govbot scrape-hearings) + each legislature's own site via Open States' meeting scrapers",
   "jurisdictions": [
     {
@@ -841,7 +841,6 @@
       "location": "S-116 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
       "source": "senate.gov"
     },
@@ -889,9 +888,9 @@
       "location": "SR-253 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=commerce&filename=commerce112426"
     },
     {
       "id": "usa-senate-338905",
@@ -911,7 +910,6 @@
           "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5289"
         }
       ],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
       "source": "senate.gov"
     },
@@ -933,9 +931,9 @@
           "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5239"
         }
       ],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=govtaff&filename=govtaff120126"
     },
     {
       "id": "usa-senate-338909",
@@ -949,6 +947,26 @@
       "location": "SD-366 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [
+        {
+          "id": "HR1682",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/1682"
+        },
+        {
+          "id": "HR2317",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2317"
+        },
+        {
+          "id": "HR2709",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2709"
+        },
+        {
+          "id": "HR900",
+          "slips": null,
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/900"
+        },
         {
           "id": "S462",
           "slips": null,
@@ -1000,11 +1018,6 @@
           "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4103"
         },
         {
-          "id": "HR2709",
-          "slips": null,
-          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2709"
-        },
-        {
           "id": "S4200",
           "slips": null,
           "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4200"
@@ -1033,26 +1046,11 @@
           "id": "S5608",
           "slips": null,
           "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5608"
-        },
-        {
-          "id": "HR900",
-          "slips": null,
-          "url": "https://www.congress.gov/bill/119th-congress/house-bill/900"
-        },
-        {
-          "id": "HR1682",
-          "slips": null,
-          "url": "https://www.congress.gov/bill/119th-congress/house-bill/1682"
-        },
-        {
-          "id": "HR2317",
-          "slips": null,
-          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2317"
         }
       ],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=energy&filename=energy120126"
     },
     {
       "id": "usa-senate-338910",
@@ -1066,7 +1064,6 @@
       "location": "TBA · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
       "source": "senate.gov"
     },
@@ -1082,7 +1079,6 @@
       "location": "S-216 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
       "source": "senate.gov"
     },
@@ -1114,7 +1110,6 @@
       "location": "TBA · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
       "source": "senate.gov"
     },
@@ -1130,7 +1125,6 @@
       "location": "SVC-217 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
       "source": "senate.gov"
     },
@@ -1146,7 +1140,6 @@
       "location": "SH-219 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
       "source": "senate.gov"
     },
@@ -1194,9 +1187,9 @@
       "location": "SR-253 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=commerce&filename=commerce120226"
     },
     {
       "id": "usa-senate-338908",
@@ -1210,9 +1203,9 @@
       "location": "SD-430 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=help&filename=help120226"
     },
     {
       "id": "usa-house-119610",
@@ -1274,7 +1267,6 @@
       "location": "SH-219 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
       "source": "senate.gov"
     },
@@ -1290,9 +1282,9 @@
       "location": "SD-G50 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=aging&filename=aging120226"
     },
     {
       "id": "usa-house-119622",
@@ -1322,9 +1314,9 @@
       "location": "SD-G50 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=armed&filename=armedA120326"
     },
     {
       "id": "usa-senate-338900",
@@ -1338,9 +1330,9 @@
       "location": "SD-106 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=banking&filename=banking120326"
     },
     {
       "id": "usa-senate-338906",
@@ -1354,9 +1346,9 @@
       "location": "CHOB-210 · U.S. Capitol complex, Washington, DC",
       "status": "scheduled",
       "bills": [],
-      "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
       "witness_slip_url": null,
-      "source": "senate.gov"
+      "source": "senate.gov",
+      "details_url": "https://www.senate.gov/isvp/?comm=csce&filename=csce120326"
     },
     {
       "id": "ak-joint-LEC-2026-11-30-130000",
@@ -1419,8 +1411,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "alison.legislature.state.al.us",
-      "details_url": "https://alison.legislature.state.al.us/todays-schedule"
+      "source": "alison.legislature.state.al.us"
     },
     {
       "id": "ar-os-e5f02e67e075",
@@ -1436,7 +1427,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F430%2F28074%2F28074.pdf"
     },
     {
       "id": "ar-os-6053ec81b70f",
@@ -1452,7 +1443,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F440%2F28043%2F28043.pdf"
     },
     {
       "id": "ar-os-7067122ce1a4",
@@ -1468,7 +1459,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F470%2F28081%2F28081.pdf"
     },
     {
       "id": "ar-os-101e4d54e616",
@@ -1484,7 +1475,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F906%2F28085%2F28085.pdf"
     },
     {
       "id": "ar-os-8d20123feb1a",
@@ -1500,7 +1491,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F930%2F28088%2F28088.pdf"
     },
     {
       "id": "ar-os-e65017e7cf99",
@@ -1516,7 +1507,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F920%2F28087%2F28087.pdf"
     },
     {
       "id": "ar-os-f6cf89cf9e94",
@@ -1532,7 +1523,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F910%2F28086%2F28086.pdf"
     },
     {
       "id": "ar-os-0a92b29cc130",
@@ -1548,7 +1539,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F905%2F28089%2F28089.pdf"
     },
     {
       "id": "ar-os-e542237dda87",
@@ -1564,7 +1555,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F550%2F28075%2F28075.pdf"
     },
     {
       "id": "ar-os-9796528fb25b",
@@ -1579,8 +1570,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-ec6796a9922d",
@@ -1595,8 +1585,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-720da71e5e95",
@@ -1612,7 +1601,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F004%2F28064%2F28064.pdf"
     },
     {
       "id": "ar-os-c1acddb1c6c6",
@@ -1628,7 +1617,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "details_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2FMeeting+Attachments%2F008%2F28084%2F28084.pdf"
     },
     {
       "id": "ar-os-9188febac845",
@@ -1643,8 +1632,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-6693785c2708",
@@ -1659,8 +1647,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-419adc2052c9",
@@ -1675,8 +1662,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-536ce0a044cf",
@@ -1691,8 +1677,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-c11860f5ef12",
@@ -1707,8 +1692,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-1e91d8ea0baa",
@@ -1723,8 +1707,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-b01a4841c978",
@@ -1739,8 +1722,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-a669a4690cc0",
@@ -1755,8 +1737,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-7db874aa4f88",
@@ -1771,8 +1752,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "ar-os-5396b31bc61f",
@@ -1787,8 +1767,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.arkleg.state.ar.us",
-      "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings"
+      "source": "www.arkleg.state.ar.us"
     },
     {
       "id": "az-os-af74ad76aa63",
@@ -1804,7 +1783,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "details_url": "https://www.azleg.gov/iagenda/House/12012026legislativestudycommitteesecurestatementalhealthfacilities.1.2r.pdf"
     },
     {
       "id": "az-os-f6591bcc74ae",
@@ -1819,8 +1798,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-8c35e52a0913",
@@ -1835,8 +1813,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-3f955e34214a",
@@ -1851,8 +1828,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-7b36abbc6296",
@@ -1867,8 +1843,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-973dc7a22c86",
@@ -1883,8 +1858,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-acedb458b5b8",
@@ -1899,8 +1873,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-f86d9004b486",
@@ -1915,8 +1888,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-d96fde5b9339",
@@ -1931,8 +1903,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-4863d437a975",
@@ -1947,8 +1918,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-9a62539bec2d",
@@ -1963,8 +1933,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-5ad7882cf6e3",
@@ -1979,8 +1948,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-1f3ed9c5029b",
@@ -1995,8 +1963,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-7c130071b21e",
@@ -2011,8 +1978,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-4b3d4e3c5501",
@@ -2027,8 +1993,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-ba80964d7294",
@@ -2043,8 +2008,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-fabfb51cdc08",
@@ -2059,8 +2023,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-7cced0622700",
@@ -2075,8 +2038,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-a212167fa075",
@@ -2091,8 +2053,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-1abdba175096",
@@ -2107,8 +2068,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-37e78715b8dc",
@@ -2123,8 +2083,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-cb2ecef0a04b",
@@ -2139,8 +2098,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-3e7bd7bca845",
@@ -2155,8 +2113,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-abe11b0e65dd",
@@ -2171,8 +2128,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-35b568c558bb",
@@ -2187,8 +2143,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-5aa4d377ab38",
@@ -2203,8 +2158,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-c3a563a40fbc",
@@ -2219,8 +2173,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-041accfb4e6d",
@@ -2235,8 +2188,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-25c8875c6be5",
@@ -2251,8 +2203,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-4c8b5ef6838a",
@@ -2267,8 +2218,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-77c2b167b183",
@@ -2283,8 +2233,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-d309cd939d1b",
@@ -2299,8 +2248,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-6ce308fd1bdd",
@@ -2315,8 +2263,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-b067fabc1ffd",
@@ -2331,8 +2278,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-e3b70959a93c",
@@ -2347,8 +2293,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-3bd38710d9b9",
@@ -2363,8 +2308,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-ff6cba070488",
@@ -2379,8 +2323,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-529dfe4f253c",
@@ -2395,8 +2338,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-a59489c63d68",
@@ -2411,8 +2353,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-058afe670228",
@@ -2427,8 +2368,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-3066853ef6ba",
@@ -2443,8 +2383,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-b8afc8aecd2e",
@@ -2459,8 +2398,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-fe9f397247bd",
@@ -2475,8 +2413,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-c5948e1770ab",
@@ -2491,8 +2428,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-a6024a183d47",
@@ -2507,8 +2443,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-1624779c9c8b",
@@ -2523,8 +2458,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-bfb842017ff0",
@@ -2539,8 +2473,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-5c4dd336f26d",
@@ -2555,8 +2488,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-2f7a2f1ac193",
@@ -2571,8 +2503,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-ffc19a4afd02",
@@ -2587,8 +2518,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-2eec3809719c",
@@ -2603,8 +2533,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-726fc226fc85",
@@ -2619,8 +2548,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "az-os-ac0ba4263bca",
@@ -2635,8 +2563,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.azleg.gov",
-      "details_url": "https://www.azleg.gov/Alis-Today/"
+      "source": "www.azleg.gov"
     },
     {
       "id": "chi-482a33d0-aade-f111-84ea-001dd80b58e5",
@@ -3620,8 +3547,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-e328b1a2eabc",
@@ -3636,8 +3562,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-7d5b761b0c81",
@@ -3652,8 +3577,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-1ed72d2377a9",
@@ -3668,8 +3592,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-059f667fb89d",
@@ -3684,8 +3607,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-bfcafc125be6",
@@ -3700,8 +3622,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=FIN"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-736564e2f5b1",
@@ -3716,8 +3637,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-8bd5df58053a",
@@ -3732,8 +3652,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HS"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-2aa15acfa40f",
@@ -3748,8 +3667,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-b673fc851559",
@@ -3764,8 +3682,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-a82dc6cb492a",
@@ -3780,8 +3697,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-200fb7d86d9d",
@@ -3796,8 +3712,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-398818f1a7e8",
@@ -3812,8 +3727,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-09ffd9d8470a",
@@ -3828,8 +3742,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-0516d08a8d72",
@@ -3844,8 +3757,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-06c36eaa37bd",
@@ -3860,8 +3772,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-c8109aec9909",
@@ -3876,8 +3787,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-184b7461dac3",
@@ -3892,8 +3802,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-0f94a92576e6",
@@ -3908,8 +3817,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-5866a360d81b",
@@ -3924,8 +3832,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-81b2f8fd8241",
@@ -3940,8 +3847,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ct-os-95593bb617ab",
@@ -3956,8 +3862,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.cga.ct.gov",
-      "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR"
+      "source": "www.cga.ct.gov"
     },
     {
       "id": "ga-os-57bcf90e308f",
@@ -3972,8 +3877,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.ga.gov",
-      "details_url": "https://www.legis.ga.gov/schedule/all"
+      "source": "www.legis.ga.gov"
     },
     {
       "id": "ga-os-b8b42443e98e",
@@ -3989,7 +3893,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.legis.ga.gov",
-      "details_url": "https://www.legis.ga.gov/schedule/all"
+      "details_url": "https://www.legis.ga.gov/api/document/agendas/house/Appropriations%2FJoint%20House%20and%20Senate%20Appropriations%20Committe%20Meeting%2012-17-26.pdf"
     },
     {
       "id": "gu-os-dd0ae10bfc80",
@@ -4010,8 +3914,7 @@
         }
       ],
       "witness_slip_url": null,
-      "source": "guamlegislature.com",
-      "details_url": "https://guamlegislature.com/index/schedules-and-calendars/"
+      "source": "guamlegislature.com"
     },
     {
       "id": "gu-os-c4b6ef52453f",
@@ -4032,8 +3935,7 @@
         }
       ],
       "witness_slip_url": null,
-      "source": "guamlegislature.com",
-      "details_url": "https://guamlegislature.com/index/schedules-and-calendars/"
+      "source": "guamlegislature.com"
     },
     {
       "id": "gu-os-f4e208802acb",
@@ -4048,8 +3950,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "guamlegislature.com",
-      "details_url": "https://guamlegislature.com/index/schedules-and-calendars/"
+      "source": "guamlegislature.com"
     },
     {
       "id": "gu-os-3d9381ef630b",
@@ -4070,8 +3971,7 @@
         }
       ],
       "witness_slip_url": null,
-      "source": "guamlegislature.com",
-      "details_url": "https://guamlegislature.com/index/schedules-and-calendars/"
+      "source": "guamlegislature.com"
     },
     {
       "id": "gu-os-117f6a233685",
@@ -4086,8 +3986,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "guamlegislature.com",
-      "details_url": "https://guamlegislature.com/index/schedules-and-calendars/"
+      "source": "guamlegislature.com"
     },
     {
       "id": "hi-os-ca1e7c53a9e3",
@@ -4103,7 +4002,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.capitol.hawaii.gov",
-      "details_url": "https://www.capitol.hawaii.gov/session/upcominghearingsfiltered.aspx"
+      "details_url": "https://www.capitol.hawaii.gov/sessions/session2026/hearingnotices/HEARING_CPC-JUD-TRN_12-02-26_INFO_.HTM"
     },
     {
       "id": "ia-os-7e1ff87de71e",
@@ -4118,8 +4017,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.iowa.gov",
-      "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=H&bDate=11/18/2026&eDate=12/08/2026"
+      "source": "www.legis.iowa.gov"
     },
     {
       "id": "ia-os-e89edb619a11",
@@ -4134,8 +4032,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.iowa.gov",
-      "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=S&bDate=11/18/2026&eDate=12/08/2026"
+      "source": "www.legis.iowa.gov"
     },
     {
       "id": "ia-os-0c44b12ce9d0",
@@ -4150,8 +4047,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.iowa.gov",
-      "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=S&bDate=11/18/2026&eDate=12/08/2026"
+      "source": "www.legis.iowa.gov"
     },
     {
       "id": "ia-os-65c4597cf594",
@@ -4166,8 +4062,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.iowa.gov",
-      "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=H&bDate=11/18/2026&eDate=12/08/2026"
+      "source": "www.legis.iowa.gov"
     },
     {
       "id": "ia-os-86066317fb81",
@@ -4182,8 +4077,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.iowa.gov",
-      "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=H&bDate=11/18/2026&eDate=12/08/2026"
+      "source": "www.legis.iowa.gov"
     },
     {
       "id": "ia-os-f6a1319384bc",
@@ -4198,8 +4092,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.iowa.gov",
-      "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=S&bDate=11/18/2026&eDate=12/08/2026"
+      "source": "www.legis.iowa.gov"
     },
     {
       "id": "ia-os-0f86309f437f",
@@ -4214,8 +4107,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.iowa.gov",
-      "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=H&bDate=11/18/2026&eDate=12/08/2026"
+      "source": "www.legis.iowa.gov"
     },
     {
       "id": "ia-os-ab46add0b712",
@@ -4230,8 +4122,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.legis.iowa.gov",
-      "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=S&bDate=11/18/2026&eDate=12/08/2026"
+      "source": "www.legis.iowa.gov"
     },
     {
       "id": "il-house-3222-23238",
@@ -4279,7 +4170,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "apps.legislature.ky.gov",
-      "details_url": "https://apps.legislature.ky.gov/legislativecalendar"
+      "details_url": "https://apps.legislature.ky.gov/CommitteeDocuments/45764/12-1-26%20Agenda.pdf"
     },
     {
       "id": "ky-os-e252042a83f4",
@@ -4295,7 +4186,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "apps.legislature.ky.gov",
-      "details_url": "https://apps.legislature.ky.gov/legislativecalendar"
+      "details_url": "https://apps.legislature.ky.gov/CommitteeDocuments/45764/12-1-26%20Agenda.pdf"
     },
     {
       "id": "ky-os-503bd664f621",
@@ -4310,8 +4201,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "apps.legislature.ky.gov",
-      "details_url": "https://apps.legislature.ky.gov/legislativecalendar"
+      "source": "apps.legislature.ky.gov"
     },
     {
       "id": "ky-os-799636e6ac4a",
@@ -4326,8 +4216,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "apps.legislature.ky.gov",
-      "details_url": "https://apps.legislature.ky.gov/legislativecalendar"
+      "source": "apps.legislature.ky.gov"
     },
     {
       "id": "la-os-51869be226f7",
@@ -4566,7 +4455,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "legislature.maine.gov",
-      "details_url": "https://legislature.maine.gov/committee/#Committees/LC"
+      "details_url": "https://legislature.maine.gov/audio/#334?event=97904&startDate=2026-12-03T13:30:00-05:00"
     },
     {
       "id": "mn-os-7f79159bea39",
@@ -4821,8 +4710,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.senate.mn",
-      "details_url": "https://www.senate.mn/committees/committee_bio.php?ls=94&cmte_id=1"
+      "source": "www.senate.mn"
     },
     {
       "id": "ms-os-02f7412d4afa",
@@ -4837,8 +4725,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "billstatus.ls.state.ms.us",
-      "details_url": "https://billstatus.ls.state.ms.us/htms/h_sched.htm"
+      "source": "billstatus.ls.state.ms.us"
     },
     {
       "id": "mt-os-d15dcfb80bdb",
@@ -5157,8 +5044,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "nebraskalegislature.gov",
-      "details_url": "https://nebraskalegislature.gov/calendar/calendar.php"
+      "source": "nebraskalegislature.gov"
     },
     {
       "id": "ne-os-4f471603805c",
@@ -5173,8 +5059,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "nebraskalegislature.gov",
-      "details_url": "https://nebraskalegislature.gov/calendar/calendar.php"
+      "source": "nebraskalegislature.gov"
     },
     {
       "id": "ne-os-4c407d6ddcc5",
@@ -5189,8 +5074,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "nebraskalegislature.gov",
-      "details_url": "https://nebraskalegislature.gov/calendar/calendar.php"
+      "source": "nebraskalegislature.gov"
     },
     {
       "id": "ne-os-363b756052b6",
@@ -5205,8 +5089,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "nebraskalegislature.gov",
-      "details_url": "https://nebraskalegislature.gov/calendar/calendar.php"
+      "source": "nebraskalegislature.gov"
     },
     {
       "id": "nh-os-7eda095b5106",
@@ -5893,8 +5776,7 @@
       "status": "canceled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "source": "www.njleg.state.nj.us"
     },
     {
       "id": "nj-os-61859f8867b8",
@@ -6051,7 +5933,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-11-30-10:00:00/SCU/Hearing"
     },
     {
       "id": "nj-os-fc076f8a0d6f",
@@ -6199,7 +6081,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-11-30-10:00:00/SED/Meeting"
     },
     {
       "id": "nj-os-a2122547f8a4",
@@ -6320,7 +6202,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-11-30-11:00:00/STR/Meeting"
     },
     {
       "id": "nj-os-0562067f6442",
@@ -6335,8 +6217,7 @@
       "status": "canceled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "source": "www.njleg.state.nj.us"
     },
     {
       "id": "nj-os-1f15a42e0f43",
@@ -6351,8 +6232,7 @@
       "status": "canceled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "source": "www.njleg.state.nj.us"
     },
     {
       "id": "nj-os-2ce65ce0f88b",
@@ -6367,8 +6247,7 @@
       "status": "canceled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "source": "www.njleg.state.nj.us"
     },
     {
       "id": "nj-os-82254a570bc1",
@@ -6383,8 +6262,7 @@
       "status": "canceled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "source": "www.njleg.state.nj.us"
     },
     {
       "id": "nj-os-900db00347bb",
@@ -6399,8 +6277,7 @@
       "status": "canceled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "source": "www.njleg.state.nj.us"
     },
     {
       "id": "nj-os-f382c992164f",
@@ -6415,8 +6292,7 @@
       "status": "canceled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "source": "www.njleg.state.nj.us"
     },
     {
       "id": "nj-os-2d48f64e2c74",
@@ -6516,7 +6392,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/AHI/Meeting"
     },
     {
       "id": "nj-os-60f83beb3cc5",
@@ -6635,7 +6511,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/SHH/Meeting"
     },
     {
       "id": "nj-os-95b34b19df56",
@@ -6712,7 +6588,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/ATU/Meeting"
     },
     {
       "id": "nj-os-9dc80137a07a",
@@ -6792,7 +6668,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/AFI/Meeting"
     },
     {
       "id": "nj-os-ce164be6285d",
@@ -6875,7 +6751,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/SLA/Meeting"
     },
     {
       "id": "nj-os-e9c786d16993",
@@ -6988,7 +6864,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/AHE/Meeting"
     },
     {
       "id": "nj-os-d686e4c551b9",
@@ -7068,7 +6944,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-13:00:00/AHO/Meeting"
     },
     {
       "id": "nj-os-dbf63bdc7419",
@@ -7141,7 +7017,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-13:00:00/APS/Meeting"
     },
     {
       "id": "nj-os-182f7015e5e5",
@@ -7206,7 +7082,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-14:00:00/ACE/Meeting"
     },
     {
       "id": "nj-os-4d27b22e6414",
@@ -7273,7 +7149,7 @@
       ],
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
-      "details_url": "http://www.njleg.state.nj.us/downloads.asp"
+      "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-14:00:00/ARP/Meeting"
     },
     {
       "id": "ok-os-6e6e5e4fed7a",
@@ -7320,8 +7196,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.palegis.us",
-      "details_url": "https://www.palegis.us/house/committees/meeting-schedule"
+      "source": "www.palegis.us"
     },
     {
       "id": "pa-os-ec457d514faf",
@@ -7336,8 +7211,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.palegis.us",
-      "details_url": "https://www.palegis.us/senate/committees/meeting-schedule"
+      "source": "www.palegis.us"
     },
     {
       "id": "pa-os-811ae885a3b9",
@@ -7352,8 +7226,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.palegis.us",
-      "details_url": "https://www.palegis.us/house/committees/meeting-schedule"
+      "source": "www.palegis.us"
     },
     {
       "id": "pa-os-abc6df7b2e59",
@@ -7368,8 +7241,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.palegis.us",
-      "details_url": "https://www.palegis.us/senate/committees/meeting-schedule"
+      "source": "www.palegis.us"
     },
     {
       "id": "pa-os-7198b0270163",
@@ -7384,8 +7256,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.palegis.us",
-      "details_url": "https://www.palegis.us/house/committees/meeting-schedule"
+      "source": "www.palegis.us"
     },
     {
       "id": "pa-os-ddf6fa02f454",
@@ -7400,8 +7271,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.palegis.us",
-      "details_url": "https://www.palegis.us/senate/committees/meeting-schedule"
+      "source": "www.palegis.us"
     },
     {
       "id": "ri-os-43f0bdde517b",
@@ -7465,7 +7335,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.scstatehouse.gov",
-      "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=J"
+      "details_url": "https://www.scstatehouse.gov/agendas/126j16690.pdf"
     },
     {
       "id": "sc-os-d6dff62cc22b",
@@ -7481,7 +7351,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.scstatehouse.gov",
-      "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=S"
+      "details_url": "https://www.scstatehouse.gov/agendas/126s16687.pdf"
     },
     {
       "id": "sc-os-6dc0a993fbbe",
@@ -7497,7 +7367,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.scstatehouse.gov",
-      "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=S"
+      "details_url": "https://www.scstatehouse.gov/agendas/126s16688.pdf"
     },
     {
       "id": "sc-os-02b11168f595",
@@ -7512,8 +7382,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "www.scstatehouse.gov",
-      "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=H"
+      "source": "www.scstatehouse.gov"
     },
     {
       "id": "sc-os-03188f1ef7e0",
@@ -7529,7 +7398,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.scstatehouse.gov",
-      "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=H"
+      "details_url": "https://www.scstatehouse.gov/agendas/126h16683.pdf"
     },
     {
       "id": "sc-os-45af0a4ded1f",
@@ -7545,7 +7414,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.scstatehouse.gov",
-      "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=H"
+      "details_url": "https://www.scstatehouse.gov/agendas/126h16686.pdf"
     },
     {
       "id": "sc-os-5499679bc455",
@@ -7561,7 +7430,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.scstatehouse.gov",
-      "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=H"
+      "details_url": "https://www.scstatehouse.gov/agendas/126h16674.pdf"
     },
     {
       "id": "sc-os-66c092fdb672",
@@ -7577,7 +7446,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "www.scstatehouse.gov",
-      "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=H"
+      "details_url": "https://www.scstatehouse.gov/agendas/126h16689.pdf"
     },
     {
       "id": "sd-os-296431d9b440",
@@ -7624,8 +7493,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/12/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "tn-os-8e8c50ab33a7",
@@ -7640,8 +7508,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "tn-os-57c3676ce8a8",
@@ -7656,8 +7523,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "tn-os-3bf8aa2409f6",
@@ -7672,8 +7538,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "tn-os-bbc493b78552",
@@ -7688,8 +7553,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "tn-os-d8c3c176e2c2",
@@ -7704,8 +7568,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "tn-os-71092ab9c2c9",
@@ -7720,8 +7583,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "tn-os-2e9202123544",
@@ -7736,8 +7598,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "tn-os-39991143473b",
@@ -7752,8 +7613,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "wapp.capitol.tn.gov",
-      "details_url": "https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/2026"
+      "source": "wapp.capitol.tn.gov"
     },
     {
       "id": "ut-os-e1ac3fe3427c",
@@ -7769,7 +7629,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "le.utah.gov",
-      "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEMAN"
+      "details_url": "https://le.utah.gov/Interim/2026/html/00003552.htm"
     },
     {
       "id": "ut-os-87605a79e5f1",
@@ -7785,7 +7645,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "le.utah.gov",
-      "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=APPEXE"
+      "details_url": "https://le.utah.gov/Interim/2026/html/00002125.htm"
     },
     {
       "id": "ut-os-6911126130b5",
@@ -7801,7 +7661,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "le.utah.gov",
-      "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEAUD"
+      "details_url": "https://le.utah.gov/Interim/2026/html/00002131.htm"
     },
     {
       "id": "ut-os-7e8e9f3c9914",
@@ -7833,7 +7693,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "details_url": "https://lis.blob.core.windows.net/files/1232213.PDF"
     },
     {
       "id": "va-os-dbeed7c1e7fa",
@@ -7848,8 +7708,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-a9bcc0e00f1b",
@@ -7864,8 +7723,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-9791fe753442",
@@ -7881,7 +7739,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "details_url": "https://lis.blob.core.windows.net/files/1232122.PDF"
     },
     {
       "id": "va-os-4d74fe2de6ad",
@@ -7896,8 +7754,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-ea3817d1d7ad",
@@ -7912,8 +7769,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-598acef03531",
@@ -7928,8 +7784,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-56db1bba6ef7",
@@ -7944,8 +7799,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-2451ef5982e3",
@@ -7960,8 +7814,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-6ae60eb662b2",
@@ -7976,8 +7829,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-b9965e01e925",
@@ -7992,8 +7844,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-81417080b4e3",
@@ -8008,8 +7859,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-dfb3f76d914d",
@@ -8024,8 +7874,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-4ce1513c6556",
@@ -8040,8 +7889,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-907a3bcf9b51",
@@ -8056,8 +7904,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-4cb24b964871",
@@ -8073,7 +7920,7 @@
       "bills": [],
       "witness_slip_url": null,
       "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "details_url": "https://lis.blob.core.windows.net/files/1232212.PDF"
     },
     {
       "id": "va-os-2188f6a62f8e",
@@ -8088,8 +7935,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-34db2425df17",
@@ -8104,8 +7950,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-c1eb813235a4",
@@ -8120,8 +7965,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-cb3271489e9c",
@@ -8136,8 +7980,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-00f21a540afc",
@@ -8152,8 +7995,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-107f4c4b6baf",
@@ -8168,8 +8010,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-7a3488ef4628",
@@ -8184,8 +8025,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-b542804d88c9",
@@ -8200,8 +8040,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-44dff02b6237",
@@ -8216,8 +8055,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-3045bb107651",
@@ -8232,8 +8070,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-b2364c84e1c4",
@@ -8248,8 +8085,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-cce679ea6e1c",
@@ -8264,8 +8100,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-0276571c5f11",
@@ -8280,8 +8115,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-aed8160cf534",
@@ -8296,8 +8130,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-23e0ea377eb7",
@@ -8312,8 +8145,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-22efb8515dff",
@@ -8328,8 +8160,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-ac12ed9f128a",
@@ -8344,8 +8175,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-30f791ef0722",
@@ -8360,8 +8190,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-e4df1b9fb9c7",
@@ -8376,8 +8205,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-dac660bd7ff7",
@@ -8392,8 +8220,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-e27bca4223e5",
@@ -8408,8 +8235,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-f21872dc2fa5",
@@ -8424,8 +8250,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-47101b75e302",
@@ -8440,8 +8265,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-c5ea0b1eb2e6",
@@ -8456,8 +8280,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-483e7a90c5d6",
@@ -8472,8 +8295,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-76c09b67479b",
@@ -8488,8 +8310,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-7d077106b42d",
@@ -8504,8 +8325,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-f64856ae844f",
@@ -8520,8 +8340,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-7a2f1d8bf87c",
@@ -8536,8 +8355,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-7df8f59238e7",
@@ -8552,8 +8370,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-264df0f07aeb",
@@ -8568,8 +8385,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-d707a7f36ba8",
@@ -8584,8 +8400,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-198229c40f37",
@@ -8600,8 +8415,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-3cf164a614df",
@@ -8616,8 +8430,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "va-os-1d6edee2c271",
@@ -8632,8 +8445,7 @@
       "status": "scheduled",
       "bills": [],
       "witness_slip_url": null,
-      "source": "lis.virginia.gov",
-      "details_url": "https://lis.virginia.gov/schedule"
+      "source": "lis.virginia.gov"
     },
     {
       "id": "wa-other-33489",

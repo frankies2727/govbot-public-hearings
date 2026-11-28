@@ -1,37 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB410",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5456",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5454",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB408",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5457",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5452",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5450",
+      "id": "SB410",
       "slips": null,
       "url": null
     },
@@ -46,7 +21,27 @@
       "url": null
     },
     {
+      "id": "SB408",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB404",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5456",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5454",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5457",
       "slips": null,
       "url": null
     },
@@ -59,11 +54,15 @@
       "id": "SB407",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "HB5450",
+      "slips": null,
+      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Safety and Security Committee Public Hearing (1E-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-31922c3e6781",
   "jurisdiction": "ct",

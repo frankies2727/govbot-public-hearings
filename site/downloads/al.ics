@@ -11,8 +11,6 @@ UID:al-os-753f740433c5@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261203T193000Z
 SUMMARY:Contract Review Committee Meeting
-DESCRIPTION:Contract Review Meeting\nhttps://alison.legislature.state.al.us
- /todays-schedule
-URL:https://alison.legislature.state.al.us/todays-schedule
+DESCRIPTION:Contract Review Meeting
 END:VEVENT
 END:VCALENDAR

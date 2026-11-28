@@ -1,7 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5316",
+      "id": "HB5299",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5142",
       "slips": null,
       "url": null
     },
@@ -11,19 +16,13 @@
       "url": null
     },
     {
-      "id": "HB5299",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5142",
+      "id": "HB5316",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Health Committee Meeting (1A-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-4caae8bb31e3",
   "jurisdiction": "ct",

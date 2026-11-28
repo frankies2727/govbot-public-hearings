@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB8",
+      "id": "SB150",
       "slips": null,
       "url": null
     },
@@ -11,7 +11,7 @@
       "url": null
     },
     {
-      "id": "SB150",
+      "id": "SB8",
       "slips": null,
       "url": null
     },
@@ -23,7 +23,6 @@
   ],
   "chamber": "other",
   "committee": "Higher Education and Employment Advancement Committee Public Hearing (1E-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HED",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-ba5882be93ad",
   "jurisdiction": "ct",

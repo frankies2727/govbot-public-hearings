@@ -1,87 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5254",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB424",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5352",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB325",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5475",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5353",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5039",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5256",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5476",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5253",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB425",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB251",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB323",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5477",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5255",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5474",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB426",
+      "id": "HB5251",
       "slips": null,
       "url": null
     },
@@ -91,17 +11,12 @@
       "url": null
     },
     {
-      "id": "SB423",
+      "id": "HB5353",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB247",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB324",
+      "id": "SB426",
       "slips": null,
       "url": null
     },
@@ -111,7 +26,72 @@
       "url": null
     },
     {
+      "id": "HB5474",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5352",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5477",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5256",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB323",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB425",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5039",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB247",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5252",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB324",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB424",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5476",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5475",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB251",
       "slips": null,
       "url": null
     },
@@ -121,14 +101,33 @@
       "url": null
     },
     {
-      "id": "HB5251",
+      "id": "HB5255",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB423",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5253",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB325",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5254",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Government Oversight Committee Meeting (1B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GOS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-dc189d554a16",
   "jurisdiction": "ct",

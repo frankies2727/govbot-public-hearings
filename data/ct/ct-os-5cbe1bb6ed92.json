@@ -1,22 +1,17 @@
 {
   "bills": [
     {
-      "id": "HB5370",
+      "id": "SB257",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB337",
+      "id": "SB151",
       "slips": null,
       "url": null
     },
     {
       "id": "SB335",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5361",
       "slips": null,
       "url": null
     },
@@ -31,6 +26,11 @@
       "url": null
     },
     {
+      "id": "SB338",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5092",
       "slips": null,
       "url": null
@@ -41,12 +41,12 @@
       "url": null
     },
     {
-      "id": "HB5257",
+      "id": "HB5361",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB338",
+      "id": "HB5257",
       "slips": null,
       "url": null
     },
@@ -56,7 +56,17 @@
       "url": null
     },
     {
-      "id": "SB257",
+      "id": "HB5260",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB337",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5370",
       "slips": null,
       "url": null
     },
@@ -69,21 +79,10 @@
       "id": "SB256",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "HB5260",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB151",
-      "slips": null,
-      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Housing Committee Meeting (2D-ZOOM)",
-  "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-5cbe1bb6ed92",
   "jurisdiction": "ct",

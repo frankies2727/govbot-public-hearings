@@ -1,19 +1,18 @@
 {
   "bills": [
     {
-      "id": "R20638",
+      "id": "R20238",
       "slips": null,
       "url": null
     },
     {
-      "id": "R20238",
+      "id": "R20638",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "* Presentation of Resolution No. 202-38 (LS) and Resolution No. 206-38 (LS) Senator Jesse A. Lujan)",
-  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "gu-os-5c0d94b16300",
   "jurisdiction": "gu",

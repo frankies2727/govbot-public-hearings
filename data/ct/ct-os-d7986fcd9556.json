@@ -1,41 +1,6 @@
 {
   "bills": [
     {
-      "id": "HB5153",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB147",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5152",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5151",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB144",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5155",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5156",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5157",
       "slips": null,
       "url": null
@@ -46,7 +11,22 @@
       "url": null
     },
     {
-      "id": "SB145",
+      "id": "HB5152",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5156",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB146",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5155",
       "slips": null,
       "url": null
     },
@@ -56,19 +36,38 @@
       "url": null
     },
     {
+      "id": "SB147",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5154",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB146",
+      "id": "HB5151",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB145",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5153",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB144",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Environment Committee Public Hearing (2B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ENV",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-d7986fcd9556",
   "jurisdiction": "ct",

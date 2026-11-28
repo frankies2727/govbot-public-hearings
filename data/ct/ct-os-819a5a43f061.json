@@ -1,62 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB476",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB508",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB504",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5308",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5428",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB507",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB505",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB484",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5429",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5438",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5566",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB506",
+      "id": "HB5563",
       "slips": null,
       "url": null
     },
@@ -66,7 +11,22 @@
       "url": null
     },
     {
-      "id": "HB5563",
+      "id": "HB5308",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB505",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5438",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB391",
       "slips": null,
       "url": null
     },
@@ -76,12 +36,12 @@
       "url": null
     },
     {
-      "id": "SB503",
+      "id": "HB5428",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5567",
+      "id": "SB503",
       "slips": null,
       "url": null
     },
@@ -91,14 +51,53 @@
       "url": null
     },
     {
-      "id": "SB391",
+      "id": "SB508",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5429",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB506",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB476",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB504",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB507",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5567",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5566",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB484",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Judiciary Committee Public Hearing (2C-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-819a5a43f061",
   "jurisdiction": "ct",

@@ -18,7 +18,7 @@
   ],
   "chamber": "senate",
   "committee": "Senate State Affairs",
-  "details_url": "https://sdlegislature.gov/Session/Committee/1289/Detail",
+  "details_url": "https://sdlegislature.gov/api/Documents/300052.html",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "sd-os-924df738d456",
   "jurisdiction": "sd",

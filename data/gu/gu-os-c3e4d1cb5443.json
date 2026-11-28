@@ -1,11 +1,6 @@
 {
   "bills": [
     {
-      "id": "B30838",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "B32738",
       "slips": null,
       "url": null
@@ -14,11 +9,16 @@
       "id": "B32238",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "B30838",
+      "slips": null,
+      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Reconvening on Thursday, July 2, 2026 at 8:30 a.m - Senator Sabrina Salas Matanane",
-  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "details_url": "https://youtube.com/live/my6gB0krEZ8",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "gu-os-c3e4d1cb5443",
   "jurisdiction": "gu",

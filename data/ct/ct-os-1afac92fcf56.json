@@ -1,32 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB302",
+      "id": "SB303",
       "slips": null,
       "url": null
     },
     {
       "id": "HB5316",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB301",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5314",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5317",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB303",
       "slips": null,
       "url": null
     },
@@ -41,6 +21,26 @@
       "url": null
     },
     {
+      "id": "SB301",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB302",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5317",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5314",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5318",
       "slips": null,
       "url": null
@@ -48,7 +48,6 @@
   ],
   "chamber": "other",
   "committee": "Banking Committee Public Hearing (1E-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=BA",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-1afac92fcf56",
   "jurisdiction": "ct",

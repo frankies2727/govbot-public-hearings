@@ -1,17 +1,17 @@
 {
   "bills": [
     {
-      "id": "HB5482",
+      "id": "HB5487",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB430",
+      "id": "HB5480",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5485",
+      "id": "SB433",
       "slips": null,
       "url": null
     },
@@ -21,7 +21,42 @@
       "url": null
     },
     {
+      "id": "SB430",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5488",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5481",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5482",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5484",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5485",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB429",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5486",
       "slips": null,
       "url": null
     },
@@ -34,46 +69,10 @@
       "id": "SB431",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "HB5487",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5480",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5488",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5486",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB429",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5484",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB433",
-      "slips": null,
-      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Human Services Committee Public Hearing (2E-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-7f7f09cd786d",
   "jurisdiction": "ct",

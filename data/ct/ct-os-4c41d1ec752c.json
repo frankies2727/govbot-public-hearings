@@ -1,52 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB86",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB5",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5229",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5223",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5350",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB322",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5349",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB229",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5228",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB4",
       "slips": null,
       "url": null
     },
@@ -56,14 +11,58 @@
       "url": null
     },
     {
+      "id": "SB4",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB322",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB229",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5229",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB5",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5223",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB86",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5351",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5228",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5350",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "General Law Committee Public Hearing (1A-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GL",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-4c41d1ec752c",
   "jurisdiction": "ct",

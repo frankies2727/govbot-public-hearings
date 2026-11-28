@@ -25,9 +25,8 @@ DTSTAMP:20261128T055020Z
 DTSTART:20261201T140000Z
 SUMMARY:Senate Foreign Relations
 DESCRIPTION:Open Business Meeting: Business meeting to consider pending nom
- inations.\nhttps://www.senate.gov/committees/hearings_meetings.htm
+ inations.
 LOCATION:S-116 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-house-119601@govbot-public-hearings
@@ -60,10 +59,10 @@ DESCRIPTION:Open Hearing: Hearings to examine the nominations of Peter A. F
  eldman\, of the District of Columbia\, to be a Commissioner of the Consume
  r Product Safety Commission\, Christopher Mufarrige\, of Texas\, to be a F
  ederal Trade Commissioner\, and Loren Smith\, Jr.\, of Virginia\, to be an
-  Assistant Secretary of Transportation.\nhttps://www.senate.gov/committees
- /hearings_meetings.htm
+  Assistant Secretary of Transportation.\nhttps://www.senate.gov/isvp/?comm
+ =commerce&filename=commerce112426
 LOCATION:SR-253 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=commerce&filename=commerce112426
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338905@govbot-public-hearings
@@ -82,9 +81,8 @@ DESCRIPTION:Open Business Meeting: Business meeting to consider S.5289\, to
  hern District of Oklahoma\, Scott Krueger\, to be United States Marshal fo
  r the Northern District of Indiana\, and Arthur Kleinschmidt\, of Virginia
  \, to be an Assistant Attorney General\, Department of Justice.\nBills: S5
- 289\nhttps://www.senate.gov/committees/hearings_meetings.htm
+ 289
 LOCATION:SH-216 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338902@govbot-public-hearings
@@ -106,9 +104,9 @@ DESCRIPTION:Open Business Meeting: Business meeting to consider S.5239\, to
  nistration\, and Eric Sebastian Glover\, Fernando Campoamor-Sanchez\, Roma
  n Marian Chaban\, and Bernard Michael Desrosiers\, each to be an Associate
   Judge of the Superior Court of the District of Columbia.\nBills: S5239\nh
- ttps://www.senate.gov/committees/hearings_meetings.htm
+ ttps://www.senate.gov/isvp/?comm=govtaff&filename=govtaff120126
 LOCATION:SD-342 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=govtaff&filename=govtaff120126
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338909@govbot-public-hearings
@@ -159,12 +157,12 @@ DESCRIPTION:Open Business Meeting: Business meeting to consider S.462\, to
  te conservation in northern Nevada\, and the nominations of Dennis Kirk\, 
  of Virginia\, to be Inspector General\, Department of the Interior\, and T
  oby Deen\, of Colorado\, to be an Assistant Secretary of Energy (Hydrocarb
- ons and Geothermal Energy).\nBills: S462\, S791\, S1005\, S1195\, S2644\, 
- S2968\, S3409\, S3501\, S3542\, S4103\, HR2709\, S4200\, S4489\, S4561\, S
- 4595\, S4767\, S5608\, HR900\, HR1682\, HR2317\nhttps://www.senate.gov/com
- mittees/hearings_meetings.htm
+ ons and Geothermal Energy).\nBills: HR1682\, HR2317\, HR2709\, HR900\, S46
+ 2\, S791\, S1005\, S1195\, S2644\, S2968\, S3409\, S3501\, S3542\, S4103\,
+  S4200\, S4489\, S4561\, S4595\, S4767\, S5608\nhttps://www.senate.gov/isv
+ p/?comm=energy&filename=energy120126
 LOCATION:SD-366 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=energy&filename=energy120126
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338910@govbot-public-hearings
@@ -177,10 +175,8 @@ DESCRIPTION:Open Business Meeting: Business meeting to consider the nominat
  h\, and Rebekah Jurata\, of California\, to be an Assistant Secretary\, bo
  th of the Department of the Treasury\, and Kristin N. Johnson\, of Michiga
  n\, and Steven Levine\, of Maryland\, both to be a Member of the Securitie
- s and Exchange Commission.\nhttps://www.senate.gov/committees/hearings_mee
- tings.htm
+ s and Exchange Commission.
 LOCATION:TBA · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338901@govbot-public-hearings
@@ -189,10 +185,8 @@ DTSTART:20261201T171500Z
 SUMMARY:Senate Rules and Administration
 DESCRIPTION:Open Business Meeting: Business meeting to consider the nominat
  ions of Ashley Stow\, of Texas\, and Andrew Woodson\, of Virginia\, both t
- o be a Member of the Federal Election Commission.\nhttps://www.senate.gov/
- committees/hearings_meetings.htm
+ o be a Member of the Federal Election Commission.
 LOCATION:S-216 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-house-119617@govbot-public-hearings
@@ -212,10 +206,8 @@ DTSTAMP:20261128T055020Z
 DTSTART:20261201T190000Z
 SUMMARY:Senate Intelligence
 DESCRIPTION:Closed Business Meeting: Closed business meeting to consider ce
- rtain intelligence matters.\nhttps://www.senate.gov/committees/hearings_me
- etings.htm
+ rtain intelligence matters.
 LOCATION:TBA · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338907@govbot-public-hearings
@@ -223,9 +215,8 @@ DTSTAMP:20261128T055020Z
 DTSTART:20261201T190000Z
 SUMMARY:Senate Foreign Relations
 DESCRIPTION:Closed Hearing: To receive a closed briefing on an update on Uk
- raine.\nhttps://www.senate.gov/committees/hearings_meetings.htm
+ raine.
 LOCATION:SVC-217 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338882@govbot-public-hearings
@@ -233,9 +224,8 @@ DTSTAMP:20261128T055020Z
 DTSTART:20261201T200000Z
 SUMMARY:Senate Intelligence
 DESCRIPTION:Closed Hearing: To receive a closed briefing on certain intelli
- gence matters.\nhttps://www.senate.gov/committees/hearings_meetings.htm
+ gence matters.
 LOCATION:SH-219 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-house-119616@govbot-public-hearings
@@ -268,9 +258,9 @@ SUMMARY:Senate Commerce\, Science\, and Transportation · Aviation\, Space\
  , and Innovation Subcommittee
 DESCRIPTION:Open Hearing: Hearings to examine preventing the next ground st
  op\, focusing on modernizing America's air traffic control system.\nhttps:
- //www.senate.gov/committees/hearings_meetings.htm
+ //www.senate.gov/isvp/?comm=commerce&filename=commerce120226
 LOCATION:SR-253 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=commerce&filename=commerce120226
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338908@govbot-public-hearings
@@ -279,9 +269,9 @@ DTSTART:20261202T150000Z
 SUMMARY:Senate Health\, Education\, Labor\, and Pensions
 DESCRIPTION:Open Hearing: Hearings to examine the nomination of Matthew Zan
  di\, of California\, to be a Member of the Equal Employment Opportunity Co
- mmission.\nhttps://www.senate.gov/committees/hearings_meetings.htm
+ mmission.\nhttps://www.senate.gov/isvp/?comm=help&filename=help120226
 LOCATION:SD-430 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=help&filename=help120226
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-house-119610@govbot-public-hearings
@@ -326,9 +316,8 @@ DTSTAMP:20261128T055020Z
 DTSTART:20261202T200000Z
 SUMMARY:Senate Intelligence
 DESCRIPTION:Closed Hearing: To receive a closed briefing on certain intelli
- gence matters.\nhttps://www.senate.gov/committees/hearings_meetings.htm
+ gence matters.
 LOCATION:SH-219 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338880@govbot-public-hearings
@@ -336,10 +325,10 @@ DTSTAMP:20261128T055020Z
 DTSTART:20261202T203000Z
 SUMMARY:Senate Aging
 DESCRIPTION:Open Hearing: Hearings to examine caregivers and AI\, focusing 
- on opportunities\, challenges\, and threats.\nhttps://www.senate.gov/commi
- ttees/hearings_meetings.htm
+ on opportunities\, challenges\, and threats.\nhttps://www.senate.gov/isvp/
+ ?comm=aging&filename=aging120226
 LOCATION:SD-G50 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=aging&filename=aging120226
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-house-119622@govbot-public-hearings
@@ -362,9 +351,9 @@ DESCRIPTION:Open Hearing: Hearings to examine the nominations of Lieutenant
  tes Northern Command/Commander\, North American Aerospace Defense Command\
  , and Lieutenant General David N. Miller\, Jr.\, USSF\, to be general and 
  Commander\, United States Space Command\, both of the Department of Defens
- e.\nhttps://www.senate.gov/committees/hearings_meetings.htm
+ e.\nhttps://www.senate.gov/isvp/?comm=armed&filename=armedA120326
 LOCATION:SD-G50 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=armed&filename=armedA120326
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338900@govbot-public-hearings
@@ -372,9 +361,10 @@ DTSTAMP:20261128T055020Z
 DTSTART:20261203T150000Z
 SUMMARY:Senate Banking\, Housing\, and Urban Affairs
 DESCRIPTION:Open Hearing: Oversight hearings to examine United States expor
- t controls.\nhttps://www.senate.gov/committees/hearings_meetings.htm
+ t controls.\nhttps://www.senate.gov/isvp/?comm=banking&filename=banking120
+ 326
 LOCATION:SD-106 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=banking&filename=banking120326
 END:VEVENT
 BEGIN:VEVENT
 UID:usa-senate-338906@govbot-public-hearings
@@ -383,8 +373,8 @@ DTSTART:20261203T160000Z
 SUMMARY:Senate Commission on Security and Cooperation in Europe
 DESCRIPTION:Open Hearing: To receive a briefing on saving lines on the fron
  tlines\, focusing on Ukraine's military medical needs and innovations.\nht
- tps://www.senate.gov/committees/hearings_meetings.htm
+ tps://www.senate.gov/isvp/?comm=csce&filename=csce120326
 LOCATION:CHOB-210 · U.S. Capitol complex\, Washington\, DC
-URL:https://www.senate.gov/committees/hearings_meetings.htm
+URL:https://www.senate.gov/isvp/?comm=csce&filename=csce120326
 END:VEVENT
 END:VCALENDAR

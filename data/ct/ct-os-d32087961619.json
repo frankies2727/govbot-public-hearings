@@ -1,32 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5214",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB220",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB221",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5215",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB223",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5217",
       "slips": null,
       "url": null
     },
@@ -36,7 +11,12 @@
       "url": null
     },
     {
-      "id": "HB5218",
+      "id": "SB220",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5214",
       "slips": null,
       "url": null
     },
@@ -44,11 +24,30 @@
       "id": "SB222",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "SB223",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5215",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5217",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5218",
+      "slips": null,
+      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Education Committee Public Hearing FULLY REMOTE (1E-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ED",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-d32087961619",
   "jurisdiction": "ct",

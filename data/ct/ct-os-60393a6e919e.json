@@ -1,17 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB357",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5495",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5493",
+      "id": "SB436",
       "slips": null,
       "url": null
     },
@@ -21,17 +11,12 @@
       "url": null
     },
     {
+      "id": "HB5492",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB443",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB436",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB442",
       "slips": null,
       "url": null
     },
@@ -41,7 +26,12 @@
       "url": null
     },
     {
-      "id": "SB354",
+      "id": "HB5491",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5495",
       "slips": null,
       "url": null
     },
@@ -51,7 +41,7 @@
       "url": null
     },
     {
-      "id": "SB440",
+      "id": "SB437",
       "slips": null,
       "url": null
     },
@@ -61,17 +51,7 @@
       "url": null
     },
     {
-      "id": "SB437",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5491",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5492",
+      "id": "SB442",
       "slips": null,
       "url": null
     },
@@ -86,14 +66,33 @@
       "url": null
     },
     {
+      "id": "SB440",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB441",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5493",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB354",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Labor and Public Employees Committee Public Hearing (1C-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=LAB",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-60393a6e919e",
   "jurisdiction": "ct",

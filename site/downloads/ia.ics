@@ -11,87 +11,63 @@ UID:ia-os-7e1ff87de71e@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261130T160000Z
 SUMMARY:Early Childhood Interim Committee
-DESCRIPTION:https://www.legis.iowa.gov/committees/meetings/meetingsListCham
- ber?chamber=H&bDate=11/18/2026&eDate=12/08/2026
+DESCRIPTION:
 LOCATION:Room 116
-URL:https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?cham
- ber=H&bDate=11/18/2026&eDate=12/08/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ia-os-e89edb619a11@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261130T160000Z
 SUMMARY:Early Childhood Interim Committee
-DESCRIPTION:https://www.legis.iowa.gov/committees/meetings/meetingsListCham
- ber?chamber=S&bDate=11/18/2026&eDate=12/08/2026
+DESCRIPTION:
 LOCATION:Room 116
-URL:https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?cham
- ber=S&bDate=11/18/2026&eDate=12/08/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ia-os-0c44b12ce9d0@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261201T160000Z
 SUMMARY:State Government Efficiency Review Committee
-DESCRIPTION:https://www.legis.iowa.gov/committees/meetings/meetingsListCham
- ber?chamber=S&bDate=11/18/2026&eDate=12/08/2026
+DESCRIPTION:
 LOCATION:RM 103
-URL:https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?cham
- ber=S&bDate=11/18/2026&eDate=12/08/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ia-os-65c4597cf594@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261201T160000Z
 SUMMARY:State Government Efficiency Review Committee
-DESCRIPTION:https://www.legis.iowa.gov/committees/meetings/meetingsListCham
- ber?chamber=H&bDate=11/18/2026&eDate=12/08/2026
+DESCRIPTION:
 LOCATION:RM 103
-URL:https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?cham
- ber=H&bDate=11/18/2026&eDate=12/08/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ia-os-86066317fb81@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261214T160000Z
 SUMMARY:Administrative Rules Review Committee
-DESCRIPTION:https://www.legis.iowa.gov/committees/meetings/meetingsListCham
- ber?chamber=H&bDate=11/18/2026&eDate=12/08/2026
+DESCRIPTION:
 LOCATION:Room 116
-URL:https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?cham
- ber=H&bDate=11/18/2026&eDate=12/08/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ia-os-f6a1319384bc@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261214T160000Z
 SUMMARY:Administrative Rules Review Committee
-DESCRIPTION:https://www.legis.iowa.gov/committees/meetings/meetingsListCham
- ber?chamber=S&bDate=11/18/2026&eDate=12/08/2026
+DESCRIPTION:
 LOCATION:Room 116
-URL:https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?cham
- ber=S&bDate=11/18/2026&eDate=12/08/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ia-os-0f86309f437f@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261214T170000Z
 SUMMARY:Revenue Estimating Conference
-DESCRIPTION:https://www.legis.iowa.gov/committees/meetings/meetingsListCham
- ber?chamber=H&bDate=11/18/2026&eDate=12/08/2026
+DESCRIPTION:
 LOCATION:RM 103
-URL:https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?cham
- ber=H&bDate=11/18/2026&eDate=12/08/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ia-os-ab46add0b712@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261214T170000Z
 SUMMARY:Revenue Estimating Conference
-DESCRIPTION:https://www.legis.iowa.gov/committees/meetings/meetingsListCham
- ber?chamber=S&bDate=11/18/2026&eDate=12/08/2026
+DESCRIPTION:
 LOCATION:RM 103
-URL:https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?cham
- ber=S&bDate=11/18/2026&eDate=12/08/2026
 END:VEVENT
 END:VCALENDAR

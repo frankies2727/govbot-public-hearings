@@ -1,7 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5147",
+      "id": "SB136",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5150",
       "slips": null,
       "url": null
     },
@@ -11,27 +16,7 @@
       "url": null
     },
     {
-      "id": "SB136",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5148",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5217",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5215",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB223",
+      "id": "HB5147",
       "slips": null,
       "url": null
     },
@@ -41,14 +26,28 @@
       "url": null
     },
     {
-      "id": "HB5150",
+      "id": "SB223",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5148",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5215",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5217",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Education Committee Meeting (1E-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ED",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-52a32e0c9f41",
   "jurisdiction": "ct",

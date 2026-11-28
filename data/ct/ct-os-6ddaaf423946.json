@@ -1,19 +1,18 @@
 {
   "bills": [
     {
-      "id": "HR12",
+      "id": "SR12",
       "slips": null,
       "url": null
     },
     {
-      "id": "SR12",
+      "id": "HR12",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Appropriations Committee Public Hearing followed by a Committee Meeting (2C-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-6ddaaf423946",
   "jurisdiction": "ct",

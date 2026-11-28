@@ -1,12 +1,22 @@
 {
   "bills": [
     {
-      "id": "HB5278",
+      "id": "SB436",
       "slips": null,
       "url": null
     },
     {
       "id": "SB355",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5385",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5386",
       "slips": null,
       "url": null
     },
@@ -21,32 +31,22 @@
       "url": null
     },
     {
-      "id": "SB356",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5384",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB436",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5386",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5385",
+      "id": "SB356",
       "slips": null,
       "url": null
     },
     {
       "id": "HB5387",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5278",
       "slips": null,
       "url": null
     },
@@ -58,7 +58,6 @@
   ],
   "chamber": "other",
   "committee": "Labor and Public Employees Committee Meeting (1C-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=LAB",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-a68b6cbf99de",
   "jurisdiction": "ct",

@@ -23,7 +23,7 @@
   ],
   "chamber": "senate",
   "committee": "Senate Taxation",
-  "details_url": "https://sdlegislature.gov/Session/Committee/1290/Detail",
+  "details_url": "https://sdlegislature.gov/api/Documents/304301.html",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "sd-os-6afe60350b28",
   "jurisdiction": "sd",

@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5521",
+      "id": "HB5525",
       "slips": null,
       "url": null
     },
@@ -11,12 +11,32 @@
       "url": null
     },
     {
-      "id": "HB5525",
+      "id": "HB5522",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5522",
+      "id": "HB5521",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5523",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5524",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB455",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5526",
       "slips": null,
       "url": null
     },
@@ -31,27 +51,7 @@
       "url": null
     },
     {
-      "id": "HB5524",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB452",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB457",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5523",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5526",
       "slips": null,
       "url": null
     },
@@ -61,14 +61,13 @@
       "url": null
     },
     {
-      "id": "SB455",
+      "id": "SB457",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Environment Committee Public Hearing (2B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ENV",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-a2f9948dbaa6",
   "jurisdiction": "ct",

@@ -1,37 +1,12 @@
 {
   "bills": [
     {
-      "id": "HB5322",
+      "id": "HB5515",
       "slips": null,
       "url": null
     },
     {
       "id": "HB5510",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB451",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB194",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5517",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5512",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5511",
       "slips": null,
       "url": null
     },
@@ -46,12 +21,22 @@
       "url": null
     },
     {
-      "id": "HB5516",
+      "id": "HB5519",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5515",
+      "id": "HB5517",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5511",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5516",
       "slips": null,
       "url": null
     },
@@ -61,14 +46,28 @@
       "url": null
     },
     {
-      "id": "HB5519",
+      "id": "SB451",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5512",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB194",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5322",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Health Committee Meeting (1D-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-80db36dc083a",
   "jurisdiction": "ct",

@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "id": "B30538",
+      "id": "B26838",
       "slips": null,
       "url": null
     },
@@ -11,14 +11,14 @@
       "url": null
     },
     {
-      "id": "B26838",
+      "id": "B30538",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Hearing: August 25, 2026 - Vice Speaker V. Anthony Ada",
-  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "details_url": "https://youtu.be/3dRJFtnz5GQ",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "gu-os-1566df49d696",
   "jurisdiction": "gu",

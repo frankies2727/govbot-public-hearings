@@ -1,32 +1,17 @@
 {
   "bills": [
     {
-      "id": "HB5545",
+      "id": "SB485",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5553",
+      "id": "SB489",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB490",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5551",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB491",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5554",
+      "id": "SB488",
       "slips": null,
       "url": null
     },
@@ -36,27 +21,7 @@
       "url": null
     },
     {
-      "id": "HB5544",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB486",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5547",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB487",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB493",
+      "id": "SB491",
       "slips": null,
       "url": null
     },
@@ -66,7 +31,17 @@
       "url": null
     },
     {
-      "id": "HB5548",
+      "id": "SB493",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5544",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB487",
       "slips": null,
       "url": null
     },
@@ -76,12 +51,37 @@
       "url": null
     },
     {
-      "id": "HB5549",
+      "id": "HB5554",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB485",
+      "id": "SB486",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB490",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5553",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5545",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5547",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5549",
       "slips": null,
       "url": null
     },
@@ -91,7 +91,7 @@
       "url": null
     },
     {
-      "id": "SB489",
+      "id": "HB5551",
       "slips": null,
       "url": null
     },
@@ -106,14 +106,13 @@
       "url": null
     },
     {
-      "id": "SB488",
+      "id": "HB5548",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Government Administration and Elections Committee Public Hearing *moved from Room 1D* (2B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-65a7af295c4c",
   "jurisdiction": "ct",

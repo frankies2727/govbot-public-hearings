@@ -1,7 +1,17 @@
 {
   "bills": [
     {
-      "id": "SB246",
+      "id": "SB242",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB244",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5246",
       "slips": null,
       "url": null
     },
@@ -16,27 +26,7 @@
       "url": null
     },
     {
-      "id": "HB5246",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB243",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB245",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5249",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB242",
+      "id": "HB5036",
       "slips": null,
       "url": null
     },
@@ -46,19 +36,28 @@
       "url": null
     },
     {
-      "id": "SB244",
+      "id": "HB5249",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5036",
+      "id": "SB245",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB243",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB246",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Energy and Technology Committee Public Hearing (1D-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ET",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-a071927db33a",
   "jurisdiction": "ct",

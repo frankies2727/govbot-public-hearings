@@ -6,11 +6,6 @@
       "url": null
     },
     {
-      "id": "HB5040",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5358",
       "slips": null,
       "url": null
@@ -21,17 +16,27 @@
       "url": null
     },
     {
-      "id": "HB5355",
+      "id": "SB327",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5040",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5356",
       "slips": null,
       "url": null
     },
     {
       "id": "SB87",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB327",
       "slips": null,
       "url": null
     },
@@ -46,29 +51,23 @@
       "url": null
     },
     {
-      "id": "SB328",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB331",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5356",
+      "id": "HB5355",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5357",
+      "id": "SB328",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Human Services Committee Public Hearing (2B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-4d35da64d7dc",
   "jurisdiction": "ct",

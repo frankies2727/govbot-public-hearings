@@ -1,7 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB293",
+      "id": "HB5312",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5306",
       "slips": null,
       "url": null
     },
@@ -11,17 +16,12 @@
       "url": null
     },
     {
-      "id": "HB5312",
+      "id": "SB295",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5309",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5310",
+      "id": "SB259",
       "slips": null,
       "url": null
     },
@@ -36,17 +36,12 @@
       "url": null
     },
     {
-      "id": "SB259",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB292",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB295",
+      "id": "SB293",
       "slips": null,
       "url": null
     },
@@ -56,14 +51,18 @@
       "url": null
     },
     {
-      "id": "HB5306",
+      "id": "HB5309",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5310",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Judiciary Committee Public Hearing (2C-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-1a9805df5242",
   "jurisdiction": "ct",

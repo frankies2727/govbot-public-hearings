@@ -1,17 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB309",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5324",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB312",
+      "id": "HB5329",
       "slips": null,
       "url": null
     },
@@ -21,12 +11,7 @@
       "url": null
     },
     {
-      "id": "SB308",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5325",
+      "id": "SB309",
       "slips": null,
       "url": null
     },
@@ -36,17 +21,7 @@
       "url": null
     },
     {
-      "id": "SB7",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5327",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5328",
+      "id": "HB5323",
       "slips": null,
       "url": null
     },
@@ -56,24 +31,48 @@
       "url": null
     },
     {
-      "id": "HB5329",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5323",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5326",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB308",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB7",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5325",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5328",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5324",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5327",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB312",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Education Committee Public Hearing (1E-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ED",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-863ff6d60327",
   "jurisdiction": "ct",

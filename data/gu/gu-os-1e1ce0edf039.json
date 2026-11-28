@@ -1,12 +1,12 @@
 {
   "bills": [
     {
-      "id": "B22638",
+      "id": "B25238",
       "slips": null,
       "url": null
     },
     {
-      "id": "B25238",
+      "id": "B22638",
       "slips": null,
       "url": null
     },
@@ -23,7 +23,6 @@
   ],
   "chamber": "other",
   "committee": "POSTPONED: PUBLIC HEARING – Office of Senator Borja",
-  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "gu-os-1e1ce0edf039",
   "jurisdiction": "gu",

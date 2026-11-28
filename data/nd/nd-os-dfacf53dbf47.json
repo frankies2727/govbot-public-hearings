@@ -1,6 +1,11 @@
 {
   "bills": [
     {
+      "id": "HB1628",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB2408",
       "slips": null,
       "url": null
@@ -14,16 +19,10 @@
       "id": "SB2406",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "HB1628",
-      "slips": null,
-      "url": null
     }
   ],
   "chamber": "joint",
   "committee": "Joint Policy",
-  "details_url": "https://www.ndlegis.gov/legend/committee/hearings/public-schedule/?export=csv",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "nd-os-dfacf53dbf47",
   "jurisdiction": "nd",

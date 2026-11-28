@@ -11,9 +11,11 @@ UID:ky-os-1e3b287e9468@govbot-public-hearings
 DTSTAMP:20261128T055020Z
 DTSTART:20261201T160000Z
 SUMMARY:INTERIM JOINT COMMITTEE ON TRANSPORTATION
-DESCRIPTION:https://apps.legislature.ky.gov/legislativecalendar
+DESCRIPTION:https://apps.legislature.ky.gov/CommitteeDocuments/45764/12-1-2
+ 6%20Agenda.pdf
 LOCATION:Annex Room 154 Canceled!
-URL:https://apps.legislature.ky.gov/legislativecalendar
+URL:https://apps.legislature.ky.gov/CommitteeDocuments/45764/12-1-26%20Agen
+ da.pdf
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -21,26 +23,26 @@ UID:ky-os-e252042a83f4@govbot-public-hearings
 DTSTAMP:20261128T055020Z
 DTSTART:20261201T180000Z
 SUMMARY:INTERIM JOINT COMMITTEE ON TRANSPORTATION
-DESCRIPTION:https://apps.legislature.ky.gov/legislativecalendar
+DESCRIPTION:https://apps.legislature.ky.gov/CommitteeDocuments/45764/12-1-2
+ 6%20Agenda.pdf
 LOCATION:Annex Room 149
-URL:https://apps.legislature.ky.gov/legislativecalendar
+URL:https://apps.legislature.ky.gov/CommitteeDocuments/45764/12-1-26%20Agen
+ da.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:ky-os-503bd664f621@govbot-public-hearings
 DTSTAMP:20261128T055020Z
 DTSTART:20261202T160000Z
 SUMMARY:MEDICAID OVERSIGHT AND ADVISORY BOARD
-DESCRIPTION:https://apps.legislature.ky.gov/legislativecalendar
+DESCRIPTION:
 LOCATION:Annex Room 154
-URL:https://apps.legislature.ky.gov/legislativecalendar
 END:VEVENT
 BEGIN:VEVENT
 UID:ky-os-799636e6ac4a@govbot-public-hearings
 DTSTAMP:20261128T055020Z
 DTSTART:20261202T180000Z
 SUMMARY:INTERIM JOINT COMMITTEE ON HEALTH SERVICES
-DESCRIPTION:https://apps.legislature.ky.gov/legislativecalendar
+DESCRIPTION:
 LOCATION:Annex Room 149
-URL:https://apps.legislature.ky.gov/legislativecalendar
 END:VEVENT
 END:VCALENDAR

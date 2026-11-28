@@ -1,17 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5126",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5225",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5229",
+      "id": "SB228",
       "slips": null,
       "url": null
     },
@@ -21,7 +11,42 @@
       "url": null
     },
     {
-      "id": "SB116",
+      "id": "HB5126",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5229",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB230",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB232",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB231",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB117",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5223",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5125",
       "slips": null,
       "url": null
     },
@@ -31,7 +56,22 @@
       "url": null
     },
     {
+      "id": "HB5128",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5224",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB322",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB119",
       "slips": null,
       "url": null
     },
@@ -51,57 +91,7 @@
       "url": null
     },
     {
-      "id": "HB5128",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5223",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB117",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB322",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5125",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5349",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB231",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB230",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB233",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB119",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB228",
       "slips": null,
       "url": null
     },
@@ -111,14 +101,23 @@
       "url": null
     },
     {
-      "id": "SB232",
+      "id": "SB233",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB116",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5225",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "General Law Committee Meeting (2B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GL",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-b1b4619a3277",
   "jurisdiction": "ct",

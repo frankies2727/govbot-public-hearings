@@ -1,11 +1,6 @@
 {
   "bills": [
     {
-      "id": "B30838",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "B32738",
       "slips": null,
       "url": null
@@ -14,11 +9,16 @@
       "id": "B32238",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "B30838",
+      "slips": null,
+      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Hearing: Tuesday June 23, 2026, 1:00 P.M-Senator Sabrina Salas Matanane",
-  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "details_url": "https://youtube.com/live/ia0qMAmxSso",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "gu-os-91eacf690191",
   "jurisdiction": "gu",

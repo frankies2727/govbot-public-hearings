@@ -11,8 +11,7 @@ UID:ms-os-02f7412d4afa@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261208T160000Z
 SUMMARY:Management
-DESCRIPTION:https://billstatus.ls.state.ms.us/htms/h_sched.htm
+DESCRIPTION:
 LOCATION:400 High St\, Jackson\, MS 39201\, 302
-URL:https://billstatus.ls.state.ms.us/htms/h_sched.htm
 END:VEVENT
 END:VCALENDAR

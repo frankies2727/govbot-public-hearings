@@ -11,9 +11,8 @@ UID:nj-os-52de8625e811@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:Senate Labor Committee
-DESCRIPTION:http://www.njleg.state.nj.us/downloads.asp
+DESCRIPTION:
 LOCATION:New Jersey Statehouse\, 125 W State St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -22,11 +21,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261130T150000Z
 SUMMARY:Senate Community and Urban Affairs Committee
 DESCRIPTION:Bills: SCR96\, A462\, A3481\, A4103\, A5384\, S154\, S391\, S17
- 85\, S2631\, S3028\, S3655\, S3735\, S4251\, S4491\, S4604\, S4785\nhttp:/
- /www.njleg.state.nj.us/downloads.asp
+ 85\, S2631\, S3028\, S3655\, S3735\, S4251\, S4491\, S4604\, S4785\nhttps:
+ //www.njleg.state.nj.us/live-proceedings/2026-11-30-10:00:00/SCU/Hearing
 LOCATION:Committee Room 6\, 1st Floor\, State House Annex\, 131-137 W State
   St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-11-30-10:00:00/SCU/
+ Hearing
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-fc076f8a0d6f@govbot-public-hearings
@@ -34,11 +34,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261130T150000Z
 SUMMARY:Senate Education Committee
 DESCRIPTION:Bills: S5012\, S5013\, S4716\, A5207\, S4717\, A5206\, S486\, S
- 1674\, S1793\, S2320\, S4456\, S4473\, S4703\, S4801\nhttp://www.njleg.sta
- te.nj.us/downloads.asp
+ 1674\, S1793\, S2320\, S4456\, S4473\, S4703\, S4801\nhttps://www.njleg.st
+ ate.nj.us/live-proceedings/2026-11-30-10:00:00/SED/Meeting
 LOCATION:Committee Room 4\, 1st Floor\, State House Annex\, 131-137 W State
   St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-11-30-10:00:00/SED/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-a2122547f8a4@govbot-public-hearings
@@ -46,19 +47,20 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261130T160000Z
 SUMMARY:Senate Transportation Committee
 DESCRIPTION:Bills: S3789\, A2380\, S159\, S308\, S496\, S2931\, S4481\, S44
- 97\, S4640\, S4694\, S4966\nhttp://www.njleg.state.nj.us/downloads.asp
+ 97\, S4640\, S4694\, S4966\nhttps://www.njleg.state.nj.us/live-proceedings
+ /2026-11-30-11:00:00/STR/Meeting
 LOCATION:Committee Room 10\, 3rd Floor\, State House Annex\, 131-137 W Stat
  e St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-11-30-11:00:00/STR/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-0562067f6442@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261203
 SUMMARY:Senate Budget and Appropriations Committee
-DESCRIPTION:http://www.njleg.state.nj.us/downloads.asp
+DESCRIPTION:
 LOCATION:New Jersey Statehouse\, 125 W State St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -66,9 +68,8 @@ UID:nj-os-1f15a42e0f43@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261203
 SUMMARY:Assembly Appropriations Committee
-DESCRIPTION:http://www.njleg.state.nj.us/downloads.asp
+DESCRIPTION:
 LOCATION:New Jersey Statehouse\, 125 W State St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -76,9 +77,8 @@ UID:nj-os-2ce65ce0f88b@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261203
 SUMMARY:Assembly Agriculture and Natural Resources Committee
-DESCRIPTION:http://www.njleg.state.nj.us/downloads.asp
+DESCRIPTION:
 LOCATION:New Jersey Statehouse\, 125 W State St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -86,9 +86,8 @@ UID:nj-os-82254a570bc1@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261203
 SUMMARY:Assembly Oversight\, Reform and Federal Relations Committee
-DESCRIPTION:http://www.njleg.state.nj.us/downloads.asp
+DESCRIPTION:
 LOCATION:New Jersey Statehouse\, 125 W State St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -96,9 +95,8 @@ UID:nj-os-900db00347bb@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261203
 SUMMARY:Assembly Community Development and Women's Affairs Committee
-DESCRIPTION:http://www.njleg.state.nj.us/downloads.asp
+DESCRIPTION:
 LOCATION:New Jersey Statehouse\, 125 W State St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -106,9 +104,8 @@ UID:nj-os-f382c992164f@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART;VALUE=DATE:20261203
 SUMMARY:Assembly Consumer Affairs Committee
-DESCRIPTION:http://www.njleg.state.nj.us/downloads.asp
+DESCRIPTION:
 LOCATION:New Jersey Statehouse\, 125 W State St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
@@ -117,10 +114,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T150000Z
 SUMMARY:Assembly Higher Education Committee
 DESCRIPTION:Bills: A3218\, A4723\, A5049\, A5382\, A5552\, A5608\, S2216\, 
- S2243\, S4128\nhttp://www.njleg.state.nj.us/downloads.asp
+ S2243\, S4128\nhttps://www.njleg.state.nj.us/live-proceedings/2026-12-03-1
+ 0:00:00/AHI/Meeting
 LOCATION:Committee Room 9\, 3rd Floor\, State House Annex\, 131-137 W State
   St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/AHI/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-60f83beb3cc5@govbot-public-hearings
@@ -128,10 +127,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T150000Z
 SUMMARY:Senate Health\, Human Services and Senior Citizens Committee
 DESCRIPTION:Bills: S2866\, S2975\, S3661\, S4294\, S4395\, S4583\, S4682\, 
- S4820\, S4857\, S4893\, SJR14\nhttp://www.njleg.state.nj.us/downloads.asp
+ S4820\, S4857\, S4893\, SJR14\nhttps://www.njleg.state.nj.us/live-proceedi
+ ngs/2026-12-03-10:00:00/SHH/Meeting
 LOCATION:Committee Room 4\, First Floor\, State House Annex\, 131-137 W Sta
  te St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/SHH/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-95b34b19df56@govbot-public-hearings
@@ -139,10 +140,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T150000Z
 SUMMARY:Assembly Telecommunications and Utilities Committee
 DESCRIPTION:Bills: A1054\, A5396\, A5602\, A5621\, A5636\, S4677\, S4729\nh
- ttp://www.njleg.state.nj.us/downloads.asp
+ ttps://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/ATU/Meet
+ ing
 LOCATION:Committee Room 15\, 4th Floor\, State House Annex\, 131-137 W Stat
  e St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/ATU/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-9dc80137a07a@govbot-public-hearings
@@ -150,10 +153,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T150000Z
 SUMMARY:Assembly Financial Institutions and Insurance Committee
 DESCRIPTION:Bills: A1486\, A3257\, A3596\, A5209\, A5633\, A5737\, A5775\nh
- ttp://www.njleg.state.nj.us/downloads.asp
+ ttps://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/AFI/Meet
+ ing
 LOCATION:Committee Room 11\, 4th Floor\, State House Annex\, 131-137 W Stat
  e St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/AFI/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-ce164be6285d@govbot-public-hearings
@@ -161,10 +166,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T150000Z
 SUMMARY:Senate Labor Committee
 DESCRIPTION:Bills: S1188\, S1753\, S2372\, S3604\, S4085\, S4526\, S4564\nh
- ttp://www.njleg.state.nj.us/downloads.asp
+ ttps://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/SLA/Meet
+ ing
 LOCATION:Committee Room 1\, 1st Floor\, State House Annex\, 131-137 W State
   St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/SLA/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-e9c786d16993@govbot-public-hearings
@@ -172,10 +179,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T150000Z
 SUMMARY:Assembly Health Committee
 DESCRIPTION:Bills: A920\, A1155\, A3723\, A4240\, A4676\, A5375\, A5677\, A
- 5705\, S1403\, S2250\nhttp://www.njleg.state.nj.us/downloads.asp
+ 5705\, S1403\, S2250\nhttps://www.njleg.state.nj.us/live-proceedings/2026-
+ 12-03-10:00:00/AHE/Meeting
 LOCATION:Committee Room 16\, Fourth Floor\, State House Annex\, 131-137 W S
  tate St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-10:00:00/AHE/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-d686e4c551b9@govbot-public-hearings
@@ -183,10 +192,12 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T180000Z
 SUMMARY:Assembly Housing Committee
 DESCRIPTION:Bills: A1607\, A1766\, A2627\, A5603\, A5704\, A5733\, S219\nht
- tp://www.njleg.state.nj.us/downloads.asp
+ tps://www.njleg.state.nj.us/live-proceedings/2026-12-03-13:00:00/AHO/Meeti
+ ng
 LOCATION:Committee Room 9\, 3rd Floor\, State House Annex\, 131-137 W State
   St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-13:00:00/AHO/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-dbf63bdc7419@govbot-public-hearings
@@ -194,21 +205,24 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T180000Z
 SUMMARY:Assembly Public Safety and Preparedness Committee
 DESCRIPTION:Bills: A1948\, A2291\, A3278\, A3866\, A5311\, A5510\, A5827\nh
- ttp://www.njleg.state.nj.us/downloads.asp
+ ttps://www.njleg.state.nj.us/live-proceedings/2026-12-03-13:00:00/APS/Meet
+ ing
 LOCATION:Committee Room 16\, 4th Floor\, State House Annex\, 131-137 W Stat
  e St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-13:00:00/APS/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-182f7015e5e5@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261203T190000Z
 SUMMARY:Assembly Commerce and Economic Development Committee
-DESCRIPTION:Bills: A1077\, A1651\, A5110\, A5335\, A5517\, S4107\nhttp://ww
- w.njleg.state.nj.us/downloads.asp
+DESCRIPTION:Bills: A1077\, A1651\, A5110\, A5335\, A5517\, S4107\nhttps://w
+ ww.njleg.state.nj.us/live-proceedings/2026-12-03-14:00:00/ACE/Meeting
 LOCATION:Committee Room 15\, 4th Floor\, State House Annex\, 131-137 W Stat
  e St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-14:00:00/ACE/
+ Meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:nj-os-4d27b22e6414@govbot-public-hearings
@@ -216,9 +230,11 @@ DTSTAMP:20261128T050421Z
 DTSTART:20261203T190000Z
 SUMMARY:Assembly Regulated Professions Committee
 DESCRIPTION:Bills: A1653\, A4783\, A4848\, A4952\, A5448\, A5817\, S3445\nh
- ttp://www.njleg.state.nj.us/downloads.asp
+ ttps://www.njleg.state.nj.us/live-proceedings/2026-12-03-14:00:00/ARP/Meet
+ ing
 LOCATION:Committee Room 12\, 4th Floor\, State House Annex\, 131-137 W Stat
  e St\, Trenton\, NJ 08608
-URL:http://www.njleg.state.nj.us/downloads.asp
+URL:https://www.njleg.state.nj.us/live-proceedings/2026-12-03-14:00:00/ARP/
+ Meeting
 END:VEVENT
 END:VCALENDAR

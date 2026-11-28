@@ -1,6 +1,26 @@
 {
   "bills": [
     {
+      "id": "HR1682",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1682"
+    },
+    {
+      "id": "HR2317",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2317"
+    },
+    {
+      "id": "HR2709",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2709"
+    },
+    {
+      "id": "HR900",
+      "slips": null,
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/900"
+    },
+    {
       "id": "S462",
       "slips": null,
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/462"
@@ -51,11 +71,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4103"
     },
     {
-      "id": "HR2709",
-      "slips": null,
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2709"
-    },
-    {
       "id": "S4200",
       "slips": null,
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4200"
@@ -84,26 +99,11 @@
       "id": "S5608",
       "slips": null,
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5608"
-    },
-    {
-      "id": "HR900",
-      "slips": null,
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/900"
-    },
-    {
-      "id": "HR1682",
-      "slips": null,
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1682"
-    },
-    {
-      "id": "HR2317",
-      "slips": null,
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2317"
     }
   ],
   "chamber": "senate",
   "committee": "Senate Energy and Natural Resources",
-  "details_url": "https://www.senate.gov/committees/hearings_meetings.htm",
+  "details_url": "https://www.senate.gov/isvp/?comm=energy&filename=energy120126",
   "first_seen": "2026-11-28T05:50:20Z",
   "id": "usa-senate-338909",
   "jurisdiction": "usa",

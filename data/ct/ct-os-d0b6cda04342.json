@@ -1,67 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB220",
+      "id": "SB389",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB223",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5421",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB263",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB390",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5381",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB312",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5447",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB401",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5030",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5423",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5033",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5446",
+      "id": "HB5425",
       "slips": null,
       "url": null
     },
@@ -71,7 +16,32 @@
       "url": null
     },
     {
-      "id": "SB388",
+      "id": "HB5423",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5381",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB263",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB401",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB390",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5447",
       "slips": null,
       "url": null
     },
@@ -81,7 +51,7 @@
       "url": null
     },
     {
-      "id": "SB389",
+      "id": "HB5030",
       "slips": null,
       "url": null
     },
@@ -91,14 +61,43 @@
       "url": null
     },
     {
-      "id": "HB5425",
+      "id": "SB388",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5033",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB220",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB312",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5421",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB223",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5446",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Appropriations Committee Meeting (2C-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-d0b6cda04342",
   "jurisdiction": "ct",

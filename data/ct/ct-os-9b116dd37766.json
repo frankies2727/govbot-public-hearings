@@ -1,27 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB237",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB415",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB234",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "SB9",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB236",
+      "id": "HB5462",
       "slips": null,
       "url": null
     },
@@ -31,22 +16,42 @@
       "url": null
     },
     {
+      "id": "SB237",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5464",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5461",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5237",
+      "id": "SB415",
       "slips": null,
       "url": null
     },
     {
       "id": "SB235",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB413",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB412",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB414",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB236",
       "slips": null,
       "url": null
     },
@@ -66,7 +71,12 @@
       "url": null
     },
     {
-      "id": "SB412",
+      "id": "HB5237",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5461",
       "slips": null,
       "url": null
     },
@@ -76,24 +86,13 @@
       "url": null
     },
     {
-      "id": "SB413",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB414",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5462",
+      "id": "SB234",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Transportation Committee Meeting (1D-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=TRA",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-9b116dd37766",
   "jurisdiction": "ct",

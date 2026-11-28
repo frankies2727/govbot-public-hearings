@@ -1,12 +1,7 @@
 {
   "bills": [
     {
-      "id": "HJ51",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ43",
+      "id": "HJ35",
       "slips": null,
       "url": null
     },
@@ -16,147 +11,7 @@
       "url": null
     },
     {
-      "id": "SJ53",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5489",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ48",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB473",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB398",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ58",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ55",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ55",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ40",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5431",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ35",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ57",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ45",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ57",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ52",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ38",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ45",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5437",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ37",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5432",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ41",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ50",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ59",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5433",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ52",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ53",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ48",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ42",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ60",
+      "id": "HJ41",
       "slips": null,
       "url": null
     },
@@ -166,22 +21,107 @@
       "url": null
     },
     {
-      "id": "SJ61",
+      "id": "SJ56",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB343",
+      "id": "HJ52",
       "slips": null,
       "url": null
     },
     {
-      "id": "SB434",
+      "id": "HJ40",
       "slips": null,
       "url": null
     },
     {
-      "id": "SJ44",
+      "id": "SJ45",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ47",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ55",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB473",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ38",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5433",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ60",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5437",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ57",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ36",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ49",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ44",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ59",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ37",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ52",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ46",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5490",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ56",
       "slips": null,
       "url": null
     },
@@ -196,7 +136,42 @@
       "url": null
     },
     {
-      "id": "HJ49",
+      "id": "HJ48",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ53",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ58",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ61",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ44",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ48",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ41",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ50",
       "slips": null,
       "url": null
     },
@@ -206,87 +181,17 @@
       "url": null
     },
     {
-      "id": "HJ39",
+      "id": "HB5431",
       "slips": null,
       "url": null
     },
     {
-      "id": "HJ46",
+      "id": "HJ53",
       "slips": null,
       "url": null
     },
     {
-      "id": "HJ56",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ50",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ49",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ41",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ44",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ47",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ54",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ36",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ51",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ39",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ56",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5490",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ42",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ40",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ47",
+      "id": "HJ55",
       "slips": null,
       "url": null
     },
@@ -296,14 +201,108 @@
       "url": null
     },
     {
+      "id": "SJ49",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ39",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ42",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ42",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB434",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB343",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ54",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5432",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ47",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5535",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ57",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB398",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ40",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ39",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ51",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ43",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ45",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5489",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ50",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ51",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Judiciary Committee Public Hearing (2D-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-9006bb7bf992",
   "jurisdiction": "ct",

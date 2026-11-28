@@ -1,76 +1,6 @@
 {
   "bills": [
     {
-      "id": "SB517",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5575",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5582",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5574",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5580",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5579",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5576",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5572",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB518",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB521",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB519",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB523",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB524",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB520",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5573",
       "slips": null,
       "url": null
@@ -81,12 +11,82 @@
       "url": null
     },
     {
+      "id": "HB5582",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB523",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5572",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB519",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5580",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB518",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB522",
       "slips": null,
       "url": null
     },
     {
+      "id": "HB5574",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5578",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB521",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB517",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5576",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5579",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB520",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5575",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB524",
       "slips": null,
       "url": null
     },
@@ -98,7 +98,6 @@
   ],
   "chamber": "other",
   "committee": "Government Oversight Committee Public Hearing (2B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GOS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-174879f51fdb",
   "jurisdiction": "ct",

@@ -11,8 +11,10 @@ UID:me-os-63691b44658c@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261203T183000Z
 SUMMARY:Legislative Council
-DESCRIPTION:https://legislature.maine.gov/committee/#Committees/LC
+DESCRIPTION:https://legislature.maine.gov/audio/#334?event=97904&startDate=
+ 2026-12-03T13:30:00-05:00
 LOCATION:Maine State House\, 210 State St\, Augusta\, ME 04330\, Room 334
-URL:https://legislature.maine.gov/committee/#Committees/LC
+URL:https://legislature.maine.gov/audio/#334?event=97904&startDate=2026-12-
+ 03T13:30:00-05:00
 END:VEVENT
 END:VCALENDAR

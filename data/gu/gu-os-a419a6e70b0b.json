@@ -1,19 +1,18 @@
 {
   "bills": [
     {
-      "id": "B27638",
+      "id": "B27738",
       "slips": null,
       "url": null
     },
     {
-      "id": "B27738",
+      "id": "B27638",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "POSTPONED: Public Hearing - Office of Legislative Secretary Senator Sabrina Salas Matanane",
-  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "gu-os-a419a6e70b0b",
   "jurisdiction": "gu",

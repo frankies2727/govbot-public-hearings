@@ -1,17 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB370",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5404",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5046",
+      "id": "SB370",
       "slips": null,
       "url": null
     },
@@ -21,7 +16,12 @@
       "url": null
     },
     {
-      "id": "HB5400",
+      "id": "HB5402",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5046",
       "slips": null,
       "url": null
     },
@@ -31,14 +31,13 @@
       "url": null
     },
     {
-      "id": "HB5402",
+      "id": "HB5400",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Safety and Security Committee Public Hearing (2A-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-df5e6bc37b3d",
   "jurisdiction": "ct",

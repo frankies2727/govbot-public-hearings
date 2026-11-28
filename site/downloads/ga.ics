@@ -11,19 +11,22 @@ UID:ga-os-57bcf90e308f@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261217T150000Z
 SUMMARY:Joint Senate and House Appropriations Committee Meeting
-DESCRIPTION:https://www.legis.ga.gov/schedule/all
+DESCRIPTION:
 LOCATION:State Capitol\, 3402 LOB\, 206 Washington St SW\, Atlanta\, GA 303
  34
-URL:https://www.legis.ga.gov/schedule/all
 END:VEVENT
 BEGIN:VEVENT
 UID:ga-os-b8b42443e98e@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261217T150000Z
 SUMMARY:JOINT APPROPRIATIONS
-DESCRIPTION:https://www.legis.ga.gov/schedule/all
+DESCRIPTION:https://www.legis.ga.gov/api/document/agendas/house/Appropriati
+ ons%2FJoint%20House%20and%20Senate%20Appropriations%20Committe%20Meeting%2
+ 012-17-26.pdf
 LOCATION:State Capitol\, Appropriations Committee Room\, 3rd Floor\, LOB\, 
  206 Washington St SW\, Atlanta\, GA 30334
-URL:https://www.legis.ga.gov/schedule/all
+URL:https://www.legis.ga.gov/api/document/agendas/house/Appropriations%2FJo
+ int%20House%20and%20Senate%20Appropriations%20Committe%20Meeting%2012-17-2
+ 6.pdf
 END:VEVENT
 END:VCALENDAR

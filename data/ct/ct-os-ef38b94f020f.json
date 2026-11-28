@@ -1,12 +1,7 @@
 {
   "bills": [
     {
-      "id": "HB5376",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5373",
+      "id": "HB5374",
       "slips": null,
       "url": null
     },
@@ -16,42 +11,12 @@
       "url": null
     },
     {
-      "id": "SB341",
+      "id": "HB5378",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5374",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB340",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5263",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB258",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5372",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB342",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5375",
+      "id": "HB5376",
       "slips": null,
       "url": null
     },
@@ -61,12 +26,32 @@
       "url": null
     },
     {
-      "id": "HB5378",
+      "id": "HB5377",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5377",
+      "id": "HB5263",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB341",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5373",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5372",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB258",
       "slips": null,
       "url": null
     },
@@ -76,14 +61,28 @@
       "url": null
     },
     {
+      "id": "HB5375",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5264",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB340",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB342",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Insurance and Real Estate Committee Meeting (2B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=INS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-ef38b94f020f",
   "jurisdiction": "ct",

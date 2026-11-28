@@ -1,12 +1,12 @@
 {
   "bills": [
     {
-      "id": "SB368",
+      "id": "SB372",
       "slips": null,
       "url": null
     },
     {
-      "id": "HB5401",
+      "id": "SB366",
       "slips": null,
       "url": null
     },
@@ -16,12 +16,42 @@
       "url": null
     },
     {
-      "id": "SB373",
+      "id": "SB375",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5401",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB367",
       "slips": null,
       "url": null
     },
     {
       "id": "HB5206",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB374",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB371",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB368",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB373",
       "slips": null,
       "url": null
     },
@@ -34,41 +64,10 @@
       "id": "HB5405",
       "slips": null,
       "url": null
-    },
-    {
-      "id": "SB372",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB375",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB367",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB371",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB366",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB374",
-      "slips": null,
-      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Safety and Security Committee Public Hearing (1E-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PS",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-fbbd61006910",
   "jurisdiction": "ct",

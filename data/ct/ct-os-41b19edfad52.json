@@ -1,72 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB384",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5345",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ37",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5344",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5341",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5346",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ33",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5347",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB225",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB387",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ32",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HJ34",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5220",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SJ38",
       "slips": null,
       "url": null
     },
@@ -76,12 +11,7 @@
       "url": null
     },
     {
-      "id": "HB5221",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5343",
+      "id": "HB5220",
       "slips": null,
       "url": null
     },
@@ -91,7 +21,7 @@
       "url": null
     },
     {
-      "id": "HB5219",
+      "id": "HB5341",
       "slips": null,
       "url": null
     },
@@ -106,14 +36,83 @@
       "url": null
     },
     {
+      "id": "HJ34",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "SB385",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5347",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5221",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5345",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ32",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5219",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ33",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB387",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB225",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ37",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB384",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ38",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5343",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5344",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "Government Administration and Elections Committee Meeting (1B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-41b19edfad52",
   "jurisdiction": "ct",

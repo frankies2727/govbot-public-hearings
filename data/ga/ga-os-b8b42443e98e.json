@@ -2,7 +2,7 @@
   "bills": [],
   "chamber": "joint",
   "committee": "JOINT APPROPRIATIONS",
-  "details_url": "https://www.legis.ga.gov/schedule/all",
+  "details_url": "https://www.legis.ga.gov/api/document/agendas/house/Appropriations%2FJoint%20House%20and%20Senate%20Appropriations%20Committe%20Meeting%2012-17-26.pdf",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ga-os-b8b42443e98e",
   "jurisdiction": "ga",

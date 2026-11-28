@@ -1,37 +1,7 @@
 {
   "bills": [
     {
-      "id": "SB86",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB5",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB227",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "HB5350",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB117",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "HB5226",
-      "slips": null,
-      "url": null
-    },
-    {
-      "id": "SB229",
       "slips": null,
       "url": null
     },
@@ -41,14 +11,43 @@
       "url": null
     },
     {
+      "id": "SB229",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB227",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB117",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB5",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB86",
+      "slips": null,
+      "url": null
+    },
+    {
       "id": "HB5351",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5350",
       "slips": null,
       "url": null
     }
   ],
   "chamber": "other",
   "committee": "General Law Committee Meeting (2B-ZOOM)",
-  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GL",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "ct-os-539c0b1bc3b2",
   "jurisdiction": "ct",

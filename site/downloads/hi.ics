@@ -11,9 +11,10 @@ UID:hi-os-ca1e7c53a9e3@govbot-public-hearings
 DTSTAMP:20261128T050421Z
 DTSTART:20261202T220000Z
 SUMMARY:CPC-JUD-TRN
-DESCRIPTION:https://www.capitol.hawaii.gov/session/upcominghearingsfiltered
- .aspx
+DESCRIPTION:https://www.capitol.hawaii.gov/sessions/session2026/hearingnoti
+ ces/HEARING_CPC-JUD-TRN_12-02-26_INFO_.HTM
 LOCATION:329 VIA VIDEOCONFERENCE
-URL:https://www.capitol.hawaii.gov/session/upcominghearingsfiltered.aspx
+URL:https://www.capitol.hawaii.gov/sessions/session2026/hearingnotices/HEAR
+ ING_CPC-JUD-TRN_12-02-26_INFO_.HTM
 END:VEVENT
 END:VCALENDAR

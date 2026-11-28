@@ -1,11 +1,6 @@
 {
   "bills": [
     {
-      "id": "B31938",
-      "slips": null,
-      "url": null
-    },
-    {
       "id": "B24338",
       "slips": null,
       "url": null
@@ -14,11 +9,16 @@
       "id": "B33238",
       "slips": null,
       "url": null
+    },
+    {
+      "id": "B31938",
+      "slips": null,
+      "url": null
     }
   ],
   "chamber": "other",
   "committee": "Public Hearing: August 31, 2026 - Senator Christopher M. Dueñas",
-  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "details_url": "https://youtube.com/live/Jc6SPDFaxik",
   "first_seen": "2026-11-28T05:04:21Z",
   "id": "gu-os-e2cd7bb2c7b1",
   "jurisdiction": "gu",
