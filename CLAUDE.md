@@ -361,3 +361,17 @@ public-hearing list apart from their committee calendar; candidates for later ar
 sandbox), Vermont's announcements (free text), Nebraska's hearing schedule. Hawaii and the NY Senate site answer 403,
 Maryland's witness sign-up needs a login, and Texas's comment API needs a token + reCAPTCHA — all left out.
 The place dropdown's arrow (`.mp-rainbow::after`) is 20px and bold with a thin divider before it, so it reads as a dropdown.
+
+**Oregon from its own open data (Nov 2026).** `parse_or_meetings` / `fetch_or` read api.oregonlegislature.gov (keyless
+OData, the records OLIS shows): `CommitteeMeetings` (from today; each has its own `AgendaUrl` → `details_url`, "Hearing
+agenda ↗"), `Committees` per session (name, `HouseOfAction` H/S/J → chamber) and `CommitteeAgendaItems` (type: "Public
+Hearing" items make the subject start "Public hearing: …"; `MeasurePrefix`+`MeasureNumber` → bills linked to OLIS's
+measure page; the first line of each item's `Comments` → up to 4 topics). "Invited speakers only" is said once at the
+end, "(invited speakers only)", and such a row gets no testify link. id `or-<session>-<committee>-<yyyymmddhhmm>`. Open
+States' Oregon scraper found nothing, so `or` is in `OS_SKIP` and out of `OS_STATES`. Oregon's participate link is its
+how-to-testify page, so participation.json's `participate_label` ("How to testify") overrides the generic wording (page
+and place pages). Fixtures `raw/or_meetings.json`, `or_committees.json`, `or_agenda_items.json`; tests `OregonMeetings`.
+**Warnings:** a broken Open States scraper logs a plain line each run and warns only at 3 runs in a row (one warning per
+broken place). As of Nov 28, 2026: nm (www.nmlegis.gov has no DNS record; the upstream scraper still uses it), wv and vi
+(their sites time out from GitHub), ct (its FTP committee list refuses connections) — all upstream, shown from saved
+data meanwhile. Workflows use actions/checkout@v6 and setup-python@v6 (Node 24).

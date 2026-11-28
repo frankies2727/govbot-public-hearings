@@ -27,6 +27,7 @@
           "online": { "type": "boolean", "description": "Whether participation can be done online." },
           "portal_url": { "type": "string", "format": "uri", "description": "Official portal / how-to-participate page." },
           "how_to": { "type": "string", "description": "What a resident does to weigh in, answer first, with no comparisons to other states." },
+          "participate_label": { "type": "string", "description": "Overrides the link's wording when the participate_url is a how-to page rather than the form itself (e.g. Oregon: \"How to testify\")." },
           "participate_url": { "type": "string", "format": "uri", "description": "Set only when the official page is itself the tool for taking part (a sign-in, slip, comment or request-to-speak form), not a homepage or calendar. Every hearing row links it." }
         }
       }

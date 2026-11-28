@@ -547,6 +547,33 @@ class NewYorkPublicHearings(unittest.TestCase):
         self.assertEqual(main.parse_ny_public_hearings("<html></html>"), [])
 
 
+class OregonMeetings(unittest.TestCase):
+    """api.oregonlegislature.gov open data (real responses, Nov 2026)."""
+
+    def load(self):
+        return main.parse_or_meetings((RAW / "or_meetings.json").read_text(), (RAW / "or_agenda_items.json").read_text(),
+                                      [(RAW / "or_committees.json").read_text()])
+
+    def test_meetings_link_their_own_agenda(self):
+        hs = self.load()
+        self.assertEqual(len(hs), 42)
+        h = hs[0]
+        self.assertEqual(h["committee"], "Blue Economy")
+        self.assertEqual(h["chamber"], "joint")
+        self.assertEqual(h["scheduled_iso"], "2026-11-30T13:00:00")
+        self.assertEqual(h["details_url"], "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeAgenda/JTFBE/2026-11-30-13-00")
+        self.assertTrue(h["title"].startswith("Public hearing: "))
+        self.assertTrue(all(REQUIRED <= set(x) for x in hs))
+        self.assertEqual(len({x["id"] for x in hs}), len(hs))
+
+    def test_invited_speakers_only_is_said_once_at_the_end(self):
+        t = next(h["title"] for h in self.load() if h["committee"] == "Early Childhood")
+        self.assertEqual(t, "Child Savings Accounts (invited speakers only)")
+
+    def test_bad_json_is_empty(self):
+        self.assertEqual(main.parse_or_meetings("x", "", []), [])
+
+
 class CongressHearings(unittest.TestCase):
     """Real senate.gov and docs.house.gov files (Nov 2026)."""
 

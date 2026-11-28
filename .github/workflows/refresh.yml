@@ -26,8 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -40,7 +40,7 @@ jobs:
       # Every other state's committee calendar, read from its legislature's own website by
       # Open States' open-source "events" scrapers (the project Govbot's bills come from),
       # run here in their Docker image: code we run, not a service that can shut off.
-      # Left out on purpose: il wa ma ak (our own scrapers); ca (needs its database
+      # Left out on purpose: il wa ma ak or (our own scrapers; Oregon from its own open data); ca (needs its database
       # dump); ny dc in usa (need an API key); oh mp (their scrapers use a tool made to get
       # past Cloudflare's bot protection, which we don't do); mi (its site answers 403).
       # Each place writes event_*.json and gets an _ok file when its scraper finished
@@ -51,7 +51,7 @@ jobs:
           OS_IMAGE: openstates/scrapers:latest
           OS_STATES: >-
             al ar az co ct de fl ga gu hi ia id ks ky la md me mn mo ms mt nc nd ne nh nj
-            nm nv ok or pa ri sc sd tn tx ut va vi vt wi wv wy
+            nm nv ok pa ri sc sd tn tx ut va vi vt wi wv wy
         run: |
           set -u
           export OUT="$RUNNER_TEMP/os" WORK="$RUNNER_TEMP/osw"
@@ -66,7 +66,8 @@ jobs:
                || grep -q "no objects returned" "$w/log"; then
               touch "$OUT/$s/_ok"
             else
-              echo "::warning::$s meeting scraper failed: $(grep -E '^[A-Za-z_.]*(Error|Exception)' "$w/log" | tail -1 | cut -c1-160)"
+              # A plain log line: the run warns only once a place has failed 3 runs in a row (scraper/main.py).
+              echo "$s meeting scraper failed: $(grep -E '^[A-Za-z_.]*(Error|Exception)' "$w/log" | tail -1 | cut -c1-160)"
             fi
             find "$w/_data" -name 'event_*.json' -exec cp {} "$OUT/$s/" \; 2>/dev/null
             echo "$s: $(ls "$OUT/$s" | grep -c '^event_') meetings"
@@ -101,7 +102,7 @@ jobs:
           set -uo pipefail
           out="$RUNNER_TEMP/out"; rm -rf "$out"; mkdir -p "$out"
           python3 scraper/main.py \
-            --jurisdictions il,wa,ma,ak,chi,ia,ny,usa,us \
+            --jurisdictions il,wa,ma,ak,or,chi,ia,ny,usa,us \
             --output "$out/hearings.json" \
             --rss "$out/hearings.xml" \
             --rss-feeds-dir "$out/hearings" \

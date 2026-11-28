@@ -333,7 +333,8 @@
       "online": true,
       "portal_url": "https://www.oregonlegislature.gov/citizen_engagement/Pages/How-to-Testify.aspx",
       "how_to": "Register online as a witness once a public hearing is scheduled; registration usually closes 30 minutes before the hearing starts.",
-      "participate_url": "https://www.oregonlegislature.gov/citizen_engagement/Pages/How-to-Testify.aspx"
+      "participate_url": "https://www.oregonlegislature.gov/citizen_engagement/Pages/How-to-Testify.aspx",
+      "participate_label": "How to testify"
     },
     {
       "code": "pa",

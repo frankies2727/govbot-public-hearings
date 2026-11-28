@@ -1380,7 +1380,8 @@
     // A bill-based form (Request to Speak, witness slip, appearance form, position letter) only
     // fits a hearing on bills; sign-in and comment forms work for any committee meeting.
     if (BILL_FORMS.has(p.participation) && !(h.bills && h.bills.length)) return null;
-    return { href: p.participate_url, label: ACT_LABEL[p.participation] };
+    if (/\(invited speakers only\)/i.test(h.title || "")) return null;   // the public can't testify at this one
+    return { href: p.participate_url, label: p.participate_label ? p.participate_label + " ↗" : ACT_LABEL[p.participation] };
   }
 
   // "Add to my calendar (.ics)" for one hearing, made in the browser from the row itself.
@@ -1453,7 +1454,7 @@
     main.append(eln("div", "h-committee", h.committee || "Committee"));
     // The published subject says what a meeting is about. Shown where the source gives a real one
     // (Chicago, Congress, and Open States' cleaned descriptions), at most three lines.
-    if (h.title && (h.jurisdiction === "chi" || h.jurisdiction === "usa" || h.id.includes("-os-") || /^(ia|ny)-hearing-/.test(h.id)))
+    if (h.title && (h.jurisdiction === "chi" || h.jurisdiction === "usa" || h.id.includes("-os-") || /^(ia|ny)-hearing-|^or-/.test(h.id)))
       main.append(eln("div", "h-loc h-subject", h.title));
     if (h.location) main.append(eln("div", "h-loc", h.location));
 
@@ -1844,7 +1845,7 @@
     const pUrl = tool ? p.participate_url : p.portal_url;
     if (pUrl) {
       const a = eln("a", "file-link", code === "usa" ? "Find your members of Congress ↗"
-        : code === "chi" ? "How public comment works ↗" : tool ? ACT_LABEL[p.participation] : "Official legislature site ↗");
+        : code === "chi" ? "How public comment works ↗" : tool ? (p.participate_label ? p.participate_label + " ↗" : ACT_LABEL[p.participation]) : "Official legislature site ↗");
       a.href = pUrl; a.target = "_blank"; a.rel = "noopener";
       acts.append(a);
     }

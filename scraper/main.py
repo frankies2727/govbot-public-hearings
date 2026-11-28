@@ -1281,6 +1281,91 @@ def fetch_ny_hearings():
 
 
 # --------------------------------------------------------------------------- #
+# Oregon: the Legislature's own open data feed (OData, keyless)
+# --------------------------------------------------------------------------- #
+# api.oregonlegislature.gov publishes the same records OLIS shows: every committee meeting
+# (with its own agenda link), each committee's name and chamber, and each agenda item with its
+# type ("Public Hearing", "Work Session", "Informational Meeting") and bill. Open States' Oregon
+# scraper finds no meetings (Nov 2026), so this reader covers Oregon and Open States' run skips it.
+OR_API = "https://api.oregonlegislature.gov/odata/odataservice.svc/"
+OR_TOPICS_MAX = 4
+
+
+def _or_q(entity, flt, top=500):
+    return OR_API + entity + "?" + urllib.parse.urlencode({"$format": "json", "$filter": flt, "$top": str(top)})
+
+
+def parse_or_meetings(meetings_json, items_json, committees_jsons):
+    """Oregon's meetings + agenda items + committees (JSON text) -> hearing records. Pure."""
+    def rows(t):
+        try:
+            return json.loads(t or "{}").get("value", [])
+        except ValueError:
+            return []
+    names = {}
+    for t in committees_jsons:
+        for c in rows(t):
+            names[(c.get("SessionKey"), c.get("CommitteeCode"))] = c
+    agenda = {}
+    for it in rows(items_json):
+        agenda.setdefault((it.get("SessionKey"), it.get("CommitteCode"), it.get("MeetingDate")), []).append(it)
+    out = []
+    for m in rows(meetings_json):
+        sess, code, when = m.get("SessionKey"), m.get("CommitteeCode"), m.get("MeetingDate") or ""
+        if not (sess and code and re.match(r"\d{4}-\d\d-\d\dT\d\d:\d\d", when)):
+            continue
+        c = names.get((sess, code), {})
+        items = sorted(agenda.get((sess, code, when), []), key=lambda x: int(x.get("PrintOrder") or 0))
+        bills, topics, hearing = [], [], False
+        for it in items:
+            pre, num = (it.get("MeasurePrefix") or "").strip(), it.get("MeasureNumber")
+            if (it.get("MeetingType") or "").lower() == "public hearing":
+                hearing = True
+            if pre and num:
+                bid = f"{pre}{num}"
+                if bid not in {b["id"] for b in bills}:
+                    bills.append({"id": bid, "slips": None,
+                                  "url": f"https://olis.oregonlegislature.gov/liz/{sess}/Measures/Overview/{bid}"})
+            topic = _plain((it.get("Comments") or "").split("\n")[0]) or (f"{pre} {num}" if pre and num else "")
+            if topic and topic not in topics:
+                topics.append(topic)
+        invited = any(re.fullmatch(r"invited (speakers|testimony) only\.?", t, re.I) for t in topics)
+        topics = [t for t in topics if not re.fullmatch(r"invited (speakers|testimony) only\.?", t, re.I)]
+        title = "; ".join(topics[:OR_TOPICS_MAX]) + (" …" if len(topics) > OR_TOPICS_MAX else "")
+        if invited:                                    # the public can watch but not testify
+            title = (title + " " if title else "") + "(invited speakers only)"
+        if hearing:
+            title = "Public hearing" + (": " + title if title else "")
+        house = (c.get("HouseOfAction") or "").upper()
+        rec = {
+            "id": f"or-{sess}-{code}-{re.sub(r'[^0-9]', '', when)[:12]}".lower(), "jurisdiction": "or",
+            "chamber": {"H": "house", "S": "senate", "J": "joint"}.get(house, "other"),
+            "committee": c.get("CommitteeName") or code, "title": title,
+            "scheduled_iso": when[:19], "scheduled_display": when[:19], "timezone": "America/Los_Angeles",
+            "location": " · ".join(x for x in (m.get("Location"), "Oregon State Capitol, Salem") if x),
+            "status": "canceled" if re.search(r"cancel", m.get("MeetingStatus") or "", re.I) else "scheduled",
+            "bills": bills, "witness_slip_url": None, "source": "oregonlegislature.gov",
+        }
+        if (m.get("AgendaUrl") or "").startswith("https://"):
+            rec["details_url"] = m["AgendaUrl"]           # this meeting's own agenda on OLIS
+        out.append(rec)
+    return out
+
+
+def fetch_or(now):
+    """Upcoming Oregon committee meetings from the Legislature's open data. Fail-soft."""
+    since = now.strftime("%Y-%m-%dT00:00:00")
+    meetings = fetch_text(_or_q("CommitteeMeetings", f"MeetingDate ge datetime'{since}'")) or ""
+    items = fetch_text(_or_q("CommitteeAgendaItems", f"MeetingDate ge datetime'{since}'", 2000)) or ""
+    try:
+        sessions = sorted({m["SessionKey"] for m in json.loads(meetings or "{}").get("value", [])})
+    except (ValueError, KeyError):
+        sessions = []
+    comms = [fetch_text(_or_q("Committees", f"SessionKey eq '{s}'")) or "" for s in sessions]
+    return parse_or_meetings(meetings, items, comms)
+
+
+# --------------------------------------------------------------------------- #
 # U.S. Congress committee hearings (code "usa", Govbot's code for federal bills)
 # --------------------------------------------------------------------------- #
 # Read straight from each chamber's own published schedule, no key and no API:
@@ -1741,7 +1826,7 @@ def participation_jurisdictions(path):
 ARCHIVE_SKIP = {"us"}
 # Places our own scrapers cover in full, so Open States' meetings for them are ignored. (Iowa is
 # not here: our scraper reads only its public hearings, Open States its committee meetings.)
-OS_SKIP = {"il", "wa", "ma", "ak", "chi", "us", "usa"}       # federal comment periods are archived by the Federal Register
+OS_SKIP = {"il", "wa", "ma", "ak", "or", "chi", "us", "usa"}       # federal comment periods are archived by the Federal Register
 
 
 def _archive_record(h):
@@ -2596,7 +2681,7 @@ footer {{ margin-top: 40px; border-top: 1.5px solid var(--line); padding-top: 12
 <h1>{e(h1)}</h1>
 <p class="lead">{e(lead)}</p>
 {('<p>' + e(p['how_to']) + '</p>') if p.get('how_to') else ''}
-<p><a href="{e(p.get('participate_url') or p.get('portal_url'))}" rel="noopener">{e(PART_LABEL.get(p.get('participation')) if p.get('participate_url') else 'Official ' + name + ' legislature site')} ↗</a></p>
+<p><a href="{e(p.get('participate_url') or p.get('portal_url'))}" rel="noopener">{e((p.get('participate_label') or PART_LABEL.get(p.get('participation'))) if p.get('participate_url') else 'Official ' + name + ' legislature site')} ↗</a></p>
 <h2>Steps</h2>
 <ol>{''.join('<li>' + e(s) + '</li>' for s in steps)}</ol>
 {('<h2>Tips</h2><ul>' + ''.join('<li>' + e(t) + '</li>' for t in tips) + '</ul>') if tips else ''}
@@ -2623,9 +2708,10 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
         rows = pj.get("jurisdictions", [])
         how = {r["code"]: r.get("how_to", "") for r in rows}
         tool = {r["code"]: r["participate_url"] for r in rows if r.get("participate_url")}
+        tool_label = {r["code"]: r["participate_label"] for r in rows if r.get("participate_label")}
         tips = pj.get("tips", [])
     except (OSError, ValueError):
-        how, tool, tips = {}, {}, []
+        how, tool, tool_label, tips = {}, {}, {}, []
     for j in list(doc.get("jurisdictions", [])) + list(JURISDICTIONS.values()):
         places.setdefault(j["code"], {k: j[k] for k in ("code", "name", "participation", "portal_url")})
         if j.get("how_to"):
@@ -2639,7 +2725,7 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
     out.mkdir(parents=True)
     urls = [SITE_URL]
     for code, p in sorted(places.items(), key=lambda kv: kv[1]["name"]):
-        p = dict(p, how_to=how.get(code, ""), participate_url=tool.get(code))
+        p = dict(p, how_to=how.get(code, ""), participate_url=tool.get(code), participate_label=tool_label.get(code))
         slug = place_slug(code, p["name"])
         (out / f"{slug}.html").write_text(
             place_page(p, doc.get("hearings", []), doc["generated_at"], code in dl, tips), encoding="utf-8")
@@ -2654,7 +2740,7 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,ia,ny,usa,us",
+    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,or,chi,ia,ny,usa,us",
                     help="Comma-separated codes to scrape live (default: il,wa,ma,ak,chi,us; "
                          "'us' = federal comment periods from Regulations.gov)")
     ap.add_argument("--from-fixtures", default=None,
@@ -2723,12 +2809,14 @@ def main():
             hearings.extend(fetch_ia_hearings())
         if "ny" in codes:                    # New York's joint public hearing calendar
             hearings.extend(fetch_ny_hearings())
+        if "or" in codes:                    # Oregon's committee meetings, from its own open data
+            hearings.extend(fetch_or(now))
         if "usa" in codes:                   # Congress's committee hearings
             hearings.extend(fetch_usa(now))
         if "us" in codes:                    # federal rules open for comment
             hearings.extend(fetch_us(now.date()))
         source = ("ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + "
-                  "chicityclerkelms.chicago.gov + legis.iowa.gov + nyassembly.gov + senate.gov + docs.house.gov + "
+                  "chicityclerkelms.chicago.gov + legis.iowa.gov + nyassembly.gov + oregonlegislature.gov + senate.gov + docs.house.gov + "
                   "federalregister.gov (govbot scrape-hearings)")
         if args.os_events:
             # Places we scrape ourselves keep our own scraper; Open States fills the rest.
@@ -2753,7 +2841,8 @@ def main():
                           file=sys.stderr)
                 late = update_status(args.data_dir, os_codes, os_ok, os_hearings, now)
                 for c in late:
-                    print(f"::warning::the {c} meeting scraper has failed 3+ runs in a row",
+                    print(f"::warning::the {c} meeting scraper has failed 3+ runs in a row "
+                          f"(its site isn't answering; {c} shows its saved meetings meanwhile)",
                           file=sys.stderr)
 
     if args.participation:
