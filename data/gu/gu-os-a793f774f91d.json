@@ -1,9 +1,9 @@
 {
   "bills": [
     {
-      "id": "B23338",
+      "id": "B17238",
       "slips": null,
-      "url": "https://guamlegislature.gov/bills-page3/"
+      "url": "https://guamlegislature.gov/bills-page2/"
     },
     {
       "id": "B22738",
@@ -11,9 +11,9 @@
       "url": "https://guamlegislature.gov/bills-page3/"
     },
     {
-      "id": "B17238",
+      "id": "B23338",
       "slips": null,
-      "url": "https://guamlegislature.gov/bills-page2/"
+      "url": "https://guamlegislature.gov/bills-page3/"
     }
   ],
   "chamber": "other",

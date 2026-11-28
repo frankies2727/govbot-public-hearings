@@ -1,6 +1,6 @@
 {
   "license": "CC BY 4.0 (credit Govbot Public Hearings)",
-  "meetings": 3749,
+  "meetings": 3754,
   "places": [
     {
       "code": "ak",
@@ -185,6 +185,14 @@
       "meetings": 388,
       "name": "New Jersey",
       "upcoming": 20
+    },
+    {
+      "code": "ny",
+      "csv": "hearings-ny.csv",
+      "ics": "ny.ics",
+      "meetings": 5,
+      "name": "New York",
+      "upcoming": 5
     },
     {
       "code": "ok",

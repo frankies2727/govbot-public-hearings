@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Assembly Standing Committee on Aging",
+  "details_url": "https://nyassembly.gov/comm/?id=1&sec=story&story=119987",
+  "first_seen": "2026-11-28T18:36:27Z",
+  "id": "ny-hearing-1526",
+  "jurisdiction": "ny",
+  "location": "Roosevelt Hearing Room C, Legislative Office Building, 2nd Floor, Albany, New York",
+  "scheduled_display": "2026-12-01T11:00:00",
+  "scheduled_iso": "2026-12-01T11:00:00",
+  "source": "nyassembly.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "New York State’s Aging in Place Services and Programs",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Assembly Standing Committee on Education · Assembly Standing Committee on Libraries and Education Technology · Assembly Standing Committee on Science & Technology",
+  "details_url": "https://nyassembly.gov/comm/?id=12&sec=story&story=119960",
+  "first_seen": "2026-11-28T18:36:27Z",
+  "id": "ny-hearing-1525",
+  "jurisdiction": "ny",
+  "location": "Hamilton Hearing Room B, Legislative Office Building, 2nd Floor, Albany, New York",
+  "scheduled_display": "2026-12-01T10:00:00",
+  "scheduled_iso": "2026-12-01T10:00:00",
+  "source": "nyassembly.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Artificial Intelligence in K-12 Education",
+  "witness_slip_url": null
+}

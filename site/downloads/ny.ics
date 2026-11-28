@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:New York hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ny-hearing-1528@govbot-public-hearings
+DTSTAMP:20261128T183627Z
+DTSTART:20261130T160000Z
+SUMMARY:Assembly Standing Committee on Codes · Assembly Standing Committee
+  on Science & Technology
+DESCRIPTION:Artificial Intelligence in Law Enforcement\nhttps://nyassembly.
+ gov/comm/?id=7&sec=story&story=120001
+LOCATION:Assembly Hearing Room\, 250 Broadway\, 19th Floor\, New York\, New
+  York
+URL:https://nyassembly.gov/comm/?id=7&sec=story&story=120001
+END:VEVENT
+BEGIN:VEVENT
+UID:ny-hearing-1525@govbot-public-hearings
+DTSTAMP:20261128T183627Z
+DTSTART:20261201T150000Z
+SUMMARY:Assembly Standing Committee on Education · Assembly Standing Commi
+ ttee on Libraries and Education Technology · Assembly Standing Committee 
+ on Science & Technology
+DESCRIPTION:Artificial Intelligence in K-12 Education\nhttps://nyassembly.g
+ ov/comm/?id=12&sec=story&story=119960
+LOCATION:Hamilton Hearing Room B\, Legislative Office Building\, 2nd Floor\
+ , Albany\, New York
+URL:https://nyassembly.gov/comm/?id=12&sec=story&story=119960
+END:VEVENT
+BEGIN:VEVENT
+UID:ny-hearing-1526@govbot-public-hearings
+DTSTAMP:20261128T183627Z
+DTSTART:20261201T160000Z
+SUMMARY:Assembly Standing Committee on Aging
+DESCRIPTION:New York State’s Aging in Place Services and Programs\nhttps:
+ //nyassembly.gov/comm/?id=1&sec=story&story=119987
+LOCATION:Roosevelt Hearing Room C\, Legislative Office Building\, 2nd Floor
+ \, Albany\, New York
+URL:https://nyassembly.gov/comm/?id=1&sec=story&story=119987
+END:VEVENT
+BEGIN:VEVENT
+UID:ny-hearing-1527@govbot-public-hearings
+DTSTAMP:20261128T183627Z
+DTSTART:20261208T150000Z
+SUMMARY:Assembly Standing Committee on Housing
+DESCRIPTION:Mitchell-Lama Program\nhttps://nyassembly.gov/comm/?id=22&sec=s
+ tory&story=120000
+LOCATION:Assembly Hearing Room\, 250 Broadway\, 19th Floor\, New York\, New
+  York
+URL:https://nyassembly.gov/comm/?id=22&sec=story&story=120000
+END:VEVENT
+BEGIN:VEVENT
+UID:ny-hearing-1529@govbot-public-hearings
+DTSTAMP:20261128T183627Z
+DTSTART:20261217T150000Z
+SUMMARY:Assembly Standing Committee on Energy
+DESCRIPTION:Energy Affordability and Efficiency Programs\nhttps://nyassembl
+ y.gov/comm/?id=14&sec=story&story=120015
+LOCATION:Roosevelt Hearing Room C\, Legislative Office Building 2nd Floor\,
+  Albany\, New York
+URL:https://nyassembly.gov/comm/?id=14&sec=story&story=120015
+END:VEVENT
+END:VCALENDAR

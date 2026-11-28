@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T18:15:20Z",
-  "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + legis.iowa.gov + senate.gov + docs.house.gov + federalregister.gov (govbot scrape-hearings) + each legislature's own site via Open States' meeting scrapers",
+  "generated_at": "2026-11-28T18:36:27Z",
+  "source": "ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + chicityclerkelms.chicago.gov + legis.iowa.gov + nyassembly.gov + senate.gov + docs.house.gov + federalregister.gov (govbot scrape-hearings) + each legislature's own site via Open States' meeting scrapers",
   "jurisdictions": [
     {
       "code": "us",
@@ -191,6 +191,12 @@
       "portal_url": "https://www.njleg.state.nj.us/"
     },
     {
+      "code": "ny",
+      "name": "New York",
+      "participation": "written_testimony",
+      "portal_url": "https://www.nysenate.gov/legislation"
+    },
+    {
       "code": "ok",
       "name": "Oklahoma",
       "participation": "contact_only",
@@ -282,6 +288,7 @@
     "ne": 4,
     "nh": 42,
     "nj": 20,
+    "ny": 5,
     "ok": 2,
     "pa": 6,
     "ri": 3,
@@ -7252,6 +7259,86 @@
       "witness_slip_url": null,
       "source": "www.njleg.state.nj.us",
       "details_url": "https://www.njleg.state.nj.us/live-proceedings/2026-12-03-14:00:00/ARP/Meeting"
+    },
+    {
+      "id": "ny-hearing-1528",
+      "jurisdiction": "ny",
+      "chamber": "joint",
+      "committee": "Assembly Standing Committee on Codes · Assembly Standing Committee on Science & Technology",
+      "title": "Artificial Intelligence in Law Enforcement",
+      "scheduled_iso": "2026-11-30T11:00:00",
+      "scheduled_display": "2026-11-30T11:00:00",
+      "timezone": "America/New_York",
+      "location": "Assembly Hearing Room, 250 Broadway, 19th Floor, New York, New York",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://nyassembly.gov/comm/?id=7&sec=story&story=120001",
+      "witness_slip_url": null,
+      "source": "nyassembly.gov"
+    },
+    {
+      "id": "ny-hearing-1525",
+      "jurisdiction": "ny",
+      "chamber": "joint",
+      "committee": "Assembly Standing Committee on Education · Assembly Standing Committee on Libraries and Education Technology · Assembly Standing Committee on Science & Technology",
+      "title": "Artificial Intelligence in K-12 Education",
+      "scheduled_iso": "2026-12-01T10:00:00",
+      "scheduled_display": "2026-12-01T10:00:00",
+      "timezone": "America/New_York",
+      "location": "Hamilton Hearing Room B, Legislative Office Building, 2nd Floor, Albany, New York",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://nyassembly.gov/comm/?id=12&sec=story&story=119960",
+      "witness_slip_url": null,
+      "source": "nyassembly.gov"
+    },
+    {
+      "id": "ny-hearing-1526",
+      "jurisdiction": "ny",
+      "chamber": "house",
+      "committee": "Assembly Standing Committee on Aging",
+      "title": "New York State’s Aging in Place Services and Programs",
+      "scheduled_iso": "2026-12-01T11:00:00",
+      "scheduled_display": "2026-12-01T11:00:00",
+      "timezone": "America/New_York",
+      "location": "Roosevelt Hearing Room C, Legislative Office Building, 2nd Floor, Albany, New York",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://nyassembly.gov/comm/?id=1&sec=story&story=119987",
+      "witness_slip_url": null,
+      "source": "nyassembly.gov"
+    },
+    {
+      "id": "ny-hearing-1527",
+      "jurisdiction": "ny",
+      "chamber": "house",
+      "committee": "Assembly Standing Committee on Housing",
+      "title": "Mitchell-Lama Program",
+      "scheduled_iso": "2026-12-08T10:00:00",
+      "scheduled_display": "2026-12-08T10:00:00",
+      "timezone": "America/New_York",
+      "location": "Assembly Hearing Room, 250 Broadway, 19th Floor, New York, New York",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://nyassembly.gov/comm/?id=22&sec=story&story=120000",
+      "witness_slip_url": null,
+      "source": "nyassembly.gov"
+    },
+    {
+      "id": "ny-hearing-1529",
+      "jurisdiction": "ny",
+      "chamber": "house",
+      "committee": "Assembly Standing Committee on Energy",
+      "title": "Energy Affordability and Efficiency Programs",
+      "scheduled_iso": "2026-12-17T10:00:00",
+      "scheduled_display": "2026-12-17T10:00:00",
+      "timezone": "America/New_York",
+      "location": "Roosevelt Hearing Room C, Legislative Office Building 2nd Floor, Albany, New York",
+      "status": "scheduled",
+      "bills": [],
+      "details_url": "https://nyassembly.gov/comm/?id=14&sec=story&story=120015",
+      "witness_slip_url": null,
+      "source": "nyassembly.gov"
     },
     {
       "id": "ok-os-6e6e5e4fed7a",

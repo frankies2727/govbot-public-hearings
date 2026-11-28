@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Assembly Standing Committee on Codes · Assembly Standing Committee on Science & Technology",
+  "details_url": "https://nyassembly.gov/comm/?id=7&sec=story&story=120001",
+  "first_seen": "2026-11-28T18:36:27Z",
+  "id": "ny-hearing-1528",
+  "jurisdiction": "ny",
+  "location": "Assembly Hearing Room, 250 Broadway, 19th Floor, New York, New York",
+  "scheduled_display": "2026-11-30T11:00:00",
+  "scheduled_iso": "2026-11-30T11:00:00",
+  "source": "nyassembly.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Artificial Intelligence in Law Enforcement",
+  "witness_slip_url": null
+}
