@@ -496,6 +496,44 @@ class Federal(unittest.TestCase):
         self.assertEqual(doc["jurisdictions"][0]["code"], "us")
 
 
+class CongressHearings(unittest.TestCase):
+    """Real senate.gov and docs.house.gov files (Nov 2026)."""
+
+    def test_senate_schedule(self):
+        hs = main.parse_senate_hearings((RAW / "senate_hearings.xml").read_text())
+        self.assertEqual(len(hs), 17)                 # the "No committee hearings" row is skipped
+        jud = next(h for h in hs if h["id"] == "usa-senate-338905")
+        self.assertEqual(jud["committee"], "Senate Judiciary")
+        self.assertEqual(jud["scheduled_iso"], "2026-12-01T10:15:00")
+        self.assertEqual(jud["bills"], [{"id": "S5289", "slips": None,
+                                         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5289"}])
+        self.assertTrue(all(REQUIRED <= set(h) for h in hs))
+        self.assertEqual(main.parse_senate_hearings("not xml"), [])
+
+    def test_house_week_lists_meetings_once(self):
+        ids = main.parse_house_week((RAW / "house_week.html").read_text())
+        self.assertEqual(ids[:2], ["118863", "119601"])
+        self.assertEqual(len(ids), len(set(ids)))
+
+    def test_house_meeting_bills_from_its_documents(self):
+        h = main.parse_house_meeting((RAW / "house_meeting_118863.xml").read_text(), "118863")
+        self.assertEqual(h["committee"], "House Committee on Rules")
+        self.assertEqual([b["id"] for b in h["bills"]], ["HR2347", "HR11142", "HR3495", "HR5267"])
+        self.assertEqual(h["location"], "H-313 · U.S. Capitol · Washington, DC")
+        self.assertEqual(h["details_url"], main.HOUSE_EVENT.format("118863"))
+
+    def test_house_subcommittee_names_its_parent(self):
+        h = main.parse_house_meeting((RAW / "house_meeting_119601.xml").read_text(), "119601")
+        self.assertTrue(h["committee"].startswith("House Committee on the Judiciary · Subcommittee on Courts"))
+        self.assertIn("Rayburn House Office Building", h["location"])
+        self.assertIsNone(main.parse_house_meeting("<x/>", "1"))
+
+    def test_congress_number(self):
+        self.assertEqual(main.congress_number("2026-12-01"), 119)
+        self.assertEqual(main.congress_number("2027-01-02"), 119)
+        self.assertEqual(main.congress_number("2027-01-03"), 120)
+
+
 class OpenStatesMeetings(unittest.TestCase):
     """Real meeting files from Open States' events scrapers (Nov 2026), read offline."""
     OS = RAW / "os_events"

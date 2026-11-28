@@ -1,6 +1,6 @@
 name: Refresh hearings
 
-# Scrapes upcoming hearings (IL, WA, MA, AK, Chicago with our own scrapers; every other
+# Scrapes upcoming hearings (IL, WA, MA, AK, Chicago and Congress with our own scrapers; every other
 # state with Open States' open-source meeting scrapers, run here) and federal rules open
 # for comment, then commits site/hearings.json, site/hearings.xml, site/hearings/, the
 # data/ archive and site/downloads/ when anything changed. Vercel redeploys on the push.
@@ -101,7 +101,7 @@ jobs:
           set -uo pipefail
           out="$RUNNER_TEMP/out"; rm -rf "$out"; mkdir -p "$out"
           python3 scraper/main.py \
-            --jurisdictions il,wa,ma,ak,chi,us \
+            --jurisdictions il,wa,ma,ak,chi,usa,us \
             --output "$out/hearings.json" \
             --rss "$out/hearings.xml" \
             --rss-feeds-dir "$out/hearings" \

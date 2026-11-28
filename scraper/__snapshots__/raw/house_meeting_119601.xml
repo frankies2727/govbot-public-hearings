@@ -1,0 +1,42 @@
+<?xml-stylesheet type='text/xsl' href='/xslt/cr-public.xslt'?>
+<committee-meeting congress-num="119" session-num="2" meeting-id="HHRG119601" meeting-type="HHRG" create-date="2026-11-12T09:29:20.037" orig-publish-date="2026-11-12T09:29:45.080" update-date="2026-11-24T08:59:27.760">
+  <current-status>R</current-status>
+  <language>en-us</language>
+  <copyright>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</copyright>
+  <publish-dates>
+    <publish-date date="2026-11-12T09:29:45.080" />
+    <publish-date date="2026-11-18T15:29:22.480" />
+    <publish-date date="2026-11-24T08:59:27.760" />
+  </publish-dates>
+  <meeting-details>
+    <updates>
+      <update-date date="2026-11-18T15:29:12.803" publish-date="2026-11-18T15:29:22.480">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2026-11-24T08:58:41.167" publish-date="2026-11-24T08:59:27.760">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+    </updates>
+    <subcommittees>
+      <committee-name id="JU03" parent-id="JU00" parent-name="Committee on the Judiciary">Subcommittee on Courts, Intellectual Property, Artificial Intelligence, and the Internet</committee-name>
+    </subcommittees>
+    <meeting-date>
+      <calendar-date>2026-12-01</calendar-date>
+      <start-time>10:00:00</start-time>
+    </meeting-date>
+    <rescheduled-dates>
+      <meeting-dates>
+        <calendar-date>2026-11-19</calendar-date>
+        <start-time>10:00:00</start-time>
+        <end-time>00:00:00</end-time>
+      </meeting-dates>
+    </rescheduled-dates>
+    <meeting-location>
+      <capitol-complex>
+        <room>2141</room>
+        <building>RHOB</building>
+      </capitol-complex>
+    </meeting-location>
+    <meeting-title>“A Climate of Bias: How Environmental Activists Influence the Judiciary”</meeting-title>
+  </meeting-details>
+</committee-meeting>

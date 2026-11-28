@@ -32,6 +32,7 @@ Free, open source, nonpartisan. Built on [Govbot](https://chihacknight.github.io
 | 🦞 | **Massachusetts** | [malegislature.gov](https://malegislature.gov) | Submit written testimony |
 | 🏔️ | **Alaska** | [akleg.gov](https://akleg.gov) | Public opinion message |
 | 🏙️ | **Chicago City Council** (our first city) | [City Clerk eLMS API](https://api.chicityclerkelms.chicago.gov/swagger.json) | Written comment by each meeting's deadline (its Notice says where) |
+| 🏛️ | **U.S. Congress** (House + Senate committees) | The Senate's own [schedule file](https://www.senate.gov/general/committee_schedules/hearings.xml) and the House Clerk's [committee repository](https://docs.house.gov/Committee/Calendar/ByWeek.aspx) (each meeting's published XML) | Contact your representative and senators; some committees take written statements for the record |
 | 🗺️ | **Every other state, DC, Guam & the U.S. Virgin Islands** | Each legislature's own website, read by [Open States](https://github.com/openstates/openstates-scrapers)' open-source meeting scrapers, which we run ourselves twice a day | The state's own way to take part (on the map) |
 
 Not yet: California, New York, DC, Indiana (their scrapers need a database dump or a free API key), Ohio and the Northern Mariana Islands (their scrapers get past bot protection, which we don't do), Michigan (its site blocks scrapers), Puerto Rico and American Samoa (no scraper yet).
@@ -151,7 +152,7 @@ A meeting where a legislative committee, city council or agency hears from the p
 Find the hearing, then use your state's official way to take part before it starts: a witness slip, an online sign-in, written testimony or a comment form. Each place's steps are on its own page, e.g. [Virginia](https://govbot-public-hearings.vercel.app/places/virginia.html), [Illinois](https://govbot-public-hearings.vercel.app/places/illinois.html), [federal rules](https://govbot-public-hearings.vercel.app/places/federal.html).
 
 **Where does the data come from?**
-Each government's own website: our own scrapers for Illinois, Washington, Massachusetts, Alaska and Chicago; Open States' open-source meeting scrapers (run by us) for the other states; the Federal Register for federal rules. Nothing is made up; every hearing links to its official page.
+Each government's own website: our own scrapers for Illinois, Washington, Massachusetts, Alaska, Chicago and Congress; Open States' open-source meeting scrapers (run by us) for the other states; the Federal Register for federal rules. Nothing is made up; every hearing links to its official page.
 
 **Can I use the data?**
 Yes, free under CC BY 4.0: [`data/`](data/) (one JSON file per meeting, history in git), CSV and calendar files at [`/downloads/`](https://govbot-public-hearings.vercel.app/downloads/manifest.json), and RSS feeds. AI assistants: start at [`llms.txt`](https://govbot-public-hearings.vercel.app/llms.txt).

@@ -284,3 +284,21 @@ JSON-LD (WebSite, Organization, Dataset with its downloads, FAQPage of exactly t
 `seo:ld` markers and the list between `places` markers — edit the questions, run it; `PlacePages` fails on drift.
 (3) `site/robots.txt` (every crawler welcome, AI ones named) and `site/llms.txt` (what the site is, where the data
 is, how to cite). README opens with the answer and ends with FAQs. Keep new copy answer-first, short, factual.
+
+**U.S. Congress (Nov 2026), code `usa`** (Govbot's code for federal bills, so agenda bills pick up Govbot's titles;
+`us` stays the Federal Register's comment periods; `fedRank` / `rank` put `us` then `usa` first). `fetch_usa`, our own
+scraper, no key: the Senate's `hearings.xml` (`parse_senate_hearings`; one request; "No committee hearings" rows
+skipped; details link = senate.gov's hearings page) and the House Clerk's committee repository: the week calendar
+(`parse_house_week`, `HOUSE_WEEKS` = 4 weeks ahead) lists EventIDs, and each meeting page's official "Download Meeting
+XML" button (an ASP.NET form posting back to the page; `_house_meeting_xml` posts it with the page's hidden fields) gives
+the public-domain meeting XML (`parse_house_meeting`: a subcommittee names its parent via `parent-name`; building codes
+spelled out, `HOUSE_BUILDINGS`; status C/P = canceled, P titled "Postponed:"; bills from the meeting's govinfo document
+links, `BILLS-119hr2347…` → `HR2347`, plus any in the title). Bill links go to congress.gov's bill page
+(`congress_bill`, `congress_number`). `JURISDICTIONS["usa"]` carries `how_to` (the schema's jurisdiction entries
+may now) and `full_list_url` = congress.gov's committee schedule. The page shows it as the "Congress" chip (US flag),
+"Follow Congress (RSS)", "Find your members of Congress ↗", "Contact your members"; its place page is
+`places/congress.html` (own answer: contact your representative and senators; statements for the record where a
+committee takes them). Rows now show the meeting's subject (`.h-subject`, 3 lines) for Chicago, Congress and Open
+States records — not our IL/WA/MA/AK scrapers, whose titles are often just "Meeting materials at: <link>".
+Fixtures: `raw/senate_hearings.xml`, `raw/house_week.html`, `raw/house_meeting_118863.xml` / `_119601.xml`;
+tests `CongressHearings`.

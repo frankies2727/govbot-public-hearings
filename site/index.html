@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Roboto:wght@300;400;500&display=swap"></noscript>
 <title>Public hearings in every state: how to testify or comment · Govbot</title>
-<meta name="description" content="Find upcoming state legislative hearings, Chicago City Council meetings and federal rules open for comment, with the official way to testify or comment on each. Free, nonpartisan, updated every 12 hours.">
+<meta name="description" content="Find upcoming state legislative hearings, U.S. Congress committee hearings, Chicago City Council meetings and federal rules open for comment, with the official way to testify or comment on each. Free, nonpartisan, updated every 12 hours.">
 <link rel="canonical" href="https://govbot-public-hearings.vercel.app/">
 <!-- seo:ld:start -->
 <script type="application/ld+json">
@@ -119,7 +119,7 @@
      "name": "Where does this information come from?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "From each government's own website: the state legislatures, the Chicago City Clerk and the Federal Register. Nothing is made up, and every hearing links to its official page."
+      "text": "From each government's own website: the state legislatures, the U.S. House and Senate, the Chicago City Clerk and the Federal Register. Nothing is made up, and every hearing links to its official page."
      }
     },
     {
@@ -713,6 +713,7 @@
   .mp-ws { display: inline-block; margin-top: 12px; font-weight: 500; }
   .mp-data { margin: 12px 0 0; }
   .mp-guide { display: inline-block; margin-top: 10px; }
+  .h-subject { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   /* FAQs + the plain list of every place's page (crawlable without JavaScript). */
   .faq { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; }
   .faq-item { padding: 18px 20px; }
@@ -1044,7 +1045,7 @@
       <div class="faq-item z-card"><h3>How do I testify at a state legislative hearing?</h3><p>Find the hearing, then use your state's official way to take part before it starts: a witness slip, an online sign-in, written testimony or a comment form. Pick your state below for its exact steps.</p></div>
       <div class="faq-item z-card"><h3>What is a witness slip?</h3><p>A witness slip is Illinois's online form for saying you support, oppose or have no position on a bill before its committee hearing. You can also ask to testify. Slips are public record.</p></div>
       <div class="faq-item z-card"><h3>How do I comment on a federal rule?</h3><p>Open the proposed rule on Regulations.gov and choose Comment before its deadline. Agencies must consider public comments, and the comments are public.</p></div>
-      <div class="faq-item z-card"><h3>Where does this information come from?</h3><p>From each government's own website: the state legislatures, the Chicago City Clerk and the Federal Register. Nothing is made up, and every hearing links to its official page.</p></div>
+      <div class="faq-item z-card"><h3>Where does this information come from?</h3><p>From each government's own website: the state legislatures, the U.S. House and Senate, the Chicago City Clerk and the Federal Register. Nothing is made up, and every hearing links to its official page.</p></div>
       <div class="faq-item z-card"><h3>How often is it updated?</h3><p>Every 12 hours. Each place's page and file shows when its data was last checked.</p></div>
       <div class="faq-item z-card"><h3>Can I download the data?</h3><p>Yes, free under CC BY 4.0: a spreadsheet (CSV) and a calendar file (.ics) for each place, every meeting as JSON on GitHub, and RSS feeds.</p></div>
       <div class="faq-item z-card"><h3>Who makes this site?</h3><p>Govbot, an open-source civic data project from Chi Hack Night, Chicago's weekly civic tech meetup. It is free and nonpartisan, and takes no position on any bill.</p></div>
@@ -1053,6 +1054,7 @@
     <nav class="faq-places" aria-label="How to take part in each place">
 <!-- places:start -->
       <a href="places/federal.html">USA (Federal)</a>
+      <a href="places/congress.html">U.S. Congress</a>
       <a href="places/alabama.html">Alabama</a>
       <a href="places/alaska.html">Alaska</a>
       <a href="places/arizona.html">Arizona</a>
@@ -1360,8 +1362,10 @@
 
     const main = eln("div", "h-main");
     main.append(eln("div", "h-committee", h.committee || "Committee"));
-    // A city meeting has no bills to list; its published subject says what it's about.
-    if (h.jurisdiction === "chi" && h.title) main.append(eln("div", "h-loc", h.title));
+    // The published subject says what a meeting is about. Shown where the source gives a real one
+    // (Chicago, Congress, and Open States' cleaned descriptions), at most three lines.
+    if (h.title && (h.jurisdiction === "chi" || h.jurisdiction === "usa" || h.id.includes("-os-")))
+      main.append(eln("div", "h-loc h-subject", h.title));
     if (h.location) main.append(eln("div", "h-loc", h.location));
 
     if (h.bills && h.bills.length) {
@@ -1495,7 +1499,7 @@
   function flagSrc(code) { return code === "dc" ? "https://chihacknight.github.io/govbot/dashboard/flags/dc.svg" : "https://chihacknight.github.io/govbot/dashboard/flags/" + code + ".png"; }
   function mkFlag(code, name) {
     const img = eln("img", "mp-flag");
-    img.src = flagSrc(code === "chi" ? "il" : code);
+    img.src = flagSrc(code === "chi" ? "il" : code === "usa" ? "us" : code);
     img.alt = "";
     img.width = 36; img.decoding = "async";
     img.addEventListener("error", () => img.remove());  // degrade: the name still reads
@@ -1507,7 +1511,9 @@
   // Every place: the 56 jurisdictions of the participation directory plus any the feed adds
   // (Chicago), each with how to take part and how many hearings are coming up.
   const places = {};
-  const OFF_MAP = ["us", "chi", "dc", "pr", "gu", "vi", "mp"];   // chips under the map
+  const OFF_MAP = ["us", "usa", "chi", "dc", "pr", "gu", "vi", "mp"];   // chips under the map
+  // Federal comment periods first, then Congress, then everyone else (A-Z).
+  const fedRank = (c) => (c === "us" ? 0 : c === "usa" ? 1 : 2);
   function buildPlaces(data) {
     participation.forEach((j) => { places[j.code] = Object.assign({}, j); });
     Object.keys(portals).forEach((code) => { places[code] = Object.assign({ code: code }, places[code], portals[code]); });
@@ -1591,7 +1597,7 @@
     OFF_MAP.filter((c) => places[c]).forEach((c) => {
       const b = eln("button", "mp-chip" + (places[c].count ? " is-live" : ""));
       b.type = "button"; b.dataset.code = c;
-      b.append(eln("span", null, c === "us" ? "USA (Federal)" : c === "chi" ? "Chicago" : placeName(c)));
+      b.append(eln("span", null, c === "us" ? "USA (Federal)" : c === "usa" ? "Congress" : c === "chi" ? "Chicago" : placeName(c)));
       if (places[c].count) b.append(eln("span", "mp-chip-n", fmt(places[c].count)));
       b.setAttribute("aria-label", placeName(c) + ": " + countLabel(places[c].count));
       b.addEventListener("click", () => pick(c, true));
@@ -1620,7 +1626,7 @@
     panel.textContent = "";
     panel.append(eln("h3", "mp-h", "Where you can weigh in now"));
     if (note) panel.append(eln("p", "mp-p", note));
-    const live = Object.keys(places).filter((c) => places[c].count).sort((a, b) => (b === "us") - (a === "us") || placeName(a).localeCompare(placeName(b)));
+    const live = Object.keys(places).filter((c) => places[c].count).sort((a, b) => fedRank(a) - fedRank(b) || placeName(a).localeCompare(placeName(b)));
     if (live.length) {
       panel.append(eln("p", "mp-p", "These places have hearings or comment periods coming up. Tap one, or any state on the map to see how to take part there."));
       const row = eln("div", "mp-quick");
@@ -1642,7 +1648,7 @@
   // Show one place: who it is, how to take part, and its hearings.
   // Same rule as place_slug() in scraper/main.py.
   function placeSlug(code, name) {
-    return ({ us: "federal", chi: "chicago" })[code] || name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    return ({ us: "federal", usa: "congress", chi: "chicago" })[code] || name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   }
 
   function pick(code, byUser) {
@@ -1659,7 +1665,7 @@
     id.append(eln("h3", "mp-h", p.name));
     const tags = eln("div", "mp-tags");
     if (p.count) tags.append(eln("span", "pstate-live", fmt(p.count) + " upcoming"));
-    if (p.participation) tags.append(eln("span", "pstate-kind", KIND_LABEL[p.participation] || p.participation));
+    if (p.participation) tags.append(eln("span", "pstate-kind", code === "usa" ? "Contact your members" : KIND_LABEL[p.participation] || p.participation));
     id.append(tags);
     head.append(id);
     panel.append(head);
@@ -1668,7 +1674,7 @@
     if (p.how_to) panel.append(eln("p", "mp-p", p.how_to));
     const acts = eln("div", "mp-acts");
     if (p.portal_url) {
-      const a = eln("a", "file-link", p.online === false ? "How to participate ↗" : (PARTICIPATION[p.participation] || "Official portal ↗"));
+      const a = eln("a", "file-link", code === "usa" ? "Find your members of Congress ↗" : p.online === false ? "How to participate ↗" : (PARTICIPATION[p.participation] || "Official portal ↗"));
       a.href = p.portal_url; a.target = "_blank"; a.rel = "noopener";
       acts.append(a);
     }
@@ -1716,7 +1722,7 @@
     panel.append(eln("p", "mp-p", fmt(allUpcoming.length) + " hearings and comment deadlines from every place Govbot follows. Pick a place on the map for how to take part there."));
     const byPlace = {};
     allUpcoming.forEach((h) => { (byPlace[h.jurisdiction] = byPlace[h.jurisdiction] || []).push(h); });
-    const codes = Object.keys(byPlace).sort((a, b) => (b === "us") - (a === "us") || placeName(a).localeCompare(placeName(b)));
+    const codes = Object.keys(byPlace).sort((a, b) => fedRank(a) - fedRank(b) || placeName(a).localeCompare(placeName(b)));
     const jump = eln("nav", "mp-jump");
     jump.setAttribute("aria-label", "Jump to a place");
     jump.append(eln("span", "mp-jump-lbl", "Jump to"));
@@ -1854,7 +1860,7 @@
     return btn;
   }
   function jurisdictionRssTrigger(code, name) {
-    return mkRssBtn(code === "chi" ? "Follow this city (RSS)" : "Follow this state (RSS)", "Follow all " + name + " hearings (RSS)", () => ({
+    return mkRssBtn(code === "chi" ? "Follow this city (RSS)" : code === "usa" ? "Follow Congress (RSS)" : "Follow this state (RSS)", "Follow all " + name + " hearings (RSS)", () => ({
       title: "Follow " + name,
       sub: "Every upcoming " + name + " hearing in one feed: what it's about, when and where, the bills, and the form to weigh in.",
       url: new URL("hearings/" + jurisdictionFeedName(code), location.href).href,

@@ -1,0 +1,128 @@
+<?xml-stylesheet type='text/xsl' href='/xslt/cr-public.xslt'?>
+<committee-meeting congress-num="119" session-num="2" meeting-id="HMTG118863" meeting-type="HMTG" create-date="2026-01-12T15:19:00.203" orig-publish-date="2026-11-25T11:59:27.887" update-date="2026-11-25T11:59:27.887">
+  <current-status>S</current-status>
+  <language>en-us</language>
+  <copyright>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</copyright>
+  <publish-dates>
+    <publish-date date="2026-11-25T11:59:27.887" />
+  </publish-dates>
+  <meeting-details>
+    <updates>
+      <update-date date="2026-11-25T10:01:17.520" publish-date="2026-11-25T11:59:27.887">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2026-11-25T10:02:42.660" publish-date="2026-11-25T11:59:27.887">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+    </updates>
+    <committees>
+      <committee-name id="RU00">Committee on Rules</committee-name>
+    </committees>
+    <meeting-date>
+      <calendar-date>2026-11-30</calendar-date>
+      <start-time>16:00:00</start-time>
+    </meeting-date>
+    <meeting-location>
+      <capitol-complex>
+        <room>H-313</room>
+        <building>CAPITOL</building>
+      </capitol-complex>
+    </meeting-location>
+    <meeting-title>Senate amendment to H.R. 2347 – Bipartisan American Affordability and Jobs Act of 2026; H.R. 11142 – Stop Insider Trading Act; H.R. 3495 – Direct Seller and Real Estate Agent Harmonization Act; H.R. 5267 – American Franchise Act</meeting-title>
+  </meeting-details>
+  <meeting-documents>
+    <meeting-document type="BR" add-date="2026-11-25T10:09:49.067" remove-date="" publish-date="2026-11-25T11:59:27.887">
+      <description>Senate amendment to H.R. 2347 – Bipartisan American Affordability and Jobs Act of 2026</description>
+      <legis-num>1</legis-num>
+      <filename-metadata>
+        <legis-num>1</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.govinfo.gov/content/pkg/BILLS-119hr2347eas/pdf/BILLS-119hr2347eas.pdf" doc-type="PDF" add-date="2026-11-25T10:09:49.100" publish-date="2026-11-25T11:59:27.887" />
+        <file doc-url="https://www.govinfo.gov/content/pkg/BILLS-119hr2347eas/xml/BILLS-119hr2347eas.xml" doc-type="XML" add-date="2026-11-25T10:09:49.133" publish-date="2026-11-25T11:59:27.887" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2026-11-25T10:11:37.160" remove-date="" publish-date="2026-11-25T11:59:27.887">
+      <description>H.R. 11142 – Stop Insider Trading Act</description>
+      <legis-num>2</legis-num>
+      <filename-metadata>
+        <legis-num>2</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.govinfo.gov/content/pkg/BILLS-119hr11142ih/pdf/BILLS-119hr11142ih.pdf" doc-type="PDF" add-date="2026-11-25T10:11:37.177" publish-date="2026-11-25T11:59:27.887" />
+        <file doc-url="https://www.govinfo.gov/content/pkg/BILLS-119hr11142ih/xml/BILLS-119hr11142ih.xml" doc-type="XML" add-date="2026-11-25T10:11:37.193" publish-date="2026-11-25T11:59:27.887" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2026-11-25T10:13:31.083" remove-date="" publish-date="2026-11-25T11:59:27.887">
+      <description>H.R. 3495 – Direct Seller and Real Estate Agent Harmonization Act</description>
+      <legis-num>3</legis-num>
+      <filename-metadata>
+        <legis-num>3</legis-num>
+        <legis-stage>rh</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.govinfo.gov/content/pkg/BILLS-119hr3495rh/pdf/BILLS-119hr3495rh.pdf" doc-type="PDF" add-date="2026-11-25T10:13:31.100" publish-date="2026-11-25T11:59:27.887" />
+        <file doc-url="https://www.govinfo.gov/content/pkg/BILLS-119hr3495rh/xml/BILLS-119hr3495rh.xml" doc-type="XML" add-date="2026-11-25T10:13:31.120" publish-date="2026-11-25T11:59:27.887" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2026-11-25T10:14:32.167" remove-date="" publish-date="2026-11-25T11:59:27.887">
+      <description>:: H. Rept. 119-494 Part I – Report from the Committee on Education and Workforce to accompany H.R. 3495</description>
+      <legis-num>4</legis-num>
+      <updates>
+        <update-date date="2026-11-25T10:14:40.877" publish-date="2026-11-25T11:59:27.887">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>4</legis-num>
+        <legis-stage>rh</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.govinfo.gov/content/pkg/CRPT-119hrpt494/pdf/CRPT-119hrpt494.pdf" doc-type="PDF" add-date="2026-11-25T10:14:32.187" publish-date="2026-11-25T11:59:27.887" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2026-11-25T10:15:30.200" remove-date="" publish-date="2026-11-25T11:59:27.887">
+      <description>:: H. Rept. 119-494 Part II – Supplemental report from the Committee on Education and Workforce to accompany H.R. 3495</description>
+      <legis-num>5</legis-num>
+      <filename-metadata>
+        <legis-num>5</legis-num>
+        <legis-stage>rh</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.govinfo.gov/content/pkg/CRPT-119hrpt494/pdf/CRPT-119hrpt494-pt2.pdf" doc-type="PDF" add-date="2026-11-25T10:15:30.213" publish-date="2026-11-25T11:59:27.887" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2026-11-25T10:16:15.400" remove-date="" publish-date="2026-11-25T11:59:27.887">
+      <description>H.R. 5267 – American Franchise Act</description>
+      <legis-num>6</legis-num>
+      <filename-metadata>
+        <legis-num>6</legis-num>
+        <legis-stage>rh</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.govinfo.gov/content/pkg/BILLS-119hr5267rh/pdf/BILLS-119hr5267rh.pdf" doc-type="PDF" add-date="2026-11-25T10:16:15.417" publish-date="2026-11-25T11:59:27.887" />
+        <file doc-url="https://www.govinfo.gov/content/pkg/BILLS-119hr5267rh/xml/BILLS-119hr5267rh.xml" doc-type="XML" add-date="2026-11-25T10:16:15.430" publish-date="2026-11-25T11:59:27.887" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2026-11-25T10:16:46.903" remove-date="" publish-date="2026-11-25T11:59:27.887">
+      <description>:: H. Rept. 119-802 – Report from the Committee on Education and Workforce to accompany H.R. 5267</description>
+      <legis-num>7</legis-num>
+      <filename-metadata>
+        <legis-num>7</legis-num>
+        <legis-stage>rh</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.govinfo.gov/content/pkg/CRPT-119hrpt802/pdf/CRPT-119hrpt802.pdf" doc-type="PDF" add-date="2026-11-25T10:16:46.920" publish-date="2026-11-25T11:59:27.887" />
+      </files>
+    </meeting-document>
+  </meeting-documents>
+</committee-meeting>

@@ -96,6 +96,18 @@ JURISDICTIONS = {
         "code": "us", "name": "USA (Federal)", "participation": "public_comment",
         "portal_url": "https://www.regulations.gov/",
     },
+    # Congress's committee hearings. "usa" is Govbot's code for federal bills, so the bills on
+    # each agenda pick up Govbot's titles; "us" stays the Federal Register's comment periods.
+    "usa": {
+        "code": "usa", "name": "U.S. Congress", "participation": "contact_only",
+        "portal_url": "https://www.congress.gov/members/find-your-member",
+        # "See all" goes to the Library of Congress's schedule of every committee meeting.
+        "full_list_url": "https://www.congress.gov/committee-schedule",
+        "how_to": ("Congressional hearings hear from invited witnesses. You weigh in by contacting "
+                   "your representative and senators, who sit on the committees; some committees "
+                   "also accept written statements from the public for the hearing record (each "
+                   "committee's site says how)."),
+    },
     # The first city. A 3-letter code so it can never clash with a state's.
     "chi": {
         "code": "chi", "name": "Chicago City Council", "participation": "public_comment",
@@ -1155,6 +1167,202 @@ def fetch_us(today):
 
 
 # --------------------------------------------------------------------------- #
+# U.S. Congress committee hearings (code "usa", Govbot's code for federal bills)
+# --------------------------------------------------------------------------- #
+# Read straight from each chamber's own published schedule, no key and no API:
+# * Senate: senate.gov's committee schedule file (hearings.xml), one request.
+# * House: the Clerk's committee repository (docs.house.gov). Its week calendar lists
+#   each meeting; each meeting page's "Download Meeting XML" button (an ASP.NET form that
+#   posts back to the page) returns that meeting as public-domain XML. We press it.
+SENATE_XML = "https://www.senate.gov/general/committee_schedules/hearings.xml"
+SENATE_PAGE = "https://www.senate.gov/committees/hearings_meetings.htm"
+HOUSE_WEEK = "https://docs.house.gov/Committee/Calendar/ByWeek.aspx?WeekOf={}"
+HOUSE_EVENT = "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID={}"
+HOUSE_WEEKS = 4                  # committees post notices about a week ahead
+HOUSE_MAX = 200                  # meetings read per run, at most
+CONGRESS_TZ = "America/New_York"
+HOUSE_BUILDINGS = {"CAPITOL": "U.S. Capitol", "CVC": "Capitol Visitor Center",
+                   "RHOB": "Rayburn House Office Building", "LHOB": "Longworth House Office Building",
+                   "CHOB": "Cannon House Office Building", "FHOB": "Ford House Office Building",
+                   "OHOB": "O'Neill House Office Building"}
+# Congress.gov's own page for a bill, by the bill's type.
+_CG_TYPE = {"HR": "house-bill", "S": "senate-bill", "HJRES": "house-joint-resolution",
+            "SJRES": "senate-joint-resolution", "HCONRES": "house-concurrent-resolution",
+            "SCONRES": "senate-concurrent-resolution", "HRES": "house-resolution",
+            "SRES": "senate-resolution"}
+_CONGRESS_BILL_RE = re.compile(
+    r"\b(H\.\s?R\.|S\.|H\.\s?J\.\s?Res\.|S\.\s?J\.\s?Res\.|H\.\s?Con\.\s?Res\.|"
+    r"S\.\s?Con\.\s?Res\.|H\.\s?Res\.|S\.\s?Res\.)\s?(\d{1,5})\b", re.I)
+
+
+def congress_number(day):
+    """'2026-12-01' -> 119 (a new Congress starts January 3 of each odd year)."""
+    y, m, d = (int(x) for x in day[:10].split("-"))
+    if m == 1 and d < 3:
+        y -= 1
+    return (y - 1789) // 2 + 1
+
+
+def congress_bill(kind, num, congress):
+    """('H.R.', '2347', 119) -> {"id": "HR2347", "url": congress.gov page}."""
+    k = re.sub(r"[\s.]", "", kind).upper()
+    return {"id": f"{k}{int(num)}", "slips": None,
+            "url": f"https://www.congress.gov/bill/{congress}th-congress/{_CG_TYPE[k]}/{int(num)}"
+            if k in _CG_TYPE else None}
+
+
+def congress_bills(text, congress):
+    out, seen = [], set()
+    for kind, num in _CONGRESS_BILL_RE.findall(text or ""):
+        b = congress_bill(kind, num, congress)
+        if b["id"] not in seen:
+            seen.add(b["id"])
+            out.append(b)
+    return out
+
+
+def parse_senate_hearings(xml_text):
+    """senate.gov hearings.xml -> hearing records. Pure."""
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return []
+    out = []
+    for m in root.findall("meeting"):
+        g = lambda tag: re.sub(r"\s+", " ", m.findtext(tag) or "").strip()
+        ident, day = g("identifier"), g("date_iso_8601")
+        if not ident or not day or not g("committee"):
+            continue                        # "No committee hearings scheduled" rows
+        time = g("time_iso_8601") or "00:00:00"
+        committee = "Senate " + g("committee") + (f" · {g('sub_cmte')}" if g("sub_cmte") else "")
+        matter = g("matter")
+        kind = g("type")
+        out.append({
+            "id": f"usa-senate-{ident}", "jurisdiction": "usa", "chamber": "senate",
+            "committee": committee,
+            "title": (f"{kind}: " if kind else "") + matter,
+            "scheduled_iso": f"{day}T{time[:8]}", "scheduled_display": f"{day}T{time[:8]}",
+            "timezone": CONGRESS_TZ,
+            "location": (g("room") + " · " if g("room") else "") + "U.S. Capitol complex, Washington, DC",
+            "status": "canceled" if re.search(r"\b(cancel|postpone)", matter + kind, re.I) else "scheduled",
+            "bills": congress_bills(matter, congress_number(day)),
+            "details_url": SENATE_PAGE, "witness_slip_url": None, "source": "senate.gov",
+        })
+    return out
+
+
+def parse_house_week(page_html):
+    """A docs.house.gov week calendar page -> its meetings' EventIDs, in order. Pure."""
+    seen, out = set(), []
+    for eid in re.findall(r"ByEvent\.aspx\?EventID=(\d+)", page_html or ""):
+        if eid not in seen:
+            seen.add(eid)
+            out.append(eid)
+    return out
+
+
+def parse_house_meeting(xml_text, event_id):
+    """One House meeting's XML (the "Download Meeting XML" file) -> a hearing record. Pure."""
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return None
+    det = root.find("meeting-details")
+    if det is None:
+        return None
+    g = lambda path: re.sub(r"\s+", " ", det.findtext(path) or "").strip()
+    day = g("meeting-date/calendar-date")
+    if not day:
+        return None
+    time = g("meeting-date/start-time") or "00:00:00"
+    committees = [re.sub(r"\s+", " ", c.text or "").strip()
+                  for c in det.findall("committees/committee-name") if (c.text or "").strip()]
+    subs = [c for c in det.findall("subcommittees/committee-name") if (c.text or "").strip()]
+    if not committees and subs:              # a subcommittee meeting names its parent
+        committees = [subs[0].get("parent-name") or ""]
+    committee = "House " + (committees[0] or "committee") + \
+        (" · " + re.sub(r"\s+", " ", subs[0].text).strip() if subs else "")
+    room, building = g("meeting-location/capitol-complex/room"), g("meeting-location/capitol-complex/building")
+    building = HOUSE_BUILDINGS.get(building.upper(), building.title()) if building != "Select one" else ""
+    where = " · ".join(x for x in (room, building) if x) or g("meeting-location/other-location") or ""
+    title = g("meeting-title")
+    status = (root.findtext("current-status") or "").strip().upper()
+    congress = int(root.get("congress-num") or congress_number(day))
+    bills, seen = [], set()
+    # Bills on the agenda: the "BR" documents link each bill's text on govinfo.gov
+    # (BILLS-119hr2347eas -> HR2347); the title catches any the documents don't.
+    for doc in root.findall("meeting-documents/meeting-document"):
+        for f in doc.findall("files/file"):
+            m = re.search(r"BILLS-(\d+)(hr|s|hjres|sjres|hconres|sconres|hres|sres)(\d+)", f.get("doc-url") or "")
+            if m:
+                b = congress_bill(m.group(2), m.group(3), int(m.group(1)))
+                if b["id"] not in seen:
+                    seen.add(b["id"])
+                    bills.append(b)
+    for b in congress_bills(title, congress):
+        if b["id"] not in seen:
+            seen.add(b["id"])
+            bills.append(b)
+    if status in ("P",):
+        title = "Postponed: " + title
+    return {
+        "id": f"usa-house-{event_id}", "jurisdiction": "usa", "chamber": "house",
+        "committee": committee, "title": title,
+        "scheduled_iso": f"{day}T{time[:8]}", "scheduled_display": f"{day}T{time[:8]}",
+        "timezone": CONGRESS_TZ,
+        "location": (where + " · " if where else "") + "Washington, DC",
+        "status": "canceled" if status in ("C", "P", "X") else "scheduled",
+        "bills": bills, "details_url": HOUSE_EVENT.format(event_id),
+        "witness_slip_url": None, "source": "docs.house.gov",
+    }
+
+
+def _house_meeting_xml(event_id):
+    """Press the meeting page's "Download Meeting XML" button: GET the page, then post its
+    form back with that button as the target. None on any failure."""
+    import html as H
+    import http.cookiejar
+    url = HOUSE_EVENT.format(event_id)
+    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    op.addheaders = [("User-Agent", UA)]
+    try:
+        page = op.open(url, timeout=FETCH_TIMEOUT).read().decode("utf-8", "replace")
+        form = {k: H.unescape(v) for k, v in re.findall(
+            r'<input type="hidden" name="([^"]+)" id="[^"]*" value="([^"]*)"', page)}
+        if "__VIEWSTATE" not in form:
+            return None
+        form.update(__EVENTTARGET="ctl00$MainContent$LinkButtonDownloadMtgXML", __EVENTARGUMENT="")
+        with op.open(url, data=urllib.parse.urlencode(form).encode(), timeout=FETCH_TIMEOUT) as r:
+            body = r.read().decode("utf-8", "replace")
+        return body if "<committee-meeting" in body else None
+    except Exception as err:  # network, TLS, timeout: that meeting is skipped
+        print(f"warning: House meeting {event_id}: {err}", file=sys.stderr)
+        return None
+
+
+def fetch_usa(now):
+    """Congress: the Senate's schedule + the House's next HOUSE_WEEKS weeks. Fail-soft."""
+    hearings = parse_senate_hearings(fetch_text(SENATE_XML) or "")
+    sunday = (now - timedelta(days=(now.weekday() + 1) % 7)).date()
+    ids = []
+    for w in range(HOUSE_WEEKS):
+        a = sunday + timedelta(days=7 * w)
+        b = a + timedelta(days=6)
+        week = f"{a:%m%d%Y}_{b:%m%d%Y}"
+        for eid in parse_house_week(fetch_text(HOUSE_WEEK.format(week)) or ""):
+            if eid not in ids:
+                ids.append(eid)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        xmls = list(pool.map(_house_meeting_xml, ids[:HOUSE_MAX]))
+    for eid, xml in zip(ids, xmls):
+        rec = parse_house_meeting(xml, eid) if xml else None
+        if rec:
+            hearings.append(rec)
+    print(f"Congress: {len(hearings)} meetings ({len(ids)} House on the calendar)", file=sys.stderr)
+    return hearings
+
+
+# --------------------------------------------------------------------------- #
 # Every other state: Open States' open-source meeting scrapers, run by us
 # --------------------------------------------------------------------------- #
 # The refresh workflow runs Open States' "events" scrapers (github.com/openstates/
@@ -1615,7 +1823,7 @@ def assemble(hearings, jurisdictions, source, now):
         hearings = [h for h in hearings if h["jurisdiction"] != "us"] + shown
     # USA (Federal) leads, then the rest alphabetically — the dashboard shows the
     # federal comment periods above the state hearings.
-    rank = lambda code: (0 if code == "us" else 1, code)
+    rank = lambda code: ({"us": 0, "usa": 1}.get(code, 2), code)
     used = [j for j in jurisdictions if any(h["jurisdiction"] == j for h in hearings)] \
         or list(jurisdictions)
     used = sorted(used, key=rank)
@@ -1629,7 +1837,7 @@ def assemble(hearings, jurisdictions, source, now):
         "source": source,
         "jurisdictions": [
             {**{k: v for k, v in JURISDICTIONS[j].items()
-                if k in ("code", "name", "participation", "portal_url", "full_list_url")},
+                if k in ("code", "name", "participation", "portal_url", "full_list_url", "how_to")},
              **extra.get(j, {})}
             for j in used if j in JURISDICTIONS
         ],
@@ -1997,7 +2205,7 @@ STEP = {
     "position_letter": "Write a short letter naming the bill number and your position, and send it to the committee.",
     "contact_only": "Email the committee chair before the hearing, or go to the hearing and testify in person.",
 }
-SLUG = {"us": "federal", "chi": "chicago"}
+SLUG = {"us": "federal", "usa": "congress", "chi": "chicago"}
 PAGES_MAX = 40          # hearings listed (and labelled as Events) per place page
 
 
@@ -2055,7 +2263,19 @@ def place_page(p, hearings, generated_at, has_downloads):
     up = [h for h in hearings if h["jurisdiction"] == code and h.get("status") != "canceled"]
     shown = up[:PAGES_MAX]
     asof = generated_at[:10]
-    if code == "us":
+    if code == "usa":
+        q1 = "How do I weigh in on a congressional hearing?"
+        lead = ("To weigh in on a congressional hearing, contact your representative and senators "
+                "before it, or send a written statement for the hearing record where the committee "
+                "accepts one. Witnesses who testify are invited by the committee.")
+        steps = ["Find the hearing or markup for the bill or topic you care about (upcoming ones are listed below).",
+                 "Find your representative and senators: https://www.congress.gov/members/find-your-member",
+                 "Call, email or write to them before the hearing, naming the bill number and your position.",
+                 "If the committee accepts statements from the public for the record, send yours by its deadline (each committee's site says how)."]
+        title = "How to weigh in on a congressional hearing · Govbot Public Hearings"
+        h1 = "How to weigh in on a congressional hearing"
+        what = "hearings"
+    elif code == "us":
         q1 = "How do I comment on a federal rule?"
         lead = ("To comment on a federal rule, open it on Regulations.gov and submit your comment "
                 "before its comment deadline. Comments are public and the agency must consider them.")
@@ -2194,8 +2414,10 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
         how = {r["code"]: r.get("how_to", "") for r in rows}
     except (OSError, ValueError):
         how = {}
-    for j in doc.get("jurisdictions", []):
+    for j in list(doc.get("jurisdictions", [])) + list(JURISDICTIONS.values()):
         places.setdefault(j["code"], {k: j[k] for k in ("code", "name", "participation", "portal_url")})
+        if j.get("how_to"):
+            how.setdefault(j["code"], j["how_to"])
     dl = set()
     if downloads_dir and (Path(downloads_dir) / "manifest.json").exists():
         dl = {m["code"] for m in json.loads((Path(downloads_dir) / "manifest.json").read_text())["places"]}
@@ -2220,7 +2442,7 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,us",
+    ap.add_argument("--jurisdictions", default="il,wa,ma,ak,chi,usa,us",
                     help="Comma-separated codes to scrape live (default: il,wa,ma,ak,chi,us; "
                          "'us' = federal comment periods from Regulations.gov)")
     ap.add_argument("--from-fixtures", default=None,
@@ -2285,10 +2507,12 @@ def main():
             hearings.extend(fetch_ak(begin, end))
         if "chi" in codes:
             hearings.extend(fetch_chi(begin, end))
+        if "usa" in codes:                   # Congress's committee hearings
+            hearings.extend(fetch_usa(now))
         if "us" in codes:                    # federal rules open for comment
             hearings.extend(fetch_us(now.date()))
         source = ("ilga.gov + leg.wa.gov + malegislature.gov + akleg.gov + "
-                  "chicityclerkelms.chicago.gov + "
+                  "chicityclerkelms.chicago.gov + senate.gov + docs.house.gov + "
                   "federalregister.gov (govbot scrape-hearings)")
         if args.os_events:
             # Places we scrape ourselves keep our own scraper; Open States fills the rest.

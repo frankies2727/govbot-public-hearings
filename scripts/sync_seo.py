@@ -5,7 +5,7 @@ Reads the visible FAQs (#faq .faq-item h3 + p) in site/index.html and writes, be
 <!-- seo:ld:start/end --> markers in <head>, one JSON-LD block: the site, who makes it,
 the dataset (with its downloads) and an FAQPage of exactly those questions. Also fills
 <!-- places:start/end --> with a plain link to every place's page (site/places/), from
-site/participation.json plus Chicago, so crawlers that don't run JavaScript find them all.
+site/participation.json plus the places only the scraper knows (Chicago, Congress), so crawlers that don't run JavaScript find them all.
 
     python3 scripts/sync_seo.py          # rewrite site/index.html
     python3 scripts/sync_seo.py --check  # exit 1 if it is out of date (the tests run this)
@@ -35,8 +35,10 @@ def faqs(page):
 
 def places():
     rows = json.loads(PARTICIPATION.read_text())["jurisdictions"]
-    items = [(r["code"], r["name"]) for r in rows] + [("chi", "Chicago City Council")]
-    return sorted(items, key=lambda x: (x[0] != "us", x[1]))
+    have = {r["code"] for r in rows}
+    items = [(r["code"], r["name"]) for r in rows] + [
+        (c, j["name"]) for c, j in scraper.JURISDICTIONS.items() if c not in have]
+    return sorted(items, key=lambda x: ({"us": 0, "usa": 1}.get(x[0], 2), x[1]))
 
 
 def ld(page):
