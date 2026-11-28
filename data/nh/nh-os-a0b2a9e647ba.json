@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "COMMISSION TO STUDY THE ECONOMIC IMPACT OF ARTS AND CULTURE IN NEW HAMPSHIRE",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3149&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-a0b2a9e647ba",
+  "jurisdiction": "nh",
+  "location": "DNCR, 172 Pembroke Road, Concord",
+  "scheduled_display": "2026-10-30T09:00:00",
+  "scheduled_iso": "2026-10-30T09:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Louisiana Integrated Criminal Justice Information System",
+  "details_url": "https://www.legis.la.gov/legis/Agenda.aspx?m=6251",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "la-os-0d77d4ef4d44",
+  "jurisdiction": "la",
+  "location": "Louisiana Sheriff's Association, Baton Rouge",
+  "scheduled_display": "2026-12-10T10:00:00",
+  "scheduled_iso": "2026-12-10T10:00:00",
+  "source": "www.legis.la.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Meeting on December 10, 2026 of the Louisiana Integrated Criminal Justice Information System",
+  "witness_slip_url": null
+}

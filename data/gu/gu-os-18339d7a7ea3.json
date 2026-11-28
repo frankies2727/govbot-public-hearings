@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B39438",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "POSTPONED- PUBLIC HEARING – Office of Senator Borja",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-18339d7a7ea3",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building.",
+  "scheduled_display": "2026-11-23T14:00:00",
+  "scheduled_iso": "2026-11-23T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Håfa Adai! The Committee on Education, Libraries & Public Broadcasting will conduct has postponed a Public Hearing on Monday, November 23, 2026 , beginning at 2:00 P.M ., in the Public Hearing Room of the Guam Congress Building. The public hearing will be rescheduled to a later date. The Committee will hear and accept testimony on the following: I. Bill No. 394-38 (COR) - AN ACT TO AMEND §715(1)(13) OF CHAPTER 7, TITLE 1, GUAM CODE ANNOTATED, RELATIVE TO PROVIDING THE GUAM DEPARTMENT OF EDUCATION WITH AN EXEMPTION FROM THE REQUIREMENT OF ONE HUNDRED EIGHTY (180) INSTRUCTIONAL DAYS, OR ITS EQU…",
+  "witness_slip_url": null
+}

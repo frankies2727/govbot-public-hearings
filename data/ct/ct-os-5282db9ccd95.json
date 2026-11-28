@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "SB123",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5140",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB124",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5143",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB125",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5141",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB122",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5142",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Aging Committee Public Hearing (1B-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=AGE",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-5282db9ccd95",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-19T10:00:00",
+  "scheduled_iso": "2026-02-19T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

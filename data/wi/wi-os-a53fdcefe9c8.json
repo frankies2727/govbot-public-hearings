@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "AB155",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB439",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB425",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB509",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Transportation (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1952433",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-a53fdcefe9c8",
+  "jurisdiction": "wi",
+  "location": "North Hearing Room (2nd Floor North), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-11-12T10:45:00",
+  "scheduled_iso": "2025-11-12T10:45:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

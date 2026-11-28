@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "COMMISSION TO STUDY THE INCIDENCE OF POST-TRAUMATIC STRESS DISORDER IN FIRST RESPONDERS",
+  "details_url": "https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=3232&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-e2b6efe9bfe4",
+  "jurisdiction": "nh",
+  "location": "NH Fire Academy 98 Smokey Bear Blvd., Classroom 2 Concord, NH 03301",
+  "scheduled_display": "2026-12-11T10:00:00",
+  "scheduled_iso": "2026-12-11T10:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

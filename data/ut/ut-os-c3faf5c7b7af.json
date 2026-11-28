@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "HB210",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB290",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB190",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB91",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB101",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Revenue and Taxation Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTREV",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-c3faf5c7b7af",
+  "jurisdiction": "ut",
+  "location": "445 State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-06T15:40:00",
+  "scheduled_iso": "2026-02-06T15:40:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,68 @@
+{
+  "bills": [
+    {
+      "id": "A1142",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2001",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5162",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2953",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A964",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A1207",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2291",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5100",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AJR139",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Health Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-e9a421160d1b",
+  "jurisdiction": "nj",
+  "location": "Committee Room 16, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-06-18T14:00:00",
+  "scheduled_iso": "2026-06-18T14:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

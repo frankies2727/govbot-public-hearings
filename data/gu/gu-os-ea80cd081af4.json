@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R15738",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Resolution Presentation - Resolution No. 157-38 (COR) -",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-ea80cd081af4",
+  "jurisdiction": "gu",
+  "location": "Okkodo High School in Dededo",
+  "scheduled_display": "2026-03-28T08:00:00",
+  "scheduled_iso": "2026-03-28T08:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai, The presentation of Resolution No. 157-38 (COR), relative to recognizing Special Olympics Guam on the occasion of its 50 th Anniversary as an organization, will take place on Saturday, March 28, 2026 , at 8:00 am at Okkodo High School in Dededo . We look forward to your attendance and participation. 3.27.26 7:30am (FN)",
+  "witness_slip_url": null
+}

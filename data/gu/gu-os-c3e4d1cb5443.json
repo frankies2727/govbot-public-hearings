@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "B30838",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B32238",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B32738",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Reconvening on Thursday, July 2, 2026 at 8:30 a.m - Senator Sabrina Salas Matanane",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-c3e4d1cb5443",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-07-02T08:30:00",
+  "scheduled_iso": "2026-07-02T08:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/my6gB0krEZ8 Håfa Adai, Please be advised that The Committee on Health and Veterans Affairs recessed the Public Hearing held Today, June 23, 2026. The Public Hearing will reconvene on Thursday, July 2, 2026 at 8:30 a.m., in the Public Hearing Room of the Guam Congress Building. The Committee will hear and accept testimony on the following: Bill No. 308-38 (COR) - Tina Rose Muña-Barnes. – “AN ACT TO ADD A NEW § 121202(b)(1), GUAM CODE ANNOTATED, RELATIVE TO REGULATING THE TRAINING OF CLINICAL PSYCHOLOGISTS TO ALLOW FOR SUPERVISION IN GUAM.” Bill No. 322-3…",
+  "witness_slip_url": null
+}

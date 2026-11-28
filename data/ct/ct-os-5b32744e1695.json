@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "School Construction Project Priority List Review Committee Meeting (1C-ZOOM)",
+  "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=FIN",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-5b32744e1695",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-01-14T13:30:00",
+  "scheduled_iso": "2026-01-14T13:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "B36038",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B36338",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B36438",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "POSTPONED Public Hearing - Vice Speaker V. Anthony Ada",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-69f6dd561a81",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building",
+  "scheduled_display": "2026-10-19T08:30:00",
+  "scheduled_iso": "2026-10-19T08:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "The Committee on Land, Environment, Housing, Agriculture, Parks and Infrastructure will conduct a public hearing on has postponed the public hearing scheduled for Monday, October 19, 2026 at 8:30 am in the Public Hearing Room in the Guam Congress Building until further notice . The agenda is as follows: Agenda items below will be heard on a later date to be announced: · Bill No. 360-38 (COR) - Frank F. Blas, Jr. – “AN ACT TO ADD A NEW §§ 66215, 66216, AND 66217 TO ARTICLE 2, CHAPTER 66, TITLE 21, GUAM CODE ANNOTATED, RELATIVE TO AUTHORIZING THE USE OF THIRD-PARTY ASSISTANCE IN PERMIT APPLICAT…",
+  "witness_slip_url": null
+}

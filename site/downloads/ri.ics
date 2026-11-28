@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rhode Island hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ri-os-43f0bdde517b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T200000Z
+SUMMARY:Meeting Notice
+DESCRIPTION:https://status.rilegislature.gov/agenda_all.aspx?idlist=21785|2
+ 1789
+LOCATION:Room 313 - State House
+URL:https://status.rilegislature.gov/agenda_all.aspx?idlist=21785|21789
+END:VEVENT
+BEGIN:VEVENT
+UID:ri-os-694e70fbdf82@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T200000Z
+SUMMARY:SENATE COMMITTEE ON JUDICIARY
+DESCRIPTION:https://status.rilegislature.gov/documents/agenda-21785.aspx
+LOCATION:Room 313 - State House
+URL:https://status.rilegislature.gov/documents/agenda-21785.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:ri-os-15ece681e0a0@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T210000Z
+SUMMARY:SENATE COMMITTEE ON JUDICIARY
+DESCRIPTION:https://status.rilegislature.gov/documents/agenda-21789.aspx
+LOCATION:Room 313 - State House
+URL:https://status.rilegislature.gov/documents/agenda-21789.aspx
+END:VEVENT
+END:VCALENDAR

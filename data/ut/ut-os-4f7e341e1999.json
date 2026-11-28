@@ -1,0 +1,83 @@
+{
+  "bills": [
+    {
+      "id": "HB467",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB394",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB393",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB426",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB524",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB322",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB326",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB129",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB219",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB312",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB462",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB358",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJR8",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Education Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTEDU",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-4f7e341e1999",
+  "jurisdiction": "ut",
+  "location": "210 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-03-02T16:00:00",
+  "scheduled_iso": "2026-03-02T16:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

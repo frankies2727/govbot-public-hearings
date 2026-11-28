@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "COMMISSION TO STUDY THE USE AND REGULATION OF THE SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP) IN NEW HAMPSHIRE",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3216&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-7eda095b5106",
+  "jurisdiction": "nh",
+  "location": "New Hampshire State House, 107 North Main Street, Concord, NH 03301, Room 100",
+  "scheduled_display": "2026-11-30T09:30:00",
+  "scheduled_iso": "2026-11-30T09:30:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B29938",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing on Bill No. 299-38 (COR), Senator Shawn GumataotaoMonday, August 10, 2026",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-7e1bb88b9a5b",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building in Hagåtña.",
+  "scheduled_display": "2026-08-10T14:00:00",
+  "scheduled_iso": "2026-08-10T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/Uflf2lLYbS4 Buenas yan Håfa adai! Please be advised that the Committee on Public Safety, Emergency Management, and Guam National Guard will conduct a Public Hearing on Monday, August 10, 2026, beginning at 2:00 p.m. in the Public Hearing Room of the Guam Congress Building in Hagåtña. The agenda will include the following: Bill No. 299-38 (COR) (T.M. Terlaje) - AN ACT TO AMEND § 84108 OF CHAPTER 84 OF ALL OF TITLE 10 RELATIVE TO UPDATING THE EMERGENCY MEDICAL COMMISSION COMPOSITION (EMS). Watch Live The Public Hearing will broadcast on local television,…",
+  "witness_slip_url": null
+}

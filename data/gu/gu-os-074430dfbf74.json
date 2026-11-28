@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B37138",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "CALL TO EMERGENCY SESSION – Thursday, October 15, 2026, AT 10:00 A.M.",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-074430dfbf74",
+  "jurisdiction": "gu",
+  "location": "peaker Antonio R. Unpingco Legislative Session Hall in the Guam Congress Building",
+  "scheduled_display": "2026-10-15T10:00:00",
+  "scheduled_iso": "2026-10-15T10:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO EMERGENCY: https://youtube.com/live/1fcqePwwsRo Håfa Adai, Pursuant to Section 1.02(b)(1)(ii) of Part A Rule I of the Standing Rules, I am certifying an emergency condition exists which warrants an emergency session of I Liheslaturan Guåhan. On October 14, 2026, at 3:36 P.M. I received a letter from Senator Telo T. Taitague requesting an Emergency Session to address a Tropical Formation Alert, invest 96W cyclone development likely within 24 hours, and to specifically consider Bill No. 371-38 (COR). Given the urgent nature of these critical concerns, I Liheslaturan Guåhan, will convene a…",
+  "witness_slip_url": null
+}

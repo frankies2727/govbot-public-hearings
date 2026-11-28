@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Management",
+  "details_url": "https://billstatus.ls.state.ms.us/htms/h_sched.htm",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ms-os-02f7412d4afa",
+  "jurisdiction": "ms",
+  "location": "400 High St, Jackson, MS 39201, 302",
+  "scheduled_display": "2026-12-08T10:00:00",
+  "scheduled_iso": "2026-12-08T10:00:00",
+  "source": "billstatus.ls.state.ms.us",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

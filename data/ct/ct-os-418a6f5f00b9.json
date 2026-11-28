@@ -1,0 +1,213 @@
+{
+  "bills": [
+    {
+      "id": "HB5478",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5148",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5551",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5519",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB232",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB500",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB5",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5514",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5558",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB498",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB442",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5557",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB87",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB398",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5468",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5540",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5001",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB453",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB7",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5486",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB3",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5358",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB497",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5485",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB394",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB354",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB342",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5220",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB4",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB116",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB480",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB195",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB233",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5308",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB237",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB326",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB9",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Appropriations Committee Meeting (2C-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-418a6f5f00b9",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-04-17T10:00:00",
+  "scheduled_iso": "2026-04-17T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

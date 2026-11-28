@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Louisiana Commission on Civic Education",
+  "details_url": "https://www.legis.la.gov/legis/Agenda.aspx?m=6254",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "la-os-51869be226f7",
+  "jurisdiction": "la",
+  "location": "John J. Hainkel, Jr. Room",
+  "scheduled_display": "2026-12-03T14:00:00",
+  "scheduled_iso": "2026-12-03T14:00:00",
+  "source": "www.legis.la.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Meeting on December 3, 2026 of the Louisiana Commission on Civic Education",
+  "witness_slip_url": null
+}

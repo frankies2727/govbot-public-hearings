@@ -1,0 +1,63 @@
+{
+  "bills": [
+    {
+      "id": "SB106",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB108",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB111",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB189",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB232",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB245",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB306",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB307",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB308",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Mental Health, Substance Abuse Prevention, Children and Families (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1924676",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-7200c294f3a1",
+  "jurisdiction": "wi",
+  "location": "319 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-06-11T15:00:00",
+  "scheduled_iso": "2025-06-11T15:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

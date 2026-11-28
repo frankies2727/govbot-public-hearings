@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "A&B Finance Subcommittee",
+  "details_url": "https://www.okhouse.gov/events/is-ap-fin-20260928-09000000",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ok-os-8e359342099d",
+  "jurisdiction": "ok",
+  "location": "ROOM 4S5 2300 N Lincoln Blvd, Oklahoma City, OK 73105",
+  "scheduled_display": "2026-09-28T09:00:00",
+  "scheduled_iso": "2026-09-28T09:00:00",
+  "source": "www.okhouse.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "HB195",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB422",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB554",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB508",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB405",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB455",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB487",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB530",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB540",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB529",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJR25",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB294",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Government Operations and Political Subdivisions Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTGOP",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-a60c828b2934",
+  "jurisdiction": "ut",
+  "location": "220 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-03-02T08:10:00",
+  "scheduled_iso": "2026-03-02T08:10:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

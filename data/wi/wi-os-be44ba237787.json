@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB572",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB662",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "State Affairs (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1958173",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-be44ba237787",
+  "jurisdiction": "wi",
+  "location": "328 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-12-10T10:31:00",
+  "scheduled_iso": "2025-12-10T10:31:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

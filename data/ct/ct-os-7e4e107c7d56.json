@@ -1,0 +1,278 @@
+{
+  "bills": [
+    {
+      "id": "SB460",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB466",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5554",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5533",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5530",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB385",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB467",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB458",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5434",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB392",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB459",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB468",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5543",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB395",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB393",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5550",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5534",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5555",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB471",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB469",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5544",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5529",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB462",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB492",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5548",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB465",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB489",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5545",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB486",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5531",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5528",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5553",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5549",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5001",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB463",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB472",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB487",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB461",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5342",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB490",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB464",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB493",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB394",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ37",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB491",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5532",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5220",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB488",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB485",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5547",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5546",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB470",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Government Administration and Elections Committee Meeting (1C-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-7e4e107c7d56",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-20T12:00:00",
+  "scheduled_iso": "2026-03-20T12:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B28338",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing: June 26, 2026 - Vice Speaker V. Anthony Ada",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-3b700584ec3d",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building",
+  "scheduled_display": "2026-06-26T09:00:00",
+  "scheduled_iso": "2026-06-26T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/IQjPcGrHUcA The Committee on Land, Environment, Housing, Agriculture, Parks and Infrastructure will conduct a public hearing on Friday, June 26, 2026 at 9:00 am in the Public Hearing Room in the Guam Congress Building. The Committee will be hearing and accepting testimony on Bill No. 283-38 (COR) – Tina Rose Muña Barnes - AN ACT TO REZONE LOT NO. 2285-NEW-3, LOCATED IN THE MUNICIPALITY OF MANGILAO (FORMERLY BARRIAGADA) FROM MULTIPLE DWELLING ZONE (“R2”) TO COMMERCIAL (“C”). Those interested in participating in the Public Hearing to provide testimony, pl…",
+  "witness_slip_url": null
+}

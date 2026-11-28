@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "AB849",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Criminal Justice and Public Safety (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1965395",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-47d3a58f9844",
+  "jurisdiction": "wi",
+  "location": "225 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-21T12:31:00",
+  "scheduled_iso": "2026-01-21T12:31:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

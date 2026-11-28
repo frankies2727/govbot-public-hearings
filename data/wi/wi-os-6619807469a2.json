@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "AB549",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB625",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB631",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB737",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB784",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Housing and Real Estate (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1963400",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-6619807469a2",
+  "jurisdiction": "wi",
+  "location": "415 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-21T09:00:00",
+  "scheduled_iso": "2026-01-21T09:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

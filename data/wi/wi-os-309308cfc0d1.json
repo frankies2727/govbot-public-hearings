@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "AB162",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB169",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB167",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB168",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Workforce Development, Labor, and Integrated Employment (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1912699",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-309308cfc0d1",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-04-09T10:00:00",
+  "scheduled_iso": "2025-04-09T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

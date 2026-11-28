@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Finance (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1976747",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-2a4c7d0043bd",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-03-03T10:30:00",
+  "scheduled_iso": "2026-03-03T10:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "13.10 Meeting",
+  "witness_slip_url": null
+}

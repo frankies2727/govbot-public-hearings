@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB387",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB390",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Finance (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1938089",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-306e055ab09b",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-08-21T09:31:00",
+  "scheduled_iso": "2025-08-21T09:31:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

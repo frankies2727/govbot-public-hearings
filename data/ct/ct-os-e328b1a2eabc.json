@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Interest on Real Estate Broker's Trust Account (IOREBTA) Housing Advisory Committee Meeting (ZOOM1)",
+  "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-e328b1a2eabc",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-12-01T11:00:00",
+  "scheduled_iso": "2026-12-01T11:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

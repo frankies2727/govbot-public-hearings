@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "SB196",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB169",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB197",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB164",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB198",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB167",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB200",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB168",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB201",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB162",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB151",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Government Operations, Labor and Economic Development (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1914929",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-fac4962accc0",
+  "jurisdiction": "wi",
+  "location": "201 Southeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-06T10:30:00",
+  "scheduled_iso": "2025-05-06T10:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

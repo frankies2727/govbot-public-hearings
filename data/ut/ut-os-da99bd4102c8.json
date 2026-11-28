@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "General Government Appropriations Subcommittee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=APPGEN",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-da99bd4102c8",
+  "jurisdiction": "ut",
+  "location": "30 House Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-10T08:00:00",
+  "scheduled_iso": "2026-02-10T08:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

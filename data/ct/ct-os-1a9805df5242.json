@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "HB5312",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB290",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5311",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5313",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB293",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB295",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5310",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5306",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5309",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB292",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB259",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB291",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Judiciary Committee Public Hearing (2C-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-1a9805df5242",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-02T10:00:00",
+  "scheduled_iso": "2026-03-02T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "AB180",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Public Benefit Reform (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1920705",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-08dc62a1ad7a",
+  "jurisdiction": "wi",
+  "location": "300NE, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-28T11:00:00",
+  "scheduled_iso": "2025-05-28T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

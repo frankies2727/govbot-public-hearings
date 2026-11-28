@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Meeting of Senate Finance and Appropriations Committee, House Appropriations Committee,",
+  "details_url": "https://lis.virginia.gov/schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "va-os-34db2425df17",
+  "jurisdiction": "va",
+  "location": "and House Finance Committee House Room A, Room 008, General Assembly Building Committee Info Committee Info Committee Info",
+  "scheduled_display": "2026-12-17T09:30:00",
+  "scheduled_iso": "2026-12-17T09:30:00",
+  "source": "lis.virginia.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

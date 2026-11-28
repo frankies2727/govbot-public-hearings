@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R17738",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "*Presentation Notice for Resolution No. 177-38 (COR) - Senator Eulogio Shawn Gumataotao",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-bc99ac4c2a17",
+  "jurisdiction": "gu",
+  "location": "Emerald Ballroom, Lotte Hotel, Tumon.",
+  "scheduled_display": "2026-05-13T10:30:00",
+  "scheduled_iso": "2026-05-13T10:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai! Please join me in presenting Resolution No. 177-38 (COR) – Relative to \"Recognizing the observance of “National Police Week” during the week of May 11 through May 15, 2026, and commending Guam’s law enforcement officers for their continued heroism, sacrifice, and duty in keeping our island community safe.\" The presentation will take place on Wednesday, May 13, 2026, 10:30 a.m. at the Emerald Ballroom, Lotte Hotel, Tumon. Si Yu’os Ma'åse’! 5/12/26 10:02 a.m. (FN)",
+  "witness_slip_url": null
+}

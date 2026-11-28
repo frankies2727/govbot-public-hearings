@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "HB214",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB238",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB83",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB101",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HCR4",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Public Utilities and Energy Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTPUT",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-fa7cfaff24b2",
+  "jurisdiction": "ut",
+  "location": "110 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-01-26T14:00:00",
+  "scheduled_iso": "2026-01-26T14:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

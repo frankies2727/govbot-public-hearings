@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "SB188",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB191",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB202",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Business and Labor Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTBUS",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-1d85170d5f0a",
+  "jurisdiction": "ut",
+  "location": "220 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-01-29T14:00:00",
+  "scheduled_iso": "2026-01-29T14:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

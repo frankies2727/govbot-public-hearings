@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wisconsin hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:wi-os-ecbfd6ec7ddf@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T160000Z
+SUMMARY:2026 Use of Artificial Intelligence in Health Care (Legislative Cou
+ ncil)
+DESCRIPTION:Study Meeting\nhttps://docs.legis.wisconsin.gov/raw/cid/2018356
+LOCATION:300 Northeast\, 2 E Main St\, Madison\, WI 53703
+URL:https://docs.legis.wisconsin.gov/raw/cid/2018356
+END:VEVENT
+END:VCALENDAR

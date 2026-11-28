@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "HB1006",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1138",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1148",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1149",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1160",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Health and Human Services",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1282/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-2fd0119134b3",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-03-04T07:45:00",
+  "scheduled_iso": "2026-03-04T07:45:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "SB542",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB231",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Revenue Interim Committee",
+  "details_url": "https://www.legmt.gov/event/revenue-interim-committee-12/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mt-os-089d2e8a81d1",
+  "jurisdiction": "mt",
+  "location": "Room 152, State Capitol, 1301 E 6th Ave, Helena, MT, 59601",
+  "scheduled_display": "2026-11-16T10:15:00",
+  "scheduled_iso": "2026-11-16T10:15:00",
+  "source": "www.legmt.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

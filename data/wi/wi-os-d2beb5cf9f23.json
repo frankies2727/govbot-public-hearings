@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB554",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB523",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Consumer Protection (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1960424",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-d2beb5cf9f23",
+  "jurisdiction": "wi",
+  "location": "400 Northeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-12-18T13:00:00",
+  "scheduled_iso": "2025-12-18T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

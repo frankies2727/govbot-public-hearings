@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Connecticut Lakes Headwaters Citizens Committee ==NON-LEGISLATIVE==",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3248&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-cd53d9f7b94a",
+  "jurisdiction": "nh",
+  "location": "Pittsburg Ridge Runners Clubhouse 17 Dickson Lane, Pittsburg NH",
+  "scheduled_display": "2026-12-01T10:30:00",
+  "scheduled_iso": "2026-12-01T10:30:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B24238",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing - Senator Jesse Lujan",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-c86ad66e8136",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building.",
+  "scheduled_display": "2026-02-18T09:00:00",
+  "scheduled_iso": "2026-02-18T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: PT. 1 https://youtu.be/JTQRd0uuzIU PT. 2 https://youtu.be/6yTt8zPqZX8 The Committee on Transportation, Tourism, Customs, Utilities and Federal & Foreign Affairs will conduct a Public Hearing on Wednesday, February 18, 2026 , beginning at 9:00AM at the Public Hearing Room in the Guam Congress Building. The agenda is as follows: 9:00AM Bill No. 242-38 (LS) – William A. Parkinson AN ACT TO AMEND §§ 2102, 2104, 2105, 2110, AND 2111 OF CHAPTER 21, TITLE 1, GUAM CODE ANNOTATED, RELATIVE TO REMOVING ANCESTRY-BASED VOTER RESTRICTIONS IN GUAM’S POLITICAL STATUS PLEBISCITE AND ENSURING C…",
+  "witness_slip_url": null
+}

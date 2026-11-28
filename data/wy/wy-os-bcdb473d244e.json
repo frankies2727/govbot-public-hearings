@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Appropriations",
+  "details_url": "https://www.wyoleg.gov/Calendar/20261001/Meeting?type=committee&id=15143",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wy-os-bcdb473d244e",
+  "jurisdiction": "wy",
+  "location": "Thyra Thomson State Office Building, Round House Conference Room, 3rd Floor Room 3024 444 W Collins Drive",
+  "scheduled_display": "2026-10-19T08:30:00",
+  "scheduled_iso": "2026-10-19T08:30:00",
+  "source": "www.wyoleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "The purpose of this meeting is to receive testimony and consider possible legislation related to Wyoming Business Council programs, retirement cost-of-living adjustments, retiree insurance benefits, public officials compensation, and wildfire employment opportunities. The Committee will also receive updates on employee group insurance, hear testimony regarding services for deaf and blind individuals, receive an overview of the forthcoming Consensus Revenue Estimating Group (CREG) report, and consider an External Cost Adjustment (ECA) recommendation. The meeting will be held in person in Caspe…",
+  "witness_slip_url": null
+}

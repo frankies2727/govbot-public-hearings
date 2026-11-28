@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "AB1",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB18",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB2",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB29",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Education (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1907155",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-c04c379e8efc",
+  "jurisdiction": "wi",
+  "location": "330 Southwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-03-13T10:00:00",
+  "scheduled_iso": "2025-03-13T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

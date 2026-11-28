@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "R12638",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "R12738",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing - Office Senator Perez",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-34adef3d1fa0",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building, Public Hearing Room",
+  "scheduled_display": "2026-02-20T14:00:00",
+  "scheduled_iso": "2026-02-20T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/19Y5ZA_m8JE The Office of Senator Sabina Flores Perez will be conducting a public hearing on Friday, February 20, 2026 at 2:00 p.m. The public hearing will take place in the Guam Congress Building, Public Hearing Room. The agenda is as follows: 2:00 p.m. Resolution No. 126-38 (COR) – Sabina Flores Perez/Shelly V. Calvo/Chris Barnett/Vincent A.V. Borja/Frank F. Blas, Jr./V. Anthony Ada/Therese M. Terlaje/William A. Parkinson/Tina Rose Muña Barnes – Relative to empowering the Guam Department of Education to expand anti-drug education and prevention campai…",
+  "witness_slip_url": null
+}

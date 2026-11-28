@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "CURRENT USE BOARD",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3159&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-8c1eb438b115",
+  "jurisdiction": "nh",
+  "location": "Department of Revenue Administration- Training Room 109 Pleasant Street Concord NH",
+  "scheduled_display": "2026-12-10T09:00:00",
+  "scheduled_iso": "2026-12-10T09:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

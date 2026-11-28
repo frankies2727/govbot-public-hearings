@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R11738",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing - Senator William Parkinson",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-a5d71f9ee6b9",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-01-22T09:30:00",
+  "scheduled_iso": "2026-01-22T09:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/ypG_X5rmLbg Håfa Adai! Please be advised that the Office of Senator William A. Parkinson will conduct a Public Hearing on Thursday, January 22, 2026 at 9:30AM in the Public Hearing Room of the Guam Congress Building to receive testimony on the following: AGENDA FOR 9:30AM Resolution No. 117-38 (COR) – Senator William A. Parkinson Relative to urging the United States Congress and the Department of Defense to transition Guam from the Overseas Housing Allowance (OHA) system to the Basic Allowance for Housing (BAH) system. If you are interested in participa…",
+  "witness_slip_url": null
+}

@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "SJR4",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJR94",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJR116",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB225",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB253",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB406",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB417",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB383",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB703",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB403",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB385",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Licensing, Regulatory Reform, State and Federal Affairs (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1962810",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-b3aa402d9633",
+  "jurisdiction": "wi",
+  "location": "118 S, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-09T14:00:00",
+  "scheduled_iso": "2026-01-09T14:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB311",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB400",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Judiciary (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1962371",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-34dd957477d3",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-08T09:31:00",
+  "scheduled_iso": "2026-01-08T09:31:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Legislative Oversight Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-2b0ce6b48931",
+  "jurisdiction": "nj",
+  "location": "First Presbyterian Church, 42 Broad Street, Elizabeth, New Jersey 07201",
+  "scheduled_display": "2026-08-04T13:00:00",
+  "scheduled_iso": "2026-08-04T13:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

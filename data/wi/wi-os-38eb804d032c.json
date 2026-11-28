@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "AJR133",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB955",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB994",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB995",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Government Operations, Accountability, and Transparency (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1971304",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-38eb804d032c",
+  "jurisdiction": "wi",
+  "location": "415 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-10T09:00:00",
+  "scheduled_iso": "2026-02-10T09:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

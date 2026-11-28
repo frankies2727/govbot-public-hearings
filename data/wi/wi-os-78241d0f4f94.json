@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "AB1033",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB956",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB640",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB894",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB446",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB436",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB878",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB1025",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB793",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB1032",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB1034",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "State Affairs (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1971598",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-78241d0f4f94",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-11T09:31:00",
+  "scheduled_iso": "2026-02-11T09:31:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

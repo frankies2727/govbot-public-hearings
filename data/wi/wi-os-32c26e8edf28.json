@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "AB299",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB303",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB304",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Mental Health and Substance Abuse Prevention (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1923646",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-32c26e8edf28",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-06-10T10:15:00",
+  "scheduled_iso": "2025-06-10T10:15:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

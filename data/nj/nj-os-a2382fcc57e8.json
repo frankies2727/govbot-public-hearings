@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "A5136",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2403",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2524",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2757",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3980",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4096",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4801",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4836",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5188",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2368",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3379",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Telecommunications and Utilities Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-a2382fcc57e8",
+  "jurisdiction": "nj",
+  "location": "Committee Room 16, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-06-04T10:00:00",
+  "scheduled_iso": "2026-06-04T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,18 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "comment_deadline": "2026-12-02T17:00:00",
+  "committee": "Committee on Education and Child Development",
+  "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=CADC36CE-69E7-F111-84E9-001DD80AA3CC",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "chi-cadc36ce-69e7-f111-84e9-001dd80aa3cc",
+  "jurisdiction": "chi",
+  "location": "City Council Chamber, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
+  "scheduled_display": "2026-12-03T10:30:00",
+  "scheduled_iso": "2026-12-03T10:30:00",
+  "source": "chicityclerkelms.chicago.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "No votes will be taken.",
+  "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/9732ae18-2390-40a9-931e-2b05db87f848.pdf"
+}

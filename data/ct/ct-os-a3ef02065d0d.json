@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "HB5158",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5478",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5418",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB381",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5417",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5479",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Higher Education and Employment Advancement Committee Meeting (2A-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HED",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-a3ef02065d0d",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-12T11:00:00",
+  "scheduled_iso": "2026-03-12T11:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

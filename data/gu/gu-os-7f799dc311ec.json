@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R22538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Presentation of Resolution No. 225-38(LS)Senator Shelly V. Calvo",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-7f799dc311ec",
+  "jurisdiction": "gu",
+  "location": "Micronesia Mall",
+  "scheduled_display": "2026-10-02T15:00:00",
+  "scheduled_iso": "2026-10-02T15:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "The presentation of Certificate No. 225-38 (LS) - Relative to recognizing the month of October 2026 as “Family Violence Awareness Month”; honoring survivors of family violence and those whose lives have been affected by abuse; and commending the numerous advocates, service providers, public servants, organizations, and community partners throughout Guam for their continued dedication to preventing family violence, supporting survivors, promoting accountability, and building a safer community for all. Please be advised that the Resolution Presentation will take place on: Friday, October 02, 20…",
+  "witness_slip_url": null
+}

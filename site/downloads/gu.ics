@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Guam hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:gu-os-dd0ae10bfc80@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261129T010000Z
+SUMMARY:* Presentation for Resolution No. 238-38 (COR) - Senator Chris Duen
+ as
+DESCRIPTION:Buenas yan Håfa Adai! Please join me in presenting Resolution 
+ No. 238-38 (COR ) – “Relative to recognizing Lucia Eustaquio Garcia Mc
+ Donald on the celebration of one hundred (100) years of longevity\; and co
+ mmending her as a Centenarian.” Please be advised that the presentation 
+ will take place on Sunday\, November 29\, 2026\, at 11:00 a.m. at Governme
+ nt House. We look forward to your presence and participation. Si Yu’os M
+ a’åse’! 11/24/26 4:00 PM (FN)\nBills: R23838\nhttps://guamlegislature
+ .com/index/schedules-and-calendars/
+LOCATION:Government House.
+URL:https://guamlegislature.com/index/schedules-and-calendars/
+END:VEVENT
+BEGIN:VEVENT
+UID:gu-os-c4b6ef52453f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261129T080000Z
+SUMMARY:* Resolution Presentation - Vice Speaker V. Anthony Ada
+DESCRIPTION:The Presentation of Resolution No. 237-38 (COR)\, “ Relative 
+ to recognizing the Guam Harmony Lions Club for their service and contribut
+ ions to our island community and commemorating the celebration of its Twen
+ ty-eighth (28th) Anniversary\,” will be held at the Dusit Thani Guam Res
+ ort at 6:00 pm on Sunday\, November 29\, 2026 . We look forward to your at
+ tendance and participation. Si Yu’os Ma’åse’. 11/25/26 9:00 AM (FN)
+ \nBills: R23738\nhttps://guamlegislature.com/index/schedules-and-calendars/
+LOCATION:Dusit Thani Guam Resort
+URL:https://guamlegislature.com/index/schedules-and-calendars/
+END:VEVENT
+BEGIN:VEVENT
+UID:gu-os-f4e208802acb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T040000Z
+SUMMARY:ROUNDTABLE DISCUSSION – Office of Senator Borja
+DESCRIPTION:Håfa Adai! The Committee on Education\, Libraries & Public Bro
+ adcasting will conduct a Roundtable Discussion regarding the Guam Departme
+ nt of Education on Monday\, November 30\, 2026\, beginning at 2:00 P.M.\, 
+ in the Public Hearing Room of the Guam Congress Building. The Roundtable D
+ iscussion will provide an opportunity for the Legislature\, stakeholders\,
+  and the public to receive updates and engage in discussion on the followi
+ ng agenda: Guam Department of Education Roundtable Discussion I. Fiscal St
+ atus of the Guam Department of Education · FY2027 appropriations\, expend
+ itures\, and available balanc…\nhttps://guamlegislature.com/index/schedu
+ les-and-calendars/
+LOCATION:Public Hearing Room of the Guam Congress Building
+URL:https://guamlegislature.com/index/schedules-and-calendars/
+END:VEVENT
+BEGIN:VEVENT
+UID:gu-os-3d9381ef630b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T223000Z
+SUMMARY:Presentation Resolution No. 235-38 (COR) - Office of Senator Sabrin
+ a Salas Matanane
+DESCRIPTION:Please join me in presenting Legislative Resolution No. 235-38 
+ (COR)\, relative to recognizing December 1\, 2026\, as “GivingTuesday Gu
+ am”\; and commending KUAM CareForce\, its Spark Ambassadors\, and the is
+ land’s nonprofit organizations\, businesses\, community partners\, and v
+ olunteers for their continued commitment to generosity\, philanthrophy\, a
+ nd community service throughout Guam. The presentation is scheduled for Tu
+ esday\, December 1\, 2026\, at 8:30 a.m. in the Public Hearing Room at the
+  Guam Legislature Building. For more information about the presentation\, 
+ contact the Office of Legislative Secre…\nBills: R23538\nhttps://guamleg
+ islature.com/index/schedules-and-calendars/
+LOCATION:Public Hearing Room at the Guam Legislature Building.
+URL:https://guamlegislature.com/index/schedules-and-calendars/
+END:VEVENT
+BEGIN:VEVENT
+UID:gu-os-117f6a233685@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T230000Z
+SUMMARY:CALL TO SESSION – Speaker Frank Blas Jr.
+DESCRIPTION:Håfa Adai\, I Liheslaturan Guåhan will be called into Session
+  on Tuesday\, December 1\, 2026\, at 9:00 A.M. in the Speaker Antonio R. U
+ npingco Legislative Session Hall in the Guam Congress Building. The placem
+ ent of bills\, resolutions\, and appointments on the session agenda will b
+ e pursuant to our standing rules. A copy of the session agenda can be view
+ ed at\; https://drive.google.com/file/ d/1s2g4p43ofCexZZpgN- jy69rDy04fNWP
+ v/view?usp= sharing The Session will be broadcast on GTA Channel 21\, Doco
+ mo Channel 117 or 112-4 and at heep:// www.guamlegislature. gov/live_feed.
+ htm . A recording of the ses…\nhttps://guamlegislature.com/index/schedul
+ es-and-calendars/
+LOCATION:Speaker Antonio R. Unpingco Legislative Session Hall
+URL:https://guamlegislature.com/index/schedules-and-calendars/
+END:VEVENT
+END:VCALENDAR

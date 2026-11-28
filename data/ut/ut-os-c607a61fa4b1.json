@@ -1,0 +1,83 @@
+{
+  "bills": [
+    {
+      "id": "SB290",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB103",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB221",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB307",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB319",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB301",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB304",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB302",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB303",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB307",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB313",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB323",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB48",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Judiciary, Law Enforcement, and Criminal Justice Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTJLC",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-c607a61fa4b1",
+  "jurisdiction": "ut",
+  "location": "210 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-24T16:00:00",
+  "scheduled_iso": "2026-02-24T16:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

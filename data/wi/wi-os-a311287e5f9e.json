@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB33",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB204",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Science, Technology, and AI (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1916730",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-a311287e5f9e",
+  "jurisdiction": "wi",
+  "location": "415 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-07T10:30:00",
+  "scheduled_iso": "2025-05-07T10:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

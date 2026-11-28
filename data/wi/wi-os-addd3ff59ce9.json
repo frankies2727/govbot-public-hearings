@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "AB601",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB503",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB606",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "State Affairs (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1951451",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-addd3ff59ce9",
+  "jurisdiction": "wi",
+  "location": "417 North (GAR Hall), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-11-04T11:30:00",
+  "scheduled_iso": "2025-11-04T11:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

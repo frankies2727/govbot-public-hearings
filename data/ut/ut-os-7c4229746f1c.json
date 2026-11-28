@@ -1,0 +1,83 @@
+{
+  "bills": [
+    {
+      "id": "SB157",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB199",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB213",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB139",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB150",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB217",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB196",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB192",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB65",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB98",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB177",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB215",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB182",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Business and Labor Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTBUS",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-7c4229746f1c",
+  "jurisdiction": "ut",
+  "location": "120 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-03T15:40:00",
+  "scheduled_iso": "2026-02-03T15:40:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "S155",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S706",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1106",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1123",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1343",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1374",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1376",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1773",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2613",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3462",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3614",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Education Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-633c8026f59c",
+  "jurisdiction": "nj",
+  "location": "Committee Room 4, 1st Floor, State House Annex, Trenton, New Jersey",
+  "scheduled_display": "2026-03-02T11:00:00",
+  "scheduled_iso": "2026-03-02T11:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

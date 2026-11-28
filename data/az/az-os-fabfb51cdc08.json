@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "2027 Environmental Priorities News Conference",
+  "details_url": "https://www.azleg.gov/Alis-Today/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "az-os-fabfb51cdc08",
+  "jurisdiction": "az",
+  "location": "Capitol Museum",
+  "scheduled_display": "2027-01-05T09:00:00",
+  "scheduled_iso": "2027-01-05T09:00:00",
+  "source": "www.azleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Phoenix",
+  "title": "",
+  "witness_slip_url": null
+}

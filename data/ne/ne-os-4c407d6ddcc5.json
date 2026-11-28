@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Meeting of the Legislative Council",
+  "details_url": "https://nebraskalegislature.gov/calendar/calendar.php",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ne-os-4c407d6ddcc5",
+  "jurisdiction": "ne",
+  "location": "Lied Lodge, Arbor Day Farm, Nebraska City, NE",
+  "scheduled_display": "2026-12-03T10:00:00",
+  "scheduled_iso": "2026-12-03T10:00:00",
+  "source": "nebraskalegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Committee Meeting",
+  "witness_slip_url": null
+}

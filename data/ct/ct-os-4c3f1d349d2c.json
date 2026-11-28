@@ -1,0 +1,243 @@
+{
+  "bills": [
+    {
+      "id": "HB5356",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB482",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5562",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB500",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5481",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB433",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB328",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5483",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5558",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB498",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5482",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB499",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB496",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB495",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5557",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB479",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB87",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5540",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5487",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB327",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB331",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5486",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB481",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5041",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB3",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5354",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5358",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB497",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5485",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5484",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB429",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5561",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5559",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5480",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB501",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5556",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB480",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5040",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB431",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB326",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB494",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB478",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB329",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB430",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Human Services Committee Meeting (2A-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HS",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-4c3f1d349d2c",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-19T11:00:00",
+  "scheduled_iso": "2026-03-19T11:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

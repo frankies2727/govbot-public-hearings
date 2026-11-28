@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB266",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB471",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Financial Institutions (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1944522",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-9cafd4f6fd7c",
+  "jurisdiction": "wi",
+  "location": "328 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-01T10:01:00",
+  "scheduled_iso": "2025-10-01T10:01:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

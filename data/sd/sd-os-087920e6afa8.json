@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "HJR5001",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1090",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1102",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House State Affairs",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1272/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-087920e6afa8",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-01-23T08:00:00",
+  "scheduled_iso": "2026-01-23T08:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

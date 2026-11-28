@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "State Administration and Veterans’ Affairs Interim Committee",
+  "details_url": "https://www.legmt.gov/event/state-administration-and-veterans-affairs-interim-committee-5/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mt-os-5dce64408114",
+  "jurisdiction": "mt",
+  "location": "Room 154, State Capitol, 1301 E 6th Ave, Helena, MT, 59601",
+  "scheduled_display": "2026-10-27T09:00:00",
+  "scheduled_iso": "2026-10-27T09:00:00",
+  "source": "www.legmt.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

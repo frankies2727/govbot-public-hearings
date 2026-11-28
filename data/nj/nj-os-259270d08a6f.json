@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "S3233",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S192",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S205",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1249",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1423",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1835",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2333",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2754",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Transportation Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-259270d08a6f",
+  "jurisdiction": "nj",
+  "location": "Committee Room 10, 3rd Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-02-05T11:00:00",
+  "scheduled_iso": "2026-02-05T11:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

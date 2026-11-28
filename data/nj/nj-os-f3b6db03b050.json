@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "A1511",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2782",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2355",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5439",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5442",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5444",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A1545",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A1646",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3237",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3242",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4740",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5451",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Appropriations Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-f3b6db03b050",
+  "jurisdiction": "nj",
+  "location": "Committee Room 11, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-09-17T12:00:00",
+  "scheduled_iso": "2026-09-17T12:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

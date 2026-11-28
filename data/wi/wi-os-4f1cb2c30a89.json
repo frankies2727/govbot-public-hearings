@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB10",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB64",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Ways and Means (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1915777",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-4f1cb2c30a89",
+  "jurisdiction": "wi",
+  "location": "328 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-04-30T12:31:00",
+  "scheduled_iso": "2025-04-30T12:31:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

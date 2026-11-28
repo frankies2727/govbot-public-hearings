@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Universities and Technical Colleges (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1987606",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-7ba52ef38fa7",
+  "jurisdiction": "wi",
+  "location": "330 SW, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-04-09T11:01:00",
+  "scheduled_iso": "2026-04-09T11:01:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

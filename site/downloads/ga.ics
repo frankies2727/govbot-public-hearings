@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Georgia hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ga-os-57bcf90e308f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T150000Z
+SUMMARY:Joint Senate and House Appropriations Committee Meeting
+DESCRIPTION:https://www.legis.ga.gov/schedule/all
+LOCATION:State Capitol\, 3402 LOB\, 206 Washington St SW\, Atlanta\, GA 303
+ 34
+URL:https://www.legis.ga.gov/schedule/all
+END:VEVENT
+BEGIN:VEVENT
+UID:ga-os-b8b42443e98e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T150000Z
+SUMMARY:JOINT APPROPRIATIONS
+DESCRIPTION:https://www.legis.ga.gov/schedule/all
+LOCATION:State Capitol\, Appropriations Committee Room\, 3rd Floor\, LOB\, 
+ 206 Washington St SW\, Atlanta\, GA 30334
+URL:https://www.legis.ga.gov/schedule/all
+END:VEVENT
+END:VCALENDAR

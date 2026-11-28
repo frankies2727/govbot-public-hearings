@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Interstate 81 Committee",
+  "details_url": "https://lis.virginia.gov/schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "va-os-4cb24b964871",
+  "jurisdiction": "va",
+  "location": "Blue Ridge Community College, Houff Student Center (G), One College Lane, Weyers Cave",
+  "scheduled_display": "2026-12-15T13:00:00",
+  "scheduled_iso": "2026-12-15T13:00:00",
+  "source": "lis.virginia.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

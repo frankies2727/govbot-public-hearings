@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "SB57",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB24",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Licensing, Regulatory Reform, State and Federal Affairs (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1917336",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-d0aa10eed8f2",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-13T10:00:00",
+  "scheduled_iso": "2025-05-13T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

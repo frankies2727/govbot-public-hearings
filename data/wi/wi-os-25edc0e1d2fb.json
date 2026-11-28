@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "SB1010",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB1027",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB249",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB248",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB952",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB908",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Licensing, Regulatory Reform, State and Federal Affairs (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1977680",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-25edc0e1d2fb",
+  "jurisdiction": "wi",
+  "location": "300 SE, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-03-11T13:00:00",
+  "scheduled_iso": "2026-03-11T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

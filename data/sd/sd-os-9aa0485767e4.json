@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Government Operations and Audit",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1281/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-9aa0485767e4",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-02-05T14:00:00",
+  "scheduled_iso": "2026-02-05T14:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

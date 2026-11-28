@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R14338",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Invitation Mes CHamoru Month Meet and Greet Kick-Off - Office of Senator Shelly Calvo",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-051dacfe57a7",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building",
+  "scheduled_display": "2026-03-06T13:00:00",
+  "scheduled_iso": "2026-03-06T13:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai! Senator Shelly V. Calvo, Chairwoman of the Committee on Culture and Historic Preservation, is honored to invite you to the 38th Guam Legislature Mes CHamoru Celebration , a special occasion to unite our community in honoring our island's rich heritage and culture. This year’s celebration is more than a program — it is an opportunity to meet and greet one another, to share stories, laughter, food, and fellowship, and to collectively honor the rich heritage, language, and traditions that continue to shape our island. Event Details Date: March 06, 2025 Time: 1:00 PM Locatio…",
+  "witness_slip_url": null
+}

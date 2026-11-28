@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tennessee hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:tn-os-3d9cfc782c22@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261209T160000Z
+SUMMARY:Fiscal Review
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/12/2026
+LOCATION:House Hearing Room I\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvill
+ e\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/12/20
+ 26
+END:VEVENT
+BEGIN:VEVENT
+UID:tn-os-8e8c50ab33a7@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T150000Z
+SUMMARY:CLTA Joint Sub of Gov Op
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/19/2026
+LOCATION:House Hearing Room I\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvill
+ e\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/20
+ 26
+END:VEVENT
+BEGIN:VEVENT
+UID:tn-os-57c3676ce8a8@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T190000Z
+SUMMARY:Jud & Gov Joint Sub of Gov Op
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/19/2026
+LOCATION:House Hearing Room I\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvill
+ e\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/20
+ 26
+END:VEVENT
+BEGIN:VEVENT
+UID:tn-os-3bf8aa2409f6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:Advisory Task Force on Solid Waste
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/19/2026
+LOCATION:House Hearing Room III\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvi
+ lle\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/20
+ 26
+END:VEVENT
+BEGIN:VEVENT
+UID:tn-os-bbc493b78552@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:Ed.\, Health & GW Joint Sub of Gov Op
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/19/2026
+LOCATION:House Hearing Room I\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvill
+ e\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/20
+ 26
+END:VEVENT
+BEGIN:VEVENT
+UID:tn-os-d8c3c176e2c2@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T190000Z
+SUMMARY:Government Operations - Rule Review
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/19/2026
+LOCATION:House Hearing Room I\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvill
+ e\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/20
+ 26
+END:VEVENT
+BEGIN:VEVENT
+UID:tn-os-71092ab9c2c9@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T143000Z
+SUMMARY:Joint Miscellaneous
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/19/2026
+LOCATION:House Hearing Room I\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvill
+ e\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/20
+ 26
+END:VEVENT
+BEGIN:VEVENT
+UID:tn-os-2e9202123544@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T170000Z
+SUMMARY:State Building Commission
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/19/2026
+LOCATION:House Hearing Room II\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvil
+ le\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/20
+ 26
+END:VEVENT
+BEGIN:VEVENT
+UID:tn-os-39991143473b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T173000Z
+SUMMARY:State Building Commission Executive Subcommittee
+DESCRIPTION:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=
+ 12/19/2026
+LOCATION:House Hearing Room II\, 600 Dr. Martin L King\, Jr. Blvd\, Nashvil
+ le\, TN 37243
+URL:https://wapp.capitol.tn.gov/apps/schedule/WeeklyView.aspx?date=12/19/20
+ 26
+END:VEVENT
+END:VCALENDAR

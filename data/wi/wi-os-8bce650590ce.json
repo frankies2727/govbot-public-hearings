@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Legislative Audit Committee (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1906182",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-8bce650590ce",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-03-04T13:30:00",
+  "scheduled_iso": "2025-03-04T13:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

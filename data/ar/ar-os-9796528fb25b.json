@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "ALC - HOSPITAL, MEDICAID, & DEVELOPMENTAL DISABILITIES STUDY SUBCOMMITTEE",
+  "details_url": "https://www.arkleg.state.ar.us/Calendars/Meetings",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ar-os-9796528fb25b",
+  "jurisdiction": "ar",
+  "location": "Room A, Arkansas Multi-Agency Complex, 1 Capitol Mall, Little Rock, AR 72201",
+  "scheduled_display": "2026-12-14T10:00:00",
+  "scheduled_iso": "2026-12-14T10:00:00",
+  "source": "www.arkleg.state.ar.us",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

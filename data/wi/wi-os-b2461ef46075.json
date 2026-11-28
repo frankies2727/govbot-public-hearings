@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "SB640",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB652",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB591",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB582",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Universities and Technical Colleges (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1961532",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-b2461ef46075",
+  "jurisdiction": "wi",
+  "location": "Waukesha County Technical College, 800 Main Street, Pewaukee, WI 53072, RIchard T. Anderson Education Center (RTA) rooms C051/057,, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-07T10:00:00",
+  "scheduled_iso": "2026-01-07T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "3-M Full Committee",
+  "details_url": "https://www.scstatehouse.gov/meetings.php?chamber=H",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sc-os-5499679bc455",
+  "jurisdiction": "sc",
+  "location": "Blatt Building, 1105 Pendleton St, Columbia, SC 29201 Room 427",
+  "scheduled_display": "Dec 9, 2026 · time not posted",
+  "scheduled_iso": "2026-12-09T00:00:00",
+  "source": "www.scstatehouse.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

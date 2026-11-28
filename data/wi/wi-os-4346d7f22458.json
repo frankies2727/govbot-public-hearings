@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Employment Relations (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1905226",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-4346d7f22458",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-02-26T10:01:00",
+  "scheduled_iso": "2025-02-26T10:01:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

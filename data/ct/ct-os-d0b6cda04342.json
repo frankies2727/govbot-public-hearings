@@ -1,0 +1,113 @@
+{
+  "bills": [
+    {
+      "id": "HB5425",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5418",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB220",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5446",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB223",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5381",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5424",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB390",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5423",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB401",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB312",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB389",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5033",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB263",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5421",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5422",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB388",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5447",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5030",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Appropriations Committee Meeting (2C-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-d0b6cda04342",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-04-01T10:00:00",
+  "scheduled_iso": "2026-04-01T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

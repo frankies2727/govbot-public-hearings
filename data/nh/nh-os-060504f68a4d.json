@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "COMMISSION ON THE ENVIRONMENTAL AND PUBLIC HEALTH IMPACTS OF PERFLUORINATED CHEMICALS",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3227&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-060504f68a4d",
+  "jurisdiction": "nh",
+  "location": "REMOTE",
+  "scheduled_display": "2026-11-13T14:00:00",
+  "scheduled_iso": "2026-11-13T14:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

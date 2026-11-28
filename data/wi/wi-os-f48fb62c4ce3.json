@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "SB35",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB65",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB66",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB76",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB91",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB92",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB115",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Judiciary and Public Safety (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1908190",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-f48fb62c4ce3",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-03-13T11:01:00",
+  "scheduled_iso": "2025-03-13T11:01:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

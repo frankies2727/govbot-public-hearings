@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "(S) Rules",
+  "details_url": "https://www.legmt.gov/event/s-rules-7/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mt-os-e96fce03705c",
+  "jurisdiction": "mt",
+  "location": "Room 317, State Capitol, 1301 E 6th Ave, Helena, MT, 59601",
+  "scheduled_display": "2026-12-07T11:00:00",
+  "scheduled_iso": "2026-12-07T11:00:00",
+  "source": "www.legmt.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

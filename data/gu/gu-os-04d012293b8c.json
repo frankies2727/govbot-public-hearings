@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "R18838",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "R20438",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing-Senator Telo T. Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-04d012293b8c",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building, Public Hearing Room",
+  "scheduled_display": "2026-10-14T08:30:00",
+  "scheduled_iso": "2026-10-14T08:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtu.be/L80hvuWqt-g Håfa Adai! The prime sponsors of substantive legislative resolutions have scheduled a public hearing on Wednesday, October 14, 2026, at 8:30 a.m. in the Guam Congress Building, Public Hearing Room, and invite the public to submit testimony on the following resolutions: · Resolution No. 188-38 (COR)- Sponsored by Telo T. Taitague/ Chris Barnett/ Shelly V. Calvo/ Therese M. Terlaje/ Frank F. Blas, Jr./ Joe S. San Agustin/ Sabina Flores Perez/ V. Anthony Ada- “ Relative to Requesting the United States Department of Veterans Affairs to Establish a Regio…",
+  "witness_slip_url": null
+}

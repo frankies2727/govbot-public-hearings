@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "SB966",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB881",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB967",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB882",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Insurance, Housing, Rural Issues and Forestry (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1977227",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-9920c151331d",
+  "jurisdiction": "wi",
+  "location": "123 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-03-09T10:00:00",
+  "scheduled_iso": "2026-03-09T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

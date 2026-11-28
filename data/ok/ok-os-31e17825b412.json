@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Insurance",
+  "details_url": "https://www.okhouse.gov/events/insur-20261020-09000000",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ok-os-31e17825b412",
+  "jurisdiction": "ok",
+  "location": "ROOM 450 2300 N Lincoln Blvd, Oklahoma City, OK 73105",
+  "scheduled_display": "2026-10-20T09:00:00",
+  "scheduled_iso": "2026-10-20T09:00:00",
+  "source": "www.okhouse.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

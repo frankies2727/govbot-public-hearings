@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "SB711",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB545",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB663",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB683",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB684",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB450",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Insurance, Housing, Rural Issues and Forestry (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1961809",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-6e8601808aa2",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-13T10:00:00",
+  "scheduled_iso": "2026-01-13T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

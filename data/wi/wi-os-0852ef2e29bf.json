@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "AB461",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB454",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB685",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB810",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB657",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Finance (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1973214",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-0852ef2e29bf",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-16T15:00:00",
+  "scheduled_iso": "2026-02-16T15:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

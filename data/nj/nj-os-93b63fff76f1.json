@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Assembly Oversight, Reform and Federal Relations Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-93b63fff76f1",
+  "jurisdiction": "nj",
+  "location": "New Jersey Statehouse, 125 W State St, Trenton, NJ 08608",
+  "scheduled_display": "Oct 5, 2026 · time not posted",
+  "scheduled_iso": "2026-10-05T00:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

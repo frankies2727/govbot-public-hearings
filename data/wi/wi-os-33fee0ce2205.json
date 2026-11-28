@@ -1,0 +1,68 @@
+{
+  "bills": [
+    {
+      "id": "SB887",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB918",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB957",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB948",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB972",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB998",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB1004",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB1000",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB452",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB460",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Education (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1976091",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-33fee0ce2205",
+  "jurisdiction": "wi",
+  "location": "201 Southeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-03-03T09:00:00",
+  "scheduled_iso": "2026-03-03T09:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

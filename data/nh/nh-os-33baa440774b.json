@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "COMMISSION ON THE INTERDISCIPLINARY PRIMARY CARE WORKFORCE",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3246&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-33baa440774b",
+  "jurisdiction": "nh",
+  "location": "NH Hospital Association, 125 Airport Road, Concord, NH 03301",
+  "scheduled_display": "2026-12-03T14:00:00",
+  "scheduled_iso": "2026-12-03T14:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

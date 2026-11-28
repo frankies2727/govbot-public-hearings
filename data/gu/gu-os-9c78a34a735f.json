@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R19038",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "RESCIND AND REPLACE Notice of Presentation for Resolution No. 190-38 (COR) - Speaker Frank F. Blas, Jr.",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-9c78a34a735f",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building, Public Hearing Room",
+  "scheduled_display": "2026-07-01T12:30:00",
+  "scheduled_iso": "2026-07-01T12:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Hafa Adai! Join me in presenting Resolution No. 190-38 (COR), “Relative to commemorating the Two Hundred Fiftieth (250 th ) Anniversary of the United States of America; recognizing the historic contributions, sacrifices, and loyalty of the people of Guam to the United States since 1898; honoring the service of generations of Guam residents in the Armed Forces of the United States; and reaffirming the enduring friendship, shared values, and unwavering support of the people of Guam as a part of the American family.” The presentation will be held on Wednesday, July 1, 2026 , at 12:30…",
+  "witness_slip_url": null
+}

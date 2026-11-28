@@ -1,0 +1,118 @@
+{
+  "bills": [
+    {
+      "id": "SB338",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5363",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5370",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB339",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5368",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB337",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5360",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5369",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5365",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB333",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB332",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB336",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5367",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5359",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5364",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5362",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB335",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5361",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5366",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB334",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Housing Committee Public Hearing (2D-ZOOM)",
+  "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-d5ff5a547274",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-03T11:45:00",
+  "scheduled_iso": "2026-03-03T11:45:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

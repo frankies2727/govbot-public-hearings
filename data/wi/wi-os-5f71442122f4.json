@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "SB193",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB235",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB283",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB303",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Judiciary and Public Safety (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1924838",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-5f71442122f4",
+  "jurisdiction": "wi",
+  "location": "122 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-06-12T13:30:00",
+  "scheduled_iso": "2025-06-12T13:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

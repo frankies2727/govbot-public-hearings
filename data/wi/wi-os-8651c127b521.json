@@ -1,0 +1,83 @@
+{
+  "bills": [
+    {
+      "id": "SB79",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB131",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB123",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB163",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB153",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB171",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB274",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB273",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB309",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB313",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB407",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB388",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB388",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Mental Health, Substance Abuse Prevention, Children and Families (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1945168",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-8651c127b521",
+  "jurisdiction": "wi",
+  "location": "319 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-02T14:00:00",
+  "scheduled_iso": "2025-10-02T14:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

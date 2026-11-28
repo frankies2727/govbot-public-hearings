@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "HB1232",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1215",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1323",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1274",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1302",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1303",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate State Affairs",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1289/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-b8d9fe8ec300",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-03-04T10:00:00",
+  "scheduled_iso": "2026-03-04T10:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

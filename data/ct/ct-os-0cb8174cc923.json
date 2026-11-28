@@ -1,0 +1,103 @@
+{
+  "bills": [
+    {
+      "id": "SB484",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5429",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5437",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5563",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5311",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5428",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5567",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB296",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB503",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5306",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB502",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB509",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5490",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB400",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB259",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5043",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB476",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Judiciary Committee Meeting (2C-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-0cb8174cc923",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-24T10:00:00",
+  "scheduled_iso": "2026-03-24T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

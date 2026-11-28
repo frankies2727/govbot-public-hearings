@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "2026 Floodplain Restoration (Legislative Council)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/2005178",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-7438ba1d7e12",
+  "jurisdiction": "wi",
+  "location": "Great Hall, Memorial Student Center, University of Wisconsin-Stout, 302 10th Avenue East, Menomonie, WI 54751 , 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-09-29T13:00:00",
+  "scheduled_iso": "2026-09-29T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Study Meeting",
+  "witness_slip_url": null
+}

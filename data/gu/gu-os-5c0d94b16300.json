@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "R20638",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "R20238",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Presentation of Resolution No. 202-38 (LS) and Resolution No. 206-38 (LS) Senator Jesse A. Lujan)",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-5c0d94b16300",
+  "jurisdiction": "gu",
+  "location": "Center Court at the Micronesia Mall in Dededo.",
+  "scheduled_display": "2026-08-08T13:00:00",
+  "scheduled_iso": "2026-08-08T13:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai! Please join me in presenting the following resolutions: Resolution No. 202-38 (LS) – Jesse A. Lujan relative to recognizing Philippine Airlines for its service and contributions to the community; and commemorating the celebration of the Eightieth (80 th ) Anniversary of its first flight to Guam. Resolution No. 206-38 (LS) – Jesse A. Lujan relative to recognizing Micronesia Mall on the celebration of its Thirty-Eighth (38 th ) Year Anniversary; and commending the Goodwind Development Corporation for their commitment and service to Guam’s residents, visitors and island com…",
+  "witness_slip_url": null
+}

@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "A5154",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2240",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4191",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4542",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4835",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5155",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Judiciary Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-606cbd84c399",
+  "jurisdiction": "nj",
+  "location": "Committee Room 12, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-06-01T10:00:00",
+  "scheduled_iso": "2026-06-01T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

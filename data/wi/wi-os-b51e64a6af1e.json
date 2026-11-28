@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "AB299",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB303",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB304",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB111",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB113",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Mental Health and Substance Abuse Prevention (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1925118",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-b51e64a6af1e",
+  "jurisdiction": "wi",
+  "location": "328 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-06-17T10:00:00",
+  "scheduled_iso": "2025-06-17T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

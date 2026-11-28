@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "R23",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "R24",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Environment (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1903390",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-eb02b60e9336",
+  "jurisdiction": "wi",
+  "location": "300 Northeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-02-27T11:00:00",
+  "scheduled_iso": "2025-02-27T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

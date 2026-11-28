@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "SB6",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB25",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Judiciary and Public Safety (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1899881",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-b5286ff19b03",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-02-06T13:00:00",
+  "scheduled_iso": "2025-02-06T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

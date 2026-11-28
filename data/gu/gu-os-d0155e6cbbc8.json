@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R16638",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Presentation of Resolution No. 166-38 (COR) Senator Shelly V. Calvo-",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-d0155e6cbbc8",
+  "jurisdiction": "gu",
+  "location": "Hyatt Regency Guam Ballroom",
+  "scheduled_display": "2026-04-11T18:00:00",
+  "scheduled_iso": "2026-04-11T18:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "The presentation of Resolution No. 166-38 (COR) “Relative to recognizing the Guam Memorial Hospital Volunteers Association on its 61st Anniversary Charity Ball and commending former First Lady Geraldine “Geri” Torres Gutierrez and Siñora †Mariquita “Tita” Calvo Torres Souder for their lifetime of service to the Guam Memorial Hospital Volunteers Association.” will take place on Saturday, April 11, 2025 at 06:00pm and will be held at the Hyatt Regency Guam Ballroom. For everyone intending to support, this is a charity event with tickets being $200.00 per person and elegant CHamoru Island attire…",
+  "witness_slip_url": null
+}

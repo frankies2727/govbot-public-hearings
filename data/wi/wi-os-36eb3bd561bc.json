@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "SJR4",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB205",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB403",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB225",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB253",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB335",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB406",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB417",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Licensing, Regulatory Reform, State and Federal Affairs (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1952818",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-36eb3bd561bc",
+  "jurisdiction": "wi",
+  "location": "411 S , 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-11-12T13:00:00",
+  "scheduled_iso": "2025-11-12T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

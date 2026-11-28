@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "AB102",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Colleges and Universities (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1908529",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-0ba5faae6a11",
+  "jurisdiction": "wi",
+  "location": "300 Northeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-03-13T10:00:00",
+  "scheduled_iso": "2025-03-13T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

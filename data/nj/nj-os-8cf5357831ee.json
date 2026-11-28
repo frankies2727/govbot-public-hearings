@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "S731",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1082",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1837",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2165",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2189",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Economic Growth Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-8cf5357831ee",
+  "jurisdiction": "nj",
+  "location": "Committee Room 4, 1st Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-02-12T10:30:00",
+  "scheduled_iso": "2026-02-12T10:30:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

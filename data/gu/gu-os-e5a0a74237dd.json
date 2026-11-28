@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R19838",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Presentation for Resolution No. 198-38 (COR)-Senator Joe S. San Agustin",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-e5a0a74237dd",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-08-03T11:00:00",
+  "scheduled_iso": "2026-08-03T11:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/rqKW0iuW8As Buenas yan Hafa Adai! Please join us for the Resolution No. 198-38 (COR) – Joe S. San Agustin Relative to recognizing the Guam-CNMI Employer Support of the Guard and Reserve (ESGR) State Committee for its dedicated efforts in promoting and encouraging employer support for the Service members of the National Guard and Reserve; and to honor and commend ESGR for fifty-four (54) years of outstanding service in assisting Service members and educating employers on their responsibilities toward their citizen-warrior employees. The presentation will…",
+  "witness_slip_url": null
+}

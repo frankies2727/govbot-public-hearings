@@ -1,0 +1,513 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Virginia hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:va-os-3710ba279a11@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T170000Z
+SUMMARY:Energy Commission of Virginia
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Senate Room B\, Room 306\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-dbeed7c1e7fa@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T150000Z
+SUMMARY:Virginia-Israel Advisory Board
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Senate Room C\, Room 311\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-a9bcc0e00f1b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T150000Z
+SUMMARY:Press Conference: Replace the 2023 Model Policies
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House Briefing Room\, Room 209\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-9791fe753442@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T180000Z
+SUMMARY:Rappahannock River Basin Commission
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Meadow Hall at Meadow Event Park\, 13191 Dawn Boulevard\, Doswell
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-4d74fe2de6ad@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T190000Z
+SUMMARY:Joint Meeting of House and Senate Committees for Courts of Justice 
+ - Addressing Virginia's
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Legal Deserts: Workforce Challenges and Access to Justice in the C
+ ommonwealth House Room A\, Room 008\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-ea3817d1d7ad@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T190000Z
+SUMMARY:Joint Meeting of Senate and House Committees for Courts of Justice 
+ - Addressing Virginia's
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Legal Deserts: Workforce Challenges and Access to Justice in the C
+ ommonwealth House Room A\, Room 008\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-598acef03531@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T230000Z
+SUMMARY:Northern Virginia Transportation Commission - Executive Committee
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Navy League Building\, Suite 230\, 2300 Wilson Boulevard\, Arlingt
+ on
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-56db1bba6ef7@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T000000Z
+SUMMARY:Northern Virginia Transportation Commission
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Navy League Building\, First Floor Main Conference Room\, 2300 Wil
+ son Boulevard\, Arlington
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-2451ef5982e3@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T140000Z
+SUMMARY:Joint Meeting of House and Senate Committees for Courts of Justice 
+ - Judicial Interviews
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House Room A\, Room 008\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-6ae60eb662b2@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T140000Z
+SUMMARY:Joint Meeting of Senate and House Committees for Courts of Justice 
+ - Judicial Interviews
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House Room A\, Room 008\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-b9965e01e925@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T160000Z
+SUMMARY:Virginia Indigent Defense Commission
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:1604 Santa Rosa Road\, Suite 200\, Richmond
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-81417080b4e3@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T203000Z
+SUMMARY:Behavioral Health Commission
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Virtual Meeting
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-dfb3f76d914d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T150000Z
+SUMMARY:Child Support Guidelines Review Panel
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Virginia Department of Social Services\, 5600 Cox Road\, Glen Alle
+ n
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-4ce1513c6556@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T150000Z
+SUMMARY:Joint Legislative Audit and Review Commission
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Senate Room B\, Room 306\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-907a3bcf9b51@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T180000Z
+SUMMARY:Senate Finance and Appropriations Committee
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Committee Info Location in Richmond to be determined
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-4cb24b964871@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T180000Z
+SUMMARY:Interstate 81 Committee
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:Blue Ridge Community College\, Houff Student Center (G)\, One Coll
+ ege Lane\, Weyers Cave
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-2188f6a62f8e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T143000Z
+SUMMARY:Joint Meeting of House Appropriations Committee\, Senate Finance an
+ d Appropriations Committee\,
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:and House Finance Committee House Room A\, Room 008\, General Asse
+ mbly Building Committee Info Committee Info Committee Info
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-34db2425df17@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T143000Z
+SUMMARY:Joint Meeting of Senate Finance and Appropriations Committee\, Hous
+ e Appropriations Committee\,
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:and House Finance Committee House Room A\, Room 008\, General Asse
+ mbly Building Committee Info Committee Info Committee Info
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-c1eb813235a4@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270115T143000Z
+SUMMARY:Unions For All - Press Conference
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House Briefing Room\, Room 209\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-cb3271489e9c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270119T123000Z
+SUMMARY:Virginia's Private College and University Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House South Conference Room\, Room 700-A\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-00f21a540afc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270120T123000Z
+SUMMARY:Conservative Energy Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-107f4c4b6baf@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270120T123000Z
+SUMMARY:Historically Black Colleges and Universities Caucus (HBCU)
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-7a3488ef4628@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270120T220000Z
+SUMMARY:LGBTQIA+ Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-b542804d88c9@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270121T120000Z
+SUMMARY:Legislative Sportman's Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-44dff02b6237@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270121T123000Z
+SUMMARY:Hampton Roads Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House South Conference Room\, Room 700-A\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-3045bb107651@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270122T130000Z
+SUMMARY:Cancer Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House Room B\, Room 205\, General Assembly Building
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-b2364c84e1c4@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270127T123000Z
+SUMMARY:Historically Black Colleges and Universities (HBCU) Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-cce679ea6e1c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270127T123000Z
+SUMMARY:Conservative Energy Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-0276571c5f11@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270127T220000Z
+SUMMARY:LGBTQIA+ Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-aed8160cf534@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270128T120000Z
+SUMMARY:Legislative Sportman's Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-23e0ea377eb7@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270128T123000Z
+SUMMARY:Hampton Roads Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House South Conference Room\, Room 700-A\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-22efb8515dff@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270203T123000Z
+SUMMARY:Conservative Energy Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-ac12ed9f128a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270203T123000Z
+SUMMARY:Historically Black Colleges and Universities Caucus (HBCU)
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-30f791ef0722@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270203T220000Z
+SUMMARY:LGBTQIA+ Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-e4df1b9fb9c7@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270204T120000Z
+SUMMARY:Legislative Sportman's Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-dac660bd7ff7@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270204T123000Z
+SUMMARY:Hampton Roads Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House South Conference Room\, Room 700-A\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-e27bca4223e5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270210T123000Z
+SUMMARY:Conservative Energy Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-f21872dc2fa5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270210T123000Z
+SUMMARY:Historically Black Colleges and Universities Caucus (HBCU)
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-47101b75e302@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270210T220000Z
+SUMMARY:LGBTQIA+ Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-c5ea0b1eb2e6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270211T120000Z
+SUMMARY:Legislative Sportman's Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-483e7a90c5d6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270211T123000Z
+SUMMARY:Hampton Roads Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House South Conference Room\, Room 700-A\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-76c09b67479b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270217T123000Z
+SUMMARY:Historically Black Colleges and Universities (HBCU) Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-7d077106b42d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270217T123000Z
+SUMMARY:Conservative Energy Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-f64856ae844f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270217T220000Z
+SUMMARY:LGBTQIA+ Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-7a2f1d8bf87c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270218T120000Z
+SUMMARY:Legislative Sportman's Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-7df8f59238e7@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270218T123000Z
+SUMMARY:Hampton Roads Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House South Conference Room\, Room 700-A\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-264df0f07aeb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270224T123000Z
+SUMMARY:Historically Black Colleges and Universities (HBCU) Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-d707a7f36ba8@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270224T123000Z
+SUMMARY:Conservative Energy Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-198229c40f37@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270224T220000Z
+SUMMARY:LGBTQIA+ Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House 9th Floor Meeting Room\, Room 900\, General Assembly Buildin
+ g
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-3cf164a614df@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270225T120000Z
+SUMMARY:Legislative Sportman's Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House North Conference Room\, Room 700-B\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:va-os-1d6edee2c271@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270225T123000Z
+SUMMARY:Hampton Roads Caucus
+DESCRIPTION:https://lis.virginia.gov/schedule
+LOCATION:House South Subcommittee Room\, Room 210\, General Assembly Buildi
+ ng
+URL:https://lis.virginia.gov/schedule
+END:VEVENT
+END:VCALENDAR

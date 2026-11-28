@@ -1,0 +1,270 @@
+{
+  "license": "CC BY 4.0 (credit Govbot Public Hearings)",
+  "meetings": 3712,
+  "places": [
+    {
+      "code": "ak",
+      "csv": "hearings-ak.csv",
+      "ics": "ak.ics",
+      "meetings": 3,
+      "name": "Alaska",
+      "upcoming": 3
+    },
+    {
+      "code": "al",
+      "csv": "hearings-al.csv",
+      "ics": "al.ics",
+      "meetings": 2,
+      "name": "Alabama",
+      "upcoming": 1
+    },
+    {
+      "code": "ar",
+      "csv": "hearings-ar.csv",
+      "ics": "ar.ics",
+      "meetings": 23,
+      "name": "Arkansas",
+      "upcoming": 23
+    },
+    {
+      "code": "az",
+      "csv": "hearings-az.csv",
+      "ics": "az.ics",
+      "meetings": 53,
+      "name": "Arizona",
+      "upcoming": 53
+    },
+    {
+      "code": "chi",
+      "csv": "hearings-chi.csv",
+      "ics": "chi.ics",
+      "meetings": 13,
+      "name": "Chicago City Council",
+      "upcoming": 13
+    },
+    {
+      "code": "co",
+      "csv": "hearings-co.csv",
+      "ics": "co.ics",
+      "meetings": 22,
+      "name": "Colorado",
+      "upcoming": 22
+    },
+    {
+      "code": "ct",
+      "csv": "hearings-ct.csv",
+      "ics": "ct.ics",
+      "meetings": 490,
+      "name": "Connecticut",
+      "upcoming": 22
+    },
+    {
+      "code": "ga",
+      "csv": "hearings-ga.csv",
+      "ics": "ga.ics",
+      "meetings": 2,
+      "name": "Georgia",
+      "upcoming": 2
+    },
+    {
+      "code": "gu",
+      "csv": "hearings-gu.csv",
+      "ics": "gu.ics",
+      "meetings": 576,
+      "name": "Guam",
+      "upcoming": 5
+    },
+    {
+      "code": "hi",
+      "csv": "hearings-hi.csv",
+      "ics": "hi.ics",
+      "meetings": 1,
+      "name": "Hawaii",
+      "upcoming": 1
+    },
+    {
+      "code": "ia",
+      "csv": "hearings-ia.csv",
+      "ics": "ia.ics",
+      "meetings": 8,
+      "name": "Iowa",
+      "upcoming": 8
+    },
+    {
+      "code": "il",
+      "csv": "hearings-il.csv",
+      "ics": "il.ics",
+      "meetings": 2,
+      "name": "Illinois",
+      "upcoming": 2
+    },
+    {
+      "code": "la",
+      "csv": "hearings-la.csv",
+      "ics": "la.ics",
+      "meetings": 3,
+      "name": "Louisiana",
+      "upcoming": 3
+    },
+    {
+      "code": "ma",
+      "csv": "hearings-ma.csv",
+      "ics": "ma.ics",
+      "meetings": 9,
+      "name": "Massachusetts",
+      "upcoming": 9
+    },
+    {
+      "code": "me",
+      "csv": "hearings-me.csv",
+      "ics": "me.ics",
+      "meetings": 1,
+      "name": "Maine",
+      "upcoming": 1
+    },
+    {
+      "code": "mn",
+      "csv": "hearings-mn.csv",
+      "ics": "mn.ics",
+      "meetings": 17,
+      "name": "Minnesota",
+      "upcoming": 16
+    },
+    {
+      "code": "ms",
+      "csv": "hearings-ms.csv",
+      "ics": "ms.ics",
+      "meetings": 1,
+      "name": "Mississippi",
+      "upcoming": 1
+    },
+    {
+      "code": "mt",
+      "csv": "hearings-mt.csv",
+      "ics": "mt.ics",
+      "meetings": 25,
+      "name": "Montana",
+      "upcoming": 19
+    },
+    {
+      "code": "nd",
+      "csv": "hearings-nd.csv",
+      "ics": "nd.ics",
+      "meetings": 2,
+      "name": "North Dakota",
+      "upcoming": 0
+    },
+    {
+      "code": "ne",
+      "csv": "hearings-ne.csv",
+      "ics": "ne.ics",
+      "meetings": 4,
+      "name": "Nebraska",
+      "upcoming": 4
+    },
+    {
+      "code": "nh",
+      "csv": "hearings-nh.csv",
+      "ics": "nh.ics",
+      "meetings": 123,
+      "name": "New Hampshire",
+      "upcoming": 42
+    },
+    {
+      "code": "nj",
+      "csv": "hearings-nj.csv",
+      "ics": "nj.ics",
+      "meetings": 388,
+      "name": "New Jersey",
+      "upcoming": 20
+    },
+    {
+      "code": "ok",
+      "csv": "hearings-ok.csv",
+      "ics": "ok.ics",
+      "meetings": 56,
+      "name": "Oklahoma",
+      "upcoming": 2
+    },
+    {
+      "code": "pa",
+      "csv": "hearings-pa.csv",
+      "ics": "pa.ics",
+      "meetings": 6,
+      "name": "Pennsylvania",
+      "upcoming": 6
+    },
+    {
+      "code": "ri",
+      "csv": "hearings-ri.csv",
+      "ics": "ri.ics",
+      "meetings": 3,
+      "name": "Rhode Island",
+      "upcoming": 3
+    },
+    {
+      "code": "sc",
+      "csv": "hearings-sc.csv",
+      "ics": "sc.ics",
+      "meetings": 8,
+      "name": "South Carolina",
+      "upcoming": 8
+    },
+    {
+      "code": "sd",
+      "csv": "hearings-sd.csv",
+      "ics": "sd.ics",
+      "meetings": 298,
+      "name": "South Dakota",
+      "upcoming": 2
+    },
+    {
+      "code": "tn",
+      "csv": "hearings-tn.csv",
+      "ics": "tn.ics",
+      "meetings": 10,
+      "name": "Tennessee",
+      "upcoming": 9
+    },
+    {
+      "code": "ut",
+      "csv": "hearings-ut.csv",
+      "ics": "ut.ics",
+      "meetings": 574,
+      "name": "Utah",
+      "upcoming": 4
+    },
+    {
+      "code": "va",
+      "csv": "hearings-va.csv",
+      "ics": "va.ics",
+      "meetings": 51,
+      "name": "Virginia",
+      "upcoming": 51
+    },
+    {
+      "code": "wa",
+      "csv": "hearings-wa.csv",
+      "ics": "wa.ics",
+      "meetings": 41,
+      "name": "Washington",
+      "upcoming": 41
+    },
+    {
+      "code": "wi",
+      "csv": "hearings-wi.csv",
+      "ics": "wi.ics",
+      "meetings": 863,
+      "name": "Wisconsin",
+      "upcoming": 1
+    },
+    {
+      "code": "wy",
+      "csv": "hearings-wy.csv",
+      "ics": "wy.ics",
+      "meetings": 34,
+      "name": "Wyoming",
+      "upcoming": 8
+    }
+  ]
+}

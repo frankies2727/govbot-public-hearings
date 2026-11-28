@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "SB203",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB258",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB264",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Health (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1920409",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-6c26db4415b0",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-28T13:00:00",
+  "scheduled_iso": "2025-05-28T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

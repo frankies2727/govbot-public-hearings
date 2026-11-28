@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R9738",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "CANCELLATION NOTICE of Public Hearing on Wednesday, January 21, 2026 - Senator Jesse Lujan",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-d91ae8314da4",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building.",
+  "scheduled_display": "2026-01-21T14:00:00",
+  "scheduled_iso": "2026-01-21T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "The Committee on Transportation, Tourism, Customs, Utilities and Federal & Foreign Affairs will conduct HAS CANCELLED the public hearing on Wednesday, January 21, 2026 beginning at 2:00 PM at the Public Hearing Room in the Guam Congress Building. The agenda is as follows: 2:00 PM ● Resolution No. 97-38 (COR) – Jesse A. Lujan, Christopher M. Duenas, Frank F. Blas, Jr., V. Anthony Ada, Vincent A.V. Borja, Shelly Vargas Calvo, Eulogio Shawn Gumataotao and Sabrina Salas Mantanane RELATIVE TO THE ESTABLISHMENT OF THE FILIPINO FRIENDSHIP CAUCUS, TAIWAN FRIENDSHIP CAUCUS, KOREAN FRIENDSHIP CAUCUS AN…",
+  "witness_slip_url": null
+}

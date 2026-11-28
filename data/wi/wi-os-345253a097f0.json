@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Elder Services (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1954584",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-345253a097f0",
+  "jurisdiction": "wi",
+  "location": "Basement Auditorium County Administrative Building 212 6th St N. La Crosse, WI 54601, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-11-20T11:00:00",
+  "scheduled_iso": "2025-11-20T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Informational Hearing",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R13238",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "CALL TO EMERGENCY SESSION – Speaker Frank Blas Jr.",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-c5a866a34154",
+  "jurisdiction": "gu",
+  "location": "Speaker Antonio R. Unpingco Legislative Session Hall",
+  "scheduled_display": "2026-01-09T09:00:00",
+  "scheduled_iso": "2026-01-09T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Håfa Adai, Pursuant to Section 1.02(b)(1)(B) of the Standing Rules, I am certifying that an emergency condition exists which warrants an emergency session of I Liheslaturan Guåhan. On December 30, 2025, I received a letter from Senator Therese M. Terlaje requesting an Emergency Session to address BOEM’s deep-sea mining RFI, and to specifically consider Resolution No. 132-38(COR) prior to the comment deadline. Given the urgent nature of these critical concerns, I Liheslaturan Guåhan, will convene an Emergency Session on Friday, January 9, 2026, at 9:00 A.M. in the Speaker Antonio R. Unpingco L…",
+  "witness_slip_url": null
+}

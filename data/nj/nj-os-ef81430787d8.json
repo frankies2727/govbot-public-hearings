@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "S533",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1206",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1381",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1841",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2689",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3214",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3571",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3593",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Labor Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-ef81430787d8",
+  "jurisdiction": "nj",
+  "location": "Committee Room 6, 1st Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-03-02T10:30:00",
+  "scheduled_iso": "2026-03-02T10:30:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Business and Labor Confirmation Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEBUS",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-f0dd28c2de7a",
+  "jurisdiction": "ut",
+  "location": "120 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-09-15T16:00:00",
+  "scheduled_iso": "2026-09-15T16:00:00",
+  "source": "le.utah.gov",
+  "status": "canceled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

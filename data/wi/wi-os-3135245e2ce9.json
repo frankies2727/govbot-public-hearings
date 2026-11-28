@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "SB479",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB452",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB480",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB451",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB481",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB455",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB473",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB476",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB472",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB453",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB478",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB456",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Insurance, Housing, Rural Issues and Forestry (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1947199",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-3135245e2ce9",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-15T12:00:00",
+  "scheduled_iso": "2025-10-15T12:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "A2774",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4981",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5224",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5494",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5495",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5496",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4304",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Science, Innovation and Technology Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-7d5d8d27bf98",
+  "jurisdiction": "nj",
+  "location": "Committee Room 15, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-11-16T13:00:00",
+  "scheduled_iso": "2026-11-16T13:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

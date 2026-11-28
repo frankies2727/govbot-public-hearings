@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB905",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB912",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Judiciary (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1969895",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-9cebbd3c61fa",
+  "jurisdiction": "wi",
+  "location": "225 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-04T13:00:00",
+  "scheduled_iso": "2026-02-04T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

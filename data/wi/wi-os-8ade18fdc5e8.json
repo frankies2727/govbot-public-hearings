@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "AB152",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB192",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB306",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB326",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB347",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Local Government (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1940395",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-8ade18fdc5e8",
+  "jurisdiction": "wi",
+  "location": "400 Northeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-09-10T10:01:00",
+  "scheduled_iso": "2025-09-10T10:01:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

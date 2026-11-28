@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "SB57",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB24",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Licensing, Regulatory Reform, State and Federal Affairs (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1924673",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-b9f2ac0bb2a5",
+  "jurisdiction": "wi",
+  "location": "201 Southeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-06-12T09:00:00",
+  "scheduled_iso": "2025-06-12T09:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

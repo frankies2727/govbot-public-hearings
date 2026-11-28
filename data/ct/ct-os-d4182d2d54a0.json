@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "HB5224",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB230",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB105",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5225",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB233",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB231",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB227",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB232",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5227",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5222",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5226",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "General Law Committee Public Hearing FULLY REMOTE (1D-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GL",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-d4182d2d54a0",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-23T12:00:00",
+  "scheduled_iso": "2026-02-23T12:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

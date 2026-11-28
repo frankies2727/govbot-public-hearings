@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "MAPOC (Full Council) Meeting (ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-2ad8492f9002",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom Remote Meeting",
+  "scheduled_display": "2026-09-11T13:00:00",
+  "scheduled_iso": "2026-09-11T13:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,207 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Colorado hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:co-os-45557e7ce4fd@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T160000Z
+SUMMARY:Joint Budget Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026101515311412
+LOCATION:JBC\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026101515311412
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-495a6c23957a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T150000Z
+SUMMARY:New Legislator Orientation
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202681013190122
+LOCATION:Off-site\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202681013190122
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-2bbffab5e29e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T160000Z
+SUMMARY:Joint Budget Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026101515313108
+LOCATION:JBC\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026101515313108
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-83b06fc8e0bb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T160000Z
+SUMMARY:Executive Committee of the Legislative Council
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026112314025510
+LOCATION:SCR 357\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026112314025510
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-8c507777a9a1@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T210000Z
+SUMMARY:Black Coloradan Racial Equity Study Commission
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202651814444318
+LOCATION:Old Supreme Court\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202651814444318
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-86ac790d4656@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T150000Z
+SUMMARY:New Legislator Orientation
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202681013191220
+LOCATION:Off-site\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202681013191220
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-ac02a27c420d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T160000Z
+SUMMARY:Joint Budget Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026101515313719
+LOCATION:JBC\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026101515313719
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-b1742e63dc9a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T150000Z
+SUMMARY:New Legislator Orientation
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202681013192607
+LOCATION:Old State Library\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202681013192607
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-9fd05f9e39a1@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T160000Z
+SUMMARY:Joint Budget Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026101515314309
+LOCATION:JBC\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026101515314309
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-ccda7e3cd04f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T200000Z
+SUMMARY:Committee on Legal Services
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202611510263418
+LOCATION:HCR 0112\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202611510263418
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-48fe6ecb3969@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T160000Z
+SUMMARY:Legislative Audit Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202632712434018
+LOCATION:Old Supreme Court\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202632712434018
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-ea282486eee5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T160000Z
+SUMMARY:Joint Budget Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026111615160812
+LOCATION:JBC\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026111615160812
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-9f01dc15b55d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T160000Z
+SUMMARY:Joint Budget Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026111615162012
+LOCATION:JBC\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026111615162012
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-e314589dc7ac@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261209T160000Z
+SUMMARY:Commission on Medicaid
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026101915383912
+LOCATION:LSB A\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026101915383912
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-d8c3033c586d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:Joint Budget Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026111615162813
+LOCATION:JBC\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026111615162813
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-53fdb732a09d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T160000Z
+SUMMARY:Joint Budget Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026111615163513
+LOCATION:JBC\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026111615163513
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-f14243620019@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T203000Z
+SUMMARY:Colorado Commission on Uniform State Laws
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/2026102909570519
+LOCATION:HCR 0112\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/2026102909570519
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-c80cd9c31352@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T160000Z
+SUMMARY:Capital Development Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202661514270807
+LOCATION:SCR 357\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202661514270807
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-f9a6ce56b992@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T160000Z
+SUMMARY:Joint Technology Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202692207585511
+LOCATION:SCR 352\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202692207585511
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-190666ea78e0@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T160000Z
+SUMMARY:Joint Technology Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202692207590707
+LOCATION:SCR 352\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202692207590707
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-663942d002c0@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T160000Z
+SUMMARY:Capital Development Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202661514271911
+LOCATION:SCR 357\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202661514271911
+END:VEVENT
+BEGIN:VEVENT
+UID:co-os-3e8668037aa6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T160000Z
+SUMMARY:Capital Development Committee
+DESCRIPTION:https://leg.colorado.gov/agenda/committee/202661514273018
+LOCATION:SCR 357\, 200 E Colfax Ave\, Denver\, CO 80203
+URL:https://leg.colorado.gov/agenda/committee/202661514273018
+END:VEVENT
+END:VCALENDAR

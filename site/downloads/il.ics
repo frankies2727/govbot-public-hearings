@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Illinois hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:il-house-3222-23238@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T190000Z
+SUMMARY:Special Investigating Committee
+DESCRIPTION:https://ilga.gov/House/hearings/details/3222/23238
+LOCATION:Room 114 · Capitol Building · Springfield\, IL
+URL:https://ilga.gov/House/hearings/details/3222/23238
+END:VEVENT
+BEGIN:VEVENT
+UID:il-senate-3071-23239@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T150000Z
+SUMMARY:Executive Appointments
+DESCRIPTION:https://ilga.gov/Senate/hearings/details/3071/23239
+LOCATION:212 · Capitol · Springfield\, IL
+URL:https://ilga.gov/Senate/hearings/details/3071/23239
+END:VEVENT
+END:VCALENDAR

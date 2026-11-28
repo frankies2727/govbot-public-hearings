@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "HB5260",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB257",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5092",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5257",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5230",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB256",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB254",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB255",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5259",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB253",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5258",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5261",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Housing Committee Public Hearing (2A-ZOOM)",
+  "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-a1510c697068",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-24T10:00:00",
+  "scheduled_iso": "2026-02-24T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

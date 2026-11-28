@@ -1,0 +1,18 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "comment_deadline": "2026-12-04T10:00:00",
+  "committee": "Committee on Finance",
+  "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=F8691F79-75DF-F111-84EA-001DD80EFCF5",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "chi-f8691f79-75df-f111-84ea-001dd80efcf5",
+  "jurisdiction": "chi",
+  "location": "City Council Chamber, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
+  "scheduled_display": "2026-12-07T10:00:00",
+  "scheduled_iso": "2026-12-07T10:00:00",
+  "source": "chicityclerkelms.chicago.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/75f451c0-75df-f111-84ea-001dd803894a.pdf"
+}

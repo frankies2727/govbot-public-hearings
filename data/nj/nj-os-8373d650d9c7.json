@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "A5186",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5205",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5206",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5207",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5208",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5254",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Education Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-8373d650d9c7",
+  "jurisdiction": "nj",
+  "location": "Committee Room 9, 3rd Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-09-14T10:00:00",
+  "scheduled_iso": "2026-09-14T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

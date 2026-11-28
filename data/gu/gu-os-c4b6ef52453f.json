@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R23738",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Resolution Presentation - Vice Speaker V. Anthony Ada",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-c4b6ef52453f",
+  "jurisdiction": "gu",
+  "location": "Dusit Thani Guam Resort",
+  "scheduled_display": "2026-11-29T18:00:00",
+  "scheduled_iso": "2026-11-29T18:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "The Presentation of Resolution No. 237-38 (COR), “ Relative to recognizing the Guam Harmony Lions Club for their service and contributions to our island community and commemorating the celebration of its Twenty-eighth (28th) Anniversary,” will be held at the Dusit Thani Guam Resort at 6:00 pm on Sunday, November 29, 2026 . We look forward to your attendance and participation. Si Yu’os Ma’åse’. 11/25/26 9:00 AM (FN)",
+  "witness_slip_url": null
+}

@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "AB357",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB651",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB652",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB650",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Workforce Development, Labor, and Integrated Employment (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1961385",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-a5c497dfe4ef",
+  "jurisdiction": "wi",
+  "location": "225 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-06T11:00:00",
+  "scheduled_iso": "2026-01-06T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

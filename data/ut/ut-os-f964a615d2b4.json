@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "SB319",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB259",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB270",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB432",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB472",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB474",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB512",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB377",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Business and Labor Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTBUS",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-f964a615d2b4",
+  "jurisdiction": "ut",
+  "location": "120 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-27T08:00:00",
+  "scheduled_iso": "2026-02-27T08:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

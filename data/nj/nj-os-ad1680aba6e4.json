@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "S1583",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3237",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3384",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S552",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S585",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S593",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2160",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3405",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3451",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3482",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3815",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate State Government, Wagering, Tourism & Historic Preservation Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-ad1680aba6e4",
+  "jurisdiction": "nj",
+  "location": "Committee Room 6, 1st Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-03-23T09:30:00",
+  "scheduled_iso": "2026-03-23T09:30:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

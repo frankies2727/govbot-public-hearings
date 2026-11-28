@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "SB90",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB429",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB391",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB318",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB92",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB396",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Government Operations Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTGOC",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-f7cc3646a8d9",
+  "jurisdiction": "ut",
+  "location": "30 House Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-06T15:40:00",
+  "scheduled_iso": "2026-02-06T15:40:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

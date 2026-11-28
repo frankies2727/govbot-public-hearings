@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B26338",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing - Senator Telo T. Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-8dc110d9b4f0",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building,",
+  "scheduled_display": "2026-02-25T09:00:00",
+  "scheduled_iso": "2026-02-25T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/-rrGRaueNfU Håfa Adai! The Committee on Economic Investment, Military Buildup, Regional Relations, Regulatory Affairs, Technology, Justice, Elections, and Retirement will conduct a public hearing on Wednesday, February 25, 2026 at 9:00 a.m. , in the Guam Congress Building, Public Hearing Room to hear and accept testimonies on the following agenda item: 1. Bill No. 263-38 (LS)- Introduced by Telo T. Taitague. V. Anthony Ada, Joe S. San Agustin- AN ACT TO AMEND SECTIONS 8137(b)(1), 8143, 8146, 8154, AND 8157, ARTICLE 1, CHAPTER 8, TITLE 4 OF THE GUAM CODE…",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Technology Committee",
+  "details_url": "https://leg.colorado.gov/agenda/committee/202692207590707",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "co-os-190666ea78e0",
+  "jurisdiction": "co",
+  "location": "SCR 352, 200 E Colfax Ave, Denver, CO 80203",
+  "scheduled_display": "2026-12-16T09:00:00",
+  "scheduled_iso": "2026-12-16T09:00:00",
+  "source": "leg.colorado.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

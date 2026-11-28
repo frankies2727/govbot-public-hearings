@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "LGBTQIA+ Caucus",
+  "details_url": "https://lis.virginia.gov/schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "va-os-47101b75e302",
+  "jurisdiction": "va",
+  "location": "House 9th Floor Meeting Room, Room 900, General Assembly Building",
+  "scheduled_display": "2027-02-10T17:00:00",
+  "scheduled_iso": "2027-02-10T17:00:00",
+  "source": "lis.virginia.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

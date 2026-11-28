@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Select Committee on Blockchain, Financial Technology and Digital Innovation Technology",
+  "details_url": "https://www.wyoleg.gov/Calendar/20261101/Meeting?type=committee&id=15112",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wy-os-aa915337a3b8",
+  "jurisdiction": "wy",
+  "location": "Wyoming State Capitol W110 200 West 24th Street",
+  "scheduled_display": "2026-11-19T08:30:00",
+  "scheduled_iso": "2026-11-19T08:30:00",
+  "source": "www.wyoleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "The purpose of this meeting is to complete the Select Committee's interim work. The Select Committee will receive an update from the Office of U.S. Senator Cynthia Lummis. The Select Committee will also discuss bill drafts related to the Wyoming Stable Token, digital identifiers, data privacy, automatic license plate readers, the Model Money Transmission Modernization Act, and public utilities. The meeting will be held in person in Cheyenne and remotely with a live video stream available on the Legislature's Website (www.wyoleg.gov). A limited number of participants can sign up to provide pub…",
+  "witness_slip_url": null
+}

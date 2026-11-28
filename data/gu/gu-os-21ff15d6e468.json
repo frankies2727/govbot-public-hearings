@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B26638",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Postponed FY27 Budget Hearing on April 15, 2026-Office of Finance and Budget (OFB)",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-21ff15d6e468",
+  "jurisdiction": "gu",
+  "location": "See Agenda",
+  "scheduled_display": "2026-04-15T09:00:00",
+  "scheduled_iso": "2026-04-15T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Håfa Adai, The Committee on Finance and Government Operations will be postponing the budget hearing scheduled for Wednesday, April 15, 2026 at 9AM, due to unforeseen weather conditions. A new date will be announced, as we work to reschedule the public hearing, under safer conditions. Thank you for your understanding. The Committee on Finance and Government Operations will conduct a budget hearing on Wednesday, April 15, 2026, beginning at 9:00 am at the Public Hearing Room in the Guam Congress Building. Relative to Bill No. 266-38 (COR) - Committee on Rules by request of I Magaʹhågan Guåhan,…",
+  "witness_slip_url": null
+}

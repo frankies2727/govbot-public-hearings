@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Education",
+  "details_url": "https://www.wyoleg.gov/Calendar/20260901/Meeting?type=committee&id=15137",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wy-os-2dda33f0872d",
+  "jurisdiction": "wy",
+  "location": "Capitol Extension E005 for public comment & online 200 West 24th Street",
+  "scheduled_display": "2026-09-15T08:30:00",
+  "scheduled_iso": "2026-09-15T08:30:00",
+  "source": "www.wyoleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "The purpose of this meeting is to receive the 2026 K-12 education resource block grant model (funding model) monitoring report pursuant to W.S. 21-13-309(u), including the annual update of the regional cost adjustment in accordance with W.S. 21-13-309.1(f). The meeting will be held remotely, with a live video stream available on the Legislature's Website (www.wyoleg.gov). A limited number of participants can sign up to provide public comment virtually for a specified agenda item during the Committee's upcoming meeting. The total time dedicated to virtual public comment is set by the Committee…",
+  "witness_slip_url": null
+}

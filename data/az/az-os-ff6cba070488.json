@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "March of Dimes March for Change Advocacy Day",
+  "details_url": "https://www.azleg.gov/Alis-Today/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "az-os-ff6cba070488",
+  "jurisdiction": "az",
+  "location": "Historic Senate Chamber",
+  "scheduled_display": "2027-01-20T09:30:00",
+  "scheduled_iso": "2027-01-20T09:30:00",
+  "source": "www.azleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Phoenix",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B37538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing- Bill No. 375-38 (LS) - Senator Shelly V. Calvo",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-33c8736eaf8b",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room, Guam Congress Building",
+  "scheduled_display": "2026-11-23T09:00:00",
+  "scheduled_iso": "2026-11-23T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/Wa_XgkP7KGs Buenas yan Håfa Adai! Please be advised that the Committee on Child Welfare, Youth Affairs, Senior Citizens, Women’s Affairs, Disability Services, the Arts, Culture, Historic Preservation, and Hagåtña Restoration (“Committee”) will host a public hearing on Monday, November 23, 2026 , beginning at 9:00AM in the Public Hearing Room, Guam Congress Building, with the following agenda: Bill No. 375-38 (LS) - AN ACT TO AMEND § 7103, § 7105, AND § 7107 OF CHAPTER 7, TITLE 2, GUAM CODE ANNOTATED, RELATIVE TO UPDATING THE MEMBERSHIP PROVISIONS OF THE…",
+  "witness_slip_url": null
+}

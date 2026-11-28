@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB51",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB460",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Education (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1953264",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-78de7e8a0bfc",
+  "jurisdiction": "wi",
+  "location": "417 North (GAR Hall), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-11-11T11:00:00",
+  "scheduled_iso": "2025-11-11T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

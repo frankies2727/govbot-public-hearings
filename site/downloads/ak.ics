@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alaska hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ak-joint-LEC-2026-11-30-130000@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T220000Z
+SUMMARY:Legislative Council
+DESCRIPTION:https://www.akleg.gov/basis/Meeting/Detail?Meeting=HLEC%202026-
+ 11-30%2013:00:00
+LOCATION:Anchorage Legislative Information Office DENALI Room
+URL:https://www.akleg.gov/basis/Meeting/Detail?Meeting=HLEC%202026-11-30%20
+ 13:00:00
+END:VEVENT
+BEGIN:VEVENT
+UID:ak-joint-BUD-2026-12-01-100000@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T190000Z
+SUMMARY:Legislative Budget & Audit
+DESCRIPTION:-- Testimony <Invitation Only> --\nhttps://www.akleg.gov/basis/
+ Meeting/Detail?Meeting=HBUD%202026-12-01%2010:00:00
+LOCATION:Anchorage Legislative Information Office DENALI Room
+URL:https://www.akleg.gov/basis/Meeting/Detail?Meeting=HBUD%202026-12-01%20
+ 10:00:00
+END:VEVENT
+BEGIN:VEVENT
+UID:ak-house-ENE-2026-12-04-090000@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T180000Z
+SUMMARY:Energy
+DESCRIPTION:https://www.akleg.gov/basis/Meeting/Detail?Meeting=HENE%202026-
+ 12-04%2009:00:00
+LOCATION:Anchorage Legislative Information Office DENALI Room
+URL:https://www.akleg.gov/basis/Meeting/Detail?Meeting=HENE%202026-12-04%20
+ 09:00:00
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Early Learning & K-12 Education",
+  "details_url": "https://app.leg.wa.gov/committeeschedules/Home/Agenda/34301",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wa-senate-34301",
+  "jurisdiction": "wa",
+  "location": "Senate Hearing Rm 1 and Virtual · J.A. Cherberg · Olympia",
+  "scheduled_display": "2026-12-08T08:00:00",
+  "scheduled_iso": "2026-12-08T08:00:00",
+  "source": "leg.wa.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Meeting is scheduled to end at 10:00 a.m. Possible other business. To view committee meetings or access the committee meeting documents, visit the Legislature's committee schedules, agendas, and documents website:  https://app.leg.wa.gov/committeeschedules",
+  "witness_slip_url": null
+}

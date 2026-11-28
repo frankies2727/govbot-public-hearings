@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "State Affairs (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1975344",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-d13ab11231f9",
+  "jurisdiction": "wi",
+  "location": "417 North (GAR Hall), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-25T11:00:00",
+  "scheduled_iso": "2026-02-25T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Informational Hearing",
+  "witness_slip_url": null
+}

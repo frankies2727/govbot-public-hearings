@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Commission to study revenue alternatives to the road toll, road toll registration charges, and revenue alternatives to vehicle registration fees, including electric vehicle registration fees, to fund improvements to the state's highways and bridges and their resulting improvements to the environment",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3196&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-c426867a5c7c",
+  "jurisdiction": "nh",
+  "location": "New Hampshire Insurance Department, Walker Building, 21 South Fruit St. Concord NH Room 274",
+  "scheduled_display": "2026-11-17T10:00:00",
+  "scheduled_iso": "2026-11-17T10:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

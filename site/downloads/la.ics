@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Louisiana hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:la-os-51869be226f7@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T200000Z
+SUMMARY:Louisiana Commission on Civic Education
+DESCRIPTION:Meeting on December 3\, 2026 of the Louisiana Commission on Civ
+ ic Education\nhttps://www.legis.la.gov/legis/Agenda.aspx?m=6254
+LOCATION:John J. Hainkel\, Jr. Room
+URL:https://www.legis.la.gov/legis/Agenda.aspx?m=6254
+END:VEVENT
+BEGIN:VEVENT
+UID:la-os-0d77d4ef4d44@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:Louisiana Integrated Criminal Justice Information System
+DESCRIPTION:Meeting on December 10\, 2026 of the Louisiana Integrated Crimi
+ nal Justice Information System\nhttps://www.legis.la.gov/legis/Agenda.aspx
+ ?m=6251
+LOCATION:Louisiana Sheriff's Association\, Baton Rouge
+URL:https://www.legis.la.gov/legis/Agenda.aspx?m=6251
+END:VEVENT
+BEGIN:VEVENT
+UID:la-os-bfa44b2980dd@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T210000Z
+SUMMARY:House Committee on Education
+DESCRIPTION:Meeting on December 10\, 2026 of the House Committee on Educati
+ on\nhttps://www.legis.la.gov/legis/Agenda.aspx?m=26182
+LOCATION:Room 1
+URL:https://www.legis.la.gov/legis/Agenda.aspx?m=26182
+END:VEVENT
+END:VCALENDAR

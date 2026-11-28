@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "SB851",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB657",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB822",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB832",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB860",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB898",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB384",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Health (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1968076",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-c50b8e908d63",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-29T10:00:00",
+  "scheduled_iso": "2026-01-29T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

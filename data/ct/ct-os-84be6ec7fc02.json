@@ -1,0 +1,68 @@
+{
+  "bills": [
+    {
+      "id": "SB412",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB414",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5464",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB415",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB416",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5465",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5463",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB413",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5461",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5462",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Transportation Committee Public Hearing (2B-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=TRA",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-84be6ec7fc02",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-09T10:00:00",
+  "scheduled_iso": "2026-03-09T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Committee",
+  "details_url": "https://malegislature.gov/Events/Hearings/Detail/5824",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ma-other-5824",
+  "jurisdiction": "ma",
+  "location": "Room 222 · 24 Beacon Street · Boston, MA",
+  "scheduled_display": "2026-12-02T11:00:00",
+  "scheduled_iso": "2026-12-02T11:00:00",
+  "source": "malegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Commission on the Status of Persons with Disabilities - Commission Meeting",
+  "witness_slip_url": "https://malegislature.gov/Events/Hearings/Detail/5824"
+}

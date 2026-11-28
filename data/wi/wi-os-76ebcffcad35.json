@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "2026 State-Tribal Relations (Legislative Council)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/2004569",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-76ebcffcad35",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-09-23T11:00:00",
+  "scheduled_iso": "2026-09-23T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Study Meeting",
+  "witness_slip_url": null
+}

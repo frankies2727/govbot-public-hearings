@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "SB288",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB375",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB365",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Transportation and Local Government (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1944801",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-cd0bbe69e760",
+  "jurisdiction": "wi",
+  "location": "639 E. Summerfest Place, Milwaukee, WI (Stars Boardroom), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-07T11:00:00",
+  "scheduled_iso": "2025-10-07T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

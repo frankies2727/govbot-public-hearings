@@ -1,0 +1,68 @@
+{
+  "bills": [
+    {
+      "id": "HB479",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB439",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB457",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB176",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB361",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB409",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB328",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB513",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB545",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB501",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Government Operations and Political Subdivisions Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTGOP",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-059fcfcf8fcc",
+  "jurisdiction": "ut",
+  "location": "220 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-03-03T16:00:00",
+  "scheduled_iso": "2026-03-03T16:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

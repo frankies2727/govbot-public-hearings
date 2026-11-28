@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "SB186",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB188",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB205",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB209",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Commerce and Energy",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1278/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-87544521d984",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-02-12T10:00:00",
+  "scheduled_iso": "2026-02-12T10:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

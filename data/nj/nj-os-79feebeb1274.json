@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "A1830",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2268",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3398",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4790",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5156",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3463",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Health Infrastructure Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-79feebeb1274",
+  "jurisdiction": "nj",
+  "location": "Committee Room 14, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-06-01T10:00:00",
+  "scheduled_iso": "2026-06-01T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

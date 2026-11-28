@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Legislative Council",
+  "details_url": "https://www.legmt.gov/event/legislative-council-15/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mt-os-d15dcfb80bdb",
+  "jurisdiction": "mt",
+  "location": "Zoom Only, State Capitol, 1301 E 6th Ave, Helena, MT, 59601",
+  "scheduled_display": "2026-12-02T11:00:00",
+  "scheduled_iso": "2026-12-02T11:00:00",
+  "source": "www.legmt.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

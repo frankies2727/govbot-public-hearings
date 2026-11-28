@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB44",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB43",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Health, Aging and Long-Term Care (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1914731",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-d627558367eb",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-04-23T10:00:00",
+  "scheduled_iso": "2025-04-23T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

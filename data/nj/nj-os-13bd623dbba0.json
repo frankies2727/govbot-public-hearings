@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "A1978",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2613",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3496",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4077",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4458",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5059",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Community Development and Women's Affairs Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-13bd623dbba0",
+  "jurisdiction": "nj",
+  "location": "Committee Room 16, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-06-08T10:00:00",
+  "scheduled_iso": "2026-06-08T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

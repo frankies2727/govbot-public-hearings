@@ -1,0 +1,63 @@
+{
+  "bills": [
+    {
+      "id": "SB213",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB284",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB412",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB418",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB439",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB474",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB482",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB529",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB592",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Agriculture and Revenue (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1952332",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-f14043460227",
+  "jurisdiction": "wi",
+  "location": "8 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-11-06T12:00:00",
+  "scheduled_iso": "2025-11-06T12:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "SB156",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB122",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB133",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Government Operations, Labor and Economic Development (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1914043",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-031f17326e80",
+  "jurisdiction": "wi",
+  "location": "201 Southeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-04-24T10:00:00",
+  "scheduled_iso": "2025-04-24T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

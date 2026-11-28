@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "SENATE COMMITTEE ON JUDICIARY",
+  "details_url": "https://status.rilegislature.gov/documents/agenda-21785.aspx",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ri-os-694e70fbdf82",
+  "jurisdiction": "ri",
+  "location": "Room 313 - State House",
+  "scheduled_display": "2026-11-30T15:00:00",
+  "scheduled_iso": "2026-11-30T15:00:00",
+  "source": "status.rilegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

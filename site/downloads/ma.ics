@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Massachusetts hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ma-joint-5821@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T140000Z
+SUMMARY:Joint Committee on Municipalities and Regional Government
+DESCRIPTION:Town of Pepperell home rule petition\nBills: H4963\, S3301\nhtt
+ ps://malegislature.gov/Events/Hearings/Detail/5821
+LOCATION:Written Testimony Only · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5821
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-other-5825@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T180000Z
+SUMMARY:Committee
+DESCRIPTION:Meeting of the Special Commission on Correctional Consolidation
+  and Collaboration\nhttps://malegislature.gov/Events/Hearings/Detail/5825
+LOCATION:Virtual Hearing · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5825
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-other-5822@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T210000Z
+SUMMARY:Committee
+DESCRIPTION:SPECIAL COMMISSION ON CABO VERDEAN CULTURAL CENTER\nhttps://mal
+ egislature.gov/Events/Hearings/Detail/5822
+LOCATION:Virtual Hearing · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5822
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-joint-5804@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T180000Z
+SUMMARY:Joint Committee on Racial Equity\, Civil Rights\, and Inclusion
+DESCRIPTION:Informational Briefing: The Racial Wealth Gap in Massachusetts\
+ nhttps://malegislature.gov/Events/Hearings/Detail/5804
+LOCATION:Room 428 · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5804
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-joint-5820@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T150000Z
+SUMMARY:Joint Committee on Public Health
+DESCRIPTION:Public Health Late Files II\nBills: H5296\nhttps://malegislatur
+ e.gov/Events/Hearings/Detail/5820
+LOCATION:A-1 · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5820
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-joint-5823@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T160000Z
+SUMMARY:Joint Committee on Ways and Means
+DESCRIPTION:Fiscal Year 2028 (FY28) Consensus Revenue Hearing\nhttps://male
+ gislature.gov/Events/Hearings/Detail/5823
+LOCATION:Gardner Auditorium · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5823
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-other-5824@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T160000Z
+SUMMARY:Committee
+DESCRIPTION:Commission on the Status of Persons with Disabilities - Commiss
+ ion Meeting\nhttps://malegislature.gov/Events/Hearings/Detail/5824
+LOCATION:Room 222 · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5824
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-joint-5818@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T170000Z
+SUMMARY:Joint Committee on Housing
+DESCRIPTION:Late File Legislation\nBills: H5668\nhttps://malegislature.gov/
+ Events/Hearings/Detail/5818
+LOCATION:Written Testimony Only · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5818
+END:VEVENT
+BEGIN:VEVENT
+UID:ma-senate-5793@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T180000Z
+SUMMARY:Senate Committee on the Census 
+DESCRIPTION:Federal Changes to the 2030 Census Part II: Racial and Demograp
+ hic Data\nhttps://malegislature.gov/Events/Hearings/Detail/5793
+LOCATION:A-1 · 24 Beacon Street · Boston\, MA
+URL:https://malegislature.gov/Events/Hearings/Detail/5793
+END:VEVENT
+END:VCALENDAR

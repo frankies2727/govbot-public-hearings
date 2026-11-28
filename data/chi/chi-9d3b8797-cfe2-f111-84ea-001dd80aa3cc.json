@@ -1,0 +1,18 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "comment_deadline": "2026-11-30T17:00:00",
+  "committee": "Committee on Police and Fire",
+  "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=9D3B8797-CFE2-F111-84EA-001DD80AA3CC",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "chi-9d3b8797-cfe2-f111-84ea-001dd80aa3cc",
+  "jurisdiction": "chi",
+  "location": "Room 201A, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
+  "scheduled_display": "2026-12-01T13:00:00",
+  "scheduled_iso": "2026-12-01T13:00:00",
+  "source": "chicityclerkelms.chicago.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/7f8e03ea-0c66-459e-98e8-8c3cbbd486ca.pdf"
+}

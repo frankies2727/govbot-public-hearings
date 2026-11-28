@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "SB136",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB216",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB273",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB331",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB337",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB339",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB422",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Transportation and Local Government (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1944033",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-57e2197f935f",
+  "jurisdiction": "wi",
+  "location": "310 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-09-26T11:00:00",
+  "scheduled_iso": "2025-09-26T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

@@ -1,0 +1,34 @@
+{
+  "bills": [
+    {
+      "id": "O2026-0027317",
+      "url": null
+    },
+    {
+      "id": "O2026-0028758",
+      "url": null
+    },
+    {
+      "id": "O2026-0028759",
+      "url": null
+    },
+    {
+      "id": "O2026-0028760",
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Committee on Special Events, Cultural Affairs and Recreation",
+  "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=08A631B6-4FE7-F111-84E9-001DD80AA3CC",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "chi-08a631b6-4fe7-f111-84e9-001dd80aa3cc",
+  "jurisdiction": "chi",
+  "location": "201A, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
+  "scheduled_display": "2026-12-01T13:30:00",
+  "scheduled_iso": "2026-12-01T13:30:00",
+  "source": "chicityclerkelms.chicago.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/d3faeb5e-50e7-f111-84e9-001dd80fda55.pdf"
+}

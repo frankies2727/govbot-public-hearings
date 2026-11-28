@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Judiciary",
+  "details_url": "https://www.wyoleg.gov/Calendar/20261001/Meeting?type=committee&id=15110",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wy-os-529735ab2542",
+  "jurisdiction": "wy",
+  "location": "Historic Supreme Court Chamber State Capitol Room E202 200 West 24th Street",
+  "scheduled_display": "2026-10-26T08:30:00",
+  "scheduled_iso": "2026-10-26T08:30:00",
+  "source": "www.wyoleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "The purpose of this meeting is to complete the Committee's interim work. The Committee will consider bill drafts addressing the Uniform Public Expression Protection Act, parole eligibility for escape from adult community correctional facilities, and vehicular homicide. The Committee will also discuss bill drafts related to the review of Title 6 and the criminal code, as well as a bill draft forwarded to the Committee by the Health Insurance Affordability Task Force. In addition, the Committee will receive updates from the University of Wyoming College of Law and the Wyoming Highway Patrol. Th…",
+  "witness_slip_url": null
+}

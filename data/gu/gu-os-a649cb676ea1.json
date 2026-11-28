@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B26638",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "OVERSIGHT HEARING – JUNE 24, 2026 - SENATOR VINCENT A. V. BORJA",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-a649cb676ea1",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-06-24T09:00:00",
+  "scheduled_iso": "2026-06-24T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/6a2Xx7vVLCY Håfa Adai! The Committee on Education, Libraries & Public Broadcasting will conduct an Oversight Hearing on the Guam Department of Education (GDOE) and the Guam Education Board (GEB) on Wednesday, June 24, 2026, beginning at 9:00 A.M. , in the Public Hearing Room of the Guam Congress Building. The agenda is as follows: Guam Department of Education & Guam Education Board I. Call to Order II. Opening Remarks by Chairman Vincent A.V. Borja III. Presentations and Updates from GDOE and the Guam Education Board 1. School Closure, Consolidation, an…",
+  "witness_slip_url": null
+}

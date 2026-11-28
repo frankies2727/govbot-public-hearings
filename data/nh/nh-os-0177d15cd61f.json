@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "NEW HAMPSHIRE COMMISSION FOR THE DEAF AND HARD OF HEARING",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3180&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-0177d15cd61f",
+  "jurisdiction": "nh",
+  "location": "Walker Building, Room # 100 21 S. Fruit St, Concord, NH 03301",
+  "scheduled_display": "2026-11-09T13:00:00",
+  "scheduled_iso": "2026-11-09T13:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

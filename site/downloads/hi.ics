@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hawaii hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:hi-os-ca1e7c53a9e3@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T220000Z
+SUMMARY:CPC-JUD-TRN
+DESCRIPTION:https://www.capitol.hawaii.gov/session/upcominghearingsfiltered
+ .aspx
+LOCATION:329 VIA VIDEOCONFERENCE
+URL:https://www.capitol.hawaii.gov/session/upcominghearingsfiltered.aspx
+END:VEVENT
+END:VCALENDAR

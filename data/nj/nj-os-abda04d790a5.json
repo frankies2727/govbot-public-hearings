@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "A2205",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2255",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2295",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3946",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4077",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4543",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Public Safety and Preparedness Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-abda04d790a5",
+  "jurisdiction": "nj",
+  "location": "Committee Room 16, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-03-19T10:00:00",
+  "scheduled_iso": "2026-03-19T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

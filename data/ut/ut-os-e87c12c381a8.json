@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "SCR10",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB273",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB62",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB178",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB192",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB230",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Transportation, Public Utilities, Energy, and Technology Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTTPT",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-e87c12c381a8",
+  "jurisdiction": "ut",
+  "location": "220 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-12T14:00:00",
+  "scheduled_iso": "2026-02-12T14:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

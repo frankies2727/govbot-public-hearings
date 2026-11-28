@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "STATE VETERANS ADVISORY COMMITTEE",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3122&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-1524872f6989",
+  "jurisdiction": "nh",
+  "location": "Edward Cross Training Complex 722 Riverwood Dr., Pembroke, NH",
+  "scheduled_display": "2026-12-01T17:00:00",
+  "scheduled_iso": "2026-12-01T17:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

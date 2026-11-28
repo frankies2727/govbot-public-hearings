@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Northern Virginia Transportation Commission",
+  "details_url": "https://lis.virginia.gov/schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "va-os-56db1bba6ef7",
+  "jurisdiction": "va",
+  "location": "Navy League Building, First Floor Main Conference Room, 2300 Wilson Boulevard, Arlington",
+  "scheduled_display": "2026-12-03T19:00:00",
+  "scheduled_iso": "2026-12-03T19:00:00",
+  "source": "lis.virginia.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,83 @@
+{
+  "bills": [
+    {
+      "id": "SB147",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB145",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB149",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5153",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB148",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5154",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5157",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5155",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB146",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5152",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5156",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5151",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB144",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Environment Committee Public Hearing (2B-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ENV",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-d7986fcd9556",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-20T11:00:00",
+  "scheduled_iso": "2026-02-20T11:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

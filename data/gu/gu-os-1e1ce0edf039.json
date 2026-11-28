@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "B25638",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B25238",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B22638",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B26438",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "POSTPONED: PUBLIC HEARING – Office of Senator Borja",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-1e1ce0edf039",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-03-03T09:00:00",
+  "scheduled_iso": "2026-03-03T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Håfa Adai! The Committee on Education, Libraries & Public Broadcasting will has postponed conduct a Public Hearing on Tuesday, March 3, 2026, beginning at 9:00 A.M., in the Public Hearing Room of the Guam Congress Building. The hearing will be scheduled at a later date. The Committee will hear and accept testimony on the following: I. Bill No. 226-38 (COR) – AN ACT TO ADD A NEW §6236 TO ARTICLE 2 OF CHAPTER 6 TITLE 4, GUAM CODE ANNOTATED, RELATIVE TO ESTABLISHING INCENTIVE PAY FOR CERTAIN GUAM DEPARTMENT OF EDUCATION EMPLOYEES WHO OBTAIN AND UTILIZE SPECIALIZED CERTIFICATIONS OR TRAINING IN C…",
+  "witness_slip_url": null
+}

@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "SB65",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB78",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB66",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB76",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB66",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB91",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB86",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB121",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Judiciary and Public Safety (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1913551",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-e4e618e85c0b",
+  "jurisdiction": "wi",
+  "location": "122 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-04-15T10:00:00",
+  "scheduled_iso": "2025-04-15T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

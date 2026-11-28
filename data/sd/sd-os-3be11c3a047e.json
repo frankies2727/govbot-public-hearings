@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "SB12",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB19",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB18",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB7",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Taxation",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1290/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-3be11c3a047e",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-01-16T10:00:00",
+  "scheduled_iso": "2026-01-16T10:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

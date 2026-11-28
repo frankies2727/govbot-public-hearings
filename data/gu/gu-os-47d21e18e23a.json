@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R14238",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Resolution Presentation: February 21, 2026- Vice Speaker V. Anthony Ada",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-47d21e18e23a",
+  "jurisdiction": "gu",
+  "location": "Guam Reef Hotel",
+  "scheduled_display": "2026-02-21T11:00:00",
+  "scheduled_iso": "2026-02-21T11:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "The Presentation of Resolution No. 142-38 (COR) \" Relative to recognizing the Filipino American Presidents Club of Guam for their continued support and contributions to our island community; and congratulating the incoming 2026-2027 Executive Officers; and to further commending the 2024-2025 Executive Officers for their services ,\" will be held at the Guam Reef Hotel on Saturday, February 21, 2026 at 11:00 am . We look forward to your attendance and participation. 2/20/26 10:08 AM (FN)",
+  "witness_slip_url": null
+}

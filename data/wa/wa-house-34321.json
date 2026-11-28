@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "State Government & Tribal Relations",
+  "details_url": "https://app.leg.wa.gov/committeeschedules/Home/Agenda/34321",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wa-house-34321",
+  "jurisdiction": "wa",
+  "location": "House Hearing Rm E and Virtual · John L. O'Brien Building · Olympia",
+  "scheduled_display": "2026-12-11T08:00:00",
+  "scheduled_iso": "2026-12-11T08:00:00",
+  "source": "leg.wa.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "To view committee meetings or access the committee meeting documents, visit the Legislature's committee schedules, agendas, and documents website:  https://app.leg.wa.gov/committeeschedules",
+  "witness_slip_url": null
+}

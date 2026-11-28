@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R19238",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "*Presentation: Resolution No. 192-38 (COR) - Senator Shelly V. Calvo",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-a458c608545f",
+  "jurisdiction": "gu",
+  "location": "Guam Reef Hotel",
+  "scheduled_display": "2026-06-12T07:30:00",
+  "scheduled_iso": "2026-06-12T07:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "The presentation of Resolution No. 192-38(COR) : Relative to recognizing and commemorating Philippine Independence on June 12, 2026, recognizing the twenty-first (21st) annual Philippine Independence Day Flag-Raising Ceremony at the Guam Reef Hotel, and honoring the enduring contributions of the Filipino community to Guam, will take place as follows: Date: Friday, June 12, 2026 Time: 07:30 AM Location: Guam Reef Hotel Your presence is respectfully requested as we honor Philippine Independence Day during the 21st Annual Flag-Raising Ceremony 6/11/26 4:12 P.M. (FN)",
+  "witness_slip_url": null
+}

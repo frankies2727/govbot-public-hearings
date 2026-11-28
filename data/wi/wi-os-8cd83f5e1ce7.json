@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "AB34",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB124",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB191",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB121",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AJR10",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Judiciary (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1919972",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-8cd83f5e1ce7",
+  "jurisdiction": "wi",
+  "location": "400 Northeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-21T11:30:00",
+  "scheduled_iso": "2025-05-21T11:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

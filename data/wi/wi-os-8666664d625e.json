@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "SB563",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB564",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Government Operations, Labor and Economic Development (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1966253",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-8666664d625e",
+  "jurisdiction": "wi",
+  "location": "300 Southeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-27T11:30:00",
+  "scheduled_iso": "2026-01-27T11:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

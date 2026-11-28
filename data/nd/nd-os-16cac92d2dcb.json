@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "SB2407",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Joint Appropriations",
+  "details_url": "https://www.ndlegis.gov/legend/committee/hearings/public-schedule/?export=csv",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nd-os-16cac92d2dcb",
+  "jurisdiction": "nd",
+  "location": "Brynhild Haugland",
+  "scheduled_display": "2026-09-02T10:30:00",
+  "scheduled_iso": "2026-09-02T10:30:00",
+  "source": "www.ndlegis.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Standing Committee Hearing",
+  "witness_slip_url": null
+}

@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "AB54",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB128",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB193",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB263",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB368",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB398",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Health, Aging and Long-Term Care (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1946859",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-2bdb36be1ee6",
+  "jurisdiction": "wi",
+  "location": "417 North (GAR Hall), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-15T10:00:00",
+  "scheduled_iso": "2025-10-15T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

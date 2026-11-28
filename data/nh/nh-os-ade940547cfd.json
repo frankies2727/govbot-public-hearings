@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "HEALTH AND HUMAN SERVICES OVERSIGHT COMMITTEE",
+  "details_url": "https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=3135&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-ade940547cfd",
+  "jurisdiction": "nh",
+  "location": "New Hampshire State House, 107 North Main Street, Concord, NH 03301, Room 103",
+  "scheduled_display": "2026-10-30T09:30:00",
+  "scheduled_iso": "2026-10-30T09:30:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

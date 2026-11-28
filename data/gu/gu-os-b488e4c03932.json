@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R21438",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Presentation - Resolution No. 214-38 (COR) - Senator Telo Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-b488e4c03932",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building.",
+  "scheduled_display": "2026-09-16T14:00:00",
+  "scheduled_iso": "2026-09-16T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtu.be/YNoOtk-zpN4 Håfa Adai! Please join me in presenting a Resolution No. 214-38 (COR), “Relative to recognizing Victim Advocates Reaching Out (VARO) on the occasion of its Forty-Fourth (44th) Anniversary; and the celebration of its Fifth (5th) Annual Purple Gala; and further commending its staff, volunteers, board of directors, and community partners for their continued commitment to advocacy, crisis intervention, education, and support for victims and survivors throughout Guam.” The presentation is scheduled for Wednesday, September 16, 2026 at 2:00 pm in the Publ…",
+  "witness_slip_url": null
+}

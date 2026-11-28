@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "SB26",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Mental Health, Substance Abuse Prevention, Children and Families (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1900575",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-6741e6a3e354",
+  "jurisdiction": "wi",
+  "location": "201 Southeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-02-11T10:00:00",
+  "scheduled_iso": "2025-02-11T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

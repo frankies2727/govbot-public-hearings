@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Assembly Tourism, Gaming and the Arts Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-458e3fcbea7e",
+  "jurisdiction": "nj",
+  "location": "Morristown & Morris Township Library, 1 Miller Road, Morristown, New Jersey 07960",
+  "scheduled_display": "2026-03-30T10:30:00",
+  "scheduled_iso": "2026-03-30T10:30:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

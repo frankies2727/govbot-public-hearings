@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "AB172",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Consumer Protection (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1917228",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-60effeef5221",
+  "jurisdiction": "wi",
+  "location": "400 Northeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-08T11:00:00",
+  "scheduled_iso": "2025-05-08T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

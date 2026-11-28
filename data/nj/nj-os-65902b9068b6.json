@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "A1511",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2782",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2281",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3745",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5046",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5233",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5297",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5317",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Financial Institutions and Insurance Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-65902b9068b6",
+  "jurisdiction": "nj",
+  "location": "Committee Room 16, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-09-17T10:00:00",
+  "scheduled_iso": "2026-09-17T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

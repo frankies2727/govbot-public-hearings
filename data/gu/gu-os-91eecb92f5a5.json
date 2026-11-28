@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R15838",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Presentation of Resolution No. 158-38 (LS) Senator Tina Rose Muña-Barnes-",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-91eecb92f5a5",
+  "jurisdiction": "gu",
+  "location": "Adelup Large Conference Room.",
+  "scheduled_display": "2026-03-30T10:00:00",
+  "scheduled_iso": "2026-03-30T10:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai! Please join me in presenting, Resolution No. 158-38 (LS) – Relative to recognizing Colonel Gabriel Vincent Cruz for his thirty-six (36) years of dedicated service to the Guam Customs and Quarantine Agency; and congratulating him on his retirement. Presentation will take place on Monday, March 30 at 10AM in the Adelup Large Conference Room. 3.27.26 7:23 PM (FN)",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Committee on Appropriations",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1275/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-8b65466d77de",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-01-14T07:45:00",
+  "scheduled_iso": "2026-01-14T07:45:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

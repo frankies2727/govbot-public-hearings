@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "HB321",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HCR10",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB350",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB393",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB81",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB127",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Health and Human Services Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTHHS",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-f0d1f673de39",
+  "jurisdiction": "ut",
+  "location": "30 House Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-17T08:00:00",
+  "scheduled_iso": "2026-02-17T08:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

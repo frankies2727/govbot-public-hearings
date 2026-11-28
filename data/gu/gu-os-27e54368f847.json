@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B438",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing – Senator Telo Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-27e54368f847",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building, Public Hearing Room",
+  "scheduled_display": "2026-01-14T08:00:00",
+  "scheduled_iso": "2026-01-14T08:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtu.be/Lb3e3iVQHHc Håfa Adai! The Committee on Economic Investment, Military Buildup, Regional Relations, Regulatory Affairs, Technology, Justice, Elections, and Retiremen t will conduct a public hearing on Wednesday, January 14, 2026 beginning at 8:00 a.m. , in the Guam Congress Building, Public Hearing Room to hear and accept testimonies on the following agenda item: I. Bill No. 4-38 (COR) - Introduced by Joe S. San Agustin- AN ACT TO ADD A NEW § 3122 TO ARTICLE 1, CHAPTER 3, TITLE 22, GUAM CODE ANNOTATED RELATIVE TO ENHANCING THE LOCAL MINIMUM WAGE OF GUAM . Please…",
+  "witness_slip_url": null
+}

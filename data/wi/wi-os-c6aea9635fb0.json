@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "SB789",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB798",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB810",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB718",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB816",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Natural Resources, Veteran and Military Affairs (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1963722",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-c6aea9635fb0",
+  "jurisdiction": "wi",
+  "location": "330 Southwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-01-28T10:30:00",
+  "scheduled_iso": "2026-01-28T10:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

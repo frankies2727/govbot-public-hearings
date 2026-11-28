@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R12138",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "*Presentation for Resolution No. 121-38 (LS) - Senator Telo T. Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-c550bc829b2a",
+  "jurisdiction": "gu",
+  "location": "Capital Kitchen",
+  "scheduled_display": "2026-01-09T11:30:00",
+  "scheduled_iso": "2026-01-09T11:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai! Please join me in presenting the following Legislative Resolution: Resolution No. 121-38 (LS) – Introduced by Telo T. Taitague, Therese M. Terlaje Chris Barnett Sabina Flores Perez Frank F. Blas, Jr. Shelly V. Calvo Jesse A. Lujan Christopher M. Dueñas William A. Parkinson Joe S. San Agustin V. Anthony Ada Vincent A.V. Borja Eulogio Shawn Gumataotao Tina Rose Muña-Barnes Sabrina Salas Matanane - “RELATIVE TO RECOGNIZING AND COMMENDING MS. MONICA JESUS GUERRERO, CHIEF PLANNER OF THE BUREAU OF STATISTICS AND PLANS ON THE OCCASION OF HER RETIREMENT AND TO EXTEND OUR MOST GR…",
+  "witness_slip_url": null
+}

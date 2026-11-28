@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate",
+  "details_url": "https://www.senate.mn/committees/committee_bio.php?ls=94&cmte_id=1",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mn-os-5c5e79ff4b88",
+  "jurisdiction": "mn",
+  "location": "Minnesota Senate Bldg. 1150",
+  "scheduled_display": "2026-11-27T08:00:00",
+  "scheduled_iso": "2026-11-27T08:00:00",
+  "source": "www.senate.mn",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,487 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Arizona hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:az-os-af74ad76aa63@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T170000Z
+SUMMARY:Legislative Study Committee on Secure State Mental Health Facilitie
+ s (2R)
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:1700 W. Washington St.\, Phoenix\, Arizona\, 85007
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-f6591bcc74ae@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T120000Z
+SUMMARY:U.S.S. Arizona memorial work
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-8c35e52a0913@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T183000Z
+SUMMARY:Tobacco Control 101: Cleaning the Air
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-3f955e34214a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T120000Z
+SUMMARY:U.S.S. Memorial work Mast
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-7b36abbc6296@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T120000Z
+SUMMARY:Hot Chocolate setup
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-973dc7a22c86@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T140000Z
+SUMMARY:YMCA Youth and Gov Impact Lunch
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:House & Senate lawns
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-acedb458b5b8@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T160000Z
+SUMMARY:YMCA Youth and Gov
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Capitol Museum\; Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-f86d9004b486@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261205T180000Z
+SUMMARY:Pearl Harbor Day Commemoration
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-d96fde5b9339@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261205T190000Z
+SUMMARY:YMCA Youth and Gov Impact Lunch
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Senate lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-4863d437a975@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261206T140000Z
+SUMMARY:Skechers Hot Chocolate Run
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-9a62539bec2d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261206T190000Z
+SUMMARY:YMCA Youth and Gov Impact Lunch
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Senate lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-5ad7882cf6e3@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T230000Z
+SUMMARY:Chabad Community Menorah Lighting
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-1f3ed9c5029b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261209T180000Z
+SUMMARY:ADOA Holiday Party
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-7c130071b21e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261218T200000Z
+SUMMARY:LD 26 Leg Planning Meeting for Constituents
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-4b3d4e3c5501@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261219T180000Z
+SUMMARY:Buffalo Soldiers Arizona Territory Monument Groundbreaking
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-ba80964d7294@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270105T160000Z
+SUMMARY:PFFA Fallen Firefighter Memorial cleanup
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-fabfb51cdc08@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270105T160000Z
+SUMMARY:2027 Environmental Priorities News Conference
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Capitol Museum
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-7cced0622700@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270106T160000Z
+SUMMARY:PFFA Fallen Firefighter Memorial cleanup
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-a212167fa075@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270107T160000Z
+SUMMARY:PFFA Fallen Firefighter Memorial cleanup
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-1abdba175096@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270108T160000Z
+SUMMARY:PFFA Fallen Firefighter Memorial cleanup
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-37e78715b8dc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270109T160000Z
+SUMMARY:PFFA Fallen Firefighter Memorial cleanup
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-cb2ecef0a04b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270110T170000Z
+SUMMARY:PFFA Fallen Firefighter Memorial Sunday
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-3e7bd7bca845@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270111T160000Z
+SUMMARY:Legislative Legal Internship Orientation
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Capitol Museum
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-abe11b0e65dd@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270112T150000Z
+SUMMARY:Corazon Arizona Evening Prayer Circle
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:House lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-35b568c558bb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270112T170000Z
+SUMMARY:REALTORS Day at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-5aa4d377ab38@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270112T170000Z
+SUMMARY:Press Conference
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Rose Garden
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-c3a563a40fbc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270112T190000Z
+SUMMARY:AZ Family and Peer Coalition Monthly
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-041accfb4e6d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270113T150000Z
+SUMMARY:Indian Nations & Tribes Legislative Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Senate Lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-25c8875c6be5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270113T180000Z
+SUMMARY:Lunch on the Plaza\, Hosted by UA Local 469 Plumbers & Pipefitters
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-4c8b5ef6838a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270114T003000Z
+SUMMARY:St. Thomas More Society of Phoenix 57th Annual Red Mass
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Diocesan Pastoral Center\; 400 E. Monroe St\, Phoenix AZ 85004
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-77c2b167b183@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270114T150000Z
+SUMMARY:American Heart Association Heart at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-d309cd939d1b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270114T160000Z
+SUMMARY:Stop the Bleed
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-6ce308fd1bdd@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270114T180000Z
+SUMMARY:Solidarity with Iranian People
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Senate Lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-b067fabc1ffd@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270114T183000Z
+SUMMARY:JAG's Legislative Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:House Lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-e3b70959a93c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270119T163000Z
+SUMMARY:Legislative AAUW Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-3bd38710d9b9@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270119T180000Z
+SUMMARY:10th Annual Mining Day at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-ff6cba070488@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270120T163000Z
+SUMMARY:March of Dimes March for Change Advocacy Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-529dfe4f253c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270120T170000Z
+SUMMARY:Camo at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-a59489c63d68@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270121T000000Z
+SUMMARY:County Supervisors Association Legislative Reception
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:1905 W Washington St Phoenix\, AZ 85009
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-058afe670228@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270121T160000Z
+SUMMARY:Coffee at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Senate Lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-3066853ef6ba@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270121T163000Z
+SUMMARY:AzANA Capitol Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-b8afc8aecd2e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270121T170000Z
+SUMMARY:Vitalant Blood Drive
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:House Lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-fe9f397247bd@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270121T170000Z
+SUMMARY:Motorcycle Day at the Dome
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-c5948e1770ab@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270125T143000Z
+SUMMARY:Alzheimer's State Advocacy Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-a6024a183d47@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270125T161500Z
+SUMMARY:AARP Day at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-1624779c9c8b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270126T140000Z
+SUMMARY:Grounds for Discussion
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Senate Lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-bfb842017ff0@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270126T150000Z
+SUMMARY:AP Day at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:House lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-5c4dd336f26d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270126T161500Z
+SUMMARY:AAPPD Day at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-2f7a2f1ac193@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270126T190000Z
+SUMMARY:Arizona Beverage Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-ffc19a4afd02@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270127T153000Z
+SUMMARY:Arizona Gun Violence Prevention Advocacy
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-2eec3809719c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270127T170000Z
+SUMMARY:Special Olympics Arizona at the Capitol
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Historic Senate Chamber
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-726fc226fc85@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270127T190000Z
+SUMMARY:Aliento Education Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:House lawn
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+BEGIN:VEVENT
+UID:az-os-ac0ba4263bca@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270127T200000Z
+SUMMARY:Aliento Education Day
+DESCRIPTION:https://www.azleg.gov/Alis-Today/
+LOCATION:Wesley Bolin Plaza
+URL:https://www.azleg.gov/Alis-Today/
+END:VEVENT
+END:VCALENDAR

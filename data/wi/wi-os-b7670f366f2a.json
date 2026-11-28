@@ -1,0 +1,238 @@
+{
+  "bills": [
+    {
+      "id": "SB69",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB64",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB176",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB208",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB181",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB197",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB204",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB204",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB276",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB275",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB291",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB283",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB376",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB369",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB379",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB373",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB389",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB391",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB480",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB501",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB505",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB556",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB559",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB576",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB584",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB599",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB605",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB608",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB596",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB654",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB670",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB658",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB676",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB683",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB700",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB684",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB699",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB700",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB704",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB712",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB333",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB320",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB706",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB859",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Finance (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1969371",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-b7670f366f2a",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-03T13:01:00",
+  "scheduled_iso": "2026-02-03T13:01:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

@@ -1,0 +1,30 @@
+{
+  "bills": [
+    {
+      "id": "H4963",
+      "slips": null,
+      "title": "An Act authorizing the Town of Pepperell to establish a Patriot Regional Emergency Communications Center enterprise fund",
+      "url": "https://malegislature.gov/Bills/194/H4963"
+    },
+    {
+      "id": "S3301",
+      "slips": null,
+      "title": "An Act authorizing the town of Pepperell to establish a Patriot Regional Emergency Communications Center Enterprise Fund",
+      "url": "https://malegislature.gov/Bills/194/S3301"
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Joint Committee on Municipalities and Regional Government",
+  "details_url": "https://malegislature.gov/Events/Hearings/Detail/5821",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ma-joint-5821",
+  "jurisdiction": "ma",
+  "location": "Written Testimony Only · 24 Beacon Street · Boston, MA",
+  "scheduled_display": "2026-11-30T09:00:00",
+  "scheduled_iso": "2026-11-30T09:00:00",
+  "source": "malegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Town of Pepperell home rule petition",
+  "witness_slip_url": "https://malegislature.gov/Events/Hearings/Detail/5821"
+}

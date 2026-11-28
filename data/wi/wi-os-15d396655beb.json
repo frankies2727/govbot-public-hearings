@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "SB257",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB213",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB7",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB219",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Agriculture and Revenue (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1922552",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-15d396655beb",
+  "jurisdiction": "wi",
+  "location": "201SE, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-06-04T10:00:00",
+  "scheduled_iso": "2025-06-04T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "SB6",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5380",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB344",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5379",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5004",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Children Committee Public Hearing (2E-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=KID",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-99d639f0277b",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-03T13:00:00",
+  "scheduled_iso": "2026-03-03T13:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

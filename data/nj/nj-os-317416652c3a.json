@@ -1,0 +1,68 @@
+{
+  "bills": [
+    {
+      "id": "A4620",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A1545",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2130",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3315",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4050",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4761",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4961",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5064",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AJR150",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S497",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Transportation and Independent Authorities Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-317416652c3a",
+  "jurisdiction": "nj",
+  "location": "Committee Room 11, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-06-01T10:00:00",
+  "scheduled_iso": "2026-06-01T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

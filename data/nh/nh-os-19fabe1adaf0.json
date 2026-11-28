@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "COMMITTEE TO STUDY THE IMPLEMENTATION OF A STATEWIDE REGISTRATION SYSTEM FOR RESIDENTIAL BUILDERS AND CONTRACTORS",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3206&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-19fabe1adaf0",
+  "jurisdiction": "nh",
+  "location": "New Hampshire State House, 107 North Main Street, Concord, NH 03301, Room 122-123",
+  "scheduled_display": "2026-10-29T13:00:00",
+  "scheduled_iso": "2026-10-29T13:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

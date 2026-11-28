@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R15938",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* PRESENTATION for Resolution No. 159-38 (LS) - Speaker Frank F. Blas, Jr.",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-b75e30d3966e",
+  "jurisdiction": "gu",
+  "location": "Guam Community College, Multi-Purpose Auditorium, Building 300.",
+  "scheduled_display": "2026-03-30T11:00:00",
+  "scheduled_iso": "2026-03-30T11:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Hafa Adai! Join me in presenting: · Legislative Resolution No. 159-38 (LS) – Frank F. Blas, Jr., Telo T. Taitague, William A. Parkinson, Jesse A. Lujan, V. Anthony Ada, Joe S. San Agustin, Christopher M. Dueñas, Therese M. Terlaje, Shelly V. Calvo, Sabrina Salas Matanane, Tina Rose Muña-Barnes, Eulogio Shawn Gumataotao, Sabina F. Perez, Vincent A.V. Borja, Chris Barnett – “Relative to recognizing and commending the Guam Coalition Against Sexual Assault & Family Violence, the Guam Bureau of Women’s Affairs, the Guam Behavioral Health and Wellness Center, the Guam Department of Publi…",
+  "witness_slip_url": null
+}

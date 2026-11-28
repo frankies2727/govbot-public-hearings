@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "S3113",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3530",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S219",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S413",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S451",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1107",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1155",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1759",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1799",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1821",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3096",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Community and Urban Affairs Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-e2e591bed41f",
+  "jurisdiction": "nj",
+  "location": "Committee Room 1, 1st Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-03-05T10:00:00",
+  "scheduled_iso": "2026-03-05T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

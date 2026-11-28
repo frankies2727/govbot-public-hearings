@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "B22838",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B23438",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing - Senator Jesse Lujan",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-eeaeccb39f76",
+  "jurisdiction": "gu",
+  "location": "See Agenda",
+  "scheduled_display": "2026-01-12T09:00:00",
+  "scheduled_iso": "2026-01-12T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: PT.1 : https://youtu.be/nsxMYQxT9Ak PT.2 : https://youtube.com/live/WfUeqfBJLhg The Committee on Transportation, Tourism, Customs, Utilities and Federal & Foreign Affairs will conduct a public hearing on Monday, January 12, 2026 beginning at 9:00 AM at the Public Hearing Room in the Guam Congress Building. The agenda is as follows: · Bill No. 228-38 (COR) – Jesse A. Lujan AN ACT TO ADD A NEW ARTICLE 4 TO CHAPTER 58, TITLE 12, GUAM CODE ANNOTATED, RELATIVE TO ESTABLISHING THE “ENHANCING TOURISM AESTHETICS PROGRAM”. · Bill No. 234-38 (COR) – Jesse A. Lujan AN ACT TO ADD A NEW §73…",
+  "witness_slip_url": null
+}

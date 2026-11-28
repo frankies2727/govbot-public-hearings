@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Meeting of Senate and House Committees for Courts of Justice - Judicial Interviews",
+  "details_url": "https://lis.virginia.gov/schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "va-os-6ae60eb662b2",
+  "jurisdiction": "va",
+  "location": "House Room A, Room 008, General Assembly Building",
+  "scheduled_display": "2026-12-04T09:00:00",
+  "scheduled_iso": "2026-12-04T09:00:00",
+  "source": "lis.virginia.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "A2054",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2247",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2733",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2772",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4799",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Children, Families and Food Security Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-ab6d9a66c18e",
+  "jurisdiction": "nj",
+  "location": "Committee Room 9, 3rd Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608.",
+  "scheduled_display": "2026-05-07T10:00:00",
+  "scheduled_iso": "2026-05-07T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

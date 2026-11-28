@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R23538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Presentation Resolution No. 235-38 (COR) - Office of Senator Sabrina Salas Matanane",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-3d9381ef630b",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room at the Guam Legislature Building.",
+  "scheduled_display": "2026-12-01T08:30:00",
+  "scheduled_iso": "2026-12-01T08:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Please join me in presenting Legislative Resolution No. 235-38 (COR), relative to recognizing December 1, 2026, as “GivingTuesday Guam”; and commending KUAM CareForce, its Spark Ambassadors, and the island’s nonprofit organizations, businesses, community partners, and volunteers for their continued commitment to generosity, philanthrophy, and community service throughout Guam. The presentation is scheduled for Tuesday, December 1, 2026, at 8:30 a.m. in the Public Hearing Room at the Guam Legislature Building. For more information about the presentation, contact the Office of Legislative Secre…",
+  "witness_slip_url": null
+}

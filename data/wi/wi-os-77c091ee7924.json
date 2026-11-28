@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "AB92",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Colleges and Universities (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1918271",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-77c091ee7924",
+  "jurisdiction": "wi",
+  "location": "225 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-15T10:00:00",
+  "scheduled_iso": "2025-05-15T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

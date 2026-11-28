@@ -1,0 +1,497 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:New Hampshire hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:nh-os-7eda095b5106@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T143000Z
+SUMMARY:COMMISSION TO STUDY THE USE AND REGULATION OF THE SUPPLEMENTAL NUTR
+ ITION ASSISTANCE PROGRAM (SNAP) IN NEW HAMPSHIRE
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3216&et=2
+LOCATION:New Hampshire State House\, 107 North Main Street\, Concord\, NH 0
+ 3301\, Room 100
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=321
+ 6&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-fa4bb4907228@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T143000Z
+SUMMARY:COMMISSION TO STUDY THE USE AND REGULATION OF THE SUPPLEMENTAL NUTR
+ ITION ASSISTANCE PROGRAM (SNAP) IN NEW HAMPSHIRE
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3216&et=2
+LOCATION:New Hampshire State House\, 107 North Main Street\, Concord\, NH 0
+ 3301\, Room 100
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 16&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-55d1e074e69e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T180000Z
+SUMMARY:LEGISLATIVE ETHICS COMMITTEE
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3244&et=2
+LOCATION:Legislative Office Building\, 33 North State Street\, Concord\, NH
+  03301\, Room 101
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=324
+ 4&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-d6bb363e2ef5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T180000Z
+SUMMARY:LEGISLATIVE ETHICS COMMITTEE
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3244&et=2
+LOCATION:Legislative Office Building\, 33 North State Street\, Concord\, NH
+  03301\, Room 101
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 44&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-502ce61915f2@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T153000Z
+SUMMARY:Connecticut Lakes Headwaters Citizens Committee ==NON-LEGISLATIVE==
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3248&et=2
+LOCATION:Pittsburg Ridge Runners Clubhouse 17 Dickson Lane\, Pittsburg NH
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 48&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-cd53d9f7b94a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T153000Z
+SUMMARY:Connecticut Lakes Headwaters Citizens Committee ==NON-LEGISLATIVE==
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3248&et=2
+LOCATION:Pittsburg Ridge Runners Clubhouse 17 Dickson Lane\, Pittsburg NH
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=324
+ 8&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-1524872f6989@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T220000Z
+SUMMARY:STATE VETERANS ADVISORY COMMITTEE
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3122&et=2
+LOCATION:Edward Cross Training Complex 722 Riverwood Dr.\, Pembroke\, NH
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=312
+ 2&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-d89d375a7ce4@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T220000Z
+SUMMARY:STATE VETERANS ADVISORY COMMITTEE
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3122&et=2
+LOCATION:Edward Cross Training Complex 722 Riverwood Dr.\, Pembroke\, NH
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=31
+ 22&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-33baa440774b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T190000Z
+SUMMARY:COMMISSION ON THE INTERDISCIPLINARY PRIMARY CARE WORKFORCE
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3246&et=2
+LOCATION:NH Hospital Association\, 125 Airport Road\, Concord\, NH 03301
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=324
+ 6&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-7c7f9d675324@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T190000Z
+SUMMARY:COMMISSION ON THE INTERDISCIPLINARY PRIMARY CARE WORKFORCE
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3246&et=2
+LOCATION:NH Hospital Association\, 125 Airport Road\, Concord\, NH 03301
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 46&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-2747aa3d812d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T140000Z
+SUMMARY:NH COLLEGE TUITION SAVINGS PLAN ADVISORY COMMISSION
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3153&et=2
+LOCATION:Granite Edvance 3 Barrell Court Concord\, NH
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=315
+ 3&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-27e710183134@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T140000Z
+SUMMARY:ADVISORY COUNCIL ON CAREER AND TECHNICAL EDUCATION
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3239&et=2
+LOCATION:25 Hall Street\, Concord
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 39&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-82459cb64d54@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T140000Z
+SUMMARY:ADVISORY COUNCIL ON CAREER AND TECHNICAL EDUCATION
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3239&et=2
+LOCATION:25 Hall Street\, Concord
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=323
+ 9&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-f6456863899c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T140000Z
+SUMMARY:NH COLLEGE TUITION SAVINGS PLAN ADVISORY COMMISSION
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3153&et=2
+LOCATION:Granite Edvance 3 Barrell Court Concord\, NH
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=31
+ 53&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-6cd741925d7b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T140000Z
+SUMMARY:CURRENT USE BOARD
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3231&et=2
+LOCATION:Training Room\, 109 Pleasant Street\, Concord
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=323
+ 1&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-8c1eb438b115@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T140000Z
+SUMMARY:CURRENT USE BOARD
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3159&et=2
+LOCATION:Department of Revenue Administration- Training Room 109 Pleasant S
+ treet Concord NH
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=315
+ 9&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-95f59b22c0ea@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T140000Z
+SUMMARY:CURRENT USE BOARD
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3231&et=2
+LOCATION:Training Room\, 109 Pleasant Street\, Concord
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 31&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-bd3e1d5725c7@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T140000Z
+SUMMARY:CURRENT USE BOARD
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3159&et=2
+LOCATION:Department of Revenue Administration- Training Room 109 Pleasant S
+ treet Concord NH
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=31
+ 59&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-979bd7d8c327@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T143000Z
+SUMMARY:THE GOVERNOR'S COMMISSION ON ADDICTION\, TREATMENT AND PREVENTION
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=2086&et=2
+LOCATION:NH State House\, 107 N Main St.\, Concord\, NH Executive Council C
+ hambers – Room 208
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=20
+ 86&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-ea12522aff1f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T143000Z
+SUMMARY:THE GOVERNOR'S COMMISSION ON ADDICTION\, TREATMENT AND PREVENTION
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=2086&et=2
+LOCATION:NH State House\, 107 N Main St.\, Concord\, NH Executive Council C
+ hambers – Room 208
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=208
+ 6&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-29b00bf449bb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T150000Z
+SUMMARY:COMMISSION TO STUDY THE INCIDENCE OF POST-TRAUMATIC STRESS DISORDER
+  IN FIRST RESPONDERS
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3232&et=2
+LOCATION:NH Fire Academy 98 Smokey Bear Blvd.\, Classroom 2 Concord\, NH 03
+ 301
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=323
+ 2&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-e2b6efe9bfe4@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T150000Z
+SUMMARY:COMMISSION TO STUDY THE INCIDENCE OF POST-TRAUMATIC STRESS DISORDER
+  IN FIRST RESPONDERS
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3232&et=2
+LOCATION:NH Fire Academy 98 Smokey Bear Blvd.\, Classroom 2 Concord\, NH 03
+ 301
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 32&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-6bfaef148bcb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T150000Z
+SUMMARY:NEW HAMPSHIRE COUNCIL ON SUICIDE PREVENTION
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3213&et=2
+LOCATION:National Guard Edward Cross Training Center 722 Riverwood Drive Pe
+ mbroke\, NH
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=321
+ 3&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-8707645e2b2d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T150000Z
+SUMMARY:NEW HAMPSHIRE COUNCIL ON SUICIDE PREVENTION
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3213&et=2
+LOCATION:National Guard Edward Cross Training Center 722 Riverwood Drive Pe
+ mbroke\, NH
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 13&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-08cb8f1178e5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T190000Z
+SUMMARY:NEW HAMPSHIRE DRUG OVERDOSE FATALITY REVIEW COMMISSION
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3234&et=2
+LOCATION:New Hampshire State House\, 107 North Main Street\, Concord\, NH 0
+ 3301\, Room 100
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=323
+ 4&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-a15e7447aceb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T190000Z
+SUMMARY:NEW HAMPSHIRE DRUG OVERDOSE FATALITY REVIEW COMMISSION
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3234&et=2
+LOCATION:New Hampshire State House\, 107 North Main Street\, Concord\, NH 0
+ 3301\, Room 100
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 34&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-903f8b2f2d1e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T140000Z
+SUMMARY:ADMINISTRATIVE RULES
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3245&et=2
+LOCATION:New Hampshire State House\, 107 North Main Street\, Concord\, NH 0
+ 3301\, Room 100
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=324
+ 5&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-935d3a347ffe@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T140000Z
+SUMMARY:ADMINISTRATIVE RULES
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3245&et=2
+LOCATION:New Hampshire State House\, 107 North Main Street\, Concord\, NH 0
+ 3301\, Room 100
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 45&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-81dbdff6d8c9@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T150000Z
+SUMMARY:COUNTY-STATE FINANCE COMMISSION
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3208&et=2
+LOCATION:Brown Building 129 Pleasant St Concord\, NH 03301
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=320
+ 8&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-8da8eac61551@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T150000Z
+SUMMARY:COUNTY-STATE FINANCE COMMISSION
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3208&et=2
+LOCATION:Brown Building 129 Pleasant St Concord\, NH 03301
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 08&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-c2075f7b6f0f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261218T140000Z
+SUMMARY:NEW HAMPSHIRE-IRELAND TRADE COUNCIL
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3243&et=2
+LOCATION:Department of Business and Economic Affairs\, 100 North Main Stree
+ t\, Suite 100\, Concord\, NH 03301
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=324
+ 3&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-f5952ebe3f42@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261218T140000Z
+SUMMARY:NEW HAMPSHIRE-IRELAND TRADE COUNCIL
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3243&et=2
+LOCATION:Department of Business and Economic Affairs\, 100 North Main Stree
+ t\, Suite 100\, Concord\, NH 03301
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 43&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-3064af106ee3@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261218T180000Z
+SUMMARY:WORKING GROUP FOR THE STUDY OF NURSING HOME RATE MEDICAID METHODOLO
+ GY
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3222&et=2
+LOCATION:DHHS Brown Building\, Conference Room 468\, 129 Pleasant Street\, 
+ Concord\, NH 03301
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=322
+ 2&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-d4238e29a23a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261218T180000Z
+SUMMARY:WORKING GROUP FOR THE STUDY OF NURSING HOME RATE MEDICAID METHODOLO
+ GY
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3222&et=2
+LOCATION:DHHS Brown Building\, Conference Room 468\, 129 Pleasant Street\, 
+ Concord\, NH 03301
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 22&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-4793d7cb574b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261221T150000Z
+SUMMARY:STATE COMMISSION ON AGING
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3020&et=2
+LOCATION:NH Hospital Association 125 Airport Rd Concord\, NH
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=302
+ 0&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-5cb3fb3578f6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261221T150000Z
+SUMMARY:STATE COMMISSION ON AGING
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3020&et=2
+LOCATION:NH Hospital Association 125 Airport Rd Concord\, NH
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=30
+ 20&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-8b5bed3e0e2e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270108T150000Z
+SUMMARY:COMMISSION TO STUDY THE USE OF OHRVS IN NEW HAMPSHIRE
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3229&et=2
+LOCATION:REMOTE
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=322
+ 9&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-f4e9dd3dae2c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270108T150000Z
+SUMMARY:COMMISSION TO STUDY THE USE OF OHRVS IN NEW HAMPSHIRE
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3229&et=2
+LOCATION:REMOTE
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 29&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-6e89a7627e8f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270111T140000Z
+SUMMARY:ADVISORY COUNCIL ON CAREER AND TECHNICAL EDUCATION
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3240&et=2
+LOCATION:25 Hall Street\, Concord
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=324
+ 0&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-7145eb9aa0ed@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270111T140000Z
+SUMMARY:ADVISORY COUNCIL ON CAREER AND TECHNICAL EDUCATION
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3240&et=2
+LOCATION:25 Hall Street\, Concord
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 40&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-bfb00a5021fb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270312T150000Z
+SUMMARY:COMMISSION TO STUDY THE USE OF OHRVS IN NEW HAMPSHIRE
+DESCRIPTION:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?
+ event=3228&et=2
+LOCATION:REMOTE
+URL:https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=32
+ 28&et=2
+END:VEVENT
+BEGIN:VEVENT
+UID:nh-os-d580d6b5bd58@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270312T150000Z
+SUMMARY:COMMISSION TO STUDY THE USE OF OHRVS IN NEW HAMPSHIRE
+DESCRIPTION:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?e
+ vent=3228&et=2
+LOCATION:REMOTE
+URL:https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=322
+ 8&et=2
+END:VEVENT
+END:VCALENDAR

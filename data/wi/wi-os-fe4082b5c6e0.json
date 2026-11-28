@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "SB228",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB282",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Health (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1945462",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-fe4082b5c6e0",
+  "jurisdiction": "wi",
+  "location": "323S, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-03T13:00:00",
+  "scheduled_iso": "2025-10-03T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

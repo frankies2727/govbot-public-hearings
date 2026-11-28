@@ -1,0 +1,24 @@
+{
+  "bills": [
+    {
+      "id": "H5296",
+      "slips": null,
+      "title": "An Act relative to early intervention services for children with prenatal exposure to opioids",
+      "url": "https://malegislature.gov/Bills/194/H5296"
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Joint Committee on Public Health",
+  "details_url": "https://malegislature.gov/Events/Hearings/Detail/5820",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ma-joint-5820",
+  "jurisdiction": "ma",
+  "location": "A-1 · 24 Beacon Street · Boston, MA",
+  "scheduled_display": "2026-12-02T10:00:00",
+  "scheduled_iso": "2026-12-02T10:00:00",
+  "source": "malegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Public Health Late Files II",
+  "witness_slip_url": "https://malegislature.gov/Events/Hearings/Detail/5820"
+}

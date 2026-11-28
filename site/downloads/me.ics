@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maine hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:me-os-63691b44658c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T183000Z
+SUMMARY:Legislative Council
+DESCRIPTION:https://legislature.maine.gov/committee/#Committees/LC
+LOCATION:Maine State House\, 210 State St\, Augusta\, ME 04330\, Room 334
+URL:https://legislature.maine.gov/committee/#Committees/LC
+END:VEVENT
+END:VCALENDAR

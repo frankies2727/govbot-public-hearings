@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "SB400",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB497",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB542",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB702",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB735",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB783",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB795",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB813",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB825",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB415",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB502",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Transportation and Local Government (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1969928",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-a6d6b59e0e3a",
+  "jurisdiction": "wi",
+  "location": "310 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-04T12:00:00",
+  "scheduled_iso": "2026-02-04T12:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

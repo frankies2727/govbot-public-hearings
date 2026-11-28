@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:South Dakota hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:sd-os-296431d9b440@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T190000Z
+SUMMARY:Interim Committee on Appropriations
+DESCRIPTION:https://sdlegislature.gov/Interim/Committee/496/Detail
+LOCATION:Room 362\, 500 E Capitol Ave\, Pierre\, SD 57501
+URL:https://sdlegislature.gov/Interim/Committee/496/Detail
+END:VEVENT
+BEGIN:VEVENT
+UID:sd-os-5511eb30a6db@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T190000Z
+SUMMARY:Governor's Budget Address
+DESCRIPTION:https://sdlegislature.gov/Session/Committee/None/Detail
+LOCATION:House
+URL:https://sdlegislature.gov/Session/Committee/None/Detail
+END:VEVENT
+END:VCALENDAR

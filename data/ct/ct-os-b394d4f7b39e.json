@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Judiciary Committee Public Hearing followed by a Committee Meeting (2E-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=JUD",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-b394d4f7b39e",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-20T10:00:00",
+  "scheduled_iso": "2026-02-20T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Energy Commission of Virginia",
+  "details_url": "https://lis.virginia.gov/schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "va-os-3710ba279a11",
+  "jurisdiction": "va",
+  "location": "Senate Room B, Room 306, General Assembly Building",
+  "scheduled_display": "2026-11-30T12:00:00",
+  "scheduled_iso": "2026-11-30T12:00:00",
+  "source": "lis.virginia.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

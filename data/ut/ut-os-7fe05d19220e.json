@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "HB563",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB562",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HCR5",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB251",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB254",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SCR9",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Natural Resources, Agriculture, and Environment Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTNAE",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-7fe05d19220e",
+  "jurisdiction": "ut",
+  "location": "120 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-03-02T08:10:00",
+  "scheduled_iso": "2026-03-02T08:10:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

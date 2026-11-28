@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate",
+  "details_url": "https://www.senate.mn/committees/committee_bio.php?ls=94&cmte_id=1",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mn-os-654df41c7a3b",
+  "jurisdiction": "mn",
+  "location": "Minnesota Senate Bldg. 1150",
+  "scheduled_display": "2027-01-12T12:00:00",
+  "scheduled_iso": "2027-01-12T12:00:00",
+  "source": "www.senate.mn",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "The Senate will be in Session at 12:00 pm",
+  "witness_slip_url": null
+}

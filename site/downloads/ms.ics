@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mississippi hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ms-os-02f7412d4afa@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T160000Z
+SUMMARY:Management
+DESCRIPTION:https://billstatus.ls.state.ms.us/htms/h_sched.htm
+LOCATION:400 High St\, Jackson\, MS 39201\, 302
+URL:https://billstatus.ls.state.ms.us/htms/h_sched.htm
+END:VEVENT
+END:VCALENDAR

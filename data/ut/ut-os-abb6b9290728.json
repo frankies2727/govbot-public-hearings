@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "HR4",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HR7",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB148",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB192",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Rules Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTRUL",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-abb6b9290728",
+  "jurisdiction": "ut",
+  "location": "450 State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-25T13:00:00",
+  "scheduled_iso": "2026-02-25T13:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

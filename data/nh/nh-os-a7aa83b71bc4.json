@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "SUBCOMMITTEE ON ALZHEIMER'S DISEASE AND OTHER RELATED DEMENTIA",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3200&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-a7aa83b71bc4",
+  "jurisdiction": "nh",
+  "location": "New Hampshire State House, 107 North Main Street, Concord, NH 03301, Room 100",
+  "scheduled_display": "2026-11-06T14:30:00",
+  "scheduled_iso": "2026-11-06T14:30:00",
+  "source": "gencourt.state.nh.us",
+  "status": "canceled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "AB542",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB623",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB699",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB700",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Insurance (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1956724",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-f6474739f274",
+  "jurisdiction": "wi",
+  "location": "328 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-12-04T13:00:00",
+  "scheduled_iso": "2025-12-04T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

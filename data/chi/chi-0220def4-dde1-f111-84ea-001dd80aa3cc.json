@@ -1,0 +1,18 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "comment_deadline": "2026-12-09T10:00:00",
+  "committee": "Committee on Public Safety",
+  "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=0220DEF4-DDE1-F111-84EA-001DD80AA3CC",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "chi-0220def4-dde1-f111-84ea-001dd80aa3cc",
+  "jurisdiction": "chi",
+  "location": "City Council Chamber, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
+  "scheduled_display": "2026-12-10T10:00:00",
+  "scheduled_iso": "2026-12-10T10:00:00",
+  "source": "chicityclerkelms.chicago.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Change of Times Only to 10:00 AM Subject Matter Hearing and Committee Meeting.",
+  "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/929ef164-f717-49dc-b887-fca3a7219b65.pdf"
+}

@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "AB38",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB280",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB369",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB375",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Ways and Means (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1937401",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-57a1e9257811",
+  "jurisdiction": "wi",
+  "location": "328 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-08-21T10:00:00",
+  "scheduled_iso": "2025-08-21T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

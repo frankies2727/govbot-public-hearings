@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "SB395",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Utilities, Technology and Tourism (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1945053",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-3dc0cc7ee09a",
+  "jurisdiction": "wi",
+  "location": "316 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-02T13:00:00",
+  "scheduled_iso": "2025-10-02T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

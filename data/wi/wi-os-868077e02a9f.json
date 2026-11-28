@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Administrative Rules (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1925952",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-868077e02a9f",
+  "jurisdiction": "wi",
+  "location": "415 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-06-26T10:01:00",
+  "scheduled_iso": "2025-06-26T10:01:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Minnesota hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:mn-os-7f79159bea39@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T200000Z
+SUMMARY:Senate Legislative Audit Commission
+DESCRIPTION:Legislative Audit Commission\nhttps://www.leg.mn.gov/cal?type=s
+ ingle&mtgid=c_2341
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2341
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-99c6bbb10c9b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T160000Z
+SUMMARY:Senate Legislative Commission on Pensions and Retirement - Executiv
+ e Committee
+DESCRIPTION:Legislative Commission on Pensions and Retirement - Executive C
+ ommittee\nhttps://www.leg.mn.gov/cal?type=single&mtgid=c_2345
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2345
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-8b7a01517b7e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T190000Z
+SUMMARY:Senate Melissa and Mark Hortman Memorial State Park Working Group
+DESCRIPTION:Melissa and Mark Hortman Memorial State Park Working Group\nhtt
+ ps://www.leg.mn.gov/cal?type=single&mtgid=c_2331
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2331
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-2416f1ec15b5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T190000Z
+SUMMARY:Senate Legislative Commission on Pensions and Retirement - Work Gro
+ up on Duty Disability and the Public Safety Officer's Benefit Account
+DESCRIPTION:Legislative Commission on Pensions and Retirement - Work Group 
+ on Duty Disability and the Public Safety Officer's Benefit Account\nhttps:
+ //www.leg.mn.gov/cal?type=single&mtgid=c_2342
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2342
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-787e44b01acb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T160000Z
+SUMMARY:Senate Legislative Commission on Human Services Systems
+DESCRIPTION:Legislative Commission on Human Services Systems\nhttps://www.l
+ eg.mn.gov/cal?type=single&mtgid=c_2338
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2338
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-642671251717@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T160000Z
+SUMMARY:Senate Legislative Commission on Pensions and Retirement - Work Gro
+ up on Vesting and Emergency Medical Providers in Relief Associations and t
+ he SVF Plan
+DESCRIPTION:Legislative Commission on Pensions and Retirement - Work Group 
+ on Vesting and Emergency Medical Providers in Relief Associations and the 
+ SVF Plan\nhttps://www.leg.mn.gov/cal?type=single&mtgid=c_2340
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2340
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-8de3376c11d6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T143000Z
+SUMMARY:Senate Lessard-Sams Outdoor Heritage Council
+DESCRIPTION:Lessard-Sams Outdoor Heritage Council\nhttps://www.leg.mn.gov/c
+ al?type=single&mtgid=c_2245
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2245
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-9daf9302d5b3@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T190000Z
+SUMMARY:Senate Legislative Inspector General Advisory Commission
+DESCRIPTION:Legislative Inspector General Advisory Commission\nhttps://www.
+ leg.mn.gov/cal?type=single&mtgid=c_2344
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2344
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-bffa58c754d8@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T160000Z
+SUMMARY:Senate Regent Candidate Advisory Council
+DESCRIPTION:Regent Candidate Advisory Council\nhttps://www.leg.mn.gov/cal?t
+ ype=single&mtgid=c_2343
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2343
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-1026dc6cf267@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:Senate Legislative-Citizen Commission on Minnesota Resources
+DESCRIPTION:Legislative-Citizen Commission on Minnesota Resources\nhttps://
+ www.leg.mn.gov/cal?type=single&mtgid=c_2227
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2227
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-14e7f275790b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T180000Z
+SUMMARY:Senate Tax Expenditure Review Commission
+DESCRIPTION:Tax Expenditure Review Commission\nhttps://www.leg.mn.gov/cal?t
+ ype=single&mtgid=c_2264
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2264
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-856351c587f4@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T190000Z
+SUMMARY:Senate Melissa and Mark Hortman Memorial State Park Working Group
+DESCRIPTION:Melissa and Mark Hortman Memorial State Park Working Group\nhtt
+ ps://www.leg.mn.gov/cal?type=single&mtgid=c_2309
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2309
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-92edc06fe27c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T190000Z
+SUMMARY:Senate Legislative Inspector General Advisory Commission
+DESCRIPTION:Legislative Inspector General Advisory Commission\nhttps://www.
+ leg.mn.gov/cal?type=single&mtgid=c_2337
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2337
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-f3c9aa6fe261@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270106T150000Z
+SUMMARY:Senate Legislative-Citizen Commission on Minnesota Resources
+DESCRIPTION:Legislative-Citizen Commission on Minnesota Resources\nhttps://
+ www.leg.mn.gov/cal?type=single&mtgid=c_2228
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2228
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-0fd1582e0083@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270106T190000Z
+SUMMARY:Senate Melissa and Mark Hortman Memorial State Park Working Group
+DESCRIPTION:Melissa and Mark Hortman Memorial State Park Working Group\nhtt
+ ps://www.leg.mn.gov/cal?type=single&mtgid=c_2310
+URL:https://www.leg.mn.gov/cal?type=single&mtgid=c_2310
+END:VEVENT
+BEGIN:VEVENT
+UID:mn-os-654df41c7a3b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270112T180000Z
+SUMMARY:Senate
+DESCRIPTION:The Senate will be in Session at 12:00 pm\nhttps://www.senate.m
+ n/committees/committee_bio.php?ls=94&cmte_id=1
+LOCATION:Minnesota Senate Bldg. 1150
+URL:https://www.senate.mn/committees/committee_bio.php?ls=94&cmte_id=1
+END:VEVENT
+END:VCALENDAR

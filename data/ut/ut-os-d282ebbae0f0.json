@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "SB34",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB181",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB240",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB241",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB268",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB407",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB518",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Education Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTEDU",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-d282ebbae0f0",
+  "jurisdiction": "ut",
+  "location": "120 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-27T16:00:00",
+  "scheduled_iso": "2026-02-27T16:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

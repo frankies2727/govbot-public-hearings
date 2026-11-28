@@ -1,0 +1,103 @@
+{
+  "bills": [
+    {
+      "id": "HJ34",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB386",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB387",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5342",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ32",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB385",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5341",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HJ33",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB384",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5343",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ37",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5344",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5347",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5345",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5348",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJ38",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5346",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Government Administration and Elections Committee Public Hearing (1D-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-9a62f6cf3fe7",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-04T10:30:00",
+  "scheduled_iso": "2026-03-04T10:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

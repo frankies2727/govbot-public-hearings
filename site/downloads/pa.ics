@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Pennsylvania hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:pa-os-998684a2bf57@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T150000Z
+SUMMARY:INDEPENDENT REGULATORY REVIEW COMMISSION
+DESCRIPTION:Public hearing on A meeting of the Independent Regulatory Revie
+ w Commission has been scheduled for December 3\, 2026 at 10:00 a.m. in the
+  8th Floor Conference Room\, 555 Walnut Street. The agenda includes the fo
+ llowing regulations: 1. No. 3420 Pennsylvania Public Utility Commission #5
+ 7-341: Regulations Governing the Public Utility Commission's General Provi
+ sions\, 52 Pa. Code Chapters 1\, 3\, and 5 (relating to Rules of Administr
+ ative Practice and Procedure\; Special Provisions\; and Formal Proceedings
+ ) 2. No. 3459 Municipal Police Officers' Education and Training Commission
+  #17-89: Law Enforcement…\nhttps://www.palegis.us/house/committees/meeti
+ ng-schedule
+LOCATION:8th Floor\,Conference Room\,555 Walnut Street\,Harrisburg\, PA
+URL:https://www.palegis.us/house/committees/meeting-schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-os-ec457d514faf@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T150000Z
+SUMMARY:INDEPENDENT REGULATORY REVIEW COMMISSION
+DESCRIPTION:(public hearing agenda includes the following regulations: No. 
+ 3420 Pennsylvania Public Utility Commission #57-341: Regulations Governing
+  the Public Utility Commission's General Provisions\, 52 Pa. Code Chapters
+  1\, 3\, and 5 (relating to Rules of Administrative Practice and Procedure
+ \; Special Provisions\; and Formal Proceedings)\; No. 3459 Municipal Polic
+ e Officers' Education and Training Commission #17-89: Law Enforcement Back
+ ground Investigations\; No. 3474 State Board of Social Workers\, Marriage 
+ and Family Therapists and Professional Counselors #16A-6927: Associate MFT
+  and PC and Supervision\; N…\nhttps://www.palegis.us/senate/committees/m
+ eeting-schedule
+LOCATION:8th Floor\,Conference Room\,555 Walnut Street\,Harrisburg\, PA
+URL:https://www.palegis.us/senate/committees/meeting-schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-os-811ae885a3b9@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:PENNSYLVANIA COMMISSION ON SENTENCING
+DESCRIPTION:Quarterly Business Meetingvia Zoom (https://bit.ly/PCSCommMtgDe
+ c102026- opens in a new tab)\nhttps://www.palegis.us/house/committees/meet
+ ing-schedule
+LOCATION:523 Irvis Bldg.\,Capitol Complex\,Harrisburg\, PA
+URL:https://www.palegis.us/house/committees/meeting-schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-os-abc6df7b2e59@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:PENNSYLVANIA COMMISSION ON SENTENCING
+DESCRIPTION:via Zoom https://bit.ly/PCSCommMtgDec102026- opens in a new tab
+ \nhttps://www.palegis.us/senate/committees/meeting-schedule
+LOCATION:523 Irvis Office\, Capital Complex\, Harrisburg\, PA\,\,
+URL:https://www.palegis.us/senate/committees/meeting-schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-os-7198b0270163@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T150000Z
+SUMMARY:CENTER FOR RURAL PENNSYLVANIA
+DESCRIPTION:Board of Directors Meeting The Board will meet to conduct regul
+ ar business affairs of the Center. Any questions\, please contact Linda Hi
+ nson at lhinson@rural.pa.gov\nhttps://www.palegis.us/house/committees/meet
+ ing-schedule
+LOCATION:2198 Sweet Root Rd.\,Bedford\, PA
+URL:https://www.palegis.us/house/committees/meeting-schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-os-ddf6fa02f454@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T150000Z
+SUMMARY:CENTER FOR RURAL PENNSYLVANIA
+DESCRIPTION:any questions\, please contact Linda Hinson at lhinson@rural.pa
+ .gov\nhttps://www.palegis.us/senate/committees/meeting-schedule
+LOCATION:2198 Sweet Root Rd.\,Bedford\, PA
+URL:https://www.palegis.us/senate/committees/meeting-schedule
+END:VEVENT
+END:VCALENDAR

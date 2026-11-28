@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "AB39",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "State Affairs (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1912367",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-e656724d97db",
+  "jurisdiction": "wi",
+  "location": "225 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-04-09T10:30:00",
+  "scheduled_iso": "2025-04-09T10:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

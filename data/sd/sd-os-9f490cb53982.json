@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "SB32",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB34",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB93",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB101",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB190",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB197",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House State Affairs",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1272/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-9f490cb53982",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-02-25T07:30:00",
+  "scheduled_iso": "2026-02-25T07:30:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

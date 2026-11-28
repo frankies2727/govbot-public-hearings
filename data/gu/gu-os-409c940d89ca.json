@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "B25538",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B32738",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B34338",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing:September 2, 2026- Senator Sabrina Salas Matanane",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-409c940d89ca",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-09-02T08:00:00",
+  "scheduled_iso": "2026-09-02T08:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/Eb0ooP9KxvM The Committee on Health and Veterans Affairs will conduct a Public Hearing on Wednesday September 2, beginning at 8:00 A.M., in the Public Hearing Room of the Guam Congress Building. The Committee will hear and accept testimony on the following: Guam Memorial Hospital Authority – New Fee Package dated June 24, 2026. Bill No. 255-38 (COR) - V. Anthony Ada, Christopher M. Dueñas, Vincent A.V. Borja. – “AN ACT TO AMEND CHAPTER 67 OF TITLE 10, GUAM CODE ANNOTATED, RELATIVE TO MODERNIZING AND EXPANDING THE GUAM OFFICE OF VETERANS AFFAIRS (GOVA) W…",
+  "witness_slip_url": null
+}

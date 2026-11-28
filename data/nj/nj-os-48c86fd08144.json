@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Assembly Children, Families and Food Security Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-48c86fd08144",
+  "jurisdiction": "nj",
+  "location": "New Jersey Statehouse, 125 W State St, Trenton, NJ 08608",
+  "scheduled_display": "Sep 14, 2026 · time not posted",
+  "scheduled_iso": "2026-09-14T00:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

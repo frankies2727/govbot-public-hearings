@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "AB313",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Financial Institutions (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1944521",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-3231e3b88bd5",
+  "jurisdiction": "wi",
+  "location": "328 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-01T10:00:00",
+  "scheduled_iso": "2025-10-01T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

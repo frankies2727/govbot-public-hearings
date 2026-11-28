@@ -1,0 +1,234 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Connecticut hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ct-os-f44986a93cd6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T000000Z
+SUMMARY:Veterinary Telemedicine Working Group Meeting (ZOOM1)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=PH
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-e328b1a2eabc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T160000Z
+SUMMARY:Interest on Real Estate Broker's Trust Account (IOREBTA) Housing Ad
+ visory Committee Meeting (ZOOM1)
+DESCRIPTION:https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=
+ HSG
+LOCATION:LOB Zoom and YouTube Live
+URL:https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=HSG
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-7d5b761b0c81@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T150000Z
+SUMMARY:Voter Participation Task Force Meeting (1B-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=GAE
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-1ed72d2377a9@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T180000Z
+SUMMARY:Unconsolidated Boroughs Absentee Ballot Task Force Meeting (ZOOM1)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=GAE
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=GAE
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-059f667fb89d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T180000Z
+SUMMARY:Appropriations and Finance Committees Joint Fiscal Accountability R
+ eport Presentations (2E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=APP
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-bfcafc125be6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T180000Z
+SUMMARY:Appropriations and Finance Committees Joint Fiscal Accountability R
+ eport Presentations (2E-ZOOM)
+DESCRIPTION:https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=
+ FIN
+LOCATION:LOB Zoom and YouTube Live
+URL:https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=FIN
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-736564e2f5b1@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T180000Z
+SUMMARY:Appropriations and Human Services Committees Joint Public Hearing f
+ ollowed by Committee Meetings (2C-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=APP
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=APP
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-8bd5df58053a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T180000Z
+SUMMARY:Appropriations and Human Services Committees Joint Public Hearing f
+ ollowed by Committee Meetings (2C-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=HS
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HS
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-2aa15acfa40f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T160000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-b673fc851559@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270126T160000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-a82dc6cb492a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270223T160000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-200fb7d86d9d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270323T150000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-398818f1a7e8@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270427T150000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-09ffd9d8470a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270525T150000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-0516d08a8d72@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270622T150000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-06c36eaa37bd@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270727T150000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-c8109aec9909@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270824T150000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-184b7461dac3@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20270928T150000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-0f94a92576e6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20271026T150000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-5866a360d81b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20271123T160000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-81b2f8fd8241@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20271221T160000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+BEGIN:VEVENT
+UID:ct-os-95593bb617ab@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20280125T160000Z
+SUMMARY:Regulation Review Committee Meeting (1E-ZOOM)
+DESCRIPTION:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_co
+ de=RR
+LOCATION:LOB Zoom and YouTube Live
+URL:http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=RR
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "AB19",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB477",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB252",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Criminal Justice and Public Safety (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1954506",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-d67d3dc87d74",
+  "jurisdiction": "wi",
+  "location": "417 North (GAR Hall), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-11-18T10:00:00",
+  "scheduled_iso": "2025-11-18T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R22338",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "*Presentation:Resolution No. 223-38 (LS)- Senator Sabrina Salas Matanane",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-9b2f1b3770d0",
+  "jurisdiction": "gu",
+  "location": "Dusit Thani Guam Resort Grand Ballroom",
+  "scheduled_display": "2026-10-03T18:50:00",
+  "scheduled_iso": "2026-10-03T18:50:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Håfa Adai, Please join me in presenting Resolution No. 223-38 (LS), relative to recognizing the Guam Museum and the Guam Museum Foundation, Inc. on the centennial commemoration of the vision for the establishment of a Guam Museum and the “Silebra yan Susetni Estoriå-ta – Celebrate and Preserve Our Stories” 100th Anniversary Celebration, to be held on October 3, 2026; and commending them for their continued dedication to preserving, interpreting, and sharing Guam’s history and CHamoru cultural heritage. The presentation is scheduled for Saturday, October 3, 2026, at 6:50 p.m. at the Dusit Than…",
+  "witness_slip_url": null
+}

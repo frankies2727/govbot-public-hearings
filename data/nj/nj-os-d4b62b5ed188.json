@@ -1,0 +1,68 @@
+{
+  "bills": [
+    {
+      "id": "A4543",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1288",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1291",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1421",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1526",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2183",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3610",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3884",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4007",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJR137",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Law and Public Safety Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-d4b62b5ed188",
+  "jurisdiction": "nj",
+  "location": "Committee Room 10, 3rd Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-05-18T10:00:00",
+  "scheduled_iso": "2026-05-18T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

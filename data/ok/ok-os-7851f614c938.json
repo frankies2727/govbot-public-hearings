@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Appropriations and Budget",
+  "details_url": "https://www.okhouse.gov/events/approp-20261010-08000000",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ok-os-7851f614c938",
+  "jurisdiction": "ok",
+  "location": "NO ROOM",
+  "scheduled_display": "2026-10-10T08:00:00",
+  "scheduled_iso": "2026-10-10T08:00:00",
+  "source": "www.okhouse.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "AB25",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Energy and Utilities (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1906598",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-7e06c7fc3189",
+  "jurisdiction": "wi",
+  "location": "412 East, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-03-04T14:00:00",
+  "scheduled_iso": "2025-03-04T14:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

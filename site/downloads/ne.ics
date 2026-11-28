@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nebraska hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ne-os-a3c56b48ff95@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T190000Z
+SUMMARY:Appropriations / Transportation and Telecommunications
+DESCRIPTION:Committee Meeting\nhttps://nebraskalegislature.gov/calendar/cal
+ endar.php
+LOCATION:1445 K St\, Lincoln\, NE 68508\, Room 1023
+URL:https://nebraskalegislature.gov/calendar/calendar.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-os-4f471603805c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T200000Z
+SUMMARY:Transportation and Telecommunications
+DESCRIPTION:Committee Meeting\nhttps://nebraskalegislature.gov/calendar/cal
+ endar.php
+LOCATION:1445 K St\, Lincoln\, NE 68508\, Room 1023
+URL:https://nebraskalegislature.gov/calendar/calendar.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-os-4c407d6ddcc5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T160000Z
+SUMMARY:Meeting of the Legislative Council
+DESCRIPTION:Committee Meeting\nhttps://nebraskalegislature.gov/calendar/cal
+ endar.php
+LOCATION:Lied Lodge\, Arbor Day Farm\, Nebraska City\, NE
+URL:https://nebraskalegislature.gov/calendar/calendar.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ne-os-363b756052b6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T140000Z
+SUMMARY:Meeting of the Legislative Council
+DESCRIPTION:Committee Meeting\nhttps://nebraskalegislature.gov/calendar/cal
+ endar.php
+LOCATION:Lied Lodge\, Arbor Day Farm\, Nebraska City\, NE
+URL:https://nebraskalegislature.gov/calendar/calendar.php
+END:VEVENT
+END:VCALENDAR

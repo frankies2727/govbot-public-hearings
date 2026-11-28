@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "S3789",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2380",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S159",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S308",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S496",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2931",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4481",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4497",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4640",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4694",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4966",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Transportation Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-a2122547f8a4",
+  "jurisdiction": "nj",
+  "location": "Committee Room 10, 3rd Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-11-30T11:00:00",
+  "scheduled_iso": "2026-11-30T11:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

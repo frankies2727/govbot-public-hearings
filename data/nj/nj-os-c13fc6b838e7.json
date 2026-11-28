@@ -1,0 +1,173 @@
+{
+  "bills": [
+    {
+      "id": "S3614",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4678",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2782",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3183",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4107",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4142",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4309",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4373",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4374",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2401",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1090",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3405",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4072",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A1738",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2391",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5034",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S149",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S312",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S533",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1493",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1526",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1759",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1772",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S1834",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2959",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3158",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3233",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3387",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3815",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4219",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4258",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Budget and Appropriations Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-c13fc6b838e7",
+  "jurisdiction": "nj",
+  "location": "Committee Room 4, 1st Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-06-04T13:00:00",
+  "scheduled_iso": "2026-06-04T13:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

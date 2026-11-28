@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R20538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Presentation - Resolution 205-38 (LS) Speaker Frank F. Blas, Jr. -",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-b7b18a60dc0b",
+  "jurisdiction": "gu",
+  "location": "See Agenda",
+  "scheduled_display": "2026-08-10T13:00:00",
+  "scheduled_iso": "2026-08-10T13:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/JXWs2theWtM Håfa Adai! Join me in presenting: · Legislative Resolution No. 205-38 (LS) – “Relative to recognizing the Two Hundred Thirty-Sixth (236 th ) Anniversary of the United States Coast Guard; honoring the dedicated men and women of the United States Coast Guard for their steadfast service, sacrifice, and unwavering commitment to the people of Guam and the United States; and commending the United States Coast Guard for its enduring legacy of safeguarding our maritime domain, protecting our natural resources, and responding to disasters and emergen…",
+  "witness_slip_url": null
+}

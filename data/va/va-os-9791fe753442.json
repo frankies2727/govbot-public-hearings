@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Rappahannock River Basin Commission",
+  "details_url": "https://lis.virginia.gov/schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "va-os-9791fe753442",
+  "jurisdiction": "va",
+  "location": "Meadow Hall at Meadow Event Park, 13191 Dawn Boulevard, Doswell",
+  "scheduled_display": "2026-12-02T13:00:00",
+  "scheduled_iso": "2026-12-02T13:00:00",
+  "source": "lis.virginia.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

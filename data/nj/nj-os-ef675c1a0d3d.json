@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Assembly Tourism, Gaming and the Arts Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-ef675c1a0d3d",
+  "jurisdiction": "nj",
+  "location": "Room 201-202 of the Atlantic City Convention Center, 1 Convention Boulevard, Atlantic City, New Jersey, 08401.",
+  "scheduled_display": "2026-11-18T15:00:00",
+  "scheduled_iso": "2026-11-18T15:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

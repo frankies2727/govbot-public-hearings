@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "SB335",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB673",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB672",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB732",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB583",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB663",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Licensing, Regulatory Reform, State and Federal Affairs (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1969919",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-c2954c2e8db8",
+  "jurisdiction": "wi",
+  "location": "118 S, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-04T10:30:00",
+  "scheduled_iso": "2026-02-04T10:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

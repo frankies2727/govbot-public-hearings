@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Rules",
+  "details_url": "https://www.okhouse.gov/events/rules-20260924-09000000",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ok-os-0eae8db3b7ac",
+  "jurisdiction": "ok",
+  "location": "ROOM 206 2300 N Lincoln Blvd, Oklahoma City, OK 73105",
+  "scheduled_display": "2026-09-24T09:00:00",
+  "scheduled_iso": "2026-09-24T09:00:00",
+  "source": "www.okhouse.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

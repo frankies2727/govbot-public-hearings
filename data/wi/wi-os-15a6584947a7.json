@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "R24",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB374",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB385",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB442",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Campaigns and Elections (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1945329",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-15a6584947a7",
+  "jurisdiction": "wi",
+  "location": "300 Northeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-08T11:31:00",
+  "scheduled_iso": "2025-10-08T11:31:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

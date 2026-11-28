@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "B26838",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B32038",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B30538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing: August 25, 2026 - Vice Speaker V. Anthony Ada",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-1566df49d696",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building.",
+  "scheduled_display": "2026-08-25T08:30:00",
+  "scheduled_iso": "2026-08-25T08:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtu.be/3dRJFtnz5GQ The Committee on Land, Environment, Housing, Agriculture, Parks and Infrastructure will conduct a public hearing on Tuesday, August 25, 2026, at 8:30 am in the Public Hearing Room in the Guam Congress Building. The agenda is as follows: · Bill No. 268-38 (COR) – Chris Barnett, V. Anthony Ada, Sabina Flores Perez, Therese M. Terlaje, Telo T. Taitague - AN ACT TO ADD A NEW § 77134 TO ARTICLE 1, CHAPTER 77, TITLE 21 GUAM CODE ANNOTATED RELATIVE TO CREATING A BEACH AND COAST WARNING AND NOTIFICATION SYSTEM FOR HAZARDOUS CONDITIONS. · Bill No. 305-38 (CO…",
+  "witness_slip_url": null
+}

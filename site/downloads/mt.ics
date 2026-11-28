@@ -1,0 +1,198 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Montana hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:mt-os-d15dcfb80bdb@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T180000Z
+SUMMARY:Legislative Council
+DESCRIPTION:https://www.legmt.gov/event/legislative-council-15/
+LOCATION:Zoom Only\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/legislative-council-15/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-25992bfa55a4@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T160000Z
+SUMMARY:Joint Rules Committee
+DESCRIPTION:https://www.legmt.gov/event/joint-rules-committee-2/
+LOCATION:Room 317\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/joint-rules-committee-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-e96fce03705c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T180000Z
+SUMMARY:(S) Rules
+DESCRIPTION:https://www.legmt.gov/event/s-rules-7/
+LOCATION:Room 317\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/s-rules-7/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-b5ade053475d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T180000Z
+SUMMARY:(S) Ethics
+DESCRIPTION:https://www.legmt.gov/event/s-ethics-11/
+LOCATION:Room 335\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/s-ethics-11/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-09bd6cd4be62@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T150000Z
+SUMMARY:General Government Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/general-government-interim-budget-c
+ ommittee-5/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/general-government-interim-budget-committee
+ -5/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-a3185a84dc46@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T150000Z
+SUMMARY:Education Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/education-interim-budget-committee-
+ 2/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/education-interim-budget-committee-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-b81d6a82e276@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T150000Z
+SUMMARY:Health and Human Services Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/health-and-human-services-interim-b
+ udget-committee-3/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/health-and-human-services-interim-budget-co
+ mmittee-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-db8d5602eb99@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T150000Z
+SUMMARY:Natural Resources Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/natural-resources-interim-budget-co
+ mmittee-8/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/natural-resources-interim-budget-committee-
+ 8/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-dbeb08be70d2@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T150000Z
+SUMMARY:Public Safety Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/public-safety-interim-budget-commit
+ tee/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/public-safety-interim-budget-committee/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-ef1249b65a34@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T150000Z
+SUMMARY:Long Range Planning Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/long-range-planning-interim-budget-
+ committee-2/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/long-range-planning-interim-budget-committe
+ e-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-00762cafb666@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:Public Safety Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/public-safety-interim-budget-commit
+ tee-9/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/public-safety-interim-budget-committee-9/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-05f7f07fd9d4@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:Education Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/education-interim-budget-committee/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/education-interim-budget-committee/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-13ef5475eb16@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:Health and Human Services Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/health-and-human-services-interim-b
+ udget-committee/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/health-and-human-services-interim-budget-co
+ mmittee/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-69300488cdb2@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:Long Range Planning Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/long-range-planning-interim-budget-
+ committee/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/long-range-planning-interim-budget-committe
+ e/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-cdf576ca4990@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:Natural Resources Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/natural-resources-interim-budget-co
+ mmittee/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/natural-resources-interim-budget-committee/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-d74f442a77a3@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:General Government Interim Budget Committee
+DESCRIPTION:https://www.legmt.gov/event/general-government-interim-budget-c
+ ommittee-9/
+LOCATION:\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/general-government-interim-budget-committee
+ -9/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-a68fa60bbe9a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T150000Z
+SUMMARY:Legislative Finance Committee
+DESCRIPTION:https://www.legmt.gov/event/legislative-finance-committee-11/
+LOCATION:Room 317\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/legislative-finance-committee-11/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-40de813eb51f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T160000Z
+SUMMARY:Legislative Audit Committee
+DESCRIPTION:https://www.legmt.gov/event/legislative-audit-committee-11/
+LOCATION:Room 154\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/legislative-audit-committee-11/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt-os-28cb771e728b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261218T200000Z
+SUMMARY:Legislative Audit Committee
+DESCRIPTION:https://www.legmt.gov/event/legislative-audit-committee-12/
+LOCATION:Room 154\, State Capitol\, 1301 E 6th Ave\, Helena\, MT\, 59601
+URL:https://www.legmt.gov/event/legislative-audit-committee-12/
+END:VEVENT
+END:VCALENDAR

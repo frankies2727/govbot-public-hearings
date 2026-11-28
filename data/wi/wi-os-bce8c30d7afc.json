@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "house",
+  "committee": "Rules (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1901327",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-bce8c30d7afc",
+  "jurisdiction": "wi",
+  "location": "Assembly Parlor (2nd Floor West), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-02-13T13:00:00",
+  "scheduled_iso": "2025-02-13T13:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

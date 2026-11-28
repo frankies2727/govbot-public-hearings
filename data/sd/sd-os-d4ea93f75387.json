@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "SB109",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB191",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB192",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB212",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB230",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB196",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB199",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB228",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB243",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB216",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJR506",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Taxation",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1290/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-d4ea93f75387",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-02-20T10:00:00",
+  "scheduled_iso": "2026-02-20T10:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Ways & Means",
+  "details_url": "https://app.leg.wa.gov/committeeschedules/Home/Agenda/34305",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wa-senate-34305",
+  "jurisdiction": "wa",
+  "location": "Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olympia",
+  "scheduled_display": "2026-12-07T16:00:00",
+  "scheduled_iso": "2026-12-07T16:00:00",
+  "source": "leg.wa.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Meeting is scheduled to end at 6:00 p.m. Possible other business.\n\nSee https://app.leg.wa.gov/CSI/Senate for testimony options. To view committee meetings or access the committee meeting documents, visit the Legislature's committee schedules, agendas, and documents website:  https://app.leg.wa.gov/committeeschedules",
+  "witness_slip_url": null
+}

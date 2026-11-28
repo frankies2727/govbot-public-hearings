@@ -1,0 +1,43 @@
+{
+  "bills": [
+    {
+      "id": "SO2026-0029412",
+      "url": null
+    },
+    {
+      "id": "SO2026-0029413",
+      "url": null
+    },
+    {
+      "id": "SO2026-0029418",
+      "url": null
+    },
+    {
+      "id": "O2026-0029408",
+      "url": null
+    },
+    {
+      "id": "O2026-0029417",
+      "url": null
+    },
+    {
+      "id": "SO2026-0027231",
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "comment_deadline": "2026-11-27T10:30:00",
+  "committee": "Committee on Finance",
+  "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=5C971227-8CD4-F111-A05C-001DD80FDA55",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "chi-5c971227-8cd4-f111-a05c-001dd80fda55",
+  "jurisdiction": "chi",
+  "location": "City Council Chamber, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
+  "scheduled_display": "2026-11-30T10:30:00",
+  "scheduled_iso": "2026-11-30T10:30:00",
+  "source": "chicityclerkelms.chicago.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Votes may be taken.",
+  "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/160c4b5b-8cd4-f111-a05c-001dd803894a.pdf"
+}

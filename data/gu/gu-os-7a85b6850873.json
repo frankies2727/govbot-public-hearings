@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R19638",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* PRESENTATION FOR RESOLUTION NO. 196-38(COR) -Senator Shelly V. Calvo",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-7a85b6850873",
+  "jurisdiction": "gu",
+  "location": "Grand Ballroom, Hyatt Regency Guam",
+  "scheduled_display": "2026-08-15T18:00:00",
+  "scheduled_iso": "2026-08-15T18:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "The presentation of Resolution No. 196-38(COR) : Relative to recognizing Lions Club International District 204, its Guam Chapters, Officers, and Members for their commitment to Humanitarian Service, Community Outreach, and Leadership Development, and commending District Governor Ronald Z. Hidalgo, Pmjf, for his leadership during Lion Year 2025-2026. The presentation will take place on: Date: Saturday, August 15, 2026 Time: 6:00 PM - 10:00 PM Location: Grand Ballroom, Hyatt Regency Guam Your presence is respectfully requested as we honor District Governor Ronald Hidalgo on this special occasio…",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "NEW HAMPSHIRE COUNCIL ON SUICIDE PREVENTION",
+  "details_url": "https://gencourt.state.nh.us/senate/schedule/eventDetails.aspx?event=3213&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-8707645e2b2d",
+  "jurisdiction": "nh",
+  "location": "National Guard Edward Cross Training Center 722 Riverwood Drive Pembroke, NH",
+  "scheduled_display": "2026-12-14T10:00:00",
+  "scheduled_iso": "2026-12-14T10:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

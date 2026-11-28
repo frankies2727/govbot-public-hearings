@@ -1,0 +1,93 @@
+{
+  "bills": [
+    {
+      "id": "SB515",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5115",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5445",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB511",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5537",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB514",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5109",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5570",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB513",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5442",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5113",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5538",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5114",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB1",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5536",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Finance, Revenue and Bonding Committee Meeting (2E-ZOOM)",
+  "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=FIN",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-d57693d4c57e",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-30T09:00:00",
+  "scheduled_iso": "2026-03-30T09:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

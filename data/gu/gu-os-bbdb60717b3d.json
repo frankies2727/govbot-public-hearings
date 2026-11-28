@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R23638",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Presentation:Resolution No. 236-38 (COR)- Senator Telo T. Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-bbdb60717b3d",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-11-20T11:00:00",
+  "scheduled_iso": "2026-11-20T11:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/9ulPlJx3TBs Håfa Adai! Please join me in presenting a Resolution No. 236-38 (COR), “Relative to recognizing the Office of Public Accountability’s, in collaboration with the Pacific Association of Supreme Audit Institutions’, observance of the Association of Certified Fraud Examiners’ International Fraud Awareness Week; supporting anti-fraud awareness, prevention, detection, and reporting throughout the Government of Guam; and commending the Office of Public Accountability for its six Certified Fraud Examiners.” The presentation is scheduled for Friday,…",
+  "witness_slip_url": null
+}

@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "HB503",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB331",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB208",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Judiciary Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTJUD",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-9c2966c36d52",
+  "jurisdiction": "ut",
+  "location": "110 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-19T08:00:00",
+  "scheduled_iso": "2026-02-19T08:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

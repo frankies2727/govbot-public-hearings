@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "HB149",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB408",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB195",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB123",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB165",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB360",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Economic Development and Workforce Services Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=HSTEDW",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-057e130e0444",
+  "jurisdiction": "ut",
+  "location": "110 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-02-24T16:00:00",
+  "scheduled_iso": "2026-02-24T16:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

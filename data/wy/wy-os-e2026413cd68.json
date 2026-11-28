@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Health Insurance Affordability Task Force",
+  "details_url": "https://www.wyoleg.gov/Calendar/20260901/Meeting?type=committee&id=15168",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wy-os-e2026413cd68",
+  "jurisdiction": "wy",
+  "location": "Wyoming State Capitol W110 200 West 24th Street",
+  "scheduled_display": "2026-10-06T08:30:00",
+  "scheduled_iso": "2026-10-06T08:30:00",
+  "source": "www.wyoleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "The purpose of this meeting is to complete the Task Force's interim work. The Task Force will consider bill drafts related to a Wyoming medical device group purchasing organization and a Wyoming limited and catastrophic medical coverage pool. The Task Force will receive information regarding Western Interstate Commission for Higher Education (WICHE) funding, health insurance cost-sharing models, hospital price regulation concepts, all-payer claims databases, and primary care incentives. The meeting will be held in person in Cheyenne and remotely with a live video stream available on the Legis…",
+  "witness_slip_url": null
+}

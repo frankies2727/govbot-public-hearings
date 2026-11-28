@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "A&B Human Services Subcommittee",
+  "details_url": "https://www.okhouse.gov/events/is-ap-human-20261015-13300000",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ok-os-c9a2e952906e",
+  "jurisdiction": "ok",
+  "location": "ROOM 5S2 2300 N Lincoln Blvd, Oklahoma City, OK 73105",
+  "scheduled_display": "2026-10-15T13:30:00",
+  "scheduled_iso": "2026-10-15T13:30:00",
+  "source": "www.okhouse.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

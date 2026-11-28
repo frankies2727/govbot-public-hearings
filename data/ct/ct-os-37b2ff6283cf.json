@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "HB5240",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5242",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB239",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB240",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB238",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5239",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5241",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Health Committee Public Hearing FULLY REMOTE (2E-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-37b2ff6283cf",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-23T11:30:00",
+  "scheduled_iso": "2026-02-23T11:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Arkansas hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ar-os-e5f02e67e075@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T193000Z
+SUMMARY:PUBLIC HEALTH\, WELFARE AND LABOR COMMITTEE - SENATE AND HOUSE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-6053ec81b70f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T160000Z
+SUMMARY:JOINT HOUSE PUBLIC TRANSPORTATION & SENATE TRANSPORTATION\, TECHNOL
+ OGY\, & LEGISLATIVE AFFAIRS
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-7067122ce1a4@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T163000Z
+SUMMARY:AGRICULTURE\, FORESTRY & ECONOMIC DEVELOPMENT-SENATE & HOUSE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Hot Springs Convention Center\, 134 Convention Blvd\, Rooms 208-20
+ 9\, Hot Springs
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-101e4d54e616@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T173000Z
+SUMMARY:LEGISLATIVE JOINT AUDITING - EXECUTIVE COMMITTEE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room 104\, Arkansas State Capitol\, 500 Woodlane St\, Little Rock\
+ , AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-8d20123feb1a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T193000Z
+SUMMARY:LEGISLATIVE JOINT AUDITING - EDUCATIONAL INSTITUTIONS
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room 149\, Arkansas State Capitol\, 500 Woodlane St\, Little Rock\
+ , AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-e65017e7cf99@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T193000Z
+SUMMARY:LEGISLATIVE JOINT AUDITING - STATE AGENCIES
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room 171\, Arkansas State Capitol\, 500 Woodlane St\, Little Rock\
+ , AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-f6cf89cf9e94@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T193000Z
+SUMMARY:LEGISLATIVE JOINT AUDITING - COUNTIES AND MUNICIPALITIES
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room 151\, Arkansas State Capitol\, 500 Woodlane St\, Little Rock\
+ , AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-0a92b29cc130@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T150000Z
+SUMMARY:LEGISLATIVE JOINT AUDITING
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-e542237dda87@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T190000Z
+SUMMARY:CHILDREN AND YOUTH COMMITTEE - SENATE & AGING\, CHILDREN AND YOUTH\
+ , & LEGISLATIVE AFFAIRS - HOUSE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-9796528fb25b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T160000Z
+SUMMARY:ALC - HOSPITAL\, MEDICAID\, & DEVELOPMENTAL DISABILITIES STUDY SUBC
+ OMMITTEE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-ec6796a9922d@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T190000Z
+SUMMARY:JUDICIARY COMMITTEE - SENATE AND HOUSE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Ouachita River Correctional Unit\, 100 Walco Lane\, Malvern
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-720da71e5e95@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T193000Z
+SUMMARY:ALC - CLAIMS REVIEW/LITIGATION REPORTS OVERSIGHT
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room B\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-c1acddb1c6c6@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T210000Z
+SUMMARY:ALC-GAME & FISH/STATE POLICE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room B\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-9188febac845@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T160000Z
+SUMMARY:ALC - PEER
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-6693785c2708@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T193000Z
+SUMMARY:ALC - REVIEW
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-419adc2052c9@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T210000Z
+SUMMARY:ALC-HIGHWAY COMMISSION REVIEW AND ADVISORY SUBCOMMITTEE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room B\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-536ce0a044cf@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T150000Z
+SUMMARY:ALC-MEDICAL MARIJUANA OVERSIGHT SUBCOMMITTEE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room B\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-c11860f5ef12@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T170000Z
+SUMMARY:ALC - STATE INSURANCE PROGRAMS OVERSIGHT SUBCOMMITTEE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-1e91d8ea0baa@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T193000Z
+SUMMARY:ALC - PERSONNEL
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-b01a4841c978@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T210000Z
+SUMMARY:ALC - LOTTERY OVERSIGHT SUBCOMMITTEE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room B\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-a669a4690cc0@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T160000Z
+SUMMARY:ALC - ADMINISTRATIVE RULES
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-7db874aa4f88@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T210000Z
+SUMMARY:ALC - HOSPITAL\, MEDICAID\, & DEVELOPMENTAL DISABILITIES STUDY SUBC
+ OMMITTEE
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:ar-os-5396b31bc61f@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261218T150000Z
+SUMMARY:ARKANSAS LEGISLATIVE COUNCIL (ALC)
+DESCRIPTION:https://www.arkleg.state.ar.us/Calendars/Meetings
+LOCATION:Room A\, Arkansas Multi-Agency Complex\, 1 Capitol Mall\, Little R
+ ock\, AR 72201
+URL:https://www.arkleg.state.ar.us/Calendars/Meetings
+END:VEVENT
+END:VCALENDAR

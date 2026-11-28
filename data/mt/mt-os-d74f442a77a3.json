@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "General Government Interim Budget Committee",
+  "details_url": "https://www.legmt.gov/event/general-government-interim-budget-committee-9/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mt-os-d74f442a77a3",
+  "jurisdiction": "mt",
+  "location": ", State Capitol, 1301 E 6th Ave, Helena, MT, 59601",
+  "scheduled_display": "2026-12-16T08:00:00",
+  "scheduled_iso": "2026-12-16T08:00:00",
+  "source": "www.legmt.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,63 @@
+{
+  "bills": [
+    {
+      "id": "SB223",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB135",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5215",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5147",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5148",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5150",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5214",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB136",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5217",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Education Committee Meeting (1E-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ED",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-52a32e0c9f41",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-27T10:00:00",
+  "scheduled_iso": "2026-02-27T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,93 @@
+{
+  "bills": [
+    {
+      "id": "AJR119",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2353",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3412",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3811",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3947",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4194",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4210",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4407",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4408",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4412",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4413",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4414",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4415",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4416",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJR143",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Health, Human Services and Senior Citizens Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-423443ccca55",
+  "jurisdiction": "nj",
+  "location": "Committee Room 6, First Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-06-11T13:00:00",
+  "scheduled_iso": "2026-06-11T13:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

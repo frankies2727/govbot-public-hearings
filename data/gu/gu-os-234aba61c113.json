@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "B33738",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B33838",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "RECONVENE NOTICE of Public Hearing on Friday, July 31, 2026, 8:30 a.m. - Senator Telo T. Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-234aba61c113",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building, Public Hearing Room",
+  "scheduled_display": "2026-07-31T08:30:00",
+  "scheduled_iso": "2026-07-31T08:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/qtj3O5KAFqQ Håfa Adai! The Committee on Economic Investment, Military Buildup, Regional Relations, Regulatory Affairs, Technology, Justice, Elections, and Retirement will reconvene the public hearing on Friday, July 31, 2026, 8:30 a.m. in the Guam Congress Building, Public Hearing Room on the following agenda item (s): Bill No. 338-38 (COR) – Telo T. Taitague – “AN ACT TO ADD A NEW § 70.470 TO ARTICLE 4 OF CHAPTER 70, TITLE 9, GUAM CODE ANNOTATED, RELATIVE TO PROHIBITING THE UNAUTHORIZED OPERATION OF UNMANNED AIRCRAFT OVER DESIGNATED PORT AUTHORITY OF G…",
+  "witness_slip_url": null
+}

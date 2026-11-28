@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "AB377",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB595",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB742",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB759",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB793",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB1034",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB909",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Government Operations, Labor and Economic Development (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1977778",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-49d464849dfc",
+  "jurisdiction": "wi",
+  "location": "306-South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-03-11T10:00:00",
+  "scheduled_iso": "2026-03-11T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

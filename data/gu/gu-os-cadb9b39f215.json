@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R21538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "*Presentation for Resolution No. 215-38 (COR)- Senator Christopher M. Dueñas",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-cadb9b39f215",
+  "jurisdiction": "gu",
+  "location": "The Phoenix Center at the Father Dueñas Memorial School.",
+  "scheduled_display": "2026-09-12T12:30:00",
+  "scheduled_iso": "2026-09-12T12:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Please join me in presenting Resolution No. 215-38 (COR ) – Christopher M. Dueñas, Jesse A. Lujan, V. Anthony Ada – “Relative to recognizing Purebred Jiu Jitsu Guam for thirty (30) years of contributions to martial arts, youth development, athletic excellence, mentorship, discipline, self-defense, and wellness in our island community; and commemorating the legacy of Purebred Guam on the occasion of its milestone anniversary celebration.” Please be advised that the presentation will take place on Saturday, September 12, 2026, at 12:30 p.m. in The Phoenix Center at the Father Dueñas Memorial Sc…",
+  "witness_slip_url": null
+}

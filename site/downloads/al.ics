@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alabama hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:al-os-753f740433c5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T193000Z
+SUMMARY:Contract Review Committee Meeting
+DESCRIPTION:Contract Review Meeting\nhttps://alison.legislature.state.al.us
+ /todays-schedule
+URL:https://alison.legislature.state.al.us/todays-schedule
+END:VEVENT
+END:VCALENDAR

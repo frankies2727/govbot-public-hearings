@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "AB82",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB157",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB194",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Housing and Real Estate (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1918600",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-48552a082fdb",
+  "jurisdiction": "wi",
+  "location": "415 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-15T10:00:00",
+  "scheduled_iso": "2025-05-15T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

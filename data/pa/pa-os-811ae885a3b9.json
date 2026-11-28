@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "PENNSYLVANIA COMMISSION ON SENTENCING",
+  "details_url": "https://www.palegis.us/house/committees/meeting-schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "pa-os-811ae885a3b9",
+  "jurisdiction": "pa",
+  "location": "523 Irvis Bldg.,Capitol Complex,Harrisburg, PA",
+  "scheduled_display": "2026-12-10T11:00:00",
+  "scheduled_iso": "2026-12-10T11:00:00",
+  "source": "www.palegis.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "Quarterly Business Meetingvia Zoom (https://bit.ly/PCSCommMtgDec102026- opens in a new tab)",
+  "witness_slip_url": null
+}

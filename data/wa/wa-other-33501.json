@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Committee to Hear SAO Performance Audits",
+  "details_url": "https://app.leg.wa.gov/committeeschedules/Home/Agenda/33501",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wa-other-33501",
+  "jurisdiction": "wa",
+  "location": "Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olympia",
+  "scheduled_display": "2026-12-02T13:00:00",
+  "scheduled_iso": "2026-12-02T13:00:00",
+  "source": "leg.wa.gov",
+  "status": "scheduled",
+  "timezone": "America/Los_Angeles",
+  "title": "Meeting materials available at: https://jlarc.azureedge.net/documents/Agendas/I-900/2026/December_2_2026_CHSPA_Agenda.pdf\n\nView meeting video at: https://www.tvw.org/watch/?clientID=9375922947&eventID=2026121061\n\nInformation on how to register to testify: https://app.leg.wa.gov/csi/Agency\n\nWritten public testimony can be submitted to: PO Box 40910, Olympia, WA 98504 or jlarc@leg.wa.gov",
+  "witness_slip_url": null
+}

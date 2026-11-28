@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "New Legislator Orientation",
+  "details_url": "https://leg.colorado.gov/agenda/committee/202681013192607",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "co-os-b1742e63dc9a",
+  "jurisdiction": "co",
+  "location": "Old State Library, 200 E Colfax Ave, Denver, CO 80203",
+  "scheduled_display": "2026-12-03T08:00:00",
+  "scheduled_iso": "2026-12-03T08:00:00",
+  "source": "leg.colorado.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

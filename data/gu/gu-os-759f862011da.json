@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B25738",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "PUBLIC HEARING – Office of Senator Borja",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-759f862011da",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-11-13T15:30:00",
+  "scheduled_iso": "2026-11-13T15:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/qIwSbaKIbao Håfa Adai! The Committee on Education, Libraries & Public Broadcasting will conduct a Public Hearing on Friday, November 13, 2026, beginning at 3:30 P.M., in the Public Hearing Room of the Guam Congress Building. The Committee will hear and accept testimony on the following: I. Doc. No. 38GL-26-2874 – The Appointment of David H. Gibson to serve as a Member (Upper-Level Managerial Position in a Private Business-Representative), Guam Education Board – Three (3) Years; From Date of Confirmation. II. Bill No. 257-38 (COR) - AN ACT TO AMEND ARTIC…",
+  "witness_slip_url": null
+}

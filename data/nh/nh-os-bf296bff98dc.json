@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "COMMISSION TO STUDY THE INCIDENCE OF POST-TRAUMATIC STRESS DISORDER IN FIRST RESPONDERS",
+  "details_url": "https://gencourt.state.nh.us/house/schedule/eventDetails.aspx?event=3230&et=2",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nh-os-bf296bff98dc",
+  "jurisdiction": "nh",
+  "location": "Legislative Office Building, 33 North State Street, Concord, NH 03301, Room 210-211",
+  "scheduled_display": "2026-11-23T10:00:00",
+  "scheduled_iso": "2026-11-23T10:00:00",
+  "source": "gencourt.state.nh.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

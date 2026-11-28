@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B37538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "POSTPONED: Public Hearing-Senator Shelly V. Calvo",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-17983709d93d",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room, Guam Congress Building",
+  "scheduled_display": "2026-11-04T14:00:00",
+  "scheduled_iso": "2026-11-04T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai! Please be advised that the Committee on Child Welfare, Youth Affairs, Senior Citizens, Women’s Affairs, Disability Services, the Arts, Culture, Historic Preservation, and Hagåtña Restoration (“Committee”) will POSTPONE a public hearing on Wednesday November 04, 2026 , beginning at 2:00pm in the Public Hearing Room, Guam Congress Building, with the following agenda: Bill No. 375-38 (LS) - AN ACT TO AMEND § 7103, § 7105, AND § 7107 OF CHAPTER 7, TITLE 2, GUAM CODE ANNOTATED, RELATIVE TO UPDATING THE MEMBERSHIP PROVISIONS OF THE GUAM YOUTH CONGRESS TO REFLECT CURRENT EDUCAT…",
+  "witness_slip_url": null
+}

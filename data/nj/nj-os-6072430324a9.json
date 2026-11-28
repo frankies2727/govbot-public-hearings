@@ -1,0 +1,33 @@
+{
+  "bills": [
+    {
+      "id": "A796",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A804",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3969",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Telecommunications and Utilities Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-6072430324a9",
+  "jurisdiction": "nj",
+  "location": "Committee Room 15, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-02-12T10:00:00",
+  "scheduled_iso": "2026-02-12T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

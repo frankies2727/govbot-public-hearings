@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Contract Review Committee Meeting",
+  "details_url": "https://alison.legislature.state.al.us/todays-schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "al-os-753f740433c5",
+  "jurisdiction": "al",
+  "location": "",
+  "scheduled_display": "2026-12-03T13:30:00",
+  "scheduled_iso": "2026-12-03T13:30:00",
+  "source": "alison.legislature.state.al.us",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Contract Review Meeting",
+  "witness_slip_url": null
+}

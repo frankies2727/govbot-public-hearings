@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "AB53",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB171",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB201",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB242",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Criminal Justice and Public Safety (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1919787",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-f4aaca47693f",
+  "jurisdiction": "wi",
+  "location": "417 North (GAR Hall), 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-21T11:00:00",
+  "scheduled_iso": "2025-05-21T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

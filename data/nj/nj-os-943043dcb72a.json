@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "A1326",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A1662",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2159",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A2550",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A3946",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5013",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5225",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Oversight, Reform and Federal Relations Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-943043dcb72a",
+  "jurisdiction": "nj",
+  "location": "Committee Room 11, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608.",
+  "scheduled_display": "2026-06-15T14:00:00",
+  "scheduled_iso": "2026-06-15T14:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "S4729",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A1517",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S636",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S676",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S681",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S2359",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3831",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4214",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4400",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4468",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4636",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4656",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Environment and Energy Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-b3384cc8b10c",
+  "jurisdiction": "nj",
+  "location": "Committee Room 6, 1st Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-10-08T10:00:00",
+  "scheduled_iso": "2026-10-08T10:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

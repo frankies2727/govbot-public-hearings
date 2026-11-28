@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R14438",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing Continuation on March 11, 2026-Senator Sabina Flores Perez",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-3659da03c8f7",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building, Public Hearing Room",
+  "scheduled_display": "2026-03-11T14:00:00",
+  "scheduled_iso": "2026-03-11T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtu.be/BsD3vvlJLQI The Office of Senator Sabina Flores Perez will resume the public hearing for Resolution No. 144-38 (COR) on Wednesday, March 11, 2026 at 2:00 p.m. The public hearing will take place in the Guam Congress Building, Public Hearing Room. The agenda is as follows: 2:00 p.m. Resolution No. 144-38 (COR) - Sabina Flores Perez, Chris Barnett, Therese M. Terlaje, Telo T. Taitague – “Relative to calling for the withdrawal of the Draft 2025 Programmatic Agreement and the 2008 Programmatic Agreement governing Department of Defense undertakings on Guåhan, and de…",
+  "witness_slip_url": null
+}

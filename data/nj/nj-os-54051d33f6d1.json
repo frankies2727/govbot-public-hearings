@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "A4560",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4103",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4555",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4908",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5321",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S685",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S687",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4495",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Environment and Solid Waste Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-54051d33f6d1",
+  "jurisdiction": "nj",
+  "location": "Committee Room 9, 3rd Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-09-17T13:00:00",
+  "scheduled_iso": "2026-09-17T13:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "SB208",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB228",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Taxation",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1273/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-a9697a90fa9f",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-03-03T07:45:00",
+  "scheduled_iso": "2026-03-03T07:45:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "CPC-JUD-TRN",
+  "details_url": "https://www.capitol.hawaii.gov/session/upcominghearingsfiltered.aspx",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "hi-os-ca1e7c53a9e3",
+  "jurisdiction": "hi",
+  "location": "329 VIA VIDEOCONFERENCE",
+  "scheduled_display": "2026-12-02T12:00:00",
+  "scheduled_iso": "2026-12-02T12:00:00",
+  "source": "www.capitol.hawaii.gov",
+  "status": "scheduled",
+  "timezone": "Pacific/Honolulu",
+  "title": "",
+  "witness_slip_url": null
+}

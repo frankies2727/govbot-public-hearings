@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "B14238",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B6238",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B20338",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B21838",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing - Senator Chris Duenas",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-d41f0887541a",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building",
+  "scheduled_display": "2026-01-20T14:00:00",
+  "scheduled_iso": "2026-01-20T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/dWnkM84lnD4 The Committee on Finance and Government Operations will hold a public hearing on Tuesday, January 20, 2026, beginning at 2:00 pm at the Public Hearing Room in the Guam Congress Building. The agenda is as follows: · Bill No. 142-38 (COR) – Telo T. Taitague - AN ACT TO AMEND § 13108.1 OF CHAPTER 13, TITLE 2, GUAM CODE ANNOTATED, RELATIVE TO AMENDING THE SPECIAL COST OF LIVING ECONOMIC TASK FORCE. · · Bill No. 203-38 (COR) – Vincent A.V. Borja - AN ACT TO AMEND §43103 OF CHAPTER 43, DIVISION 2, TITLE 11, GUAM CODE ANNOTATED, RELATIVE TO INCREAS…",
+  "witness_slip_url": null
+}

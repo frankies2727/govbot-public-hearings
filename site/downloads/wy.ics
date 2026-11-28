@@ -1,0 +1,154 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wyoming hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:wy-os-5206ea81a861@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T153000Z
+SUMMARY:Joint Revenue
+DESCRIPTION:The purpose of this meeting is to finalize the Committee's inte
+ rim work. The Committee will consider bill drafts and receive information 
+ on: 1) residential property tax\; 2) governmental property\; 3) industrial
+  property tax\; 4) motor vehicle property tax relief\; 5) vehicle sales ta
+ x collection\; 6) sales and use tax exemption reporting requirements\; 7) 
+ penny rounding\; 8) linear infrastructure taxation\; 9) modified netback\;
+  10) severance tax: and 11) electricity taxation. The meeting will be held
+  in-person in Cheyenne and remotely with a live video stream available on 
+ the Legislature's Website (…\nhttps://www.wyoleg.gov/Calendar/20261101/M
+ eeting?type=committee&id=15126
+LOCATION:Capitol Extension Room E005 200 W 24th Street
+URL:https://www.wyoleg.gov/Calendar/20261101/Meeting?type=committee&id=1512
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:wy-os-4d8708fa059e@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T153000Z
+SUMMARY:Joint Appropriations
+DESCRIPTION:The purpose of this meeting is to receive testimony from agenci
+ es with supplemental budget requests for the 2027-2028 biennium and take f
+ inal consideration of draft legislation not acted on in the 2026 interim. 
+ The meeting will be held in person in Cheyenne with a live video stream av
+ ailable on the Legislature's Website (www.wyoleg.gov). A limited number of
+  participants can sign up to provide public comment virtually. Public comm
+ ent will be taken on any legislation discussed at the time of consideratio
+ n. Public comment on agency requests will be taken at the conclusion of al
+ l agency presentat…\nhttps://www.wyoleg.gov/Calendar/20261201/Meeting?ty
+ pe=committee&id=15169
+LOCATION:Wyoming State Capitol W110 200 West 24th Street
+URL:https://www.wyoleg.gov/Calendar/20261201/Meeting?type=committee&id=1516
+ 9
+END:VEVENT
+BEGIN:VEVENT
+UID:wy-os-06222a3bb8db@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T153000Z
+SUMMARY:Joint Corporations\, Elections & Political Subdivisions
+DESCRIPTION:The purpose of this meeting is to finalize the Committee's inte
+ rim work. The Committee will finalize bill drafts relating to elections\, 
+ public records\, as well as electricity load and utility issues. The meeti
+ ng will be held in person in Cheyenne and remotely with a live video strea
+ m available on the Legislature's Website (www.wyoleg.gov). A limited numbe
+ r of participants can sign up to provide public comment virtually for a sp
+ ecified agenda item during the Committee's upcoming meeting. The total amo
+ unt of time dedicated to virtual public comment is set by the Committee Ch
+ airmen per Managemen…\nhttps://www.wyoleg.gov/Calendar/20261201/Meeting?
+ type=committee&id=15151
+LOCATION:Capitol Extension W006 200 West 24th Street
+URL:https://www.wyoleg.gov/Calendar/20261201/Meeting?type=committee&id=1515
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:wy-os-367fc1bbfd86@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T153000Z
+SUMMARY:Joint Select Committee on School Facilities
+DESCRIPTION:The purpose of this meeting is to consider draft legislation de
+ fining minor capital construction for K-12 school facilities\; authorizing
+  a portion of major maintenance funding to be used for minor capital const
+ ruction projects\; and providing for the identification\, prioritization a
+ nd funding of minor capital construction and other component projects. The
+  meeting will be held remotely\, with a live video stream available on the
+  Legislature's Website (www.wyoleg.gov). A limited number of participants 
+ can sign up to provide public comment virtually for a specified agenda ite
+ m during the Committee…\nhttps://www.wyoleg.gov/Calendar/20261201/Meetin
+ g?type=committee&id=15198
+LOCATION:Capitol Extension E003 for public comment & online 200 West 24th S
+ treet
+URL:https://www.wyoleg.gov/Calendar/20261201/Meeting?type=committee&id=1519
+ 8
+END:VEVENT
+BEGIN:VEVENT
+UID:wy-os-992b4bdd2566@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T200000Z
+SUMMARY:Joint Select Committee on School Finance Recalibration
+DESCRIPTION:The purpose of this meeting is to consider proposed legislation
+  regarding school resource officer grants and food service program reimbur
+ sements and receive information from the Wyoming Community College Commiss
+ ion regarding the implementation of the dual enrollment program created in
+  the 2026 Budget Bill. The meeting will be held in person and remotely\, w
+ ith a live video stream available on the Legislature's Website (www.wyoleg
+ .gov). A limited number of participants can sign up to provide public comm
+ ent virtually for a specified agenda item during the Committee's upcoming 
+ meeting. The total…\nhttps://www.wyoleg.gov/Calendar/20261201/Meeting?ty
+ pe=committee&id=15195
+LOCATION:Capitol Extension E005 200 West 24th Street
+URL:https://www.wyoleg.gov/Calendar/20261201/Meeting?type=committee&id=1519
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:wy-os-94eb2dafa249@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T153000Z
+SUMMARY:Joint Capitol Square Governance Committee
+DESCRIPTION:https://www.wyoleg.gov/Calendar/20261201/Meeting?type=committee
+ &id=15192
+LOCATION:Capitol Extension\, Capitol Classroom E026 200 West 24th Street
+URL:https://www.wyoleg.gov/Calendar/20261201/Meeting?type=committee&id=1519
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:wy-os-3eabb9dfd84b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261216T153000Z
+SUMMARY:Joint Select Natural Resource Funding Committee
+DESCRIPTION:The purpose of this meeting is to conclude the Select Committee
+ 's interim work. The Select Committee will discuss the following bills: (1
+ ) WWNRT large project bill\, and (2) ORTFF large project bill. The meeting
+  will be held online with a live video stream available on the Legislature
+ 's Website (www.wyoleg.gov). A limited number of participants can sign up 
+ to provide public comment virtually for a specified agenda item during the
+  Committee's upcoming meeting. The total amount of time dedicated to virtu
+ al public comment is set by the Committee Chairmen per Management Council 
+ Policy. Please fill…\nhttps://www.wyoleg.gov/Calendar/20261201/Meeting?t
+ ype=committee&id=15194
+LOCATION:Online Online
+URL:https://www.wyoleg.gov/Calendar/20261201/Meeting?type=committee&id=1519
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:wy-os-c424f619304c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T153000Z
+SUMMARY:Joint Select Water Committee
+DESCRIPTION:The purpose of this meeting is to finalize its interim work. Th
+ e Select Committee will review bill drafts and hear testimony on: 1) plann
+ ing omnibus bill\; 2) construction omnibus bill\; 3) Belle Fourche River C
+ ompact\; and 4) stormwater study update. The meeting will be held in-perso
+ n in Cheyenne and remotely with a live video stream available on the Legis
+ lature's Website (www.wyoleg.gov). A limited number of participants can si
+ gn up to provide public comment virtually for a specified agenda item duri
+ ng the Committee's upcoming meeting. The total amount of time dedicated to
+  virtual public comme…\nhttps://www.wyoleg.gov/Calendar/20261201/Meeting
+ ?type=committee&id=15130
+LOCATION:Capitol Extension Room E005 200 W 24th Street
+URL:https://www.wyoleg.gov/Calendar/20261201/Meeting?type=committee&id=1513
+ 0
+END:VEVENT
+END:VCALENDAR

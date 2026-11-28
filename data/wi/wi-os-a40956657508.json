@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "AB903",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB918",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB961",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB962",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB963",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB1000",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Children and Families (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1971672",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-a40956657508",
+  "jurisdiction": "wi",
+  "location": "300 Northeast, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-11T10:30:00",
+  "scheduled_iso": "2026-02-11T10:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

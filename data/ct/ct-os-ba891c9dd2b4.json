@@ -1,0 +1,153 @@
+{
+  "bills": [
+    {
+      "id": "HB5391",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB449",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5501",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB446",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5498",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB444",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB448",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5509",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5504",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5395",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB360",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5394",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB362",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5396",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5392",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5505",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5508",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5507",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB445",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB363",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5500",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB361",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5502",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5503",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB447",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5390",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB359",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Planning and Development Committee Meeting (2A-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PD",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-ba891c9dd2b4",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-13T10:30:00",
+  "scheduled_iso": "2026-03-13T10:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

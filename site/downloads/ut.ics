@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Utah hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ut-os-e1ac3fe3427c@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T200000Z
+SUMMARY:Legislative Management Committee
+DESCRIPTION:https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEMA
+ N
+LOCATION:445 State Capitol\, 350 State St\, Salt Lake City\, UT 84103
+URL:https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEMAN
+END:VEVENT
+BEGIN:VEVENT
+UID:ut-os-87605a79e5f1@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T203000Z
+SUMMARY:Executive Appropriations Committee
+DESCRIPTION:https://le.utah.gov/committee/committee.jsp?year=2026&com=APPEX
+ E
+LOCATION:445 State Capitol\, 350 State St\, Salt Lake City\, UT 84103
+URL:https://le.utah.gov/committee/committee.jsp?year=2026&com=APPEXE
+END:VEVENT
+BEGIN:VEVENT
+UID:ut-os-6911126130b5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T223000Z
+SUMMARY:Legislative Audit Subcommittee
+DESCRIPTION:https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEAU
+ D
+LOCATION:445 State Capitol\, 350 State St\, Salt Lake City\, UT 84103
+URL:https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEAUD
+END:VEVENT
+BEGIN:VEVENT
+UID:ut-os-7e8e9f3c9914@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261209T190000Z
+SUMMARY:Elected Officials and Judicial Compensation Commission
+DESCRIPTION:https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEEJ
+ C
+LOCATION:110 Senate Building\, Utah State Capitol\, 350 State St\, Salt Lak
+ e City\, UT 84103
+URL:https://le.utah.gov/committee/committee.jsp?year=2026&com=SPEEJC
+END:VEVENT
+END:VCALENDAR

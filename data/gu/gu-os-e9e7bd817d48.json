@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "B20938",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B22538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing - Senator Telo T. Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-e9e7bd817d48",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building",
+  "scheduled_display": "2026-02-11T09:00:00",
+  "scheduled_iso": "2026-02-11T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtu.be/otrav67HE8k Håfa Adai! The Committee on Economic Investment, Military Buildup, Regional Relations, Regulatory Affairs, Technology, Justice, Elections, and Retiremen t will conduct a public hearing on Wednesday, February 11, 2026 at 9:00 a.m. in the Guam Congress Building, Public Hearing Room to hear and accept testimonies on the following agenda item: I. Bill No. 209-38 (COR)- Introduced by Tina Rose Muña-Barnes- AN ACT TO ADD A NEW ARTICLE 6 TO CHAPTER 8 OF TITLE 3, RELATIVE TO PROHIBITING THE CREATION AND DISTRIBUTION OF MATERIALLY DECEPTIVE MEDIA PRODUCED BY…",
+  "witness_slip_url": null
+}

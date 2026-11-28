@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Legislative Audit Committee",
+  "details_url": "https://leg.colorado.gov/agenda/committee/202632712434018",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "co-os-48fe6ecb3969",
+  "jurisdiction": "co",
+  "location": "Old Supreme Court, 200 E Colfax Ave, Denver, CO 80203",
+  "scheduled_display": "2026-12-07T09:00:00",
+  "scheduled_iso": "2026-12-07T09:00:00",
+  "source": "leg.colorado.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

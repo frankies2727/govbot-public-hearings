@@ -1,0 +1,83 @@
+{
+  "bills": [
+    {
+      "id": "SB515",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB510",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5571",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB511",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB514",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5568",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5570",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB513",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB516",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB512",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB2",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5569",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB1",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Finance, Revenue and Bonding Committee Public Hearing (2E-ZOOM)",
+  "details_url": "https://www.cga.ct.gov/basin/api/v1/calendar-events/?comm_code=FIN",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-393a3ef53d53",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-27T11:00:00",
+  "scheduled_iso": "2026-03-27T11:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

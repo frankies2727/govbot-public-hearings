@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Virginia Indigent Defense Commission",
+  "details_url": "https://lis.virginia.gov/schedule",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "va-os-b9965e01e925",
+  "jurisdiction": "va",
+  "location": "1604 Santa Rosa Road, Suite 200, Richmond",
+  "scheduled_display": "2026-12-08T11:00:00",
+  "scheduled_iso": "2026-12-08T11:00:00",
+  "source": "lis.virginia.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

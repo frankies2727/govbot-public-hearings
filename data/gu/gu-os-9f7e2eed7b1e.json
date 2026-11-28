@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B31538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing: Senator Telo T. Taitague",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-9f7e2eed7b1e",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building, Public Hearing Room",
+  "scheduled_display": "2026-11-20T09:00:00",
+  "scheduled_iso": "2026-11-20T09:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/oNVc1LNQtC0 Håfa Adai! The Committee on Economic Investment, Military Buildup, Regional Relations, Regulatory Affairs, Technology, Justice, Elections, and Retirement will conduct a public hearing on Friday, November 20, 2026, 9:00 a.m. in the Guam Congress Building, Public Hearing Room on the following agenda item: I. Bill No. 315-38 (COR)- Introduced by Frank F. Blas, Jr./ Shelly V. Calvo/ Tina Rose Muña-Barnes- “AN ACT TO ADD A NEW ARTICLE 6, CHAPTER 7, TITLE 9, GUAM CODE ANNOTATED; RELATIVE TO ABOLISHING THE “ROUGH SEX” DEFENSE IN CASES OF SERIOUS IN…",
+  "witness_slip_url": null
+}

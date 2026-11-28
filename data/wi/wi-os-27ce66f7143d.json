@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "AB18",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB181",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Forestry, Parks and Outdoor Recreation (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1916320",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-27ce66f7143d",
+  "jurisdiction": "wi",
+  "location": "328 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-05-06T11:30:00",
+  "scheduled_iso": "2025-05-06T11:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

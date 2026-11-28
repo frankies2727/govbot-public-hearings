@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Capitol Square Governance Committee",
+  "details_url": "https://www.wyoleg.gov/Calendar/20261001/Meeting?type=committee&id=15190",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wy-os-e37b86bd99d9",
+  "jurisdiction": "wy",
+  "location": "Herschler Building West W101D - Enter Through the Capitol Extension 122 West 25th Street",
+  "scheduled_display": "2026-10-13T13:00:00",
+  "scheduled_iso": "2026-10-13T13:00:00",
+  "source": "www.wyoleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "The purpose of this meeting is to discuss the MOU for Capitol Square Governance and access to CSPA funds, acoustics project, Capitol extension work, exhibit and wayfinding project, receive an update from the Capitol Curator, and consider future governance committee work.",
+  "witness_slip_url": null
+}

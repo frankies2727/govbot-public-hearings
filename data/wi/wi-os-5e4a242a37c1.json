@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "AB182",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB216",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB366",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB424",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB449",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB450",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB451",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB452",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB453",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB454",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB455",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB456",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Housing and Real Estate (Assembly)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1944975",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-5e4a242a37c1",
+  "jurisdiction": "wi",
+  "location": "225 Northwest, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-02T09:00:00",
+  "scheduled_iso": "2025-10-02T09:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

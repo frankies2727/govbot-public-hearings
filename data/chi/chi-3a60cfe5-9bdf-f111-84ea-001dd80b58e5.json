@@ -1,0 +1,179 @@
+{
+  "bills": [
+    {
+      "id": "O2026-0028871",
+      "url": null
+    },
+    {
+      "id": "SO2025-0021022",
+      "url": null
+    },
+    {
+      "id": "O2026-0029742",
+      "url": null
+    },
+    {
+      "id": "O2026-0030348",
+      "url": null
+    },
+    {
+      "id": "O2026-0030349",
+      "url": null
+    },
+    {
+      "id": "O2026-0030350",
+      "url": null
+    },
+    {
+      "id": "O2026-0030351",
+      "url": null
+    },
+    {
+      "id": "O2026-0030352",
+      "url": null
+    },
+    {
+      "id": "O2026-0030353",
+      "url": null
+    },
+    {
+      "id": "O2026-0030359",
+      "url": null
+    },
+    {
+      "id": "O2026-0029745",
+      "url": null
+    },
+    {
+      "id": "O2026-0029747",
+      "url": null
+    },
+    {
+      "id": "O2026-0029748",
+      "url": null
+    },
+    {
+      "id": "O2026-0029749",
+      "url": null
+    },
+    {
+      "id": "O2026-0029750",
+      "url": null
+    },
+    {
+      "id": "O2026-0029751",
+      "url": null
+    },
+    {
+      "id": "O2026-0029752",
+      "url": null
+    },
+    {
+      "id": "O2026-0030346",
+      "url": null
+    },
+    {
+      "id": "O2026-0029744",
+      "url": null
+    },
+    {
+      "id": "O2026-0029898",
+      "url": null
+    },
+    {
+      "id": "O2026-0029735",
+      "url": null
+    },
+    {
+      "id": "O2026-0029736",
+      "url": null
+    },
+    {
+      "id": "O2026-0029737",
+      "url": null
+    },
+    {
+      "id": "O2026-0030338",
+      "url": null
+    },
+    {
+      "id": "O2026-0030340",
+      "url": null
+    },
+    {
+      "id": "O2026-0030341",
+      "url": null
+    },
+    {
+      "id": "O2026-0030342",
+      "url": null
+    },
+    {
+      "id": "O2026-0030355",
+      "url": null
+    },
+    {
+      "id": "O2026-0030343",
+      "url": null
+    },
+    {
+      "id": "O2026-0030345",
+      "url": null
+    },
+    {
+      "id": "O2026-0029734",
+      "url": null
+    },
+    {
+      "id": "O2026-0030337",
+      "url": null
+    },
+    {
+      "id": "O2026-0029733",
+      "url": null
+    },
+    {
+      "id": "O2026-0029739",
+      "url": null
+    },
+    {
+      "id": "Or2026-0029740",
+      "url": null
+    },
+    {
+      "id": "O2026-0029754",
+      "url": null
+    },
+    {
+      "id": "O2026-0029365",
+      "url": null
+    },
+    {
+      "id": "O2026-0029463",
+      "url": null
+    },
+    {
+      "id": "O2026-0029466",
+      "url": null
+    },
+    {
+      "id": "O2026-0026371",
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "comment_deadline": "2026-12-02T12:30:00",
+  "committee": "Committee on Pedestrian and Traffic Safety",
+  "details_url": "https://chicityclerkelms.chicago.gov/Meeting/?meetingId=3A60CFE5-9BDF-F111-84EA-001DD80B58E5",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "chi-3a60cfe5-9bdf-f111-84ea-001dd80b58e5",
+  "jurisdiction": "chi",
+  "location": "City Council Chamber, 2nd Floor, City Hall, 121 North LaSalle Street - Chicago, IL 60602",
+  "scheduled_display": "2026-12-03T12:30:00",
+  "scheduled_iso": "2026-12-03T12:30:00",
+  "source": "chicityclerkelms.chicago.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Votes may be taken.",
+  "witness_slip_url": "https://occprodstoragev1.blob.core.usgovcloudapi.net/meetingattachmentspublic/cef1f82f-9cdf-f111-84ea-001dd80efcf5.pdf"
+}

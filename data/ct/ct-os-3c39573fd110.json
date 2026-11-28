@@ -1,0 +1,83 @@
+{
+  "bills": [
+    {
+      "id": "SB283",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB280",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5293",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5292",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5297",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB282",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB281",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5296",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5295",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5298",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB279",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB278",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5294",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Veterans' and Military Affairs Committee Public Hearing (2B-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=VA",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-3c39573fd110",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-24T15:30:00",
+  "scheduled_iso": "2026-02-24T15:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

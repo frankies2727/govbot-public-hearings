@@ -1,0 +1,83 @@
+{
+  "bills": [
+    {
+      "id": "HB5395",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5393",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB360",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5394",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB363",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5391",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB362",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB361",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5396",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5397",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5392",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5390",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB359",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Planning and Development Committee Public Hearing (2A-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PD",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-aa9f6c60e25f",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-04T10:30:00",
+  "scheduled_iso": "2026-03-04T10:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

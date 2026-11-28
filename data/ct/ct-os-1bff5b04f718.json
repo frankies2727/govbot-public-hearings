@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "SB131",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB134",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5145",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB132",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5146",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB133",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Commerce Committee Public Hearing (1B-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=CE",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-1bff5b04f718",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-17T12:30:00",
+  "scheduled_iso": "2026-02-17T12:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

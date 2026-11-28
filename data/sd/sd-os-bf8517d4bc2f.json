@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "HB1259",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1168",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1279",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1134",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1135",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1136",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1082",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1098",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1123",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1251",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB1113",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Committee on Appropriations",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1262/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-bf8517d4bc2f",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-02-23T09:00:00",
+  "scheduled_iso": "2026-02-23T09:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "SB272",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB273",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5287",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB274",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5286",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5288",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5282",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5283",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB275",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5281",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5289",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5284",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Planning and Development Committee Meeting (2A-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PD",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-403f28478200",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-06T10:30:00",
+  "scheduled_iso": "2026-03-06T10:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

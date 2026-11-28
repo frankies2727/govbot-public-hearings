@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Joint Senate and House Appropriations Committee Meeting",
+  "details_url": "https://www.legis.ga.gov/schedule/all",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ga-os-57bcf90e308f",
+  "jurisdiction": "ga",
+  "location": "State Capitol, 3402 LOB, 206 Washington St SW, Atlanta, GA 30334",
+  "scheduled_display": "2026-12-17T10:00:00",
+  "scheduled_iso": "2026-12-17T10:00:00",
+  "source": "www.legis.ga.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

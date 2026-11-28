@@ -1,0 +1,547 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Washington hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:wa-other-33489@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T180000Z
+SUMMARY:JLARC - Joint Legislative Audit & Review Committee
+DESCRIPTION:Meeting materials available at: https://jlarc.azureedge.net/doc
+ uments/Agendas/JLARC/2026/December_2_JLARC_Agenda.pdf\n\nView meeting vide
+ o at: https://www.tvw.org/watch/?clientID=9375922947&eventID=2026121060\nh
+ ttps://app.leg.wa.gov/committeeschedules/Home/Agenda/33489
+LOCATION:Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/33489
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-other-33501@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T210000Z
+SUMMARY:Committee to Hear SAO Performance Audits
+DESCRIPTION:Meeting materials available at: https://jlarc.azureedge.net/doc
+ uments/Agendas/I-900/2026/December_2_2026_CHSPA_Agenda.pdf\n\nView meeting
+  video at: https://www.tvw.org/watch/?clientID=9375922947&eventID=20261210
+ 61\n\nInformation on how to register to testify: https://app.leg.wa.gov/cs
+ i/Agency\n\nWritten public testimony can be submitted to: PO Box 40910\, O
+ lympia\, WA 98504 or jlarc@leg.wa.gov\nhttps://app.leg.wa.gov/committeesch
+ edules/Home/Agenda/33501
+LOCATION:Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/33501
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-other-34311@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261204T180000Z
+SUMMARY:Joint Legislative Committee on Water Supply During Drought
+DESCRIPTION:Meeting is scheduled to end at 12:00 PM.  To view committee mee
+ tings or access the committee meeting documents\, visit the Legislature's 
+ committee schedules\, agendas\, and documents website: https://app.leg.wa.
+ gov/committeeschedules\nhttps://app.leg.wa.gov/committeeschedules/Home/Age
+ nda/34311
+LOCATION:Virtual
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34311
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-other-34327@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T173000Z
+SUMMARY:Joint Legislative-Executive Committee on Budget Transparency and Fi
+ scal Sustainability
+DESCRIPTION:The meeting is scheduled to end at 10:30 a.m.\nTo view committe
+ e meetings or access the committee meeting documents\, visit the Legislatu
+ re's committee schedules\, agendas\, and documents website: https://app.le
+ g.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/committeeschedules/Hom
+ e/Agenda/34327
+LOCATION:Irving Newhouse Building Rm 140 and Virtual · Irving Newhouse Bui
+ lding · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34327
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34275@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T183000Z
+SUMMARY:Law & Justice
+DESCRIPTION:Meeting is scheduled to end at 12:30 p.m. Possible other busine
+ ss. To view committee meetings or access the committee meeting documents\,
+  visit the Legislature's committee schedules\, agendas\, and documents web
+ site:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/c
+ ommitteeschedules/Home/Agenda/34275
+LOCATION:Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34275
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34277@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T183000Z
+SUMMARY:Higher Education & Workforce Development
+DESCRIPTION:This meeting is scheduled to end at 12:30 P.M. To view committe
+ e meetings or access the committee meeting documents\, visit the Legislatu
+ re's committee schedules\, agendas\, and documents website:  https://app.l
+ eg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/committeeschedules/Ho
+ me/Agenda/34277
+LOCATION:Senate Hearing Rm 2 and Virtual · J.A. Cherberg · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34277
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34279@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T183000Z
+SUMMARY:Labor & Commerce
+DESCRIPTION:Possible other business. Meeting is scheduled to end at 12:30 P
+ M To view committee meetings or access the committee meeting documents\, v
+ isit the Legislature's committee schedules\, agendas\, and documents websi
+ te:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/com
+ mitteeschedules/Home/Agenda/34279
+LOCATION:Senate Hearing Rm 1 and Virtual · J.A. Cherberg · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34279
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34300@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T213000Z
+SUMMARY:Human Services
+DESCRIPTION:Possible other business. To view committee meetings or access t
+ he committee meeting documents\, visit the Legislature's committee schedul
+ es\, agendas\, and documents website:  https://app.leg.wa.gov/committeesch
+ edules\nhttps://app.leg.wa.gov/committeeschedules/Home/Agenda/34300
+LOCATION:Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34300
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34315@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T213000Z
+SUMMARY:Local Government
+DESCRIPTION:Meeting is scheduled to end at 3:30 PM.  To view committee meet
+ ings or access the committee meeting documents\, visit the Legislature's c
+ ommittee schedules\, agendas\, and documents website:  https://app.leg.wa.
+ gov/committeeschedules\nhttps://app.leg.wa.gov/committeeschedules/Home/Age
+ nda/34315
+LOCATION:Senate Hearing Rm 3 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34315
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34318@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T213000Z
+SUMMARY:Agriculture & Natural Resources
+DESCRIPTION:Meeting is scheduled to end at 3:30 p.m. Possible other busines
+ s. To view committee meetings or access the committee meeting documents\, 
+ visit the Legislature's committee schedules\, agendas\, and documents webs
+ ite:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/co
+ mmitteeschedules/Home/Agenda/34318
+LOCATION:Senate Hearing Rm 1 and Virtual · J.A. Cherberg · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34318
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34282@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T000000Z
+SUMMARY:Transportation
+DESCRIPTION:The meeting is scheduled to end at 6:00 p.m. Possible other bus
+ iness.\n\n To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34282
+LOCATION:Senate Hearing Rm 1 and Virtual · J.A. Cherberg · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34282
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34305@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T000000Z
+SUMMARY:Ways & Means
+DESCRIPTION:Meeting is scheduled to end at 6:00 p.m. Possible other busines
+ s.\n\nSee https://app.leg.wa.gov/CSI/Senate for testimony options. To view
+  committee meetings or access the committee meeting documents\, visit the 
+ Legislature's committee schedules\, agendas\, and documents website:  http
+ s://app.leg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/committeesch
+ edules/Home/Agenda/34305
+LOCATION:Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34305
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34294@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T160000Z
+SUMMARY:Housing
+DESCRIPTION:Meeting is scheduled to end at 10:00 a.m. Possible other busine
+ ss. To view committee meetings or access the committee meeting documents\,
+  visit the Legislature's committee schedules\, agendas\, and documents web
+ site:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/c
+ ommitteeschedules/Home/Agenda/34294
+LOCATION:Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34294
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34301@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T160000Z
+SUMMARY:Early Learning & K-12 Education
+DESCRIPTION:Meeting is scheduled to end at 10:00 a.m. Possible other busine
+ ss. To view committee meetings or access the committee meeting documents\,
+  visit the Legislature's committee schedules\, agendas\, and documents web
+ site:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/c
+ ommitteeschedules/Home/Agenda/34301
+LOCATION:Senate Hearing Rm 1 and Virtual · J.A. Cherberg · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34301
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34272@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T183000Z
+SUMMARY:Business\, Trade & Economic Development
+DESCRIPTION:Possible other business.\n To view committee meetings or access
+  the committee meeting documents\, visit the Legislature's committee sched
+ ules\, agendas\, and documents website:  https://app.leg.wa.gov/committees
+ chedules\nhttps://app.leg.wa.gov/committeeschedules/Home/Agenda/34272
+LOCATION:Senate Hearing Rm 2 and Virtual · J.A. Cherberg · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34272
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34316@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T183000Z
+SUMMARY:Health & Long-Term Care
+DESCRIPTION:Meeting is scheduled to end at 12:30 p.m. Possible other busine
+ ss. To view committee meetings or access the committee meeting documents\,
+  visit the Legislature's committee schedules\, agendas\, and documents web
+ site:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/c
+ ommitteeschedules/Home/Agenda/34316
+LOCATION:Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34316
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34274@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T213000Z
+SUMMARY:State Government\, Tribal Affairs & Elections
+DESCRIPTION:Possible other business.\n\nMeeting is scheduled to end at 3:30
+  p.m. To view committee meetings or access the committee meeting documents
+ \, visit the Legislature's committee schedules\, agendas\, and documents w
+ ebsite:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.wa.gov
+ /committeeschedules/Home/Agenda/34274
+LOCATION:Senate Hearing Rm 2 and Virtual · J.A. Cherberg · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34274
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-senate-34314@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T213000Z
+SUMMARY:Environment\, Energy & Technology
+DESCRIPTION:Meeting is scheduled to end at 3:30 PM.  To view committee meet
+ ings or access the committee meeting documents\, visit the Legislature's c
+ ommittee schedules\, agendas\, and documents website:  https://app.leg.wa.
+ gov/committeeschedules\nhttps://app.leg.wa.gov/committeeschedules/Home/Age
+ nda/34314
+LOCATION:Senate Hearing Rm 1 and Virtual · J.A. Cherberg · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34314
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-other-34187@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261209T170000Z
+SUMMARY:Joint Transportation Committee
+DESCRIPTION:Joint · Joint Transportation Committee\nhttps://app.leg.wa.gov
+ /committeeschedules/Home/Agenda/34187
+LOCATION:Senate Hearing Rm 1 · J.A. Cherberg Building · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34187
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-other-34313@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261209T170000Z
+SUMMARY:Joint Committee on Veterans' & Military Affairs
+DESCRIPTION:Meeting is scheduled to end at 11:00 a.m.\nTo view committee me
+ etings or access the committee meeting documents\, visit the Legislature's
+  committee schedules\, agendas\, and documents website: https://app.leg.wa
+ .gov/committeeschedules\nhttps://app.leg.wa.gov/committeeschedules/Home/Ag
+ enda/34313
+LOCATION:Senate Hearing Rm 4 and Virtual · J.A. Cherberg Building · Olymp
+ ia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34313
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34268@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:Education
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34268
+LOCATION:House Hearing Rm A and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34268
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34280@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:Environment & Energy
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34280
+LOCATION:House Hearing Rm B and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34280
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34283@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:Community Safety
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34283
+LOCATION:House Hearing Rm D and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34283
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34286@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:Housing
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34286
+LOCATION:House Hearing Rm C and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34286
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34270@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T213000Z
+SUMMARY:Finance
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34270
+LOCATION:House Hearing Rm A and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34270
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34297@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T213000Z
+SUMMARY:Capital Budget
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34297
+LOCATION:House Hearing Rm B and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34297
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34269@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T000000Z
+SUMMARY:Appropriations
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34269
+LOCATION:House Hearing Rm A and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34269
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34295@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T000000Z
+SUMMARY:Transportation
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34295
+LOCATION:House Hearing Rm B and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34295
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34285@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T160000Z
+SUMMARY:Health Care & Wellness
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34285
+LOCATION:House Hearing Rm A and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34285
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34299@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T160000Z
+SUMMARY:Early Learning & Human Services
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34299
+LOCATION:House Hearing Rm D and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34299
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34302@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T160000Z
+SUMMARY:Consumer Protection & Business
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34302
+LOCATION:House Hearing Rm B and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34302
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34304@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T160000Z
+SUMMARY:Postsecondary Education & Workforce
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34304
+LOCATION:House Hearing Rm B and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34304
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34321@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T160000Z
+SUMMARY:State Government & Tribal Relations
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34321
+LOCATION:House Hearing Rm E and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34321
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34273@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T183000Z
+SUMMARY:Technology\, Economic Development\, & Veterans
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34273
+LOCATION:House Hearing Rm C and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34273
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34278@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T183000Z
+SUMMARY:Labor & Workplace Standards
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34278
+LOCATION:House Hearing Rm D and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34278
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34281@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T183000Z
+SUMMARY:Agriculture & Natural Resources
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34281
+LOCATION:House Hearing Rm B and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34281
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34289@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T183000Z
+SUMMARY:Local Government
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34289
+LOCATION:House Hearing Rm E and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34289
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-house-34292@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261211T183000Z
+SUMMARY:Civil Rights & Judiciary
+DESCRIPTION:To view committee meetings or access the committee meeting docu
+ ments\, visit the Legislature's committee schedules\, agendas\, and docume
+ nts website:  https://app.leg.wa.gov/committeeschedules\nhttps://app.leg.w
+ a.gov/committeeschedules/Home/Agenda/34292
+LOCATION:House Hearing Rm A and Virtual · John L. O'Brien Building · Olym
+ pia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34292
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-other-34145@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T180000Z
+SUMMARY:Select Committee on Pension Policy
+DESCRIPTION:Joint · Select Committee on Pension Policy\nhttps://app.leg.wa
+ .gov/committeeschedules/Home/Agenda/34145
+LOCATION:Senate Hearing Rm 1 · J.A. Cherberg Building · Olympia
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34145
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-other-34325@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261217T220000Z
+SUMMARY:Joint Higher Education Committee
+DESCRIPTION:This meeting is scheduled to end at 4:00 p.m.  To view committe
+ e meetings or access the committee meeting documents\, visit the Legislatu
+ re's committee schedules\, agendas\, and documents website: https://app.le
+ g.wa.gov/committeeschedules\nhttps://app.leg.wa.gov/committeeschedules/Hom
+ e/Agenda/34325
+LOCATION:Virtual
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34325
+END:VEVENT
+BEGIN:VEVENT
+UID:wa-other-34317@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261218T210000Z
+SUMMARY:Joint Committee on Employment Relations
+DESCRIPTION:Joint · Joint Committee on Employment Relations\nhttps://app.l
+ eg.wa.gov/committeeschedules/Home/Agenda/34317
+LOCATION:Virtual
+URL:https://app.leg.wa.gov/committeeschedules/Home/Agenda/34317
+STATUS:CANCELLED
+END:VEVENT
+END:VCALENDAR

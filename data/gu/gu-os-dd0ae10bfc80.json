@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R23838",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Presentation for Resolution No. 238-38 (COR) - Senator Chris Duenas",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-dd0ae10bfc80",
+  "jurisdiction": "gu",
+  "location": "Government House.",
+  "scheduled_display": "2026-11-29T11:00:00",
+  "scheduled_iso": "2026-11-29T11:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai! Please join me in presenting Resolution No. 238-38 (COR ) – “Relative to recognizing Lucia Eustaquio Garcia McDonald on the celebration of one hundred (100) years of longevity; and commending her as a Centenarian.” Please be advised that the presentation will take place on Sunday, November 29, 2026, at 11:00 a.m. at Government House. We look forward to your presence and participation. Si Yu’os Ma’åse’! 11/24/26 4:00 PM (FN)",
+  "witness_slip_url": null
+}

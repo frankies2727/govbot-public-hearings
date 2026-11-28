@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "HB5511",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5517",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5516",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5510",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5515",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5513",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5518",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5519",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5512",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB451",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5514",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Health Committee Public Hearing (1D-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=PH",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-3566ccef0bdf",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-13T10:30:00",
+  "scheduled_iso": "2026-03-13T10:30:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

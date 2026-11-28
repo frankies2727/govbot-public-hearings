@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B35138",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "PUBLIC HEARING – Office of Senator Borja",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-5d3045e85918",
+  "jurisdiction": "gu",
+  "location": "See Agenda",
+  "scheduled_display": "2026-09-08T14:00:00",
+  "scheduled_iso": "2026-09-08T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/LPAOcB7oZfk SECOND NOTICE OF PUBLIC HEARING – SEPTEMBER 8, 2026 Håfa Adai! The Committee on Education, Libraries & Public Broadcasting will conduct a Public Hearing on Tuesday, September 8, 2026, beginning at 2:00 P.M., in the Public Hearing Room of the Guam Congress Building. The Committee will hear and accept testimony on the following: I. Doc. No. 38GL-26-2710 – The Appointment of Rachel C. Manglona to serve as a Member (Information Technology Representative), Board of Directors, Guam Public Library System – Three (3) Years; From Date of Confirmation…",
+  "witness_slip_url": null
+}

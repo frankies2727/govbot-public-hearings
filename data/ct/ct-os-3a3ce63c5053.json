@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "SB135",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5033",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5147",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5148",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5150",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB136",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB137",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5035",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5149",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB138",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5034",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Education Committee Public Hearing (1E-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ED",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-3a3ce63c5053",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-20T10:00:00",
+  "scheduled_iso": "2026-02-20T10:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

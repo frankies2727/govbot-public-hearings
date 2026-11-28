@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B28638",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "PUBLIC HEARING – JUNE 24, 2026 - SENATOR VINCENT A. V. BORJA",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-2f5aa327989d",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room of the Guam Congress Building",
+  "scheduled_display": "2026-06-24T14:00:00",
+  "scheduled_iso": "2026-06-24T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: 2PM https://youtube.com/live/N-i1mBYc8io 3PM https://youtube.com/live/hf-TNnS79QE Håfa Adai! The Committee on Education, Libraries & Public Broadcasting will conduct a Public Hearing on Wednesday, June 24, 2026, beginning at 2:00 P.M., in the Public Hearing Room of the Guam Congress Building. The Committee will hear and accept testimony on the following: I. Bill No. 286-38 (COR) – AN ACT TO AMEND CHAPTER 3 OF DIVISION 2, TITLE 17, GUAM CODE ANNOTATED, RELATIVE TO THE COMPOSITION OF THE GUAM EDUCATION BOARD. How to Participate: Written testimony may be delivered to the Office of…",
+  "witness_slip_url": null
+}

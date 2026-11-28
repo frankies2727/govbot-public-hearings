@@ -1,0 +1,73 @@
+{
+  "bills": [
+    {
+      "id": "SB242",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5249",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5248",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB246",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5036",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB243",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB244",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5246",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5245",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5247",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB245",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Energy and Technology Committee Public Hearing (1D-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=ET",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-a071927db33a",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-02-24T12:00:00",
+  "scheduled_iso": "2026-02-24T12:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

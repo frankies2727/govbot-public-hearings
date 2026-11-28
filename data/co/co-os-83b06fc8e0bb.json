@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "Executive Committee of the Legislative Council",
+  "details_url": "https://leg.colorado.gov/agenda/committee/2026112314025510",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "co-os-83b06fc8e0bb",
+  "jurisdiction": "co",
+  "location": "SCR 357, 200 E Colfax Ave, Denver, CO 80203",
+  "scheduled_display": "2026-12-01T09:00:00",
+  "scheduled_iso": "2026-12-01T09:00:00",
+  "source": "leg.colorado.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

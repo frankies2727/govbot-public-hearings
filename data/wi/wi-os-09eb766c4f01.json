@@ -1,0 +1,78 @@
+{
+  "bills": [
+    {
+      "id": "AB618",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB637",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB670",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB654",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB685",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB674",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB814",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB812",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB870",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB859",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB657",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB636",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Tax Exemptions (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1971123",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-09eb766c4f01",
+  "jurisdiction": "wi",
+  "location": "115 West, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2026-02-09T14:30:00",
+  "scheduled_iso": "2026-02-09T14:30:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B31238",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "CALL TO EMERGENCY SESSION - 3:30 P.M.-FRANK F. BLAS, JR. Speaker",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-2b5dc8274e18",
+  "jurisdiction": "gu",
+  "location": "See Agenda",
+  "scheduled_display": "2026-05-14T17:00:00",
+  "scheduled_iso": "2026-05-14T17:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtube.com/live/sqLni68uYww Håfa Adai Colleagues , Pursuant to Section 1.02(b)(1)(B) of the Standing Rules, I am certifying an emergency condition exists which warrants an emergency session of I Liheslaturan Guåhan . On May 13, 2026, I received a letter from Senator Vincent A.V. Borja requesting an Emergency Session to address Bill 312-38 (COR): “AN ACT TO AMEND §715(1)(3) OF CHAPTER 7, TITLE 1, GUAM CODE ANNOTATED, RELATIVE TO PROVIDING THE GUAM DEPARTMENT OF EDUCATION WITH AN EXCEPTION FROM THE REQUIREMENT OF ONE HUNDRED EIGHTY (180) INSTRUCTIONAL DAYS, OR ITS EQUIVA…",
+  "witness_slip_url": null
+}

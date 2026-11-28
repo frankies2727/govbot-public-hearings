@@ -1,0 +1,38 @@
+{
+  "bills": [
+    {
+      "id": "SB221",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB123",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB267",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB315",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Financial Institutions and Sporting Heritage (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1940880",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-44a1a8803783",
+  "jurisdiction": "wi",
+  "location": "411 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-09-16T11:00:00",
+  "scheduled_iso": "2025-09-16T11:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

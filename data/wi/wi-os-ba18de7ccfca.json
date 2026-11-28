@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "SB45",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB50",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "joint",
+  "committee": "Finance (Joint)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1909519",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-ba18de7ccfca",
+  "jurisdiction": "wi",
+  "location": "Hayward High School Auditorium 10320 Greenwood Lane Hayward, WI 54843, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-04-28T10:00:00",
+  "scheduled_iso": "2025-04-28T10:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Public Hearing",
+  "witness_slip_url": null
+}

@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "joint",
+  "committee": "Revenue Estimating Conference",
+  "details_url": "https://www.legis.iowa.gov/committees/meetings/meetingsListChamber?chamber=H&bDate=11/18/2026&eDate=12/08/2026",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ia-os-0f86309f437f",
+  "jurisdiction": "ia",
+  "location": "RM 103",
+  "scheduled_display": "2026-12-14T11:00:00",
+  "scheduled_iso": "2026-12-14T11:00:00",
+  "source": "www.legis.iowa.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

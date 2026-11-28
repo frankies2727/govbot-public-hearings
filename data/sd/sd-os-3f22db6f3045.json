@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "SB50",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB51",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB52",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB53",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB54",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB65",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Retirement Laws",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1287/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-3f22db6f3045",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-01-20T15:00:00",
+  "scheduled_iso": "2026-01-20T15:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,48 @@
+{
+  "bills": [
+    {
+      "id": "A1077",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A1651",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5110",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5335",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5517",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S4107",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Commerce and Economic Development Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-182f7015e5e5",
+  "jurisdiction": "nj",
+  "location": "Committee Room 15, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-12-03T14:00:00",
+  "scheduled_iso": "2026-12-03T14:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,68 @@
+{
+  "bills": [
+    {
+      "id": "SB39",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB28",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB100",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB140",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB144",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB153",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB155",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB160",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SJR4",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB148",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Government Operations and Political Subdivisions Committee",
+  "details_url": "https://le.utah.gov/committee/committee.jsp?year=2026&com=SSTGOP",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ut-os-bd37f48fe730",
+  "jurisdiction": "ut",
+  "location": "220 Senate Building, Utah State Capitol, 350 State St, Salt Lake City, UT 84103",
+  "scheduled_display": "2026-01-23T14:00:00",
+  "scheduled_iso": "2026-01-23T14:00:00",
+  "source": "le.utah.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

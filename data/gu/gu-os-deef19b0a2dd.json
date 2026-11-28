@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R20938",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "*Presentation of Resolution No. 209-38- Senator Tina Rose Muña-Barnes (COR)",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-deef19b0a2dd",
+  "jurisdiction": "gu",
+  "location": "Philippine National Bank at Suite 114/114C at the Micronesia Mall.",
+  "scheduled_display": "2026-08-28T11:00:00",
+  "scheduled_iso": "2026-08-28T11:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Please join me in presenting Resolution No. 209-38 (COR) – Tina Rose Muña-Barnes – “Relative to recognizing the Philippine National Bank for their service and contributions to our island community; and commemorating the celebration of its Thirteenth (13th) Anniversary.” The presentation will take place during the Philippine National Bank's 13th Anniversary Celebration on Friday, August 28, 2026. The event begins at 11:00 AM at the Philippine National Bank, located in Suite 114/114C at the Micronesia Mall. 8.25.26 2:13pm (FN)",
+  "witness_slip_url": null
+}

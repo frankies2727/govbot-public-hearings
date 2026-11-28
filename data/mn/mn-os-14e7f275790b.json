@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Tax Expenditure Review Commission",
+  "details_url": "https://www.leg.mn.gov/cal?type=single&mtgid=c_2264",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mn-os-14e7f275790b",
+  "jurisdiction": "mn",
+  "location": "",
+  "scheduled_display": "2026-12-16T12:00:00",
+  "scheduled_iso": "2026-12-16T12:00:00",
+  "source": "www.leg.mn.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Tax Expenditure Review Commission",
+  "witness_slip_url": null
+}

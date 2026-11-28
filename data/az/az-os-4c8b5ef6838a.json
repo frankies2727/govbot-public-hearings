@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "St. Thomas More Society of Phoenix 57th Annual Red Mass",
+  "details_url": "https://www.azleg.gov/Alis-Today/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "az-os-4c8b5ef6838a",
+  "jurisdiction": "az",
+  "location": "Diocesan Pastoral Center; 400 E. Monroe St, Phoenix AZ 85004",
+  "scheduled_display": "2027-01-13T17:30:00",
+  "scheduled_iso": "2027-01-13T17:30:00",
+  "source": "www.azleg.gov",
+  "status": "scheduled",
+  "timezone": "America/Phoenix",
+  "title": "",
+  "witness_slip_url": null
+}

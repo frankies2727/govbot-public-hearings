@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Legislative Commission on Pensions and Retirement - Work Group on Vesting and Emergency Medical Providers in Relief Associations and the SVF Plan",
+  "details_url": "https://www.leg.mn.gov/cal?type=single&mtgid=c_2340",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mn-os-642671251717",
+  "jurisdiction": "mn",
+  "location": "",
+  "scheduled_display": "2026-12-07T10:00:00",
+  "scheduled_iso": "2026-12-07T10:00:00",
+  "source": "www.leg.mn.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Legislative Commission on Pensions and Retirement - Work Group on Vesting and Emergency Medical Providers in Relief Associations and the SVF Plan",
+  "witness_slip_url": null
+}

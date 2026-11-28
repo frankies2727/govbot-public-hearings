@@ -1,0 +1,4 @@
+﻿jurisdiction,place,date,time,timezone,committee,chamber,title,location,status,bills,details_url,first_seen,id
+ak,Alaska,2026-11-30,13:00,America/Anchorage,Legislative Council,joint,,Anchorage Legislative Information Office DENALI Room,scheduled,,https://www.akleg.gov/basis/Meeting/Detail?Meeting=HLEC%202026-11-30%2013:00:00,2026-11-28T05:04:21Z,ak-joint-LEC-2026-11-30-130000
+ak,Alaska,2026-12-01,10:00,America/Anchorage,Legislative Budget & Audit,joint,'-- Testimony <Invitation Only> --,Anchorage Legislative Information Office DENALI Room,scheduled,,https://www.akleg.gov/basis/Meeting/Detail?Meeting=HBUD%202026-12-01%2010:00:00,2026-11-28T05:04:21Z,ak-joint-BUD-2026-12-01-100000
+ak,Alaska,2026-12-04,09:00,America/Anchorage,Energy,house,,Anchorage Legislative Information Office DENALI Room,scheduled,,https://www.akleg.gov/basis/Meeting/Detail?Meeting=HENE%202026-12-04%2009:00:00,2026-11-28T05:04:21Z,ak-house-ENE-2026-12-04-090000

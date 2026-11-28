@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R21838",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Presentation Notice: Resolution No. 218-38(COR) - Senator Darrel Christopher Barnett",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-1ebbf2b3e2fe",
+  "jurisdiction": "gu",
+  "location": "Dusit Thani Resort Salon Room 1 in Tumon.",
+  "scheduled_display": "2026-09-25T18:00:00",
+  "scheduled_iso": "2026-09-25T18:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai, The presentation of Resolution No. 218-38 (COR), Relative to recognizing John San Agustin Duenas for more than thirty-seven (37) years of distinguished service in local and federal law enforcement and congratulating him on his retirement, will take place on Friday, September 25, 2026, at 6:00 pm at the Dusit Thani Resort Salon Room 1 in Tumon. We look forward to your attendance and participation. 9/23/26 12:29 PM (FN)",
+  "witness_slip_url": null
+}

@@ -1,0 +1,53 @@
+{
+  "bills": [
+    {
+      "id": "A1653",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4783",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4848",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A4952",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5448",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "A5817",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "S3445",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "Assembly Regulated Professions Committee",
+  "details_url": "http://www.njleg.state.nj.us/downloads.asp",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "nj-os-4d27b22e6414",
+  "jurisdiction": "nj",
+  "location": "Committee Room 12, 4th Floor, State House Annex, 131-137 W State St, Trenton, NJ 08608",
+  "scheduled_display": "2026-12-03T14:00:00",
+  "scheduled_iso": "2026-12-03T14:00:00",
+  "source": "www.njleg.state.nj.us",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

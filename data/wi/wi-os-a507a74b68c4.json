@@ -1,0 +1,58 @@
+{
+  "bills": [
+    {
+      "id": "SB59",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB269",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB399",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB498",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB501",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB532",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "AB166",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB199",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Universities and Technical Colleges (Senate)",
+  "details_url": "https://docs.legis.wisconsin.gov/raw/cid/1949445",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "wi-os-a507a74b68c4",
+  "jurisdiction": "wi",
+  "location": "313 South, 2 E Main St, Madison, WI 53703",
+  "scheduled_display": "2025-10-24T12:00:00",
+  "scheduled_iso": "2025-10-24T12:00:00",
+  "source": "docs.legis.wisconsin.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Executive Session",
+  "witness_slip_url": null
+}

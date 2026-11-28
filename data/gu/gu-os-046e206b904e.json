@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "B24438",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "B25338",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing - Vice Speaker V. Anthony Ada",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-046e206b904e",
+  "jurisdiction": "gu",
+  "location": "Public Hearing Room in the Guam Congress Building",
+  "scheduled_display": "2026-04-01T08:30:00",
+  "scheduled_iso": "2026-04-01T08:30:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE: https://youtu.be/wx4Fpx-L2ig The Committee on Land, Environment, Housing, Agriculture, Parks and Infrastructure will conduct a public hearing on Wednesday, April 1, 2026 at 8:30 am in the Public Hearing Room in the Guam Congress Building. The agenda is as follows: · Bill No. 244-38 (COR) – Sabina Flores Perez - AN ACT TO ADD A NEW CHAPTER 72, DIVISION 2, TO TITLE 21 OF THE GUAM CODE ANNOTATED, RELATIVE TO ESTABLISHING THE UNIFORM CONSERVATION EASEMENT ACT TO PROVIDE AN ADDITIONAL OPTION FOR THE CONSERVATION OF ECOLOGICALLY AND CULTURALLY SIGNIFICANT LAND. · Bill No. 253-38 (COR…",
+  "witness_slip_url": null
+}

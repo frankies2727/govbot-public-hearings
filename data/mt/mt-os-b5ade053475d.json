@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "other",
+  "committee": "(S) Ethics",
+  "details_url": "https://www.legmt.gov/event/s-ethics-11/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mt-os-b5ade053475d",
+  "jurisdiction": "mt",
+  "location": "Room 335, State Capitol, 1301 E 6th Ave, Helena, MT, 59601",
+  "scheduled_display": "2026-12-08T11:00:00",
+  "scheduled_iso": "2026-12-08T11:00:00",
+  "source": "www.legmt.gov",
+  "status": "scheduled",
+  "timezone": "America/Denver",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R16338",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Resolution Presentation - Resolution No. 163-38 (LS) -Senator Chris “Malafunkshun” Barnett",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-38ab4af9a010",
+  "jurisdiction": "gu",
+  "location": "Mighty Purple Cafe in Hagåtña",
+  "scheduled_display": "2026-04-04T17:00:00",
+  "scheduled_iso": "2026-04-04T17:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Buenas yan Håfa Adai, The presentation of Resolution No. 163-38 (LS), relative to recognizing Mighty Purple Cafe Acai Superfruit Supply Co., on the occasion of its 10 th Anniversary of dedicated food service to our island community, will take place on Saturday, April 4, 2026 , at 5:00 pm in front of Mighty Purple Cafe in Hagåtña . We look forward to your attendance and participation. 4.3.26 8:00am (FN)",
+  "witness_slip_url": null
+}

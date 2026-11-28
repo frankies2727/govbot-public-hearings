@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Oklahoma hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ok-os-6e6e5e4fed7a@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T190000Z
+SUMMARY:Early Childhood Task Force
+DESCRIPTION:https://www.okhouse.gov/events/jointectfh-20261201-13000000
+LOCATION:ROOM 4S5 2300 N Lincoln Blvd\, Oklahoma City\, OK 73105
+URL:https://www.okhouse.gov/events/jointectfh-20261201-13000000
+END:VEVENT
+BEGIN:VEVENT
+UID:ok-os-110d1b41f8f0@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T190000Z
+SUMMARY:Task Force on Rethinking Paying Subminimal Wage for Persons with Di
+ sabilities
+DESCRIPTION:https://www.okhouse.gov/events/jointrethinkh-20261207-13000000
+LOCATION:ROOM 206 2300 N Lincoln Blvd\, Oklahoma City\, OK 73105
+URL:https://www.okhouse.gov/events/jointrethinkh-20261207-13000000
+END:VEVENT
+END:VCALENDAR

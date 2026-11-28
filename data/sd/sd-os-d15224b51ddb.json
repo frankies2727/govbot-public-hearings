@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "SB8",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "senate",
+  "committee": "Senate Education",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1280/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-d15224b51ddb",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-01-15T08:15:00",
+  "scheduled_iso": "2026-01-15T08:15:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,63 @@
+{
+  "bills": [
+    {
+      "id": "SB300",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB302",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5314",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5317",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5315",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5316",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB303",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HB5318",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "SB301",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Banking Committee Public Hearing (1E-ZOOM)",
+  "details_url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=BA",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "ct-os-1afac92fcf56",
+  "jurisdiction": "ct",
+  "location": "LOB Zoom and YouTube Live",
+  "scheduled_display": "2026-03-03T11:00:00",
+  "scheduled_iso": "2026-03-03T11:00:00",
+  "source": "www.cga.ct.gov",
+  "status": "scheduled",
+  "timezone": "America/New_York",
+  "title": "",
+  "witness_slip_url": null
+}

@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "B26038",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "Public Hearing on Wednesday, April 29, 2026, 2:00 PM Senator Telo T. Taitague-",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-415876e09b78",
+  "jurisdiction": "gu",
+  "location": "Guam Congress Building, Public Hearing Room",
+  "scheduled_display": "2026-04-29T14:00:00",
+  "scheduled_iso": "2026-04-29T14:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "VIDEO ARCHIVE : https://youtube.com/live/5IA9ZuTfMCU Håfa Adai! The Committee on Economic Investment, Military Buildup, Regional Relations, Regulatory Affairs, Technology, Justice, Elections, and Retirement will conduct a public hearing on Wednesday, April 29, 2026, 2:00 PM in the Guam Congress Building, Public Hearing Room to hear and accept testimonies on the following agenda item (s): I. Appointment of Jay B. Jones , to serve as a Member, Board of Directors, Guam Economic Development Authority, for a Term Length of Four (4) Years; From Date of Confirmation. II. Bill No. 260-38 (COR)- Intro…",
+  "witness_slip_url": null
+}

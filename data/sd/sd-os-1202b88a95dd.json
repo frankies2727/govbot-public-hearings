@@ -1,0 +1,28 @@
+{
+  "bills": [
+    {
+      "id": "HB1061",
+      "slips": null,
+      "url": null
+    },
+    {
+      "id": "HCR6004",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "house",
+  "committee": "House Commerce and Energy",
+  "details_url": "https://sdlegislature.gov/Session/Committee/1261/Detail",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "sd-os-1202b88a95dd",
+  "jurisdiction": "sd",
+  "location": "500 E Capitol Ave, Pierre, SD 57501",
+  "scheduled_display": "2026-01-23T10:00:00",
+  "scheduled_iso": "2026-01-23T10:00:00",
+  "source": "sdlegislature.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "",
+  "witness_slip_url": null
+}

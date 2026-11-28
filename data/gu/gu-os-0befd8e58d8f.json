@@ -1,0 +1,23 @@
+{
+  "bills": [
+    {
+      "id": "R14538",
+      "slips": null,
+      "url": null
+    }
+  ],
+  "chamber": "other",
+  "committee": "* Presentation Notice for Resolution No. 145-38 (COR) - Senator Chris Duenas",
+  "details_url": "https://guamlegislature.com/index/schedules-and-calendars/",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "gu-os-0befd8e58d8f",
+  "jurisdiction": "gu",
+  "location": "The Crowne Plaza",
+  "scheduled_display": "2026-03-05T12:00:00",
+  "scheduled_iso": "2026-03-05T12:00:00",
+  "source": "guamlegislature.com",
+  "status": "scheduled",
+  "timezone": "Pacific/Guam",
+  "title": "Håfa Ådai! The presentation of Resolution No. 145-38 (COR) to Marietta Vicente, relative to commending and congratulating her on her retirement from the Guam Waterworks Authority and for her dedicated public service, will take place Today, Thursday, March 5, 2026, at 12:00pm at the Crowne Plaza (The Terrace) in Tumon. We look forward to your attendance and participation. Note: A request to waive the requirement guidelines for Resolution No. 145- 38(COR) was approved by the Committee on Rules. 3/5/26 8:50 AM (FN)",
+  "witness_slip_url": null
+}

@@ -1,0 +1,182 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Govbot//Public Hearings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chicago City Council hearings · Govbot
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:chi-482a33d0-aade-f111-84ea-001dd80b58e5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T163000Z
+SUMMARY:Committee on Finance
+DESCRIPTION:IRC 147(f) required Public Hearing regarding proposed issuance 
+ of Multifamily Housing Revenue Bonds\, Series 2027 (Morgan Park Commons Ph
+ ase I) in an amount not to exceed $12\,500\,000.\nhttps://chicityclerkelms
+ .chicago.gov/Meeting/?meetingId=482A33D0-AADE-F111-84EA-001DD80B58E5
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=482A33D0-AADE-F
+ 111-84EA-001DD80B58E5
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-5c971227-8cd4-f111-a05c-001dd80fda55@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261130T163000Z
+SUMMARY:Committee on Finance
+DESCRIPTION:Votes may be taken.\nBills: SO2026-0029412\, SO2026-0029413\, S
+ O2026-0029418\, O2026-0029408\, O2026-0029417\, SO2026-0027231\nhttps://ch
+ icityclerkelms.chicago.gov/Meeting/?meetingId=5C971227-8CD4-F111-A05C-001D
+ D80FDA55
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=5C971227-8CD4-F
+ 111-A05C-001DD80FDA55
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-9d3b8797-cfe2-f111-84ea-001dd80aa3cc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T190000Z
+SUMMARY:Committee on Police and Fire
+DESCRIPTION:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=9D3B879
+ 7-CFE2-F111-84EA-001DD80AA3CC
+LOCATION:Room 201A\, 2nd Floor\, City Hall\, 121 North LaSalle Street - Chi
+ cago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=9D3B8797-CFE2-F
+ 111-84EA-001DD80AA3CC
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-08a631b6-4fe7-f111-84e9-001dd80aa3cc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261201T193000Z
+SUMMARY:Committee on Special Events\, Cultural Affairs and Recreation
+DESCRIPTION:Bills: O2026-0027317\, O2026-0028758\, O2026-0028759\, O2026-00
+ 28760\nhttps://chicityclerkelms.chicago.gov/Meeting/?meetingId=08A631B6-4F
+ E7-F111-84E9-001DD80AA3CC
+LOCATION:201A\, 2nd Floor\, City Hall\, 121 North LaSalle Street - Chicago\
+ , IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=08A631B6-4FE7-F
+ 111-84E9-001DD80AA3CC
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-110e3cf4-d3e8-f111-84e9-001dd80efcf5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261202T160000Z
+SUMMARY:City Council
+DESCRIPTION:Special Meeting for reception of new council introductions and 
+ committee referrals and for consideration of various referenda introductio
+ ns to be placed on February 2027 ballot\nhttps://chicityclerkelms.chicago.
+ gov/Meeting/?meetingId=110E3CF4-D3E8-F111-84E9-001DD80EFCF5
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=110E3CF4-D3E8-F
+ 111-84E9-001DD80EFCF5
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-cadc36ce-69e7-f111-84e9-001dd80aa3cc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T163000Z
+SUMMARY:Committee on Education and Child Development
+DESCRIPTION:No votes will be taken.\nhttps://chicityclerkelms.chicago.gov/M
+ eeting/?meetingId=CADC36CE-69E7-F111-84E9-001DD80AA3CC
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=CADC36CE-69E7-F
+ 111-84E9-001DD80AA3CC
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-3a60cfe5-9bdf-f111-84ea-001dd80b58e5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261203T183000Z
+SUMMARY:Committee on Pedestrian and Traffic Safety
+DESCRIPTION:Votes may be taken.\nBills: O2026-0028871\, SO2025-0021022\, O2
+ 026-0029742\, O2026-0030348\, O2026-0030349\, O2026-0030350\, O2026-003035
+ 1\, O2026-0030352\, O2026-0030353\, O2026-0030359\, O2026-0029745\, O2026-
+ 0029747\, O2026-0029748\, O2026-0029749\, O2026-0029750\, O2026-0029751\, 
+ O2026-0029752\, O2026-0030346\, O2026-0029744\, O2026-0029898\, O2026-0029
+ 735\, O2026-0029736\, O2026-0029737\, O2026-0030338\, O2026-0030340\, O202
+ 6-0030341\, O2026-0030342\, O2026-0030355\, O2026-0030343\, O2026-0030345\
+ , O2026-0029734\, O2026-0030337\, O2026-0029733\, O2026-0029739\, Or2026-0
+ 029740\, O2026-0029754\, O2026-0029365\, O2026-0029463\, O2026-0029466\, O
+ 2026-0026371\nhttps://chicityclerkelms.chicago.gov/Meeting/?meetingId=3A60
+ CFE5-9BDF-F111-84EA-001DD80B58E5
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=3A60CFE5-9BDF-F
+ 111-84EA-001DD80B58E5
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-f8691f79-75df-f111-84ea-001dd80efcf5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261207T160000Z
+SUMMARY:Committee on Finance
+DESCRIPTION:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=F8691F7
+ 9-75DF-F111-84EA-001DD80EFCF5
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=F8691F79-75DF-F
+ 111-84EA-001DD80EFCF5
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-898baf5a-97c8-f111-aaae-001dd803847b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261208T160000Z
+SUMMARY:City Council
+DESCRIPTION:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=898BAF5
+ A-97C8-F111-AAAE-001DD803847B
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=898BAF5A-97C8-F
+ 111-AAAE-001DD803847B
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-93d04c47-98c8-f111-aaae-001dd803847b@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261209T160000Z
+SUMMARY:City Council
+DESCRIPTION:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=93D04C4
+ 7-98C8-F111-AAAE-001DD803847B
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=93D04C47-98C8-F
+ 111-AAAE-001DD803847B
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-0220def4-dde1-f111-84ea-001dd80aa3cc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261210T160000Z
+SUMMARY:Committee on Public Safety
+DESCRIPTION:Change of Times Only to 10:00 AM Subject Matter Hearing and Com
+ mittee Meeting.\nhttps://chicityclerkelms.chicago.gov/Meeting/?meetingId=0
+ 220DEF4-DDE1-F111-84EA-001DD80AA3CC
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=0220DEF4-DDE1-F
+ 111-84EA-001DD80AA3CC
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-de8de804-76df-f111-84ea-001dd80efcf5@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261214T160000Z
+SUMMARY:Committee on Finance
+DESCRIPTION:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=DE8DE80
+ 4-76DF-F111-84EA-001DD80EFCF5
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=DE8DE804-76DF-F
+ 111-84EA-001DD80EFCF5
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-e47d115d-3de4-f111-84ea-001dd80aa3cc@govbot-public-hearings
+DTSTAMP:20261128T050421Z
+DTSTART:20261215T160000Z
+SUMMARY:Committee on Zoning\, Landmarks and Building Standards
+DESCRIPTION:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=E47D115
+ D-3DE4-F111-84EA-001DD80AA3CC
+LOCATION:City Council Chamber\, 2nd Floor\, City Hall\, 121 North LaSalle S
+ treet - Chicago\, IL 60602
+URL:https://chicityclerkelms.chicago.gov/Meeting/?meetingId=E47D115D-3DE4-F
+ 111-84EA-001DD80AA3CC
+END:VEVENT
+END:VCALENDAR

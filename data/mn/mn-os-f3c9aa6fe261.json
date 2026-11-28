@@ -1,0 +1,17 @@
+{
+  "bills": [],
+  "chamber": "senate",
+  "committee": "Senate Legislative-Citizen Commission on Minnesota Resources",
+  "details_url": "https://www.leg.mn.gov/cal?type=single&mtgid=c_2228",
+  "first_seen": "2026-11-28T05:04:21Z",
+  "id": "mn-os-f3c9aa6fe261",
+  "jurisdiction": "mn",
+  "location": "",
+  "scheduled_display": "2027-01-06T09:00:00",
+  "scheduled_iso": "2027-01-06T09:00:00",
+  "source": "www.leg.mn.gov",
+  "status": "scheduled",
+  "timezone": "America/Chicago",
+  "title": "Legislative-Citizen Commission on Minnesota Resources",
+  "witness_slip_url": null
+}
