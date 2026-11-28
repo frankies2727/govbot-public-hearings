@@ -1490,8 +1490,10 @@
       g.href = "places/" + placeSlug(h.jurisdiction, placeName(h.jurisdiction)) + ".html";
       actions.append(g);
     }
-    // Say so when the legislature posts no page for this meeting, so a missing button isn't a mystery.
-    if (!href) actions.prepend(eln("span", "h-nolink", "The official site has no page for this meeting yet"));
+    // No link of its own: say where the hearing is listed, so a missing button isn't a mystery.
+    // (We don't link calendars; the source site is named, not linked.)
+    if (!href) actions.prepend(eln("span", "h-nolink", "Listed on the official meeting calendar at " +
+      (h.source || "the legislature's website") + ", which gives this meeting no page of its own."));
     if (h.scheduled_iso) {
       const c = eln("button", "rss-link h-cal", "Add to my calendar (.ics)");
       c.type = "button";

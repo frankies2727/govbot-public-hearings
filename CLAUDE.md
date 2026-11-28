@@ -328,5 +328,5 @@ Regulations.gov comment form ("Submit a comment ↗"; "Read the rule ↗" is the
 meeting notice. The panel button is that tool, else "Official legislature site ↗" (Chicago: "How public comment
 works ↗", Congress: "Find your members of Congress ↗") — never a homepage dressed up as a comment form. Place pages
 follow the same rule (`PART_LABEL`). A row with no online form gets "How to take part in this hearing →" (our place guide,
-`places/<slug>.html`), and a row with no page of its own says "The official site has no page for this meeting yet"
-(`.h-nolink`). The place-wide calendar link reads "Add all <place> hearings to my calendar (.ics)".
+`places/<slug>.html`), and a row with no page of its own names where it is listed: "Listed on the official meeting calendar at <source host>,
+which gives this meeting no page of its own." (`.h-nolink`; the calendar is named, not linked). The place-wide calendar link reads "Add all <place> hearings to my calendar (.ics)".
