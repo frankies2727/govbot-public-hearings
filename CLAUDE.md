@@ -310,9 +310,11 @@ States records — not our IL/WA/MA/AK scrapers, whose titles are often just "Me
 Fixtures: `raw/senate_hearings.xml`, `raw/house_week.html`, `raw/house_meeting_118863.xml` / `_119601.xml`;
 tests `CongressHearings`.
 
-**Readability + taking part (Nov 2026, per request).** (1) **Status pills are outlined, never filled**: Canceled,
-Comment due, Public comment open, "N upcoming" and the witness-slip "Closes" chips carry a 2px ring in their colour
-(`--pc`; deepened 62% toward ink on light paper) around ink text on paper. (2) **How-to texts** in
+**Readability + taking part (Nov 2026, per request).** (1) **Status pills are circled by hand, never filled**: Canceled,
+Comment due, Public comment open, "N upcoming" and the witness-slip "Closes" chips get a thick, loose marker loop in their
+colour (`--pc` → `--ring`, deepened 62% toward ink on light paper) drawn around the words: `::after` masked by
+`--z-ring` (an SVG loop + lighter second pass, non-scaling stroke, squarish ends, the stroke starting along the top so it
+never crosses a letter), ink text on paper. (2) **How-to texts** in
 `site/participation.json` were rewritten answer-first ("what you do"), with no comparisons to Illinois or other
 states; `tips` (top level) are four general tips shown in every place's panel and page. (3) A bill with no link of its
 own takes its official page from Govbot's record (`enrich_from_govbot` fills `url`); a bill with no link at all is a
@@ -325,4 +327,6 @@ is itself the form: ak az ca co ct fl id il in ia me mo mt nv or wa us); federal
 Regulations.gov comment form ("Submit a comment ↗"; "Read the rule ↗" is the Federal Register page), Chicago rows its
 meeting notice. The panel button is that tool, else "Official legislature site ↗" (Chicago: "How public comment
 works ↗", Congress: "Find your members of Congress ↗") — never a homepage dressed up as a comment form. Place pages
-follow the same rule (`PART_LABEL`).
+follow the same rule (`PART_LABEL`). A row with no online form gets "How to take part in this hearing →" (our place guide,
+`places/<slug>.html`), and a row with no page of its own says "The official site has no page for this meeting yet"
+(`.h-nolink`). The place-wide calendar link reads "Add all <place> hearings to my calendar (.ics)".

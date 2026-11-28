@@ -2425,7 +2425,7 @@ def place_page(p, hearings, generated_at, has_downloads, tips=()):
             + "</li>")
     more = (f'<p>Showing {len(shown)} of {len(up)}. <a href="{e(SITE_URL)}#hg-{e(code)}">See them all</a>.</p>'
             if len(up) > len(shown) else "")
-    dl = (f'<p><a href="../downloads/{e(code)}.ics">Add to my calendar (.ics)</a> · '
+    dl = (f'<p><a href="../downloads/{e(code)}.ics">Add all {e(name)} hearings to my calendar (.ics)</a> · '
           f'<a href="../downloads/hearings-{e(code)}.csv">Spreadsheet (CSV)</a> · '
           f'<a href="../hearings/{e(code)}.xml">RSS</a></p>') if has_downloads else \
         f'<p><a href="../hearings/{e(code)}.xml">Follow by RSS</a></p>'
