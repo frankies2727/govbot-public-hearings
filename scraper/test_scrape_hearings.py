@@ -727,6 +727,13 @@ class ArchiveAndDownloads(unittest.TestCase):
         main.archive_hearings(rest, data, {"ky"}, self.now)          # ky finished: it's gone
         self.assertEqual(list((data / "ky").glob("*.json")), [])
 
+    def test_saved_meetings_without_any_official_link_are_not_restored(self):
+        data = self.tmp / "data"
+        h = dict(self.hearings[0]); h.pop("details_url", None); h.pop("calendar_url", None); h["witness_slip_url"] = None
+        main.archive_hearings([h], data, set(), self.now)
+        self.assertEqual(main.restore_from_archive(data, [h["jurisdiction"]], self.now), [])
+        self.assertFalse(main.has_official_link(h))
+
     def test_status_flags_three_failed_runs(self):
         data = self.tmp / "data"
         for _ in range(2):

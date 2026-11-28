@@ -375,3 +375,10 @@ and place pages). Fixtures `raw/or_meetings.json`, `or_committees.json`, `or_age
 broken place). As of Nov 28, 2026: nm (www.nmlegis.gov has no DNS record; the upstream scraper still uses it), wv and vi
 (their sites time out from GitHub), ct (its FTP committee list refuses connections) — all upstream, shown from saved
 data meanwhile. Workflows use actions/checkout@v6 and setup-python@v6 (Node 24).
+
+**Every hearing shown can be checked (Nov 2026, per request).** `has_official_link`: a hearing needs its own page, a
+form, or its source calendar; Open States records and saved copies without any are dropped (Connecticut's saved
+meetings from before the link rules had none, so Connecticut shows nothing until its scraper works again — e.g. "IOREBTA
+Housing Advisory Committee Meeting (ZOOM1)" looked unexplained). When a place's scraper broke and its meetings are saved
+copies, its jurisdiction entry carries `last_confirmed` (from `data/_status.json`), and the panel says "We couldn't read
+<place>'s legislature site on the latest refreshes, so these meetings were last confirmed <date>" (`.mp-stale`).

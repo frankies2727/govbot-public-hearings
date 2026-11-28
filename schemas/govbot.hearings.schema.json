@@ -33,6 +33,7 @@
                      "request_to_speak", "appearance_form", "position_letter", "contact_only"]
           },
           "portal_url": { "type": "string", "format": "uri", "description": "Official portal where a resident files a slip / signs in / comments." },
+          "last_confirmed": { "type": "string", "description": "Only when this place's source couldn't be read on the latest refreshes: when its listed meetings were last confirmed (UTC ISO). Its meetings are saved copies until then." },
           "how_to": { "type": "string", "description": "How the public takes part, for places not in site/participation.json (e.g. U.S. Congress)." },
           "open_total": { "type": "integer", "minimum": 0, "description": "Federal only: how many rules are open for comment in all; the document carries just the 7 closing soonest." },
           "full_list_url": { "type": "string", "format": "uri", "description": "The official list behind the page's \"See all\" button: federal, the Federal Register's rules open for comment; Chicago, the City Clerk's meeting list." },

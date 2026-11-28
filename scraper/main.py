@@ -1798,7 +1798,7 @@ def load_os_events(os_dir, codes):
         shared = {u for u, n in uses.items() if n > 1}
         for r in recs:
             _set_os_link(r, shared)
-        hearings += recs
+        hearings += [r for r in recs if has_official_link(r)]
     return hearings, ok
 
 
@@ -1891,10 +1891,16 @@ def restore_from_archive(data_dir, codes, now):
                 rec = json.loads(f.read_text())
             except (OSError, ValueError):
                 continue
-            if (rec.get("scheduled_iso") or "")[:10] >= today:
+            # A saved meeting with no official link at all can't be checked by anyone: leave it out.
+            if (rec.get("scheduled_iso") or "")[:10] >= today and has_official_link(rec):
                 rec.pop("first_seen", None)
                 out.append(rec)
     return out
+
+
+def has_official_link(h):
+    """Every hearing shown links somewhere official: its own page, a form, or its source calendar."""
+    return bool(h.get("details_url") or h.get("witness_slip_url") or h.get("calendar_url"))
 
 
 def update_status(data_dir, attempted, ok_codes, hearings, now):
@@ -2116,7 +2122,8 @@ def assemble(hearings, jurisdictions, source, now):
         "source": source,
         "jurisdictions": [
             {**{k: v for k, v in JURISDICTIONS[j].items()
-                if k in ("code", "name", "participation", "portal_url", "full_list_url", "how_to")},
+                if k in ("code", "name", "participation", "portal_url", "full_list_url", "how_to",
+                         "last_confirmed")},
              **extra.get(j, {})}
             for j in used if j in JURISDICTIONS
         ],
@@ -2786,6 +2793,7 @@ def main():
     now = (datetime.strptime(args.now, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
            if args.now else datetime.now(timezone.utc))
 
+    confirmed = {}    # place -> when its saved meetings were last confirmed (its scraper broke since)
     if args.from_fixtures:
         hearings = build_from_fixtures(args.from_fixtures)
         source = "fixtures (offline snapshot)"
@@ -2840,6 +2848,14 @@ def main():
                     print(f"kept {len(kept)} stored meetings for places whose scraper broke",
                           file=sys.stderr)
                 late = update_status(args.data_dir, os_codes, os_ok, os_hearings, now)
+                # Saved copies say they're saved: the panel shows when they were last confirmed.
+                try:
+                    status = json.loads((Path(args.data_dir) / "_status.json").read_text())
+                except (OSError, ValueError):
+                    status = {}
+                for c in broken:
+                    if status.get(c, {}).get("last_ok"):
+                        confirmed[c] = status[c]["last_ok"]
                 for c in late:
                     print(f"::warning::the {c} meeting scraper has failed 3+ runs in a row "
                           f"(its site isn't answering; {c} shows its saved meetings meanwhile)",
@@ -2848,6 +2864,9 @@ def main():
     if args.participation:
         for code, j in participation_jurisdictions(args.participation).items():
             JURISDICTIONS.setdefault(code, j)
+    for code, when in confirmed.items():
+        if code in JURISDICTIONS:
+            JURISDICTIONS[code]["last_confirmed"] = when
 
     if args.dashboard_data:
         n = enrich_from_govbot(hearings, args.dashboard_data)

@@ -733,6 +733,7 @@
   .mp-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
   .mp-ws { display: inline-block; margin-top: 12px; font-weight: 500; }
   .mp-data { margin: 12px 0 0; }
+  .mp-stale { margin: 0 0 12px; padding: 8px 12px; border-left: 3px solid var(--z-c3); font-size: 15px; }
   .mp-tips { margin: 10px 0 14px; padding-left: 20px; font-size: 16px; line-height: 1.5; }
   .mp-tips li { margin: 0 0 4px; }
   /* The hearing's own "take part" link: plain, bold, underlined, so it reads as an action. */
@@ -1875,6 +1876,13 @@
     }
 
     panel.append(eln("h4", "mp-sub", "Hearings coming up"));
+    // Saved copies say so: this place's own site couldn't be read on the latest refreshes.
+    if (p.last_confirmed) {
+      const d = new Date(p.last_confirmed);
+      const when = isNaN(d) ? p.last_confirmed : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+      panel.append(eln("p", "mp-stale", "We couldn't read " + p.name + "'s legislature site on the latest refreshes, so these meetings were last confirmed " +
+        when + ". Check the official site before you go."));
+    }
     if (groupFor(code)) panel.append(groupFor(code));
     else panel.append(eln("p", "mp-p", "None posted for the next few weeks. Follow " + p.name + " to hear when one is."));
 
