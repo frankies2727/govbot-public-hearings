@@ -661,13 +661,16 @@
   /* "All upcoming hearings": sticky Jump-to pills (each place's colour and count), then one group per place. */
   .mp-jumpwrap { position: sticky; top: 0; z-index: 2; margin: 0 -22px 6px; }
   .mp-jump { position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
-    padding: 10px 22px; background: var(--z-card); border-bottom: 1.5px solid var(--z-graphite-2); }
+    padding: 10px 22px; background: var(--z-card); border-bottom: 1.5px solid var(--z-graphite-2);
+    /* Short, with its own scrollbar, so it stays pinned without taking over the panel. */
+    max-height: 118px; overflow-y: auto; overscroll-behavior: contain;
+    scrollbar-width: thin; scrollbar-color: var(--z-graphite) transparent; }
   /* Pinned flush with the panel's top edge where the panel scrolls (it has 20px of top padding), under the site header elsewhere. */
   @media (min-width: 961px) { .mp-jumpwrap { top: -20px; } }
   @media (max-width: 960px) { .mp-jumpwrap { top: 66px; } }
   /* On a phone the pills are one row you swipe sideways, so they don't cover the screen. */
   @media (max-width: 620px) { .mp-jumpwrap { margin: 0 -14px 6px; }
-    .mp-jump { flex-wrap: nowrap; overflow-x: auto; padding: 8px 14px; scrollbar-width: none; }
+    .mp-jump { flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; max-height: none; padding: 8px 14px; scrollbar-width: none; }
     .mp-jump::-webkit-scrollbar { display: none; }
     .mp-jump > * { flex: none; } }
   /* The swipe cue: the row fades out at an edge with more pills past it, and an arrow points the way. */
@@ -681,7 +684,7 @@
   @media (prefers-reduced-motion: no-preference) { .mp-jumpwrap.has-more::after { animation: mp-nudge 1.4s ease-in-out 3; } }
   @keyframes mp-nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(4px); } }
   .mp-jump-lbl { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; margin-right: 2px; }
-  .mp-jump .mp-jumpchip { min-height: 36px; padding: 2px 6px 2px 12px; font-size: 14px; text-decoration: none; background-color: color-mix(in srgb, var(--jc) 45%, var(--z-card)); }
+  .mp-jump .mp-jumpchip { min-height: 32px; padding: 1px 5px 1px 11px; font-size: 13.5px; text-decoration: none; background-color: color-mix(in srgb, var(--jc) 45%, var(--z-card)); }
   /* The place being read: its pill fills in its colour, lifts and casts a pencil shadow. */
   .mp-jump .mp-jumpchip { transition: transform .18s, box-shadow .18s; }
   .mp-jump .mp-jumpchip[aria-current="true"] { background-color: var(--jc); color: var(--z-on-color); border-color: var(--z-ink);
@@ -1490,12 +1493,6 @@
       const t = eln("a", "h-take", tp.label);
       t.href = tp.href; t.target = "_blank"; t.rel = "noopener";
       actions.append(t);
-    } else if (!tp && h.status !== "canceled" && h.jurisdiction !== "us") {
-      // No online form for this place: our step-by-step guide says exactly how to take part
-      // (and links the official sources). Same site, so → not ↗.
-      const g = eln("a", "h-take", "How to take part in this hearing →");
-      g.href = "places/" + placeSlug(h.jurisdiction, placeName(h.jurisdiction)) + ".html";
-      actions.append(g);
     }
     // No page of its own: link the official calendar it was listed on, labelled as its source.
     if (!href && h.calendar_url) {
@@ -1761,6 +1758,44 @@
     return ({ us: "federal", usa: "congress", chi: "chicago" })[code] || name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   }
 
+  // Every place with something coming up, grouped, in the order the pills and the list use.
+  function upcomingByPlace() {
+    const byPlace = {};
+    allUpcoming.forEach((h) => { (byPlace[h.jurisdiction] = byPlace[h.jurisdiction] || []).push(h); });
+    const codes = Object.keys(byPlace).sort((a, b) => fedRank(a) - fedRank(b) || placeName(a).localeCompare(placeName(b)));
+    return { byPlace, codes };
+  }
+  // The row of place pills pinned at the top of the panel: in "All upcoming" they jump to a place's
+  // group; with one place picked they switch places. Short, with its own scrollbar on wide screens;
+  // one swipeable row (with a "more" cue) on phones. items: {code, gi (colour), href, name?, n?}.
+  function placePills(label, items, onPick) {
+    const { byPlace } = upcomingByPlace();
+    const jump = eln("nav", "mp-jump");
+    jump.setAttribute("aria-label", label === "Jump to" ? "Jump to a place" : "Pick another place");
+    jump.append(eln("span", "mp-jump-lbl", label));
+    const pills = items.map((it) => {
+      const a = eln("a", "mp-chip mp-jumpchip");
+      a.href = it.href;
+      if (it.gi != null) a.style.setProperty("--jc", zc(it.gi));
+      const n = it.n != null ? it.n : (byPlace[it.code] || []).length;
+      a.append(eln("span", null, it.name || (it.code === "chi" ? "Chicago" : placeName(it.code))), eln("span", "mp-chip-n", fmt(n)));
+      a.addEventListener("click", (e) => { e.preventDefault(); onPick(it.code); });
+      jump.append(a);
+      return a;
+    });
+    const wrap = eln("div", "mp-jumpwrap");
+    wrap.append(jump);
+    const cue = () => {
+      const more = jump.scrollWidth - jump.clientWidth;
+      wrap.classList.toggle("has-more", more > 2 && jump.scrollLeft < more - 2);
+      wrap.classList.toggle("has-back", jump.scrollLeft > 2);
+    };
+    jump.addEventListener("scroll", cue, { passive: true });
+    if ("ResizeObserver" in window) new ResizeObserver(cue).observe(jump);
+    requestAnimationFrame(cue);
+    return { wrap, jump, pills };
+  }
+
   function pick(code, byUser) {
     if (code === "all") return pickAll(byUser);
     const p = places[code];
@@ -1769,6 +1804,20 @@
     $("mp-pick").value = code;
     const panel = $("mp-panel");
     panel.textContent = "";
+    panel.scrollTop = 0;
+    // The place pills stay on top: one tap to another place, or back to everything.
+    const { codes: live } = upcomingByPlace();
+    if (live.length) {
+      const nav = placePills("Places", [{ code: "all", name: "All upcoming", n: allUpcoming.length, href: "#hg-all" }]
+        .concat(live.map((c, gi) => ({ code: c, gi, href: "#hg-" + c }))), (c) => (c === "all" ? pickAll(true) : pick(c, true)));
+      const cur = nav.pills.find((a) => a.getAttribute("href") === "#hg-" + code);
+      if (cur) {
+        cur.setAttribute("aria-current", "true");
+        requestAnimationFrame(() => { nav.jump.scrollLeft = cur.offsetLeft - (nav.jump.clientWidth - cur.offsetWidth) / 2;
+          nav.jump.scrollTop = cur.offsetTop - 8; });
+      }
+      panel.append(nav.wrap);
+    }
     const head = eln("div", "mp-head");
     head.append(mkFlag(code, p.name));
     const id = eln("div", "mp-id");
@@ -1839,32 +1888,20 @@
     panel.textContent = "";
     panel.append(eln("h3", "mp-h", "All upcoming hearings"));
     panel.append(eln("p", "mp-p", fmt(allUpcoming.length) + " hearings and comment deadlines from every place Govbot follows. Pick a place on the map for how to take part there."));
-    const byPlace = {};
-    allUpcoming.forEach((h) => { (byPlace[h.jurisdiction] = byPlace[h.jurisdiction] || []).push(h); });
-    const codes = Object.keys(byPlace).sort((a, b) => fedRank(a) - fedRank(b) || placeName(a).localeCompare(placeName(b)));
-    const jump = eln("nav", "mp-jump");
-    jump.setAttribute("aria-label", "Jump to a place");
-    jump.append(eln("span", "mp-jump-lbl", "Jump to"));
+    const { byPlace, codes } = upcomingByPlace();
     const list = eln("div", "mp-allgroups");
+    const nav = placePills("Jump to", codes.map((code, gi) => ({ code, gi, href: "#all-" + code })), (code) => {
+      // Land the group's heading just below the pinned pills, whatever height they wrap to: inside the panel
+      // when it scrolls (wide screens), else the page (phones). Twice: the first move can pin the pills.
+      const inPanel = panel.scrollHeight > panel.clientHeight + 1 && getComputedStyle(panel).overflowY !== "visible";
+      for (let k = 0; k < 2; k++) {
+        const by = $("all-" + code).getBoundingClientRect().top - nav.wrap.getBoundingClientRect().bottom - 12;
+        if (inPanel) panel.scrollTop += by; else window.scrollBy(0, by);
+      }
+    });
+    const jump = nav.jump;
     codes.forEach((code, gi) => {
       const id = "all-" + code;
-      const a = eln("a", "mp-chip mp-jumpchip");   // its group's colour, not the generic "has hearings" green
-      a.href = "#" + id;
-      a.style.setProperty("--jc", zc(gi));
-      a.append(eln("span", null, code === "chi" ? "Chicago" : placeName(code)), eln("span", "mp-chip-n", fmt(byPlace[code].length)));
-      // Straight there (the list is long), inside the panel on wide screens; the address keeps naming the list.
-      a.addEventListener("click", (e) => {
-        e.preventDefault();
-        // Land the group's heading just below the pinned pills, whatever height they wrap to: inside the panel
-        // when it scrolls (wide screens), else the page (phones).
-        // Twice: the first move can pin the pills, which changes where they end.
-        const inPanel = panel.scrollHeight > panel.clientHeight + 1 && getComputedStyle(panel).overflowY !== "visible";
-        for (let k = 0; k < 2; k++) {
-          const by = $(id).getBoundingClientRect().top - jump.getBoundingClientRect().bottom - 12;
-          if (inPanel) panel.scrollTop += by; else window.scrollBy(0, by);
-        }
-      });
-      jump.append(a);
       const group = eln("section", "mp-allgroup");
       group.id = id;
       group.style.setProperty("--gc", zc(gi));   // its pill's colour, for its pencil border
@@ -1878,27 +1915,16 @@
       group.append(h, rows);
       list.append(group);
     });
-    // Wrapped so a swipeable row (phones) can show fades and an arrow where more pills are hidden.
-    const jumpWrap = eln("div", "mp-jumpwrap");
-    jumpWrap.append(jump);
-    panel.append(jumpWrap, list);
-    const cue = () => {
-      const more = jump.scrollWidth - jump.clientWidth;
-      jumpWrap.classList.toggle("has-more", more > 2 && jump.scrollLeft < more - 2);
-      jumpWrap.classList.toggle("has-back", jump.scrollLeft > 2);
-    };
-    jump.addEventListener("scroll", cue, { passive: true });
-    if ("ResizeObserver" in window) new ResizeObserver(cue).observe(jump);
-    cue();
+    panel.append(nav.wrap, list);
     // Where you are: the pill of the place being read fills in, and (on phones) the row slides to show it.
     // Read once per frame from whichever scrolls (the panel on wide screens, the page on phones).
-    const pills = [...jump.querySelectorAll("a")];
+    const pills = nav.pills;
     const sections = codes.map((c) => $("all-" + c));
     let here = -1, queued = false;
     const spy = () => {
       queued = false;
       if (!jump.isConnected) { panel.removeEventListener("scroll", onScroll); window.removeEventListener("scroll", onScroll); return; }
-      const line = jump.getBoundingClientRect().bottom + 24;
+      const line = nav.wrap.getBoundingClientRect().bottom + 24;
       let i = 0;
       sections.forEach((g, k) => { if (g.getBoundingClientRect().top <= line) i = k; });
       if (i === here) return;

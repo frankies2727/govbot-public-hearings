@@ -328,8 +328,8 @@ is itself the form: ak az ca co ct fl id il in ia me mo mt nv or wa us); federal
 Regulations.gov comment form ("Submit a comment ↗"; "Read the rule ↗" is the Federal Register page), Chicago rows its
 meeting notice. The panel button is that tool, else "Official legislature site ↗" (Chicago: "How public comment
 works ↗", Congress: "Find your members of Congress ↗") — never a homepage dressed up as a comment form. Place pages
-follow the same rule (`PART_LABEL`). A row with no online form gets "How to take part in this hearing →" (our place guide,
-`places/<slug>.html`), and a row with no page of its own links its source calendar (`calendar_url`, "Source: … ↗"). A place's form shows only
+follow the same rule (`PART_LABEL`). (The per-row "How to take part in this hearing →" link was removed, per request: the panel already links the
+place's step-by-step guide.) A row with no page of its own links its source calendar (`calendar_url`, "Source: … ↗"). A place's form shows only
 where it fits: bill-based forms (`BILL_FORMS`: Request to Speak, witness slip, appearance form, position letter) only on
 hearings that list bills; Iowa has no `participate_url` (its Public Hearings page covers only its bill hearings, not
 committee meetings like the Revenue Estimating Conference). The place-wide calendar link reads "Add all <place> hearings to my calendar (.ics)".
@@ -342,3 +342,10 @@ the hearing's own notice (`details_url`, "Hearing notice ↗") and, while sign-u
 committee meetings still come from Open States: `OS_SKIP` (il wa ma ak chi us usa) is what Open States is ignored for,
 so a place can have both, and an Open States run prunes only its own (`-os-`) archive files. Fixture
 `raw/ia_public_hearings.html`; tests `IowaPublicHearings`. The "Hearing" kind pill is circled too (blue, `--z-c1`).
+
+**Place pills pinned in both views (Nov 2026, per request).** `placePills` builds the pill row once for both: in "All
+upcoming" ("Jump to") a pill jumps to its place's group; with a place picked ("Places") the row leads with "All upcoming"
+and every place with hearings, the current one filled (`aria-current`) and scrolled into view, and a pill switches
+places (`pick` / `pickAll`). Pinned at the top of the panel (`.mp-jumpwrap`, sticky), short with its own thin scrollbar
+on wide screens (`.mp-jump` max-height 118px), one swipeable row on phones. `upcomingByPlace` gives both the same order
+and colours (`zc(gi)`).
