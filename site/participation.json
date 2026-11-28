@@ -7,7 +7,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://alison.legislature.state.al.us/",
-      "how_to": "Alabama has no statewide witness-slip or e-comment portal. You testify in person or email the committee chair listed on the hearing notice."
+      "how_to": "Testify in person at the committee meeting, or email the committee chair named on the hearing notice. Alabama has no online comment form."
     },
     {
       "code": "ak",
@@ -15,7 +15,8 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://www.akleg.gov/poms/",
-      "how_to": "Alaska does not use Illinois-style slips. Residents send a Public Opinion Message (POM) or sign up to testify when a committee is hearing a bill."
+      "how_to": "Send a Public Opinion Message (POM) to legislators about a bill, or sign up to testify when a committee schedules a hearing on it.",
+      "participate_url": "https://www.akleg.gov/poms/"
     },
     {
       "code": "az",
@@ -23,7 +24,8 @@
       "participation": "request_to_speak",
       "online": true,
       "portal_url": "https://apps.azleg.gov/RequestToSpeak/UpcomingAgendas",
-      "how_to": "Arizona’s Request to Speak (RTS) system is the closest cousin of an Illinois witness slip: you register a position and may request time at the hearing."
+      "how_to": "Use the Legislature's Request to Speak (RTS) system: sign in, find the bill on an upcoming agenda, record whether you're for or against it, and ask to speak at the hearing if you want to.",
+      "participate_url": "https://apps.azleg.gov/RequestToSpeak/UpcomingAgendas"
     },
     {
       "code": "ar",
@@ -31,7 +33,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.arkleg.state.ar.us/",
-      "how_to": "Arkansas does not run a public slip portal. Appear in committee or write the chair using the hearing notice."
+      "how_to": "Appear in person at the committee meeting, or write to the committee chair named on the meeting notice. Arkansas has no online comment form."
     },
     {
       "code": "ca",
@@ -39,7 +41,8 @@
       "participation": "position_letter",
       "online": true,
       "portal_url": "https://calegislation.lc.ca.gov/Advocates/",
-      "how_to": "California has no witness slips. The Assembly Position Letter Portal and committee email are how you register support, opposition, or written testimony."
+      "how_to": "Send a position letter through the Legislature's position letter portal, or email the committee before the hearing, to register support, opposition or written testimony.",
+      "participate_url": "https://calegislation.lc.ca.gov/Advocates/"
     },
     {
       "code": "co",
@@ -47,7 +50,8 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://sites.coleg.gov/public-testimony/about",
-      "how_to": "Colorado lets you sign in for in-person, remote, or written testimony when a committee posts a hearing — not a standing slip on every bill."
+      "how_to": "When a committee posts a hearing, sign up on the Legislature's public testimony site to testify in person, remotely, or in writing.",
+      "participate_url": "https://sites.coleg.gov/public-testimony/about"
     },
     {
       "code": "ct",
@@ -55,7 +59,8 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.cga.ct.gov/asp/Content/YourVoice.asp",
-      "how_to": "Connecticut committees post how to email or upload written testimony on each hearing agenda. There is no statewide slip ledger."
+      "how_to": "Each hearing agenda says how to email or upload written testimony; send yours before the hearing.",
+      "participate_url": "https://www.cga.ct.gov/asp/Content/YourVoice.asp"
     },
     {
       "code": "de",
@@ -63,7 +68,7 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://legis.delaware.gov/CommitteeMeetings",
-      "how_to": "Delaware House committees often take virtual public comment through the meeting calendar. Senate practice is committee-by-committee."
+      "how_to": "House committees often take virtual public comment through the meeting calendar; in the Senate it depends on the committee, so check the meeting notice."
     },
     {
       "code": "dc",
@@ -71,7 +76,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://dccouncil.gov/events/",
-      "how_to": "The DC Council posts witness sign-up and written testimony instructions on each hearing notice. That is their version of a slip."
+      "how_to": "Each DC Council hearing notice explains how to sign up as a witness and how to send written testimony; follow it before the hearing."
     },
     {
       "code": "fl",
@@ -79,7 +84,8 @@
       "participation": "appearance_form",
       "online": true,
       "portal_url": "https://www.myfloridahouse.gov/Sections/Committees/AppearanceRequestForm.aspx",
-      "how_to": "Florida uses Appearance Request forms (House and Senate) to speak in committee. That is not a remote position slip — you are asking to appear."
+      "how_to": "Fill out an Appearance Request form (House or Senate) to speak in committee on a bill. It asks to appear in person.",
+      "participate_url": "https://www.myfloridahouse.gov/Sections/Committees/AppearanceRequestForm.aspx"
     },
     {
       "code": "ga",
@@ -87,7 +93,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.legis.ga.gov/",
-      "how_to": "Georgia has no statewide e-slip system. Public input is in-person testimony or email to the committee listed on the agenda."
+      "how_to": "Testify in person at the hearing, or email the committee listed on the agenda. Georgia has no statewide online comment form."
     },
     {
       "code": "gu",
@@ -95,7 +101,7 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://www.guamlegislature.com/",
-      "how_to": "Guam’s Legislature posts bills and hearing notices. Public comment is the island’s analogue to a witness slip."
+      "how_to": "Read the hearing notice the Legislature posts, and send your comment on the bill to the committee before or at the hearing."
     },
     {
       "code": "hi",
@@ -103,7 +109,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.capitol.hawaii.gov/help.aspx",
-      "how_to": "Hawaii’s Capitol site lets you submit written or remote testimony on a measure once you have an account — one of the more complete portals outside Illinois."
+      "how_to": "Create an account on the Capitol website, then submit written testimony, or sign up to testify remotely, on the measure being heard."
     },
     {
       "code": "id",
@@ -111,7 +117,8 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://legislature.idaho.gov/resources/committeetestimony/",
-      "how_to": "Idaho puts remote-testify links on each committee agenda. There is no standing slip on a bill before a hearing is posted."
+      "how_to": "Each committee agenda has a link to sign up to testify remotely; you can also testify in person. Sign up once the hearing is posted.",
+      "participate_url": "https://legislature.idaho.gov/resources/committeetestimony/"
     },
     {
       "code": "il",
@@ -119,7 +126,8 @@
       "participation": "witness_slip",
       "online": true,
       "portal_url": "https://my.ilga.gov/",
-      "how_to": "Illinois is the national model: my.ilga.gov lets you record support, opposition, or no position on a bill when a committee hearing is posted."
+      "how_to": "File a witness slip on my.ilga.gov once a bill is posted for a committee hearing: say you support it, oppose it or have no position, and whether you want to testify. Slips close when the hearing starts and are public.",
+      "participate_url": "https://my.ilga.gov/"
     },
     {
       "code": "in",
@@ -127,7 +135,8 @@
       "participation": "appearance_form",
       "online": true,
       "portal_url": "https://iga.in.gov/legislative/appearance_form",
-      "how_to": "Indiana uses an Appearance Form to speak in committee. It is a request to testify, not a tally of positions like an Illinois slip."
+      "how_to": "Fill out the Legislature's Appearance Form to ask to speak in committee on a bill.",
+      "participate_url": "https://iga.in.gov/legislative/appearance_form"
     },
     {
       "code": "ia",
@@ -135,7 +144,8 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://www.legis.iowa.gov/committees/publicHearings",
-      "how_to": "Iowa takes written comments and Zoom remarks on subcommittee and public-hearing pages. Comment opens when that meeting is posted."
+      "how_to": "Subcommittee and public-hearing pages take written comments and remarks by Zoom; comments open when that meeting is posted.",
+      "participate_url": "https://www.legis.iowa.gov/committees/publicHearings"
     },
     {
       "code": "ks",
@@ -143,7 +153,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.kslegislature.gov/",
-      "how_to": "Kansas has no statewide slip portal. Written testimony is emailed to the committee assistant named on the agenda."
+      "how_to": "Email written testimony to the committee assistant named on the committee agenda before the hearing."
     },
     {
       "code": "ky",
@@ -151,7 +161,7 @@
       "participation": "appearance_form",
       "online": true,
       "portal_url": "https://legislature.ky.gov/Committees/Pages/default.aspx",
-      "how_to": "Kentucky committees post a Testimony Request form. You are asking to speak; there is no public pro/con slip count."
+      "how_to": "Fill out the committee's Testimony Request form to ask to speak at a meeting."
     },
     {
       "code": "la",
@@ -159,7 +169,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://legis.la.gov/",
-      "how_to": "Louisiana still uses in-room witness cards at committee. There is no statewide e-slip desk."
+      "how_to": "Fill out a witness card in the committee room to testify or put your position on the record."
     },
     {
       "code": "me",
@@ -167,7 +177,8 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.mainelegislature.org/testimony/",
-      "how_to": "Maine’s testimony form covers Zoom testimony and written remarks for a public hearing — the state’s stand-in for a slip."
+      "how_to": "Use the Legislature's testimony form to send written testimony or sign up to testify by Zoom for a public hearing.",
+      "participate_url": "https://www.mainelegislature.org/testimony/"
     },
     {
       "code": "md",
@@ -175,7 +186,7 @@
       "participation": "witness_slip",
       "online": true,
       "portal_url": "https://mgaleg.maryland.gov/",
-      "how_to": "Maryland’s MyMGA portal is the other big sibling of Illinois slips: online witness signup and testimony upload for House and Senate hearings."
+      "how_to": "Use the MyMGA portal on the General Assembly's site: sign up as a witness and upload written testimony for House and Senate hearings."
     },
     {
       "code": "ma",
@@ -183,7 +194,7 @@
       "participation": "written_testimony",
       "online": false,
       "portal_url": "https://malegislature.gov/",
-      "how_to": "Massachusetts has no single slip site. Written testimony is emailed to the committee hosting the hearing; some hearings also take Zoom remarks."
+      "how_to": "Email written testimony to the committee holding the hearing; some hearings also take remarks by Zoom (the hearing notice says)."
     },
     {
       "code": "mi",
@@ -191,7 +202,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.legislature.mi.gov/",
-      "how_to": "Michigan does not publish a statewide e-comment ledger. You testify in person or send remarks to the clerk on the committee notice."
+      "how_to": "Testify in person at the committee meeting, or send written remarks to the committee clerk named on the meeting notice."
     },
     {
       "code": "mn",
@@ -199,7 +210,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.leg.mn.gov/",
-      "how_to": "Minnesota House and Senate each post how to testify and how to send written comments when a hearing is scheduled."
+      "how_to": "When a hearing is scheduled, the House or Senate committee posts how to testify and where to send written comments; follow those instructions."
     },
     {
       "code": "ms",
@@ -207,7 +218,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.legislature.ms.gov/",
-      "how_to": "Mississippi has no public e-slip system. Appear in committee or write the chair."
+      "how_to": "Appear in person at the committee meeting, or write to the committee chair. Mississippi has no online comment form."
     },
     {
       "code": "mo",
@@ -215,7 +226,8 @@
       "participation": "witness_slip",
       "online": true,
       "portal_url": "https://www.house.mo.gov/WitnessForm/Default.aspx",
-      "how_to": "Missouri House has an online Witness Form; the Senate has a Witness Registration System. Both record your position for a hearing."
+      "how_to": "Use the House's online Witness Form or the Senate's Witness Registration System to record your position for a hearing.",
+      "participate_url": "https://www.house.mo.gov/WitnessForm/Default.aspx"
     },
     {
       "code": "mt",
@@ -223,7 +235,8 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://participate.legmt.gov/",
-      "how_to": "Montana’s Public Participation app covers remote testimony, written comment, and short messages to a committee — their version of a slip."
+      "how_to": "Use the Legislature's Public Participation app to testify remotely, send written comment, or send a short message to a committee.",
+      "participate_url": "https://participate.legmt.gov/"
     },
     {
       "code": "ne",
@@ -231,7 +244,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://nebraskalegislature.gov/",
-      "how_to": "Nebraska’s unicameral posts hearing comments online. You register a position when a public hearing is set, not on every introduced bill."
+      "how_to": "When a public hearing is set, submit a position comment on the bill through the Legislature's website."
     },
     {
       "code": "nv",
@@ -239,7 +252,8 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://www.leg.state.nv.us/App/NELIS/REL/",
-      "how_to": "Nevada’s NELIS system is how the public submits comments and exhibits on bills during session."
+      "how_to": "Submit comments and exhibits on bills through NELIS, the Legislature's online system, during session.",
+      "participate_url": "https://www.leg.state.nv.us/App/NELIS/REL/"
     },
     {
       "code": "nh",
@@ -247,7 +261,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.gencourt.state.nh.us/",
-      "how_to": "New Hampshire committees take sign-up for remote or in-person testimony from the General Court calendar. No statewide slip count."
+      "how_to": "Sign up from the General Court calendar to testify in person or remotely at a committee hearing."
     },
     {
       "code": "nj",
@@ -255,7 +269,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.njleg.state.nj.us/",
-      "how_to": "New Jersey posts committee agendas with instructions to submit written testimony. There is no Illinois-style public slip tally."
+      "how_to": "Each committee agenda explains how to submit written testimony; send it before the meeting."
     },
     {
       "code": "nm",
@@ -263,7 +277,7 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://www.nmlegis.gov/",
-      "how_to": "New Mexico uses online witness signup around committee hearings. Comment is tied to the hearing, not a standing bill ledger."
+      "how_to": "Sign up online as a witness for the committee hearing on the bill."
     },
     {
       "code": "ny",
@@ -271,7 +285,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.nysenate.gov/legislation",
-      "how_to": "New York Senate and Assembly each collect written and in-person hearing testimony. There is no unified witness-slip dashboard."
+      "how_to": "The Senate and Assembly each collect written and in-person testimony for their hearings; the hearing notice says how."
     },
     {
       "code": "nc",
@@ -279,7 +293,7 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://www.ncleg.gov/",
-      "how_to": "North Carolina publishes committee calendars; some committees take online public comment. Practice varies by chair."
+      "how_to": "Some committees take online public comment and practice varies by chair, so check the committee calendar. You can also write to the chair."
     },
     {
       "code": "nd",
@@ -287,7 +301,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.ndlegis.gov/",
-      "how_to": "North Dakota’s legislature site hosts hearing documents and testimony during the biennial session."
+      "how_to": "Submit written testimony for a hearing through the Legislature's website during session, where hearing documents are posted."
     },
     {
       "code": "mp",
@@ -295,7 +309,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://cnmileg.net/",
-      "how_to": "The CNMI Legislature does not publish a statewide e-slip. Govbot still tracks its bills in the national index."
+      "how_to": "Contact the committee or attend its hearing. The CNMI Legislature has no online comment form."
     },
     {
       "code": "oh",
@@ -303,7 +317,7 @@
       "participation": "witness_slip",
       "online": true,
       "portal_url": "https://www.legislature.ohio.gov/",
-      "how_to": "Ohio still uses witness slips — usually attached to the committee notice. House has a standard form; Senate slips vary by committee."
+      "how_to": "Fill out the witness slip attached to the committee notice to testify or record your position. The House uses a standard form; Senate committees vary."
     },
     {
       "code": "ok",
@@ -311,7 +325,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.oklegislature.gov/",
-      "how_to": "Oklahoma does not offer a statewide e-slip. Testimony is in committee or by writing the chair."
+      "how_to": "Testify in committee, or write to the committee chair. Oklahoma has no online comment form."
     },
     {
       "code": "or",
@@ -319,7 +333,8 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.oregonlegislature.gov/citizen_engagement/Pages/How-to-Testify.aspx",
-      "how_to": "Oregon opens online witness registration when a public hearing is scheduled and usually closes it 30 minutes before the gavel."
+      "how_to": "Register online as a witness once a public hearing is scheduled; registration usually closes 30 minutes before the hearing starts.",
+      "participate_url": "https://www.oregonlegislature.gov/citizen_engagement/Pages/How-to-Testify.aspx"
     },
     {
       "code": "pa",
@@ -327,7 +342,7 @@
       "participation": "written_testimony",
       "online": false,
       "portal_url": "https://www.legis.state.pa.us/",
-      "how_to": "Pennsylvania committees take written testimony by email. There is no public statewide slip ledger."
+      "how_to": "Email written testimony to the committee before the hearing."
     },
     {
       "code": "pr",
@@ -335,7 +350,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.oslpr.org/",
-      "how_to": "Puerto Rico’s Assembly takes written testimony (ponencias) on measures. Govbot tracks those bills in the same national index."
+      "how_to": "Submit written testimony (a ponencia) on the measure to the committee."
     },
     {
       "code": "ri",
@@ -343,7 +358,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://www.rilegislature.gov/",
-      "how_to": "Rhode Island posts hearing notices with instructions to submit written testimony to the committee."
+      "how_to": "Follow the hearing notice's instructions to send written testimony to the committee."
     },
     {
       "code": "sc",
@@ -351,7 +366,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.scstatehouse.gov/",
-      "how_to": "South Carolina has no e-slip portal. Appear in committee or write the chair listed on the agenda."
+      "how_to": "Appear at the committee meeting, or write to the chair listed on the agenda. South Carolina has no online comment form."
     },
     {
       "code": "sd",
@@ -359,7 +374,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://sdlegislature.gov/",
-      "how_to": "South Dakota’s legislature site hosts bills and hearing documents during session. Written comments go to the committee."
+      "how_to": "Send written comments to the committee; bills and hearing documents are on the Legislature's website during session."
     },
     {
       "code": "tn",
@@ -367,7 +382,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.capitol.tn.gov/",
-      "how_to": "Tennessee does not run a public slip desk. Testimony is in committee or by contacting members."
+      "how_to": "Testify in committee, or contact the committee's members. Tennessee has no online comment form."
     },
     {
       "code": "tx",
@@ -375,7 +390,7 @@
       "participation": "witness_slip",
       "online": true,
       "portal_url": "https://capitol.texas.gov/",
-      "how_to": "Texas House witness registration is how the public records a position or asks to testify. The Senate uses committee clerk processes."
+      "how_to": "In the House, use witness registration to record your position or ask to testify. In the Senate, the committee clerk handles witnesses."
     },
     {
       "code": "vi",
@@ -383,7 +398,7 @@
       "participation": "written_testimony",
       "online": false,
       "portal_url": "https://www.legvi.org/",
-      "how_to": "The Virgin Islands Legislature takes committee testimony on bills. Govbot indexes those measures in the national dashboard."
+      "how_to": "Contact the committee to testify on a bill at its hearing."
     },
     {
       "code": "us",
@@ -391,7 +406,8 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://www.regulations.gov/",
-      "how_to": "Federal agencies post open comment periods and public hearings on Regulations.gov — search a docket, then submit a comment or register for a hearing. Congress itself takes written testimony for noticed committee hearings."
+      "how_to": "Find the rule or notice on Regulations.gov and submit a comment before its deadline, or register for an agency's public hearing when one is offered. Comments are public.",
+      "participate_url": "https://www.regulations.gov/"
     },
     {
       "code": "ut",
@@ -399,7 +415,7 @@
       "participation": "public_comment",
       "online": true,
       "portal_url": "https://le.utah.gov/",
-      "how_to": "Utah’s legislature site takes public comments on bills during session. That comment is their analogue to a slip."
+      "how_to": "Submit a public comment on the bill through the Legislature's website during session."
     },
     {
       "code": "vt",
@@ -407,7 +423,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://legislature.vermont.gov/",
-      "how_to": "Vermont committees accept written testimony by email and sometimes remote remarks. No statewide slip count."
+      "how_to": "Email written testimony to the committee; some committees also take remote remarks."
     },
     {
       "code": "va",
@@ -415,7 +431,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://lis.virginia.gov/",
-      "how_to": "Virginia’s LIS pages and committee sites collect comments around hearings. There is no unified slip ledger like Illinois."
+      "how_to": "Send written comments to the committee through the committee's page on Virginia's Legislative Information System, around the hearing."
     },
     {
       "code": "wa",
@@ -423,7 +439,8 @@
       "participation": "committee_sign_in",
       "online": true,
       "portal_url": "https://app.leg.wa.gov/csi/",
-      "how_to": "Washington’s Committee Sign-In is the state’s witness slip: register to testify or submit written comments, usually until 24 hours after the hearing starts."
+      "how_to": "Use Committee Sign-In to register to testify or submit written comments, usually until 24 hours after the hearing starts.",
+      "participate_url": "https://app.leg.wa.gov/csi/"
     },
     {
       "code": "wv",
@@ -431,7 +448,7 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.wvlegislature.gov/",
-      "how_to": "West Virginia has no statewide e-slip. Public input is in-person or written to the committee."
+      "how_to": "Speak at the committee meeting, or write to the committee. West Virginia has no online comment form."
     },
     {
       "code": "wi",
@@ -439,7 +456,7 @@
       "participation": "written_testimony",
       "online": true,
       "portal_url": "https://docs.legis.wisconsin.gov/",
-      "how_to": "Wisconsin uses hearing registration and written testimony through the legislature’s site when a public hearing is noticed."
+      "how_to": "Register for the public hearing and submit written testimony through the Legislature's website once a hearing is noticed."
     },
     {
       "code": "wy",
@@ -447,7 +464,13 @@
       "participation": "contact_only",
       "online": false,
       "portal_url": "https://www.wyoleg.gov/",
-      "how_to": "Wyoming is a small, in-person legislature. There is no e-slip desk; you appear or write the committee."
+      "how_to": "Attend the committee meeting to speak, or write to the committee."
     }
+  ],
+  "tips": [
+    "Name the bill number (or the rule's docket number) so your input reaches the right item.",
+    "Say whether you support or oppose it, and why, in a few sentences from your own experience.",
+    "Send it before the deadline on the hearing notice: many forms close when the hearing starts.",
+    "What you submit is usually public record, including your name."
   ]
 }

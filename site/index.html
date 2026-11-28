@@ -312,10 +312,19 @@
   .h-kind, .h-badge, .h-open, .pstate-live, .pstate-kind {
     display: inline-block; padding: 2px 10px; border: var(--z-line); border-radius: 999px; background: var(--z-card);
     font-size: 12px; letter-spacing: .08em; text-transform: uppercase; line-height: 1.5; white-space: nowrap; }
-  .h-kind.is-due { background: var(--z-c3); color: var(--z-on-color); }
+  .h-kind.is-due { --pc: var(--z-c3); }
   .h-open.is-deadline { white-space: normal; max-width: 100%; border-radius: 14px; }
-  .h-badge { margin-left: 8px; background: var(--z-c4); color: var(--z-on-color); }
-  .h-open, .pstate-live { background: var(--z-c2); color: var(--z-on-color); }
+  .h-badge { margin-left: 8px; --pc: var(--z-c4); }
+  .h-open, .pstate-live { --pc: var(--z-c2); }
+  /* Status pills are outlined, not filled (per request): a 2px ring in the pill's colour around
+     ink text on paper, so the words stay easy to read. On light paper the pale colours are
+     deepened so the ring still shows. */
+  .h-kind.is-due, .h-badge, .h-open, .pstate-live, .ws-closes {
+    border: 2px solid var(--pc); background: var(--z-card); color: var(--z-ink); font-weight: 500; }
+  :root[data-theme="light"] :is(.h-kind.is-due, .h-badge, .h-open, .pstate-live, .ws-closes) {
+    border-color: color-mix(in srgb, var(--pc) 62%, #1B1A17); }
+  @media (prefers-color-scheme: light) { :root:not([data-theme]) :is(.h-kind.is-due, .h-badge, .h-open, .pstate-live, .ws-closes) {
+    border-color: color-mix(in srgb, var(--pc) 62%, #1B1A17); } }
   .h-main { min-width: 0; }
   .h-committee { font-size: 21px; line-height: 1.3; }
   .h-loc { margin-top: 3px; font-size: 15px; color: var(--z-body); }
@@ -328,7 +337,6 @@
   .bill-title { font-size: 15px; color: var(--z-body); }
   .bill-tags { display: inline-flex; flex-wrap: wrap; gap: 5px; }
   .bill-tag { padding: 0 8px; border: 1px solid var(--z-sketch-2); border-radius: 999px; font-size: 12.5px; }
-  .gov-link { font-size: 14px; white-space: nowrap; text-decoration: underline; text-underline-offset: 3px; }
   .slipbar { position: relative; display: inline-flex; align-items: center; gap: 4px; min-width: 64px; padding-left: 8px; border-left: 1.5px solid var(--z-ink); }
   .slip-seg { flex: 1 1 auto; display: inline-block; height: 8px; min-width: 3px; border: 1px solid var(--z-ink); border-radius: 2px; }
   .slip-for { background: var(--z-c2); }
@@ -440,10 +448,8 @@
      to read, worst in dark mode. --pf is each fill's colour. */
   .fsec-h::before {
     background-image: repeating-linear-gradient(-58deg, transparent 0 3px, var(--z-hatch) 3px 4.4px); }
-  .h-kind.is-due, .rss-copy { --pf: var(--z-c3); }
-  .h-badge { --pf: var(--z-c4); }
-  .h-open, .pstate-live { --pf: var(--z-c2); }
-  .h-kind.is-due, .h-badge, .h-open, .pstate-live, .rss-copy {
+  .rss-copy { --pf: var(--z-c3); }
+  .rss-copy {
     background: linear-gradient(var(--pf), var(--pf)) content-box,
       repeating-linear-gradient(-58deg, transparent 0 3px, var(--z-hatch) 3px 4.4px) padding-box, var(--pf); }
   .z-card, .hgroup { background-image: repeating-linear-gradient(-58deg, transparent 0 9px,
@@ -517,9 +523,9 @@
   .ws-bill.is-soon { border-width: 3px; }
   .ws-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
   .ws-id { padding: 1px 10px; border: var(--z-line); border-radius: 8px; font-weight: 700; font-size: 15px; }
-  .ws-closes { padding: 2px 10px; border: var(--z-line); border-radius: 999px; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; background: var(--z-c2); color: var(--z-on-color); }
-  .ws-closes.is-soon { background: var(--z-c3); }
-  .ws-closes.is-today { background: var(--z-c4); }
+  .ws-closes { padding: 2px 10px; border-radius: 999px; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; --pc: var(--z-c2); }
+  .ws-closes.is-soon { --pc: var(--z-c3); }
+  .ws-closes.is-today { --pc: var(--z-c4); }
   .ws-title { margin: 8px 0 0; font-size: 18px; line-height: 1.35; color: var(--z-ink); overflow-wrap: anywhere; }
   .ws-title.is-missing { font-size: 15px; color: var(--z-body); font-style: italic; }
   .ws-meta { margin: 6px 0 0; font-size: 14.5px; line-height: 1.45; color: var(--z-body); }
@@ -712,6 +718,10 @@
   .mp-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
   .mp-ws { display: inline-block; margin-top: 12px; font-weight: 500; }
   .mp-data { margin: 12px 0 0; }
+  .mp-tips { margin: 10px 0 14px; padding-left: 20px; font-size: 16px; line-height: 1.5; }
+  .mp-tips li { margin: 0 0 4px; }
+  /* The hearing's own "take part" link: plain, bold, underlined, so it reads as an action. */
+  .h-take { font-weight: 500; font-size: 16px; color: var(--z-ink); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
   .mp-guide { display: inline-block; margin-top: 10px; }
   .h-subject { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   /* FAQs + the plain list of every place's page (crawlable without JavaScript). */
@@ -1159,6 +1169,7 @@
     Promise.allSettled([get("hearings.json"), get("participation.json"), get("assets/us-states.json")]).then(([h, p, m]) => {
       const data = h.status === "fulfilled" ? h.value : null;
       participation = p.status === "fulfilled" ? (p.value.jurisdictions || []) : [];
+      tips = p.status === "fulfilled" ? (p.value.tips || []) : [];
       const ld = $("hearings-loading"); if (ld) ld.remove();
       renderHearings(data);
       renderSlips(data);
@@ -1328,12 +1339,68 @@
   }
 
   // The pill next to each jurisdiction's name: the official site where the public takes part.
-  const PARTICIPATION = {
-    witness_slip: "Official: file a witness slip ↗",
-    committee_sign_in: "Official: sign in to testify ↗",
-    written_testimony: "Official: submit testimony ↗",
-    public_comment: "Official: comment portal ↗",
+  // What a participation link does, by how the place takes part. Shown only on links to a real
+  // participation tool (participate_url in participation.json), never on a homepage or calendar.
+  const ACT_LABEL = {
+    witness_slip: "File a witness slip ↗",
+    committee_sign_in: "Sign in to testify ↗",
+    written_testimony: "Submit written testimony ↗",
+    public_comment: "Submit a public comment ↗",
+    request_to_speak: "Request to speak ↗",
+    appearance_form: "Fill out an appearance form ↗",
+    position_letter: "Send a position letter ↗",
   };
+  let partBy = null;   // code -> participation entry (built on first use)
+  function takePart(h) {
+    if (h.status === "canceled") return null;
+    const w = h.witness_slip_url || "";
+    if (h.jurisdiction === "us") return /regulations\.gov\/commenton\//.test(w) ? { href: w, label: "Submit a comment ↗" } : null;
+    if (h.jurisdiction === "chi") return w ? { href: w, label: "How to comment: meeting notice ↗" } : null;
+    if (!partBy) { partBy = {}; participation.forEach((j) => { partBy[j.code] = j; }); }
+    const p = partBy[h.jurisdiction];
+    return p && p.participate_url && ACT_LABEL[p.participation] ? { href: p.participate_url, label: ACT_LABEL[p.participation] } : null;
+  }
+
+  // "Add to my calendar (.ics)" for one hearing, made in the browser from the row itself.
+  // Times go out in UTC (no time-zone tables needed); a date with no time is an all-day event;
+  // no end time is given, since the sources rarely publish one and we don't invent it.
+  function icsText(s) { return String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n"); }
+  function icsFold(line) { const out = []; while (line.length > 74) { out.push(line.slice(0, 74)); line = " " + line.slice(74); } out.push(line); return out.join("\r\n"); }
+  function zonedUtc(iso, tz) {
+    const m = /^(\d{4})-(\d\d)-(\d\d)T(\d\d):(\d\d)/.exec(iso || "");
+    if (!m) return null;
+    const t = Date.UTC(+m[1], m[2] - 1, +m[3], +m[4], +m[5]);
+    const off = (u) => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, hourCycle: "h23", year: "numeric", month: "2-digit",
+        day: "2-digit", hour: "2-digit", minute: "2-digit" }).formatToParts(new Date(u)).map((x) => [x.type, x.value]));
+      return Date.UTC(+p.year, p.month - 1, +p.day, +p.hour, +p.minute) - u;
+    };
+    try { const u1 = t - off(t); return new Date(t - off(u1)); } catch (e) { return null; }
+  }
+  function downloadIcs(h) {
+    const iso = h.scheduled_iso || "";
+    const untimed = !h.timezone || /time not posted/.test(h.scheduled_display || "");
+    const utc = untimed ? null : zonedUtc(iso, h.timezone);
+    const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+Z$/, "Z");
+    const fed = h.jurisdiction === "us";
+    const bills = (h.bills || []).map((b) => b.id).join(", ");
+    const link = h.details_url || h.witness_slip_url || "";
+    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Govbot//Public Hearings//EN", "BEGIN:VEVENT",
+      "UID:" + h.id + "@govbot-public-hearings", "DTSTAMP:" + stamp,
+      utc ? "DTSTART:" + utc.toISOString().replace(/[-:]/g, "").replace(/\.\d+Z$/, "Z") : "DTSTART;VALUE=DATE:" + iso.slice(0, 10).replace(/-/g, ""),
+      "SUMMARY:" + icsText((fed ? "Comments due: " : "") + (fed ? h.title : h.committee) || "Public hearing"),
+      "DESCRIPTION:" + icsText([fed ? h.committee : h.title, bills && "Bills: " + bills, link].filter(Boolean).join("\n"))];
+    if (h.location) lines.push("LOCATION:" + icsText(h.location));
+    if (link) lines.push("URL:" + link);
+    if (h.status === "canceled") lines.push("STATUS:CANCELLED");
+    lines.push("END:VEVENT", "END:VCALENDAR");
+    const blob = new Blob([lines.map(icsFold).join("\r\n") + "\r\n"], { type: "text/calendar" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = h.id + ".ics";
+    document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
 
   function hearingRow(h) {
     const row = eln("div", "hearing-row" + (h.status === "canceled" ? " is-canceled" : ""));
@@ -1372,8 +1439,9 @@
       const list = eln("div", "h-bills");
       h.bills.forEach((b) => {
         const row = eln("div", "bill-row");
-        const chip = eln("a", "bill-chip");
-        chip.href = b.url || h.details_url || "#"; chip.target = "_blank"; chip.rel = "noopener";
+        // A bill links its own official page; without one it's just its number (never a dead link).
+        const chip = eln(b.url ? "a" : "span", "bill-chip");
+        if (b.url) { chip.href = b.url; chip.target = "_blank"; chip.rel = "noopener"; }
         chip.append(eln("span", "chip-id", b.id));
         if (b.slips) chip.append(slipBar(b.slips));
         row.append(chip);
@@ -1383,17 +1451,6 @@
           const tags = eln("span", "bill-tags");
           b.govbot_tags.forEach((t) => tags.append(eln("span", "bill-tag", t)));
           row.append(tags);
-        }
-        if (b.govbot_title || (b.govbot_tags && b.govbot_tags.length)) {
-          const g = eln("a", "gov-link", "via govbot ↗");
-          // Federal hearings are "us" here but "usa" in the legislation data. Govbot is another
-          // site, so the link is its full address (a relative one went nowhere here).
-          const jcode = h.jurisdiction === "us" ? "usa" : h.jurisdiction;
-          g.href = "https://chihacknight.github.io/govbot/dashboard/legislation.html#state=" +
-            encodeURIComponent(jcode) + "&q=" + encodeURIComponent(b.id);
-          g.target = "_blank"; g.rel = "noopener";
-          g.title = "View " + b.id + " in Govbot's Explore Legislation";
-          row.append(g);
         }
         list.append(row);
       });
@@ -1410,6 +1467,19 @@
       a.href = href; a.target = "_blank"; a.rel = "noopener";
       actions.append(a);
     }
+    // Where to take part in this hearing: the official form, labelled by what it does.
+    const tp = takePart(h);
+    if (tp && tp.href !== href) {
+      const t = eln("a", "h-take", tp.label);
+      t.href = tp.href; t.target = "_blank"; t.rel = "noopener";
+      actions.append(t);
+    }
+    if (h.scheduled_iso) {
+      const c = eln("button", "rss-link h-cal", "Add to my calendar (.ics)");
+      c.type = "button";
+      c.addEventListener("click", () => downloadIcs(h));
+      actions.append(c);
+    }
     actions.append(hearingRssTrigger(h));
     if (actions.childNodes.length) main.append(actions);
     row.append(main);
@@ -1418,7 +1488,7 @@
 
   // Every link is the hearing's own (scraper/main.py never links a calendar); say what it opens.
   function linkLabel(h, href) {
-    if (h.jurisdiction === "us") return "Open this rule ↗";
+    if (h.jurisdiction === "us") return "Read the rule ↗";
     if (/isvp|stream|live-proceedings|\/audio\//i.test(href)) return "Watch the hearing ↗";
     if (/\.pdf(\b|$)|agenda/i.test(href)) return "Hearing agenda ↗";
     return "Hearing details ↗";
@@ -1502,6 +1572,7 @@
     contact_only: "Contact the committee",
   };
   let participation = [];
+  let tips = [];       // participation.json's general tips for taking part
 
   // Local flag asset per jurisdiction (served from Govbot's site). DC has no PNG, so it's an SVG.
   function flagSrc(code) { return code === "dc" ? "https://chihacknight.github.io/govbot/dashboard/flags/dc.svg" : "https://chihacknight.github.io/govbot/dashboard/flags/" + code + ".png"; }
@@ -1680,10 +1751,19 @@
 
     panel.append(eln("h4", "mp-sub", "How to take part"));
     if (p.how_to) panel.append(eln("p", "mp-p", p.how_to));
+    if (tips.length) {
+      const ul = eln("ul", "mp-tips");
+      tips.forEach((t) => ul.append(eln("li", null, t)));
+      panel.append(ul);
+    }
     const acts = eln("div", "mp-acts");
-    if (p.portal_url) {
-      const a = eln("a", "file-link", code === "usa" ? "Find your members of Congress ↗" : p.online === false ? "How to participate ↗" : (PARTICIPATION[p.participation] || "Official portal ↗"));
-      a.href = p.portal_url; a.target = "_blank"; a.rel = "noopener";
+    // The button says what it opens: the place's participation tool, or else just its official site.
+    const tool = p.participate_url && ACT_LABEL[p.participation];
+    const pUrl = tool ? p.participate_url : p.portal_url;
+    if (pUrl) {
+      const a = eln("a", "file-link", code === "usa" ? "Find your members of Congress ↗"
+        : code === "chi" ? "How public comment works ↗" : tool ? ACT_LABEL[p.participation] : "Official legislature site ↗");
+      a.href = pUrl; a.target = "_blank"; a.rel = "noopener";
       acts.append(a);
     }
     acts.append(jurisdictionRssTrigger(code, p.name));

@@ -2241,6 +2241,10 @@ def enrich_from_govbot(hearings, data_path):
             tags = [t for t in (rec.get("tags") or []) if t]
             if tags:
                 bill["govbot_tags"] = tags
+            # A bill with no link of its own gets its official page from the Govbot record
+            # (each record's url is the legislature's own bill page).
+            if not bill.get("url") and (rec.get("url") or "").startswith(("https://", "http://")):
+                bill["url"] = rec["url"]
             if title or tags:
                 matched += 1
     return matched
@@ -2322,7 +2326,13 @@ def _event_ld(h, name):
     return ev
 
 
-def place_page(p, hearings, generated_at, has_downloads):
+PART_LABEL = {"witness_slip": "File a witness slip", "committee_sign_in": "Sign in to testify",
+              "written_testimony": "Submit written testimony", "public_comment": "Submit a public comment",
+              "request_to_speak": "Request to speak", "appearance_form": "Fill out an appearance form",
+              "position_letter": "Send a position letter"}
+
+
+def place_page(p, hearings, generated_at, has_downloads, tips=()):
     """One place's page as HTML (pure). p: {code, name, participation, portal_url, how_to}."""
     import html as H
     e = lambda s: H.escape(s or "", quote=True)
@@ -2361,8 +2371,10 @@ def place_page(p, hearings, generated_at, has_downloads):
         action = ("send a written comment by the deadline in the meeting's notice"
                   if code == "chi" else ACTION.get(kind, ACTION["contact_only"]))
         lead = f"To weigh in at a {name} {body}, {action}."
+        where = (f"Open {name}'s official form for taking part: {p['participate_url']}" if p.get("participate_url")
+                 else f"Follow the hearing notice; {name}'s official legislature site is {p.get('portal_url')}")
         steps = [f"Find the hearing for the bill or topic you care about (upcoming {name} hearings are listed below).",
-                 f"Open {name}'s official page for taking part: {p.get('portal_url')}",
+                 where,
                  STEP.get(kind, STEP["contact_only"]),
                  "Check the hearing notice for its exact rules and deadline."]
         title = f"How to testify at a {name} hearing · Govbot Public Hearings"
@@ -2458,9 +2470,10 @@ footer {{ margin-top: 40px; border-top: 1.5px solid var(--line); padding-top: 12
 <h1>{e(h1)}</h1>
 <p class="lead">{e(lead)}</p>
 {('<p>' + e(p['how_to']) + '</p>') if p.get('how_to') else ''}
-<p><a href="{e(p.get('portal_url'))}" rel="noopener">Official {e(name)} page for taking part ↗</a></p>
+<p><a href="{e(p.get('participate_url') or p.get('portal_url'))}" rel="noopener">{e(PART_LABEL.get(p.get('participation')) if p.get('participate_url') else 'Official ' + name + ' legislature site')} ↗</a></p>
 <h2>Steps</h2>
 <ol>{''.join('<li>' + e(s) + '</li>' for s in steps)}</ol>
+{('<h2>Tips</h2><ul>' + ''.join('<li>' + e(t) + '</li>' for t in tips) + '</ul>') if tips else ''}
 <h2>Upcoming {e(name)} {what}</h2>
 {('<ul>' + ''.join(rows) + '</ul>') if rows else '<p>' + e(q2a) + '</p>'}
 {more}{dl}
@@ -2480,10 +2493,13 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
     """Write site/places/<slug>.html for every place + site/sitemap.xml. Returns the count."""
     places = participation_jurisdictions(participation_path)
     try:
-        rows = json.loads(Path(participation_path).read_text()).get("jurisdictions", [])
+        pj = json.loads(Path(participation_path).read_text())
+        rows = pj.get("jurisdictions", [])
         how = {r["code"]: r.get("how_to", "") for r in rows}
+        tool = {r["code"]: r["participate_url"] for r in rows if r.get("participate_url")}
+        tips = pj.get("tips", [])
     except (OSError, ValueError):
-        how = {}
+        how, tool, tips = {}, {}, []
     for j in list(doc.get("jurisdictions", [])) + list(JURISDICTIONS.values()):
         places.setdefault(j["code"], {k: j[k] for k in ("code", "name", "participation", "portal_url")})
         if j.get("how_to"):
@@ -2497,10 +2513,10 @@ def write_place_pages(doc, participation_path, out_dir, sitemap_path, downloads_
     out.mkdir(parents=True)
     urls = [SITE_URL]
     for code, p in sorted(places.items(), key=lambda kv: kv[1]["name"]):
-        p = dict(p, how_to=how.get(code, ""))
+        p = dict(p, how_to=how.get(code, ""), participate_url=tool.get(code))
         slug = place_slug(code, p["name"])
         (out / f"{slug}.html").write_text(
-            place_page(p, doc.get("hearings", []), doc["generated_at"], code in dl), encoding="utf-8")
+            place_page(p, doc.get("hearings", []), doc["generated_at"], code in dl, tips), encoding="utf-8")
         urls.append(SITE_URL + f"places/{slug}.html")
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

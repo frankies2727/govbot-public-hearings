@@ -713,6 +713,20 @@ class PlacePages(unittest.TestCase):
         self.assertEqual(r.returncode, 0, r.stdout)
 
 
+class ParticipationDirectory(unittest.TestCase):
+    """How-to texts say what to do (no comparisons); participate_url only for real tools."""
+
+    def test_how_to_and_tools(self):
+        d = json.loads((HERE.parent / "site" / "participation.json").read_text())
+        for j in d["jurisdictions"]:
+            if j["code"] != "il":
+                self.assertNotRegex(j["how_to"], r"(?i)illinois|like an? |cousin|analogue|stand-in|version of a slip", j["code"])
+            if j.get("participate_url"):
+                self.assertTrue(j["participate_url"].startswith("https://"), j["code"])
+                self.assertNotEqual(j["participation"], "contact_only", j["code"])
+        self.assertTrue(d["tips"])
+
+
 class IncompleteCertificateChain(unittest.TestCase):
     """ilga.gov sends its certificate without the intermediate; the scraper fetches it
     from the certificate's CA Issuers address (real ilga.gov + Sectigo certificates)."""

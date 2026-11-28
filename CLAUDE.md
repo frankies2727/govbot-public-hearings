@@ -238,8 +238,7 @@ the refresh workflow installs; fail-soft) and every Clerk record number in it be
 `CHI_AGENDA_MAX` (40) per meeting (`parse_chi_agenda_text`; layouts differ by committee, so no title is parsed). City
 Council agendas (~650 items) are skipped. The refresh downloads Govbot's `bills/chi.json` and `chi_aux.json`, so
 `enrich_from_govbot` adds each item's title and topics (~95% matched). Agendas post a few days before a meeting, so
-items appear on a later refresh. The "via govbot ↗" link is Govbot's full address (a relative `legislation.html`
-link went nowhere on this site, for every state).
+items appear on a later refresh. (The "via govbot ↗" links were removed, per request.)
 
 **Speed (Nov 2026).** The `<head>` preconnects to Govbot's site and Google Fonts first, preloads `hearings.json`,
 and fetches all three font families in one stylesheet, loaded without blocking the first paint (`media="print"` swapped
@@ -310,3 +309,20 @@ committee takes them). Rows now show the meeting's subject (`.h-subject`, 3 line
 States records — not our IL/WA/MA/AK scrapers, whose titles are often just "Meeting materials at: <link>".
 Fixtures: `raw/senate_hearings.xml`, `raw/house_week.html`, `raw/house_meeting_118863.xml` / `_119601.xml`;
 tests `CongressHearings`.
+
+**Readability + taking part (Nov 2026, per request).** (1) **Status pills are outlined, never filled**: Canceled,
+Comment due, Public comment open, "N upcoming" and the witness-slip "Closes" chips carry a 2px ring in their colour
+(`--pc`; deepened 62% toward ink on light paper) around ink text on paper. (2) **How-to texts** in
+`site/participation.json` were rewritten answer-first ("what you do"), with no comparisons to Illinois or other
+states; `tips` (top level) are four general tips shown in every place's panel and page. (3) A bill with no link of its
+own takes its official page from Govbot's record (`enrich_from_govbot` fills `url`); a bill with no link at all is a
+plain chip, never `#`. (4) No "via govbot" links. (5) Every hearing row has **"Add to my calendar (.ics)"**
+(`downloadIcs`: built in the browser from the row, times converted to UTC with `Intl`, `zonedUtc`; untimed and federal
+deadlines are all-day; no end time; no extra files). (6) **Participation links say what they do, with ↗**: rows link
+the place's participation tool (`takePart`, `ACT_LABEL`: "Sign in to testify ↗", "File a witness slip ↗", "Request to
+speak ↗", "Submit written testimony ↗"…) only when `participation.json` gives a `participate_url` (the official page
+is itself the form: ak az ca co ct fl id il in ia me mo mt nv or wa us); federal rows link the rule's own
+Regulations.gov comment form ("Submit a comment ↗"; "Read the rule ↗" is the Federal Register page), Chicago rows its
+meeting notice. The panel button is that tool, else "Official legislature site ↗" (Chicago: "How public comment
+works ↗", Congress: "Find your members of Congress ↗") — never a homepage dressed up as a comment form. Place pages
+follow the same rule (`PART_LABEL`).
